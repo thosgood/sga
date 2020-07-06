@@ -1,6 +1,6 @@
 ##{:1-I.1.1} Basics of differential calculus
 
-[[1-I.1.1.A
+[[1-I.1.1.½
   Let $X$ be a prescheme on $Y$, and $\Delta_{X/Y}$ the diagonal morphism $X\to X\times_Y X$.
   This is an immersion, and thus a closed immersion of $X$ into an open subset $V$ of $X\times_Y X$.
   Let $\ideal_X$ be the ideal of the closed sub-prescheme corresponding to the diagonal in $V$ (N.B. if one really wishes to do things intrinsically, without assuming that $X$ is separated over $Y$ --- a [[?misleading]] hypothesis --- then one should consider the set-theoretic inverse image of $\O_{X\times X}$ in $X$ and denote by $\ideal_X$ the augmentation ideal in the above\ldots).

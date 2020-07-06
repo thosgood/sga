@@ -8,7 +8,7 @@
     (i) The completion $\hat{B}$ of $B$ is finite over the completion $\hat{A}$ of $A$.
 ]]
 
-[[1-I.1.2.A
+[[1-I.1.2.1½
   [[!oldpage,2]]
   We then say that $B$ is _quasi-finite_ over $A$.
   A morphism $f\colon X\to Y$ is said to be quasi-finite at $x$ (or the $Y$-prescheme $f$ is said to be quasi-finite at $x$) if $\O_x$ is quasi-finite over $\O_{f(x)}$.
@@ -20,6 +20,6 @@
   If $A$ is complete, then being quasi-finite is equivalent to being finite.
 ]]
 
-[[1-I.1.2.B
+[[1-I.1.2.2½
   We could give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
 ]]

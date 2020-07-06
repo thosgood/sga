@@ -21,7 +21,7 @@
       We say that it is _unramified_, or that $B$ is a local _unramified_ algebra on $A$, if $B/mathfrak{r}(A)B$ is a finite separable extension of $A/\mathfrak{r}(A)$, i.e. if $\mathfrak{r}(A)B=\mathfrak{r}(B)$ and $k(B)$ is a separable extension of $k(A)$[[^cf. regrets in [[!1-III.1.2]].]].
 ]]
 
-[[remarks,1-I.1.3.A
+[[remarks,1-I.1.3.2½
   [[!oldpage,3]]
   The fact that $B$ is unramified over $A$ can already be seen at the level of completions, i.e. by considering the completions of $A$ and $B$.
   Unramified implies quasi-finite.
@@ -50,7 +50,7 @@
   (i) Base extension of a ramified morphisms is also ramified.
 ]]
 
-[[1-I.1.3.B
+[[1-I.1.3.5½
   We don't care so much about (ii) or (iii) (the second seems more amusing to me).
   We can, of course, clarify by giving a few punctual comments; it only appears more general (except in the case of definition (b)), and is rather dull.
   We obtain, as per usual, the corollaries:
@@ -67,7 +67,7 @@
   For $B/A$ to be unramified, it is necessary and sufficient for $\hat{B}$ to be a quotient (as an $\hat{A}$-algebra) of $\hat{A}$.
 ]]
 
-[[remarks,1-I.1.3.C
+[[remarks,1-I.1.3.7½
     - In the case where we don't suppose that the residue extension is trivial, we can bring ourselves to the case where it is by taking a suitable finite flat extension on $A$ which [[?destroys]] the aforementioned extension.
     - Consider the example where $A$ is the local ring of an ordinary double point of a curve, and $B$ a point of the \unsure{normalised curve}: then $A\subset B$, $B$ is unramified over $A$ with trivial residue extension,
       [[!oldpage,4]]
