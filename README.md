@@ -73,7 +73,7 @@
 12. Functors on a cloven category _(5)_
 13. Bibliography _(1)_
 
-### VII. (Does not exist)
+### ~~VII. (Does not exist)~~
 
 ### VIII. Faithfully flat descent
 
