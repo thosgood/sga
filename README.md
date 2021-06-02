@@ -136,6 +136,36 @@
 
 ## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
 
+### Introduction
+
+### I. Global and local cohomological invariants with respect to a closed subspace
+
+### II. Applications to quasi-coherent sheaves on preschemes
+
+### III. Cohomological invariants and depth
+
+### IV. Dualising modules and dualising functors
+
+### V. Local duality and structure of the 𝐻ⁱ(𝑀)
+
+### VI. The functors Ext(𝑋;𝐹,𝐺) and <u>Ext</u>(𝐹,𝐺)
+
+### VII. Nullity criteria. Coherence conditions for the sheaves <u>Ext</u>(𝐹,𝐺)
+
+### VIII. Finiteness theorem
+
+### IX. Algebraic geometry and formal geometry
+
+### X. Applications to the fundamental group
+
+### XI. Applications to the Picard group
+
+### XII. Applications to projective algebraic schemes
+
+### XIII. Problems and conjectures
+
+### XIV. Depth and Lefschetz theorems in étale cohomology
+
 
 ## 3-1. Group schemes I: General properties of group schemes
 
@@ -167,4 +197,4 @@
 ## 7-1. Monodromy groups in algebraic geometry I
 
 
-## 7-1. Monodromy groups in algebraic geometry II
+## 7-2. Monodromy groups in algebraic geometry II
