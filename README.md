@@ -148,9 +148,9 @@
 
 ### V. Local duality and structure of the 𝐻ⁱ(𝑀)
 
-### VI. The functors Ext(𝑋;𝐹,𝐺) and <u>Ext</u>(𝐹,𝐺)
+### VI. The functors Ext(𝑋;𝐹,𝐺) and <ins>Ext</ins>(𝐹,𝐺)
 
-### VII. Nullity criteria. Coherence conditions for the sheaves <u>Ext</u>(𝐹,𝐺)
+### VII. Nullity criteria. Coherence conditions for the sheaves <ins>Ext</ins>(𝐹,𝐺)
 
 ### VIII. Finiteness theorem
 
