@@ -79,32 +79,57 @@
 
 #### VIII. Faithfully flat descent
 
-1. Descent for quasi-coherent modules (7)
-2. Descent for affine preschemes over one another (1)
-3. Descent of set-theoretic properties and finiteness properties of morphisms (2)
-4. Descent of topological properties (5)
+1. Descent for quasi-coherent modules _(7)_
+2. Descent for affine preschemes over one another _(1)_
+3. Descent of set-theoretic properties and finiteness properties of morphisms _(2)_
+4. Descent of topological properties _(5)_
+5. Descent of morphisms of preschemes _(6)_
+6. Applications to finite and quasi-finite morphisms _(3)_
+7. Effectiveness criteria for a descent data _(8)_
+8. Bibliography _(1)_
+
+#### IX. Descent of étale morphisms. Applications to the fundamental group
+
+#### X. Specialisation theory of the fundamental group
+
+#### XI. Examples and addenda
+
+#### XII. Algebraic geometry and analytic geometry
+
+#### XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
 
 
 ### 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
 
+
 ### 3-1. Group schemes I: General properties of group schemes
+
 
 ### 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
 
+
 ### 3-3. Group schemes III: Structure of reductive group schemes
+
 
 ### 4-1. Topos theory and étale cohomology of schemes I
 
+
 ### 4-2. Topos theory and étale cohomology of schemes II
+
 
 ### 4-3. Topos theory and étale cohomology of schemes III
 
+
 ### 4½. Étale cohomology
+
 
 ### 5. 𝓁-adic cohomology and 𝐿-functions
 
+
 ### 6. Intersection theory and the Riemann--Roch theorem
 
+
 ### 7-1. Monodromy groups in algebraic geometry I
+
 
 ### 7-1. Monodromy groups in algebraic geometry II
