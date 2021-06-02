@@ -1,10 +1,8 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## Contents
+## 1. Étale covers and the fundamental group
 
-### 1. Étale covers and the fundamental group
-
-#### I. Étale morphisms
+### I. Étale morphisms
 
 1. Basics of differential calculus _(1)_
 2. Quasi-finite morphisms _(1)_
@@ -18,7 +16,7 @@
 10. Étale coverings of a normal scheme _(5)_
 11. Various addenda _(3)_
 
-#### II. Smooth morphisms: generalities, differential properties
+### II. Smooth morphisms: generalities, differential properties
 
 1. Generalities _(2)_
 2. Some smoothness criteria for morphisms _(3)_
@@ -26,7 +24,7 @@
 4. Differential properties of smooth morphisms _(17)_
 5. The case of a base field _(6)_
 
-#### III. Smooth morphisms: extension properties
+### III. Smooth morphisms: extension properties
 
 1. Formally smooth homomorphisms _(4)_
 2. Characteristic lifting property of formally smooth homomorphisms _(5)_
@@ -36,7 +34,7 @@
 6. Global infinitesimal extension of smooth 𝑆-schemes _(5)_
 7. Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring 𝐴 _(5)_
 
-#### IV. Flat morphisms
+### IV. Flat morphisms
 
 1. Syllogisms on flat modules _(3)_
 2. Faithfully flat modules _(3)_
@@ -45,7 +43,7 @@
 5. Local flatness criteria _(5)_
 6. Flat morphisms and open sets _(5)_
 
-#### V. The fundamental group: generalities
+### V. The fundamental group: generalities
 
 0. Introduction _(1)_
 1. Preschemes with finite operator groups. Quotient preschemes _(5)_
@@ -58,7 +56,7 @@
 8. Case of a normal base prescheme _(1)_
 9. Case of non-connected preschemes: multi-Galois categories _(1)_
 
-#### VI. Fibred categories and descent
+### VI. Fibred categories and descent
 
 0. Introduction _(1)_
 1. Universes, categories, equivalence of categories _(2)_
@@ -75,9 +73,9 @@
 12. Functors on a cloven category _(5)_
 13. Bibliography _(1)_
 
-#### VII. (Does not exist)
+### VII. (Does not exist)
 
-#### VIII. Faithfully flat descent
+### VIII. Faithfully flat descent
 
 1. Descent for quasi-coherent modules _(7)_
 2. Descent for affine preschemes over one another _(1)_
@@ -88,48 +86,48 @@
 7. Effectiveness criteria for a descent data _(8)_
 8. Bibliography _(1)_
 
-#### IX. Descent of étale morphisms. Applications to the fundamental group
+### IX. Descent of étale morphisms. Applications to the fundamental group
 
-#### X. Specialisation theory of the fundamental group
+### X. Specialisation theory of the fundamental group
 
-#### XI. Examples and addenda
+### XI. Examples and addenda
 
-#### XII. Algebraic geometry and analytic geometry
+### XII. Algebraic geometry and analytic geometry
 
-#### XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
-
-
-### 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
+### XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
 
 
-### 3-1. Group schemes I: General properties of group schemes
+## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
 
 
-### 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
+## 3-1. Group schemes I: General properties of group schemes
 
 
-### 3-3. Group schemes III: Structure of reductive group schemes
+## 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
 
 
-### 4-1. Topos theory and étale cohomology of schemes I
+## 3-3. Group schemes III: Structure of reductive group schemes
 
 
-### 4-2. Topos theory and étale cohomology of schemes II
+## 4-1. Topos theory and étale cohomology of schemes I
 
 
-### 4-3. Topos theory and étale cohomology of schemes III
+## 4-2. Topos theory and étale cohomology of schemes II
 
 
-### 4½. Étale cohomology
+## 4-3. Topos theory and étale cohomology of schemes III
 
 
-### 5. 𝓁-adic cohomology and 𝐿-functions
+## 4½. Étale cohomology
 
 
-### 6. Intersection theory and the Riemann--Roch theorem
+## 5. 𝓁-adic cohomology and 𝐿-functions
 
 
-### 7-1. Monodromy groups in algebraic geometry I
+## 6. Intersection theory and the Riemann--Roch theorem
 
 
-### 7-1. Monodromy groups in algebraic geometry II
+## 7-1. Monodromy groups in algebraic geometry I
+
+
+## 7-1. Monodromy groups in algebraic geometry II
