@@ -88,13 +88,50 @@
 
 ### IX. Descent of étale morphisms. Applications to the fundamental group
 
+1. Reminders on étale morphisms _(3)_
+2. Submersive and universally submersive morphisms _(2)_
+3. Descent of étale morphisms of preschemes _(2)_
+4. Descent of étale preschemes: effectiveness criteria _(7)_
+5. Translation in terms of the fundamental group _(11)_
+6. A fundamental exact sequence. Descent by morphisms with relatively connected fibres _(7)_
+7. Bibliography _(1)_
+
 ### X. Specialisation theory of the fundamental group
+
+1. Exact sequence of homotopy for a proper and separable morphism _(7)_
+2. Application to the existence theorem of sheaves: semi-continuity theorem for fundamental groups of fibres of a proper and separable morphism _(7)_
+3. Application to the purity theorem: continuity theorem for fundamental groups of fibres of a proper and simple morphism _(9)_
+4. Bibliography _(1)_
 
 ### XI. Examples and addenda
 
+1. Projective spaces, unirational varieties _(1)_
+2. Abelian varieties _(4)_
+3. Projecting cones. Zariski's example _(2)_
+4. Exact sequence of cohomology _(7)_
+5. Particular cases of principal bundles _(3)_
+6. Applications to principal coverings: Kummer and Artinschreier theories _(8)_
+7. Bibliography _(1)_
+
 ### XII. Algebraic geometry and analytic geometry
 
+1. Analytic space associated to a scheme _(4)_
+2. Comparison of properties of a scheme and the associated analytic space _(4)_
+3. Comparison of properties of morphisms _(6)_
+4. Cohomological comparison theorems and existence theorems _(6)_
+5. Comparison theorems for étale coverings _(11)_
+6. Bibliography _(1)_
+
 ### XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
+
+0. Reminders on the theory of stacks _(1)_
+1. Cohomological properness _(3)_
+2. Particular case of cohomological properness: relative normal crossing divisors _(26)_
+3. Cohomological properness and generic local acyclicity _(19)_
+4. Exact sequences of homotopy _(15)_
+5. Appendix I: Variations on Abhyankar's lemma _(8)_
+6. Appendix II: Finiteness theorem for direct images of stacks _(4)_
+7. Bibliography _(1)_
 
 
 ## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
