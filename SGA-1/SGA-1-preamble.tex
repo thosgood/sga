@@ -1,0 +1,48 @@
+% !TEX root = SGA-1.tex
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+
+\usepackage{mathrsfs}
+\usepackage{fouriernc} % not necessary, but looks nice :) %
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xstring}
+\pagestyle{fancy}
+\fancypagestyle{plain}{}
+\fancyhf{}
+\lhead{\footnotesize\nouppercase\leftmark}
+\cfoot{\small\thepage}
+
+
+%% Theorem environments %%
+
+\usepackage{amsthm}
+
+\newenvironment{itenv}[1]
+  {\phantomsection\par\medskip\noindent\textbf{#1.}\itshape}
+  {\medskip}
+
+\newenvironment{rmenv}[1]
+  {\phantomsection\par\medskip\noindent\textbf{#1.}\rmfamily}
+  {\medskip}
+
+
+% Commands
+
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+
+%% Shortcuts
+\newcommand{\kres}{\kappa}
+
+%% "Functions"
+\renewcommand{\cal}[1]{{\mathcal{#1}}}
+\renewcommand{\frak}[1]{{\mathfrak{#1}}}
+\newcommand{\scr}[1]{{\mathscr{#1}}}
+\newcommand{\cat}[1]{{\mathsf{#1}}}
+
+%% Non-mathematical
+\newcommand{\todo}[1]{\textbf{! #1 !}}
+\usepackage{marginnote}
+\newcommand{\oldpage}[1]{\marginparmargin{left}\marginnote[\footnotesize\textit{p.~#1}~$\Big\vert$]{\footnotesize$\Big\vert$~\textit{p.~#1}}}
