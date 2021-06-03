@@ -234,17 +234,105 @@
 
 ## 4-1. Topos theory and étale cohomology of schemes I
 
+### I. Presheaves
+
+### II. Topologies and sheaves
+
+### III. Functoriality of categories of sheaves
+
+### IV. Toposes
+
 
 ## 4-2. Topos theory and étale cohomology of schemes II
+
+### V. Cohomology in toposes
+
+### Vb. Techniques for cohomological descent
+
+### VI. Finiteness conditions. Fibred toposes and sites. Applications to questions of passing to the limit
+
+### VII. Étale site and topos of a scheme
+
+### VIII. Fibred functors, supports, cohomological study of finite morphisms
 
 
 ## 4-3. Topos theory and étale cohomology of schemes III
 
+### IX. Constructible sheaves. Cohomology of an algebraic curve
+
+### X. Cohomological dimension: first results
+
+### XI. Comparison with classical cohomology: case of a smooth prescheme
+
+### XII. Base change theorem for a proper morphism
+
+### XIII. Base change theorem for a proper morphism: end of proof
+
+### XIV. Finiteness theorem for a proper morphism; cohomological dimension of affine algebraic schemes
+
+### XV. Acyclic morphisms
+
+### XVI. Base change theorem for a smooth morphism, and applications
+
+### XVII. Cohomology with proper support
+
+### XVIII. Global duality formula
+
+### XIX. Cohomology of excellent preschemes of equal characteristic
+
 
 ## 4½. Étale cohomology
 
+### 0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
+
+### 1. Étale cohomology: starting points
+
+### 2. Relation to the trace formula
+
+### 3. 𝐿-functions modulo 𝓁ⁿ and modulo 𝑝
+
+### 4. Cohomology class associated to a cycle
+
+### 5. Duality
+
+### 6. Applications of the trace formula to trigonometric sums
+
+### 7. Finiteness theorems in 𝓁-adic cohomology
+
+### 8. Derived categories
+
 
 ## 5. 𝓁-adic cohomology and 𝐿-functions
+
+### I. Dualising complexes
+
+### ~~II. (Does not exist)~~
+
+### III. Lefschetz formula
+
+### IIIb. Calculations of local terms
+
+### ~~IV. (Does not exist)~~
+
+### V. 𝐽-adic projective systems
+
+### VI. 𝓁-adic cohomology
+
+### VII. Cohomology of some classical schemes; cohomological theory of Chern classes
+
+### VIII. Groups of classes of abelian and triangulated categories, perfect complexes
+
+### ~~IX. (Does not exist)~~
+
+### X. Euler--Poincaré formula in étale cohomology
+
+### ~~XI. (Does not exist)~~
+
+### XII. Nielsen--Wecken and Lefschetz formulas in algebraic geometry
+
+### ~~XIII. (Does not exist)~~
+
+### XIV. Frobenius morphism and rationality of 𝐿-functions
 
 
 ## 6. Intersection theory and the Riemann--Roch theorem
