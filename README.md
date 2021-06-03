@@ -169,8 +169,48 @@
 
 ## 3-1. Group schemes I: General properties of group schemes
 
+### I. Algebraic structures. Group cohomology
+
+### II. Tangent bundles. Lie algebras
+
+### III. Infinitesimal extensions
+
+### IV. Topologies and sheaves
+
+### V. Construction of quotient preschemes
+
+### VIa. Generalities on algebraic groups
+
+### VIb. Generalities on group preschemes
+
+### VIIa. Infinitesimal study of group schemes
+
+### VIIb. Infinitesimal study of group schemes
+
 
 ## 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
+
+### VIII. Diagonalisable groups
+
+### IX. Multiplicative groups: homomorphisms to a group scheme
+
+### X. Characterisation and classification of multiplicative groups
+
+### XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
+
+### XII. Maximal toruses, Weyl group, Cartan subgroup, reductive centre of smooth and affine group schemes
+
+### XIII. Regular elements of algebraic groups and of Lie algebras
+
+### XIV. Regular elements (continued). Applications to algebraic groups
+
+### XV. Addenda on sub-toruses of group preschemes. Application to smooth groups
+
+### XVI. Groups of unipotent rank zero
+
+### XVII. Unipotent algebraic groups. Extensions between unipotent groups and multiplicative groups
+
+### XVIII. Weil's theorem on the construction of a group from a rational law
 
 
 ## 3-3. Group schemes III: Structure of reductive group schemes
