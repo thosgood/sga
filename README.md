@@ -276,7 +276,7 @@
 
 ### XVII. Cohomology with proper support
 
-### XVIII. Global duality formula
+### XVIII. The global duality formula
 
 ### XIX. Cohomology of excellent preschemes of equal characteristic
 
@@ -308,7 +308,7 @@
 
 ### ~~II. (Does not exist)~~
 
-### III. Lefschetz formula
+### III. The Lefschetz formula
 
 ### IIIb. Calculations of local terms
 
@@ -324,21 +324,95 @@
 
 ### ~~IX. (Does not exist)~~
 
-### X. Euler--Poincaré formula in étale cohomology
+### X. The Euler--Poincaré formula in étale cohomology
 
 ### ~~XI. (Does not exist)~~
 
-### XII. Nielsen--Wecken and Lefschetz formulas in algebraic geometry
+### XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
 
 ### ~~XIII. (Does not exist)~~
 
-### XIV. Frobenius morphism and rationality of 𝐿-functions
+### XIV. The Frobenius morphism, and rationality of 𝐿-functions
 
 
 ## 6. Intersection theory and the Riemann--Roch theorem
 
+### 0. Outline of a programme for an intersection theory
+
+### I. Generalities on finiteness conditions in derived categories
+
+### II. Existence of global resolutions
+
+### III. Relative finiteness conditions
+
+### IV. Grothendieck groups of ringed toposes
+
+### V. Generalities on λ-rings
+
+### VI. 𝐾 of a projective bundle: calculations and consequences
+
+### VII. Regular immersions and calculation of 𝐾 of a blown-up scheme
+
+### VIII. The Riemann--Roch theorem
+
+### IX. Some calculations of 𝐾 groups
+
+### X. Formalism of intersections on proper algebraic schemes
+
+### ~~XI. (Does not exist)~~
+
+### XII. Relative representability theorem for the Picard functor
+
+### XIII. Finiteness theorems for the Picard functor
+
+### XIV. Open problems in intersection theory
+
 
 ## 7-1. Monodromy groups in algebraic geometry I
 
+### I. Summary of the first talks by A. Grothendieck
+
+### II. Finiteness properties of the fundamental group
+
+### ~~III. (Does not exist)~~
+
+### ~~IV. (Does not exist)~~
+
+### ~~V. (Does not exist)~~
+
+### VI. Formal deformation theory
+
+### VII. Bi-extension of sheaves of groups
+
+### VIII. Addenda on bi-extensions. General properties of bi-extensions of group schemes
+
+### IX. Néron models and monodromy
+
 
 ## 7-2. Monodromy groups in algebraic geometry II
+
+### X. Intersections on regular surfaces
+
+### XI. Cohomology of complete intersections
+
+### XII. Quadrics
+
+### XIII. Formalism of vanishing cycles
+
+### XIV. Comparison with transcendental theory
+
+### XV. The Picard--Lefschetz formula
+
+### XVI. The Milnor formula
+
+### XVII. Lefschetz pencils: existence theorem
+
+### XVIII. Cohomological study of Lefschetz pencils
+
+### XIX. Noether's theorem
+
+### XX Griffiths's theorem
+
+### XXI. Level of cohomology of complete intersections
+
+### XXII. Congruence formula for the 𝜻-function
