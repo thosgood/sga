@@ -159,7 +159,7 @@
 
 1. Generalities on functors of modules _(4)_
 2. Characterisation of exact functors _(1)_
-3. Study of the case where $T$ is left exact and $T_(M)_$ is of finite type for all $M$ _(3)_
+3. Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ _(3)_
 4. Dualising module. Dualising functor _(5)_
 5. Consequences of the theory of dualising modules _(5)_
 
@@ -174,7 +174,7 @@
 1. Generalities _(3)_
 2. Application to quasi-coherent sheaves on preschemes _(2)_
 
-### VII. Nullity criteria. Coherence conditions for the sheaves <ins>Ext</ins>(𝐹,𝐺)
+### VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\operatorname{Ext}}(F,G)$
 
 1. Study of $i<n$ _(5)_
 2. Study of $i>n$ _(2)_
