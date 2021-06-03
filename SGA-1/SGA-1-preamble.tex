@@ -1,13 +1,17 @@
 % !TEX root = SGA-1.tex
 \usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks,linkcolor={blue!50!black},citecolor={blue!50!black},urlcolor={blue!80!black}}
 \usepackage{amsmath,amssymb}
-
 \usepackage{mathrsfs}
+\usepackage{enumerate}
 \usepackage{fouriernc} % not necessary, but looks nice :) %
 
+
+%% Headers and footers and titles
 \usepackage{fancyhdr}
-\usepackage{lastpage}
 \usepackage{xstring}
+\renewcommand{\chaptername}{}
 \pagestyle{fancy}
 \fancypagestyle{plain}{}
 \fancyhf{}
@@ -15,26 +19,25 @@
 \cfoot{\small\thepage}
 
 
-%% Theorem environments %%
-
+%% Theorem environments
 \usepackage{amsthm}
-
 \newenvironment{itenv}[1]
   {\phantomsection\par\medskip\noindent\textbf{#1.}\itshape}
-  {\medskip}
-
+  {\par\medskip}
 \newenvironment{rmenv}[1]
   {\phantomsection\par\medskip\noindent\textbf{#1.}\rmfamily}
-  {\medskip}
+  {\par\medskip}
 
 
-% Commands
+% COMMANDS
 
 \renewcommand{\geq}{\geqslant}
 \renewcommand{\leq}{\leqslant}
 
 %% Shortcuts
 \newcommand{\kres}{\kappa}
+
+\DeclareMathOperator{\Spec}{Spec}
 
 %% "Functions"
 \renewcommand{\cal}[1]{{\mathcal{#1}}}
