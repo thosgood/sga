@@ -28,11 +28,11 @@
 
 1. Formally smooth homomorphisms _(4)_
 2. Characteristic lifting property of formally smooth homomorphisms _(5)_
-3. Local infinitesimal extension of morphisms in a smooth 𝑆-scheme _(2)_
-4. Local infinitesimal extension of smooth 𝑆-schemes _(1)_
+3. Local infinitesimal extension of morphisms in a smooth $S$-scheme _(2)_
+4. Local infinitesimal extension of smooth $S$-schemes _(1)_
 5. Global infinitesimal extension of morphisms _(7)_
-6. Global infinitesimal extension of smooth 𝑆-schemes _(5)_
-7. Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring 𝐴 _(5)_
+6. Global infinitesimal extension of smooth $S$-schemes _(5)_
+7. Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring $A$ _(5)_
 
 ### IV. Flat morphisms
 
@@ -61,13 +61,13 @@
 0. Introduction _(1)_
 1. Universes, categories, equivalence of categories _(2)_
 2. Categories over one another _(4)_
-3. Base change for categories over ℰ _(6)_
-4. Fibred categories. Equivalence of ℰ-categories _(3)_
+3. Base change for categories over $\mathscr{E}$ _(6)_
+4. Fibred categories. Equivalence of $\mathscr{E}$-categories _(3)_
 5. Cartesian morphisms, inverse images, cartesian functors _(3)_
 6. Fibred categories and pre-fibred categories _(6)_
-7. Cloven categories over ℰ _(5)_
-8. Cloven category defined by a pseudofunctor ℰ°→𝖢𝖺𝗍 _(4)_
-9. Example: cloven category defined by a functor ℰ°→𝖢𝖺𝗍. Categories split over ℰ _(2)_
+7. Cloven categories over $\mathscr{E}$ _(5)_
+8. Cloven category defined by a pseudofunctor $\mathscr{E}^\circ\to\mathsf{Cat}$ _(4)_
+9. Example: cloven category defined by a functor $\mathscr{E}^\circ\to\mathsf{Cat}$. Categories split over $\mathscr{E}$ _(2)_
 10. Co-fibred categories, bi-fibred categories _(1)_
 11. Various examples _(7)_
 12. Functors on a cloven category _(5)_
@@ -142,8 +142,8 @@
 
 ### I. Global and local cohomological invariants with respect to a closed subspace
 
-1. The functors Γ<sub>𝑍</sub> and <ins>Γ</ins><sub>𝑍</sub> _(7)_
-2. The functors 𝐻<sub>𝑍</sub><sup>•</sup>(𝑋,𝐹) and <ins>𝐻</ins><sub>𝑍</sub><sup>•</sup>(𝑋,𝐹) _(6)_
+1. The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
+2. The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
 
 ### II. Applications to quasi-coherent sheaves on preschemes
 
@@ -157,9 +157,9 @@
 
 ### IV. Dualising modules and dualising functors
 
-### V. Local duality and structure of the 𝐻ⁱ(𝑀)
+### V. Local duality and structure of the $H^i(M)$
 
-### VI. The functors Ext(𝑋;𝐹,𝐺) and <ins>Ext</ins>(𝐹,𝐺)
+### VI. The functors $\operatorname{Ext}(X;F,G)$ and $\underline{\operatorname{Ext}}(F,G)$
 
 ### VII. Nullity criteria. Coherence conditions for the sheaves <ins>Ext</ins>(𝐹,𝐺)
 
@@ -300,7 +300,7 @@
 
 ### 2. Relation to the trace formula
 
-### 3. 𝐿-functions modulo 𝓁ⁿ and modulo 𝑝
+### 3. $L$-functions modulo $\ell^n$ and modulo $p$
 
 ### 4. Cohomology class associated to a cycle
 
@@ -308,12 +308,12 @@
 
 ### 6. Applications of the trace formula to trigonometric sums
 
-### 7. Finiteness theorems in 𝓁-adic cohomology
+### 7. Finiteness theorems in $\ell$-adic cohomology
 
 ### 8. Derived categories
 
 
-## 5. 𝓁-adic cohomology and 𝐿-functions
+## 5. $\ell$-adic cohomology and $L$-functions
 
 ### I. Dualising complexes
 
@@ -325,9 +325,9 @@
 
 ### ~~IV. (Does not exist)~~
 
-### V. 𝐽-adic projective systems
+### V. $J$-adic projective systems
 
-### VI. 𝓁-adic cohomology
+### VI. $\ell$-adic cohomology
 
 ### VII. Cohomology of some classical schemes; cohomological theory of Chern classes
 
@@ -343,7 +343,7 @@
 
 ### ~~XIII. (Does not exist)~~
 
-### XIV. The Frobenius morphism, and rationality of 𝐿-functions
+### XIV. The Frobenius morphism, and rationality of $L$-functions
 
 
 ## 6. Intersection theory and the Riemann--Roch theorem
@@ -358,15 +358,15 @@
 
 ### IV. Grothendieck groups of ringed toposes
 
-### V. Generalities on λ-rings
+### V. Generalities on $\lambda$-rings
 
-### VI. 𝐾<sup>•</sup> of a projective bundle: calculations and consequences
+### VI. $K^\bullet$ of a projective bundle: calculations and consequences
 
-### VII. Regular immersions and calculation of 𝐾<sup>•</sup> of a blown-up scheme
+### VII. Regular immersions and calculation of $K^\bullet$ of a blown-up scheme
 
 ### VIII. The Riemann--Roch theorem
 
-### IX. Some calculations of 𝐾 groups
+### IX. Some calculations of $K$ groups
 
 ### X. Formalism of intersections on proper algebraic schemes
 
