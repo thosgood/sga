@@ -1,86 +1,111 @@
 %!TEX root = ../SGA-1.tex
-% \section{\'{E}tale morphisms. \'{E}tale coverings}
-% \label{I.4}
+\section{\'{E}tale morphisms. \'{E}tale coverings}
+\label{I.4}
 
-% We are going to suppose all that will be necessary concerning flat morphisms; these facts will be proved later, if there is time\footnote{Cf. Exp.~IV.}.
+We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
+these facts will be proved later, if there is time\footnote{cf. Exp.~IV.}.
 
-% \begin{defn}
-%     \begin{enumerate}[\normalfont a)]
-%         \item Let $f\colon X\to Y$ be a morphism of finite type.
-%             We say that $f$ is \emph{étale} at $x$ if $f$ is both flat and unramified at $x$.
-%             We say that $f$ is étale if it is étale at all points.
-%             We say that $X$ is étale at $x$ over $Y$, or that it is a $Y$-prescheme étale at $x$ etc.
-%         \item Let $f\colon A\to B$ be a local homomorphism.
-%             We say that $f$ is étale, or that $B$ is étale over $A$, if $B$ is flat and unramified over $A$\footnote{Cf. regrets in III~1.2.}.
-%     \end{enumerate}
-% \end{defn}
+\begin{rmenv}{Definition 4.1}
+  \begin{enumerate}[(a)]
+    \item Let $f\colon X\to Y$ be a morphism of finite type.
+      We say that $f$ is \emph{\'{e}tale} at $x$ if $f$ is both flat and unramified at $x$.
+      We say that $f$ is \'{e}tale if it is \'{e}tale at all points.
+      We say that $X$ is \'{e}tale at $x$ over $Y$, or that it is a $Y$-prescheme which is \'{e}tale at $x$ etc.
+    \item Let $f\colon A\to B$ be a local homomorphism.
+      We say that $f$ is \'{e}tale, or that $B$ is \'{e}tale over $A$, if $B$ is flat and unramified over $A$\footnote{cf. regrets in III~1.2.}.
+  \end{enumerate}
+\end{rmenv}
 
-% \begin{prop}
-%     For $B/A$ to be étale, it is necessary and sufficient that $\hat{B}/\hat{A}$ be étale.
-% \end{prop}
+\begin{itenv}{Proposition 4.2}
+  For $B/A$ to be \'{e}tale, it is necessary and sufficient that $\hat{B}/\hat{A}$ be \'{e}tale.
+\end{itenv}
 
-% \oldpage{5}In effect, this is true individually for both ``unramified'' and ``flat''.
+\oldpage{5}
+\begin{proof}
+  Indeed, this is true individually for both ``unramified'' and ``flat''.
+\end{proof}
 
-% \begin{cor}
-%     Let $f\colon X\to Y$ be of finite type, and $x\in X$.
-%     The property of $f$ being étale at $x$ depends only on the local homomorphism $\O_{f(x)}\to\O_x$, and in fact only on the corresponding homomorphism for the completions.
-% \end{cor}
+\begin{itenv}{Corollary 4.3}
+  Let $f\colon X\to Y$ be of finite type, and $x\in X$.
+  The property of $f$ being \'{e}tale at $x$ depends only on the local homomorphism $\cal{O}_{f(x)}\to\cal{O}_x$, and in fact only on the corresponding homomorphism for the completions.
+\end{itenv}
 
-% \begin{cor}
-%     Suppose that the residue extension $k(A)\to k(B)$ is trivial, or that $k(A)$ is algebraically closed.
-%     Then $B/A$ is étale if and only if $\hat{A}\to\hat{B}$ is an isomorphism.
-% \end{cor}
+\begin{itenv}{Corollary 4.4}
+  Suppose that the residue extension $\kres(A)\to\kres(B)$ is trivial, or that $\kres(A)$ is algebraically closed.
+  Then $B/A$ is \'{e}tale if and only if $\hat{A}\to\hat{B}$ is an isomorphism.
+\end{itenv}
 
-% We combine the platitude and 3.7.
+We can combine flatness with \hyperref[I.3.7]{3.7}.
 
-% \begin{prop}
-%     Let $f\colon X\to Y$ be a morphism of finite type.
-%     Then the set of points where $f$ is étale is open.
-% \end{prop}
-% Again, this is in fact true individually for both ``unramified'' and ``flat''.
+\begin{itenv}{Proposition 4.5}
+\label{I.4.5}
+  Let $f\colon X\to Y$ be a morphism of finite type.
+  Then the set of points where $f$ is \'{e}tale is open.
+\end{itenv}
 
-% This proposition shows that we can forget about the punctual comments in the study of morphisms of finite type that are somewhere étale.
+\begin{proof}
+  Again, this is in fact true individually for both ``unramified'' and ``flat''.
+\end{proof}
 
-% \begin{prop}
-%     \begin{enumerate}[\normalfont(i)]
-%         \item An open immersion is étale.
-%         \item The composition of two étale morphisms is étale.
-%         \item The base extension of an étale morphism is étale.
-%     \end{enumerate}
-% \end{prop}
+This proposition shows that we can forget about the ``one-off'' comments in the study of morphisms of finite type that are somewhere \'{e}tale.
 
-% In effect, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for ``unramified'' and ``flat''.
-% As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should figure in the \marginpar{\small Grothendieck's \emph{multiplodoque d'algèbre homologique} was the final version of his \emph{Tohoku paper} — see (2.1) in `Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information. [trans.]}multiplodoque (starting with the case of unramified).
+\begin{itenv}{Proposition 4.6}
+\label{I.4.6}
+  \begin{enumerate}[(i)]
+    \item An open immersion is \'{e}tale.
+    \item The composition of two \'{e}tale morphisms is \'{e}tale.
+    \item The base extension of an \'{e}tale morphism is \'{e}tale.
+  \end{enumerate}
+\end{itenv}
 
-% \begin{cor}
-%     A cartesian product of two étale morphisms is étale.
-% \end{cor}
+\begin{proof}
+  Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for ``unramified'' and ``flat''.
+\end{proof}
 
-% \begin{cor}
-%     Let $X$ and $X'$ be of finite type over $Y$, and $g\colon X\to X'$ a $Y$-morphism.
-%     If $X'$ is unramified over $Y$ and $X$ is étale over $Y$, then $g$ is étale.
-% \end{cor}
+As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the \marginpar{\small[Trans.] Grothendieck's \emph{multiplodoque d'algèbre homologique} was the final version of his \emph{Tohoku paper} — see (2.1) in `Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information.}multiplodoque (starting with the case of unramified).
 
-% In effect, $g$ is the composition of the graph morphism $\Gamma_g\colon X\to X\times_Y X'$ (which is an open immersion by 3.4) and the projection morphism, which is étale since it is just a ``change of base'' by $X'\to Y$ of the étale morphism $X\to Y$.
+\begin{itenv}{Corollary 4.7}
+\label{I.4.7}
+  The cartesian product of two \'{e}tale morphisms is \'{e}tale.
+\end{itenv}
 
-% \begin{defn}
-%     We say that a cover of $Y$ is étale (resp. unramified) if it is a $Y$-scheme $X$ that is finite over $Y$ and étale (resp. unramified) over $Y$.
-% \end{defn}
-% The first condition means that $X$ is defined by a coherent sheaf of algebras $\mathscr{B}$ over $Y$.
-% The second means that $\mathscr{B}$ is locally free over $Y$ (resp. \unsure{absolutely nothing}) \emph{and} further that, for all $y\in Y$, the fibre $\mathscr{B}(y)=\mathscr{B}_y\otimes_{\O_y}k(y)$ is a separable algebra (i.e. a finite composition of finite separable extensions) over $k(y)$.
+\begin{itenv}{Corollary}
+\label{I.4.8}
+  Let $X$ and $X'$ be of finite type over $Y$, and $g\colon X\to X'$ a $Y$-morphism.
+  If $X'$ is unramified over $Y$ and $X$ is \'{e}tale over $Y$, then $g$ is \'{e}tale.
+\end{itenv}
 
-% \begin{prop}
-%     Let $X$ be a flat cover of $Y$ of degree $n$ (the definition of this term deserved to figure in 4.9) defined by a locally free coherent sheaf $\mathscr{B}$ of algebras.
-%     We define, as usual, the trace homomorphism $\mathscr{B}\to\mathscr{A}$ (that is a homomorphism of $\mathscr{A}$-modules, where $\mathscr{A}=\O_Y$).
-%     For $X$ to be étale it is necessary and sufficient that the corresponding bilinear form $\tr_{\mathscr{B}/\mathscr{A}}xy$ defines an isomorphism of $\mathscr{B}$ over $\mathscr{B}$, or, equivalently, that the \emph{discriminant section}
-%     \begin{equation*}
-%         d_{X/Y}=d_{\mathscr{B}/\mathscr{A}}\in\Gamma(Y,\wedge^n\check{\mathscr{B}}\otimes_\mathscr{A}\wedge^n\check{\mathscr{B}})
-%     \end{equation*}
-%     is invertible, or that the discriminant ideal defined by this section is the unit ring.
-% \end{prop}
+\begin{proof}
+  Indeed, $g$ is the composition of the graph morphism $\Gamma_g\colon X\to X\times_Y X'$ (which is an open immersion by \hyperref[I.3.4]{3.4}) and the projection morphism, which is \'{e}tale since it is just a ``change of base'' by $X'\to Y$ of the \'{e}tale morphism $X\to Y$.
+\end{proof}
 
-% In effect, we can reduce to the case where $Y=\Spec(k)$, and then it is a well-known criterion of separability, and trivial by passing to the algebraic closure of $k$.
+\begin{rmenv}{Definition 4.9}
+\label{I.4.9}
+  We say that a cover of $Y$ is \'{e}tale (resp. unramified) if it is a $Y$-scheme $X$ that is finite over $Y$ and \'{e}tale (resp. unramified) over $Y$.
+\end{rmenv}
 
-% \begin{rem}
-%     We will have a less trivial statement to make later on, \oldpage{6}when we do not suppose a priori that $X$ is flat over $Y$, but instead require some normality hypothesis.
-% \end{rem}
+The first condition means that $X$ is defined by a coherent sheaf of algebras $\scr{B}$ over $Y$.
+The second means that $\scr{B}$ is locally free over $Y$ (resp. means absolutely nothing) \emph{and}, further, that, for all $y\in Y$, the fibre $\scr{B}(y)=\scr{B}_y\otimes_{\cal{O}_y}\kres(y)$ is a separable algebra (i.e. a finite composition of finite separable extensions) over $\kres(y)$.
+
+\begin{itenv}{Proposition 4.10}
+\label{4.10}
+  Let $X$ be a flat cover of $Y$ of degree $n$ (the definition of this term deserved to figure in 4.9) defined by a locally free coherent sheaf $\scr{B}$ of algebras.
+  We define, as usual, the trace homomorphism $\scr{B}\to\scr{A}$ (that is a homomorphism of $\scr{A}$-modules, where $\scr{A}=\cal{O}_Y$).
+  For $X$ to be \'{e}tale it is necessary and sufficient that the corresponding bilinear form $\tr_{\scr{B}/\scr{A}}xy$ define an isomorphism of $\scr{B}$ over $\scr{B}$, or, equivalently, that the \emph{discriminant section}
+  \[
+    d_{X/Y}
+    = d_{\scr{B}/\scr{A}}
+    \in \Gamma\big(Y,\wedge^n\check{\scr{B}}\otimes_\scr{A}\wedge^n\check{\scr{B}}\big)
+  \]
+  is invertible, or that the discriminant ideal defined by this section is the unit ring.
+\end{itenv}
+
+\begin{proof}
+  We can reduce to the case where $Y=\Spec(k)$, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of $k$.
+\end{proof}
+
+\begin{rmenv}{Remark}
+  We will have a less trivial statement to make later on,
+\oldpage{6}
+  when we do not suppose a priori that $X$ is flat over $Y$, but instead require some normality hypothesis.
+\end{rmenv}
