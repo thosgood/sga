@@ -215,6 +215,13 @@
 
 ## 3-3. Group schemes III: Structure of reductive group schemes
 
+### XIX. Reductive groups. Generalities
+
+### XX. Reductive groups of semi-simple rank 1
+
+### XXI. Radicial data
+
+
 
 ## 4-1. Topos theory and étale cohomology of schemes I
 
