@@ -50,5 +50,11 @@
 
 %% Non-mathematical
 \newcommand{\todo}[1]{\textbf{! #1 !}}
+\newcommand{\translator}[1]{%
+  \begingroup
+  \renewcommand\thefootnote{\fnsymbol{footnote}}\footnote{[Trans.] #1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 \usepackage{marginnote}
 \newcommand{\oldpage}[1]{\marginparmargin{left}\marginnote[\footnotesize\textit{p.~#1}~$\Big\vert$]{\footnotesize$\Big\vert$~\textit{p.~#1}}}

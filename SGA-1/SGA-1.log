@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  3 JUN 2021 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  3 JUN 2021 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,7 +1012,7 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 10.18341pt on input line 10.
 ) (./SGA-1.I/SGA-1.I.2.tex
-LaTeX Font Info:    Trying to load font information for U+euf on input line 6.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 7.
 
 (/Users/tim/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -1020,70 +1020,91 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 
 ]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 16
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 17
 .
-Package marginnote Info: right page because not two side mode on input line 16.
+Package marginnote Info: right page because not two side mode on input line 17.
 
-Package marginnote Info: xpos seems to be 122.26999pt on input line 16.
+Package marginnote Info: xpos seems to be 122.26999pt on input line 17.
 )
 (./SGA-1.I/SGA-1.I.3.tex [2]
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 33
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 35
 .
-Package marginnote Info: right page because not two side mode on input line 33.
+Package marginnote Info: right page because not two side mode on input line 35.
 
-Package marginnote Info: xpos seems to be 122.26999pt on input line 33.
+Package marginnote Info: xpos seems to be 122.26999pt on input line 35.
  [3]
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 7.71893pt on input line 72.
+(Font)              scaled to size 7.71893pt on input line 78.
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 5.57996pt on input line 72.
-LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 8
-3.
+(Font)              scaled to size 5.57996pt on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 9
+0.
 
 (/Users/tim/Library/TinyTeX/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 83.
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 87
+(Font)              scaled to size 10.18341pt on input line 90.
+Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 94
 .
-Package marginnote Info: right page because not two side mode on input line 87.
+Package marginnote Info: right page because not two side mode on input line 94.
 
-Package marginnote Info: xpos seems to be 390.90622pt on input line 87.
+Package marginnote Info: xpos seems to be 390.90622pt on input line 94.
 )
-(./SGA-1.I/SGA-1.I.4.tex) (./SGA-1.I/SGA-1.I.5.tex) (./SGA-1.I/SGA-1.I.6.tex)
-(./SGA-1.I/SGA-1.I.7.tex) (./SGA-1.I/SGA-1.I.8.tex) (./SGA-1.I/SGA-1.I.9.tex)
-(./SGA-1.I/SGA-1.I.10.tex) (./SGA-1.I/SGA-1.I.11.tex)) [4]
+(./SGA-1.I/SGA-1.I.4.tex
+Package marginnote Info: Margin note 8.2 is on absolute page 9 on input line 24
+.
+Package marginnote Info: right page because not two side mode on input line 24.
+
+Package marginnote Info: xpos seems to be 122.26999pt on input line 24.
+ [4]
+Package textcomp Info: Symbol \textbardbl not provided by
+(textcomp)             font family fnc in TS1 encoding.
+(textcomp)             Default family used instead on input line 65.
+Package textcomp Info: Symbol \textbardbl not provided by
+(textcomp)             font family fnc in TS1 encoding.
+(textcomp)             Default family used instead on input line 65.
+ [5]
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 
+111.
+Package marginnote Info: right page because not two side mode on input line 111
+.
+Package marginnote Info: xpos seems to be 435.21228pt on input line 111.
+) (./SGA-1.I/SGA-1.I.5.tex)
+(./SGA-1.I/SGA-1.I.6.tex) (./SGA-1.I/SGA-1.I.7.tex) (./SGA-1.I/SGA-1.I.8.tex)
+(./SGA-1.I/SGA-1.I.9.tex) (./SGA-1.I/SGA-1.I.10.tex) (./SGA-1.I/SGA-1.I.11.tex)
+) [6]
 \tf@toc=\write5
 \openout5 = `SGA-1.toc'.
 
  (./SGA-1.aux)
 Package rerunfilecheck Info: File `SGA-1.out' has not changed.
-(rerunfilecheck)             Checksum: 6A472C337C44CA89E7247814468D48F1;770.
+(rerunfilecheck)             Checksum: 9AE35167385B6588118D365C9C3A7715;999.
  ) 
 Here is how much of TeX's memory you used:
- 13521 strings out of 480796
- 191545 string characters out of 5903864
- 526902 words of memory out of 5000000
- 30599 multiletter control sequences out of 15000+600000
- 486528 words of font info for 157 fonts, out of 8000000 for 9000
+ 13576 strings out of 480796
+ 192047 string characters out of 5903864
+ 528410 words of memory out of 5000000
+ 30629 multiletter control sequences out of 15000+600000
+ 487629 words of font info for 159 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,14n,72p,537b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/tim/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/ti
-m/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></Use
-rs/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></
-Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
-></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-ml.p
-fb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-ml
-it.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourie
-r-ms.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/rsfs/rsfs10.
-pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
-</Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></Us
-ers/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on SGA-1.pdf (8 pages, 79129 bytes).
+ 70i,14n,72p,508b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/tim/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.6
+00pk>{/Users/tim/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users
+/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></
+Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb
+></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-mex.
+pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier-m
+l.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fourier
+-mlit.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/fourier/fou
+rier-ms.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/public/rsfs/rsfs
+10.pfb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.p
+fb></Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb><
+/Users/tim/Library/TinyTeX/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on SGA-1.pdf (10 pages, 92126 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
