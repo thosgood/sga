@@ -138,11 +138,22 @@
 
 ### Introduction
 
+- Introduction _(5)_
+
 ### I. Global and local cohomological invariants with respect to a closed subspace
+
+1. The functors Γ<sub>𝑍</sub> and <ins>Γ</ins><sub>𝑍</sub> _(7)_
+2. The functors 𝐻<sub>𝑍</sub><sup>•</sup>(𝑋,𝐹) and <ins>𝐻</ins><sub>𝑍</sub><sup>•</sup>(𝑋,𝐹) _(6)_
 
 ### II. Applications to quasi-coherent sheaves on preschemes
 
+- Applications to quasi-coherent sheaves on preschemes _(8)_
+
 ### III. Cohomological invariants and depth
+
+1. Reminders _(1)_
+2. Depth _(6)_
+3. Depth and topological properties _(9)_
 
 ### IV. Dualising modules and dualising functors
 
@@ -349,9 +360,9 @@
 
 ### V. Generalities on λ-rings
 
-### VI. 𝐾 of a projective bundle: calculations and consequences
+### VI. 𝐾<sup>•</sup> of a projective bundle: calculations and consequences
 
-### VII. Regular immersions and calculation of 𝐾 of a blown-up scheme
+### VII. Regular immersions and calculation of 𝐾<sup>•</sup> of a blown-up scheme
 
 ### VIII. The Riemann--Roch theorem
 
