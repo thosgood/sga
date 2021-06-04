@@ -300,9 +300,25 @@
 10. [ ] Passage to the projective limit for group preschemes and operator group preschemes _(11)_
 11. [ ] Affine group preschemes _(16)_
 
-### VIIa. Infinitesimal study of group schemes
+### VIIa. Infinitesimal study of group schemes: differential operators and Lie $p$-algebras
 
-### VIIb. Infinitesimal study of group schemes
+1. [ ] Differential operators _(5)_
+2. [ ] Invariant differential operators on group preschemes _(7)_
+3. [ ] Coalgebras and Cartier duality _(10)_
+4. [ ] "Frobeniuseries" _(11)_
+5. [ ] Lie $p$-algebras _(9)_
+6. [ ] Lie $p$-algebras of a group $S$-prescheme _(7)_
+7. [ ] Radicial groups of height $1$ _(8)_
+8. [ ] Case of a base field _(6)_
+
+### VIIb. Infinitesimal study of group schemes: formal groups
+
+0. [ ] Reminders on pseudocompact rings and modules _(15)_
+1. [ ] Formal varieties over a pseudocompact ring _(20)_
+2. [ ] Generalities on formal groups _(19)_
+3. [ ] Phenomena particular to characteristic $0$ _(10)_
+4. [ ] Phenomena particular to characteristic $p>0$ _(10)_
+5. [ ] Homogeneous spaces of infinitesimal formal groups over a field _(13)_
 
 
 ## 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
