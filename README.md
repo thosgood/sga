@@ -331,7 +331,7 @@
 4. [ ] Torsors under a diagonalisable group _(4)_
 5. [ ] Quotient of an affine scheme by a diagonalisable group acting freely _(5)_
 6. [ ] Essentially free morphisms, and representability of certain functors of the form $\prod_{Y/S}Z/Y$ _(5)_
-7. [ ] Appendix: monomorphisms of group preschemes _(25)_
+7. [ ] Appendix: Monomorphisms of group preschemes _(25)_
 
 ### IX. Groups of multiplicative type: homomorphisms to a group scheme
 
@@ -353,7 +353,7 @@
 5. [ ] Scheme of homomorphisms from one multiplicative type group to another. Twisted constant groups and groups of multiplicative type _(8)_
 6. [ ] Infinite principal Galois coverings and the enlarged fundamental group _(6)_
 7. [ ] Classification of twisted constant preschemes and finite groups of multiplicative type in terms of the enlarged fundamental group _(4)_
-8. [ ] Appendix: elimination of certain affine hypotheses _(11)_
+8. [ ] Appendix: Elimination of certain affine hypotheses _(11)_
 
 ### XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
 
@@ -387,11 +387,25 @@
 
 ### XIV. Regular elements (continued). Applications to algebraic groups
 
-1. Construction of Cartan subgroups and maximal toruses for a smooth algebraic group _(3)_
-2. Lie algebras on an arbitrary prescheme: regular sections and Cartan sub-algebras _(13)_
-3. 
+1. [ ] Construction of Cartan subgroups and maximal toruses for a smooth algebraic group _(3)_
+2. [ ] Lie algebras on an arbitrary prescheme: regular sections and Cartan sub-algebras _(13)_
+3. [ ] Subgroups of type (C) of group preschemes over an arbitrary prescheme _(11)_
+4. [ ] Digression on Borel subgroups _(7)_
+5. [ ] Relations between Cartan subgroups and Cartan sub-algebras _(4)_
+6. [ ] Applications to the structure of algebraic groups _(8)_
+7. [ ] Appendix: Existence of regular elements over finite fields _(7)_
 
 ### XV. Addenda on sub-toruses of group preschemes. Application to smooth groups
+
+0. [ ] Introduction _(1)_
+1. [ ] Lifting finite subgroups _(7)_
+2. [ ] Infinitesimal lifting of sub-toruses _(17)_
+3. [ ] Characterisation of a sub-torus by its underlying set _(24)_
+4. [ ] Characterisation of a sub-torus $T$ by the subgroups $_{n}T$ _(11)_
+5. [ ] Representability of the functor: smooth subgroups identical to their connected normaliser _(13)_
+6. [ ] Functor of Cartan subgroups and functor of parabolic subgroups _(13)_
+7. [ ] Cartan subgroups of a smooth group _(14)_
+8. [ ] Representability criteria of the functor of sub-toruses of a smooth group _(25)_
 
 ### XVI. Groups of unipotent rank zero
 
