@@ -442,9 +442,31 @@
 
 ### XIX. Reductive groups: generalities
 
+1. [ ] Reminders on groups over an algebraically closed field _(9)_
+2. [ ] Reductive group schemes: definitions and first properties _(5)_
+3. [ ] Roots and root systems of reductive group schemes _(4)_
+4. [ ] Roots and vector group schemes _(6)_
+5. [ ] An instructive example
+6. [ ] Local existence of maximal toruses. The Weyl group _(4)_
+
 ### XX. Reductive groups of semi-simple rank 1
 
+1. [ ] Elementary systems. The groups $P_r$ and $P_{-r}$ _(12)_
+2. [ ] Structure of elementary systems _(13)_
+3. [ ] The Weyl group _(11)_
+4. [ ] The isomorphism theorem _(2)_
+5. [ ] Examples of elementary systems, applications _(7)_
+6. [ ] Generators and relations for an elementary system _(5)_
+
 ### XXI. Radicial data
+
+1. [ ] Generalities _(7)_
+2. [ ] Relations between two roots _(5)_
+3. [ ] Simple roots, positive roots _(20)_
+4. [ ] Reduced raditical data of semi-simple rank $2$ _(4)_
+5. [ ] The Weyl group: generators and relations _(6)_
+6. [ ] Morphisms of radicial data _(17)_
+7. [ ] Structure _(12)_
 
 ### XXII. Reductive groups: ???, subgroups, quotient groups
 
