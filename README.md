@@ -8,8 +8,8 @@
 2. [x] Quasi-finite morphisms _(@thosgood)_
 3. [x] Unramified morphisms _(@thosgood)_
 4. [x] Étale morphisms. Étale coverings _(@thosgood)_
-5. [ ] Fundamental property of étale morphisms _(3)_
-6. [ ] Applications to étale extensions of complete local rings _(1)_
+5. [x] Fundamental property of étale morphisms _(@thosgood)_
+6. [x] Application to étale extensions of complete local rings _(@thosgood)_
 7. [ ] Local construction of unramified and étale morphisms _(3)_
 8. [ ] Infinitesimal lifting of étale schemes. Applications to formal schemes. _(2)_
 9. [ ] Permanence properties _(6)_

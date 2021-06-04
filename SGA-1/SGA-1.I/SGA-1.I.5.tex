@@ -1,9 +1,157 @@
 %!TEX root = ../SGA-1.tex
-\section{Fundamental property of \'{e}tale morphisms}
+\section{Fundamental property of étale morphisms}
 \label{I.5}
 
 \begin{itenv}{Theorem 5.1}
 \label{I.5.1}
   Let $f\colon X\to Y$ be a morphism of finite type.
-  For $f$ to be an open immersion, it is necessary and sufficient for it to be an \emph{\'{e}tale} and \emph{radicial} morphism.
+  For $f$ to be an open immersion, it is necessary and sufficient for it to be an \emph{étale} and \emph{radicial} morphism.
 \end{itenv}
+
+\begin{proof}
+  Recall what ``radicial'' means: injective, with radicial residual extensions (and we also recall that it means that the morphism remains injective for any base extension).
+  The necessity is trivial, and the sufficiency remains to be shown.
+  We are going to give two different proofs: the first is shorter, the second is more elementary.
+  \begin{enumerate}[(1)]
+    \item A flat morphism is open, and so we can suppose (by replacing $Y$ with $f(X)$) that $f$ is an onto \emph{homeomorphism}.
+      For any base extension, it remains true that $f$ is flat, radicial, surjective, thus a homeomorphism, and a fortiori closed.
+      Thus $f$ is \emph{proper}.
+      Thus $f$ is \emph{finite} (reference: Chevalley's theorem), defined by a coherent sheaf $\scr{B}$ of algebras.
+      Now $\scr{B}$ is locally free, and further, by hypothesis, of rank~$1$ everywhere, and so $X=Y$.
+    \item We can suppose that $Y$ and $X$ are \emph{affine}.
+      We can further easily reduce to proving the following:
+      if $Y=\Spec(A)$, with $A$ local, and if $f^{-1}(y)$ is non-empty (where $y$ is the closed point of $Y$), then $X=Y$ (indeed, this would imply that every $y\in f(X)$ has an open neighbourhood $U$ such that $X|U=U$).
+      We will then have that $X=\Spec(B)$, and wish to prove that $A=B$.
+      But, for this, we can reduce to proving the analogous claim where we replace $A$ by $\hat{A}$, and $B$ by $B\otimes_A\hat{A}$
+      (taking into account the fact that $\hat{A}$ is faithfully flat over $A$).
+      We can thus suppose that $A$ is \emph{complete}.
+      Let $x$ be the point over $y$.
+      By \hyperref[I.2.2]{2.2}, $\cal{O}_x$ is finite over $A$, and is thus (being flat and radicial over $A$) identical to $A$.
+      So $X=Y\coprod X'$ (disjoint sum).
+      But since $X$ is radicial over $Y$, $X'$ is empty.
+  \end{enumerate}
+\end{proof}
+
+\begin{itenv}{Corollary}
+\label{I.5.2}
+  Let $f\colon X\to Y$ be a morphism that is both a \emph{closed immersion} and \emph{étale}.
+  If $X$ is connected, then $f$ is an isomorphism from $X$ to a connected component of $Y$.
+\end{itenv}
+
+\begin{proof}
+  Indeed, $f$ is also an open immersion.
+\end{proof}
+
+We thus deduce:
+
+\oldpage{7}
+\begin{itenv}{Corollary 5.3}
+\label{I.5.3}
+  Let $X$ be an unramified $Y$-scheme, with $Y$ connected.
+  Then every section of $X$ over $Y$ is an isomorphism from $Y$ to a connected component of $X$.
+  There is thus a bijective correspondence between the set of such sections and the set of connected components $X_i$ of $X$ such that the projection $X_i\to Y$ is an isomorphism (or, equivalently, by \hyperref[I.5.1]{5.1}, surjective and radicial).
+  In particular, a section is determined by its value at a point.
+\end{itenv}
+
+\begin{proof}
+  Only the first claim demands a proof;
+  by \hyperref[I.5.2]{5.2}, it suffices to note that a section is a closed immersion (since $X$ is separated over $Y$) and also étale, by \hyperref[I.4.8]{4.8}.
+\end{proof}
+
+\begin{itenv}{Corollary 5.4}
+\label{I.5.4}
+  Let $X$ and $Y$ be preschemes over $S$, with $X$ unramified and separated over $S$, and $Y$ connected.
+  Let $f$ and $g$ be $S$-morphisms from $Y$ to $X$, and suppose that $y$ is a point of $Y$ such that $f(y)=g(y)=x$, and such that the residue homomorphisms $k(x)\to k(y)$ defined by $f$ and $g$ are identical (``$f$ and $g$ agree geometrically at $y$'').
+  Then $f$ and $g$ are identical.
+\end{itenv}
+
+\begin{proof}
+  This follows from \hyperref[I.5.3]{5.3} by reducing to the case where $Y=S$, and by replacing $X$ with $X\times_S Y$.
+\end{proof}
+
+Here is a particularly important variant of \hyperref[I.5.3]{5.3}.
+
+\begin{itenv}{Theorem 5.5}
+\label{I.5.5}
+  Let $S$ be a prescheme, and let $X$ and $Y$ be $S$-preschemes.
+  Let $S_0$ be a closed sub-prescheme of $S$ having the same underlying space as $S$, and let $X_0=X\times_S S_0$ and $Y_0=Y\times_S S_0$ be the ``restrictions'' of $X$ and $Y$ to $S_0$.
+  Suppose that $X$ is étale over $S$.
+  Then the natural map
+  \[
+    \Hom_S(Y,X) \to \Hom_{S_0}(X_0,Y_0)
+  \]
+  is \emph{bijective}.
+\end{itenv}
+
+\begin{proof}
+  We can again reduce to the case where $Y=S$, and then this follows from the ``topological'' description of sections of $X/Y$ given in \hyperref[I.5.3]{5.3}.
+\end{proof}
+
+\begin{rmenv}{Scholium}
+  This result contains a claim of \emph{uniqueness} and of \emph{existence} of \emph{morphisms}.
+  It can also be expressed (if $X$ and $Y$ are both étale over $S$) by saying that the functor $X\mapsto X_0$ from the category of étale $S$-schemes to the category of étale $S_0$-schemes is \emph{fully faithful}, i.e. establishes an \emph{equivalence} between the first and a \emph{full subcategory} of the second.
+  We will see below that it is in fact an equivalence between the first and the second (which will be a theorem of \emph{existence for étale $S$-schemes}).
+\end{rmenv}
+
+\oldpage{8}
+The following form (which appears to be more general) of \hyperref[I.5.5]{5.5} is often useful:
+
+\begin{itenv}{Corollary 5.6}
+\label{I.5.6}
+  \textbf{(``Theorem of extension of coverings'').}
+  Consider a commutative diagram of morphisms
+  \[
+    \begin{tikzcd}
+      X \dar
+      & Y_0 \lar \dar
+    \\S
+      & Y \lar
+    \end{tikzcd}
+  \]
+  where $X\to S$ is étale, and $Y_0\to Y$ is a bijective closed immersion.
+  Then we can find a unique morphism $Y\to X$ such that the two corresponding triangles commute.
+\end{itenv}
+
+\begin{proof}
+  By replacing $S$ with $Y$, and $X$ with $X\times_S Y$, we can reduce to the case where $Y=S$, and this is then a particular case of \hyperref[I.5.5]{5.5} for $Y=S$.
+\end{proof}
+
+We also note the following immediate consequence of \hyperref[I.5.1]{5.1} (which we did not give as a corollary, in order to not interrupt the line of ideas developed following \hyperref[I.5.1]{5.1}):
+
+\begin{itenv}{Proposition 5.7}
+\label{I.5.7}
+  Let $X$ and $X'$ be preschemes that are of finite type and flat over $Y$, and let $g\colon X\to X'$ be a $Y$-morphism.
+  For $g$ to be an open immersion (resp. an isomorphism), it is necessary and sufficient for the induced morphism on the fibres
+  \[
+    g\otimes_Y k(y)\colon
+    X\otimes_Y k(y) \to X'\otimes_Y k(y)
+  \]
+  to be an open immersion (resp. an isomorphism) for all $y\in Y$.
+\end{itenv}
+
+\begin{proof}
+  It suffices to prove sufficiency;
+  since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
+  By \hyperref[I.5.1]{5.1}, we have to show that $g$ is \emph{radicial} (which is trivial) and \emph{étale} (which follows from \hyperref[I.5.9]{5.9} below).
+\end{proof}
+
+\begin{itenv}{Corollary 5.8}
+\label{I.5.8}
+  Let $X$ and $X'$ be $Y$-preschemes, $g\colon X\to X'$ a $Y$-morphism, $x$ a point of $X$, and $y$ the projection of $x$ in $Y$.
+  For $g$ to be quasi-finite (resp. unramified) at $x$, it is necessary and sufficient for $g\otimes_Y k(y)$ to be so.
+\end{itenv}
+
+\begin{proof}
+  The two algebras over $k(g(x))$ that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at $x$ are the same for $g$ and $g\otimes_Y k(y)$.
+\end{proof}
+
+\begin{itenv}{Corollary 5.9}
+\label{I.5.9}
+  With the notation of \hyperref[I.5.8]{5.8}, suppose that $X$ and $X'$ are flat and of finite type over $Y$.
+  For $g$ to be flat (resp. étale) at $x$, it is necessary and sufficient for $g\otimes_Y k(y)$ to be so.
+\end{itenv}
+
+\begin{proof}
+  For ``flat'', the statement only serves as a reminder, since this is one of the fundamental criteria of flatness\footnote{cf. \hyperref[IV.5.9]{IV.5.9}.}
+  For ``étale'', this follows, taking \hyperref[I.5.8]{5.8} into account.
+\end{proof}
