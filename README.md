@@ -4,12 +4,12 @@
 
 ### I. Étale morphisms
 
-1. [x] Basics of differential calculus _(@thosgood)_
-2. [x] Quasi-finite morphisms _(@thosgood)_
-3. [x] Unramified morphisms _(@thosgood)_
-4. [x] Étale morphisms. Étale coverings _(@thosgood)_
-5. [x] Fundamental property of étale morphisms _(@thosgood)_
-6. [x] Application to étale extensions of complete local rings _(@thosgood)_
+1. Basics of differential calculus _(@thosgood)_
+2. Quasi-finite morphisms _(@thosgood)_
+3. Unramified morphisms _(@thosgood)_
+4. Étale morphisms. Étale coverings _(@thosgood)_
+5. Fundamental property of étale morphisms _(@thosgood)_
+6. Application to étale extensions of complete local rings _(@thosgood)_
 7. [ ] Local construction of unramified and étale morphisms _(3)_
 8. [ ] Infinitesimal lifting of étale schemes. Applications to formal schemes. _(2)_
 9. [ ] Permanence properties _(6)_
@@ -138,123 +138,205 @@
 
 ### Introduction
 
-- Introduction _(5)_
+- [ ] Introduction _(5)_
 
 ### I. Global and local cohomological invariants with respect to a closed subspace
 
-1. The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
-2. The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
+1. [ ] The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
+2. [ ] The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
 
 ### II. Applications to quasi-coherent sheaves on preschemes
 
-- Applications to quasi-coherent sheaves on preschemes _(8)_
+- [ ] Applications to quasi-coherent sheaves on preschemes _(8)_
 
 ### III. Cohomological invariants and depth
 
-1. Reminders _(1)_
-2. Depth _(6)_
-3. Depth and topological properties _(9)_
+1. [ ] Reminders _(1)_
+2. [ ] Depth _(6)_
+3. [ ] Depth and topological properties _(9)_
 
 ### IV. Dualising modules and dualising functors
 
-1. Generalities on functors of modules _(4)_
-2. Characterisation of exact functors _(1)_
-3. Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ _(3)_
-4. Dualising module. Dualising functor _(5)_
-5. Consequences of the theory of dualising modules _(5)_
+1. [ ] Generalities on functors of modules _(4)_
+2. [ ] Characterisation of exact functors _(1)_
+3. [ ] Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ _(3)_
+4. [ ] Dualising module. Dualising functor _(5)_
+5. [ ] Consequences of the theory of dualising modules _(5)_
 
 ### V. Local duality and structure of the $H^i(M)$
 
-1. Complexes of homomorphisms _(3)_
-2. The local duality theorem for a local regular ring _(1)_
-3. Application to the structure of the $H^i(M)$ _(7)_
+1. [ ] Complexes of homomorphisms _(3)_
+2. [ ] The local duality theorem for a local regular ring _(1)_
+3. [ ] Application to the structure of the $H^i(M)$ _(7)_
 
 ### VI. The functors $\operatorname{Ext}(X;F,G)$ and $\underline{\operatorname{Ext}}(F,G)$
 
-1. Generalities _(3)_
-2. Application to quasi-coherent sheaves on preschemes _(2)_
+1. [ ] Generalities _(3)_
+2. [ ] Application to quasi-coherent sheaves on preschemes _(2)_
 
 ### VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\operatorname{Ext}}(F,G)$
 
-1. Study of $i<n$ _(5)_
-2. Study of $i>n$ _(2)_
+1. [ ] Study of $i<n$ _(5)_
+2. [ ] Study of $i>n$ _(2)_
 
 ### VIII. Finiteness theorem
 
-1. Bi-duality spectral sequence _(5)_
-2. Finiteness theorem _(7)_
-3. Applications _(3)_
+1. [ ] Bi-duality spectral sequence _(5)_
+2. [ ] Finiteness theorem _(7)_
+3. [ ] Applications _(3)_
 
 ### IX. Algebraic geometry and formal geometry
 
-1. Comparison theorem _(8)_
-2. Existence theorem _(4)_
+1. [ ] Comparison theorem _(8)_
+2. [ ] Existence theorem _(4)_
 
 ### X. Applications to the fundamental group
 
-1. Comparison of $\mathsf{Et}(\widehat{X})$ with $\mathsf{Et}(Y)$ _(1)_
-2. Comparison of $\mathsf{Et}(Y)$ with $\mathsf{Et}(U)$, for varying $U$ _(5)_
-3. Comparison of $\pi_1(X)$ with $\pi_1(U)$ _(7)_
+1. [ ] Comparison of $\mathsf{Et}(\widehat{X})$ with $\mathsf{Et}(Y)$ _(1)_
+2. [ ] Comparison of $\mathsf{Et}(Y)$ with $\mathsf{Et}(U)$, for varying $U$ _(5)_
+3. [ ] Comparison of $\pi_1(X)$ with $\pi_1(U)$ _(7)_
 
 ### XI. Applications to the Picard group
 
-1. Comparison of $\operatorname{Pic}(\widehat{X})$ with $\operatorname{Pic}(Y)$ _(1)_
-2. Comparison of $\operatorname{Pic}(Y)$ with $\operatorname{Pic}(U)$, for varying $U$ _(5)_
-3. Comparison of $\mathsf{P}(X)$ with $\mathsf{P}(U)$ _(7)_
+1. [ ] Comparison of $\operatorname{Pic}(\widehat{X})$ with $\operatorname{Pic}(Y)$ _(1)_
+2. [ ] Comparison of $\operatorname{Pic}(Y)$ with $\operatorname{Pic}(U)$, for varying $U$ _(5)_
+3. [ ] Comparison of $\mathsf{P}(X)$ with $\mathsf{P}(U)$ _(7)_
 
 ### XII. Applications to projective algebraic schemes
 
-1. Projective duality theorem and finiteness theorem _(7)_
-2. Lefschetz theory for a projective morphism: Grauert's comparison theorem _(4)_
-3. Lefschetz theory for a projective morphism: existence theorem _(7)_
-4. Formal completion and normal flatness _(10)_
-5. Universal finiteness conditions for a non-proper morphism _(8)_
+1. [ ] Projective duality theorem and finiteness theorem _(7)_
+2. [ ] Lefschetz theory for a projective morphism: Grauert's comparison theorem _(4)_
+3. [ ] Lefschetz theory for a projective morphism: existence theorem _(7)_
+4. [ ] Formal completion and normal flatness _(10)_
+5. [ ] Universal finiteness conditions for a non-proper morphism _(8)_
 
 ### XIII. Problems and conjectures
 
-1. Links between local and global results. Affine problems relating to duality _(4)_
-2. Problems relating to $\pi_0$: local Bertini theorems _(5)_
-3. Problems relating to $\pi_1$ _(2)_
-4. Problems relating to higher $\pi_i$: local and global Lefschetz theorems for complex analytic spaces _(6)_
-5. Problems relating to local Picard groups _(5)_
-6. Comments _(7)_
+1. [ ] Links between local and global results. Affine problems relating to duality _(4)_
+2. [ ] Problems relating to $\pi_0$: local Bertini theorems _(5)_
+3. [ ] Problems relating to $\pi_1$ _(2)_
+4. [ ] Problems relating to higher $\pi_i$: local and global Lefschetz theorems for complex analytic spaces _(6)_
+5. [ ] Problems relating to local Picard groups _(5)_
+6. [ ] Comments _(7)_
 
 ### XIV. Depth and Lefschetz theorems in étale cohomology
 
-1. Cohomological and homotopic depth _(30)_
-2. Technical lemmas _(7)_
-3. Converse of the affine Lefschetz theorem _(12)_
-4. Main theorem and variations _(21)_
-5. Geometric depth _(6)_
-6. Open questions _(5)_
+1. [ ] Cohomological and homotopic depth _(30)_
+2. [ ] Technical lemmas _(7)_
+3. [ ] Converse of the affine Lefschetz theorem _(12)_
+4. [ ] Main theorem and variations _(21)_
+5. [ ] Geometric depth _(6)_
+6. [ ] Open questions _(5)_
 
 
 ## 3-1. Group schemes I: General properties of group schemes
 
 ### I. Algebraic structures. Group cohomology
 
+1. [ ] Generalities _(12)_
+2. [ ] Algebraic structures _(7)_
+3. [ ] Category of $\mathcal{O}$-modules, category of $G$-$\mathcal{O}$-modules _(2)_
+4. [ ] Algebraic structures in the category of preschemes _(15)_
+5. [ ] Group cohomology _(6)_
+
 ### II. Tangent bundles. Lie algebras
+
+1. [ ] $\underline{\operatorname{Hom}}_{Z/S}(X,Y)$ functors _(2)_
+2. [ ] The preschemes $I_S(M)$ _(3)_
+3. [ ] The tangent bundle, the (E) condition _(11)_
+4. [ ] Tangent space of a group. Lie algebras _(15)_
+5. [ ] Calculation of some Lie algebras _(6)_
+6. [ ] Various remarks _(3)_
 
 ### III. Infinitesimal extensions
 
+0. [ ] Reminders from SGA 1 III. Various remarks _(15)_
+1. [ ] Extensions and cohomology _(12)_
+2. [ ] Infinitesimal extensions of a morphism of group preschemes _(9)_
+3. [ ] Infinitesimal extensions of a group prescheme _(6)_
+4. [ ] Infinitesimal extensions of closed subgroups _(32)_
+
 ### IV. Topologies and sheaves
+
+1. [ ] Universal effective epimorphisms  _(6)_
+2. [ ] Descent morphisms _(5)_
+3. [ ] Universal effective equivalence relations _(14)_
+4. [ ] Topologies and sheaves _(43)_
+5. [ ] Passage to the quotient and algebraic structures _(10)_
+6. [ ] Topologies in the category of schemes _(12)_
 
 ### V. Construction of quotient preschemes
 
+1. [ ] $\mathcal{C}$-groupoids _(4)_
+2. [ ] Examples of $\mathcal{C}$-groupoids _(2)_
+3. [ ] Some syllogisms for $\mathcal{C}$-groupoids _(5)_
+4. [ ] Passage to the quotient by a finite and flat equivalence prerelation _(5)_
+5. [ ] Passage to the quotient by a finite and flat equivalence relation _(4)_
+6. [ ] Passage to the quotient when there exists a quasi-section _(5)_
+7. [ ] Passage to the quotient by a proper and flat equivalence prerelation _(5)_
+8. [ ] Passage to the quotient by a flat and non-necessarily proper equivalence prerelation _(3)_
+9. [ ] Elimination of Noetherian hypotheses _(3)_
+
 ### VIa. Generalities on algebraic groups
+
+0. [ ] Preliminary remarks _(4)_
+1. [ ] Local properties of an $A$-group of locally finite type _(4)_
+2. [ ] Connected components of an $A$-group of locally finite type _(5)_
+3. [ ] Construction of quotient groups: case of groups of finite type _(6)_
+4. [ ] Construction of quotient groups: general case _(6)_
+5. [ ] Addenda _(5)_
 
 ### VIb. Generalities on group preschemes
 
-### VIIa. Infinitesimal study of group schemes
+1. [ ] Morphisms of groups of locally finite type over a field _(9)_
+2. [ ] "Open properties" of groups and morphisms of groups of locally finite presentation _(12)_
+3. [ ] Identity component of a group of locally finite presentation _(7)_
+4. [ ] Dimension of fibres of groups of locally finite presentation _(4)_
+5. [ ] Separation of groups and homogeneous spaces _(6)_
+6. [ ] Sub-functors and group sub-preschemes _(5)_
+7. [ ] Generated subgroups; commutator group _(12)_
+8. [ ] Solvable and nilpotent group preschemes _(5)_
+9. [ ] Quotient sheaves _(6)_
+10. [ ] Passage to the projective limit for group preschemes and operator group preschemes _(11)_
+11. [ ] Affine group preschemes _(16)_
 
-### VIIb. Infinitesimal study of group schemes
+### VIIa. Infinitesimal study of group schemes: differential operators and Lie $p$-algebras
+
+1. [ ] Differential operators _(5)_
+2. [ ] Invariant differential operators on group preschemes _(7)_
+3. [ ] Coalgebras and Cartier duality _(10)_
+4. [ ] "Frobeniuseries" _(11)_
+5. [ ] Lie $p$-algebras _(9)_
+6. [ ] Lie $p$-algebras of a group $S$-prescheme _(7)_
+7. [ ] Radicial groups of height $1$ _(8)_
+8. [ ] Case of a base field _(6)_
+
+### VIIb. Infinitesimal study of group schemes: formal groups
+
+0. [ ] Reminders on pseudocompact rings and modules _(15)_
+1. [ ] Formal varieties over a pseudocompact ring _(20)_
+2. [ ] Generalities on formal groups _(19)_
+3. [ ] Phenomena particular to characteristic $0$ _(10)_
+4. [ ] Phenomena particular to characteristic $p>0$ _(10)_
+5. [ ] Homogeneous spaces of infinitesimal formal groups over a field _(13)_
 
 
 ## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes
 
 ### VIII. Diagonalisable groups
 
+1. [ ] Biduality _(5)_
+2. [ ] Scheme-theoretic properties of diagonalisable groups _(1)_
+3. [ ] Exactness properties of the functor $D_S$ _(4)_
+4. [ ] Torsors under a diagonalisable group _(4)_
+5. [ ] Quotient of an affine scheme by a diagonalisable group acting freely _(5)_
+6. [ ] Essentially free morphisms, and representability of certain functors of the form $\prod_{Y/S}Z/Y$ _(5)_
+7. [ ] Appendix: monomorphisms of group preschemes _(25)_
+
 ### IX. Groups of multiplicative type: homomorphisms to a group scheme
+
+1. [ ] Definitions _(3)_
+2. [ ] Extension of certain properties of diagonalisable groups to groups of multiplicative type
 
 ### X. Characterisation and classification of group of multiplicative types
 
@@ -324,7 +406,7 @@
 
 ### X. Cohomological dimension: first results
 
-### XI. Comparison with classical cohomology: case of a smooth prescheme
+### XI. Comparison with classical cohomology: the case of a smooth prescheme
 
 ### XII. Base change theorem for a proper morphism
 
