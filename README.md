@@ -409,9 +409,33 @@
 
 ### XVI. Groups of unipotent rank zero
 
+1. [ ] An immersion criterion _(19)_
+2. [ ] Representability theorem for quotients _(7)_
+3. [ ] Groups with flat centre _(10)_
+4. [ ] Groups with affine fibres, of unitpotent rank zero _(4)_
+5. [ ] Application to reductive and semi-simple groups _(3)_
+6. [ ] Applications: extension of certain rigidity properties of toruses of groups of unipotent rank zero _(5)_
+
 ### XVII. Unipotent algebraic groups. Extensions between unipotent groups and group of multiplicative types
 
+0. [ ] Some notation _(2)_
+1. [ ] Definition of unipotent algebraic groups _(4)_
+2. [ ] First properties of unipotent groups _(9)_
+3. [ ] Unipotent groups acting on a vector space _(10)_
+4. [ ] Characterisation of unipotent groups _(16)_
+5. [ ] Extension of a group of multiplicative type by a unipotent group _(29)_
+6. [ ] Extension of a unipotent group by a group of multiplicative type _(9)_
+7. [ ] Nilpotent affine algebraic groups _(7)_
+8. Appendix I: Hochschild cohomology and extensions of algebraic groups _(5)_
+9. Appendix II: Reminders and addenda on radicial groups _(4)_
+10. Appendix III: Remarks and addenda for chapters XV, XVI, and XVII _(5)_
+
 ### XVIII. Weil's theorem on the construction of a group from a rational law
+
+0. [ ] Introduction _(1)_
+1. [ ] "Reminders" on rational maps _(2)_
+2. [ ] Local determination of a morphism of groups _(4)_
+3. [ ] Construction of a group from a rational law _(15)_
 
 
 ## 3-3. Group schemes III: Structure of reductive group schemes
