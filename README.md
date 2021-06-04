@@ -250,13 +250,13 @@
 ### VIIb. Infinitesimal study of group schemes
 
 
-## 3-2. Group schemes II: Multiplicative groups, and structure of general group schemes
+## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes
 
 ### VIII. Diagonalisable groups
 
-### IX. Multiplicative groups: homomorphisms to a group scheme
+### IX. Groups of multiplicative type: homomorphisms to a group scheme
 
-### X. Characterisation and classification of multiplicative groups
+### X. Characterisation and classification of group of multiplicative types
 
 ### XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
 
@@ -270,7 +270,7 @@
 
 ### XVI. Groups of unipotent rank zero
 
-### XVII. Unipotent algebraic groups. Extensions between unipotent groups and multiplicative groups
+### XVII. Unipotent algebraic groups. Extensions between unipotent groups and group of multiplicative types
 
 ### XVIII. Weil's theorem on the construction of a group from a rational law
 
