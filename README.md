@@ -233,7 +233,20 @@
 
 ### I. Algebraic structures. Group cohomology
 
+1. [ ] Generalities _(12)_
+2. [ ] Algebraic structures _(7)_
+3. [ ] Category of $\mathcal{O}$-modules, category of $G$-$\mathcal{O}$-modules _(2)_
+4. [ ] Algebraic structures in the category of preschemes _(15)_
+5. [ ] Group cohomology _(6)_
+
 ### II. Tangent bundles. Lie algebras
+
+1. [ ] $\underline{\operatorname{Hom}}_{Z/S}(X,Y)$ functors _(2)_
+2. [ ] The preschemes $I_S(M)$ _(3)_
+3. [ ] The tangent bundle, the (E) condition _(11)_
+4. [ ] Tangent space of a group. Lie algebras _(15)_
+5. [ ] Calculation of some Lie algebras _(6)_
+6. [ ] Various remarks _(3)_
 
 ### III. Infinitesimal extensions
 
