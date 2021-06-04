@@ -325,7 +325,18 @@
 
 ### VIII. Diagonalisable groups
 
-### IX. Multiplicative groups: homomorphisms to a group scheme
+1. [ ] Biduality _(5)_
+2. [ ] Scheme-theoretic properties of diagonalisable groups _(1)_
+3. [ ] Exactness properties of the functor $D_S$ _(4)_
+4. [ ] Torsors under a diagonalisable group _(4)_
+5. [ ] Quotient of an affine scheme by a diagonalisable group acting freely _(5)_
+6. [ ] Essentially free morphisms, and representability of certain functors of the form $\prod_{Y/S}Z/Y$ _(5)_
+7. [ ] Appendix: monomorphisms of group preschemes _(25)_
+
+### IX. Groups of multiplicative type: homomorphisms to a group scheme
+
+1. [ ] Definitions _(3)_
+2. [ ] Extension of certain properties of diagonalisable groups to groups of multiplicative type
 
 ### X. Characterisation and classification of multiplicative groups
 
