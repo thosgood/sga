@@ -4,12 +4,12 @@
 
 ### I. Étale morphisms
 
-1. [x] Basics of differential calculus _(@thosgood)_
-2. [x] Quasi-finite morphisms _(@thosgood)_
-3. [x] Unramified morphisms _(@thosgood)_
-4. [x] Étale morphisms. Étale coverings _(@thosgood)_
-5. [x] Fundamental property of étale morphisms _(@thosgood)_
-6. [x] Application to étale extensions of complete local rings _(@thosgood)_
+1. Basics of differential calculus _(@thosgood)_
+2. Quasi-finite morphisms _(@thosgood)_
+3. Unramified morphisms _(@thosgood)_
+4. Étale morphisms. Étale coverings _(@thosgood)_
+5. Fundamental property of étale morphisms _(@thosgood)_
+6. Application to étale extensions of complete local rings _(@thosgood)_
 7. [ ] Local construction of unramified and étale morphisms _(3)_
 8. [ ] Infinitesimal lifting of étale schemes. Applications to formal schemes. _(2)_
 9. [ ] Permanence properties _(6)_
@@ -138,95 +138,95 @@
 
 ### Introduction
 
-- Introduction _(5)_
+- [ ] Introduction _(5)_
 
 ### I. Global and local cohomological invariants with respect to a closed subspace
 
-1. The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
-2. The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
+1. [ ] The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
+2. [ ] The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
 
 ### II. Applications to quasi-coherent sheaves on preschemes
 
-- Applications to quasi-coherent sheaves on preschemes _(8)_
+- [ ] Applications to quasi-coherent sheaves on preschemes _(8)_
 
 ### III. Cohomological invariants and depth
 
-1. Reminders _(1)_
-2. Depth _(6)_
-3. Depth and topological properties _(9)_
+1. [ ] Reminders _(1)_
+2. [ ] Depth _(6)_
+3. [ ] Depth and topological properties _(9)_
 
 ### IV. Dualising modules and dualising functors
 
-1. Generalities on functors of modules _(4)_
-2. Characterisation of exact functors _(1)_
-3. Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ _(3)_
-4. Dualising module. Dualising functor _(5)_
-5. Consequences of the theory of dualising modules _(5)_
+1. [ ] Generalities on functors of modules _(4)_
+2. [ ] Characterisation of exact functors _(1)_
+3. [ ] Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ _(3)_
+4. [ ] Dualising module. Dualising functor _(5)_
+5. [ ] Consequences of the theory of dualising modules _(5)_
 
 ### V. Local duality and structure of the $H^i(M)$
 
-1. Complexes of homomorphisms _(3)_
-2. The local duality theorem for a local regular ring _(1)_
-3. Application to the structure of the $H^i(M)$ _(7)_
+1. [ ] Complexes of homomorphisms _(3)_
+2. [ ] The local duality theorem for a local regular ring _(1)_
+3. [ ] Application to the structure of the $H^i(M)$ _(7)_
 
 ### VI. The functors $\operatorname{Ext}(X;F,G)$ and $\underline{\operatorname{Ext}}(F,G)$
 
-1. Generalities _(3)_
-2. Application to quasi-coherent sheaves on preschemes _(2)_
+1. [ ] Generalities _(3)_
+2. [ ] Application to quasi-coherent sheaves on preschemes _(2)_
 
 ### VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\operatorname{Ext}}(F,G)$
 
-1. Study of $i<n$ _(5)_
-2. Study of $i>n$ _(2)_
+1. [ ] Study of $i<n$ _(5)_
+2. [ ] Study of $i>n$ _(2)_
 
 ### VIII. Finiteness theorem
 
-1. Bi-duality spectral sequence _(5)_
-2. Finiteness theorem _(7)_
-3. Applications _(3)_
+1. [ ] Bi-duality spectral sequence _(5)_
+2. [ ] Finiteness theorem _(7)_
+3. [ ] Applications _(3)_
 
 ### IX. Algebraic geometry and formal geometry
 
-1. Comparison theorem _(8)_
-2. Existence theorem _(4)_
+1. [ ] Comparison theorem _(8)_
+2. [ ] Existence theorem _(4)_
 
 ### X. Applications to the fundamental group
 
-1. Comparison of $\mathsf{Et}(\widehat{X})$ with $\mathsf{Et}(Y)$ _(1)_
-2. Comparison of $\mathsf{Et}(Y)$ with $\mathsf{Et}(U)$, for varying $U$ _(5)_
-3. Comparison of $\pi_1(X)$ with $\pi_1(U)$ _(7)_
+1. [ ] Comparison of $\mathsf{Et}(\widehat{X})$ with $\mathsf{Et}(Y)$ _(1)_
+2. [ ] Comparison of $\mathsf{Et}(Y)$ with $\mathsf{Et}(U)$, for varying $U$ _(5)_
+3. [ ] Comparison of $\pi_1(X)$ with $\pi_1(U)$ _(7)_
 
 ### XI. Applications to the Picard group
 
-1. Comparison of $\operatorname{Pic}(\widehat{X})$ with $\operatorname{Pic}(Y)$ _(1)_
-2. Comparison of $\operatorname{Pic}(Y)$ with $\operatorname{Pic}(U)$, for varying $U$ _(5)_
-3. Comparison of $\mathsf{P}(X)$ with $\mathsf{P}(U)$ _(7)_
+1. [ ] Comparison of $\operatorname{Pic}(\widehat{X})$ with $\operatorname{Pic}(Y)$ _(1)_
+2. [ ] Comparison of $\operatorname{Pic}(Y)$ with $\operatorname{Pic}(U)$, for varying $U$ _(5)_
+3. [ ] Comparison of $\mathsf{P}(X)$ with $\mathsf{P}(U)$ _(7)_
 
 ### XII. Applications to projective algebraic schemes
 
-1. Projective duality theorem and finiteness theorem _(7)_
-2. Lefschetz theory for a projective morphism: Grauert's comparison theorem _(4)_
-3. Lefschetz theory for a projective morphism: existence theorem _(7)_
-4. Formal completion and normal flatness _(10)_
-5. Universal finiteness conditions for a non-proper morphism _(8)_
+1. [ ] Projective duality theorem and finiteness theorem _(7)_
+2. [ ] Lefschetz theory for a projective morphism: Grauert's comparison theorem _(4)_
+3. [ ] Lefschetz theory for a projective morphism: existence theorem _(7)_
+4. [ ] Formal completion and normal flatness _(10)_
+5. [ ] Universal finiteness conditions for a non-proper morphism _(8)_
 
 ### XIII. Problems and conjectures
 
-1. Links between local and global results. Affine problems relating to duality _(4)_
-2. Problems relating to $\pi_0$: local Bertini theorems _(5)_
-3. Problems relating to $\pi_1$ _(2)_
-4. Problems relating to higher $\pi_i$: local and global Lefschetz theorems for complex analytic spaces _(6)_
-5. Problems relating to local Picard groups _(5)_
-6. Comments _(7)_
+1. [ ] Links between local and global results. Affine problems relating to duality _(4)_
+2. [ ] Problems relating to $\pi_0$: local Bertini theorems _(5)_
+3. [ ] Problems relating to $\pi_1$ _(2)_
+4. [ ] Problems relating to higher $\pi_i$: local and global Lefschetz theorems for complex analytic spaces _(6)_
+5. [ ] Problems relating to local Picard groups _(5)_
+6. [ ] Comments _(7)_
 
 ### XIV. Depth and Lefschetz theorems in étale cohomology
 
-1. Cohomological and homotopic depth _(30)_
-2. Technical lemmas _(7)_
-3. Converse of the affine Lefschetz theorem _(12)_
-4. Main theorem and variations _(21)_
-5. Geometric depth _(6)_
-6. Open questions _(5)_
+1. [ ] Cohomological and homotopic depth _(30)_
+2. [ ] Technical lemmas _(7)_
+3. [ ] Converse of the affine Lefschetz theorem _(12)_
+4. [ ] Main theorem and variations _(21)_
+5. [ ] Geometric depth _(6)_
+6. [ ] Open questions _(5)_
 
 
 ## 3-1. Group schemes I: General properties of group schemes
