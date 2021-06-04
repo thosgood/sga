@@ -426,9 +426,9 @@
 5. [ ] Extension of a group of multiplicative type by a unipotent group _(29)_
 6. [ ] Extension of a unipotent group by a group of multiplicative type _(9)_
 7. [ ] Nilpotent affine algebraic groups _(7)_
-8. Appendix I: Hochschild cohomology and extensions of algebraic groups _(5)_
-9. Appendix II: Reminders and addenda on radicial groups _(4)_
-10. Appendix III: Remarks and addenda for chapters XV, XVI, and XVII _(5)_
+8. [ ] Appendix I: Hochschild cohomology and extensions of algebraic groups _(5)_
+9. [ ] Appendix II: Reminders and addenda on radicial groups _(4)_
+10. [ ] Appendix III: Remarks and addenda for chapters XV, XVI, and XVII _(5)_
 
 ### XVIII. Weil's theorem on the construction of a group from a rational law
 
