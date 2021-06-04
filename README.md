@@ -250,13 +250,55 @@
 
 ### III. Infinitesimal extensions
 
+0. [ ] Reminders from SGA 1 III. Various remarks _(15)_
+1. [ ] Extensions and cohomology _(12)_
+2. [ ] Infinitesimal extensions of a morphism of group preschemes _(9)_
+3. [ ] Infinitesimal extensions of a group prescheme _(6)_
+4. [ ] Infinitesimal extensions of closed subgroups _(32)_
+
 ### IV. Topologies and sheaves
+
+1. [ ] Universal effective epimorphisms  _(6)_
+2. [ ] Descent morphisms _(5)_
+3. [ ] Universal effective equivalence relations _(14)_
+4. [ ] Topologies and sheaves _(43)_
+5. [ ] Passage to the quotient and algebraic structures _(10)_
+6. [ ] Topologies in the category of schemes _(12)_
 
 ### V. Construction of quotient preschemes
 
+1. [ ] $\mathcal{C}$-groupoids _(4)_
+2. [ ] Examples of $\mathcal{C}$-groupoids _(2)_
+3. [ ] Some syllogisms for $\mathcal{C}$-groupoids _(5)_
+4. [ ] Passage to the quotient by a finite and flat equivalence prerelation _(5)_
+5. [ ] Passage to the quotient by a finite and flat equivalence relation _(4)_
+6. [ ] Passage to the quotient when there exists a quasi-section _(5)_
+7. [ ] Passage to the quotient by a proper and flat equivalence prerelation _(5)_
+8. [ ] Passage to the quotient by a flat and non-necessarily proper equivalence prerelation _(3)_
+9. [ ] Elimination of Noetherian hypotheses _(3)_
+
 ### VIa. Generalities on algebraic groups
 
+0. [ ] Preliminary remarks _(4)_
+1. [ ] Local properties of an $A$-group of locally finite type _(4)_
+2. [ ] Connected components of an $A$-group of locally finite type _(5)_
+3. [ ] Construction of quotient groups: case of groups of finite type _(6)_
+4. [ ] Construction of quotient groups: general case _(6)_
+5. [ ] Addenda _(5)_
+
 ### VIb. Generalities on group preschemes
+
+1. [ ] Morphisms of groups of locally finite type over a field _(9)_
+2. [ ] "Open properties" of groups and morphisms of groups of locally finite presentation _(12)_
+3. [ ] Identity component of a group of locally finite presentation _(7)_
+4. [ ] Dimension of fibres of groups of locally finite presentation _(4)_
+5. [ ] Separation of groups and homogeneous spaces _(6)_
+6. [ ] Sub-functors and group sub-preschemes _(5)_
+7. [ ] Generated subgroups; commutator group _(12)_
+8. [ ] Solvable and nilpotent group preschemes _(5)_
+9. [ ] Quotient sheaves _(6)_
+10. [ ] Passage to the projective limit for group preschemes and operator group preschemes _(11)_
+11. [ ] Affine group preschemes _(16)_
 
 ### VIIa. Infinitesimal study of group schemes
 
@@ -337,7 +379,7 @@
 
 ### X. Cohomological dimension: first results
 
-### XI. Comparison with classical cohomology: case of a smooth prescheme
+### XI. Comparison with classical cohomology: the case of a smooth prescheme
 
 ### XII. Base change theorem for a proper morphism
 
