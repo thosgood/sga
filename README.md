@@ -336,17 +336,60 @@
 ### IX. Groups of multiplicative type: homomorphisms to a group scheme
 
 1. [ ] Definitions _(3)_
-2. [ ] Extension of certain properties of diagonalisable groups to groups of multiplicative type
+2. [ ] Extension of certain properties of diagonalisable groups to groups of multiplicative type _(6)_
+3. [ ] Infinitesimal properties: lifting and conjugation theorem _(4)_
+4. [ ] Density theorem _(8)_
+5. [ ] Central homomorphisms of groups of multiplicative type _(5)_
+6. [ ] Monomorphisms of groups of multiplicative type and canonical factorisation of a homomorphism of such a group _(5)_
+7. [ ] Algebraicity of formal homomorphisms to an affine group _(6)_
+8. [ ] Subgroups, quotient groups, and extensions of groups of multiplicative type over a field _(3)_
 
 ### X. Characterisation and classification of group of multiplicative types
 
+1. [ ] Classification of isotrivial groups: case of a base field _(4)_
+2. [ ] Infinitesimal variations of structure _(5)_
+3. [ ] Infinitesimal finite variations of structure: case of a complete base ring _(6)_
+4. [ ] Case of an arbitrary base. Quasi-isotriviality theorem _(6)_
+5. [ ] Scheme of homomorphisms from one multiplicative type group to another. Twisted constant groups and groups of multiplicative type _(8)_
+6. [ ] Infinite principal Galois coverings and the enlarged fundamental group _(6)_
+7. [ ] Classification of twisted constant preschemes and finite groups of multiplicative type in terms of the enlarged fundamental group _(4)_
+8. [ ] Appendix: elimination of certain affine hypotheses _(11)_
+
 ### XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
+
+0. [ ] Introduction _(1)_
+1. [ ] Reminders on smooth, étale, and unramified morphisms _(9)_
+2. [ ] Examples of formally smooth functors extracted from the theory of groups of multiplicative type _(4)_
+3. [ ] Auxiliary results on representability _(16)_
+4. [ ] Scheme of subgroups of multiplicative type of an affine smooth group _(7)_
+5. [ ] First corollaries of the representability theorem _(7)_
+6. [ ] On a rigidity property for homomorphisms of certain group schemes, and the representability of certain transporters _(9)_
 
 ### XII. Maximal toruses, Weyl group, Cartan subgroup, reductive centre of smooth and affine group schemes
 
+1. [ ] Maximal toruses _(1)_
+2. [ ] The Weyl group _(10)_
+3. [ ] Cartan subgroups _(5)_
+4. [ ] The reductive centre _(2)_
+5. [ ] Application to the scheme of subgroups of multiplicative type _(12)_
+6. [ ] Maximal toruses and Cartan subgroups of not-necessarily affine algebraic groups (over an algebraically closed base field) _(6)_
+7. [ ] Application to non-necessarily affine smooth group preschemes _(23)_
+8. [ ] Semi-simple elements, union and intersection of maximal toruses in non-necessarily affine group schemes _(2)_
+
 ### XIII. Regular elements of algebraic groups and of Lie algebras
 
+1. [ ] An auxiliary lemma on varieties with operators _(4)_
+2. [ ] Density theorem and the theory of regular points of $G$ _(16)_
+3. [ ] Case of a prescheme over an arbitrary base _(7)_
+4. [ ] Lie algebras over a field: rank, regular elements, Cartan sub-algebras _(7)_
+5. [ ] Case of the Lie algebra of a smooth algebraic group: density theorem _(8)_
+6. [ ] Cartan sub-algebras and subgroups of type (C), with respect to a smooth algebraic group _(5)_
+
 ### XIV. Regular elements (continued). Applications to algebraic groups
+
+1. Construction of Cartan subgroups and maximal toruses for a smooth algebraic group _(3)_
+2. Lie algebras on an arbitrary prescheme: regular sections and Cartan sub-algebras _(13)_
+3. 
 
 ### XV. Addenda on sub-toruses of group preschemes. Application to smooth groups
 
