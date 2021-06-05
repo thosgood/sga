@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)</title>
+  <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
+  
+  <meta name="twitter:description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  
+
+<meta name="author" content="A. Grothendieck and M. Raynaud" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="gitbook-custom.css" type="text/css" />
+<link rel="stylesheet" href="katex.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><h4>Table of contents</h4></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="étale-morphisms.html"><a href="étale-morphisms.html"><i class="fa fa-check"></i><b>1</b> Étale morphisms</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="étale-morphisms.html"><a href="étale-morphisms.html#basics-of-differential-calculus"><i class="fa fa-check"></i><b>1.1</b> Basics of differential calculus</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Étale covers and the fundamental group (SGA 1)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="étale-morphisms" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Étale morphisms</h1>
+<div id="basics-of-differential-calculus" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Basics of differential calculus</h2>
+<p>Let <eq env="math">X</eq> be a prescheme on <eq env="math">Y</eq>, and <eq env="math">\Delta_{X/Y}</eq> the diagonal morphism <eq env="math">X\to X\times_Y X</eq>.
+This is an immersion, and thus a closed immersion of <eq env="math">X</eq> into an open subset <eq env="math">V</eq> of <eq env="math">X\times_Y X</eq>.
+Let <eq env="math">{\mathscr{I}}_X</eq> be the ideal of the closed sub-prescheme corresponding to the diagonal in <eq env="math">V</eq> (N.B. if one really wishes to do things intrinsically, without assuming that <eq env="math">X</eq> is separated over <eq env="math">Y</eq> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <eq env="math">{\mathcal{O}}_{X\times X}</eq> in <eq env="math">X</eq> and denote by <eq env="math">{\mathscr{I}}_X</eq> the augmentation ideal in the above ).
+The sheaf <eq env="math">{\mathscr{I}}_X/{\mathscr{I}}_X^2</eq> can be thought of as a quasi-coherent sheaf on <eq env="math">X</eq>, which we denote by <eq env="math">\Omega_{X/Y}^1</eq>.
+This sheaf is of finite type if <eq env="math">X\to Y</eq> is of finite type, and it behaves well with respect to a base change <eq env="math">Y'\to Y</eq>.
+We also introduce the sheaves <eq env="math">{\mathcal{O}}_{X\times_Y X}/{\mathscr{I}}_X^{n+1}={\mathscr{P}}^n_{X/Y}</eq>, which are sheaves of  on <eq env="math">X</eq>, giving us preschemes denoted by <eq env="math">\Delta_{X/Y}^n</eq> and called the .
+The polysyllogism is entirely trivial, even if rather long<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>;
+it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.</p>
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>cf. EGA<sub>IV</sub>16.3.<a href="étale-morphisms.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+<script type="text/javascript" src="../katex.min.js"></script>
+<script type="text/javascript" src="../MathJax2KaTeX.js"></script>
+<script type="text/javascript" src="../sidenotes.js"></script>
+<script type="text/javascript" src="../lite-yt-embed.js"></script>
+
+<script type="text/javascript">
+  $document.ready(function() {
+    $('div.font-settings button.size-3').map(function() {
+      this.setAttribute("class", "button size-2")
+      if (this.innerText == "Sepia") {
+        this.setAttribute("style", "display: none;");
+      }
+      if (this.innerText == "White") {
+        this.innerText = "Light";
+      }
+      if (this.innerText == "Night") {
+        this.innerText = "Dark";
+      }
+    });
+  });
+</script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": {}
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 1
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": {},
+"toc": {
+"collapse": "section"
+},
+"info": false
+});
+});
+</script>
+
+</body>
+
+</html>

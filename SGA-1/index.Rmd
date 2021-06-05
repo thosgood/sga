@@ -1,0 +1,59 @@
+--- 
+title: "Étale covers and the fundamental group (SGA 1)"
+author: "A. Grothendieck and M. Raynaud"
+date: "1960--1961 (Last updated: `r format(Sys.Date(), format='%B %d, %Y')`)"
+description: "Séminaire de Géométrie Algébrique du Bois Marie."
+output:
+  bookdown::gitbook:
+    mathjax: null
+    pandoc_args: ["--gladtex"]
+    css: ["gitbook-custom.css", "katex.css"]
+    includes:
+      after_body: ["scripts.html"]
+    split_by: chapter
+    config:
+      toc:
+        before: |
+          <li><h4>Table of contents</h4></li>
+        collapse: section
+#      view: https://github.com/thosgood/sga/blob/master/%s
+#      download: ["pdf"]
+      fontsettings:
+        theme: white
+        family: serif
+        size: 1
+      sharing:
+        facebook: no
+        github: no
+        twitter: no
+        linkedin: no
+        weibo: no
+        instapaper: no
+        vk: no
+        all: []
+      info: no
+#  bookdown::pdf_book:
+#    template: latex-template.tex
+#    latex_engine: xelatex
+#    keep_tex: yes
+---
+
+\providecommand{\tr}{\operatorname{tr}}
+\providecommand{\id}{\mathrm{id}}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\cal}[1]{{\mathcal{#1}}}
+\renewcommand{\scr}[1]{{\mathscr{#1}}}
+\renewcommand{\frak}[1]{{\mathfrak{#1}}}
+
+```{r echo=FALSE,warning=FALSE}
+ library(knitr)
+  opts_chunk$set(cache=TRUE,
+                 echo=FALSE,
+                 fig.pos='H',
+                 fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'png',
+                 fig.align='center'
+                )
+```
+
+# Introduction {-}

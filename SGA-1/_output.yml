@@ -1,0 +1,7 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">SGA 1</a></li>
+    download: []
