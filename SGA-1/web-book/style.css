@@ -86,3 +86,24 @@ html {
 .itenv > :last-child {
   margin-bottom: 0 !important;
 }
+
+.rmenv {
+  font-style: normal;
+  margin: 1em 0;
+}
+
+.rmenv:before {
+  content: attr(title);
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 0.5em;
+  float: left;
+}
+
+.rmenv > :first-child {
+  margin-top: 0 !important;
+}
+
+.rmenv > :last-child {
+  margin-bottom: 0 !important;
+}

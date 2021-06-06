@@ -16,7 +16,7 @@ A morphism $f\colon X\to Y$ is said to be quasi-finite at $x$ (or the $Y$-presch
 This is equivalent to saying that $x$ is _isolated in its fibre $f^{-1}(x)$_.
 A morphism is said to be quasi-finite if it is quasi-finite at each point^[In EGA II 6.2.3 we further suppose that $f$ is of finite type.].
 
-::: {.corollary #I.2.2}
+::: {.itenv #I.2.2 title="Corollary 2.2"}
   If $A$ is complete, then quasi-finiteness is equivalent to finiteness.
 :::
 

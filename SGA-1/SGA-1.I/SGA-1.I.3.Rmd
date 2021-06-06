@@ -1,6 +1,6 @@
 ## 3. Unramified morphisms {#I.3}
 
-::: {.proposition #I.3.1}
+::: {.itenv #I.3.1 title="Proposition 3.1"}
   Let $f\colon X\to Y$ be a morphism of finite type, $x\in X$, and $y=f(x)$.
   Then the following conditions are equivalent:
   
@@ -18,10 +18,10 @@
   We can thus suppose that $X$ consists of a single point, with ring $A$, and so $A\otimes_k A\to A$ is an isomorphism, hence $A=k$.
 :::
 
-::: {.definition #I.3.2}
+::: {.rmenv #I.3.2 title="Definition 3.2"}
 —
   
-  a. Let $f$ satisfy one of the equivalent conditions of [3.1](#prp:I.3.1).
+  a. Let $f$ satisfy one of the equivalent conditions of [3.1](#I.3.1).
     We then say that $f$ is _unramified_ at $x$, or that $X$ is unramified at $x$ on $Y$.
   b. Let $A\to B$ be a local homomorphism.
     We say that it is _unramified_, or that $B$ is a local _unramified_ algebra on $A$, if $B/\frak{r}(A)B$ is a finite separable extension of $A/\frak{r}(A)$, i.e. if $\frak{r}(A)B=\frak{r}(B)$ and $k(B)$ is a separable extension of $k(A)$.^[cf. regrets in III~1.2.]
@@ -29,16 +29,16 @@
 
 \oldpage{3}
 
-::: {.remark}
+::: {.rmenv title="Remarks"}
   The fact that $B$ is unramified over $A$ can be seen at the level of the completions of $A$ and $B$.
   Unramified implies quasi-finite.
 :::
 
-::: {.corollary #I.3.3}
+::: {.itenv #I.3.3 title="Corollary 3.3"}
   The set of points where $f$ is unramified is open.
 :::
 
-::: {.corollary #I.3.4}
+::: {.itenv #I.3.4 title="Corollary 3.4"}
   Let $X'$ and $X$ be preschemes of finite type over $Y$, and $g\colon X'\to X$ a $Y$-morphism.
   If $X$ is unramified over $Y$, then the graph morphism $\Gamma_g\colon X'\to X\times_Y X$ is an open immersion.
 :::
@@ -50,7 +50,7 @@ Indeed, this is the inverse image of the diagonal morphism $X\to X\times_Y X$ by
 One can also introduce the annihilator ideal $\frak{d}_{X/Y}$ of $\Omega_{X/Y}^1$, called the _different ideal_ of $X/Y$;
 it defines a closed sub-prescheme of $X$ which, set-theoretically, is the set of point where $X/Y$ is ramified, i.e. not unramified.
 
-::: {.proposition #I.3.5}
+::: {.itenv #I.3.5 title="Proposition 3.5"}
 —
 
   i. An immersion is ramified.
@@ -63,7 +63,7 @@ We can, of course, also be more precise, by giving some one-off statements;
 this is more general only in appearance (except for in the case of definition (b)), and is boring.
 We obtain, as per usual, the corollaries:
 
-::: {.corollary #I.3.6}
+::: {.itenv #I.3.6 title="Corollary 3.6"}
 —
 
   iv. The cartesian product of two unramified morphisms is unramified.
@@ -71,12 +71,12 @@ We obtain, as per usual, the corollaries:
   vi. If $f$ is unramified then so too is $f_\text{red}$.
 :::
 
-::: {.proposition #I.3.7}
+::: {.itenv #I.3.7 title="Proposition 3.7"}
   Let $A\to B$ be a local homomorphism, and suppose that the residue extension $k(B)/k(A)$ is trivial, with $k(A)$ algebraically closed.
   In order for $B/A$ to be unramified, it is necessary and sufficient that $\hat{B}$ be (as an $\hat{A}$-algebra) a quotient of $\hat{A}$.
 :::
 
-::: {.remark}
+::: {.rmenv title="Remarks"}
 —
 
   - In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of $A$ which destroys the aforementioned extension.

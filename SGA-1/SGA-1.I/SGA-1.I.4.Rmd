@@ -3,7 +3,7 @@
 We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
 these facts will be proved later, if there is time^[cf. IV.].
 
-::: {.definition #I.4.1}
+::: {.rmenv #I.4.1 title="Definition 4.1"}
 —
 
   a. Let $f\colon X\to Y$ be a morphism of finite type.
@@ -14,7 +14,7 @@ these facts will be proved later, if there is time^[cf. IV.].
       We say that $f$ is étale, or that $B$ is étale over $A$, if $B$ is flat and unramified over $A$.^[cf. regrets in III 1.2.]
 :::
 
-::: {.proposition #I.4.2}
+::: {.itenv #I.4.2 title="Proposition 4.2"}
   For $B/A$ to be étale, it is necessary and sufficient that $\hat{B}/\hat{A}$ be étale.
 :::
 
@@ -24,19 +24,19 @@ these facts will be proved later, if there is time^[cf. IV.].
   This is true individually for both "unramified" and "flat".
 :::
 
-::: {.corollary #I.4.3}
+::: {.itenv #I.4.3 title="Corollary 4.3"}
   Let $f\colon X\to Y$ be of finite type, and $x\in X$.
   The property of $f$ being étale at $x$ depends only on the local homomorphism $\cal{O}_{f(x)}\to\cal{O}_x$, and in fact only on the corresponding homomorphism for the completions.
 :::
 
-::: {.corollary #I.4.4}
+::: {.itenv #I.4.4 title="Corollary 4.4"}
   Suppose that the residue extension $k(A)\to k(B)$ is trivial, or that $k(A)$ is algebraically closed.
   Then $B/A$ is étale if and only if $\hat{A}\to\hat{B}$ is an isomorphism.
 :::
 
 We can combine flatness with [3.7](#I.3.7).
 
-::: {.proposition #I.4.5}
+::: {.itenv #I.4.5 title="Proposition 4.5"}
   Let $f\colon X\to Y$ be a morphism of finite type.
   Then the set of points where $f$ is étale is open.
 :::
@@ -47,7 +47,7 @@ We can combine flatness with [3.7](#I.3.7).
 
 This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.
 
-::: {.proposition #I.4.6}
+::: {.itenv #I.4.6 title="Proposition 4.6"}
 —
 
   i. An open immersion is étale.
@@ -63,11 +63,11 @@ As a matter of fact, there are also corresponding comments to make about local h
 
 _[Trans.] Grothendieck's _multiplodoque d'algèbre homologique_ was the final version of his _Tohoku paper_ --- see (2.1) in `Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information._
 
-::: {.corollary #I.4.7}
+::: {.itenv #I.4.7 title="Corollary 4.7"}
   The cartesian product of two étale morphisms is étale.
 :::
 
-::: {.corollary #I.4.8}
+::: {.itenv #I.4.8 title="Corollary 4.8"}
   Let $X$ and $X'$ be of finite type over $Y$, and $g\colon X\to X'$ a $Y$-morphism.
   If $X'$ is unramified over $Y$ and $X$ is étale over $Y$, then $g$ is étale.
 :::
@@ -76,14 +76,14 @@ _[Trans.] Grothendieck's _multiplodoque d'algèbre homologique_ was the final ve
   Indeed, $g$ is the composition of the graph morphism $\Gamma_g\colon X\to X\times_Y X'$ (which is an open immersion by [3.4](#I.3.4) and the projection morphism, which is étale since it is just a "change of base" by $X'\to Y$ of the étale morphism $X\to Y$.
 :::
 
-::: {.definition #I.4.9}
+::: {.rmenv #I.4.9 title="Definition 4.9"}
   We say that a cover of $Y$ is étale (resp. unramified) if it is a $Y$-scheme $X$ that is finite over $Y$ and étale (resp. unramified) over $Y$.
 :::
 
 The first condition means that $X$ is defined by a coherent sheaf of algebras $\scr{B}$ over $Y$.
 The second means that $\scr{B}$ is locally free over $Y$ (resp. means absolutely nothing) _and_, further, that, for all $y\in Y$, the fibre $\scr{B}(y)=\scr{B}_y\otimes_{\cal{O}_y}k(y)$ is a separable algebra (i.e. a finite composition of finite separable extensions) over $k(y)$.
 
-::: {.proposition #I.4.10}
+::: {.itenv #I.4.10 title="Proposition 4.10"}
   Let $X$ be a flat cover of $Y$ of degree $n$ (the definition of this term deserved to figure in [4.9](#I.4.9)) defined by a locally free coherent sheaf $\scr{B}$ of algebras.
   We define, as usual, the trace homomorphism $\scr{B}\to\scr{A}$ (that is a homomorphism of $\scr{A}$-modules, where $\scr{A}=\cal{O}_Y$).
   For $X$ to be étale it is necessary and sufficient that the corresponding bilinear form $\tr_{\scr{B}/\scr{A}}xy$ define an isomorphism of $\scr{B}$ over $\scr{B}$, or, equivalently, that the _discriminant section_
@@ -99,7 +99,7 @@ The second means that $\scr{B}$ is locally free over $Y$ (resp. means absolutely
   We can reduce to the case where $Y=\Spec(k)$, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of $k$.
 :::
 
-::: {.remark}
+::: {.rmenv title="Remark"}
   We will have a less trivial statement to make later on, when we do not suppose a priori that $X$ is flat over $Y$, but instead require some normality hypothesis.
 :::
 

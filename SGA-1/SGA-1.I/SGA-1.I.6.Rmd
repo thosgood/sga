@@ -4,7 +4,7 @@ This section is a particular case of the results on formal preschemes, which sho
 Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in [§7](#I.7) (using the Main Theorem).
 This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
 
-::: {.theorem #I.6.1}
+::: {.itenv #I.6.1 title="Theorem 6.1"}
   Let $A$ be a complete local ring (Noetherian, of course), with residue field $k$.
   For any $A$-algebra $B$, let $R(B)=B\otimes_Ak$ be thought of as a $k$-algebra;
   this depends functorially on $B$.
@@ -13,7 +13,7 @@ This is perhaps sufficient reason to keep this current section (even in the mult
 
 Firstly, the functor in question is fully faithful, as follows from the more general fact:
 
-::: {.corollary #I.6.2}
+::: {.itenv #I.6.2 title="Corollary 6.2"}
   Let $B$ and $B'$ be $A$-algebras that are finite over $A$.
   If $B$ is étale over $A$, then the canonical map
   \[
