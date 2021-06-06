@@ -3,7 +3,11 @@ html {
 }
 
 .page-inner {
-  max-width: 710px !important;
+  max-width: 700px !important;
+}
+
+.katex-html {
+  white-space: nowrap;
 }
 
 @font-face {
@@ -62,26 +66,17 @@ html {
 
 /* Custom environments */
 
-.env-title {
-  float: left;
-  font-style: normal;
-  font-weight: bold;
-  margin-right: 0.5em;
-}
-
-.env-title p {
-  display: inline;
-}
-
-.env-title p::after {
-  content: ".";
-}
-
 .itenv {
   font-style: italic;
   margin: 1em 0;
-  padding-left: 0.5em;
-  border-left: 1px solid gray;
+}
+
+.itenv:before {
+  content: attr(title);
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 0.5em;
+  float: left;
 }
 
 .itenv > :first-child {

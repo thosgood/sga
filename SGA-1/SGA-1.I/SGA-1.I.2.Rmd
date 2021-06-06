@@ -1,6 +1,6 @@
 ## 2. Quasi-finite morphisms {#I.2}
 
-::: {.proposition #I.2.1}
+::: {.itenv #I.2.1 title="Proposition 2.1"}
   Let $A\to B$ be a local homomorphism (N.B. all rings are now Noetherian) and $\frak{m}$ the maximal ideal of $A$.
   Then the following conditions are equivalent:
   
