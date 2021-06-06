@@ -7,7 +7,7 @@ these facts will be proved later, if there is time^[cf. IV.].
 —
 
   a. Let $f\colon X\to Y$ be a morphism of finite type.
-      We say that $f$ is \emph{étale} at $x$ if $f$ is both flat and unramified at $x$.
+      We say that $f$ is _étale_ at $x$ if $f$ is both flat and unramified at $x$.
       We say that $f$ is étale if it is étale at all points.
       We say that $X$ is étale at $x$ over $Y$, or that it is a $Y$-prescheme which is étale at $x$ etc.
   b. Let $f\colon A\to B$ be a local homomorphism.
