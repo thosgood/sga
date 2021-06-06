@@ -24,7 +24,7 @@ Firstly, the functor in question is fully faithful, as follows from the more gen
 :::
 
 ::: {.proof}
-  We can reduce to the case where $A$ is Artinian (by replacing $A$ by $A/\frak{m}^n$), and then it is a particular case of [5.5]{#I.5.5}.
+  We can reduce to the case where $A$ is Artinian (by replacing $A$ by $A/\frak{m}^n$), and then this is a particular case of [5.5]{#I.5.5}.
 
   It remains to prove that, for every finite and separable $k$ algebra (or we can simply say "étale", for brevity) $L$, there exists some $B$ étale over $A$ such that $R(B)$ is isomorphic to $L$.
   We can suppose that $L$ is a separable extension of $k$, and, as such, it admits a generator $x$, i.e. it is isomorphic to an algebra $k[t]/Fk[t]$, where $F\in k[t]$ is a monic polynomial.

@@ -18,6 +18,8 @@ these facts will be proved later, if there is time^[cf. IV.].
   For $B/A$ to be étale, it is necessary and sufficient that $\hat{B}/\hat{A}$ be étale.
 :::
 
+\oldpage{5}
+
 ::: {.proof}
   This is true individually for both "unramified" and "flat".
 :::
@@ -100,3 +102,5 @@ The second means that $\scr{B}$ is locally free over $Y$ (resp. means absolutely
 ::: {.remark}
   We will have a less trivial statement to make later on, when we do not suppose a priori that $X$ is flat over $Y$, but instead require some normality hypothesis.
 :::
+
+\oldpage{6}

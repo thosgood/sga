@@ -304,6 +304,124 @@ is invertible, or that the discriminant ideal defined by this section is the uni
 </div>
 <div id="I.5" class="section level2">
 <h2>5. Fundamental property of étale morphisms</h2>
+<div class="theorem">
+<p><span id="thm:I.5.1" class="theorem"><strong>(#thm:I.5.1) </strong></span>Let <eq env="math">f\colon X\to Y</eq> be a morphism of finite type.
+For <eq env="math">f</eq> to be an open immersion, it is necessary and sufficient for it to be an <em>étale</em> and <em>radicial</em> morphism.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-10" class="proof"><em>Proof</em>. </span>Recall what “radicial” means: injective, with radicial residual extensions (and we also recall that it means that the morphism remains injective for any base extension).
+The necessity is trivial, and the sufficiency remains to be shown.
+We are going to give two different proofs: the first is shorter, the second is more elementary.</p>
+<ol style="list-style-type: decimal">
+<li><p>A flat morphism is open, and so we can suppose (by replacing <eq env="math">Y</eq> with <eq env="math">f(X)</eq>) that <eq env="math">f</eq> is an onto <em>homeomorphism</em>.
+For any base extension, it remains true that <eq env="math">f</eq> is flat, radicial, surjective, thus a homeomorphism, and a fortiori closed.
+Thus <eq env="math">f</eq> is <em>proper</em>.
+Thus <eq env="math">f</eq> is <em>finite</em> (reference: Chevalley’s theorem), defined by a coherent sheaf <eq env="math">{\mathscr{B}}</eq> of algebras.
+Now <eq env="math">{\mathscr{B}}</eq> is locally free, and further, by hypothesis, of rank~<eq env="math">1</eq> everywhere, and so <eq env="math">X=Y</eq>.</p></li>
+<li><p>We can suppose that <eq env="math">Y</eq> and <eq env="math">X</eq> are <em>affine</em>.
+We can further easily reduce to proving the following:
+if <eq env="math">Y=\operatorname{Spec}(A)</eq>, with <eq env="math">A</eq> local, and if <eq env="math">f^{-1}(y)</eq> is non-empty (where <eq env="math">y</eq> is the closed point of <eq env="math">Y</eq>), then <eq env="math">X=Y</eq> (indeed, this would imply that every <eq env="math">y\in f(X)</eq> has an open neighbourhood <eq env="math">U</eq> such that <eq env="math">X|U=U</eq>).
+We will then have that <eq env="math">X=\operatorname{Spec}(B)</eq>, and wish to prove that <eq env="math">A=B</eq>.
+But, for this, we can reduce to proving the analogous claim where we replace <eq env="math">A</eq> by <eq env="math">\widehat{A}</eq>, and <eq env="math">B</eq> by <eq env="math">B\otimes_A\widehat{A}</eq>
+(taking into account the fact that <eq env="math">\widehat{A}</eq> is faithfully flat over <eq env="math">A</eq>).
+We can thus suppose that <eq env="math">A</eq> is <em>complete</em>.
+Let <eq env="math">x</eq> be the point over <eq env="math">y</eq>.
+By <a href="#I.2.2">2.2</a>, <eq env="math">{\mathcal{O}}_x</eq> is finite over <eq env="math">A</eq>, and is thus (being flat and radicial over <eq env="math">A</eq>) identical to <eq env="math">A</eq>.
+So <eq env="math">X=Y\coprod X'</eq> (disjoint sum).
+But since <eq env="math">X</eq> is radicial over <eq env="math">Y</eq>, <eq env="math">X'</eq> is empty.</p></li>
+</ol>
+</div>
+<div class="corollary">
+<p><span id="cor:I.5.2" class="corollary"><strong>(#cor:I.5.2) </strong></span>Let <eq env="math">f\colon X\to Y</eq> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
+If <eq env="math">X</eq> is connected, then <eq env="math">f</eq> is an isomorphism from <eq env="math">X</eq> to a connected component of <eq env="math">Y</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-11" class="proof"><em>Proof</em>. </span>Indeed, <eq env="math">f</eq> is also an open immersion.</p>
+</div>
+<p>We thus deduce:</p>
+<div class="corollary">
+<p><span id="cor:I.5.3" class="corollary"><strong>(#cor:I.5.3) </strong></span>Let <eq env="math">X</eq> be an unramified <eq env="math">Y</eq>-scheme, with <eq env="math">Y</eq> connected.
+Then every section of <eq env="math">X</eq> over <eq env="math">Y</eq> is an isomorphism from <eq env="math">Y</eq> to a connected component of <eq env="math">X</eq>.
+There is thus a bijective correspondence between the set of such sections and the set of connected components <eq env="math">X_i</eq> of <eq env="math">X</eq> such that the projection <eq env="math">X_i\to Y</eq> is an isomorphism (or, equivalently, by <a href="#I.5.1">5.1</a>, surjective and radicial).
+In particular, a section is determined by its value at a point.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-12" class="proof"><em>Proof</em>. </span>Only the first claim demands a proof;
+by <a href="#I.5.2">5.2</a>, it suffices to note that a section is a closed immersion (since <eq env="math">X</eq> is separated over <eq env="math">Y</eq>) and also étale, by <a href="#I.4.8">4.8</a>.</p>
+</div>
+<p>::: {corollary #I.5.4}
+Let <eq env="math">X</eq> and <eq env="math">Y</eq> be preschemes over <eq env="math">S</eq>, with <eq env="math">X</eq> unramified and separated over <eq env="math">S</eq>, and <eq env="math">Y</eq> connected.
+Let <eq env="math">f</eq> and <eq env="math">g</eq> be <eq env="math">S</eq>-morphisms from <eq env="math">Y</eq> to <eq env="math">X</eq>, and suppose that <eq env="math">y</eq> is a point of <eq env="math">Y</eq> such that <eq env="math">f(y)=g(y)=x</eq>, and such that the residue homomorphisms <eq env="math">k(x)\to k(y)</eq> defined by <eq env="math">f</eq> and <eq env="math">g</eq> are identical (“<eq env="math">f</eq> and <eq env="math">g</eq> agree geometrically at <eq env="math">y</eq>”).
+Then <eq env="math">f</eq> and <eq env="math">g</eq> are identical.
+:::</p>
+<div class="proof">
+<p><span id="unlabeled-div-13" class="proof"><em>Proof</em>. </span>This follows from <a href="#I.5.3">5.3</a> by reducing to the case where <eq env="math">Y=S</eq>, and by replacing <eq env="math">X</eq> with <eq env="math">X\times_S Y</eq>.</p>
+</div>
+<p>Here is a particularly important variant of <a href="#I.5.3">5.3</a>:</p>
+<div class="theorem">
+<p><span id="thm:I.5.5" class="theorem"><strong>(#thm:I.5.5) </strong></span>Let <eq env="math">S</eq> be a prescheme, and let <eq env="math">X</eq> and <eq env="math">Y</eq> be <eq env="math">S</eq>-preschemes.
+Let <eq env="math">S_0</eq> be a closed sub-prescheme of <eq env="math">S</eq> having the same underlying space as <eq env="math">S</eq>, and let <eq env="math">X_0=X\times_S S_0</eq> and <eq env="math">Y_0=Y\times_S S_0</eq> be the “restrictions” of <eq env="math">X</eq> and <eq env="math">Y</eq> to <eq env="math">S_0</eq>.
+Suppose that <eq env="math">X</eq> is étale over <eq env="math">S</eq>.
+Then the natural map
+<eq env="displaymath">
+    \operatorname{Hom}_S(Y,X) \to \operatorname{Hom}_{S_0}(X_0,Y_0)
+  </eq>
+is <em>bijective</em>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-14" class="proof"><em>Proof</em>. </span>We can again reduce to the case where <eq env="math">Y=S</eq>, and then this follows from the “topological” description of sections of <eq env="math">X/Y</eq> given in <a href="#I.5.3">5.3</a>.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-15" class="remark"><em>Remark</em> (Scholium). </span>This result contains a claim of <em>uniqueness</em> and of <em>existence</em> of <em>morphisms</em>.
+It can also be expressed (if <eq env="math">X</eq> and <eq env="math">Y</eq> are both étale over <eq env="math">S</eq>) by saying that the functor <eq env="math">X\mapsto X_0</eq> from the category of étale <eq env="math">S</eq>-schemes to the category of étale <eq env="math">S_0</eq>-schemes is <em>fully faithful</em>, i.e. establishes an <em>equivalence</em> between the first and a <em>full subcategory</em> of the second.
+We will see below that it is in fact an equivalence between the first and the second (which will be a theorem of <em>existence for étale <eq env="math">S</eq>-schemes</em>).</p>
+</div>
+<p>The following form (which appears to be more general) of <a href="I.html#I.5.5">5.5</a> is often useful:</p>
+<div class="corollary">
+<p><span id="cor:I.5.6" class="corollary"><strong>(#cor:I.5.6) (Extension of coverings) </strong></span>Consider a commutative diagram of morphisms
+<eq env="displaymath">
+    \begin{CD}
+      X @&lt;&lt;&lt; Y_0
+    \\@VVV @VVV
+    \\S @&lt;&lt;&lt; Y
+    \end{CD}
+  </eq>
+where <eq env="math">X\to S</eq> is étale, and <eq env="math">Y_0\to Y</eq> is a bijective closed immersion.
+Then we can find a unique morphism <eq env="math">Y\to X</eq> such that the two corresponding triangles commute.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-16" class="proof"><em>Proof</em>. </span>By replacing <eq env="math">S</eq> with <eq env="math">Y</eq>, and <eq env="math">X</eq> with <eq env="math">X\times_S Y</eq>, we can reduce to the case where <eq env="math">Y=S</eq>, and this is then a particular case of <a href="I.html#I.5.5">5.5</a> for <eq env="math">Y=S</eq>.</p>
+</div>
+<p>We also note the following immediate consequence of <a href="#I.5.1">5.1</a> (which we did not give as a corollary, in order to not interrupt the line of ideas developed following <a href="#I.5.1">5.1</a>:</p>
+<div class="proposition">
+<p><span id="prp:I.5.7" class="proposition"><strong>(#prp:I.5.7) </strong></span>Let <eq env="math">X</eq> and <eq env="math">X'</eq> be preschemes that are of finite type and flat over <eq env="math">Y</eq>, and let <eq env="math">g\colon X\to X'</eq> be a <eq env="math">Y</eq>-morphism.
+For <eq env="math">g</eq> to be an open immersion (resp. an isomorphism), it is necessary and sufficient for the induced morphism on the fibres
+<eq env="displaymath">
+    g\otimes_Y k(y)\colon
+    X\otimes_Y k(y) \to X'\otimes_Y k(y)
+  </eq>
+to be an open immersion (resp. an isomorphism) for all <eq env="math">y\in Y</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-17" class="proof"><em>Proof</em>. </span>It suffices to prove sufficiency;
+since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
+By <a href="#I.5.1">5.1</a>, we have to show that <eq env="math">g</eq> is <em>radicial</em> (which is trivial) and <em>étale</em> (which follows from <a href="#I.5.9">5.9</a> below).</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.5.8" class="corollary"><strong>(#cor:I.5.8) </strong></span>Let <eq env="math">X</eq> and <eq env="math">X'</eq> be <eq env="math">Y</eq>-preschemes, <eq env="math">g\colon X\to X'</eq> a <eq env="math">Y</eq>-morphism, <eq env="math">x</eq> a point of <eq env="math">X</eq>, and <eq env="math">y</eq> the projection of <eq env="math">x</eq> in <eq env="math">Y</eq>.
+For <eq env="math">g</eq> to be quasi-finite (resp. unramified) at <eq env="math">x</eq>, it is necessary and sufficient for <eq env="math">g\otimes_Y k(y)</eq> to be so.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-18" class="proof"><em>Proof</em>. </span>The two algebras over <eq env="math">k(g(x))</eq> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <eq env="math">x</eq> are the same for <eq env="math">g</eq> and <eq env="math">g\otimes_Y k(y)</eq>.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.5.9" class="corollary"><strong>(#cor:I.5.9) </strong></span>With the notation of <a href="#I.5.8">5.8</a>, suppose that <eq env="math">X</eq> and <eq env="math">X'</eq> are flat and of finite type over <eq env="math">Y</eq>.
+For <eq env="math">g</eq> to be flat (resp. étale) at <eq env="math">x</eq>, it is necessary and sufficient for <eq env="math">g\otimes_Y k(y)</eq> to be so.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-19" class="proof"><em>Proof</em>. </span>For “flat”, the statement only serves as a reminder, since this is one of the fundamental criteria of flatness<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.
+For “étale”, this follows by taking <a href="#I.5.8">5.8</a> into account.</p>
+</div>
 
 </div>
 <div id="I.6" class="section level2">
@@ -328,7 +446,7 @@ If <eq env="math">B</eq> is étale over <eq env="math">A</eq>, then the canonica
 is bijective.</p>
 </div>
 <div class="proof">
-<p><span id="unlabeled-div-10" class="proof"><em>Proof</em>. </span>We can reduce to the case where <eq env="math">A</eq> is Artinian (by replacing <eq env="math">A</eq> by <eq env="math">A/{\mathfrak{m}}^n</eq>), and then it is a particular case of <span id="I.5.5">5.5</span>.</p>
+<p><span id="unlabeled-div-20" class="proof"><em>Proof</em>. </span>We can reduce to the case where <eq env="math">A</eq> is Artinian (by replacing <eq env="math">A</eq> by <eq env="math">A/{\mathfrak{m}}^n</eq>), and then this is a particular case of <span id="I.5.5">5.5</span>.</p>
 <p>It remains to prove that, for every finite and separable <eq env="math">k</eq> algebra (or we can simply say “étale”, for brevity) <eq env="math">L</eq>, there exists some <eq env="math">B</eq> étale over <eq env="math">A</eq> such that <eq env="math">R(B)</eq> is isomorphic to <eq env="math">L</eq>.
 We can suppose that <eq env="math">L</eq> is a separable extension of <eq env="math">k</eq>, and, as such, it admits a generator <eq env="math">x</eq>, i.e. it is isomorphic to an algebra <eq env="math">k[t]/Fk[t]</eq>, where <eq env="math">F\in k[t]</eq> is a monic polynomial.
 We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> in <eq env="math">A[t]</eq>, and we take <eq env="math">B=A[t]/F_1A[t]</eq>.</p>
@@ -336,6 +454,7 @@ We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> 
 
 </div>
 </div>
+
 
 
 
@@ -354,6 +473,7 @@ We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> 
 <li id="fn3"><p>cf. regrets in III~1.2.<a href="I.html#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p>cf. IV.<a href="I.html#fnref4" class="footnote-back">↩︎</a></p></li>
 <li id="fn5"><p>cf. regrets in III 1.2.<a href="I.html#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>cf. <a href="#IV.5.9">IV.5.9</a><a href="I.html#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 <script type="text/javascript" src="../katex.min.js"></script>

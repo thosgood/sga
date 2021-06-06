@@ -52,13 +52,4 @@ output:
 \providecommand{\Hom}{\operatorname{Hom}}
 \providecommand{\id}{\mathrm{id}}
 
-```{r echo=FALSE,warning=FALSE}
- library(knitr)
-  opts_chunk$set(cache=TRUE,
-                 echo=FALSE,
-                 fig.pos='H',
-                 fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'png'
-                )
-```
-
 # Introduction {-}
