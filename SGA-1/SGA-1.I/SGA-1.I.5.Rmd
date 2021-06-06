@@ -89,7 +89,7 @@ We will see below that it is in fact an equivalence between the first and the se
 
 \oldpage{8}
 
-The following form (which appears to be more general) of [5.5](#I.5.5) is often useful:
+The following form (which looks more general) of [5.5](#I.5.5) is often useful:
 
 ::: {.itenv #I.5.6 title="Corollary 5.6"}
 **(Extension of coverings).**

@@ -14,7 +14,6 @@ This statement follows from the following, more precise:
 
 ::: {.itenv #I.7.2 title="Corollary 7.2"}
 The different ideal of $B/A$ contains $u'B$, and is equal to $u'B$ if the natural homomorphism $A[t]/FA[t]\to B$ (sending $t$ to $u$) is an isomorphism.
-}
 :::
 
 ::: {.proof}
