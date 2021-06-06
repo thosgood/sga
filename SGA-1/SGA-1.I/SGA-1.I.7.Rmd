@@ -129,5 +129,29 @@ So [7.6](#I.7.6) now follows from the combination of [7.9](#I.7.9) and [7.10](#I
 it remains only to prove [7.9](#I.7.9).
 
 ::: {.proof name="of Lemma 7.9"}
-Let $S'=B'\setminus\frak{n}'$
+Let $S'=B'\setminus\frak{n}'$, so that $B'S'^{-1}=B'_\frak{n'}$.
+Similarly, let $S=B\setminus\frak{n}$, so that $BS^{-1}=B_\frak{n}$.
+We then have a natural homomorphism $BS'^{-1}\to BS^{-1}=B_\frak{n}$;
+we will show that this is an isomorphism, i.e. that the elements of $S$ are invertible in $BS'^{-1}$, i.e. that every maximal ideal $\frak{p}$ of $BS'^{-1}$ does not meet $S$, i.e. that every maximal ideal of $BS'^{-1}$ induces $\frak{n}$ on $B$.
+\[
+  \begin{CD}
+    B @>>> BS'^{-1} @>>> BS^{-1} = B_\frak{n}
+  \\@AAA @AAA
+  \\B' @>>> B'S'^{-1} = B'_{\frak{n}'}
+  \end{CD}
+\]
+Since $BS'^{-1}$ is finite over $B'S'^{-1}=B'_{\frak{n}'}$, $\frak{p}$ induces the unique maximal ideal $\frak{n}'B_{\frak{n}'}$ of $B'_{\frak{n}'}$, and thus induces the maximal ideal $\frak{n}'$ of $B'$;
+since $B$ is finite over $B'$, the ideal $\frak{q}$ of $B$ induced by $\frak{p}$, which lives over $\frak{n}'$, is necessarily maximal, and does not contain $u$, and is thus identical to $\frak{n}$.
+(We have just used the fact that $u$ belongs to every maximal ideal of $B$ that is distinct from $\frak{n}$).
+We now prove that $BS'^{-1}$ is equal to $B'S'^{-1}$:
+since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo $\frak{n}'BS'^{-1}$, and, a fortiori, it suffices to prove equality modulo $\frak{m}BS'^{-1}$;
+but $BS'^{-1}/\frak{m}BS'^{-1}=B_\frak{n}/\frak{m}B_\frak{n}$ is generated, over $k$, by $u$ (here we use the other property of $u$), and so the image of $B'$ (and, a fortiori, of $B'S'^{-1}$) inside is everything (as a subring that contains $k$ and the image of $u$.)
+:::
+
+::: {.rmenv title="Remark"}
+We must be able to state [7.6](#I.7.6) for a ring $\cal{O}$ which is only semi-local, so that we also cover [7.5](#I.7.5):
+we make the hypothesis that $\cal{O}/\frak{m}\cal{O}$ is a _monogenous_ $k$-algebra;
+we can thus find some $u\in B$ whose image in $B/\frak{m}B$ is a generator, and belongs to every maximal ideal of $B$ that doesn't come from $\cal{O}$.
+Both [7.9](#I.7.9) and [7.10](#I.7.10) should be able to be adapted without difficulty.
+More generally, ...
 :::

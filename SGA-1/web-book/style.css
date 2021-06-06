@@ -1,9 +1,9 @@
 html {
-  font-size: 80%;
+  font-size: 85%;
 }
 
 .page-inner {
-  max-width: 700px !important;
+  max-width: 720px !important;
 }
 
 .katex-html {

@@ -83,6 +83,7 @@
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.5"><i class="fa fa-check"></i>5. Fundamental property of étale morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.6"><i class="fa fa-check"></i>6. Application to étale extensions of complete local rings</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.7"><i class="fa fa-check"></i>7. Local construction of unramified and étale morphisms</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.8"><i class="fa fa-check"></i>8. Infinitesimal lifting of étale schemes. Applications to formal schemes</a></li>
 </ul></li>
 </ul>
 
@@ -268,7 +269,7 @@ Then the set of points where <eq env="math">f</eq> is étale is open.</p>
 <p><span id="unlabeled-div-4" class="proof"><em>Proof</em>. </span>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for “unramified” and “flat”.</p>
 </div>
 <p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).</p>
-<p><em>[Trans.] Grothendieck’s <em>multiplodoque d’algèbre homologique</em> was the final version of his <em>Tohoku paper</em> — see (2.1) in `Life and work of Alexander Grothendieck’ by Ching-Li Chan and Frans Oort for more information.</em></p>
+<p><em>[Trans.] Grothendieck’s <em>multiplodoque d’algèbre homologique</em> was the final version of his <em>Tohoku paper</em> — see (2.1) in ‘Life and work of Alexander Grothendieck’ by Ching-Li Chan and Frans Oort for more information.</em></p>
 <div id="I.4.7" class="itenv" title="Corollary 4.7">
 <p>The cartesian product of two étale morphisms is étale.</p>
 </div>
@@ -554,7 +555,38 @@ Then there exists a monic polynomial <eq env="math">F\in A[t]</eq> such that <eq
 <p>So <a href="I.html#I.7.6">7.6</a> now follows from the combination of <a href="I.html#I.7.9">7.9</a> and <a href="I.html#I.7.10">7.10</a>;
 it remains only to prove <a href="I.html#I.7.9">7.9</a>.</p>
 <div class="proof">
-<p><span id="unlabeled-div-24" class="proof"><em>Proof</em> (of Lemma 7.9). </span>Let <eq env="math">S'=B'\setminus{\mathfrak{n}}'</eq></p>
+<p><span id="unlabeled-div-24" class="proof"><em>Proof</em> (of Lemma 7.9). </span>Let <eq env="math">S'=B'\setminus{\mathfrak{n}}'</eq>, so that <eq env="math">B'S'^{-1}=B'_{\mathfrak{n'}}</eq>.
+Similarly, let <eq env="math">S=B\setminus{\mathfrak{n}}</eq>, so that <eq env="math">BS^{-1}=B_{\mathfrak{n}}</eq>.
+We then have a natural homomorphism <eq env="math">BS'^{-1}\to BS^{-1}=B_{\mathfrak{n}}</eq>;
+we will show that this is an isomorphism, i.e. that the elements of <eq env="math">S</eq> are invertible in <eq env="math">BS'^{-1}</eq>, i.e. that every maximal ideal <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">BS'^{-1}</eq> does not meet <eq env="math">S</eq>, i.e. that every maximal ideal of <eq env="math">BS'^{-1}</eq> induces <eq env="math">{\mathfrak{n}}</eq> on <eq env="math">B</eq>.
+<eq env="displaymath">
+  \begin{CD}
+    B @&gt;&gt;&gt; BS'^{-1} @&gt;&gt;&gt; BS^{-1} = B_{\mathfrak{n}}
+  \\@AAA @AAA
+  \\B' @&gt;&gt;&gt; B'S'^{-1} = B'_{{\mathfrak{n}}'}
+  \end{CD}
+</eq>
+Since <eq env="math">BS'^{-1}</eq> is finite over <eq env="math">B'S'^{-1}=B'_{{\mathfrak{n}}'}</eq>, <eq env="math">{\mathfrak{p}}</eq> induces the unique maximal ideal <eq env="math">{\mathfrak{n}}'B_{{\mathfrak{n}}'}</eq> of <eq env="math">B'_{{\mathfrak{n}}'}</eq>, and thus induces the maximal ideal <eq env="math">{\mathfrak{n}}'</eq> of <eq env="math">B'</eq>;
+since <eq env="math">B</eq> is finite over <eq env="math">B'</eq>, the ideal <eq env="math">{\mathfrak{q}}</eq> of <eq env="math">B</eq> induced by <eq env="math">{\mathfrak{p}}</eq>, which lives over <eq env="math">{\mathfrak{n}}'</eq>, is necessarily maximal, and does not contain <eq env="math">u</eq>, and is thus identical to <eq env="math">{\mathfrak{n}}</eq>.
+(We have just used the fact that <eq env="math">u</eq> belongs to every maximal ideal of <eq env="math">B</eq> that is distinct from <eq env="math">{\mathfrak{n}}</eq>).
+We now prove that <eq env="math">BS'^{-1}</eq> is equal to <eq env="math">B'S'^{-1}</eq>:
+since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <eq env="math">{\mathfrak{n}}'BS'^{-1}</eq>, and, a fortiori, it suffices to prove equality modulo <eq env="math">{\mathfrak{m}}BS'^{-1}</eq>;
+but <eq env="math">BS'^{-1}/{\mathfrak{m}}BS'^{-1}=B_{\mathfrak{n}}/{\mathfrak{m}}B_{\mathfrak{n}}</eq> is generated, over <eq env="math">k</eq>, by <eq env="math">u</eq> (here we use the other property of <eq env="math">u</eq>), and so the image of <eq env="math">B'</eq> (and, a fortiori, of <eq env="math">B'S'^{-1}</eq>) inside is everything (as a subring that contains <eq env="math">k</eq> and the image of <eq env="math">u</eq>.)</p>
+</div>
+<div class="rmenv" title="Remark">
+<p>We must be able to state <a href="I.html#I.7.6">7.6</a> for a ring <eq env="math">{\mathcal{O}}</eq> which is only semi-local, so that we also cover <a href="I.html#I.7.5">7.5</a>:
+we make the hypothesis that <eq env="math">{\mathcal{O}}/{\mathfrak{m}}{\mathcal{O}}</eq> is a <em>monogenous</em> <eq env="math">k</eq>-algebra;
+we can thus find some <eq env="math">u\in B</eq> whose image in <eq env="math">B/{\mathfrak{m}}B</eq> is a generator, and belongs to every maximal ideal of <eq env="math">B</eq> that doesn’t come from <eq env="math">{\mathcal{O}}</eq>.
+Both <a href="I.html#I.7.9">7.9</a> and <a href="I.html#I.7.10">7.10</a> should be able to be adapted without difficulty.
+More generally, …</p>
+</div>
+
+</div>
+<div id="I.8" class="section level2">
+<h2>8. Infinitesimal lifting of étale schemes. Applications to formal schemes</h2>
+<div id="I.8.1" class="itenv" title="Proposition 8.1">
+<p>Let <eq env="math">Y</eq> be a prescheme, <eq env="math">Y_0</eq> a sub-prescheme, <eq env="math">X_0</eq> an étale <eq env="math">Y_0</eq>-scheme, and <eq env="math">x</eq> a point of <eq env="math">X_0</eq>.
+Then there exists an étale <eq env="math">Y</eq>-scheme <eq env="math">X</eq>, a neighbourhood <eq env="math">U_0</eq> of <eq env="math">x</eq> in <eq env="math">X_0</eq>, and a <eq env="math">Y_0</eq>-isomorphism <eq env="math">U_0\xrightarrow{\sim}X\times_Y Y_0</eq>.</p>
 </div>
 
 </div>
@@ -575,9 +607,9 @@ it remains only to prove <a href="I.html#I.7.9">7.9</a>.</p>
 <ol start="1">
 <li id="fn1"><p>cf. EGA IV 16.3.<a href="I.html#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>In EGA II 6.2.3 we further suppose that <eq env="math">f</eq> is of finite type.<a href="I.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>cf. regrets in III~1.2.<a href="I.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>cf. regrets in <a href="#III.1.2">III 1.2</a>.<a href="I.html#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p>cf. IV.<a href="I.html#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>cf. regrets in III 1.2.<a href="I.html#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>cf. regrets in <a href="#III.1.2">III 1.2</a>.<a href="I.html#fnref5" class="footnote-back">↩︎</a></p></li>
 <li id="fn6"><p>cf. <a href="#IV.5.9">IV.5.9</a><a href="I.html#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

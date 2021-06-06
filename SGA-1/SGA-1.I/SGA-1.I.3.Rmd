@@ -24,7 +24,7 @@ We can thus suppose that $X$ consists of a single point, with ring $A$, and so $
 a. Let $f$ satisfy one of the equivalent conditions of [3.1](#I.3.1).
   We then say that $f$ is _unramified_ at $x$, or that $X$ is unramified at $x$ on $Y$.
 b. Let $A\to B$ be a local homomorphism.
-  We say that it is _unramified_, or that $B$ is a local _unramified_ algebra on $A$, if $B/\frak{r}(A)B$ is a finite separable extension of $A/\frak{r}(A)$, i.e. if $\frak{r}(A)B=\frak{r}(B)$ and $k(B)$ is a separable extension of $k(A)$.^[cf. regrets in III~1.2.]
+  We say that it is _unramified_, or that $B$ is a local _unramified_ algebra on $A$, if $B/\frak{r}(A)B$ is a finite separable extension of $A/\frak{r}(A)$, i.e. if $\frak{r}(A)B=\frak{r}(B)$ and $k(B)$ is a separable extension of $k(A)$.^[cf. regrets in [III 1.2](#III.1.2).]
 :::
 
 \oldpage{3}

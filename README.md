@@ -18,7 +18,7 @@
 4. [Étale morphisms. Étale coverings](SGA-1/web-book/I.html#I.4) _(@thosgood)_
 5. [Fundamental property of étale morphisms](SGA-1/web-book/I.html#I.5) _(@thosgood)_
 6. [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6) _(@thosgood)_
-7. [ ] Local construction of unramified and étale morphisms _(3)_
+7. [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7) _(@thosgood)_
 8. [ ] Infinitesimal lifting of étale schemes. Applications to formal schemes _(2)_
 9. [ ] Permanence properties _(6)_
 10. [ ] Étale coverings of a normal scheme _(5)_

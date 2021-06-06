@@ -1,1 +1,6 @@
 ## 8. Infinitesimal lifting of étale schemes. Applications to formal schemes {#I.8}
+
+::: {.itenv #I.8.1 title="Proposition 8.1"}
+Let $Y$ be a prescheme, $Y_0$ a sub-prescheme, $X_0$ an étale $Y_0$-scheme, and $x$ a point of $X_0$.
+Then there exists an étale $Y$-scheme $X$, a neighbourhood $U_0$ of $x$ in $X_0$, and a $Y_0$-isomorphism $U_0\xrightarrow{\sim}X\times_Y Y_0$.
+:::
