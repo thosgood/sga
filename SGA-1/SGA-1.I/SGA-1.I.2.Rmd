@@ -1,0 +1,21 @@
+## 2. Quasi-finite morphisms {#I.2}
+
+::: {.proposition #I.2.1}
+  Let $A\to B$ be a local homomorphism (N.B. all rings are now Noetherian) and $\frak{m}$ the maximal ideal of $A$.
+  Then the following conditions are equivalent:
+  
+  i. $B/\frak{m}B$ is of finite dimension over $k=A/\frak{m}$.
+  ii. $\frak{m}B$ is an ideal of definition, and $B/\frak{r}(B)=k(B)$ is an extension of $k=k(A)$.
+  iii. The completion $\hat{B}$ of $B$ is finite over the completion $\hat{A}$ of $A$.
+:::
+
+We then say that $B$ is _quasi-finite_ over $A$.
+A morphism $f\colon X\to Y$ is said to be quasi-finite at $x$ (or the $Y$-prescheme $f$ is said to be quasi-finite at $x$) if $\cal{O}_x$ is quasi-finite over $\cal{O}_{f(x)}$.
+This is equivalent to saying that $x$ is _isolated in its fibre $f^{-1}(x)$_.
+A morphism is said to be quasi-finite if it is quasi-finite at each point^[In EGA II 6.2.3 we further suppose that $f$ is of finite type.].
+
+::: {.corollary #I.2.2}
+  If $A$ is complete, then quasi-finiteness is equivalent to finiteness.
+:::
+
+We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.

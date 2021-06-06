@@ -14,14 +14,14 @@ output:
     config:
       toc:
         before: |
-          <li><h4>Table of contents</h4></li>
+          <li><h4>SGA 1</h4></li>
         collapse: section
 #      view: https://github.com/thosgood/sga/blob/master/%s
 #      download: ["pdf"]
       fontsettings:
         theme: white
         family: serif
-        size: 1
+        size: 2
       sharing:
         facebook: no
         github: no
@@ -38,21 +38,26 @@ output:
 #    keep_tex: yes
 ---
 
-\providecommand{\tr}{\operatorname{tr}}
-\providecommand{\id}{\mathrm{id}}
 \renewcommand{\leq}{\leqslant}
 \renewcommand{\geq}{\geqslant}
+\renewcommand{\hat}{\widehat}
 \renewcommand{\cal}[1]{{\mathcal{#1}}}
 \renewcommand{\scr}[1]{{\mathscr{#1}}}
 \renewcommand{\frak}[1]{{\mathfrak{#1}}}
+
+\providecommand{\alg}[1]{#1\mathsf{-alg}}
+
+\providecommand{\tr}{\operatorname{tr}}
+\providecommand{\Spec}{\operatorname{Spec}}
+\providecommand{\Hom}{\operatorname{Hom}}
+\providecommand{\id}{\mathrm{id}}
 
 ```{r echo=FALSE,warning=FALSE}
  library(knitr)
   opts_chunk$set(cache=TRUE,
                  echo=FALSE,
                  fig.pos='H',
-                 fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'png',
-                 fig.align='center'
+                 fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'png'
                 )
 ```
 

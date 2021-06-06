@@ -468,9 +468,23 @@
 6. [ ] Morphisms of radicial data _(17)_
 7. [ ] Structure _(12)_
 
-### XXII. Reductive groups: ???, subgroups, quotient groups
+### XXII. Reductive groups: split groups, subgroups, quotient groups
+
+1. [ ] Roots and coroots. Split groups and radicial data _(9)_
+2. [ ] Existence of split groups. Type of a reductive group _(3)_
+3. [ ] The Weyl group _(3)_
+4. [ ] Homomorphisms of split groups _(16)_
+5. [ ] Subgroups of type (R) _(64)_
+6. [ ] The derived group _(12)_
 
 ### XXIII. Reductive groups: uniticity of pinned groups
+
+1. [ ] Pinnings _(8)_
+2. [ ] Generators and relations for a pinned group _(14)_
+3. [ ] Groups of semi-simple rank $2$ _(20)_
+4. [ ] Uniqueness of pinned groups: fundamental theorem _(8)_
+5. [ ] Corollaries of the fundamental theorem _(5)_
+6. [ ] Chevalley systems _(5)_
 
 ### XXIV. Automorphisms of reductive groups
 

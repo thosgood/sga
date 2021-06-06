@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)</title>
+  <title>I. Étale morphisms | Étale covers and the fundamental group (SGA 1)</title>
   <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
+  <meta property="og:title" content="I. Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
+  <meta name="twitter:title" content="I. Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
   
   <meta name="twitter:description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
   
@@ -70,14 +70,18 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><h4>Table of contents</h4></li>
+<li><h4>SGA 1</h4></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
-<li class="chapter" data-level="1" data-path="I.html"><a href="I.html"><i class="fa fa-check"></i><b>1</b> Étale morphisms</a>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html"><i class="fa fa-check"></i>I. Étale morphisms</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="I.html"><a href="I.html#I.1"><i class="fa fa-check"></i><b>1.1</b> Basics of differential calculus</a></li>
-<li class="chapter" data-level="1.2" data-path="I.html"><a href="I.html#I.2"><i class="fa fa-check"></i><b>1.2</b> Quasi-finite morphisms</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.1"><i class="fa fa-check"></i>1. Basics of differential calculus</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.2"><i class="fa fa-check"></i>2. Quasi-finite morphisms</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.3"><i class="fa fa-check"></i>3. Unramified morphisms</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.4"><i class="fa fa-check"></i>4. Étale morphisms. Étale coverings</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.5"><i class="fa fa-check"></i>5. Fundamental property of étale morphisms</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.6"><i class="fa fa-check"></i>6. Application to étale extensions of complete local rings</a></li>
 </ul></li>
 </ul>
 
@@ -96,10 +100,12 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="I" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Étale morphisms</h1>
-<div id="I.1" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Basics of differential calculus</h2>
+<div id="I" class="section level1">
+<h1>I. Étale morphisms</h1>
+<p>To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <a href="I.html#I.2">§2</a>).</p>
+
+<div id="I.1" class="section level2">
+<h2>1. Basics of differential calculus</h2>
 <p>Let <eq env="math">X</eq> be a prescheme on <eq env="math">Y</eq>, and <eq env="math">\Delta_{X/Y}</eq> the diagonal morphism <eq env="math">X\to X\times_Y X</eq>.
 This is an immersion, and thus a closed immersion of <eq env="math">X</eq> into an open subset <eq env="math">V</eq> of <eq env="math">X\times_Y X</eq>.
 Let <eq env="math">{\mathscr{I}}_X</eq> be the ideal of the closed sub-prescheme corresponding to the diagonal in <eq env="math">V</eq> (N.B. if one really wishes to do things intrinsically, without assuming that <eq env="math">X</eq> is separated over <eq env="math">Y</eq> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <eq env="math">{\mathcal{O}}_{X\times X}</eq> in <eq env="math">X</eq> and denote by <eq env="math">{\mathscr{I}}_X</eq> the augmentation ideal in the above ).
@@ -108,12 +114,232 @@ This sheaf is of finite type if <eq env="math">X\to Y</eq> is of finite type, an
 We also introduce the sheaves <eq env="math">{\mathcal{O}}_{X\times_Y X}/{\mathscr{I}}_X^{n+1}={\mathscr{P}}^n_{X/Y}</eq>, which are sheaves of  on <eq env="math">X</eq>, giving us preschemes denoted by <eq env="math">\Delta_{X/Y}^n</eq> and called the .
 The polysyllogism is entirely trivial, even if rather long<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>;
 it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.</p>
+
 </div>
-<div id="I.2" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Quasi-finite morphisms</h2>
+<div id="I.2" class="section level2">
+<h2>2. Quasi-finite morphisms</h2>
+<div class="proposition">
+<p><span id="prp:I.2.1" class="proposition"><strong>(#prp:I.2.1) </strong></span>Let <eq env="math">A\to B</eq> be a local homomorphism (N.B. all rings are now Noetherian) and <eq env="math">{\mathfrak{m}}</eq> the maximal ideal of <eq env="math">A</eq>.
+Then the following conditions are equivalent:</p>
+<ol style="list-style-type: lower-roman">
+<li><eq env="math">B/{\mathfrak{m}}B</eq> is of finite dimension over <eq env="math">k=A/{\mathfrak{m}}</eq>.</li>
+<li><eq env="math">{\mathfrak{m}}B</eq> is an ideal of definition, and <eq env="math">B/{\mathfrak{r}}(B)=k(B)</eq> is an extension of <eq env="math">k=k(A)</eq>.</li>
+<li>The completion <eq env="math">\widehat{B}</eq> of <eq env="math">B</eq> is finite over the completion <eq env="math">\widehat{A}</eq> of <eq env="math">A</eq>.</li>
+</ol>
+</div>
+<p>We then say that <eq env="math">B</eq> is <em>quasi-finite</em> over <eq env="math">A</eq>.
+A morphism <eq env="math">f\colon X\to Y</eq> is said to be quasi-finite at <eq env="math">x</eq> (or the <eq env="math">Y</eq>-prescheme <eq env="math">f</eq> is said to be quasi-finite at <eq env="math">x</eq>) if <eq env="math">{\mathcal{O}}_x</eq> is quasi-finite over <eq env="math">{\mathcal{O}}_{f(x)}</eq>.
+This is equivalent to saying that <eq env="math">x</eq> is <em>isolated in its fibre <eq env="math">f^{-1}(x)</eq></em>.
+A morphism is said to be quasi-finite if it is quasi-finite at each point<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
+<div class="corollary">
+<p><span id="cor:I.2.2" class="corollary"><strong>(#cor:I.2.2) </strong></span>If <eq env="math">A</eq> is complete, then quasi-finiteness is equivalent to finiteness.</p>
+</div>
+<p>We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn’t seem necessary here.</p>
+
+</div>
+<div id="I.3" class="section level2">
+<h2>3. Unramified morphisms</h2>
+<div class="proposition">
+<p><span id="prp:I.3.1" class="proposition"><strong>(#prp:I.3.1) </strong></span>Let <eq env="math">f\colon X\to Y</eq> be a morphism of finite type, <eq env="math">x\in X</eq>, and <eq env="math">y=f(x)</eq>.
+Then the following conditions are equivalent:</p>
+<ol style="list-style-type: lower-roman">
+<li><eq env="math">{\mathcal{O}}_x/{\mathfrak{m}}_y{\mathcal{O}}_x</eq> is a finite separable extension of <eq env="math">k(y)</eq>.</li>
+<li><eq env="math">\Omega_{X/Y}^1</eq> is zero at <eq env="math">x</eq>.</li>
+<li>The diagonal morphism <eq env="math">\Delta_{X/Y}</eq> is an open immersion on a neighbourhood of <eq env="math">x</eq>.</li>
+</ol>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-1" class="proof"><em>Proof</em>. </span>For the implication (i) <eq env="math">\implies</eq> (ii), we can use Nakayama to reduce to the case where <eq env="math">Y=\operatorname{Spec}(k)</eq> and <eq env="math">X=\operatorname{Spec}(k')</eq>, where it is well known, and also trivial by the definition of separable;
+(ii) <eq env="math">\implies</eq> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+(iii) <eq env="math">\implies</eq> (i) follows as well from reducing to the case where <eq env="math">Y=\operatorname{Spec}(k)</eq> and the diagonal morphism is everywhere an open immersion.
+We must then prove that <eq env="math">X</eq> is finite with separable ring over <eq env="math">k</eq>, and this leads us to consider the case where <eq env="math">k</eq> is algebraically closed.
+But then every closed point of <eq env="math">X</eq> is isolated (since it is identical to the inverse image of the diagonal by the morphism <eq env="math">X\to X\times_k X</eq> defined by <eq env="math">x</eq>), whence <eq env="math">X</eq> is finite.
+We can thus suppose that <eq env="math">X</eq> consists of a single point, with ring <eq env="math">A</eq>, and so <eq env="math">A\otimes_k A\to A</eq> is an isomorphism, hence <eq env="math">A=k</eq>.</p>
+</div>
+<div class="definition">
+<p><span id="def:I.3.2" class="definition"><strong>(#def:I.3.2) </strong></span>—</p>
+<ol style="list-style-type: lower-alpha">
+<li>Let <eq env="math">f</eq> satisfy one of the equivalent conditions of <a href="I.html#prp:I.3.1">3.1</a>.
+We then say that <eq env="math">f</eq> is <em>unramified</em> at <eq env="math">x</eq>, or that <eq env="math">X</eq> is unramified at <eq env="math">x</eq> on <eq env="math">Y</eq>.</li>
+<li>Let <eq env="math">A\to B</eq> be a local homomorphism.
+We say that it is <em>unramified</em>, or that <eq env="math">B</eq> is a local <em>unramified</em> algebra on <eq env="math">A</eq>, if <eq env="math">B/{\mathfrak{r}}(A)B</eq> is a finite separable extension of <eq env="math">A/{\mathfrak{r}}(A)</eq>, i.e. if <eq env="math">{\mathfrak{r}}(A)B={\mathfrak{r}}(B)</eq> and <eq env="math">k(B)</eq> is a separable extension of <eq env="math">k(A)</eq>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></li>
+</ol>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-2" class="remark"><em>Remark</em>. </span>The fact that <eq env="math">B</eq> is unramified over <eq env="math">A</eq> can be seen at the level of the completions of <eq env="math">A</eq> and <eq env="math">B</eq>.
+Unramified implies quasi-finite.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.3.3" class="corollary"><strong>(#cor:I.3.3) </strong></span>The set of points where <eq env="math">f</eq> is unramified is open.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.3.4" class="corollary"><strong>(#cor:I.3.4) </strong></span>Let <eq env="math">X'</eq> and <eq env="math">X</eq> be preschemes of finite type over <eq env="math">Y</eq>, and <eq env="math">g\colon X'\to X</eq> a <eq env="math">Y</eq>-morphism.
+If <eq env="math">X</eq> is unramified over <eq env="math">Y</eq>, then the graph morphism <eq env="math">\Gamma_g\colon X'\to X\times_Y X</eq> is an open immersion.</p>
+</div>
+<p>Indeed, this is the inverse image of the diagonal morphism <eq env="math">X\to X\times_Y X</eq> by
+<eq env="displaymath">
+  g\times_Y \mathrm{id}_{X'}\colon X'\times_Y X\to X\times_Y X.
+</eq>
+One can also introduce the annihilator ideal <eq env="math">{\mathfrak{d}}_{X/Y}</eq> of <eq env="math">\Omega_{X/Y}^1</eq>, called the <em>different ideal</em> of <eq env="math">X/Y</eq>;
+it defines a closed sub-prescheme of <eq env="math">X</eq> which, set-theoretically, is the set of point where <eq env="math">X/Y</eq> is ramified, i.e. not unramified.</p>
+<div class="proposition">
+<p><span id="prp:I.3.5" class="proposition"><strong>(#prp:I.3.5) </strong></span>—</p>
+<ol style="list-style-type: lower-roman">
+<li>An immersion is ramified.</li>
+<li>The composition of two ramified morphisms is also ramified.</li>
+<li>Base extension of a ramified morphisms is also ramified.</li>
+</ol>
+</div>
+<p>We are rather indifferent about (ii) and (iii) (the second seems more interesting to me).
+We can, of course, also be more precise, by giving some one-off statements;
+this is more general only in appearance (except for in the case of definition (b)), and is boring.
+We obtain, as per usual, the corollaries:</p>
+<div class="corollary">
+<p><span id="cor:I.3.6" class="corollary"><strong>(#cor:I.3.6) </strong></span>—</p>
+<ol start="4" style="list-style-type: lower-roman">
+<li>The cartesian product of two unramified morphisms is unramified.</li>
+<li>If <eq env="math">gf</eq> is unramified then so too is <eq env="math">f</eq>.</li>
+<li>If <eq env="math">f</eq> is unramified then so too is <eq env="math">f_\text{red}</eq>.</li>
+</ol>
+</div>
+<div class="proposition">
+<p><span id="prp:I.3.7" class="proposition"><strong>(#prp:I.3.7) </strong></span>Let <eq env="math">A\to B</eq> be a local homomorphism, and suppose that the residue extension <eq env="math">k(B)/k(A)</eq> is trivial, with <eq env="math">k(A)</eq> algebraically closed.
+In order for <eq env="math">B/A</eq> to be unramified, it is necessary and sufficient that <eq env="math">\widehat{B}</eq> be (as an <eq env="math">\widehat{A}</eq>-algebra) a quotient of <eq env="math">\widehat{A}</eq>.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-3" class="remark"><em>Remark</em>. </span>—</p>
+<ul>
+<li>In the case where we don’t suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of <eq env="math">A</eq> which destroys the aforementioned extension.</li>
+<li>Consider the example where <eq env="math">A</eq> is the local ring of an ordinary double point of a curve, and <eq env="math">B</eq> a point of its normalisation:
+then <eq env="math">A\subset B</eq>, <eq env="math">B</eq> is unramified over <eq env="math">A</eq> with trivial residue extension, and <eq env="math">\widehat{A}\to\widehat{B}</eq> is surjective but <em>not injective</em>.
+We are thus going to strengthen the notion of unramified-ness.</li>
+</ul>
+</div>
+
+</div>
+<div id="I.4" class="section level2">
+<h2>4. Étale morphisms. Étale coverings</h2>
+<p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
+these facts will be proved later, if there is time<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>.</p>
+<div class="definition">
+<p><span id="def:I.4.1" class="definition"><strong>(#def:I.4.1) </strong></span>—</p>
+<ol style="list-style-type: lower-alpha">
+<li>Let <eq env="math">f\colon X\to Y</eq> be a morphism of finite type.
+We say that <eq env="math">f</eq> is  at <eq env="math">x</eq> if <eq env="math">f</eq> is both flat and unramified at <eq env="math">x</eq>.
+We say that <eq env="math">f</eq> is étale if it is étale at all points.
+We say that <eq env="math">X</eq> is étale at <eq env="math">x</eq> over <eq env="math">Y</eq>, or that it is a <eq env="math">Y</eq>-prescheme which is étale at <eq env="math">x</eq> etc.</li>
+<li>Let <eq env="math">f\colon A\to B</eq> be a local homomorphism.
+We say that <eq env="math">f</eq> is étale, or that <eq env="math">B</eq> is étale over <eq env="math">A</eq>, if <eq env="math">B</eq> is flat and unramified over <eq env="math">A</eq>.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></li>
+</ol>
+</div>
+<div class="proposition">
+<p><span id="prp:I.4.2" class="proposition"><strong>(#prp:I.4.2) </strong></span>For <eq env="math">B/A</eq> to be étale, it is necessary and sufficient that <eq env="math">\widehat{B}/\widehat{A}</eq> be étale.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-4" class="proof"><em>Proof</em>. </span>This is true individually for both “unramified” and “flat”.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.4.3" class="corollary"><strong>(#cor:I.4.3) </strong></span>Let <eq env="math">f\colon X\to Y</eq> be of finite type, and <eq env="math">x\in X</eq>.
+The property of <eq env="math">f</eq> being étale at <eq env="math">x</eq> depends only on the local homomorphism <eq env="math">{\mathcal{O}}_{f(x)}\to{\mathcal{O}}_x</eq>, and in fact only on the corresponding homomorphism for the completions.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.4.4" class="corollary"><strong>(#cor:I.4.4) </strong></span>Suppose that the residue extension <eq env="math">k(A)\to k(B)</eq> is trivial, or that <eq env="math">k(A)</eq> is algebraically closed.
+Then <eq env="math">B/A</eq> is étale if and only if <eq env="math">\widehat{A}\to\widehat{B}</eq> is an isomorphism.</p>
+</div>
+<p>We can combine flatness with <a href="#I.3.7">3.7</a>.</p>
+<div class="proposition">
+<p><span id="prp:I.4.5" class="proposition"><strong>(#prp:I.4.5) </strong></span>Let <eq env="math">f\colon X\to Y</eq> be a morphism of finite type.
+Then the set of points where <eq env="math">f</eq> is étale is open.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-5" class="proof"><em>Proof</em>. </span>Again, this is true individually for both “unramified” and “flat”.</p>
+</div>
+<p>This proposition shows that we can forget about the “one-off” comments in the study of morphisms of finite type that are somewhere étale.</p>
+<div class="proposition">
+<p><span id="prp:I.4.6" class="proposition"><strong>(#prp:I.4.6) </strong></span>—</p>
+<ol style="list-style-type: lower-roman">
+<li>An open immersion is étale.</li>
+<li>The composition of two étale morphisms is étale.</li>
+<li>The base extension of an étale morphism is étale.</li>
+</ol>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-6" class="proof"><em>Proof</em>. </span>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for “unramified” and “flat”.</p>
+</div>
+<p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).</p>
+<p><em>[Trans.] Grothendieck’s <em>multiplodoque d’algèbre homologique</em> was the final version of his <em>Tohoku paper</em> — see (2.1) in `Life and work of Alexander Grothendieck’ by Ching-Li Chan and Frans Oort for more information.</em></p>
+<div class="corollary">
+<p><span id="cor:I.4.7" class="corollary"><strong>(#cor:I.4.7) </strong></span>The cartesian product of two étale morphisms is étale.</p>
+</div>
+<div class="corollary">
+<p><span id="cor:I.4.8" class="corollary"><strong>(#cor:I.4.8) </strong></span>Let <eq env="math">X</eq> and <eq env="math">X'</eq> be of finite type over <eq env="math">Y</eq>, and <eq env="math">g\colon X\to X'</eq> a <eq env="math">Y</eq>-morphism.
+If <eq env="math">X'</eq> is unramified over <eq env="math">Y</eq> and <eq env="math">X</eq> is étale over <eq env="math">Y</eq>, then <eq env="math">g</eq> is étale.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-7" class="proof"><em>Proof</em>. </span>Indeed, <eq env="math">g</eq> is the composition of the graph morphism <eq env="math">\Gamma_g\colon X\to X\times_Y X'</eq> (which is an open immersion by <a href="#I.3.4">3.4</a> and the projection morphism, which is étale since it is just a “change of base” by <eq env="math">X'\to Y</eq> of the étale morphism <eq env="math">X\to Y</eq>.</p>
+</div>
+<div class="definition">
+<p><span id="def:I.4.9" class="definition"><strong>(#def:I.4.9) </strong></span>We say that a cover of <eq env="math">Y</eq> is étale (resp. unramified) if it is a <eq env="math">Y</eq>-scheme <eq env="math">X</eq> that is finite over <eq env="math">Y</eq> and étale (resp. unramified) over <eq env="math">Y</eq>.</p>
+</div>
+<p>The first condition means that <eq env="math">X</eq> is defined by a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq> over <eq env="math">Y</eq>.
+The second means that <eq env="math">{\mathscr{B}}</eq> is locally free over <eq env="math">Y</eq> (resp. means absolutely nothing) <em>and</em>, further, that, for all <eq env="math">y\in Y</eq>, the fibre <eq env="math">{\mathscr{B}}(y)={\mathscr{B}}_y\otimes_{{\mathcal{O}}_y}k(y)</eq> is a separable algebra (i.e. a finite composition of finite separable extensions) over <eq env="math">k(y)</eq>.</p>
+<div class="proposition">
+<p><span id="prp:I.4.10" class="proposition"><strong>(#prp:I.4.10) </strong></span>Let <eq env="math">X</eq> be a flat cover of <eq env="math">Y</eq> of degree <eq env="math">n</eq> (the definition of this term deserved to figure in <a href="#I.4.9">4.9</a>) defined by a locally free coherent sheaf <eq env="math">{\mathscr{B}}</eq> of algebras.
+We define, as usual, the trace homomorphism <eq env="math">{\mathscr{B}}\to{\mathscr{A}}</eq> (that is a homomorphism of <eq env="math">{\mathscr{A}}</eq>-modules, where <eq env="math">{\mathscr{A}}={\mathcal{O}}_Y</eq>).
+For <eq env="math">X</eq> to be étale it is necessary and sufficient that the corresponding bilinear form <eq env="math">\operatorname{tr}_{{\mathscr{B}}/{\mathscr{A}}}xy</eq> define an isomorphism of <eq env="math">{\mathscr{B}}</eq> over <eq env="math">{\mathscr{B}}</eq>, or, equivalently, that the <em>discriminant section</em>
+<eq env="displaymath">
+    d_{X/Y}
+    = d_{{\mathscr{B}}/{\mathscr{A}}}
+    \in \Gamma\big(Y,\wedge^n\check{{\mathscr{B}}}\otimes_{\mathscr{A}}\wedge^n\check{{\mathscr{B}}}\big)
+  </eq>
+is invertible, or that the discriminant ideal defined by this section is the unit ring.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-8" class="proof"><em>Proof</em>. </span>We can reduce to the case where <eq env="math">Y=\operatorname{Spec}(k)</eq>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <eq env="math">k</eq>.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-9" class="remark"><em>Remark</em>. </span>We will have a less trivial statement to make later on, when we do not suppose a priori that <eq env="math">X</eq> is flat over <eq env="math">Y</eq>, but instead require some normality hypothesis.</p>
+</div>
+
+</div>
+<div id="I.5" class="section level2">
+<h2>5. Fundamental property of étale morphisms</h2>
+
+</div>
+<div id="I.6" class="section level2">
+<h2>6. Application to étale extensions of complete local rings</h2>
+<p>This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
+Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in <a href="I.7">§7</a> (using the Main Theorem).
+This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.</p>
+<div class="theorem">
+<p><span id="thm:I.6.1" class="theorem"><strong>(#thm:I.6.1) </strong></span>Let <eq env="math">A</eq> be a complete local ring (Noetherian, of course), with residue field <eq env="math">k</eq>.
+For any <eq env="math">A</eq>-algebra <eq env="math">B</eq>, let <eq env="math">R(B)=B\otimes_Ak</eq> be thought of as a <eq env="math">k</eq>-algebra;
+this depends functorially on <eq env="math">B</eq>.
+Then <eq env="math">R</eq> defines an <em>equivalence</em> between the category of <eq env="math">A</eq>-algebras that are <em>finite and étale over <eq env="math">A</eq></em> and the category of algebras that are <em>finite rank and separable over <eq env="math">k</eq></em>.</p>
+</div>
+<p>Firstly, the functor in question is fully faithful, as follows from the more general fact:</p>
+<div class="corollary">
+<p><span id="cor:I.6.2" class="corollary"><strong>(#cor:I.6.2) </strong></span>Let <eq env="math">B</eq> and <eq env="math">B'</eq> be <eq env="math">A</eq>-algebras that are finite over <eq env="math">A</eq>.
+If <eq env="math">B</eq> is étale over <eq env="math">A</eq>, then the canonical map
+<eq env="displaymath">
+    \operatorname{Hom}_{A\mathsf{-alg}}(B,B')
+    \to \operatorname{Hom}_{k\mathsf{-alg}}(R(B),R(B'))
+  </eq>
+is bijective.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-10" class="proof"><em>Proof</em>. </span>We can reduce to the case where <eq env="math">A</eq> is Artinian (by replacing <eq env="math">A</eq> by <eq env="math">A/{\mathfrak{m}}^n</eq>), and then it is a particular case of <span id="I.5.5">5.5</span>.</p>
+<p>It remains to prove that, for every finite and separable <eq env="math">k</eq> algebra (or we can simply say “étale”, for brevity) <eq env="math">L</eq>, there exists some <eq env="math">B</eq> étale over <eq env="math">A</eq> such that <eq env="math">R(B)</eq> is isomorphic to <eq env="math">L</eq>.
+We can suppose that <eq env="math">L</eq> is a separable extension of <eq env="math">k</eq>, and, as such, it admits a generator <eq env="math">x</eq>, i.e. it is isomorphic to an algebra <eq env="math">k[t]/Fk[t]</eq>, where <eq env="math">F\in k[t]</eq> is a monic polynomial.
+We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> in <eq env="math">A[t]</eq>, and we take <eq env="math">B=A[t]/F_1A[t]</eq>.</p>
+</div>
 
 </div>
 </div>
+
+
+
+
 
 
 
@@ -124,6 +350,10 @@ it seems wise to not discuss it until we use it for something helpful, with smoo
 <hr />
 <ol start="1">
 <li id="fn1"><p>cf. EGA IV 16.3.<a href="I.html#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>In EGA II 6.2.3 we further suppose that <eq env="math">f</eq> is of finite type.<a href="I.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>cf. regrets in III~1.2.<a href="I.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>cf. IV.<a href="I.html#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>cf. regrets in III 1.2.<a href="I.html#fnref5" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 <script type="text/javascript" src="../katex.min.js"></script>
@@ -182,7 +412,7 @@ gitbook.start({
 "fontsettings": {
 "theme": "white",
 "family": "serif",
-"size": 1
+"size": 2
 },
 "edit": {
 "link": null,

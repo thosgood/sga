@@ -3,3 +3,12 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+rmd_files:
+- index.Rmd
+- SGA-1.I/SGA-1.I.Rmd
+- SGA-1.I/SGA-1.I.1.Rmd
+- SGA-1.I/SGA-1.I.2.Rmd
+- SGA-1.I/SGA-1.I.3.Rmd
+- SGA-1.I/SGA-1.I.4.Rmd
+- SGA-1.I/SGA-1.I.5.Rmd
+- SGA-1.I/SGA-1.I.6.Rmd

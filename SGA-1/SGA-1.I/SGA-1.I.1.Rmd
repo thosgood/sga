@@ -1,6 +1,4 @@
-# Étale morphisms {#I}
-
-## Basics of differential calculus {#I.1}
+## 1. Basics of differential calculus {#I.1}
 
 Let $X$ be a prescheme on $Y$, and $\Delta_{X/Y}$ the diagonal morphism $X\to X\times_Y X$.
 This is an immersion, and thus a closed immersion of $X$ into an open subset $V$ of $X\times_Y X$.
@@ -10,6 +8,3 @@ This sheaf is of finite type if $X\to Y$ is of finite type, and it behaves well 
 We also introduce the sheaves $\cal{O}_{X\times_Y X}/\scr{I}_X^{n+1}=\scr{P}^n_{X/Y}$, which are sheaves of \emph{rings} on $X$, giving us preschemes denoted by $\Delta_{X/Y}^n$ and called the \emph{$n$-th infinitesimal neighbourhood of $X/Y$}.
 The polysyllogism is entirely trivial, even if rather long^[cf. EGA IV 16.3.];
 it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.
-
-
-## Quasi-finite morphisms {#I.2}
