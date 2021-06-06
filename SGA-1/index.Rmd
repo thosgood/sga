@@ -1,13 +1,13 @@
 --- 
 title: "Étale covers and the fundamental group (SGA 1)"
 author: "A. Grothendieck and M. Raynaud"
-date: "1960--1961 (Last updated: `r format(Sys.Date(), format='%B %d, %Y')`)"
-description: "Séminaire de Géométrie Algébrique du Bois Marie."
+date: "1960--1961 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
+description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 1."
 output:
   bookdown::gitbook:
     mathjax: null
     pandoc_args: ["--gladtex"]
-    css: ["gitbook-custom.css", "katex.css"]
+    css: ["style.css", "katex.css"]
     includes:
       after_body: ["scripts.html"]
     split_by: chapter

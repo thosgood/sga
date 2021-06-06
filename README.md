@@ -1,15 +1,15 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## [1. Étale covers and the fundamental group](SGA-1/book/index.html)
+## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
 
-### [I. Étale morphisms](SGA-1/book/I.html)
+### [I. Étale morphisms](SGA-1/web-book/I.html)
 
-1. [Basics of differential calculus](SGA-1/book/I.html#I.1) _(@thosgood)_
-2. [Quasi-finite morphisms](SGA-1/book/I.html#I.2) _(@thosgood)_
-3. [Unramified morphisms](SGA-1/book/I.html#I.3) _(@thosgood)_
-4. [Étale morphisms. Étale coverings](SGA-1/book/I.html#I.4) _(@thosgood)_
-5. [Fundamental property of étale morphisms](SGA-1/book/I.html#I.5) _(@thosgood)_
-6. [Application to étale extensions of complete local rings](SGA-1/book/I.html#I.6) _(@thosgood)_
+1. [Basics of differential calculus](SGA-1/web-book/I.html#I.1) _(@thosgood)_
+2. [Quasi-finite morphisms](SGA-1/web-book/I.html#I.2) _(@thosgood)_
+3. [Unramified morphisms](SGA-1/web-book/I.html#I.3) _(@thosgood)_
+4. [Étale morphisms. Étale coverings](SGA-1/web-book/I.html#I.4) _(@thosgood)_
+5. [Fundamental property of étale morphisms](SGA-1/web-book/I.html#I.5) _(@thosgood)_
+6. [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6) _(@thosgood)_
 7. [ ] Local construction of unramified and étale morphisms _(3)_
 8. [ ] Infinitesimal lifting of étale schemes. Applications to formal schemes. _(2)_
 9. [ ] Permanence properties _(6)_

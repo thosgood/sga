@@ -2,6 +2,6 @@
 
 bookdown::render_book("index.Rmd",
                       "bookdown::gitbook",
-                      output_dir = "book",
+                      output_dir = "web-book",
                       config_file = "_bookdown.yml")
 print('Done!')

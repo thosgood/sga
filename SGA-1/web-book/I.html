@@ -5,20 +5,20 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>I. Étale morphisms | Étale covers and the fundamental group (SGA 1)</title>
-  <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 1." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="I. Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  <meta property="og:description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 1." />
   
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="I. Étale morphisms | Étale covers and the fundamental group (SGA 1)" />
   
-  <meta name="twitter:description" content="Séminaire de Géométrie Algébrique du Bois Marie." />
+  <meta name="twitter:description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 1." />
   
 
 <meta name="author" content="A. Grothendieck and M. Raynaud" />
@@ -56,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="gitbook-custom.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="katex.css" type="text/css" />
 </head>
 
@@ -357,11 +357,19 @@ We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> 
 </ol>
 </div>
 <script type="text/javascript" src="../katex.min.js"></script>
-<script type="text/javascript" src="../MathJax2KaTeX.js"></script>
-<script type="text/javascript" src="../sidenotes.js"></script>
-<script type="text/javascript" src="../lite-yt-embed.js"></script>
 
 <script type="text/javascript">
+  var $document = $(document);
+  $document.ready(function() {
+    $('eq').map(function() {
+      var display = (this.getAttribute('env') == "displaymath");
+      katex.render(this.textContent, this, {displayMode: display, fleqn: true, throwOnError: false});
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  var $document = $(document);
   $document.ready(function() {
     $('div.font-settings button.size-3').map(function() {
       this.setAttribute("class", "button size-2")

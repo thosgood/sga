@@ -1,9 +1,17 @@
 <script type="text/javascript" src="../katex.min.js"></script>
-<script type="text/javascript" src="../MathJax2KaTeX.js"></script>
-<script type="text/javascript" src="../sidenotes.js"></script>
-<script type="text/javascript" src="../lite-yt-embed.js"></script>
 
 <script type="text/javascript">
+  var $document = $(document);
+  $document.ready(function() {
+    $('eq').map(function() {
+      var display = (this.getAttribute('env') == "displaymath");
+      katex.render(this.textContent, this, {displayMode: display, fleqn: true, throwOnError: false});
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  var $document = $(document);
   $document.ready(function() {
     $('div.font-settings button.size-3').map(function() {
       this.setAttribute("class", "button size-2")
