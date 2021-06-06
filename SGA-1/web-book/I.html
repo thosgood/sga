@@ -84,6 +84,7 @@
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.6"><i class="fa fa-check"></i>6. Application to étale extensions of complete local rings</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.7"><i class="fa fa-check"></i>7. Local construction of unramified and étale morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.8"><i class="fa fa-check"></i>8. Infinitesimal lifting of étale schemes. Applications to formal schemes</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.9"><i class="fa fa-check"></i>9. Permanence properties</a></li>
 </ul></li>
 </ul>
 
@@ -588,6 +589,64 @@ More generally, …</p>
 <p>Let <eq env="math">Y</eq> be a prescheme, <eq env="math">Y_0</eq> a sub-prescheme, <eq env="math">X_0</eq> an étale <eq env="math">Y_0</eq>-scheme, and <eq env="math">x</eq> a point of <eq env="math">X_0</eq>.
 Then there exists an étale <eq env="math">Y</eq>-scheme <eq env="math">X</eq>, a neighbourhood <eq env="math">U_0</eq> of <eq env="math">x</eq> in <eq env="math">X_0</eq>, and a <eq env="math">Y_0</eq>-isomorphism <eq env="math">U_0\xrightarrow{\sim}X\times_Y Y_0</eq>.</p>
 </div>
+<div class="proof">
+<p><span id="unlabeled-div-25" class="proof"><em>Proof</em>. </span>Let <eq env="math">y</eq> be the projection of <eq env="math">x</eq> in <eq env="math">Y_0</eq>;
+applying <a href="I.html#I.7.6">7.6</a> to the étale local homomorphism <eq env="math">A_0\to B_0</eq> of local rings of <eq env="math">y</eq> and <eq env="math">x</eq> in <eq env="math">Y_0</eq> and <eq env="math">X_0</eq>, we obtain an isomorphism
+<eq env="displaymath">
+  \begin{aligned}
+    B_0 &amp;= (C_0)_{{\mathfrak{n}}_0}
+  \\C_0 &amp;= A_0[t]/F_0A_0[t]
+  \end{aligned}
+</eq>
+where <eq env="math">F_0</eq> is a monic polynomial, and <eq env="math">{\mathfrak{n}}_0</eq> is a maximal ideal of <eq env="math">C_0</eq> not containing the class of <eq env="math">F'_0(t)</eq> in <eq env="math">C_0</eq>.
+Let <eq env="math">A</eq> be the local ring of <eq env="math">y</eq> in <eq env="math">Y</eq>, let <eq env="math">F</eq> be a monic polynomial in <eq env="math">A[t]</eq> that gives <eq env="math">F_0</eq> under the surjective homomorphism <eq env="math">A\to A_0</eq> (we lift the coefficients of <eq env="math">F_0</eq>), and let <eq env="math">C=A[t]/FA[t]</eq>, with <eq env="math">{\mathfrak{n}}</eq> the maximal ideal of <eq env="math">C</eq> given by the inverse image of <eq env="math">{\mathfrak{n}}_0</eq> under the natural epimorphism <eq env="math">C\to C\otimes_A A_0=C_0</eq>.
+Let
+<eq env="displaymath">
+  B = C_{\mathfrak{n}}.
+</eq>
+It is immediate, by construction and by <a href="I.html#I.7.1">7.1</a>, that <eq env="math">B</eq> is étale over <eq env="math">A</eq>, and that we have an isomorphism <eq env="math">B\otimes_A A_0=A_0</eq>.</p>
+<p>We know that there exists a <eq env="math">Y</eq>-scheme <eq env="math">X</eq> of finite type, along with a point <eq env="math">z</eq> of <eq env="math">X</eq> over <eq env="math">y</eq> such that <eq env="math">{\mathcal{O}}_z</eq> is <eq env="math">A</eq>-isomorphic to <eq env="math">C</eq>;
+since the latter is étale over <eq env="math">A={\mathcal{O}}_y</eq>, we can (by taking <eq env="math">X</eq> to be small enough) assume that <eq env="math">X</eq> is étale over <eq env="math">Y</eq>.
+Let <eq env="math">X'_0=X\times_Y Y_0</eq>.
+Then the local ring of <eq env="math">z</eq> in <eq env="math">X'_0</eq> can be identified with <eq env="math">{\mathcal{O}}_z\otimes_A A_0=B\otimes_A A_0</eq>, and is thus isomorphic to <eq env="math">B_0</eq>.
+This isomorphism is defined by an isomorphism from a neighbourhood <eq env="math">U_0</eq> of <eq env="math">x</eq> in <eq env="math">X</eq> to a neighbourhood of <eq env="math">z</eq> in <eq env="math">X'_0</eq>, and we can assume this to be identical to <eq env="math">X'_0</eq> by taking <eq env="math">X</eq> to be small enough.</p>
+</div>
+<div id="I.8.2" class="itenv" title="Corollary 8.2">
+<p>The analogous claim holds for étale <em>coverings</em>, if we suppose the residue field <eq env="math">k(y)</eq> to be infinite.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-26" class="proof"><em>Proof</em>. </span>The proof is the same, just replacing <a href="I.html#I.7.5">7.5</a> by <a href="I.html#I.7.6">7.6</a>.</p>
+</div>
+<div id="I.8.3" class="itenv" title="Theorem 8.3">
+<p>The functor described in <a href="I.html#I.5.5">5.5</a> is an <em>equivalence</em> of <em>categories</em>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-27" class="proof"><em>Proof</em>. </span>By <a href="I.html#I.5.5">5.5</a>, it remains only to show that every étale <eq env="math">S_0</eq>-scheme <eq env="math">X_0</eq> is isomorphic to an <eq env="math">S_0</eq>-scheme <eq env="math">X\times_S S_0</eq>, where <eq env="math">X</eq> is an étale <eq env="math">S</eq>-scheme.
+The underlying topological space of <eq env="math">X</eq> must necessarily be identical to the one of <eq env="math">X_0</eq>, and with <eq env="math">X_0</eq> being identified with a closed sub-prescheme of <eq env="math">X</eq>.
+The problem is thus equivalent to the following:
+find, on the underlying topological space <eq env="math">|X_0|</eq> of <eq env="math">X_0</eq>, a sheaf of algebras <eq env="math">{\mathcal{O}}_X</eq> over <eq env="math">f_0^*({\mathcal{O}}_S)</eq> (where <eq env="math">f_0</eq> is the projection <eq env="math">X_0\to S_0</eq>, thought of here as a continuous map of the underlying spaces) that makes <eq env="math">|X_0|</eq> an étale <eq env="math">S</eq>-prescheme <eq env="math">X</eq>, as well as an algebra homomorphism <eq env="math">{\mathcal{O}}_X\to{\mathcal{O}}_{X_0}</eq> that is compatible with the homomorphism <eq env="math">f_0^*({\mathcal{O}}_S)\to f_0^*({\mathcal{O}}_{S_0})</eq> on the sheaves of scalars, and that induces an isomorphism <eq env="math">{\mathcal{O}}_X\otimes_{f_0^*({\mathcal{O}}_S)*}f_0^*({\mathcal{O}}_{S_0})\xrightarrow{\sim}{\mathcal{O}}_{X_0}</eq>.
+(Then <eq env="math">X</eq> will be an étale <eq env="math">S</eq>-prescheme that is reduced along <eq env="math">X_0</eq>, and thus separated over <eq env="math">S</eq>, since <eq env="math">X_0</eq> is separated over <eq env="math">S_0</eq>, and <eq env="math">X</eq> satisfies all the desired properties).</p>
+<p>If <eq env="math">(U_i)</eq> is an open cover of <eq env="math">X_0</eq>, and if we find a solution to the problem on each of the <eq env="math">U_i</eq>, then it follows from the uniqueness theorem <a href="I.html#I.5.5">5.5</a> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <eq env="math">S</eq> is an étale <eq env="math">S</eq>-prescheme <eq env="math">X</eq> endowed with an isomorphism <eq env="math">X\times_S S_0\xleftarrow{\sim}X_0</eq>.
+It thus suffices to find a solution locally, which we know is possible by <a href="I.html#I.8.1">8.1</a>.</p>
+</div>
+<div id="I.8.4" class="itenv" title="Corollary 8.4">
+<p>Let <eq env="math">S</eq> be a locally Noetherian formal prescheme, endowed with an ideal of definition <eq env="math">{\mathscr{J}}</eq>, and let <eq env="math">S_0=(|S|,{\mathcal{O}}_S/{\mathscr{J}})</eq> be the corresponding ordinary prescheme.
+Then the functor <eq env="math">{\mathfrak{X}}\mapsto{\mathfrak{X}}\times_S S_0</eq> from the category of étale coverings of <eq env="math">S</eq> to the category of étale coverings of <eq env="math">S_0</eq> is an equivalence of categories.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-28" class="proof"><em>Proof</em>. </span>Of course, we define an étale covering of a <em>formal</em> prescheme <eq env="math">S</eq> to be a covering of <eq env="math">S</eq> (i.e a formal prescheme over <eq env="math">S</eq> defined by a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq>) such that <eq env="math">{\mathscr{B}}</eq> is <em>locally free</em>, and such that the residue fibres <eq env="math">{\mathscr{B}}_s\otimes_{{\mathcal{O}}_s}k(s)</eq> of <eq env="math">{\mathscr{B}}</eq> are <em>separable</em> algebras over <eq env="math">k(s)</eq>.
+If we denote by <eq env="math">S_n</eq> the ordinary prescheme <eq env="math">(|S|,{\mathcal{O}}_S/{\mathscr{J}}^{n+1})</eq>, then the data of a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq> on <eq env="math">S</eq> is equivalent to the data of a sequence of coherent sheaves of algebras <eq env="math">{\mathscr{B}}_n</eq> on the <eq env="math">S_n</eq>, endowed with a transitive system of homomorphisms <eq env="math">{\mathscr{B}}_m\to{\mathscr{B}}_n</eq> (for <eq env="math">m\geqslant n</eq>) defining the isomorphisms <eq env="math">{\mathscr{B}}_m\otimes_{{\mathcal{O}}_{S_m}}{\mathcal{O}}_{S_n}\xrightarrow{\sim}{\mathscr{B}}_n</eq>.
+It is immediate that <eq env="math">{\mathscr{B}}</eq> is locally free if and only if the <eq env="math">{\mathscr{B}}_n</eq> are locally free over the <eq env="math">S_n</eq>, and that the separability condition is satisfied if and only if it is satisfied for <eq env="math">{\mathscr{B}}_0</eq>, or for all the <eq env="math">{\mathscr{B}}_n</eq>.
+Thus <eq env="math">{\mathscr{B}}</eq> is étale over <eq env="math">S</eq> if and only if the <eq env="math">{\mathscr{B}}_n</eq> are étale over the <eq env="math">S_n</eq>.
+Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately from <a href="I.html#I.8.3">8.3</a>.</p>
+</div>
+<div class="rmenv" title="Remark">
+<p>It was not necessary to restrict ourselves to the case of <em>coverings</em> in <a href="I.html#I.8.4">8.4</a>, but this is the only case that we will use for the moment.</p>
+</div>
+
+</div>
+<div id="I.9" class="section level2">
+<h2>9. Permanence properties</h2>
 
 </div>
 </div>

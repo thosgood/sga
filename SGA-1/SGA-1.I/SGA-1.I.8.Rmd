@@ -22,6 +22,53 @@ Let
 $$
   B = C_\frak{n}.
 $$
-It is immediate, by construction and by [7.1](#I.7.1), that $B$ is étale over $A$, and that we have an isomorphism $B\otimes_A A_0=A_0$. 
+It is immediate, by construction and by [7.1](#I.7.1), that $B$ is étale over $A$, and that we have an isomorphism $B\otimes_A A_0=A_0$.
+
+We know that there exists a $Y$-scheme $X$ of finite type, along with a point $z$ of $X$ over $y$ such that $\cal{O}_z$ is $A$-isomorphic to $C$;
+since the latter is étale over $A=\cal{O}_y$, we can (by taking $X$ to be small enough) assume that $X$ is étale over $Y$.
+Let $X'_0=X\times_Y Y_0$.
+Then the local ring of $z$ in $X'_0$ can be identified with $\cal{O}_z\otimes_A A_0=B\otimes_A A_0$, and is thus isomorphic to $B_0$.
+This isomorphism is defined by an isomorphism from a neighbourhood $U_0$ of $x$ in $X$ to a neighbourhood of $z$ in $X'_0$, and we can assume this to be identical to $X'_0$ by taking $X$ to be small enough.
 :::
 
+::: {.itenv #I.8.2 title="Corollary 8.2"}
+The analogous claim holds for étale _coverings_, if we suppose the residue field $k(y)$ to be infinite.
+:::
+
+::: {.proof}
+The proof is the same, just replacing [7.5](#I.7.5) by [7.6](#I.7.6).
+:::
+
+::: {.itenv #I.8.3 title="Theorem 8.3"}
+The functor described in [5.5](#I.5.5) is an _equivalence_ of _categories_.
+:::
+
+::: {.proof}
+By [5.5](#I.5.5), it remains only to show that every étale $S_0$-scheme $X_0$ is isomorphic to an $S_0$-scheme $X\times_S S_0$, where $X$ is an étale $S$-scheme.
+The underlying topological space of $X$ must necessarily be identical to the one of $X_0$, and with $X_0$ being identified with a closed sub-prescheme of $X$.
+The problem is thus equivalent to the following:
+find, on the underlying topological space $|X_0|$ of $X_0$, a sheaf of algebras $\cal{O}_X$ over $f_0^*(\cal{O}_S)$ (where $f_0$ is the projection $X_0\to S_0$, thought of here as a continuous map of the underlying spaces) that makes $|X_0|$ an étale $S$-prescheme $X$, as well as an algebra homomorphism $\cal{O}_X\to\cal{O}_{X_0}$ that is compatible with the homomorphism $f_0^*(\cal{O}_S)\to f_0^*(\cal{O}_{S_0})$ on the sheaves of scalars, and that induces an isomorphism $\cal{O}_X\otimes_{f_0^*(\cal{O}_S)*}f_0^*(\cal{O}_{S_0})\xrightarrow{\sim}\cal{O}_{X_0}$.
+(Then $X$ will be an étale $S$-prescheme that is reduced along $X_0$, and thus separated over $S$, since $X_0$ is separated over $S_0$, and $X$ satisfies all the desired properties).
+
+\oldpage{15}
+
+If $(U_i)$ is an open cover of $X_0$, and if we find a solution to the problem on each of the $U_i$, then it follows from the uniqueness theorem [5.5](#I.5.5) that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over $S$ is an étale $S$-prescheme $X$ endowed with an isomorphism $X\times_S S_0\xleftarrow{\sim}X_0$.
+It thus suffices to find a solution locally, which we know is possible by [8.1](#I.8.1).
+:::
+
+::: {.itenv #I.8.4 title="Corollary 8.4"}
+Let $S$ be a locally Noetherian formal prescheme, endowed with an ideal of definition $\scr{J}$, and let $S_0=(|S|,\cal{O}_S/\scr{J})$ be the corresponding ordinary prescheme.
+Then the functor $\frak{X}\mapsto\frak{X}\times_S S_0$ from the category of étale coverings of $S$ to the category of étale coverings of $S_0$ is an equivalence of categories.
+:::
+
+::: {.proof}
+Of course, we define an étale covering of a _formal_ prescheme $S$ to be a covering of $S$ (i.e a formal prescheme over $S$ defined by a coherent sheaf of algebras $\scr{B}$) such that $\scr{B}$ is _locally free_, and such that the residue fibres $\scr{B}_s\otimes_{\cal{O}_s}k(s)$ of $\scr{B}$ are _separable_ algebras over $k(s)$.
+If we denote by $S_n$ the ordinary prescheme $(|S|,\cal{O}_S/\scr{J}^{n+1})$, then the data of a coherent sheaf of algebras $\scr{B}$ on $S$ is equivalent to the data of a sequence of coherent sheaves of algebras $\scr{B}_n$ on the $S_n$, endowed with a transitive system of homomorphisms $\scr{B}_m\to\scr{B}_n$ (for $m\geq n$) defining the isomorphisms $\scr{B}_m\otimes_{\cal{O}_{S_m}}\cal{O}_{S_n}\xrightarrow{\sim}\scr{B}_n$.
+It is immediate that $\scr{B}$ is locally free if and only if the $\scr{B}_n$ are locally free over the $S_n$, and that the separability condition is satisfied if and only if it is satisfied for $\scr{B}_0$, or for all the $\scr{B}_n$.
+Thus $\scr{B}$ is étale over $S$ if and only if the $\scr{B}_n$ are étale over the $S_n$.
+Taking this into account, [8.4](#I.8.4) follows immediately from [8.3](#I.8.3).
+:::
+
+::: {.rmenv title="Remark"}
+It was not necessary to restrict ourselves to the case of _coverings_ in [8.4](#I.8.4), but this is the only case that we will use for the moment.
+:::
