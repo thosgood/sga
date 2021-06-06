@@ -54,7 +54,7 @@ We thus deduce:
   by [5.2](#I.5.2), it suffices to note that a section is a closed immersion (since $X$ is separated over $Y$) and also étale, by [4.8](#I.4.8).
 :::
 
-::: {itenv #I.5.4 title="Corollary 5.4"}
+::: {.itenv #I.5.4 title="Corollary 5.4"}
   Let $X$ and $Y$ be preschemes over $S$, with $X$ unramified and separated over $S$, and $Y$ connected.
   Let $f$ and $g$ be $S$-morphisms from $Y$ to $X$, and suppose that $y$ is a point of $Y$ such that $f(y)=g(y)=x$, and such that the residue homomorphisms $k(x)\to k(y)$ defined by $f$ and $g$ are identical ("$f$ and $g$ agree geometrically at $y$").
   Then $f$ and $g$ are identical.
