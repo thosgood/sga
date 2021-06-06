@@ -2,6 +2,8 @@
 
 ## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
 
+- [ ] Introduction
+
 ### [I. Étale morphisms](SGA-1/web-book/I.html)
 
 1. [Basics of differential calculus](SGA-1/web-book/I.html#I.1) _(@thosgood)_
