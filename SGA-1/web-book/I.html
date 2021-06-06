@@ -82,6 +82,7 @@
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.4"><i class="fa fa-check"></i>4. Étale morphisms. Étale coverings</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.5"><i class="fa fa-check"></i>5. Fundamental property of étale morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.6"><i class="fa fa-check"></i>6. Application to étale extensions of complete local rings</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.7"><i class="fa fa-check"></i>7. Local construction of unramified and étale morphisms</a></li>
 </ul></li>
 </ul>
 
@@ -108,7 +109,7 @@
 <h2>1. Basics of differential calculus</h2>
 <p>Let <eq env="math">X</eq> be a prescheme on <eq env="math">Y</eq>, and <eq env="math">\Delta_{X/Y}</eq> the diagonal morphism <eq env="math">X\to X\times_Y X</eq>.
 This is an immersion, and thus a closed immersion of <eq env="math">X</eq> into an open subset <eq env="math">V</eq> of <eq env="math">X\times_Y X</eq>.
-Let <eq env="math">{\mathscr{I}}_X</eq> be the ideal of the closed sub-prescheme corresponding to the diagonal in <eq env="math">V</eq> (N.B. if one really wishes to do things intrinsically, without assuming that <eq env="math">X</eq> is separated over <eq env="math">Y</eq> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <eq env="math">{\mathcal{O}}_{X\times X}</eq> in <eq env="math">X</eq> and denote by <eq env="math">{\mathscr{I}}_X</eq> the augmentation ideal in the above ).
+Let <eq env="math">{\mathscr{I}}_X</eq> be the ideal of the closed sub-prescheme corresponding to the diagonal in <eq env="math">V</eq> (N.B. if one really wishes to do things intrinsically, without assuming that <eq env="math">X</eq> is separated over <eq env="math">Y</eq> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <eq env="math">{\mathcal{O}}_{X\times X}</eq> in <eq env="math">X</eq> and denote by <eq env="math">{\mathscr{I}}_X</eq> the augmentation ideal in the above …).
 The sheaf <eq env="math">{\mathscr{I}}_X/{\mathscr{I}}_X^2</eq> can be thought of as a quasi-coherent sheaf on <eq env="math">X</eq>, which we denote by <eq env="math">\Omega_{X/Y}^1</eq>.
 This sheaf is of finite type if <eq env="math">X\to Y</eq> is of finite type, and it behaves well with respect to a base change <eq env="math">Y'\to Y</eq>.
 We also introduce the sheaves <eq env="math">{\mathcal{O}}_{X\times_Y X}/{\mathscr{I}}_X^{n+1}={\mathscr{P}}^n_{X/Y}</eq>, which are sheaves of <em>rings</em> on <eq env="math">X</eq>, giving us preschemes denoted by <eq env="math">\Delta_{X/Y}^n</eq> and called the <em><eq env="math">n</eq>-th infinitesimal neighbourhood of <eq env="math">X/Y</eq></em>.
@@ -428,7 +429,7 @@ For “étale”, this follows by taking <a href="I.html#I.5.8">5.8</a> into acc
 <div id="I.6" class="section level2">
 <h2>6. Application to étale extensions of complete local rings</h2>
 <p>This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
-Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in <a href="#I.7">§7</a> (using the Main Theorem).
+Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in <a href="I.html#I.7">§7</a> (using the Main Theorem).
 This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.</p>
 <div id="I.6.1" class="itenv" title="Theorem 6.1">
 <p>Let <eq env="math">A</eq> be a complete local ring (Noetherian, of course), with residue field <eq env="math">k</eq>.
@@ -451,6 +452,84 @@ is bijective.</p>
 <p>It remains to prove that, for every finite and separable <eq env="math">k</eq> algebra (or we can simply say “étale”, for brevity) <eq env="math">L</eq>, there exists some <eq env="math">B</eq> étale over <eq env="math">A</eq> such that <eq env="math">R(B)</eq> is isomorphic to <eq env="math">L</eq>.
 We can suppose that <eq env="math">L</eq> is a separable extension of <eq env="math">k</eq>, and, as such, it admits a generator <eq env="math">x</eq>, i.e. it is isomorphic to an algebra <eq env="math">k[t]/Fk[t]</eq>, where <eq env="math">F\in k[t]</eq> is a monic polynomial.
 We can lift <eq env="math">F</eq> to a monic polynomial <eq env="math">F_1</eq> in <eq env="math">A[t]</eq>, and we take <eq env="math">B=A[t]/F_1A[t]</eq>.</p>
+</div>
+
+</div>
+<div id="I.7" class="section level2">
+<h2>7. Local construction of unramified and étale morphisms</h2>
+<div id="I.7.1" class="itenv" title="Proposition 7.1">
+<p>Let <eq env="math">A</eq> be a Noetherian ring, <eq env="math">B</eq> an algebra which is finite over <eq env="math">A</eq>, and <eq env="math">u</eq> a generator of <eq env="math">B</eq> over <eq env="math">A</eq>.
+Let <eq env="math">F\in A[t]</eq> be such that <eq env="math">F(u)=0</eq> (we do not assume <eq env="math">F</eq> to be monic), and <eq env="math">u'=F'(u)</eq> (where <eq env="math">F'</eq> is the differentiated polynomial).
+Let <eq env="math">{\mathfrak{q}}</eq> be a prime ideal of <eq env="math">B</eq> not containing <eq env="math">u'</eq>, and <eq env="math">{\mathfrak{p}}</eq> its intersection with <eq env="math">A</eq>.
+Then <eq env="math">B_{\mathfrak{q}}</eq> is unramified over <eq env="math">A_{\mathfrak{p}}</eq>.</p>
+</div>
+<p>In other words, taking <eq env="math">Y=\operatorname{Spec}(A)</eq>, <eq env="math">X=\operatorname{Spec}(B)</eq>, and <eq env="math">X_{u'}=\operatorname{Spec}(B_{u'})</eq>, we claim that <eq env="math">X_{u'}</eq> is unramified over <eq env="math">Y</eq>.
+This statement follows from the following, more precise:</p>
+<div id="I.7.2" class="itenv" title="Corollary 7.2">
+<p>The different ideal of <eq env="math">B/A</eq> contains <eq env="math">u'B</eq>, and is equal to <eq env="math">u'B</eq> if the natural homomorphism <eq env="math">A[t]/FA[t]\to B</eq> (sending <eq env="math">t</eq> to <eq env="math">u</eq>) is an isomorphism.
+}</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-17" class="proof"><em>Proof</em>. </span>Let <eq env="math">J</eq> be the kernel of the homomorphism <eq env="math">C=A[t]\to B</eq>, so that <eq env="math">J</eq> contains <eq env="math">FA[t]</eq>, and is equal to it in the second case described in <a href="I.html#I.7.2">7.2</a>.
+Since the homomorphism <eq env="math">C\to B</eq> is surjective, <eq env="math">\Omega_{B/A}^1</eq> can be identified with the quotient of <eq env="math">\Omega_{C/A}^1</eq> by the sub-module generated by <eq env="math">J\Omega_{C/A}^1</eq> and <eq env="math">\mathrm{d}(J)</eq> (we should have explicitly described the definition of the homomorphism <eq env="math">d</eq> and the calculation of <eq env="math">\Omega^1</eq> for an algebra of polynomials in <a href="I.html#I.1">§1</a>).
+Identifying <eq env="math">\Omega_{C/A}^1</eq> with <eq env="math">C</eq>, via the basis <eq env="math">\mathrm{d}t</eq>, we obtain <eq env="math">B/B\cdot J'</eq>, and so the different ideal is generated by the set <eq env="math">J'</eq> of images in <eq env="math">B</eq> of derivatives of <eq env="math">G\in J</eq> (and it suffices to take <eq env="math">G</eq> that generate <eq env="math">J</eq>).
+Since <eq env="math">F\in J</eq> (resp. <eq env="math">F</eq> is a generator of <eq env="math">J</eq>), we are done.</p>
+</div>
+<p>We thus find:</p>
+<div id="I.7.3" class="itenv" title="Corollary 7.3">
+<p>Under the conditions of <a href="I.html#I.7.1">7.1</a>, and supposing that <eq env="math">F</eq> is monic and that <eq env="math">A[t]/FA[t]\to B</eq> is an isomorphism, in order for <eq env="math">B_{\mathfrak{q}}</eq> to be étale over <eq env="math">A_{\mathfrak{p}}</eq>, it is necessary and sufficient for <eq env="math">{\mathfrak{q}}</eq> to not contain <eq env="math">u'</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-18" class="proof"><em>Proof</em>. </span>Since <eq env="math">B</eq> is flat over <eq env="math">A</eq>, being étale is equivalent to being unramified, and we can apply <a href="I.html#I.7.2">7.2</a>.</p>
+</div>
+<div id="I.7.4" class="itenv" title="Corollary 7.4">
+<p>Under the conditions of <a href="I.html#I.7.3">7.3</a>, in order for <eq env="math">B</eq> to be étale over <eq env="math">A</eq>, it is necessary and sufficient for <eq env="math">u'</eq> to be invertible, or for the ideal <eq env="math">F'</eq> generated by <eq env="math">F</eq> in <eq env="math">A[t]</eq> to be the unit ideal.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-19" class="proof"><em>Proof</em>. </span>The second claim follows from the first along with Nakayama (in <eq env="math">B</eq>).</p>
+</div>
+<p>A monic polynomial <eq env="math">F\in A[t]</eq> that has the property stated in <a href="I.html#I.7.4">7.4</a> is said to be a <em>separable polynomial</em> (if <eq env="math">F</eq> is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where <eq env="math">A</eq> is a field, we recover the usual definition).</p>
+<div id="I.7.5" class="itenv" title="Corollary 7.5">
+<p>Let <eq env="math">B</eq> be an algebra which is <em>finite</em> over the <em>local</em> ring <eq env="math">A</eq>.
+Suppose that <eq env="math">K(A)</eq> is infinite, or that <eq env="math">B</eq> is local.
+Let <eq env="math">n</eq> be the rank of <eq env="math">L=B\otimes_A K(A)</eq> over <eq env="math">K(A)=k</eq>.
+For <eq env="math">B</eq> to be unramified (resp. étale) over <eq env="math">A</eq>, it is necessary and sufficient for <eq env="math">B</eq> to be isomorphic to a quotient of (resp. isomorphic to) <eq env="math">A[t]/FA[t]</eq>, where <eq env="math">F</eq> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <eq env="math">n</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-20" class="proof"><em>Proof</em>. </span>We only have to prove necessity.
+Suppose that <eq env="math">B</eq> is unramified over <eq env="math">A</eq>, and thus that <eq env="math">L</eq> is separable over <eq env="math">k</eq>.
+It then follows from the hypotheses that <eq env="math">L/k</eq> admits a generator <eq env="math">\xi</eq>, and thus the <eq env="math">\xi^i</eq> (for <eq env="math">0\leqslant i&lt;n</eq>) form a basis for <eq env="math">L</eq> over <eq env="math">k</eq>.
+Let <eq env="math">u\in B</eq> be a lift of <eq env="math">\xi</eq>;
+by Nakayama, the <eq env="math">u^i</eq> (for <eq env="math">0\leqslant i&lt;n</eq>) generate (resp. form a basis of) the <eq env="math">A</eq>-module <eq env="math">B</eq>, and, in particular, we obtain a monic polynomial <eq env="math">F\in A[t]</eq> such that <eq env="math">F(u)=0</eq>;
+<eq env="math">B</eq> is then isomorphic to a quotient of (resp. isomorphic to) <eq env="math">A[t]/FA[t]</eq>.
+Finally, by applying <a href="I.html#I.7.4">7.4</a> to <eq env="math">L/k</eq>, we see that <eq env="math">F</eq> and <eq env="math">F'</eq> generate <eq env="math">A[t]</eq> modulo <eq env="math">{\mathfrak{m}}A[t]</eq>, and so (by Nakayama in <eq env="math">A[t]/FA[t]</eq>) <eq env="math">F</eq> and <eq env="math">F'</eq> generate <eq env="math">A[t]</eq>, and we are done.</p>
+</div>
+<div id="I.7.6" class="itenv" title="Theorem 7.6">
+<p>Let <eq env="math">A</eq> be a local ring, and <eq env="math">A\to{\mathcal{O}}</eq> a local homomorphism such that <eq env="math">{\mathcal{O}}</eq> is isomorphic to the localisation of an algebra of finite type over <eq env="math">A</eq>.
+Suppose that <eq env="math">{\mathcal{O}}</eq> is <em>unramified</em> over <eq env="math">A</eq>.
+Then we can find an <eq env="math">A</eq>-algebra <eq env="math">B</eq> which is integral over <eq env="math">A</eq>, a maximal ideal <eq env="math">{\mathfrak{n}}</eq> of <eq env="math">B</eq>, a generator <eq env="math">u</eq> of <eq env="math">B</eq> over <eq env="math">A</eq>, and a monic polynomial <eq env="math">F\in A[t]</eq> such that <eq env="math">{\mathfrak{n}}\not\ni F'(u)</eq> and such that <eq env="math">{\mathcal{O}}</eq> is isomorphic (as an <eq env="math">A</eq>-algebra) to <eq env="math">B_{\mathfrak{n}}</eq>.
+If <eq env="math">{\mathcal{O}}</eq> is étale over <eq env="math">A</eq>, then we can take <eq env="math">B=A[t]/FA[t]</eq>.</p>
+</div>
+<p>(Of course, these conditions are more than sufficient …)</p>
+<p>Before proving <a href="I.html#I.7.6">7.6</a>, we first state some nice corollaries:</p>
+<div id="I.7.7" class="itenv" title="Corollary 7.7">
+<p>For <eq env="math">{\mathcal{O}}</eq> to be unramified over <eq env="math">A</eq>, it is necessary and sufficient for <eq env="math">{\mathcal{O}}</eq> to be isomorphic to the quotient of an algebra which is unramified and <em>étale</em> over <eq env="math">A</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-21" class="proof"><em>Proof</em>. </span>We can take <eq env="math">{\mathcal{O}}'=B'_{{\mathfrak{n}}'}</eq>, where <eq env="math">B'=A[t]/FA[t]</eq> and where <eq env="math">{\mathfrak{n}}'</eq> is the inverse image of <eq env="math">{\mathfrak{n}}</eq> in <eq env="math">B'</eq>.</p>
+</div>
+<div id="I.7.8" class="itenv" title="Corollary 7.8">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a morphism of finite type, and <eq env="math">x\in X</eq>.
+For <eq env="math">f</eq> to be unramified at <eq env="math">x</eq>, it is necessary and sufficient for there to exist an open neighbourhood <eq env="math">U</eq> of <eq env="math">x</eq> such that <eq env="math">f|U</eq> factors as <eq env="math">U\to X'\to Y</eq>, where the first arrow is a closed immersion, and the second is an étale morphism.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-22" class="proof"><em>Proof</em>. </span>This is a simple translation of <a href="I.html#I.7.7">7.7</a>.</p>
+</div>
+<p>We will now show how the jargon of <a href="I.html#I.7.6">7.6</a> follows from the main theorem:
+there exists, by <a href="I.html#I.7.7">7.7</a>, an epimorphism <eq env="math">{\mathcal{O}}'\to{\mathcal{O}}</eq>, where <eq env="math">{\mathcal{O}}</eq> has all the desired properties;
+but since <eq env="math">{\mathcal{O}}'</eq> and <eq env="math">{\mathcal{O}}</eq> are étale over <eq env="math">A</eq>, the morphism <eq env="math">{\mathcal{O}}'\to{\mathcal{O}}</eq> is étale by <a href="I.html#I.4.8">4.8</a>, and thus an isomorphism.</p>
+<div class="proof">
+<p><span id="unlabeled-div-23" class="proof"><em>Proof</em> (of Theorem 7.6). </span>This</p>
 </div>
 
 </div>
@@ -557,7 +636,7 @@ gitbook.start({
 },
 "download": {},
 "toc": {
-"collapse": "section"
+"collapse": "subsection"
 },
 "info": false
 });

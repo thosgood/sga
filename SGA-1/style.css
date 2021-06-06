@@ -79,6 +79,10 @@ html {
   float: left;
 }
 
+.itenv em {
+  font-style: normal !important;
+}
+
 .itenv > :first-child {
   margin-top: 0 !important;
 }

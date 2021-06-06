@@ -15,7 +15,6 @@ output:
       toc:
         before: |
           <li><h4>SGA 1</h4></li>
-        collapse: section
 #      view: https://github.com/thosgood/sga/blob/master/%s
 #      download: ["pdf"]
       fontsettings:
@@ -51,5 +50,6 @@ output:
 \providecommand{\Spec}{\operatorname{Spec}}
 \providecommand{\Hom}{\operatorname{Hom}}
 \providecommand{\id}{\mathrm{id}}
+\providecommand{\dd}{\mathrm{d}}
 
 # Introduction {-}

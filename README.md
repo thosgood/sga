@@ -1,5 +1,11 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
+**To-do:**
+
+- move anchor sections to left margin
+    + add anchor sections to all `.itenv` and `.rmenv`
+- use `scripts.html` to remove the link in the `<h1>` in `.book-header`
+
 ## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
 
 - [ ] Introduction
