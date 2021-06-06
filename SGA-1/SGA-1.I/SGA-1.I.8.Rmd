@@ -4,3 +4,24 @@
 Let $Y$ be a prescheme, $Y_0$ a sub-prescheme, $X_0$ an étale $Y_0$-scheme, and $x$ a point of $X_0$.
 Then there exists an étale $Y$-scheme $X$, a neighbourhood $U_0$ of $x$ in $X_0$, and a $Y_0$-isomorphism $U_0\xrightarrow{\sim}X\times_Y Y_0$.
 :::
+
+\oldpage{14}
+
+::: {.proof}
+Let $y$ be the projection of $x$ in $Y_0$;
+applying [7.6](#I.7.6) to the étale local homomorphism $A_0\to B_0$ of local rings of $y$ and $x$ in $Y_0$ and $X_0$, we obtain an isomorphism
+$$
+  \begin{aligned}
+    B_0 &= (C_0)_{\frak{n}_0}
+  \\C_0 &= A_0[t]/F_0A_0[t]
+  \end{aligned}
+$$
+where $F_0$ is a monic polynomial, and $\frak{n}_0$ is a maximal ideal of $C_0$ not containing the class of $F'_0(t)$ in $C_0$.
+Let $A$ be the local ring of $y$ in $Y$, let $F$ be a monic polynomial in $A[t]$ that gives $F_0$ under the surjective homomorphism $A\to A_0$ (we lift the coefficients of $F_0$), and let $C=A[t]/FA[t]$, with $\frak{n}$ the maximal ideal of $C$ given by the inverse image of $\frak{n}_0$ under the natural epimorphism $C\to C\otimes_A A_0=C_0$.
+Let
+$$
+  B = C_\frak{n}.
+$$
+It is immediate, by construction and by [7.1](#I.7.1), that $B$ is étale over $A$, and that we have an isomorphism $B\otimes_A A_0=A_0$. 
+:::
+

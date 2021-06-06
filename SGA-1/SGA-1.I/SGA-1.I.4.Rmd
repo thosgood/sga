@@ -87,11 +87,11 @@ The second means that $\scr{B}$ is locally free over $Y$ (resp. means absolutely
 Let $X$ be a flat cover of $Y$ of degree $n$ (the definition of this term deserved to figure in [4.9](#I.4.9)) defined by a locally free coherent sheaf $\scr{B}$ of algebras.
 We define, as usual, the trace homomorphism $\scr{B}\to\scr{A}$ (that is a homomorphism of $\scr{A}$-modules, where $\scr{A}=\cal{O}_Y$).
 For $X$ to be étale it is necessary and sufficient that the corresponding bilinear form $\tr_{\scr{B}/\scr{A}}xy$ define an isomorphism of $\scr{B}$ over $\scr{B}$, or, equivalently, that the _discriminant section_
-\[
+$$
   d_{X/Y}
   = d_{\scr{B}/\scr{A}}
   \in \Gamma\big(Y,\wedge^n\check{\scr{B}}\otimes_\scr{A}\wedge^n\check{\scr{B}}\big)
-\]
+$$
 is invertible, or that the discriminant ideal defined by this section is the unit ring.
 :::
 

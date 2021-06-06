@@ -44,9 +44,9 @@ If $X$ is unramified over $Y$, then the graph morphism $\Gamma_g\colon X'\to X\t
 :::
 
 Indeed, this is the inverse image of the diagonal morphism $X\to X\times_Y X$ by
-\[
+$$
   g\times_Y \id_{X'}\colon X'\times_Y X\to X\times_Y X.
-\]
+$$
 One can also introduce the annihilator ideal $\frak{d}_{X/Y}$ of $\Omega_{X/Y}^1$, called the _different ideal_ of $X/Y$;
 it defines a closed sub-prescheme of $X$ which, set-theoretically, is the set of point where $X/Y$ is ramified, i.e. not unramified.
 

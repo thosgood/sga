@@ -1,5 +1,7 @@
 ## 7. Local construction of unramified and étale morphisms {#I.7}
 
+\oldpage{10}
+
 ::: {.itenv #I.7.1 title="Proposition 7.1"}
 Let $A$ be a Noetherian ring, $B$ an algebra which is finite over $A$, and $u$ a generator of $B$ over $A$.
 Let $F\in A[t]$ be such that $F(u)=0$ (we do not assume $F$ to be monic), and $u'=F'(u)$ (where $F'$ is the differentiated polynomial).
@@ -14,8 +16,6 @@ This statement follows from the following, more precise:
 The different ideal of $B/A$ contains $u'B$, and is equal to $u'B$ if the natural homomorphism $A[t]/FA[t]\to B$ (sending $t$ to $u$) is an isomorphism.
 }
 :::
-
-\oldpage{9}
 
 ::: {.proof}
 Let $J$ be the kernel of the homomorphism $C=A[t]\to B$, so that $J$ contains $FA[t]$, and is equal to it in the second case described in [7.2](#I.7.2).
@@ -41,6 +41,8 @@ Under the conditions of [7.3](#I.7.3), in order for $B$ to be étale over $A$, i
 ::: {.proof}
 The second claim follows from the first along with Nakayama (in $B$).
 :::
+
+\oldpage{11}
 
 A monic polynomial $F\in A[t]$ that has the property stated in [7.4](#I.7.4) is said to be a _separable polynomial_ (if $F$ is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where $A$ is a field, we recover the usual definition).
 
@@ -68,8 +70,6 @@ Then we can find an $A$-algebra $B$ which is integral over $A$, a maximal ideal 
 If $\cal{O}$ is étale over $A$, then we can take $B=A[t]/FA[t]$.
 :::
 
-\oldpage{10}
-
 (Of course, these conditions are more than sufficient ...)
 
 Before proving [7.6](#I.7.6), we first state some nice corollaries:
@@ -81,6 +81,8 @@ For $\cal{O}$ to be unramified over $A$, it is necessary and sufficient for $\ca
 ::: {.proof}
 We can take $\cal{O}'=B'_{\frak{n}'}$, where $B'=A[t]/FA[t]$ and where $\frak{n}'$ is the inverse image of $\frak{n}$ in $B'$.
 :::
+
+\oldpage{12}
 
 ::: {.itenv #I.7.8 title="Corollary 7.8"}
 Let $f\colon X\to Y$ be a morphism of finite type, and $x\in X$.
@@ -123,7 +125,7 @@ Then there exists a monic polynomial $F\in A[t]$ such that $F(u)=0$ and $F'(u)\n
 
 N.B. [7.10](#I.7.10) should have appeared as a corollary to [7.1](#I.7.1), and before [7.5](#I.7.5) (which it implies).
 
-\oldpage{11}
+\oldpage{13}
 
 So [7.6](#I.7.6) now follows from the combination of [7.9](#I.7.9) and [7.10](#I.7.10);
 it remains only to prove [7.9](#I.7.9).
@@ -133,13 +135,13 @@ Let $S'=B'\setminus\frak{n}'$, so that $B'S'^{-1}=B'_\frak{n'}$.
 Similarly, let $S=B\setminus\frak{n}$, so that $BS^{-1}=B_\frak{n}$.
 We then have a natural homomorphism $BS'^{-1}\to BS^{-1}=B_\frak{n}$;
 we will show that this is an isomorphism, i.e. that the elements of $S$ are invertible in $BS'^{-1}$, i.e. that every maximal ideal $\frak{p}$ of $BS'^{-1}$ does not meet $S$, i.e. that every maximal ideal of $BS'^{-1}$ induces $\frak{n}$ on $B$.
-\[
+$$
   \begin{CD}
     B @>>> BS'^{-1} @>>> BS^{-1} = B_\frak{n}
   \\@AAA @AAA
   \\B' @>>> B'S'^{-1} = B'_{\frak{n}'}
   \end{CD}
-\]
+$$
 Since $BS'^{-1}$ is finite over $B'S'^{-1}=B'_{\frak{n}'}$, $\frak{p}$ induces the unique maximal ideal $\frak{n}'B_{\frak{n}'}$ of $B'_{\frak{n}'}$, and thus induces the maximal ideal $\frak{n}'$ of $B'$;
 since $B$ is finite over $B'$, the ideal $\frak{q}$ of $B$ induced by $\frak{p}$, which lives over $\frak{n}'$, is necessarily maximal, and does not contain $u$, and is thus identical to $\frak{n}$.
 (We have just used the fact that $u$ belongs to every maximal ideal of $B$ that is distinct from $\frak{n}$).

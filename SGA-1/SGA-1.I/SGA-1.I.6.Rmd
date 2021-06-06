@@ -16,10 +16,10 @@ Firstly, the functor in question is fully faithful, as follows from the more gen
 ::: {.itenv #I.6.2 title="Corollary 6.2"}
 Let $B$ and $B'$ be $A$-algebras that are finite over $A$.
 If $B$ is étale over $A$, then the canonical map
-\[
+$$
   \Hom_{\alg{A}}(B,B')
   \to \Hom_{\alg{k}}(R(B),R(B'))
-\]
+$$
 is bijective.
 :::
 

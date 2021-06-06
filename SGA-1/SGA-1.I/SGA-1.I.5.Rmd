@@ -71,9 +71,9 @@ Let $S$ be a prescheme, and let $X$ and $Y$ be $S$-preschemes.
 Let $S_0$ be a closed sub-prescheme of $S$ having the same underlying space as $S$, and let $X_0=X\times_S S_0$ and $Y_0=Y\times_S S_0$ be the "restrictions" of $X$ and $Y$ to $S_0$.
 Suppose that $X$ is étale over $S$.
 Then the natural map
-\[
+$$
   \Hom_S(Y,X) \to \Hom_{S_0}(X_0,Y_0)
-\]
+$$
 is _bijective_.
 :::
 
@@ -94,13 +94,13 @@ The following form (which appears to be more general) of [5.5](#I.5.5) is often 
 ::: {.itenv #I.5.6 title="Corollary 5.6"}
 **(Extension of coverings).**
 Consider a commutative diagram of morphisms
-\[
+$$
   \begin{CD}
     X @<<< Y_0
   \\@VVV @VVV
   \\S @<<< Y
   \end{CD}
-\]
+$$
 where $X\to S$ is étale, and $Y_0\to Y$ is a bijective closed immersion.
 Then we can find a unique morphism $Y\to X$ such that the two corresponding triangles commute.
 :::
@@ -114,10 +114,10 @@ We also note the following immediate consequence of [5.1](#I.5.1) (which we did 
 ::: {.itenv #I.5.7 title="Proposition 5.7"}
 Let $X$ and $X'$ be preschemes that are of finite type and flat over $Y$, and let $g\colon X\to X'$ be a $Y$-morphism.
 For $g$ to be an open immersion (resp. an isomorphism), it is necessary and sufficient for the induced morphism on the fibres
-\[
+$$
   g\otimes_Y k(y)\colon
   X\otimes_Y k(y) \to X'\otimes_Y k(y)
-\]
+$$
 to be an open immersion (resp. an isomorphism) for all $y\in Y$.
 :::
 
@@ -135,6 +135,8 @@ For $g$ to be quasi-finite (resp. unramified) at $x$, it is necessary and suffic
 ::: {.proof}
 The two algebras over $k(g(x))$ that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at $x$ are the same for $g$ and $g\otimes_Y k(y)$.
 :::
+
+\oldpage{9}
 
 ::: {.itenv #I.5.9 title="Corollary 5.9"}
 With the notation of [5.8](#I.5.8), suppose that $X$ and $X'$ are flat and of finite type over $Y$.
