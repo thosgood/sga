@@ -1,24 +1,34 @@
+html {
+  font-size: 80%;
+}
+
 .page-inner {
-  max-width: 755px !important;
+  max-width: 710px !important;
 }
 
 @font-face {
-  font-family: Merriweather;
-  src: url(../fonts/Merriweather-Regular.ttf) format('truetype');
+  font-family: EBGaramond;
+  src: url(../fonts/EBGaramond-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: Merriweather;
-  src: url(../fonts/Merriweather-Bold.ttf) format('truetype');
+  font-family: EBGaramond;
+  src: url(../fonts/EBGaramond-Bold.ttf) format('truetype');
   font-weight: bold;
 }
 @font-face {
-  font-family: Merriweather;
-  src: url(../fonts/Merriweather-Italic.ttf) format('truetype');
+  font-family: EBGaramond;
+  src: url(../fonts/EBGaramond-Italic.ttf) format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url(../fonts/EBGaramond-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
   font-style: italic;
 }
 
 .book.font-family-0 {
-  font-family: Merriweather, Georgia, serif;
+  font-family: EBGaramond, Georgia, serif;
 }
 
 .book.font-family-1 {
