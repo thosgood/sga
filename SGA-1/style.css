@@ -47,8 +47,17 @@ html {
 /* TOC */
 
 .book .book-summary nav ul.summary h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 1em;
+}
+
+
+/* Header */
+
+.book .book-header h1 {
+  text-align: left;
+  padding-left: 100px;
+  opacity: 1;
 }
 
 
@@ -79,27 +88,84 @@ html {
   margin: 1em 0;
 }
 
-.itenv:before, .rmenv:before {
+.itenv:before,
+.rmenv:before {
   content: attr(title)".";
   font-style: normal;
   font-weight: bold;
   padding-right: 0.5em;
-  float: left;
+  display: inline;
 }
 
-.itenv > :first-child, .rmenv > :first-child {
+.itenv > p:first-of-type,
+.rmenv > p:first-of-type {
   margin-top: 0 !important;
+  display: inline;
 }
 
-.itenv > :last-child, .rmenv > :last-child {
+.itenv > :last-child,
+.rmenv > :last-child {
   margin-bottom: 0 !important;
 }
 
-.itenv, .rmenv, .proof {
+
+/* Anchor links */
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  overflow: visible !important; /* so anchor link doesn't get cut off */
+}
+
+a.anchor {
+  float: left;
+  margin-left: -35px;
+  vertical-align: baseline;
+  /* Icon made by Freepik from www.flaticon.com */
+  height: 30px;
+  width: 30px;
+  background-image: url(link.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+  background-position: center center !important;
+  opacity: 0;
+}
+
+.book.color-theme-2 a.anchor {
+  filter: invert(100%);
+}
+
+.hasAnchor:hover a.anchor,
+a.anchor:hover {
+  opacity: 0.4;
+}
+
+@media (max-width: 1144px) { /* don't show anchor link on small screens */
+  .hasAnchor:hover a.anchor {
+    visibility: hidden;
+  }
+}
+
+h1.hasAnchor,
+h2.hasAnchor,
+h3.hasAnchor,
+h4.hasAnchor,
+h5.hasAnchor {
+  border-bottom: 1px solid transparent;
+}
+h1.hasAnchor:hover,
+h2.hasAnchor:hover,
+h3.hasAnchor:hover,
+h4.hasAnchor:hover,
+h5.hasAnchor:hover {
+  border-bottom: 1px solid gray;
+}
+
+.itenv.hasAnchor,
+.rmenv.hasAnchor {;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
-.itenv:hover, .rmenv:hover, .proof:hover {
+.itenv.hasAnchor:hover,
+.rmenv.hasAnchor:hover {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }

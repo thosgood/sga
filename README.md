@@ -1,9 +1,5 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-**To-do:**
-
-- use `scripts.html` to remove the link in the `<h1>` in `.book-header`
-
 ## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
 
 - [ ] Introduction

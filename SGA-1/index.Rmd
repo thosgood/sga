@@ -14,7 +14,7 @@ output:
     config:
       toc:
         before: |
-          <li><h4>SGA 1</h4></li>
+          <li><h4>Table of contents</h4></li>
       fontsettings:
         theme: white
         family: serif
