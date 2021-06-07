@@ -14,7 +14,7 @@ We are going to give two different proofs: the first is shorter, the second is m
     For any base extension, it remains true that $f$ is flat, radicial, surjective, thus a homeomorphism, and a fortiori closed.
     Thus $f$ is _proper_.
     Thus $f$ is _finite_ (reference: Chevalley's theorem), defined by a coherent sheaf $\scr{B}$ of algebras.
-    Now $\scr{B}$ is locally free, and further, by hypothesis, of rank~$1$ everywhere, and so $X=Y$.
+    Now $\scr{B}$ is locally free, and further, by hypothesis, of rank $1$ everywhere, and so $X=Y$.
 
 2. We can suppose that $Y$ and $X$ are _affine_.
     We can further easily reduce to proving the following:
