@@ -1,6 +1,7 @@
 <script type="text/javascript" src="../katex.min.js"></script>
 
 <script type="text/javascript">
+  //render maths with KaTeX
   var $document = $(document);
   $document.ready(function() {
     $('eq').map(function() {
@@ -11,6 +12,25 @@
 </script>
 
 <script type="text/javascript">
+// if you want to use this, set  anchor_sections: false in _output.yml
+  //anchor links on headers and envs
+//  var $document = $(document);
+//  $document.ready(function() {
+//    $('.section h1, .section h2, .section h3, .section h4, .section h5').each(function() {
+//      anchor = '#' + $(this).parent().attr('id');
+//      $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//    });
+//    $('.itenv, .rmenv').each(function() {
+//      if ($(this).attr('id') !== undefined) {
+//        anchor = '#' + $(this).attr('id');
+//        $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//      };
+//    });
+//  });
+</script>
+
+<script type="text/javascript">
+  //customise the header
   var $document = $(document);
   $document.ready(function() {
     $('div.font-settings button.size-3').map(function() {

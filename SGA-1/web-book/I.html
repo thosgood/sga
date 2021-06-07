@@ -379,7 +379,7 @@ is <em>bijective</em>.</p>
 It can also be expressed (if <eq env="math">X</eq> and <eq env="math">Y</eq> are both étale over <eq env="math">S</eq>) by saying that the functor <eq env="math">X\mapsto X_0</eq> from the category of étale <eq env="math">S</eq>-schemes to the category of étale <eq env="math">S_0</eq>-schemes is <em>fully faithful</em>, i.e. establishes an <em>equivalence</em> between the first and a <em>full subcategory</em> of the second.
 We will see below that it is in fact an equivalence between the first and the second (which will be a theorem of <em>existence for étale <eq env="math">S</eq>-schemes</em>).</p>
 </div>
-<p>The following form (which appears to be more general) of <a href="I.html#I.5.5">5.5</a> is often useful:</p>
+<p>The following form (which looks more general) of <a href="I.html#I.5.5">5.5</a> is often useful:</p>
 <div id="I.5.6" class="itenv" title="Corollary 5.6">
 <p><strong>(Extension of coverings).</strong>
 Consider a commutative diagram of morphisms
@@ -468,8 +468,7 @@ Then <eq env="math">B_{\mathfrak{q}}</eq> is unramified over <eq env="math">A_{\
 <p>In other words, taking <eq env="math">Y=\operatorname{Spec}(A)</eq>, <eq env="math">X=\operatorname{Spec}(B)</eq>, and <eq env="math">X_{u'}=\operatorname{Spec}(B_{u'})</eq>, we claim that <eq env="math">X_{u'}</eq> is unramified over <eq env="math">Y</eq>.
 This statement follows from the following, more precise:</p>
 <div id="I.7.2" class="itenv" title="Corollary 7.2">
-<p>The different ideal of <eq env="math">B/A</eq> contains <eq env="math">u'B</eq>, and is equal to <eq env="math">u'B</eq> if the natural homomorphism <eq env="math">A[t]/FA[t]\to B</eq> (sending <eq env="math">t</eq> to <eq env="math">u</eq>) is an isomorphism.
-}</p>
+<p>The different ideal of <eq env="math">B/A</eq> contains <eq env="math">u'B</eq>, and is equal to <eq env="math">u'B</eq> if the natural homomorphism <eq env="math">A[t]/FA[t]\to B</eq> (sending <eq env="math">t</eq> to <eq env="math">u</eq>) is an isomorphism.</p>
 </div>
 <div class="proof">
 <p><span id="unlabeled-div-17" class="proof"><em>Proof</em>. </span>Let <eq env="math">J</eq> be the kernel of the homomorphism <eq env="math">C=A[t]\to B</eq>, so that <eq env="math">J</eq> contains <eq env="math">FA[t]</eq>, and is equal to it in the second case described in <a href="I.html#I.7.2">7.2</a>.
@@ -675,6 +674,7 @@ Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately fro
 <script type="text/javascript" src="../katex.min.js"></script>
 
 <script type="text/javascript">
+  //render maths with KaTeX
   var $document = $(document);
   $document.ready(function() {
     $('eq').map(function() {
@@ -685,6 +685,25 @@ Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately fro
 </script>
 
 <script type="text/javascript">
+// if you want to use this, set  anchor_sections: false in _output.yml
+  //anchor links on headers and envs
+//  var $document = $(document);
+//  $document.ready(function() {
+//    $('.section h1, .section h2, .section h3, .section h4, .section h5').each(function() {
+//      anchor = '#' + $(this).parent().attr('id');
+//      $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//    });
+//    $('.itenv, .rmenv').each(function() {
+//      if ($(this).attr('id') !== undefined) {
+//        anchor = '#' + $(this).attr('id');
+//        $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//      };
+//    });
+//  });
+</script>
+
+<script type="text/javascript">
+  //customise the header
   var $document = $(document);
   $document.ready(function() {
     $('div.font-settings button.size-3').map(function() {

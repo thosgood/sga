@@ -106,7 +106,7 @@
 <div id="header">
 <h1 class="title">Étale covers and the fundamental group (SGA 1)</h1>
 <p class="author"><em>A. Grothendieck and M. Raynaud</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>1960–1961 (web version last updated: 06 June 2021)</em></p>
+<p class="date" style="margin-top: 1.5em;"><em>1960–1961 (web version last updated: 07 June 2021)</em></p>
 </div>
 <div id="introduction" class="section level1 unnumbered">
 <h1>Introduction</h1>
@@ -115,6 +115,7 @@
 <script type="text/javascript" src="../katex.min.js"></script>
 
 <script type="text/javascript">
+  //render maths with KaTeX
   var $document = $(document);
   $document.ready(function() {
     $('eq').map(function() {
@@ -125,6 +126,25 @@
 </script>
 
 <script type="text/javascript">
+// if you want to use this, set  anchor_sections: false in _output.yml
+  //anchor links on headers and envs
+//  var $document = $(document);
+//  $document.ready(function() {
+//    $('.section h1, .section h2, .section h3, .section h4, .section h5').each(function() {
+//      anchor = '#' + $(this).parent().attr('id');
+//      $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//    });
+//    $('.itenv, .rmenv').each(function() {
+//      if ($(this).attr('id') !== undefined) {
+//        anchor = '#' + $(this).attr('id');
+//        $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor">#</a>');
+//      };
+//    });
+//  });
+</script>
+
+<script type="text/javascript">
+  //customise the header
   var $document = $(document);
   $document.ready(function() {
     $('div.font-settings button.size-3').map(function() {

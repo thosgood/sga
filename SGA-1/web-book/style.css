@@ -64,31 +64,51 @@ html {
 }
 
 
+/* Anchor links */
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  overflow: visible !important; /* so anchor link doesn't get cut off */
+}
+
+a.anchor {
+  float: left;
+  margin-left: -30px;
+  padding: 0 10px;
+  font-style: normal;
+  /*display:inline-block;
+  width: 30px;
+  height: 30px;*/
+  /* Icon made by Freepik from www.flaticon.com */
+  /*background-image: url(link.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+  background-position: center bottom !important;*/
+  opacity: 0;
+}
+
+/*.book.color-theme-2 a.anchor {
+  filter: invert(100%);
+}*/
+
+.hasAnchor:hover a.anchor, a.anchor:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1144px) { /* don't show anchor link on small screens */
+  .hasAnchor:hover a.anchor {
+    visibility: hidden;
+  }
+}
+
+
 /* Custom environments */
 
 .itenv {
   font-style: italic;
   margin: 1em 0;
 }
-
-.itenv:before {
-  content: attr(title)".";
-  font-style: normal;
-  font-weight: bold;
-  padding-right: 0.5em;
-  float: left;
-}
-
 .itenv em {
   font-style: normal !important;
-}
-
-.itenv > :first-child {
-  margin-top: 0 !important;
-}
-
-.itenv > :last-child {
-  margin-bottom: 0 !important;
 }
 
 .rmenv {
@@ -96,7 +116,7 @@ html {
   margin: 1em 0;
 }
 
-.rmenv:before {
+.itenv:before, .rmenv:before {
   content: attr(title)".";
   font-style: normal;
   font-weight: bold;
@@ -104,10 +124,20 @@ html {
   float: left;
 }
 
-.rmenv > :first-child {
+.itenv > :first-child, .rmenv > :first-child {
   margin-top: 0 !important;
 }
 
-.rmenv > :last-child {
+.itenv > :last-child, .rmenv > :last-child {
   margin-bottom: 0 !important;
+}
+
+.itenv, .rmenv, .proof {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.itenv:hover, .rmenv:hover, .proof:hover {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
