@@ -79,6 +79,14 @@ html {
   font-size: 1.5em !important;
 }
 
+.page-inner h1,
+.page-inner h2,
+.page-inner h3,
+.page-inner h4,
+.page-inner h5 {
+  font-kerning: none;
+}
+
 
 /* Custom environments */
 
