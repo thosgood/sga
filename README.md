@@ -1,3 +1,7 @@
+# TO-DO
+
+- copy over `.css` from fga/translations repo
+
 # Séminaire de Géométrie Algébrique du Bois Marie
 
 ## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
