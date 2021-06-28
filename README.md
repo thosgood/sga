@@ -1,6 +1,7 @@
 # TO-DO
 
 - copy over `.css` from fga/translations repo
+- move building to github actions
 
 # Séminaire de Géométrie Algébrique du Bois Marie
 
