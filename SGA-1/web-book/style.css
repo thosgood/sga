@@ -1,5 +1,12 @@
 html {
   font-size: 85%;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga";
+  -o-font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga"
 }
 
 .page-inner {
@@ -49,6 +56,7 @@ html {
 .book .book-summary nav ul.summary h4 {
   font-size: 1rem;
   padding-left: 1em;
+  margin: 1.18rem 0;
 }
 
 
@@ -70,6 +78,14 @@ html {
 
 .page-inner h2 {
   font-size: 1.5em !important;
+}
+
+.page-inner h1,
+.page-inner h2,
+.page-inner h3,
+.page-inner h4,
+.page-inner h5 {
+  font-kerning: none;
 }
 
 

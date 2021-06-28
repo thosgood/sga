@@ -47,3 +47,14 @@ output:
 \providecommand{\dd}{\mathrm{d}}
 
 # Introduction {-}
+
+In the first section of this introduction, we give some details about the contents of the present volume;
+in the second, about the entirety of the "_Séminaire de Géométrie Algébrique du Bois-Marie_", of which the present volume constitutes the first tome.
+
+## —
+
+The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
+This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the _Éléments de Géométrie Algébrique_ by J. Dieudonné and A. Grothendieck (cited as "EGA").
+The study of this present volume of the "_Séminaire de Géométrie Algébrique du Bois-Marie_" does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry, to a reader who wishes to familiarise themselves with these techniques.
+
+**TO-DO**
