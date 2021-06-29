@@ -1,1 +1,1 @@
-## 9. Permanence properties {#I.9}
+## 9. Invariance properties {#I.9}

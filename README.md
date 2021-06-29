@@ -21,7 +21,7 @@
 6. [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6) _(@thosgood)_
 7. [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7) _(@thosgood)_
 8. [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8) _(@thosgood)_
-9. [ ] Permanence properties _(6)_
+9. [ ] Invariance properties _(6)_
 10. [ ] Étale coverings of a normal scheme _(5)_
 11. [ ] Various addenda _(3)_
 
@@ -29,7 +29,7 @@
 
 1. [ ] Generalities _(2)_
 2. [ ] Some smoothness criteria for morphisms _(3)_
-3. [ ] Permanence properties _(1)_
+3. [ ] Invariance properties _(1)_
 4. [ ] Differential properties of smooth morphisms _(17)_
 5. [ ] The case of a base field _(6)_
 
