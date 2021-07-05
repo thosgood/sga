@@ -49,6 +49,7 @@ output:
 # Introduction {-}
 
 In the first section of this introduction, we give some details about the contents of the present volume;
+\oldpage{vii}
 in the second, about the entirety of the "_Séminaire de Géométrie Algébrique du Bois-Marie_", of which the present volume constitutes the first tome.
 
 ## 1.
@@ -56,5 +57,21 @@ in the second, about the entirety of the "_Séminaire de Géométrie Algébrique
 The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
 This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the _Éléments de Géométrie Algébrique_ by J. Dieudonné and A. Grothendieck (cited as "EGA").
 The study of this present volume of the "_Séminaire de Géométrie Algébrique du Bois-Marie_" does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry, to a reader who wishes to familiarise themselves with these techniques.
+
+Chapters I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which where distributed by the _Institut des Hautes Études Scientifiques_.^[As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the "_Séminaire de Géométrie Algébrique du Bois-Marie_" from now on will appear in book form, like the present volume.]
+We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, "simple morphism" being replaced with "smooth morphism", which does not lead to the same confusion).
+
+\oldpage{viii}
+
+Chapters I to IV present the local notions of _étale_ and _smooth_ morphisms;
+they hardly ever use the language of schemes, as detailed in Chapter I of the _Élements_.^[A more complete study is now available in the _Élements_, Chapter IV, §§17 and 18]
+Chapter V presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case, where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of the usual Galois theory.
+Chapters VI and VIII present the _theory of descent_, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
+We note that Chapter VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente", _Bull. Soc. Math. France_ **2** (1964), viii + 150 p.).
+In chapter IX, we study more specifically the theory of descent by étale morphisms, obtaining a systematic approach for Van Kampen type theorems for the fundamental group, which appear here as simple translations of theorems of descent.
+It essentially deals with a calculation of the fundamental group of a connected scheme $X$ endowed with a surjective and proper morphism (say, $X'\to X$) in terms of the fundamental groups of the connected components of $X'$ and of the fibre products $X'\times_X X'$, $X'\times_X X'\times_X X'$, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
+Chapter X gives the theory of _specialisation of the fundamental group_ for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic $p>0$, thanks to the known result obtained by transcendental methods in characteristic zero.
+Chapter XI gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
+For other commentaries on the text, see the [_Foreword_](#foreword), found after this introduction.
 
 **TO-DO**
