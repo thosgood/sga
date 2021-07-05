@@ -74,4 +74,9 @@ Chapter X gives the theory of _specialisation of the fundamental group_ for a pr
 Chapter XI gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
 For other commentaries on the text, see the [_Foreword_](#foreword), found after this introduction.
 
+Since the editing of the seminar in 1961, the language of _étale topology_, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
+it is detailed in SGA 4 ("Cohomologie étale des schémes") of the _Séminaire de Géométrie Algébrique_, which will appear in the same series as the present volume.
+This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
+There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in _loc. cit._).
+
 **TO-DO**
