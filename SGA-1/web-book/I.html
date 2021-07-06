@@ -726,6 +726,102 @@ We use the following necessary and sufficient condition for a local Noetherian r
 <li>For every rank-<eq env="math">\geqslant 2</eq> prime ideal <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq>, the depth of <eq env="math">A_{\mathfrak{p}}</eq> is <eq env="math">\geqslant 2</eq>.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></li>
 </ol>
 </div>
+<p>We assume this criterion here, but it should also appear in the section on flatness.
+Its main advantage is that it does not suppose <em>a priori</em> that <eq env="math">A</eq> is reduced, nor <em>a fortiori</em> that <eq env="math">A</eq> is integral.
+Here, we can already suppose that <eq env="math">\dim A=\dim B\neq0</eq>.</p>
+<p>By the statements at the start of this section, the rank-<eq env="math">1</eq> (resp. rank-<eq env="math">\geqslant 2</eq>) prime ideals <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq> are exactly the intersections of <eq env="math">A</eq> with the rank-<eq env="math">1</eq> (resp. rank-<eq env="math">\geqslant 2</eq>) prime ideals <eq env="math">{\mathfrak{q}}</eq> of <eq env="math">B</eq>.
+Finally, if <eq env="math">{\mathfrak{p}}</eq> and <eq env="math">{\mathfrak{q}}</eq> correspond to one another, then <eq env="math">B_{\mathfrak{q}}</eq> is étale over <eq env="math">A_{\mathfrak{p}}</eq>, and thus of the same depth as <eq env="math">A_{\mathfrak{p}}</eq>, and is regular if and only if <eq env="math">A_{\mathfrak{p}}</eq> is (by <a href="I.html#I.9.1">9.1</a>).
+Applying <a href="I.html#serres-criterion">Serre’s criterion</a>, we see that <eq env="math">A</eq> is normal if and only if <eq env="math">B</eq> is.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-33" class="proof"><em>Proof</em>. </span><em>(Second proof).</em>
+Suppose that <eq env="math">B</eq> is normal, with field of fractions <eq env="math">L</eq>;
+let <eq env="math">K</eq> be the field of fractions of <eq env="math">A</eq> (and note that <eq env="math">A</eq> is integral, since <eq env="math">B</eq> is integral).
+We have already seen, in the proof of <a href="#I.9.3">9.3</a>, that <eq env="math">B\otimes_A K</eq> is a finite product of fields;
+since it is contained in <eq env="math">L</eq>, it is a field;
+since it contains <eq env="math">B</eq>, it is equal to <eq env="math">L</eq> itself.
+An element of <eq env="math">K</eq> which is integral over <eq env="math">A</eq> is integral over <eq env="math">B</eq>, and is thus in <eq env="math">B</eq>, since <eq env="math">B</eq> is normal, and thus also in <eq env="math">A</eq>, since <eq env="math">B\cap K=A</eq> (as follows from the fact that <eq env="math">B</eq> is faithfully flat over <eq env="math">A</eq>).</p>
+<p>Now suppose that <eq env="math">A</eq> is normal;
+we will prove that <eq env="math">B</eq> is also normal.
+By <a href="I.html#I.7.6">7.6</a>, we have that <eq env="math">B=B'_{\mathfrak{n}}</eq>, where <eq env="math">B'=A[t]/FA[t]</eq> (with <eq env="math">F</eq> and <eq env="math">{\mathfrak{n}}</eq> being as in <a href="I.html#I.7.6">7.6</a>).
+Thus <eq env="math">L=B\otimes_A K</eq> is a localisation of <eq env="math">B'\otimes_A K=K[t]/FK[t]</eq>, and also a product of fields (finite separable extensions of <eq env="math">K</eq>).
+This latter product (<eq env="math">B'\otimes_A K</eq>) is a direct factor of <eq env="math">B'_K</eq> (since each time we localise an Artinian ring (here <eq env="math">B'_K</eq>) with respect to a multiplicatively stable set), and thus corresponds to a decomposition <eq env="math">F=F_1F_2</eq> in <eq env="math">K[t]</eq>, with the generator of <eq env="math">L</eq> corresponding to <eq env="math">t</eq> being annihilated by <eq env="math">F_1</eq>.
+But, <em>since <eq env="math">A</eq> is normal, the <eq env="math">F_i</eq> are in <eq env="math">A[t]</eq></em> (supposing that they are monic).
+Note that <eq env="math">B\to L=B\otimes_A K</eq> is injective (since <eq env="math">A\to K</eq> is, since <eq env="math">B</eq> is flat over <eq env="math">A</eq>), and so <eq env="math">F_1(u)=0</eq>, with <eq env="math">u</eq> being the class of <eq env="math">t</eq> in <eq env="math">L</eq>.
+Suppose that <eq env="math">F</eq> were of minimal degree;
+then it would follows that <eq env="math">F_2=1</eq>.
+(N.B. we would have <eq env="math">F'(u)=F'_1(u)F_2(u)+F_1(u)F'_2(u)=F'_1(u)F_2(u)</eq>, since <eq env="math">F_1(u)=0</eq>, whence <eq env="math">F'_1(u)\neq 0</eq> since <eq env="math">F'(u)\neq0</eq>.)
+Thus
+
+<eq env="displaymath">
+  L = B\otimes_A K = K[t]/FK[t]
+\tag{$*$}
+</eq>
+and so <eq env="math">F</eq> is a separable polynomial in <eq env="math">K[T]</eq> (but evidently not necessarily in <eq env="math">A[t]</eq>).
+(N.B. for now, we have only shown, essentially, that we can choose <eq env="math">F</eq> and <eq env="math">{\mathfrak{n}}</eq> in <a href="I.html#I.7.6">7.6</a> such that, with the above notation, <eq env="math">B'\to B'_{\mathfrak{n}}=B</eq> is <em>injective</em>;
+for this, we have used the fact that <eq env="math">A</eq> is normal;
+I do not know if this remains true without this normality hypothesis).</p>
+</div>
+<p>Now recall the well-known lemma, taken from Serre’s lectures last year:</p>
+<div id="I.9.6" class="itenv" title="Lemma 9.6">
+<p>Let <eq env="math">K</eq> be a ring, <eq env="math">F\in K[t]</eq> a separable monic polynomial, <eq env="math">L=K[t]/FK[t]</eq>, and <eq env="math">u</eq> the class of <eq env="math">t</eq> in <eq env="math">L</eq> (so that <eq env="math">F'(u)</eq> is an invertible element of <eq env="math">L</eq>).
+Then
+<eq env="displaymath">
+  \operatorname{tr}_{L/K} u^i/F'(u) =
+  \begin{cases}
+    0 &amp;\text{if }0\leqslant i&lt;n-1\text{;}
+  \\1 &amp;\text{if }i=n-1
+  \end{cases}
+</eq>
+where <eq env="math">n=\deg F</eq>.</p>
+</div>
+<div id="I.9.7" class="itenv" title="Corollary 9.7">
+<p>The determinant of the matrix <eq env="math">(u^j\cdot u^i/F'(u))_{0\leqslant i,j\leqslant n-1}</eq> is equal to <eq env="math">(-1)^{n(n-1)/2}</eq>, and thus invertible in every subring <eq env="math">A</eq> of <eq env="math">K</eq>.</p>
+</div>
+<div id="I.9.8" class="itenv" title="Corollary 9.8">
+<p>Let <eq env="math">A</eq> be a subring of <eq env="math">K</eq>, <eq env="math">V</eq> the <eq env="math">A</eq>-module generated by the <eq env="math">u^i</eq> (for <eq env="math">0\leqslant i\leqslant n-1</eq>), and <eq env="math">V'</eq> the sub-<eq env="math">A</eq>-module of <eq env="math">L</eq> consisting of the <eq env="math">x\in L</eq> such that <eq env="math">\operatorname{tr}_{L/K}(xy)\in A</eq> for all <eq env="math">y\in V</eq> (i.e. for <eq env="math">y</eq> of the form <eq env="math">u^i</eq>, for <eq env="math">0\leqslant i\leqslant n-1</eq>).
+Then <eq env="math">V'</eq> is the <eq env="math">A</eq>-module given by the basis <eq env="math">u^i/F'(u)</eq> (for <eq env="math">0\leqslant i\leqslant n-1</eq>).</p>
+</div>
+<div id="I.9.9" class="itenv" title="Corollary 9.9">
+<p>Suppose that <eq env="math">K</eq> is the field of fractions of an integral normal ring <eq env="math">A</eq>, with the coefficients of <eq env="math">F</eq> lying in <eq env="math">A</eq>.
+Then, with the notation of <a href="I.html#I.9.8">9.8</a>, <eq env="math">V'</eq> contains the normal closure <eq env="math">A'</eq> of <eq env="math">A</eq> in <eq env="math">L</eq>, which is thus contained in <eq env="math">A[u]/F'(u)</eq>, and <em>a fortiori</em> in <eq env="math">A[u][F'(u)^{-1}]</eq>.</p>
+</div>
+<p>We can apply the above corollary to the situation that we have obtained in the proof: since <eq env="math">F'(u)</eq> is invertible in <eq env="math">B</eq>, and since <eq env="math">B</eq> contains <eq env="math">A[u]</eq>, <eq env="math">B</eq> contains <eq env="math">A'</eq>.
+By the Main Theorem (or by the fact that <eq env="math">B=A[u]_{\mathfrak{n}}</eq>), <eq env="math">B</eq> is a localisation of <eq env="math">A'</eq>.
+Since <eq env="math">A'</eq> is normal, so too is <eq env="math">B</eq>.</p>
+<div class="proof">
+<p><span id="unlabeled-div-34" class="proof"><em>Proof</em>. </span><em>(of ii).</em>
+We proceed as in the above proof to show that we can choose <eq env="math">F</eq> in <a href="I.html#I.7.6">7.6</a> such that we again have (<eq env="math">*</eq>).
+The only obstacle <em>a priori</em> is that we can no longer prove that <eq env="math">B\to L</eq> is injective, since <eq env="math">B</eq> is no longer assumed to be flat over <eq env="math">A</eq>, and so we can only apply the same argument <em>a priori</em> to the image <eq env="math">B_1</eq> of <eq env="math">B</eq> under the aforementioned homomorphism.
+It immediately follows that <eq env="math">B_1</eq> is flat over <eq env="math">A</eq> (since it is the localisation of a free <eq env="math">A</eq>-algebra).
+By <a href="I.html#I.4.8">4.8</a>, the morphism <eq env="math">B\to B_1</eq> is étale, and thus an isomorphism, which finishes the proof.</p>
+</div>
+<p>(From an editorial point of view, we should perform the two proofs above, and place the formal calculations of the lemma and of its corollaries in a separate section).</p>
+<div id="I.9.10" class="itenv" title="Corollary 9.10">
+<p>Let <eq env="math">f\colon X\to Y</eq> be an étale morphism.
+If <eq env="math">Y</eq> is normal, then <eq env="math">X</eq> is normal;
+the converse is true if <eq env="math">f</eq> is surjective.</p>
+</div>
+<div id="I.9.11" class="itenv" title="Corollary 9.11">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a dominant morphism, with <eq env="math">Y</eq> normal and <eq env="math">X</eq> connected.
+If <eq env="math">f</eq> is unramified, then it is also étale, and <eq env="math">X</eq> is then normal and thus irreducible (since it is connected).</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-35" class="proof"><em>Proof</em>. </span>Let <eq env="math">U</eq> be the set of points where <eq env="math">f</eq> is étale.
+Since <eq env="math">U</eq> is open, it suffices to show that it is also closed and non-empty.
+Since <eq env="math">U</eq> contains the inverse image of the generic point of <eq env="math">Y</eq> (recall that, for an algebra over a field, unramified = étale), it is non-empty (since <eq env="math">X</eq> dominates <eq env="math">Y</eq>).
+If <eq env="math">x</eq> belongs to the closure of <eq env="math">U</eq>, then it belongs to the closure of an irreducible component <eq env="math">U_i</eq> of <eq env="math">U</eq>, and thus to an irreducible component <eq env="math">X_i=\overline{U_i}</eq> of <eq env="math">X</eq> which intersects <eq env="math">U</eq> and which thus dominates <eq env="math">Y</eq> (since every component of <eq env="math">U</eq>, being flat over <eq env="math">Y</eq>, dominates <eq env="math">Y</eq>).
+Then, if <eq env="math">y</eq> is the projection of <eq env="math">x</eq> over <eq env="math">Y</eq>, <eq env="math">{\mathcal{O}}_y\to{\mathcal{O}}_x</eq> is <em>injective</em> (taking into account the fact that <eq env="math">{\mathcal{O}}_y</eq> is integral).
+Since <eq env="math">{\mathcal{O}}_y</eq> is normal and <eq env="math">{\mathcal{O}}_y\to{\mathcal{O}}_x</eq> is unramified, we conclude with the help of <a href="I.html#I.9.5">9.5 (ii)</a>.</p>
+</div>
+<div id="I.9.12" class="itenv" title="Corollary 9.12">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a dominant morphism of finite type, with <eq env="math">Y</eq> normal and <eq env="math">X</eq> irreducible.
+Then the set of points where <eq env="math">f</eq> is étale is identical to the complement of the support of <eq env="math">\Omega_{X/Y}^1</eq>, i.e. to the complement of the sub-prescheme of <eq env="math">X</eq> defined by the different ideal <eq env="math">{\mathfrak{d}}_{X/Y}</eq>.</p>
+</div>
+<p>(This is the “less trivial” statement which was alluded to in the remark in §4.)</p>
+<div class="rmenv" title="Remark">
+<p>We do not claim that a connected étale covering of an irreducible scheme is itself irreducible if we do not assume the base to be normal.
+This question will be studied in §11.</p>
 </div>
 
 </div>
