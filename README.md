@@ -24,7 +24,7 @@
 8. [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8)
 9. [Invariance properties](SGA-1/web-book/I.html#I.9)
 10. [ ] Étale coverings of a normal scheme _(5)_
-11. [ ] Various addenda _(3)_
+11. [Various addenda](SGA-1/web-book/I.html#I.11)
 
 ### II. Smooth morphisms: generalities, differential properties
 

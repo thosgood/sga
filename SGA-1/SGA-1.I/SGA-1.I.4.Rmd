@@ -1,7 +1,7 @@
 ## 4. Étale morphisms. Étale coverings {#I.4}
 
 We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
-these facts will be proved later, if there is time^[cf. IV.].
+these facts will be proved later, if there is time^[cf. [IV](#IV).].
 
 ::: {.rmenv #I.4.1 title="Definition 4.1"}
 —
