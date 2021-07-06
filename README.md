@@ -14,17 +14,17 @@
 
 ### [I. Étale morphisms](SGA-1/web-book/I.html) _(@thosgood)_
 
-1. [Basics of differential calculus](SGA-1/web-book/I.html#I.1)
-2. [Quasi-finite morphisms](SGA-1/web-book/I.html#I.2)
-3. [Unramified morphisms](SGA-1/web-book/I.html#I.3)
-4. [Étale morphisms. Étale coverings](SGA-1/web-book/I.html#I.4)
-5. [Fundamental property of étale morphisms](SGA-1/web-book/I.html#I.5)
-6. [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6)
-7. [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7)
-8. [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8)
-9. [Invariance properties](SGA-1/web-book/I.html#I.9)
-10. [ ] Étale coverings of a normal scheme _(5)_
-11. [Various addenda](SGA-1/web-book/I.html#I.11)
+1. [x] [Basics of differential calculus](SGA-1/web-book/I.html#I.1)
+2. [x] [Quasi-finite morphisms](SGA-1/web-book/I.html#I.2)
+3. [x] [Unramified morphisms](SGA-1/web-book/I.html#I.3)
+4. [x] [Étale morphisms. Étale coverings](SGA-1/web-book/I.html#I.4)
+5. [x] [Fundamental property of étale morphisms](SGA-1/web-book/I.html#I.5)
+6. [x] [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6)
+7. [x] [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7)
+8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8)
+9. [x] [Invariance properties](SGA-1/web-book/I.html#I.9)
+10. [ ] [Étale coverings of a normal scheme](SGA-1/web-book/I.html#I.10) _(5)_
+11. [x] [Various addenda](SGA-1/web-book/I.html#I.11)
 
 ### II. Smooth morphisms: generalities, differential properties
 
