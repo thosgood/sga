@@ -34,6 +34,7 @@ output:
 \renewcommand{\leq}{\leqslant}
 \renewcommand{\geq}{\geqslant}
 \renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
 \renewcommand{\cal}[1]{{\mathcal{#1}}}
 \renewcommand{\scr}[1]{{\mathscr{#1}}}
 \renewcommand{\frak}[1]{{\mathfrak{#1}}}
@@ -43,6 +44,7 @@ output:
 \providecommand{\tr}{\operatorname{tr}}
 \providecommand{\Spec}{\operatorname{Spec}}
 \providecommand{\Hom}{\operatorname{Hom}}
+\providecommand{\gr}{\operatorname{gr}}
 \providecommand{\id}{\mathrm{id}}
 \providecommand{\dd}{\mathrm{d}}
 

@@ -647,9 +647,90 @@ Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately fro
 </div>
 <div id="I.9" class="section level2">
 <h2>9. Invariance properties</h2>
+<p>Let <eq env="math">A\to B</eq> be a local and étale morphism;
+we study here some cases where a certain property of <eq env="math">A</eq> implies the same property for <eq env="math">B</eq>, or vice versa.
+
+A certain number of such propositions are already consequences of the simple fact that <eq env="math">B</eq> is <em>quasi-finite</em> and <em>flat</em> over <eq env="math">A</eq>, and we content ourselves with “recalling” some of them:
+<em><eq env="math">A</eq> and <eq env="math">B</eq> have the same Krull dimension, and the same depth</em> (Serre’s “cohomological codimension”, in the more modern language).
+It also follows, for example, that <em><eq env="math">A</eq> is Cohen–Macaulay if and only if <eq env="math">B</eq> is</em>.
+Also, for any prime ideal <eq env="math">{\mathfrak{q}}</eq> of <eq env="math">B</eq> (inducing some <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq>), <eq env="math">B_{\mathfrak{q}}</eq> is again quasi-finite and flat over <eq env="math">A_{\mathfrak{p}}</eq>, as long as we suppose that <eq env="math">B</eq> is the localisation of an algebra of finite type over <eq env="math">A</eq> (this follows from the fact that the set of points where a morphism of finite type is quasi-finite (resp. flat) is open);
+further, <em>every</em> prime ideal <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq> is induced by a prime ideal <eq env="math">{\mathfrak{q}}</eq> of <eq env="math">B</eq> (since <eq env="math">B</eq> is <em>faithfully</em> flat over <eq env="math">A</eq>).
+It thus follows, for example, that <em><eq env="math">{\mathfrak{q}}</eq> and <eq env="math">{\mathfrak{p}}</eq> have the same rank</em>;
+also, <em><eq env="math">A</eq> has no embedded prime ideals if and only if <eq env="math">B</eq> has none</em>.</p>
+<p>We will thus content ourselves with more specific propositions dealing with the case of étale morphisms.</p>
+<div id="I.9.1" class="itenv" title="Proposition 9.1">
+<p>Let <eq env="math">A\to B</eq> be an étale local homomorphism.
+For <eq env="math">A</eq> to be regular, it is necessary and sufficient for <eq env="math">B</eq> to be regular.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-29" class="proof"><em>Proof</em>. </span>Let <eq env="math">k</eq> be the residue field of <eq env="math">A</eq>, and <eq env="math">L</eq> the residue field of <eq env="math">B</eq>.
+Since <eq env="math">B</eq> is flat over <eq env="math">A</eq>, and since <eq env="math">L=B\otimes_A k</eq> (i.e. <eq env="math">{\mathfrak{n}}={\mathfrak{m}}B</eq>, where <eq env="math">{\mathfrak{m}}</eq> and <eq env="math">{\mathfrak{n}}</eq> are the maximal ideals of <eq env="math">A</eq> and <eq env="math">B</eq>, respectively), the <eq env="math">{\mathfrak{m}}</eq>-adic filtration on <eq env="math">B</eq> is identical to the <eq env="math">{\mathfrak{n}}</eq>-adic filtration, and
+<eq env="displaymath">
+  \operatorname{gr}^\bullet(B) = \operatorname{gr}^\bullet(A)\otimes_k L.
+</eq>
+It follows that <eq env="math">\operatorname{gr}^\bullet(B)</eq> is a polynomial algebra over <eq env="math">L</eq> if and only if <eq env="math">\operatorname{gr}^\bullet(A)</eq> is a polynomial algebra over <eq env="math">K</eq>.
+(N.B. we have not used the fact that <eq env="math">L/k</eq> is separable.)</p>
+</div>
+<div class="itenv" title="Corollary 9.2">
+<p>Let <eq env="math">f\colon X\to Y</eq> be an étale morphism.
+If <eq env="math">Y</eq> is regular, then <eq env="math">X</eq> is regular;
+the converse is true if <eq env="math">f</eq> is surjective.</p>
+</div>
+<div id="I.9.2" class="itenv" title="Proposition 9.2">
+<p>Let <eq env="math">f\colon X\to Y</eq> be an étale morphism.
+If <eq env="math">Y</eq> is reduced, then <eq env="math">X</eq> is reduced;
+the converse is true if <eq env="math">f</eq> is surjective.</p>
+</div>
+<p>This is equivalent to the following:
+</p>
+<div class="itenv" title="Corollary 9.3">
+<p>Let <eq env="math">f\colon A\to B</eq> be an étale local homomorphism, with <eq env="math">B</eq> isomorphic to the localisation of an <eq env="math">A</eq>-algebra of finite type over <eq env="math">A</eq>.
+For <eq env="math">A</eq> to be reduced, it is necessary and sufficient for <eq env="math">B</eq> to be reduced.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-30" class="proof"><em>Proof</em>. </span>The necessity is trivial, since <eq env="math">A\to B</eq> is injective (since <eq env="math">B</eq> is faithfully flat over <eq env="math">A</eq>).
+For the sufficiency, let <eq env="math">{\mathfrak{p}}_i</eq> be the minimal prime ideals of <eq env="math">A</eq>.
+By hypothesis, the natural map <eq env="math">A\to\prod_i A/{\mathfrak{p}}_i</eq> is injective, and so tensoring with the flat <eq env="math">A</eq>-module <eq env="math">B</eq> gives that <eq env="math">B\to\prod_i B/{\mathfrak{p}}_iB</eq> is injective, and we can thus reduce to proving that the <eq env="math">B/{\mathfrak{p}}_iB</eq> are reduced.
+Since <eq env="math">B/{\mathfrak{p}}_iB</eq> is étale over <eq env="math">A/{\mathfrak{p}}_i</eq>, we can reduce to the case where <eq env="math">A</eq> is integral.
+Let <eq env="math">K</eq> be the field of fractions of <eq env="math">A</eq>, so that <eq env="math">A\to K</eq> is injective, and thus so too is <eq env="math">B\to B\otimes_A K</eq> (since <eq env="math">B</eq> is <eq env="math">A</eq>-flat), and we can thus reduce to proving that <eq env="math">B\otimes_A K</eq> is reduced.
+But <eq env="math">B</eq> is the localisation of an <eq env="math">A</eq>-algebra of finite type over <eq env="math">A</eq>, and thus is the local ring of a point <eq env="math">x</eq> of a scheme of finite type <eq env="math">X=\operatorname{Spec}(C)</eq> over <eq env="math">Y=\operatorname{Spec}(A)</eq> that is also <em>étale</em> over <eq env="math">Y</eq>, so <eq env="math">B\otimes_A K</eq> is a localised ring (with respect to some suitable multiplicatively stable set) of the ring <eq env="math">C\otimes_A K</eq> of <eq env="math">X\otimes_A K</eq>.
+Since <eq env="math">X\otimes_A K</eq> is étale over <eq env="math">K</eq>, its ring is a finite product of fields (that are separable extensions of <eq env="math">K</eq>), and thus so too is <eq env="math">B\otimes_A K</eq>.</p>
+</div>
+<div id="I.9.4" class="itenv" title="Corollary 9.4">
+<p>Let <eq env="math">f\colon A\to B</eq> be an étale local homomorphism, with <eq env="math">A</eq> analytically reduced (i.e. such that the completion <eq env="math">\widehat{A}</eq> of <eq env="math">A</eq> has no nilpotent elements).
+Then <eq env="math">B</eq> is analytically reduced, and <em>a fortiori</em> reduced.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-31" class="proof"><em>Proof</em>. </span>Indeed, <eq env="math">\widehat{B}</eq> is <em>finite</em> and étale over <eq env="math">\widehat{A}</eq>;
+we can apply <a href="#I.9.3">9.3</a>.</p>
+</div>
+<div id="I.9.5" class="itenv" title="Theorem 9.5">
+<p>Let <eq env="math">f\colon A\to B</eq> be a local homomorphism, with <eq env="math">B</eq> isomorphic to the localisation of an <eq env="math">A</eq>-algebra of finite type over <eq env="math">A</eq>.</p>
+<ol style="list-style-type: lower-roman">
+<li>If <eq env="math">f</eq> is étale, then <eq env="math">A</eq> is normal if and only if <eq env="math">B</eq> is normal.</li>
+<li>If <eq env="math">A</eq> is normal, then <eq env="math">f</eq> is étale if and only if <eq env="math">f</eq> is injective and unramified (and then <eq env="math">B</eq> is normal, by (i)).</li>
+</ol>
+</div>
+<p>We will give two different proofs of (i):
+the first using certain properties of quasi-finite flat morphisms (stated at the start of this section) and without using <a href="I.html#I.7.6">7.6</a> (and thus the Main Theorem);
+the second proof does the opposite.
+For (ii), it seems like we do indeed need the Main Theorem, no matter what.</p>
+<div class="proof">
+<p><span id="unlabeled-div-32" class="proof"><em>Proof</em>. </span><em>(First proof).</em>
+We use the following necessary and sufficient condition for a local Noetherian ring <eq env="math">A</eq> of dimension <eq env="math">\neq0</eq> to be normal.
+</p>
+<div id="serres-criterion" class="itenv" title="Serre&#39;s criterion">
+<p>—</p>
+<ol style="list-style-type: lower-roman">
+<li>For every rank-<eq env="math">1</eq> prime ideal <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq>, <eq env="math">A_{\mathfrak{p}}</eq> is normal (or, equivalently, regular);</li>
+<li>For every rank-<eq env="math">\geqslant 2</eq> prime ideal <eq env="math">{\mathfrak{p}}</eq> of <eq env="math">A</eq>, the depth of <eq env="math">A_{\mathfrak{p}}</eq> is <eq env="math">\geqslant 2</eq>.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></li>
+</ol>
+</div>
+</div>
 
 </div>
 </div>
+
 
 
 
@@ -672,6 +753,7 @@ Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately fro
 <li id="fn6"><p>cf. IV.<a href="I.html#fnref6" class="footnote-back">↩︎</a></p></li>
 <li id="fn7"><p>cf. regrets in <a href="#III.1.2">III 1.2</a>.<a href="I.html#fnref7" class="footnote-back">↩︎</a></p></li>
 <li id="fn8"><p>cf. <a href="#IV.5.9">IV.5.9</a><a href="I.html#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p>cf. EGA IV 5.8.6.<a href="I.html#fnref9" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 <script type="text/javascript" src="../katex.min.js"></script>

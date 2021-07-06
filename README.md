@@ -2,6 +2,7 @@
 
 - copy over `.css` from fga/translations repo
 - move building to github actions
+    + pdf output too
 - turn back on numbering, and turn the "I" numbered sections into parts?
     + would need to make sure that section numbering would reset when we move to the next "II"
 

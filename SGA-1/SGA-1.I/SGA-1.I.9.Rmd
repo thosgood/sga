@@ -1,1 +1,94 @@
 ## 9. Invariance properties {#I.9}
+
+Let $A\to B$ be a local and étale morphism;
+we study here some cases where a certain property of $A$ implies the same property for $B$, or vice versa.
+\oldpage{16}
+A certain number of such propositions are already consequences of the simple fact that $B$ is _quasi-finite_ and _flat_ over $A$, and we content ourselves with "recalling" some of them:
+_$A$ and $B$ have the same Krull dimension, and the same depth_ (Serre's "cohomological codimension", in the more modern language).
+It also follows, for example, that _$A$ is Cohen--Macaulay if and only if $B$ is_.
+Also, for any prime ideal $\frak{q}$ of $B$ (inducing some $\frak{p}$ of $A$), $B_\frak{q}$ is again quasi-finite and flat over $A_\frak{p}$, as long as we suppose that $B$ is the localisation of an algebra of finite type over $A$ (this follows from the fact that the set of points where a morphism of finite type is quasi-finite (resp. flat) is open);
+further, _every_ prime ideal $\frak{p}$ of $A$ is induced by a prime ideal $\frak{q}$ of $B$ (since $B$ is _faithfully_ flat over $A$).
+It thus follows, for example, that _$\frak{q}$ and $\frak{p}$ have the same rank_;
+also, _$A$ has no embedded prime ideals if and only if $B$ has none_.
+
+We will thus content ourselves with more specific propositions dealing with the case of étale morphisms.
+
+::: {.itenv #I.9.1 title="Proposition 9.1"}
+Let $A\to B$ be an étale local homomorphism.
+For $A$ to be regular, it is necessary and sufficient for $B$ to be regular.
+:::
+
+::: {.proof}
+Let $k$ be the residue field of $A$, and $L$ the residue field of $B$.
+Since $B$ is flat over $A$, and since $L=B\otimes_A k$ (i.e. $\frak{n}=\frak{m}B$, where $\frak{m}$ and $\frak{n}$ are the maximal ideals of $A$ and $B$, respectively), the $\frak{m}$-adic filtration on $B$ is identical to the $\frak{n}$-adic filtration, and
+$$
+  \gr^\bullet(B) = \gr^\bullet(A)\otimes_k L.
+$$
+It follows that $\gr^\bullet(B)$ is a polynomial algebra over $L$ if and only if $\gr^\bullet(A)$ is a polynomial algebra over $K$.
+(N.B. we have not used the fact that $L/k$ is separable.)
+:::
+
+::: {.itenv title="Corollary 9.2"}
+Let $f\colon X\to Y$ be an étale morphism.
+If $Y$ is regular, then $X$ is regular;
+the converse is true if $f$ is surjective.
+:::
+
+::: {.itenv #I.9.2 title="Proposition 9.2"}
+Let $f\colon X\to Y$ be an étale morphism.
+If $Y$ is reduced, then $X$ is reduced;
+the converse is true if $f$ is surjective.
+:::
+
+This is equivalent to the following:
+\oldpage{17}
+
+::: {.itenv title="Corollary 9.3"}
+Let $f\colon A\to B$ be an étale local homomorphism, with $B$ isomorphic to the localisation of an $A$-algebra of finite type over $A$.
+For $A$ to be reduced, it is necessary and sufficient for $B$ to be reduced.
+:::
+
+::: {.proof}
+The necessity is trivial, since $A\to B$ is injective (since $B$ is faithfully flat over $A$).
+For the sufficiency, let $\frak{p}_i$ be the minimal prime ideals of $A$.
+By hypothesis, the natural map $A\to\prod_i A/\frak{p}_i$ is injective, and so tensoring with the flat $A$-module $B$ gives that $B\to\prod_i B/\frak{p}_iB$ is injective, and we can thus reduce to proving that the $B/\frak{p}_iB$ are reduced.
+Since $B/\frak{p}_iB$ is étale over $A/\frak{p}_i$, we can reduce to the case where $A$ is integral.
+Let $K$ be the field of fractions of $A$, so that $A\to K$ is injective, and thus so too is $B\to B\otimes_A K$ (since $B$ is $A$-flat), and we can thus reduce to proving that $B\otimes_A K$ is reduced.
+But $B$ is the localisation of an $A$-algebra of finite type over $A$, and thus is the local ring of a point $x$ of a scheme of finite type $X=\Spec(C)$ over $Y=\Spec(A)$ that is also _étale_ over $Y$, so $B\otimes_A K$ is a localised ring (with respect to some suitable multiplicatively stable set) of the ring $C\otimes_A K$ of $X\otimes_A K$.
+Since $X\otimes_A K$ is étale over $K$, its ring is a finite product of fields (that are separable extensions of $K$), and thus so too is $B\otimes_A K$.
+:::
+
+::: {.itenv #I.9.4 title="Corollary 9.4"}
+Let $f\colon A\to B$ be an étale local homomorphism, with $A$ analytically reduced (i.e. such that the completion $\hat{A}$ of $A$ has no nilpotent elements).
+Then $B$ is analytically reduced, and _a fortiori_ reduced.
+:::
+
+::: {.proof}
+Indeed, $\hat{B}$ is _finite_ and étale over $\hat{A}$;
+we can apply [9.3](#I.9.3).
+:::
+
+::: {.itenv #I.9.5 title="Theorem 9.5"}
+Let $f\colon A\to B$ be a local homomorphism, with $B$ isomorphic to the localisation of an $A$-algebra of finite type over $A$.
+
+i. If $f$ is étale, then $A$ is normal if and only if $B$ is normal.
+ii. If $A$ is normal, then $f$ is étale if and only if $f$ is injective and unramified (and then $B$ is normal, by (i)).
+:::
+
+We will give two different proofs of (i):
+the first using certain properties of quasi-finite flat morphisms (stated at the start of this section) and without using [7.6](#I.7.6) (and thus the Main Theorem);
+the second proof does the opposite.
+For (ii), it seems like we do indeed need the Main Theorem, no matter what.
+
+:::: {.proof}
+_(First proof)._
+We use the following necessary and sufficient condition for a local Noetherian ring $A$ of dimension $\neq0$ to be normal.
+\oldpage{18}
+
+::: {.itenv #serres-criterion title="Serre's criterion"}
+—
+
+i. For every rank-$1$ prime ideal $\frak{p}$ of $A$, $A_\frak{p}$ is normal (or, equivalently, regular);
+ii. For every rank-$\geq2$ prime ideal $\frak{p}$ of $A$, the depth of $A_\frak{p}$ is $\geq2$.^[cf. EGA IV 5.8.6.]
+:::
+::::
