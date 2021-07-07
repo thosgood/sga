@@ -110,7 +110,46 @@ In [10.7](#I.10.7) and [its corollary](#I.10.8), there was no normality hypothes
 if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a covering):
 
 ::: {.itenv #I.10.11 title="Theorem 10.11"}
-Let
+Let $f\colon X\to Y$ be a separated _quasi-finite_ morphism.
+Suppose that $Y$ is _irreducible_, that every component of $X$ dominates $Y$, and that $X$ is reduced (i.e. that $\cal{O}_X$ has no nilpotent elements).
+Let $n$ be the degree of $X$ over $Y$ (i.e. the sum of the degrees, over the field $K$ of $Y$, of the fields $K_i$ of the irreducible components $X_i$ of $X$).
+Let $y$ be a normal point of $Y$.
+Then the geometric number $n(y)$ of points of $X$ over $y$ is $\leq n$, with equality if and only if there exists an open neighbourhood $U$ of $y$ such that $X|U$ is an _étale covering_ of $U$.
 :::
 
-**TO-DO**
+::: {.proof}
+The "only if" is trivial;
+we will prove the "if".
+Let $z$ be the generic point of $Y$.
+Then $n(z)$, which is equal to the sum of the separable degrees of the $K_i/K$, is $\leq n$, and, by [10.7](#I.10.7), we have that $n(y)\leq n(z)$;
+thus $n(y)\leq n$, with equality implying that $X|U$ if _finite_ over $U$, for some suitable neighbourhood $U$ of $y$.
+We can thus suppose that $X$ is finite over $Y$, and that the function $n(y')$ on $Y$ is constant.
+Then, by [10.8](#I.10.8), $X$ is the disjoint union of its irreducible components, and so, to prove that it is unramified at $y$, we can restrict to the case where $X$ is irreducible, thus integral.
+Finally, we can assume that $Y=\Spec(\cal{O}_y)$.
+The theorem thus reduces to the following classical statement:
+:::
+
+::: {.itenv #I.10.12 title="Corollary 10.12"}
+Let $A$ be a normal local ring (Noetherian, as always), of field $K$;
+let $L$ be a finite extension of $K$ of degree $n$, and of separable degree $n_s$;
+let $B$ be a sub-ring of $L$ that is finite over $A$, with field of fraction $L$;
+let $\frak{m}$ be the maximal ideal of $A$, and $n'$ the separable degree of $B/\frak{m}B$ over $A/\frak{m}A=k$ (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+Then $n'\leq n_s$, and a fortiori $n'\leq n$.
+This latter inequality is an equality if and only if $B$ is unramified (i.e. étale) over $A$.
+:::
+
+::: {.proof}
+It remains only to show that, if $n'=n$, then $B$ is étale over $A$.
+Recall the proof in the case where $k$ is infinite:
+we need only show that $R=B/\frak{m}B$ is separable over $k$;
+if this were not the case, then it would follow (by a known lemma) that there exists an element $a$ of $R$ whose minimal polynomial over $k$ is of degree $>n'$.
+This element would come from an element $x$ of $B$, whose minimal polynomial over $K$ (as an element of $L$) is of degree $\leq n$;
+but this minimal polynomial has coefficients in $A$, since $A$ is normal, and thus gives, by restriction modulo $\frak{m}$, a monic polynomial $F\in k[t]$ of degree $\leq n=n'$, such that $F(a)=0$.
+But this is a contradiction.
+
+In the general case (where $k$ can be finite), we can again use geometric language:
+we consider $Y'=\Spec(A[t])$, which is faithfully flat over $Y$, and the generic point $y'$ of the fibre $\Spec(k[t])$ of $Y'$ over $y$.
+Then $X$ is unramified over $Y$ at $y$ if and only if $X'=X\times_Y Y'=\Spec(B[t])$ is unramified over $Y'$ at $y'$, as we immediately see.
+On the other hand, by the choice of $y'$, its residue field is $k(t)$, and thus infinite.
+Since $y'$ is a normal point of $Y'$, we are now in the previous case.
+:::

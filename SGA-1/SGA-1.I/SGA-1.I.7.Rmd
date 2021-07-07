@@ -138,7 +138,7 @@ since $B$ is finite over $B'$, the ideal $\frak{q}$ of $B$ induced by $\frak{p}$
 (We have just used the fact that $u$ belongs to every maximal ideal of $B$ that is distinct from $\frak{n}$).
 We now prove that $BS'^{-1}$ is equal to $B'S'^{-1}$:
 since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo $\frak{n}'BS'^{-1}$, and, a fortiori, it suffices to prove equality modulo $\frak{m}BS'^{-1}$;
-but $BS'^{-1}/\frak{m}BS'^{-1}=B_\frak{n}/\frak{m}B_\frak{n}$ is generated, over $k$, by $u$ (here we use the other property of $u$), and so the image of $B'$ (and, a fortiori, of $B'S'^{-1}$) inside is everything (as a subring that contains $k$ and the image of $u$.)
+but $BS'^{-1}/\frak{m}BS'^{-1}=B_\frak{n}/\frak{m}B_\frak{n}$ is generated, over $k$, by $u$ (here we use the other property of $u$), and so the image of $B'$ (and, a fortiori, of $B'S'^{-1}$) inside is everything (as a sub-ring that contains $k$ and the image of $u$.)
 :::
 
 ::: {.rmenv title="Remark"}
