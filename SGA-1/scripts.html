@@ -14,7 +14,7 @@
       anchor = '#' + $(this).parent().attr('id');
       $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor"></a>');
     });
-    $('.itenv, .rmenv').each(function() {
+    $('.itenv, .rmenv, .eqtag').each(function() {
       if ($(this).attr('id') !== undefined) {
         anchor = '#' + $(this).attr('id');
         $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor"></a>');

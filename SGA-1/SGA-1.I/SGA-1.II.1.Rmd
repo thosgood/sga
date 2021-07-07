@@ -1,0 +1,11 @@
+## 1. Generalities {#II.1}
+
+Let $Y$ be a prescheme, and $t_1,\ldots,t_n$ indeterminates;
+we set
+
+::: {.eqtag #equation-II.1.1}
+$$
+  Y[t_1,\ldots,t_n] = Y\otimes_\mathbb{Z}\mathbb{Z}[t_1,\ldots,t_n].
+\tag{1.1}
+$$
+:::

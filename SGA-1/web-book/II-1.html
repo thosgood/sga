@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Étale covers and the fundamental group (SGA 1)</title>
+  <title>I. Generalities | Étale covers and the fundamental group (SGA 1)</title>
   <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 1." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Étale covers and the fundamental group (SGA 1)" />
+  <meta property="og:title" content="I. Generalities | Étale covers and the fundamental group (SGA 1)" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Étale covers and the fundamental group (SGA 1)" />
+  <meta name="twitter:title" content="I. Generalities | Étale covers and the fundamental group (SGA 1)" />
   
   <meta name="twitter:description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 1." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="II.html"/>
 
-<link rel="next" href="I.html"/>
 <script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -89,10 +89,8 @@
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.10"><i class="fa fa-check"></i>10. Étale coverings of a normal scheme</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.11"><i class="fa fa-check"></i>11. Various addenda</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="II.html"><a href="II.html"><i class="fa fa-check"></i>II. Smooth morphisms: generalities, differential properties</a>
-<ul>
-<li class="chapter" data-level="" data-path="II.html"><a href="II.html#II.1"><i class="fa fa-check"></i>1. Generalities</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="II.html"><a href="II.html"><i class="fa fa-check"></i>II. Smooth morphisms: generalities, differential properties</a></li>
+<li class="chapter" data-level="" data-path="II-1.html"><a href="II-1.html"><i class="fa fa-check"></i>I. Generalities</a></li>
 </ul>
 
       </nav>
@@ -110,48 +108,35 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Étale covers and the fundamental group (SGA 1)</h1>
-<p class="author"><em>A. Grothendieck and M. Raynaud</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>1960–1961 (web version last updated: 07 July 2021)</em></p>
-</div>
-<div id="introduction" class="section level1 unnumbered">
-<h1>Introduction</h1>
-<p>In the first section of this introduction, we give some details about the contents of the present volume;
-
-in the second, about the entirety of the “<em>Séminaire de Géométrie Algébrique du Bois-Marie</em>”, of which the present volume constitutes the first tome.</p>
-<div id="section" class="section level2">
-<h2>1.</h2>
-<p>The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the “Kroneckerian” point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
-This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck (cited as “EGA”).
-The study of this present volume of the “<em>Séminaire de Géométrie Algébrique du Bois-Marie</em>” does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry, to a reader who wishes to familiarise themselves with these techniques.</p>
-<p>Chapters I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which where distributed by the <em>Institut des Hautes Études Scientifiques</em>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
-We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, “simple morphism” being replaced with “smooth morphism”, which does not lead to the same confusion).</p>
-<p>Chapters I to IV present the local notions of <em>étale</em> and <em>smooth</em> morphisms;
-they hardly ever use the language of schemes, as detailed in Chapter I of the <em>Élements</em>.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
-Chapter V presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case, where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of the usual Galois theory.
-Chapters VI and VIII present the <em>theory of descent</em>, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
-We note that Chapter VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud (“Méthode de la Descente”, <em>Bull. Soc. Math. France</em> <strong>2</strong> (1964), viii + 150 p.).
-In chapter IX, we study more specifically the theory of descent by étale morphisms, obtaining a systematic approach for Van Kampen type theorems for the fundamental group, which appear here as simple translations of theorems of descent.
-It essentially deals with a calculation of the fundamental group of a connected scheme <eq env="math">X</eq> endowed with a surjective and proper morphism (say, <eq env="math">X'\to X</eq>) in terms of the fundamental groups of the connected components of <eq env="math">X'</eq> and of the fibre products <eq env="math">X'\times_X X'</eq>, <eq env="math">X'\times_X X'\times_X X'</eq>, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
-Chapter X gives the theory of <em>specialisation of the fundamental group</em> for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic <eq env="math">p&gt;0</eq>, thanks to the known result obtained by transcendental methods in characteristic zero.
-Chapter XI gives some examples and addenda, including a cohomological version of Kummer’s theory of coverings, as well as Artin–Schreier’s.
-For other commentaries on the text, see the <a href="#foreword"><em>Foreword</em></a>, found after this introduction.</p>
-<p>Since the editing of the seminar in 1961, the language of <em>étale topology</em>, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
-it is detailed in SGA 4 (“Cohomologie étale des schémes”) of the <em>Séminaire de Géométrie Algébrique</em>, which will appear in the same series as the present volume.
-This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
-There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in <em>loc. cit.</em>).</p>
-<p><strong>TO-DO</strong></p>
+<div id="II.1" class="section level1">
+<h1>I. Generalities</h1>
+<p>Let <eq env="math">Y</eq> be a prescheme, and <eq env="math">t_1,\ldots,t_n</eq> indeterminates;
+we set</p>
+<p>::: {.eqtag #1.1}
+<eq env="displaymath">
+  Y[t_1,\ldots,t_n] = Y\otimes_\mathbb{Z}\mathbb{Z}[t_1,\ldots,t_n].
+\tag{1.1}
+</eq>
+:::</p>
 
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the “<em>Séminaire de Géométrie Algébrique du Bois-Marie</em>” from now on will appear in book form, like the present volume.<a href="index.html#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>A more complete study is now available in the <em>Élements</em>, Chapter IV, §§17 and 18<a href="index.html#fnref2" class="footnote-back">↩︎</a></p></li>
-</ol>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript" src="../katex.min.js"></script>
 
 <script type="text/javascript">
@@ -168,7 +153,7 @@ There will thus be a need to entirely rewrite the theory of the fundamental grou
       anchor = '#' + $(this).parent().attr('id');
       $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor"></a>');
     });
-    $('.itenv, .rmenv, .eqtag').each(function() {
+    $('.itenv, .rmenv').each(function() {
       if ($(this).attr('id') !== undefined) {
         anchor = '#' + $(this).attr('id');
         $(this).addClass("hasAnchor").prepend('<a href="' + anchor + '" class="anchor"></a>');
@@ -197,8 +182,8 @@ There will thus be a need to entirely rewrite the theory of the fundamental grou
           </div>
         </div>
       </div>
+<a href="II.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="I.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

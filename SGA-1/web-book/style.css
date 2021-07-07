@@ -176,14 +176,19 @@ h5.hasAnchor:hover {
 }
 
 .itenv.hasAnchor,
-.rmenv.hasAnchor {;
+.rmenv.hasAnchor,
+.eqtag.hasAnchor {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
 .itenv.hasAnchor:hover,
-.rmenv.hasAnchor:hover {
+.rmenv.hasAnchor:hover,
+.eqtag.hasAnchor:hover {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+}
+.eqtag.hasAnchor {
+  margin-top: -1em;
 }
 
 
