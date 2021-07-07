@@ -1,7 +1,5 @@
 ## 7. Local construction of unramified and étale morphisms {#I.7}
 
-\oldpage{10}
-
 ::: {.itenv #I.7.1 title="Proposition 7.1"}
 Let $A$ be a Noetherian ring, $B$ an algebra which is finite over $A$, and $u$ a generator of $B$ over $A$.
 Let $F\in A[t]$ be such that $F(u)=0$ (we do not assume $F$ to be monic), and $u'=F'(u)$ (where $F'$ is the differentiated polynomial).
@@ -41,8 +39,6 @@ Under the conditions of [7.3](#I.7.3), in order for $B$ to be étale over $A$, i
 The second claim follows from the first along with Nakayama (in $B$).
 :::
 
-\oldpage{11}
-
 A monic polynomial $F\in A[t]$ that has the property stated in [7.4](#I.7.4) is said to be a _separable polynomial_ (if $F$ is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where $A$ is a field, we recover the usual definition).
 
 ::: {.itenv #I.7.5 title="Corollary 7.5"}
@@ -80,8 +76,6 @@ For $\cal{O}$ to be unramified over $A$, it is necessary and sufficient for $\ca
 ::: {.proof}
 We can take $\cal{O}'=B'_{\frak{n}'}$, where $B'=A[t]/FA[t]$ and where $\frak{n}'$ is the inverse image of $\frak{n}$ in $B'$.
 :::
-
-\oldpage{12}
 
 ::: {.itenv #I.7.8 title="Corollary 7.8"}
 Let $f\colon X\to Y$ be a morphism of finite type, and $x\in X$.
@@ -123,8 +117,6 @@ Then there exists a monic polynomial $F\in A[t]$ such that $F(u)=0$ and $F'(u)\n
 :::
 
 N.B. [7.10](#I.7.10) should have appeared as a corollary to [7.1](#I.7.1), and before [7.5](#I.7.5) (which it implies).
-
-\oldpage{13}
 
 So [7.6](#I.7.6) now follows from the combination of [7.9](#I.7.9) and [7.10](#I.7.10);
 it remains only to prove [7.9](#I.7.9).

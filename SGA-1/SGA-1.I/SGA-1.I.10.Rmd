@@ -6,7 +6,7 @@ Then the connected components $X_i$ of $X$ are integral, their fields $K_i$ are 
 :::
 
 ::: {.proof}
-By [9.10](#I.9.10), $X$ is normal, and _a fortiori_ its local rings are integral, and so the connected components of $X$ are irreducible.
+By [9.10](#I.9.10), $X$ is normal, and a fortiori its local rings are integral, and so the connected components of $X$ are irreducible.
 Since $X_i$ is normal, and also finite and dominant over $Y$, it follows from a particular (almost trivial, actually) case of the Main Theorem that $X_i$ is an open subset of the normalisation of $X$ in the field $K_i$ of $X_i$.
 :::
 
@@ -24,7 +24,6 @@ Thus:
 
 ::: {.itenv #I.10.3 title="Corollary 10.3"}
 For every $X$ which is finite over $Y$ and such that every irreducible component of $X$ dominates $Y$, let $R(X)$ be the ring of rational functions on $X$ (given by the product of the local rings of the generic points of the irreducible components of $X$), so that $X\mapsto R(X)$ is a functor, with values in algebras of finite rank over $K=R(Y)$.
-\oldpage{22}
 Then this functor establishes an equivalence between the category of connected étale coverings of $Y$ and the category of extensions $L$ of $K$ that are unramified over $Y$.
 :::
 
@@ -55,7 +54,6 @@ iii. Let $Y'$ be a normal integral prescheme that dominates $Y$, of field $K'/K$
 :::
 
 Furthermore:
-\oldpage{23}
 
 ::: {.itenv #I.10.5 title="Corollary 10.5"}
 Under the conditions of (iii), if $Y=\Spec(A)$ and $Y'=\Spec(A')$, then the normalisation $\overline{A'}$ of $A'$ in $L'=L\otimes_K K'$ can be identified with $\overline{A}\otimes_A A'$, where $\overline{A}$ is the normalisation of $A$ in $L$.
@@ -75,6 +73,44 @@ i.e. the normalisation ring $\overline{A'}$ of $A'$ in $L_1$ is the $A$-algebra 
 
 This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
 
-To finish this section,
+To finish this section, we are going to give the intuitive interpretation of the notion of étale coverings: there should be the "maximal number" of points over the point $y\in Y$ in question, and, in particular, there should not be "multiple points combined" over $y$.
+To prove results in this sense, in all desirable generality, we will assume here [Proposition 10.7](#I.10.7) found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
+
+A morphism of finite type $f\colon X\to Y$ is said to be _universally open_ if, for every base extension $Y'\to Y$ (with $Y'$ locally Noetherian), the morphism $f'\colon X'=X\times_Y Y'\to Y'$ is open, i.e. sends open subsets to open subsets.
+We can actually restrict to the case where $Y'$ is of finite type over $y$ (and even to the case where $Y'$ is of the form $Y[t_1,\ldots,t_r]$, where the $t_i$ are indeterminates).
+A universally open morphism is a fortiori open (but the converse is false);
+on the other hand, if $f$ is open, and if $X$ and $Y$ are irreducible, then all of the components of all of the fibres of $f$ are of the same dimension (i.e. the dimension of the generic fibre $f^{-1}(z)$, where $z$ is the generic point of $Y$).
+Finally, if $Y$ is normal, then this latter condition already implies that $f$ is _universally_ open (Chevalley's theorem).
+It thus follows, for example, that, if $f\colon X\to Y$ is a _quasi-finite_ morphism, with $Y$ normal and irreducible, then $f$ is universally open (or even open) if and only if every irreducible component of $X$ dominates $Y$.
+Recall also that a flat morphism (of finite type) is open, and thus also universally open.
+With these preliminaries, "recall" the following:
+
+::: {.itenv #I.10.7 title="Proposition 10.7"}
+Let $f\colon X\to Y$ be a quasi-finite, separated, universally open morphism.
+For all $y\in Y$, let $n(y)$ be the "geometric number of points in the fibre $f^{-1}(y)$", equal to the sum of the separable degrees of the residue extensions $k(x)/k(y)$ as $x$ runs over the points of $f^{-1}(y)$.
+Then the function $y\mapsto n(y)$ on $Y$ is upper semi-continuous.
+For it to be constant on a neighbourhood of the point $y$ (i.e. for it to be the case that $n(y)=n(z_i)$, where the $z_i$ are the generic points of the irreducible components of $Y$ that contain $y$), it is necessary and sufficient for there to exist a neighbourhood $U$ of $y$ such that $X|U$ is _finite_ over $U$.^[cf. EGA IV 15.5.1]
+:::
+
+::: {.itenv #I.10.8 title="Corollary 10.8"}
+If $y\mapsto n(y)$ is constant, and if $Y$ is geometrically unibranch^[For the definition, cf. [§11](#I.11)], then the irreducible components of $X$ are disjoint.
+:::
+
+::: {.itenv #I.10.9 title="Proposition 10.9"}
+Let $f\colon X\to Y$ be a separated _étale_ morphism.
+With the notation of [10.7](#I.10.7), the function $n\mapsto n(y)$ is upper semi-continuous.
+For it to be constant on a neighbourhood of the point $y$ (i.e. for it to be the case that $n(y)=n(z_i)$, where the $z_i$ are the generic points of the irreducible components of $Y$ that contain $y$), it is necessary and sufficient for there to exist a neighbourhood $U$ of $y$ such that $X|U$ is _finite_ over $U$, i.e. such that $X|U$ is an _étale covering_ of $U$.
+:::
+
+::: {.itenv #I.10.10 title="Corollary 10.10"}
+For a separated étale morphism $f\colon X\to Y$ (with $Y$ connected) to be finite (i.e. for $f$ to make $X$ an _étale covering_ of $Y$), it is necessary and sufficient for all of the fibres of $f$ to have the same geometric number of points.
+:::
+
+In [10.7](#I.10.7) and [its corollary](#I.10.8), there was no normality hypothesis on $Y$;
+if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a covering):
+
+::: {.itenv #I.10.11 title="Theorem 10.11"}
+Let
+:::
 
 **TO-DO**

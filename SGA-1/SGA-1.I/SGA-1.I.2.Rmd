@@ -9,8 +9,6 @@ ii. $\frak{m}B$ is an ideal of definition, and $B/\frak{r}(B)=k(B)$ is an extens
 iii. The completion $\hat{B}$ of $B$ is finite over the completion $\hat{A}$ of $A$.
 :::
 
-\oldpage{2}
-
 We then say that $B$ is _quasi-finite_ over $A$.
 A morphism $f\colon X\to Y$ is said to be quasi-finite at $x$ (or the $Y$-prescheme $f$ is said to be quasi-finite at $x$) if $\cal{O}_x$ is quasi-finite over $\cal{O}_{f(x)}$.
 This is equivalent to saying that $x$ is _isolated in its fibre $f^{-1}(x)$_.

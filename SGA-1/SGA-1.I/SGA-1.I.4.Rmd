@@ -18,8 +18,6 @@ b. Let $f\colon A\to B$ be a local homomorphism.
 For $B/A$ to be étale, it is necessary and sufficient that $\hat{B}/\hat{A}$ be étale.
 :::
 
-\oldpage{5}
-
 ::: {.proof}
 This is true individually for both "unramified" and "flat".
 :::
@@ -61,7 +59,7 @@ Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is tr
 
 As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
 
-_[Trans.] Grothendieck's _multiplodoque d'algèbre homologique_ was the final version of his _Tohoku paper_ --- see (2.1) in 'Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information._
+_[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper --- see (2.1) in 'Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information._
 
 ::: {.itenv #I.4.7 title="Corollary 4.7"}
 The cartesian product of two étale morphisms is étale.
@@ -102,5 +100,3 @@ We can reduce to the case where $Y=\Spec(k)$, and then it is a well-known criter
 ::: {.rmenv title="Remark"}
 We will have a less trivial statement to make later on, when we do not suppose a priori that $X$ is flat over $Y$, but instead require some normality hypothesis.
 :::
-
-\oldpage{6}

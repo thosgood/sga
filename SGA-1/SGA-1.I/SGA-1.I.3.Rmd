@@ -27,8 +27,6 @@ b. Let $A\to B$ be a local homomorphism.
   We say that it is _unramified_, or that $B$ is a local _unramified_ algebra on $A$, if $B/\frak{r}(A)B$ is a finite separable extension of $A/\frak{r}(A)$, i.e. if $\frak{r}(A)B=\frak{r}(B)$ and $k(B)$ is a separable extension of $k(A)$.^[cf. regrets in [III 1.2](#III.1.2).]
 :::
 
-\oldpage{3}
-
 ::: {.rmenv title="Remarks"}
 The fact that $B$ is unramified over $A$ can be seen at the level of the completions of $A$ and $B$.
 Unramified implies quasi-finite.
@@ -84,5 +82,3 @@ In order for $B/A$ to be unramified, it is necessary and sufficient that $\hat{B
     then $A\subset B$, $B$ is unramified over $A$ with trivial residue extension, and $\hat{A}\to\hat{B}$ is surjective but _not injective_.
     We are thus going to strengthen the notion of unramified-ness.
 :::
-
-\oldpage{4}

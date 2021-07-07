@@ -40,8 +40,6 @@ Indeed, $f$ is also an open immersion.
 
 We thus deduce:
 
-\oldpage{7}
-
 ::: {.itenv #I.5.3 title="Corollary 5.3"}
 Let $X$ be an unramified $Y$-scheme, with $Y$ connected.
 Then every section of $X$ over $Y$ is an isomorphism from $Y$ to a connected component of $X$.
@@ -86,8 +84,6 @@ This result contains a claim of _uniqueness_ and of _existence_ of _morphisms_.
 It can also be expressed (if $X$ and $Y$ are both étale over $S$) by saying that the functor $X\mapsto X_0$ from the category of étale $S$-schemes to the category of étale $S_0$-schemes is _fully faithful_, i.e. establishes an _equivalence_ between the first and a _full subcategory_ of the second.
 We will see below that it is in fact an equivalence between the first and the second (which will be a theorem of _existence for étale $S$-schemes_).
 :::
-
-\oldpage{8}
 
 The following form (which looks more general) of [5.5](#I.5.5) is often useful:
 
@@ -135,8 +131,6 @@ For $g$ to be quasi-finite (resp. unramified) at $x$, it is necessary and suffic
 ::: {.proof}
 The two algebras over $k(g(x))$ that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at $x$ are the same for $g$ and $g\otimes_Y k(y)$.
 :::
-
-\oldpage{9}
 
 ::: {.itenv #I.5.9 title="Corollary 5.9"}
 With the notation of [5.8](#I.5.8), suppose that $X$ and $X'$ are flat and of finite type over $Y$.

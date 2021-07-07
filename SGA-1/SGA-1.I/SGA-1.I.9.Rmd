@@ -2,7 +2,6 @@
 
 Let $A\to B$ be a local and étale morphism;
 we study here some cases where a certain property of $A$ implies the same property for $B$, or vice versa.
-\oldpage{16}
 A certain number of such propositions are already consequences of the simple fact that $B$ is _quasi-finite_ and _flat_ over $A$, and we content ourselves with "recalling" some of them:
 _$A$ and $B$ have the same Krull dimension, and the same depth_ (Serre's "cohomological codimension", in the more modern language).
 It also follows, for example, that _$A$ is Cohen--Macaulay if and only if $B$ is_.
@@ -41,7 +40,6 @@ the converse is true if $f$ is surjective.
 :::
 
 This is equivalent to the following:
-\oldpage{17}
 
 ::: {.itenv title="Corollary 9.3"}
 Let $f\colon A\to B$ be an étale local homomorphism, with $B$ isomorphic to the localisation of an $A$-algebra of finite type over $A$.
@@ -60,7 +58,7 @@ Since $X\otimes_A K$ is étale over $K$, its ring is a finite product of fields 
 
 ::: {.itenv #I.9.4 title="Corollary 9.4"}
 Let $f\colon A\to B$ be an étale local homomorphism, with $A$ analytically reduced (i.e. such that the completion $\hat{A}$ of $A$ has no nilpotent elements).
-Then $B$ is analytically reduced, and _a fortiori_ reduced.
+Then $B$ is analytically reduced, and a fortiori reduced.
 :::
 
 ::: {.proof}
@@ -83,7 +81,6 @@ For (ii), it seems like we do indeed need the Main Theorem, no matter what.
 :::: {.proof}
 _(First proof)._
 We use the following necessary and sufficient condition for a local Noetherian ring $A$ of dimension $\neq0$ to be normal.
-\oldpage{18}
 
 ::: {.itenv #serres-criterion title="Serre's criterion"}
 —
@@ -93,7 +90,7 @@ ii. For every rank-$\geq2$ prime ideal $\frak{p}$ of $A$, the depth of $A_\frak{
 :::
 
 We assume this criterion here, but it should also appear in the section on flatness.
-Its main advantage is that it does not suppose _a priori_ that $A$ is reduced, nor _a fortiori_ that $A$ is integral.
+Its main advantage is that it does not suppose a priori that $A$ is reduced, nor a fortiori that $A$ is integral.
 Here, we can already suppose that $\dim A=\dim B\neq0$.
 
 By the statements at the start of this section, the rank-$1$ (resp. rank-$\geq2$) prime ideals $\frak{p}$ of $A$ are exactly the intersections of $A$ with the rank-$1$ (resp. rank-$\geq2$) prime ideals $\frak{q}$ of $B$.
@@ -121,7 +118,6 @@ Suppose that $F$ were of minimal degree;
 then it would follows that $F_2=1$.
 (N.B. we would have $F'(u)=F'_1(u)F_2(u)+F_1(u)F'_2(u)=F'_1(u)F_2(u)$, since $F_1(u)=0$, whence $F'_1(u)\neq 0$ since $F'(u)\neq0$.)
 Thus
-\oldpage{19}
 $$
   L = B\otimes_A K = K[t]/FK[t]
 \tag{$*$}
@@ -158,7 +154,7 @@ Then $V'$ is the $A$-module given by the basis $u^i/F'(u)$ (for $0\leq i\leq n-1
 
 ::: {.itenv #I.9.9 title="Corollary 9.9"}
 Suppose that $K$ is the field of fractions of an integral normal ring $A$, with the coefficients of $F$ lying in $A$.
-Then, with the notation of [9.8](#I.9.8), $V'$ contains the normal closure $A'$ of $A$ in $L$, which is thus contained in $A[u]/F'(u)$, and _a fortiori_ in $A[u][F'(u)^{-1}]$.
+Then, with the notation of [9.8](#I.9.8), $V'$ contains the normal closure $A'$ of $A$ in $L$, which is thus contained in $A[u]/F'(u)$, and a fortiori in $A[u][F'(u)^{-1}]$.
 :::
 
 We can apply the above corollary to the situation that we have obtained in the proof: since $F'(u)$ is invertible in $B$, and since $B$ contains $A[u]$, $B$ contains $A'$.
@@ -168,7 +164,7 @@ Since $A'$ is normal, so too is $B$.
 ::: {.proof}
 _(of ii)._
 We proceed as in the above proof to show that we can choose $F$ in [7.6](#I.7.6) such that we again have ($*$).
-The only obstacle _a priori_ is that we can no longer prove that $B\to L$ is injective, since $B$ is no longer assumed to be flat over $A$, and so we can only apply the same argument _a priori_ to the image $B_1$ of $B$ under the aforementioned homomorphism.
+The only obstacle a priori is that we can no longer prove that $B\to L$ is injective, since $B$ is no longer assumed to be flat over $A$, and so we can only apply the same argument a priori to the image $B_1$ of $B$ under the aforementioned homomorphism.
 It immediately follows that $B_1$ is flat over $A$ (since it is the localisation of a free $A$-algebra).
 By [4.8](#I.4.8), the morphism $B\to B_1$ is étale, and thus an isomorphism, which finishes the proof.
 :::
