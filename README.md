@@ -1,6 +1,5 @@
 # TO-DO
 
-- copy over `.css` from fga/translations repo
 - move building to github actions
     + pdf output too
 - turn back on numbering, and turn the "I" numbered sections into parts?
@@ -26,9 +25,9 @@
 10. [x] [Étale coverings of a normal scheme](SGA-1/web-book/I.html#I.10) _(5)_
 11. [x] [Various addenda](SGA-1/web-book/I.html#I.11)
 
-### II. Smooth morphisms: generalities, differential properties
+### [II. Smooth morphisms: generalities, differential properties](SGA-1/web-book/II.html) _(@thosgood)_
 
-1. [ ] Generalities _(2)_
+1. [ ] [Generalities](SGA-1/web-book/II.html#II.1) _(2)_
 2. [ ] Some smoothness criteria for morphisms _(3)_
 3. [ ] Invariance properties _(1)_
 4. [ ] Differential properties of smooth morphisms _(17)_
