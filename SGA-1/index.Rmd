@@ -45,6 +45,7 @@ output:
 \providecommand{\Spec}{\operatorname{Spec}}
 \providecommand{\Hom}{\operatorname{Hom}}
 \providecommand{\gr}{\operatorname{gr}}
+\providecommand{\rank}{\operatorname{rank}}
 \providecommand{\id}{\mathrm{id}}
 \providecommand{\dd}{\mathrm{d}}
 

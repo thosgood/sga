@@ -829,6 +829,66 @@ This question will be studied in §11.</p>
 </div>
 <div id="I.10" class="section level2">
 <h2>10. Étale coverings of a normal scheme</h2>
+<div id="I.10.1" class="itenv" title="Proposition 10.1">
+<p>Let <eq env="math">Y</eq> be normal and connected of field <eq env="math">K</eq>, and let <eq env="math">X</eq> be a separated étale prescheme over <eq env="math">Y</eq>.
+Then the connected components <eq env="math">X_i</eq> of <eq env="math">X</eq> are integral, their fields <eq env="math">K_i</eq> are finite separable extensions of <eq env="math">K</eq>, and <eq env="math">X_i</eq> can be identified with a non-empty open subset of the normalisation of <eq env="math">X</eq> in <eq env="math">K_i</eq> (and thus <eq env="math">X</eq> with a dense open subset of the normalisation of <eq env="math">Y</eq> in <eq env="math">R(X)=L=\prod K_i</eq>, where <eq env="math">R(X)</eq> is the ring of rational functions on <eq env="math">X</eq>).</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-36" class="proof"><em>Proof</em>. </span>By <a href="I.html#I.9.10">9.10</a>, <eq env="math">X</eq> is normal, and <em>a fortiori</em> its local rings are integral, and so the connected components of <eq env="math">X</eq> are irreducible.
+Since <eq env="math">X_i</eq> is normal, and also finite and dominant over <eq env="math">Y</eq>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <eq env="math">X_i</eq> is an open subset of the normalisation of <eq env="math">X</eq> in the field <eq env="math">K_i</eq> of <eq env="math">X_i</eq>.</p>
+</div>
+<div id="I.10.2" class="itenv" title="Corollary 10.2">
+<p>Under the conditions of <a href="I.html#I.10.1">10.1</a>, <eq env="math">X</eq> is finite over <eq env="math">Y</eq> (i.e. an étale covering of <eq env="math">Y</eq>) if and only if <eq env="math">X</eq> is isomorphic to the normalisation <eq env="math">Y'</eq> of <eq env="math">Y</eq> in <eq env="math">L=R(X)</eq> (the ring of rational functions on <eq env="math">X</eq>).</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-37" class="proof"><em>Proof</em>. </span>We know that this normalisation is finite over <eq env="math">Y</eq> (since <eq env="math">Y</eq> is normal, and <eq env="math">R/K</eq> separable);
+conversely, if <eq env="math">X</eq> is finite over <eq env="math">Y</eq>, then it is also finite over <eq env="math">Y'</eq>, and so its image in <eq env="math">Y'</eq> is closed (and it is also dense).</p>
+</div>
+<p>An algebra <eq env="math">L</eq> of finite rank over <eq env="math">K</eq> is said to be <em>unramified over <eq env="math">X</eq></em> (or simply <em>unramified over <eq env="math">K</eq></em> if <eq env="math">X</eq> is evident) if <eq env="math">L</eq> is a separable algebra over <eq env="math">K</eq> (i.e. a direct sum of separable extensions <eq env="math">K_i</eq>) <em>and</em> the normalisation <eq env="math">Y'</eq> of <eq env="math">Y</eq> in <eq env="math">L</eq> (i.e. the disjoint sum of the normalisations of <eq env="math">Y</eq> in the <eq env="math">K_i</eq>) is unramified (i.e. étale, by <a href="I.html#I.9.11">9.11</a>) over <eq env="math">Y</eq>.
+Thus:</p>
+<div id="I.10.3" class="itenv" title="Corollary 10.3">
+<p>For every <eq env="math">X</eq> which is finite over <eq env="math">Y</eq> and such that every irreducible component of <eq env="math">X</eq> dominates <eq env="math">Y</eq>, let <eq env="math">R(X)</eq> be the ring of rational functions on <eq env="math">X</eq> (given by the product of the local rings of the generic points of the irreducible components of <eq env="math">X</eq>), so that <eq env="math">X\mapsto R(X)</eq> is a functor, with values in algebras of finite rank over <eq env="math">K=R(Y)</eq>.
+
+Then this functor establishes an equivalence between the category of connected étale coverings of <eq env="math">Y</eq> and the category of extensions <eq env="math">L</eq> of <eq env="math">K</eq> that are unramified over <eq env="math">Y</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-38" class="proof"><em>Proof</em>. </span>The inverse functor is the normalisation functor.</p>
+<p>Suppose that <eq env="math">Y</eq> is affine, and thus defined by a normal ring <eq env="math">A</eq> with field of fractions <eq env="math">K</eq>.
+Let <eq env="math">L</eq> be a finite extension of <eq env="math">K</eq> given by a direct sum of fields.
+Then, by definition, the normalisation <eq env="math">Y'</eq> of <eq env="math">Y</eq> in <eq env="math">L</eq> is isomorphic to <eq env="math">\operatorname{Spec}(A')</eq>, where <eq env="math">A'</eq> is the normalisation of <eq env="math">A</eq> in <eq env="math">L</eq>.
+To say that <eq env="math">L</eq> is unramified over <eq env="math">Y</eq> implies that <eq env="math">A'</eq> is unramified (or even étale) over <eq env="math">A</eq>.
+If <eq env="math">A</eq> is local, then it is equivalent to say that the local rings <eq env="math">A'_{\mathfrak{n}}</eq> (where <eq env="math">{\mathfrak{n}}</eq> runs over the finite set of maximal ideals of <eq env="math">A'</eq>, i.e. the prime ideals of <eq env="math">A'</eq> that induce the maximal ideal <eq env="math">{\mathfrak{m}}</eq> of <eq env="math">A</eq>) are unramified (i.e. étale) over the local ring <eq env="math">A</eq>.
+Finally, note that the discriminant criterion of <a href="I.html#I.4.10">4.10</a> can also be applied to this situation
+(more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <eq env="math">X</eq> dominates <eq env="math">Y</eq>, but with <eq env="math">Y</eq> still assumed to be locally integral: <eq env="math">A\to B</eq> and <eq env="math">B\to B\otimes_A K</eq> are injective — then <eq env="math">\operatorname{tr}_{L/K}</eq> is defined — and <eq env="math">\operatorname{tr}_{L/K}(xy)</eq> induces a <em>fundamental bilinear form</em> <eq env="math">B\times B\to A</eq>, i.e. there exists <eq env="math">x_i\in B</eq> (for <eq env="math">1\leqslant i\leqslant n=\operatorname{rank}_K L</eq>) such that <eq env="math">\operatorname{tr}(x_ix_j)\in A</eq> for all <eq env="math">i,j</eq>, and <eq env="math">\det(\operatorname{tr}(x_i x_j))_{1\leqslant i,j\leqslant n}</eq> is invertible in <eq env="math">A</eq>).</p>
+</div>
+<p>The syllogism <a href="I.html#I.4.6">4.6</a> immediately implies the syllogism of being unramified in the classical case:</p>
+<div id="I.10.4" class="itenv" title="Proposition 10.4">
+<p>Let <eq env="math">Y</eq> be a normal integral prescheme, of field <eq env="math">K</eq>.
+Then</p>
+<ol style="list-style-type: lower-roman">
+<li><p><eq env="math">K</eq> is unramified over <eq env="math">Y</eq>.</p></li>
+<li><p>If <eq env="math">L</eq> is an extension of <eq env="math">K</eq> that is unramified over <eq env="math">Y</eq>, and if <eq env="math">Y'</eq> is a normal prescheme, of field <eq env="math">L</eq>, that dominates <eq env="math">Y</eq> (e.g. the normalisation of <eq env="math">Y</eq> in <eq env="math">L</eq>), and <eq env="math">M</eq> an extension of <eq env="math">L</eq> that is unramified over <eq env="math">Y'</eq>, then <eq env="math">M/K</eq> is unramified over <eq env="math">X</eq> (this is the <em>transitivity</em> property).</p></li>
+<li><p>Let <eq env="math">Y'</eq> be a normal integral prescheme that dominates <eq env="math">Y</eq>, of field <eq env="math">K'/K</eq>;
+if <eq env="math">L</eq> is an extension of <eq env="math">K</eq> that is unramified over <eq env="math">Y</eq>, then <eq env="math">L\otimes_K K'</eq> is an extension of <eq env="math">K'</eq> that is unramified over <eq env="math">Y'</eq> (this is the <em>translation</em> property)</p></li>
+</ol>
+</div>
+<p>Furthermore:
+</p>
+<div id="I.10.5" class="itenv" title="Corollary 10.5">
+<p>Under the conditions of (iii), if <eq env="math">Y=\operatorname{Spec}(A)</eq> and <eq env="math">Y'=\operatorname{Spec}(A')</eq>, then the normalisation <eq env="math">\overline{A'}</eq> of <eq env="math">A'</eq> in <eq env="math">L'=L\otimes_K K'</eq> can be identified with <eq env="math">\overline{A}\otimes_A A'</eq>, where <eq env="math">\overline{A}</eq> is the normalisation of <eq env="math">A</eq> in <eq env="math">L</eq>.</p>
+</div>
+<p>Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:</p>
+<div id="I.10.6" class="itenv" title="Corollary 10.6">
+<p>Under the conditions of (iii), let <eq env="math">L_1</eq> be a <em>sum extension</em> of <eq env="math">L/K</eq> (unramified over <eq env="math">Y</eq>) and of <eq env="math">K'/K</eq>.
+Then <eq env="math">L_1/K'</eq> is unramified over <eq env="math">Y'</eq>.
+In the case where <eq env="math">Y=\operatorname{Spec}(A)</eq> and <eq env="math">Y'=\operatorname{Spec}(A')</eq>, we further have that
+<eq env="displaymath">
+  \overline{A'} = A[\overline{A},A']
+</eq>
+i.e. the normalisation ring <eq env="math">\overline{A'}</eq> of <eq env="math">A'</eq> in <eq env="math">L_1</eq> is the <eq env="math">A</eq>-algebra generated by <eq env="math">A'</eq> and by the normalisation <eq env="math">\overline{A}</eq> of <eq env="math">A</eq> in <eq env="math">L</eq>.</p>
+</div>
+<p>This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields…</p>
+<p>To finish this section,</p>
 <p><strong>TO-DO</strong></p>
 
 </div>
@@ -892,7 +952,7 @@ The proof follows that of <a href="I.html#I.9.5">9.5</a>, using the following ge
 <li id="fn3"><p>cf. EGA IV 16.3.<a href="I.html#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p>In EGA II 6.2.3 we further suppose that <eq env="math">f</eq> is of finite type.<a href="I.html#fnref4" class="footnote-back">↩︎</a></p></li>
 <li id="fn5"><p>cf. regrets in <a href="#III.1.2">III 1.2</a>.<a href="I.html#fnref5" class="footnote-back">↩︎</a></p></li>
-<li id="fn6"><p>cf. IV.<a href="I.html#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>cf. <a href="#IV">IV</a>.<a href="I.html#fnref6" class="footnote-back">↩︎</a></p></li>
 <li id="fn7"><p>cf. regrets in <a href="#III.1.2">III 1.2</a>.<a href="I.html#fnref7" class="footnote-back">↩︎</a></p></li>
 <li id="fn8"><p>cf. <a href="#IV.5.9">IV.5.9</a><a href="I.html#fnref8" class="footnote-back">↩︎</a></p></li>
 <li id="fn9"><p>cf. EGA IV 5.8.6.<a href="I.html#fnref9" class="footnote-back">↩︎</a></p></li>

@@ -1,3 +1,80 @@
 ## 10. Étale coverings of a normal scheme {#I.10}
 
+::: {.itenv #I.10.1 title="Proposition 10.1"}
+Let $Y$ be normal and connected of field $K$, and let $X$ be a separated étale prescheme over $Y$.
+Then the connected components $X_i$ of $X$ are integral, their fields $K_i$ are finite separable extensions of $K$, and $X_i$ can be identified with a non-empty open subset of the normalisation of $X$ in $K_i$ (and thus $X$ with a dense open subset of the normalisation of $Y$ in $R(X)=L=\prod K_i$, where $R(X)$ is the ring of rational functions on $X$).
+:::
+
+::: {.proof}
+By [9.10](#I.9.10), $X$ is normal, and _a fortiori_ its local rings are integral, and so the connected components of $X$ are irreducible.
+Since $X_i$ is normal, and also finite and dominant over $Y$, it follows from a particular (almost trivial, actually) case of the Main Theorem that $X_i$ is an open subset of the normalisation of $X$ in the field $K_i$ of $X_i$.
+:::
+
+::: {.itenv #I.10.2 title="Corollary 10.2"}
+Under the conditions of [10.1](#I.10.1), $X$ is finite over $Y$ (i.e. an étale covering of $Y$) if and only if $X$ is isomorphic to the normalisation $Y'$ of $Y$ in $L=R(X)$ (the ring of rational functions on $X$).
+:::
+
+::: {.proof}
+We know that this normalisation is finite over $Y$ (since $Y$ is normal, and $R/K$ separable);
+conversely, if $X$ is finite over $Y$, then it is also finite over $Y'$, and so its image in $Y'$ is closed (and it is also dense).
+:::
+
+An algebra $L$ of finite rank over $K$ is said to be _unramified over $X$_ (or simply _unramified over $K$_ if $X$ is evident) if $L$ is a separable algebra over $K$ (i.e. a direct sum of separable extensions $K_i$) _and_ the normalisation $Y'$ of $Y$ in $L$ (i.e. the disjoint sum of the normalisations of $Y$ in the $K_i$) is unramified (i.e. étale, by [9.11](#I.9.11)) over $Y$.
+Thus:
+
+::: {.itenv #I.10.3 title="Corollary 10.3"}
+For every $X$ which is finite over $Y$ and such that every irreducible component of $X$ dominates $Y$, let $R(X)$ be the ring of rational functions on $X$ (given by the product of the local rings of the generic points of the irreducible components of $X$), so that $X\mapsto R(X)$ is a functor, with values in algebras of finite rank over $K=R(Y)$.
+\oldpage{22}
+Then this functor establishes an equivalence between the category of connected étale coverings of $Y$ and the category of extensions $L$ of $K$ that are unramified over $Y$.
+:::
+
+::: {.proof}
+The inverse functor is the normalisation functor.
+
+Suppose that $Y$ is affine, and thus defined by a normal ring $A$ with field of fractions $K$.
+Let $L$ be a finite extension of $K$ given by a direct sum of fields.
+Then, by definition, the normalisation $Y'$ of $Y$ in $L$ is isomorphic to $\Spec(A')$, where $A'$ is the normalisation of $A$ in $L$.
+To say that $L$ is unramified over $Y$ implies that $A'$ is unramified (or even étale) over $A$.
+If $A$ is local, then it is equivalent to say that the local rings $A'_\frak{n}$ (where $\frak{n}$ runs over the finite set of maximal ideals of $A'$, i.e. the prime ideals of $A'$ that induce the maximal ideal $\frak{m}$ of $A$) are unramified (i.e. étale) over the local ring $A$.
+Finally, note that the discriminant criterion of [4.10](#I.4.10) can also be applied to this situation
+(more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when $X$ dominates $Y$, but with $Y$ still assumed to be locally integral: $A\to B$ and $B\to B\otimes_A K$ are injective --- then $\tr_{L/K}$ is defined --- and $\tr_{L/K}(xy)$ induces a _fundamental bilinear form_ $B\times B\to A$, i.e. there exists $x_i\in B$ (for $1\leq i\leq n=\rank_K L$) such that $\tr(x_ix_j)\in A$ for all $i,j$, and $\det(\tr(x_i x_j))_{1\leq i,j\leq n}$ is invertible in $A$).
+:::
+
+The syllogism [4.6](#I.4.6) immediately implies the syllogism of being unramified in the classical case:
+
+::: {.itenv #I.10.4 title="Proposition 10.4"}
+Let $Y$ be a normal integral prescheme, of field $K$.
+Then
+
+i. $K$ is unramified over $Y$.
+
+ii. If $L$ is an extension of $K$ that is unramified over $Y$, and if $Y'$ is a normal prescheme, of field $L$, that dominates $Y$ (e.g. the normalisation of $Y$ in $L$), and $M$ an extension of $L$ that is unramified over $Y'$, then $M/K$ is unramified over $X$ (this is the _transitivity_ property).
+
+iii. Let $Y'$ be a normal integral prescheme that dominates $Y$, of field $K'/K$;
+    if $L$ is an extension of $K$ that is unramified over $Y$, then $L\otimes_K K'$ is an extension of $K'$ that is unramified over $Y'$ (this is the _translation_ property)
+:::
+
+Furthermore:
+\oldpage{23}
+
+::: {.itenv #I.10.5 title="Corollary 10.5"}
+Under the conditions of (iii), if $Y=\Spec(A)$ and $Y'=\Spec(A')$, then the normalisation $\overline{A'}$ of $A'$ in $L'=L\otimes_K K'$ can be identified with $\overline{A}\otimes_A A'$, where $\overline{A}$ is the normalisation of $A$ in $L$.
+:::
+
+Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:
+
+::: {.itenv #I.10.6 title="Corollary 10.6"}
+Under the conditions of (iii), let $L_1$ be a _sum extension_ of $L/K$ (unramified over $Y$) and of $K'/K$.
+Then $L_1/K'$ is unramified over $Y'$.
+In the case where $Y=\Spec(A)$ and $Y'=\Spec(A')$, we further have that
+$$
+  \overline{A'} = A[\overline{A},A']
+$$
+i.e. the normalisation ring $\overline{A'}$ of $A'$ in $L_1$ is the $A$-algebra generated by $A'$ and by the normalisation $\overline{A}$ of $A$ in $L$.
+:::
+
+This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
+
+To finish this section,
+
 **TO-DO**
