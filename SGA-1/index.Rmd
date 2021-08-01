@@ -115,6 +115,9 @@ Here is the list of the volumes of the _Séminaire_ that should appear (cited as
 - SGA 6. Intersection theory and the Riemann--Roch theorem, 1966/67 (2 volumes, in collaboration with P. Berthelot and L. Illusie).
 - SGA 7. Local monodromy groups in algebraic geometry.
 
+Three of these partial _Séminaires_ have been written in _collaboration_ with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
+As for the other active participants of the _Séminaire_, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as editor, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
+
 **TO-DO**
 
 

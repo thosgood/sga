@@ -22,7 +22,7 @@
 7. [x] [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7)
 8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8)
 9. [x] [Invariance properties](SGA-1/web-book/I.html#I.9)
-10. [x] [Étale coverings of a normal scheme](SGA-1/web-book/I.html#I.10) _(5)_
+10. [x] [Étale coverings of a normal scheme](SGA-1/web-book/I.html#I.10)
 11. [x] [Various addenda](SGA-1/web-book/I.html#I.11)
 
 ### [II. Smooth morphisms: generalities, differential properties](SGA-1/web-book/II.html) _(@thosgood)_
