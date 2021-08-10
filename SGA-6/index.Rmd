@@ -1,0 +1,55 @@
+--- 
+title: "Intersection theory and the Riemann--Roch theorem (SGA 6)"
+author: "P. Berthelot, A. Grothendieck, and L. Illusie"
+date: "1966--1967 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
+description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."
+output:
+  bookdown::gitbook:
+    mathjax: null
+    pandoc_args: ["--gladtex"]
+    css: ["https://labs.thosgood.com/translations/style.css", "../assets/fonts.css", "../assets/katex.css"]
+    includes:
+      after_body: ["../assets/scripts.html"]
+    split_by: chapter
+    config:
+      toc:
+        before: |
+          <li><h4>Table of contents</h4></li>
+      fontsettings:
+        theme: white
+        family: serif
+        size: 1
+      sharing:
+        facebook: no
+        github: no
+        twitter: no
+        linkedin: no
+        weibo: no
+        instapaper: no
+        vk: no
+        all: []
+      info: no
+---
+
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\cal}[1]{{\mathcal{#1}}}
+\renewcommand{\scr}[1]{{\mathscr{#1}}}
+\renewcommand{\frak}[1]{{\mathfrak{#1}}}
+
+\providecommand{\alg}[1]{#1\mathsf{-alg}}
+
+\providecommand{\tr}{\operatorname{tr}}
+\providecommand{\Spec}{\operatorname{Spec}}
+\providecommand{\Hom}{\operatorname{Hom}}
+\providecommand{\gr}{\operatorname{gr}}
+\providecommand{\rank}{\operatorname{rank}}
+\providecommand{\id}{\mathrm{id}}
+\providecommand{\dd}{\mathrm{d}}
+
+
+# Introduction {-}
+
+**TO-DO**

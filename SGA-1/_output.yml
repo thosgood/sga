@@ -1,7 +1,6 @@
 bookdown::gitbook:
   number_sections: false
   anchor_sections: false
-  css: style.css
   config:
     toc:
       before: |

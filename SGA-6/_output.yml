@@ -1,0 +1,8 @@
+bookdown::gitbook:
+  number_sections: false
+  anchor_sections: false
+  config:
+    toc:
+      before: |
+        <li><a href="./">SGA 6</a></li>
+    download: []

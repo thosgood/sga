@@ -1,9 +1,10 @@
 # TO-DO
 
-- move building to github actions
-    + pdf output too
+- move to github actions CI for bookdown build
 - turn back on numbering, and turn the "I" numbered sections into parts?
     + would need to make sure that section numbering would reset when we move to the next "II"
+- pdf output
+
 
 # Séminaire de Géométrie Algébrique du Bois Marie
 
@@ -607,7 +608,7 @@
 
 ## 6. Intersection theory and the Riemann--Roch theorem
 
-### 0. Outline of a programme for an intersection theory
+### 0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem
 
 ### I. Generalities on finiteness conditions in derived categories
 
