@@ -1,6 +1,7 @@
 # TO-DO
 
 - move to github actions CI for bookdown build
+    + sort out all this faff of how to get the relative path to `assets/`
 - turn back on numbering, and turn the "I" numbered sections into parts?
     + would need to make sure that section numbering would reset when we move to the next "II"
 - pdf output
