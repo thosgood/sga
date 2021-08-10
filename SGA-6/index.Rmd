@@ -39,15 +39,8 @@ output:
 \renewcommand{\scr}[1]{{\mathscr{#1}}}
 \renewcommand{\frak}[1]{{\mathfrak{#1}}}
 
-\providecommand{\alg}[1]{#1\mathsf{-alg}}
-
-\providecommand{\tr}{\operatorname{tr}}
-\providecommand{\Spec}{\operatorname{Spec}}
-\providecommand{\Hom}{\operatorname{Hom}}
-\providecommand{\gr}{\operatorname{gr}}
-\providecommand{\rank}{\operatorname{rank}}
-\providecommand{\id}{\mathrm{id}}
-\providecommand{\dd}{\mathrm{d}}
+\providecommand{\coh}{\mathrm{coh}}
+\providecommand{\perf}{\mathrm{perf}}
 
 
 # Introduction {-}

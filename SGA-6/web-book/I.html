@@ -54,7 +54,7 @@
 
 
 
-<link rel="stylesheet" href="https://labs.thosgood.com/translations/style.css" type="text/css" />
+<link rel="stylesheet" href="https://thosgood.com/sga/assets/style.css" type="text/css" />
 <link rel="stylesheet" href="https://thosgood.com/sga/assets/fonts.css" type="text/css" />
 <link rel="stylesheet" href="https://thosgood.com/sga/assets/katex.css" type="text/css" />
 </head>
@@ -100,12 +100,49 @@
 
 <div id="I.0" class="section level2">
 <h2>0. Introduction</h2>
-<p>The aim of</p>
+<p>The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</p>
+<p>As was mentioned in <a href="zero.html#zero">Exposé 0</a>, it is the need to define “Grothendieck groups” that have good <strong>TO-DO</strong> properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</p>
+<p>The classical notion of coherent sheaves on a ringed space <eq env="math">(X,{\mathcal{O}}_X)</eq> becomes uninteresting as soon as <eq env="math">{\mathcal{O}}_X</eq> is no longer coherent.
+We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
+We arrive at a satisfying notion by remarking that, if <eq env="math">{\mathcal{O}}_X</eq> is coherent, then a coherent sheaf <eq env="math">{\mathscr{F}}</eq> is not only of finite presentation but also of finite <eq env="math">n</eq>-presentation for all <eq env="math">n\in\mathbb{N}</eq>, where “finite <eq env="math">n</eq>-presentation” means that there exists, locally, an exact sequence
+
+<eq env="displaymath">
+  {\mathscr{L}}_n \to {\mathscr{L}}_{n-1} \to \ldots \to {\mathscr{L}}_0 \to {\mathscr{F}} \to 0
+</eq>
+where the <eq env="math">{\mathscr{L}}_i</eq> are free and of finite type.
+If we no longer suppose the sheaf <eq env="math">{\mathcal{O}}_X</eq> to be coherent, then we say that an <eq env="math">{\mathcal{O}}_X</eq>-module <eq env="math">{\mathscr{F}}</eq> is <em>pseudo-coherent</em> if it satisfies the above condition, i.e. if it is of finite <eq env="math">n</eq>-presentation for all <eq env="math">n\in\mathbb{N}</eq>.
+Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <eq env="math">{\mathcal{O}}_X</eq>-modules are pseudo-coherent, then so too is the third.
+We can easily generalise the above notion to complexes of sheaves: a <em>complex</em> <eq env="math">{\mathscr{F}}</eq> of <eq env="math">{\mathcal{O}}_X</eq>-modules is said to be <em>pseudo-coherent</em> if it is <eq env="math">n</eq>-pseudo-coherent for all <eq env="math">n\in\mathbb{Z}</eq>, where “<eq env="math">n</eq>-pseudo coherent” means that there exists, locally, a quasi-isomorphism <eq env="math">{\mathscr{L}}\xrightarrow{\sim}{\mathscr{F}}</eq>, where <eq env="math">{\mathscr{L}}</eq> is a bounded-above complex, whose components in degree <eq env="math">\geqslant n</eq> are free sheaves of finite type.
+For a complex <eq env="math">{\mathscr{F}}</eq> concentrated in degree <eq env="math">0</eq>, to say that <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent as a complex is equivalent to say that it is pseudo-coherent as a module.
+The notion of a pseudo-coherent complex has excellent stability properties, described in <a href="#I.1">I.1</a> and <a href="#I.2">I.2</a>.
+Firstly, it is stable under isomorphism in the derived category <eq env="math">D(X)</eq> of the category of <eq env="math">{\mathcal{O}}_X</eq>-modules;
+even better, if two objects of a distinguished triangle in <eq env="math">D(X)</eq> are pseudo-coherent, then so too is the third: in other words, the full subcategory <eq env="math">D(X)_\mathrm{coh}</eq> of <eq env="math">D(X)</eq> consisting of pseudo-coherent complexes is a triangulated subcategory.
+Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
+In the case where <eq env="math">{\mathcal{O}}_X</eq> is coherent, to say that a complex <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent simply means that the cohomology of <eq env="math">{\mathscr{F}}</eq> is locally bounded above, and that all the <eq env="math">{\mathscr{H}}^i({\mathscr{F}})</eq> are coherent.</p>
+<p>If <eq env="math">{\mathcal{O}}_X</eq> is a sheaf of regular local rings, then every coherent <eq env="math">{\mathcal{O}}_X</eq>-module <eq env="math">{\mathscr{F}}</eq> locally admits a <em>finite</em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+<eq env="displaymath">
+  {\mathscr{L}}_n \to {\mathscr{L}}_{n-1} \to \ldots \to {\mathscr{L}}_0 \to {\mathscr{F}} \to 0
+</eq>
+where the <eq env="math">{\mathscr{L}}_i</eq> are locally of finite type.
+It is thus natural, when <eq env="math">{\mathcal{O}}_X</eq> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
+such modules are called <em>perfect</em>.
+More generally, we say that a <em>complex</em> <eq env="math">{\mathscr{F}}</eq> of <eq env="math">{\mathcal{O}}_X</eq>-modules is <em>perfect</em> if there exists, locally, a quasi-isomorphism <eq env="math">{\mathscr{L}}\xrightarrow{\sim}{\mathscr{F}}</eq>, where <eq env="math">{\mathscr{L}}</eq> is a bounded complex of free modules of finite type.
+In <a href="#I.3">I.3</a>, we show that the full subcategory <eq env="math">D(X)_\mathrm{perf}</eq> of <eq env="math">D(X)</eq> consisting of perfect complexes is, like <eq env="math">D(X)_\mathrm{coh}</eq>, a triangulated subcategory that is “stable” under inverse images and derived tensor products.
+We clearly have that <eq env="math">D(X)_\mathrm{perf}\subseteq D(X)_\mathrm{coh}</eq>, but the inclusion is strict in general.
+Pseudo-coherence can also be defined “by passing to the limit” from perfectness: a complex <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent if and only if, for all <eq env="math">n\in\mathbb{Z}</eq>, <eq env="math">{\mathscr{F}}</eq> can be “locally approximated to order <eq env="math">n</eq> by a perfect complex”, by which we mean that there exists, locally, a distinguished triangle
+<eq env="displaymath">
+  {\mathscr{L}} \to {\mathscr{F}} \to \src{R} \to {\mathscr{L}}[1]
+</eq>
+where <eq env="math">{\mathscr{L}}</eq> is perfect, and <eq env="math">{\mathscr{R}}</eq> is acyclic in degree <eq env="math">\geqslant n</eq>.
+<strong>(TO-DO: check that <eq env="math">{\mathscr{L}}</eq> isn’t just perfect in degree <eq env="math">\geqslant n</eq>)</strong>
+Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. <a href="#I.5">I.5</a>).
+We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.</p>
+<p>Pseudo-coherence and perfectness are the</p>
 <p><strong>TO-DO</strong></p>
 
 </div>
 </div>
-<script type="text/javascript" src="katex.min.js"></script>
+<script type="text/javascript" src="https://thosgood.com/sga/assets/katex.min.js"></script>
 
 <script type="text/javascript">
   var $document = $(document);
