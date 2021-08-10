@@ -9,7 +9,7 @@ As was mentioned in [Exposé 0](#zero), it is the need to define "Grothendieck g
 The classical notion of coherent sheaves on a ringed space $(X,\cal{O}_X)$ becomes uninteresting as soon as $\cal{O}_X$ is no longer coherent.
 We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
 We arrive at a satisfying notion by remarking that, if $\cal{O}_X$ is coherent, then a coherent sheaf $\scr{F}$ is not only of finite presentation but also of finite $n$-presentation for all $n\in\mathbb{N}$, where "finite $n$-presentation" means that there exists, locally, an exact sequence
-\oldpage{78}
+\oldpage{79}
 $$
   \scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
 $$
@@ -38,7 +38,7 @@ In [I.3](#I.3), we show that the full subcategory $D(X)_\perf$ of $D(X)$ consist
 We clearly have that $D(X)_\perf\subseteq D(X)_\coh$, but the inclusion is strict in general.
 Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex $\scr{F}$ is pseudo-coherent if and only if, for all $n\in\mathbb{Z}$, $\scr{F}$ can be "locally approximated to order $n$ by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
 $$
-  \scr{L} \to \scr{F} \to \src{R} \to \scr{L}[1]
+  \scr{L} \to \scr{F} \to \scr{R} \to \scr{L}[1]
 $$
 where $\scr{L}$ is perfect, and $\scr{R}$ is acyclic in degree $\geq n$.
 **(TO-DO: check that $\scr{L}$ isn't just perfect in degree $\geq n$)**
