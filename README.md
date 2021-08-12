@@ -607,11 +607,13 @@
 ### XIV. The Frobenius morphism, and rationality of $L$-functions
 
 
-## 6. Intersection theory and the Riemann--Roch theorem
+## [6. Intersection theory and the Riemann--Roch theorem](SGA-6/web-book/index.html)
 
 ### 0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem
 
-### I. Generalities on finiteness conditions in derived categories
+### [I. Generalities on finiteness conditions in derived categories](SGA-1/web-book/I.html)
+
+0. [ ] [Introduction](SGA-1/web-book/I.html#I.1)
 
 ### II. Existence of global resolutions
 
