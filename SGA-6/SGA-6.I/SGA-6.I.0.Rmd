@@ -64,4 +64,24 @@ $X$ is the Zariski topos of an affine scheme, or, more generally, of a quasi-com
 or $X$ is the topos of sheaves of sets on a compact topological space, and $\cal{O}_X$ is the sheaf of continuous complex-valued functions.
 As an illustration of these methods --- and to give evidence for the flexibility of the notions we have introduced --- we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.
 
+[Exposé III](#III) studies the stability of finiteness conditions under the derived direct image.
+To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
+We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
+Let $p\colon X\to S$ be an $S$-scheme locally of finite type, and let $\scr{F}$ be a complex of $\cal{O}_X$-modules;
+we say that $\scr{F}$ is _pseudo-coherent_ (resp. _perfect_) _with respect to $p$_ if we can locally embed (by a closed immersion) $X$ into a smooth $S$-scheme $X'$ in such a way that $\scr{F}$ extended by zero on $X'$ is pseudo-coherent (resp. perfect).
+The notion of pseudo-coherence with respect to $p$ is especially interesting in the case where $S$ is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+\oldpage{83}
+On the other hand, as we might expect, to say that $\scr{F}$ is perfect with respect to $p$ is equivalent to saying that $\scr{F}$ is pseudo-coherent with respect to $p$ and locally of finite tor-dimension with respect to $p$ (i.e. with respect to the sheaf of rings $p^{-1}(\cal{O}_S)$).
+The central theorem of [Exposé III](#III) is the _finiteness theorem_, which affirms (in a slightly more precise way) that, if $f\colon X\to Y$ is a _proper_ morphism of $S$-schemes locally of finite type, then the functor $\mathbb{R}f_*$ sends complexes that are pseudo-coherent with respect to $S$ to complexes that are pseudo-coherent with respect to $S$;
+this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
+
+a) $S$ is locally Noetherian;
+b) $f$ is projective.
+
+Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's "theorem").
+Combining the finiteness theorem with an essentially trivial formula called the _projection formula_, we obtain tractable criteria for the stability of relative perfectness under direct images.
+We recover, as a corollary, the "Grauert's continuity and semi-continuity theorems" (EGA III, 7.6).
+
+[Exposé IV](#IV)
+
 **TO-DO**
