@@ -613,7 +613,8 @@
 
 ### [I. Generalities on finiteness conditions in derived categories](SGA-1/web-book/I.html)
 
-0. [ ] [Introduction](SGA-1/web-book/I.html#I.1)
+0. [x] [Introduction](SGA-1/web-book/I.html#I.1)
+1. [ ] Preliminary definitions
 
 ### II. Existence of global resolutions
 

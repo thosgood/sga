@@ -151,7 +151,29 @@ In particular, we show that there exist global resolutions in the following case
 <eq env="math">X</eq> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
 or <eq env="math">X</eq> is the topos of sheaves of sets on a compact topological space, and <eq env="math">{\mathcal{O}}_X</eq> is the sheaf of continuous complex-valued functions.
 As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a “purely sheaf-theoretic” definition of the index of a family of elliptic operators.</p>
-<p><strong>TO-DO</strong></p>
+<p><a href="#III">Exposé III</a> studies the stability of finiteness conditions under the derived direct image.
+To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness “into perspective”.
+We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
+Let <eq env="math">p\colon X\to S</eq> be an <eq env="math">S</eq>-scheme locally of finite type, and let <eq env="math">{\mathscr{F}}</eq> be a complex of <eq env="math">{\mathcal{O}}_X</eq>-modules;
+we say that <eq env="math">{\mathscr{F}}</eq> is <em>pseudo-coherent</em> (resp. <em>perfect</em>) <em>with respect to <eq env="math">p</eq></em> if we can locally embed (by a closed immersion) <eq env="math">X</eq> into a smooth <eq env="math">S</eq>-scheme <eq env="math">X'</eq> in such a way that <eq env="math">{\mathscr{F}}</eq> extended by zero on <eq env="math">X'</eq> is pseudo-coherent (resp. perfect).
+The notion of pseudo-coherence with respect to <eq env="math">p</eq> is especially interesting in the case where <eq env="math">S</eq> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+
+On the other hand, as we might expect, to say that <eq env="math">{\mathscr{F}}</eq> is perfect with respect to <eq env="math">p</eq> is equivalent to saying that <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent with respect to <eq env="math">p</eq> and locally of finite tor-dimension with respect to <eq env="math">p</eq> (i.e. with respect to the sheaf of rings <eq env="math">p^{-1}({\mathcal{O}}_S)</eq>).
+The central theorem of <a href="#III">Exposé III</a> is the <em>finiteness theorem</em>, which affirms (in a slightly more precise way) that, if <eq env="math">f\colon X\to Y</eq> is a <em>proper</em> morphism of <eq env="math">S</eq>-schemes locally of finite type, then the functor <eq env="math">\mathbb{R}f_*</eq> sends complexes that are pseudo-coherent with respect to <eq env="math">S</eq> to complexes that are pseudo-coherent with respect to <eq env="math">S</eq>;
+this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:</p>
+<ol style="list-style-type: lower-alpha">
+<li><eq env="math">S</eq> is locally Noetherian;</li>
+<li><eq env="math">f</eq> is projective.</li>
+</ol>
+<p>Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert’s “theorem”).
+Combining the finiteness theorem with an essentially trivial formula called the <em>projection formula</em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
+We recover, as a corollary, the “Grauert’s continuity and semi-continuity theorems” (EGA III, 7.6).</p>
+<p><a href="#IV">Exposé IV</a> translates the results of Exposés <a href="I.html#I">I</a> to <a href="#III">III</a> into the language of “Grothendieck groups”.
+On a ringed space <eq env="math">(X,{\mathcal{O}}_X)</eq>, we denote by <eq env="math">K^\bullet(X)</eq> (resp. <eq env="math">K_\bullet(X)</eq>) the “Grothendieck group” of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+The group <eq env="math">K^\bullet(X)</eq> is a ring, and <eq env="math">K_\bullet(X)</eq> is a module over <eq env="math">K^\bullet(X)</eq>.
+As suggested by the superscript bullet, <eq env="math">K^\bullet</eq> is a contravariant functor, whilst <eq env="math">K_\bullet</eq> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem…).
+There are also unusual variances (covariance of <eq env="math">K^\bullet</eq> and contravariance of <eq env="math">K_\bullet</eq>) for morphisms satisfying suitable regularity hypotheses.
+Finally, the globalisation criteria of <a href="#II">Exposé II</a> allow us to make the link with the “Grothendieck groups” defined naively from coherent sheaves or locally free sheaves of finite type.</p>
 
 </div>
 </div>

@@ -82,6 +82,9 @@ Unfortunately, it seems that the extension to the general case is of the same or
 Combining the finiteness theorem with an essentially trivial formula called the _projection formula_, we obtain tractable criteria for the stability of relative perfectness under direct images.
 We recover, as a corollary, the "Grauert's continuity and semi-continuity theorems" (EGA III, 7.6).
 
-[Exposé IV](#IV)
-
-**TO-DO**
+[Exposé IV](#IV) translates the results of Exposés [I](#I) to [III](#III) into the language of "Grothendieck groups".
+On a ringed space $(X,\cal{O}_X)$, we denote by $K^\bullet(X)$ (resp. $K_\bullet(X)$) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+The group $K^\bullet(X)$ is a ring, and $K_\bullet(X)$ is a module over $K^\bullet(X)$.
+As suggested by the superscript bullet, $K^\bullet$ is a contravariant functor, whilst $K_\bullet$ is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
+There are also unusual variances (covariance of $K^\bullet$ and contravariance of $K_\bullet$) for morphisms satisfying suitable regularity hypotheses.
+Finally, the globalisation criteria of [Exposé II](#II) allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
