@@ -611,9 +611,9 @@
 
 ### 0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem
 
-### [I. Generalities on finiteness conditions in derived categories](SGA-1/web-book/I.html)
+### [I. Generalities on finiteness conditions in derived categories](SGA-6/web-book/I.html)
 
-0. [x] [Introduction](SGA-1/web-book/I.html#I.1)
+0. [x] [Introduction](SGA-6/web-book/I.html#I.0)
 1. [ ] Preliminary definitions
 
 ### II. Existence of global resolutions
