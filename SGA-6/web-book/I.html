@@ -100,8 +100,8 @@
 
 <div id="I.0" class="section level2">
 <h2>0. Introduction</h2>
-<p>The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</p>
-<p>As was mentioned in <a href="zero.html#zero">Exposé 0</a>, it is the need to define “Grothendieck groups” that have good <strong>TO-DO</strong> properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</p>
+<p>The aim of Exposés <a href="I.html#I">I</a> to <a href="#IV">IV</a> is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</p>
+<p>As was mentioned in <a href="zero.html#zero">Exposé 0</a>, it is the need to define “Grothendieck groups” that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</p>
 <p>The classical notion of coherent sheaves on a ringed space <eq env="math">(X,{\mathcal{O}}_X)</eq> becomes uninteresting as soon as <eq env="math">{\mathcal{O}}_X</eq> is no longer coherent.
 We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
 We arrive at a satisfying notion by remarking that, if <eq env="math">{\mathcal{O}}_X</eq> is coherent, then a coherent sheaf <eq env="math">{\mathscr{F}}</eq> is not only of finite presentation but also of finite <eq env="math">n</eq>-presentation for all <eq env="math">n\in\mathbb{N}</eq>, where “finite <eq env="math">n</eq>-presentation” means that there exists, locally, an exact sequence
@@ -137,7 +137,20 @@ where <eq env="math">{\mathscr{L}}</eq> is perfect, and <eq env="math">{\mathscr
 <strong>(TO-DO: check that <eq env="math">{\mathscr{L}}</eq> isn’t just perfect in degree <eq env="math">\geqslant n</eq>)</strong>
 Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. <a href="#I.5">I.5</a>).
 We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.</p>
-<p>Pseudo-coherence and perfectness are the</p>
+<p>Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
+Sections <a href="#I.1">I.1</a> to <a href="#I.5">I.5</a> of Exposé I are dedicated to their definition, and to establishing their elementary stability properties.
+For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
+It also turns out to be practical — and useful, most notably in <a href="#II">Exposé II</a> — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.</p>
+<p>Sections <a href="#I.6">I.6</a> to <a href="#I.8">I.8</a> of Exposé I generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.</p>
+<p>In <a href="#II">Exposé II</a>, we examine the problem of “the existence of global resolutions”: under what conditions, on a ringed topos <eq env="math">(X,{\mathcal{O}}_X)</eq>, is a pseudo-coherent (resp. perfect) complex <em>globally</em> isomorphic in <eq env="math">D(X)</eq> to a complex of locally free modules of finite type?
+The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see <a href="#XIV">Exposé XIV</a>).
+This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
+
+Such criteria are given in <a href="#II">Exposé II</a>.
+In particular, we show that there exist global resolutions in the following cases:
+<eq env="math">X</eq> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
+or <eq env="math">X</eq> is the topos of sheaves of sets on a compact topological space, and <eq env="math">{\mathcal{O}}_X</eq> is the sheaf of continuous complex-valued functions.
+As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a “purely sheaf-theoretic” definition of the index of a family of elliptic operators.</p>
 <p><strong>TO-DO</strong></p>
 
 </div>
