@@ -1,0 +1,3 @@
+## 1. The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ {#I.1}
+
+Let $X$ be a topological space, and $\cal{C}_X$ the category of abelian sheaves on $X$.
