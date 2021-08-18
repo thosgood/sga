@@ -7,9 +7,9 @@ output:
   bookdown::gitbook:
     mathjax: null
     pandoc_args: ["--gladtex"]
-    css: [https://thosgood.com/sga/assets/style.css", https://thosgood.com/sga/assets/fonts.css", https://thosgood.com/sga/assets/katex.css"]
+    css: ["https://thosgood.com/sga/assets/style.css", "https://thosgood.com/sga/assets/fonts.css", "https://thosgood.com/sga/assets/katex.css"]
     includes:
-      after_body: [https://thosgood.com/sga/assets/scripts.html"]
+      after_body: ["https://thosgood.com/sga/assets/scripts.html"]
     split_by: chapter
     config:
       toc:
