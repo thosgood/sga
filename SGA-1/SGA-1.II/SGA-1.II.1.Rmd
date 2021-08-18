@@ -70,16 +70,14 @@ iii. The composition of two smooth morphisms is smooth.
 
 :::
 
-:::: {.proof}
+::: {.proof}
 
-i. This is trivial by definition; more precisely:
-
-::: {.itenv ##II.1.4 title="Corollary 1.4"}
-étale = quasi-finite + smooth.
-:::
-
+i. This is trivial by definition; more precisely, see [1.4](#II.1.4).
 ii. This follows immediately from the analogous fact for étale morphisms ([I 4.6](#I.4.6)) and for the projections $Y[t_1,\ldots,t_n]\to Y$ (cf. [(1.2)](#equation-II.1.2)).
-
 iii. This
 
-::::
+:::
+
+::: {.itenv #II.1.4 title="Corollary 1.4"}
+étale = quasi-finite + smooth.
+:::
