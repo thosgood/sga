@@ -1,7 +1,5 @@
 # TO-DO
 
-- move to github actions CI for bookdown build
-    + sort out all this faff of how to get the relative path to `assets/`
 - turn back on numbering, and turn the "I" numbered sections into parts?
     + would need to make sure that section numbering would reset when we move to the next "II"
 - pdf output
@@ -10,6 +8,9 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
 ## [1. Étale covers and the fundamental group](SGA-1/index.html)
+
+<details>
+  <summary>Table of contents</summary>
 
 - [ ] Introduction _(@thosgood)_
 
@@ -143,6 +144,8 @@
 5. [ ] Appendix I: Variations on Abhyankar's lemma _(8)_
 6. [ ] Appendix II: Finiteness theorem for direct images of stacks _(4)_
 7. [ ] Bibliography _(1)_
+
+</details>
 
 
 ## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
