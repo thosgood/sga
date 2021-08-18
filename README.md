@@ -681,7 +681,7 @@
   <summary markdown="span">Table of contents
   </summary>
 
-  - 0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem
+  - [0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem](SGA-6/zero.html)
 
   - [I. Generalities on finiteness conditions in derived categories](SGA-6/I.html)
 
