@@ -1,4 +1,4 @@
 # II. Smooth morphisms: generalities, differential properties {#II}
 
-References to chapter I are indicated by an "I".
+References to [Exp. I](#I) are indicated by an "I".
 We recall that all rings are assumed to be Noetherian, and all preschemes locally Noetherian.

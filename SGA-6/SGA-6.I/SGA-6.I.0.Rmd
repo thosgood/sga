@@ -4,7 +4,7 @@
 
 The aim of Exposés [I](#I) to [IV](#IV) is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 
-As was mentioned in [Exposé 0](#zero), it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
+As was mentioned in [Exp. 0](#zero), it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
 
 The classical notion of coherent sheaves on a ringed space $(X,\cal{O}_X)$ becomes uninteresting as soon as $\cal{O}_X$ is no longer coherent.
 We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
@@ -50,21 +50,21 @@ We thus recover the fact that, if the local rings are regular, then every cohere
 Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
 Sections [I.1](#I.1) to [I.5](#I.5) of Exposé I are dedicated to their definition, and to establishing their elementary stability properties.
 For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
-It also turns out to be practical --- and useful, most notably in [Exposé II](#II) --- to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
+It also turns out to be practical --- and useful, most notably in [Exp. II](#II) --- to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
 
 Sections [I.6](#I.6) to [I.8](#I.8) of Exposé I generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.
 
-In [Exposé II](#II), we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos $(X,\cal{O}_X)$, is a pseudo-coherent (resp. perfect) complex _globally_ isomorphic in $D(X)$ to a complex of locally free modules of finite type?
-The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [Exposé XIV](#XIV)).
+In [Exp. II](#II), we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos $(X,\cal{O}_X)$, is a pseudo-coherent (resp. perfect) complex _globally_ isomorphic in $D(X)$ to a complex of locally free modules of finite type?
+The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [Exp. XIV](#XIV)).
 This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
 \oldpage{82}
-Such criteria are given in [Exposé II](#II).
+Such criteria are given in [Exp. II](#II).
 In particular, we show that there exist global resolutions in the following cases:
 $X$ is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
 or $X$ is the topos of sheaves of sets on a compact topological space, and $\cal{O}_X$ is the sheaf of continuous complex-valued functions.
 As an illustration of these methods --- and to give evidence for the flexibility of the notions we have introduced --- we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.
 
-[Exposé III](#III) studies the stability of finiteness conditions under the derived direct image.
+[Exp. III](#III) studies the stability of finiteness conditions under the derived direct image.
 To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
 We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
 Let $p\colon X\to S$ be an $S$-scheme locally of finite type, and let $\scr{F}$ be a complex of $\cal{O}_X$-modules;
@@ -72,7 +72,7 @@ we say that $\scr{F}$ is _pseudo-coherent_ (resp. _perfect_) _with respect to $p
 The notion of pseudo-coherence with respect to $p$ is especially interesting in the case where $S$ is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
 \oldpage{83}
 On the other hand, as we might expect, to say that $\scr{F}$ is perfect with respect to $p$ is equivalent to saying that $\scr{F}$ is pseudo-coherent with respect to $p$ and locally of finite tor-dimension with respect to $p$ (i.e. with respect to the sheaf of rings $p^{-1}(\cal{O}_S)$).
-The central theorem of [Exposé III](#III) is the _finiteness theorem_, which affirms (in a slightly more precise way) that, if $f\colon X\to Y$ is a _proper_ morphism of $S$-schemes locally of finite type, then the functor $\mathbb{R}f_*$ sends complexes that are pseudo-coherent with respect to $S$ to complexes that are pseudo-coherent with respect to $S$;
+The central theorem of [Exp. III](#III) is the _finiteness theorem_, which affirms (in a slightly more precise way) that, if $f\colon X\to Y$ is a _proper_ morphism of $S$-schemes locally of finite type, then the functor $\mathbb{R}f_*$ sends complexes that are pseudo-coherent with respect to $S$ to complexes that are pseudo-coherent with respect to $S$;
 this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
 
 a) $S$ is locally Noetherian;
@@ -82,9 +82,9 @@ Unfortunately, it seems that the extension to the general case is of the same or
 Combining the finiteness theorem with an essentially trivial formula called the _projection formula_, we obtain tractable criteria for the stability of relative perfectness under direct images.
 We recover, as a corollary, the "Grauert's continuity and semi-continuity theorems" (EGA III, 7.6).
 
-[Exposé IV](#IV) translates the results of Exposés [I](#I) to [III](#III) into the language of "Grothendieck groups".
+[Exp. IV](#IV) translates the results of Exposés [I](#I) to [III](#III) into the language of "Grothendieck groups".
 On a ringed space $(X,\cal{O}_X)$, we denote by $K^\bullet(X)$ (resp. $K_\bullet(X)$) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
 The group $K^\bullet(X)$ is a ring, and $K_\bullet(X)$ is a module over $K^\bullet(X)$.
 As suggested by the superscript bullet, $K^\bullet$ is a contravariant functor, whilst $K_\bullet$ is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
 There are also unusual variances (covariance of $K^\bullet$ and contravariance of $K_\bullet$) for morphisms satisfying suitable regularity hypotheses.
-Finally, the globalisation criteria of [Exposé II](#II) allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
+Finally, the globalisation criteria of [Exp. II](#II) allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.

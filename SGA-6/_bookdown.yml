@@ -3,7 +3,7 @@ delete_merged_file: true
 view: https://github.com/thosgood/sga/blob/main/SGA-6/%s
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Exposé "
 rmd_files:
 - index.Rmd
 - SGA-6.0/SGA-6.0.Rmd
