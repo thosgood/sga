@@ -1,8 +1,25 @@
 bookdown::gitbook:
+  mathjax: null
+  pandoc_args: ["--gladtex"]
   number_sections: false
   anchor_sections: false
+  css: ["https://thosgood.com/sga/assets/style.css", "https://thosgood.com/sga/assets/fonts.css", "https://thosgood.com/sga/assets/katex.css"]
+  includes:
+    after_body: ["https://thosgood.com/sga/assets/scripts.html"]
+  split_by: chapter
   config:
-    toc:
-      before: |
-        <li><a href="./">SGA 6</a></li>
     download: []
+    fontsettings:
+      theme: white
+      family: serif
+      size: 1
+    sharing:
+      facebook: no
+      github: no
+      twitter: no
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: []
+    info: no
