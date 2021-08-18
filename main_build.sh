@@ -4,6 +4,7 @@
 mkdir -p build
 
 cp README.md build/index.md
+cp _config.yml build/
 cp -R assets build/
 
 cp _output.yml SGA-1/
