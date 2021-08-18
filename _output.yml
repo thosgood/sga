@@ -10,7 +10,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="../" style="text-decoration: underline;">&#8617; Return to SGA</a></li>
+        <li><a href="../">Return to SGA &#8617;</a></li>
     download: []
     fontsettings:
       theme: white
