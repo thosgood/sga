@@ -2,6 +2,6 @@
 
 bookdown::render_book("index.Rmd",
                       "bookdown::gitbook",
-                      output_dir = "web-book",
+                      output_dir = "build",
                       config_file = "_bookdown.yml")
-print('Done!')
+print('SGA 6 done!')

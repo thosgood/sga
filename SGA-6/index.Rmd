@@ -41,6 +41,7 @@ output:
 
 \providecommand{\coh}{\mathrm{coh}}
 \providecommand{\perf}{\mathrm{perf}}
+\providecommand{\ob}{\operatorname{ob}}
 
 
 # Introduction {-}
