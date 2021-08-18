@@ -3,12 +3,6 @@ title: "Étale covers and the fundamental group (SGA 1)"
 author: "A. Grothendieck and M. Raynaud"
 date: "1960--1961 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
 description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 1."
-output:
-  bookdown::gitbook:
-    config:
-      toc:
-        before: |
-          <li><a href="../">SGA</a>/SGA 1</li>
 ---
 
 \renewcommand{\leq}{\leqslant}

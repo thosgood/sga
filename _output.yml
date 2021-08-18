@@ -8,6 +8,9 @@ bookdown::gitbook:
     after_body: ["https://thosgood.com/sga/assets/scripts.html"]
   split_by: chapter
   config:
+    toc:
+      before: |
+        <li><a href="../" style="text-decoration: underline;">&#8617; Return to SGA</a></li>
     download: []
     fontsettings:
       theme: white
