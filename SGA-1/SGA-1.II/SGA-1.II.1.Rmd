@@ -74,10 +74,16 @@ iii. The composition of two smooth morphisms is smooth.
 
 i. This is trivial by definition; more precisely, see [1.4](#II.1.4).
 ii. This follows immediately from the analogous fact for étale morphisms ([I 4.6](#I.4.6)) and for the projections $Y[t_1,\ldots,t_n]\to Y$ (cf. [(1.2)](#equation-II.1.2)).
-iii. This
+iii. This follows formally from the fact that it is separately true for both "étale" ([I 4.6](#I.4.6)) and for projections of the type $Y[t_1,\ldots,t_n]\to Y$ (cf. [(1.3)](#equation-II.1.3)), and from the two facts cited for (ii): Suppose that $Y$ is smooth over $Z$, and that $X$ is smooth over $Y$, then we can prove that $X$ is smooth over $Z$; we can suppose $Y$ to be étale over $Z[t_1,\ldots,t_n]$, and $X$ to be étale over $Y[s_1,\ldots,s_m]$, then the first hypothesis implies that $Y[s_1,\ldots,s_m]$ is étale over $Z[t_1,\ldots,t_n][s_1,\ldots,s_m]=Z[t_1,\ldots,s_m]$, and so $X$ is étale over $Z[t_1,\ldots,s_m]$, qed.
 
 :::
 
 ::: {.itenv #II.1.4 title="Corollary 1.4"}
 étale = quasi-finite + smooth.
+:::
+
+::: {.rmenv #II.1.5 title="Remark 1.5"}
+The integer $n$ which appears in [Definition 1.1](#II.1.1a) is well defined, since we immediately see that it is the dimension of the local ring of $x$ in its fibre $f^{-1}(f(x))$.
+We call this the _relative dimension_ of $X$ over $Y$.
+It behaves additively for composition of morphisms.
 :::
