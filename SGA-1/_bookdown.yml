@@ -1,6 +1,6 @@
 book_filename: "SGA 1"
 delete_merged_file: true
-view: https://github.com/thosgood/sga/blob/main/%s
+view: https://github.com/thosgood/sga/blob/main/SGA-1/%s
 language:
   ui:
     chapter_name: "Chapter "
