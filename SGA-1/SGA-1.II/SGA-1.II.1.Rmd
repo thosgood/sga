@@ -9,3 +9,77 @@ $$
 \tag{1.1}
 $$
 :::
+
+Then $Y[t_1,\ldots,t_n]$ is an affine $Y$-scheme, defined by the quasi-coherent sheaf of algebras $\cal{O}_Y[t_1,\ldots,t_n]$.
+The data of a section of this prescheme over $Y$ is thus equivalent to the data of $n$ sections of $\cal{O}_Y$ (corresponding to the images of the $t_i$ under the corresponding homomorphism).
+If $Y'$ is over $Y$, then we have
+
+::: {.eqtag #equation-II.1.2}
+$$
+  Y[t_1,\ldots,t_n] \times_Y Y' = Y'[t_1,\ldots,t_n]
+\tag{1.2}
+$$
+:::
+
+(which implies that the data of a $Y$-morphism from $Y'$ to $Y[t_1,\ldots,t_n]$ is equivalent to the data of $n$ sections of $\cal{O}_{Y'}$).
+We also have
+
+::: {.eqtag #equation-II.1.3}
+$$
+  \big(Y[t_1,\ldots,t_n]\big)[t_{n+1},\ldots,t_m] = Y[t_1,\ldots,t_m]
+\tag{1.3}
+$$
+:::
+
+by the analogous formula for rings of polynomials over $\mathbb{Z}$.
+[Equation (1.2)](#equation-II.1.2) implies that $Y[t_1,\ldots,t_n]$ varies functorially with respect to $Y$.
+
+Further, $Y[t_1,\ldots,t_n]$ is flat and of finite type over $Y$.
+
+::: {.rmenv #II.1.1a title="Definition 1.1"}
+Let $f\colon X\to Y$ be a morphism, making $X$ a $Y$-prescheme.
+We say that $f$ is _smooth_^[Old terminology: $f$ is _simple_ at $x$, or $x$ is a _simple_ point for $f$. This terminology led to confusion in many contexts (simple algebras, simple groups) and had to be abandoned.] at $x\in X$, or that $X$ is _smooth over $Y$ at $x$_, if there exists an integer $n\geq0$, an open neighbourhood $U$ of $x$, and an étale $Y$-morphism from $U$ to $Y[t_1,\ldots,t_n]$.
+We say that $f$ (resp. $X$) is _smooth_ if it is smooth at all points of $X$.
+An algebra $B$ over a ring $A$ is said to be smooth at a prime ideal $\frak{p}$ of $B$ if $\Spec(B)$ is smooth over $\Spec(A)$ at the point $\frak{p}$;
+we say that $B$ is smooth over $A$ if it smooth smooth over $A$ at all prime ideals $\frak{p}$ of $B$.
+Finally, a local homomorphism $A\to B$ of local rings is said to be smooth, or $B$ is said to be smooth^[It is better to say, as in EGA IV 18.6.1, that $B$ is _essentially smooth_ over $A$.] over $A$, if $B$ is the localisation of an algebra of finite type $B_1$ that is smooth over $A$.
+:::
+
+We note that the notion of smoothness of $X$ over $Y$ is local in $X$ and in $Y$;
+if $X$ is smooth over $Y$, then it is locally of finite type over $Y$.
+
+::: {.itenv #II.1.1 title="Proposition 1.1"}
+The set of points $x$ of $X$ at which $f$ is smooth is open.
+:::
+
+::: {.proof}
+This is trivial, by definition.
+:::
+
+::: {.itenv #II.1.2 title="Corollary 1.2"}
+If $B$ is smooth over $A$ at $\frak{p}$, then it is smooth over $A$ at $\frak{q}$ for every prime ideal $\frak{q}$ of $B$ that is contained in $\frak{p}$.
+:::
+
+Note that [1.1](#II.1.1) also implies that the last two definitions of [Definition 1.1](#II.1.1a) agree on their common domain of existence.
+
+::: {.itenv #II.1.3 title="Proposition 1.3"}
+
+i. An étale morphism (in particular, an open immersion, or an identity morphism) is smooth.
+ii. A base extension of a smooth morphism is a smooth morphism.
+iii. The composition of two smooth morphisms is smooth.
+
+:::
+
+:::: {.proof}
+
+i. This is trivial by definition; more precisely:
+
+::: {.itenv ##II.1.4 title="Corollary 1.4"}
+étale = quasi-finite + smooth.
+:::
+
+ii. This follows immediately from the analogous fact for étale morphisms ([I 4.6](#I.4.6)) and for the projections $Y[t_1,\ldots,t_n]\to Y$ (cf. [(1.2)](#equation-II.1.2)).
+
+iii. This
+
+::::
