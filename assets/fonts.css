@@ -1,0 +1,20 @@
+@font-face {
+  font-family: EBGaramond;
+  src: url(./fonts/EBGaramond-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url(./fonts/EBGaramond-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url(./fonts/EBGaramond-Italic.ttf) format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url(./fonts/EBGaramond-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
