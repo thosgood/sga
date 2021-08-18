@@ -1,5 +1,7 @@
 # to-do
 
+- fix view links
+  + (they either work for just the index file, or just for chapter files...)
 - turn back on numbering, and turn the "I" numbered sections into parts?
   + would need to make sure that section numbering would reset when we move to the next "II"
 - pdf output
@@ -13,7 +15,7 @@
   <summary markdown="span">Table of contents
   </summary>
 
-  - [ ] Introduction _(@thosgood)_
+  - [ ] [Introduction](SGA-1/index.html) _(@thosgood)_
 
   ### [I. Étale morphisms](SGA-1/I.html) _(@thosgood)_
 
@@ -150,19 +152,17 @@
 <br>
 
 
-## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
+## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](SGA-2/index.html)
 
 <details>
   <summary markdown="span">Table of contents
   </summary>
 
-  ### Introduction
+  ### [Introduction](SGA-2/index.html)
 
-  - [ ] Introduction _(5)_
+  ### [I. Global and local cohomological invariants with respect to a closed subspace](SGA-2/I.html)
 
-  ### I. Global and local cohomological invariants with respect to a closed subspace
-
-  1. [ ] The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ _(7)_
+  1. [ ] [The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$](SGA-2/I.html#I.1) _(7)_
   2. [ ] The functors $H_Z^\bullet(X,F)$ and $\underline{H}_Z^\bullet(X,F)$ _(6)_
 
   ### II. Applications to quasi-coherent sheaves on preschemes
