@@ -10,7 +10,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="../" style="margin-top: 5px">Return to index &#8617;</a></li>
+        <li><a href="../" style="margin-top: 5px">Return to SGA index &#8617;</a></li>
     download: []
     fontsettings:
       theme: white
