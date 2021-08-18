@@ -9,27 +9,27 @@
 
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## [1. Étale covers and the fundamental group](SGA-1/web-book/index.html)
+## [1. Étale covers and the fundamental group](SGA-1/index.html)
 
 - [ ] Introduction _(@thosgood)_
 
-### [I. Étale morphisms](SGA-1/web-book/I.html) _(@thosgood)_
+### [I. Étale morphisms](SGA-1/I.html) _(@thosgood)_
 
-1. [x] [Basics of differential calculus](SGA-1/web-book/I.html#I.1)
-2. [x] [Quasi-finite morphisms](SGA-1/web-book/I.html#I.2)
-3. [x] [Unramified morphisms](SGA-1/web-book/I.html#I.3)
-4. [x] [Étale morphisms. Étale coverings](SGA-1/web-book/I.html#I.4)
-5. [x] [Fundamental property of étale morphisms](SGA-1/web-book/I.html#I.5)
-6. [x] [Application to étale extensions of complete local rings](SGA-1/web-book/I.html#I.6)
-7. [x] [Local construction of unramified and étale morphisms](SGA-1/web-book/I.html#I.7)
-8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/web-book/I.html#I.8)
-9. [x] [Invariance properties](SGA-1/web-book/I.html#I.9)
-10. [x] [Étale coverings of a normal scheme](SGA-1/web-book/I.html#I.10)
-11. [x] [Various addenda](SGA-1/web-book/I.html#I.11)
+1. [x] [Basics of differential calculus](SGA-1/I.html#I.1)
+2. [x] [Quasi-finite morphisms](SGA-1/I.html#I.2)
+3. [x] [Unramified morphisms](SGA-1/I.html#I.3)
+4. [x] [Étale morphisms. Étale coverings](SGA-1/I.html#I.4)
+5. [x] [Fundamental property of étale morphisms](SGA-1/I.html#I.5)
+6. [x] [Application to étale extensions of complete local rings](SGA-1/I.html#I.6)
+7. [x] [Local construction of unramified and étale morphisms](SGA-1/I.html#I.7)
+8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/I.html#I.8)
+9. [x] [Invariance properties](SGA-1/I.html#I.9)
+10. [x] [Étale coverings of a normal scheme](SGA-1/I.html#I.10)
+11. [x] [Various addenda](SGA-1/I.html#I.11)
 
-### [II. Smooth morphisms: generalities, differential properties](SGA-1/web-book/II.html) _(@thosgood)_
+### [II. Smooth morphisms: generalities, differential properties](SGA-1/II.html) _(@thosgood)_
 
-1. [ ] [Generalities](SGA-1/web-book/II.html#II.1) _(2)_
+1. [ ] [Generalities](SGA-1/II.html#II.1) _(2)_
 2. [ ] Some smoothness criteria for morphisms _(3)_
 3. [ ] Invariance properties _(1)_
 4. [ ] Differential properties of smooth morphisms _(17)_
@@ -607,14 +607,14 @@
 ### XIV. The Frobenius morphism, and rationality of $L$-functions
 
 
-## [6. Intersection theory and the Riemann--Roch theorem](SGA-6/web-book/index.html)
+## [6. Intersection theory and the Riemann--Roch theorem](SGA-6/index.html)
 
 ### 0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem
 
-### [I. Generalities on finiteness conditions in derived categories](SGA-6/web-book/I.html)
+### [I. Generalities on finiteness conditions in derived categories](SGA-6/I.html)
 
-0. [x] [Introduction](SGA-6/web-book/I.html#I.0)
-1. [ ] [Preliminary definitions](SGA-6/web-book/I.html#I.1)
+0. [x] [Introduction](SGA-6/I.html#I.0)
+1. [ ] [Preliminary definitions](SGA-6/I.html#I.1)
 
 ### II. Existence of global resolutions
 
