@@ -147,6 +147,7 @@
   7. [ ] Bibliography _(1)_
 
 </details>
+<br>
 
 
 ## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems
@@ -248,6 +249,7 @@
   6. [ ] Open questions _(5)_
 
 </details>
+<br>
 
 
 ## 3-1. Group schemes I: General properties of group schemes
@@ -346,6 +348,7 @@
   5. [ ] Homogeneous spaces of infinitesimal formal groups over a field _(13)_
 
 </details>
+<br>
 
 
 ## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes
@@ -469,6 +472,7 @@
   3. [ ] Construction of a group from a rational law _(15)_
 
 </details>
+<br>
 
 
 ## 3-3. Group schemes III: Structure of reductive group schemes
@@ -530,6 +534,7 @@
   ### XXVI Parabolic subgroups of reductive groups
 
 </details>
+<br>
 
 
 ## 4-1. Topos theory and étale cohomology of schemes I
@@ -547,6 +552,7 @@
   ### IV. Toposes
 
 </details>
+<br>
 
 
 ## 4-2. Topos theory and étale cohomology of schemes II
@@ -566,6 +572,7 @@
   ### VIII. Fibred functors, supports, cohomological study of finite morphisms
 
 </details>
+<br>
 
 
 ## 4-3. Topos theory and étale cohomology of schemes III
@@ -597,6 +604,7 @@
   ### XIX. Cohomology of excellent preschemes of equal characteristic
 
 </details>
+<br>
 
 
 ## 4½. Étale cohomology
@@ -624,6 +632,7 @@
   ### 8. Derived categories
 
 </details>
+<br>
 
 
 ## 5. $\ell$-adic cohomology and $L$-functions
@@ -663,6 +672,7 @@
   ### XIV. The Frobenius morphism, and rationality of $L$-functions
 
 </details>
+<br>
 
 
 ## [6. Intersection theory and the Riemann--Roch theorem](SGA-6/index.html)
@@ -705,6 +715,7 @@
   ### XIV. Open problems in intersection theory
 
 </details>
+<br>
 
 
 ## 7-1. Monodromy groups in algebraic geometry I
@@ -732,6 +743,7 @@
   ### IX. Néron models and monodromy
 
 </details>
+<br>
 
 
 ## 7-2. Monodromy groups in algebraic geometry II
@@ -767,3 +779,4 @@
   ### XXII. Congruence formula for the 𝜻-function
 
 </details>
+<br>
