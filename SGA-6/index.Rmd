@@ -1,5 +1,5 @@
 --- 
-title: "Intersection theory and the Riemann--Roch theorem (SGA 6)"
+title: "SGA 6: Intersection theory and the Riemann--Roch theorem"
 author: "P. Berthelot, A. Grothendieck, and L. Illusie"
 date: "1966--1967 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
 description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."

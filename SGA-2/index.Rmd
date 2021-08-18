@@ -1,5 +1,5 @@
 --- 
-title: "Local cohomology of coherent sheaves and local and global Lefschetz theorems (SGA 2)"
+title: "SGA 2: Local cohomology of coherent sheaves and local and global Lefschetz theorems"
 author: "A. Grothendieck and M. Raynaud"
 date: "1960--1962 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
 description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 2."
