@@ -33,7 +33,7 @@
 
   - [II. Smooth morphisms: generalities, differential properties](SGA-1/II.html) _(@thosgood)_
 
-  1. [ ] [Generalities](SGA-1/II.html#II.1) _(2)_
+  1. [x] [Generalities](SGA-1/II.html#II.1) _(2)_
   2. [ ] Some smoothness criteria for morphisms _(3)_
   3. [ ] Invariance properties _(1)_
   4. [ ] Differential properties of smooth morphisms _(17)_
