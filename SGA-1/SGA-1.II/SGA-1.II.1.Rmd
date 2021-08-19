@@ -79,7 +79,7 @@ iii. This follows formally from the fact that it is separately true for both "é
 :::
 
 ::: {.itenv #II.1.4 title="Corollary 1.4"}
-étale = quasi-finite + smooth.
+Étale = quasi-finite + smooth.
 :::
 
 ::: {.rmenv #II.1.5 title="Remark 1.5"}
