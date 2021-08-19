@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
 html {
   font-size: 85%;
   text-rendering: optimizeLegibility;
@@ -17,33 +19,12 @@ html {
   white-space: nowrap;
 }
 
-@font-face {
-  font-family: EBGaramond;
-  src: url(fonts/EBGaramond-Regular.ttf) format('truetype');
-}
-@font-face {
-  font-family: EBGaramond;
-  src: url(fonts/EBGaramond-Bold.ttf) format('truetype');
-  font-weight: bold;
-}
-@font-face {
-  font-family: EBGaramond;
-  src: url(fonts/EBGaramond-Italic.ttf) format('truetype');
-  font-style: italic;
-}
-@font-face {
-  font-family: EBGaramond;
-  src: url(fonts/EBGaramond-BoldItalic.ttf) format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-
 .book.font-family-0 {
-  font-family: EBGaramond, Georgia, serif;
+  font-family: 'EB Garamond', Georgia, serif;
 }
 
 .book.font-family-1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .page-wrapper p {
@@ -86,6 +67,10 @@ html {
 .page-inner h4,
 .page-inner h5 {
   font-kerning: none;
+}
+
+.page-inner .katex {
+  font-size: 1em;
 }
 
 
@@ -151,10 +136,10 @@ a.anchor {
 
 .hasAnchor:hover a.anchor,
 a.anchor:hover {
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
-@media (max-width: 1144px) { /* don't show anchor link on small screens */
+@media (max-width: 800px) { /* don't show anchor link on small screens */
   .hasAnchor:hover a.anchor {
     visibility: hidden;
   }
