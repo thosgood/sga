@@ -41,7 +41,7 @@ We have restricted ourselves to adding some footnotes to the original text, corr
 \oldpage{viii}
 
 Exposés [I](#I) to [IV](#IV) present the local notions of _étale_ and _smooth_ morphisms;
-they hardly ever use the language of schemes, as detailed in Chapter I of the _Élements_.^[A more complete study is now available in the _Élements_, Chapter IV, §§17 and 18]
+they hardly ever use the language of schemes, as detailed in Chapter I of the _Élements_.^[A more complete study is now available in EGA IV 17,18.]
 [Exp. V](#V) presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case, where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of the usual Galois theory.
 Exposés [VI](#VI) and [VIII](#VIII) present the _theory of descent_, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
 We note that Exp. VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente", _Bull. Soc. Math. France_ **2** (1964), viii + 150 p.).
