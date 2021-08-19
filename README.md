@@ -1,12 +1,3 @@
-# to-do
-
-- fix view links
-  + (they either work for just the index file, or just for chapter files...)
-- turn back on numbering, and turn the "I" numbered sections into parts?
-  + would need to make sure that section numbering would reset when we move to the next "II"
-- pdf output
-
-
 # Séminaire de Géométrie Algébrique du Bois Marie
 
 ## [1. Étale covers and the fundamental group](SGA-1/index.html)
