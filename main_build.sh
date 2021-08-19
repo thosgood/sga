@@ -7,10 +7,11 @@ cp README.md build/index.md
 cp _config.yml build/
 cp -R assets build/
 
-cp _output.yml SGA-1/
-cp _output.yml SGA-2/
-cp _output.yml SGA-6/
-
-cd SGA-1 && ./build.R && mv build ../build/SGA-1 && cd -
-cd SGA-2 && ./build.R && mv build ../build/SGA-2 && cd -
-cd SGA-6 && ./build.R && mv build ../build/SGA-6 && cd -
+for num in 1 2 6
+do
+  cp {_output.yml,assets/scripts.html,assets/style.css} SGA-$num/ &&
+  cd SGA-$num &&
+  ./build.R &&
+  mv build ../build/SGA-$num &&
+  cd -
+done

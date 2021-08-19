@@ -3,9 +3,9 @@ bookdown::gitbook:
   pandoc_args: ["--gladtex"]
   number_sections: false
   anchor_sections: false
-  css: ["https://thosgood.com/sga/assets/style.css", "https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"]
+  css: ["style.css", "https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"]
   includes:
-    after_body: ["https://thosgood.com/sga/assets/scripts.html"]
+    after_body: ["scripts.html"]
   split_by: chapter
   config:
     toc:
