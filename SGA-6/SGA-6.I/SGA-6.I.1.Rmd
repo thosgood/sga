@@ -10,5 +10,5 @@ We say that $\cal{C}$ is an _abelian_ $\cal{S}$-category if $\cal{C}$ is an addi
 
 ::: {.rmenv #I.1.1.2 title="1.1.2"}
 Let $\cal{C}$ be a triangulated $\cal{S}$-category.
-We define, using a cleavage of $\cal{C}$ ([SGA 1 VI 7.1]((../SGA-1/VI.html#VI.7.1))), for example, a fibred $\cal{S}$ category $\operatorname{Tr}(\cal{C})$ whose fibre at each $X\in\ob(\cal{S})$ is the category $\operatorname{Tr}(\cal{C}_X)$ of distinguished triangles of $\cal{C}_X$.
+We define, using a cleavage of $\cal{C}$ ([SGA 1 VI 7.1](../SGA-1/VI.html#VI.7.1)), for example, a fibred $\cal{S}$ category $\operatorname{Tr}(\cal{C})$ whose fibre at each $X\in\ob(\cal{S})$ is the category $\operatorname{Tr}(\cal{C}_X)$ of distinguished triangles of $\cal{C}_X$.
 :::
