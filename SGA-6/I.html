@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>I. Generalities on finiteness conditions in derived categories | SGA 6: Intersection theory and the Riemann–Roch theorem</title>
   <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 6." />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="I. Generalities on finiteness conditions in derived categories | SGA 6: Intersection theory and the Riemann–Roch theorem" />
   <meta property="og:type" content="book" />
@@ -33,6 +33,7 @@
 <link rel="prev" href="zero.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -40,7 +41,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -191,7 +191,7 @@ We say that <eq env="math">{\mathcal{C}}</eq> is an <em>abelian</em> <eq env="ma
 </div>
 <div id="I.1.1.2" class="rmenv" title="1.1.2">
 <p>Let <eq env="math">{\mathcal{C}}</eq> be a triangulated <eq env="math">{\mathcal{S}}</eq>-category.
-We define, using a cleavage of <eq env="math">{\mathcal{C}}</eq> (<a href="(../SGA-1/VI.html#VI.7.1)">SGA 1 VI 7.1</a>), for example, a fibred <eq env="math">{\mathcal{S}}</eq> category <eq env="math">\operatorname{Tr}({\mathcal{C}})</eq> whose fibre at each <eq env="math">X\in\operatorname{ob}({\mathcal{S}})</eq> is the category <eq env="math">\operatorname{Tr}({\mathcal{C}}_X)</eq> of distinguished triangles of <eq env="math">{\mathcal{C}}_X</eq>.</p>
+We define, using a cleavage of <eq env="math">{\mathcal{C}}</eq> (<a href="../SGA-1/VI.html#VI.7.1">SGA 1 VI 7.1</a>), for example, a fibred <eq env="math">{\mathcal{S}}</eq> category <eq env="math">\operatorname{Tr}({\mathcal{C}})</eq> whose fibre at each <eq env="math">X\in\operatorname{ob}({\mathcal{S}})</eq> is the category <eq env="math">\operatorname{Tr}({\mathcal{C}}_X)</eq> of distinguished triangles of <eq env="math">{\mathcal{C}}_X</eq>.</p>
 </div>
 
 </div>
@@ -248,7 +248,6 @@ We define, using a cleavage of <eq env="math">{\mathcal{C}}</eq> (<a href="(../S
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -289,7 +288,7 @@ gitbook.start({
 },
 "download": {},
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
