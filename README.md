@@ -1,39 +1,40 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## [1. Étale covers and the fundamental group](SGA-1/index.html)
+## [1. Étale covers and the fundamental group](https://thosgood.com/sga/SGA-1/index.html)
+
+- [ ] [Introduction](https://thosgood.com/sga/SGA-1/index.html) *(@thosgood)*
 
 <details>
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/I.html">I. Étale morphisms</a> <i>(@thosgood)</i>
   </summary>
   
-  1. [x] [Basics of differential calculus](SGA-1/I.html#I.1)
-  2. [x] [Quasi-finite morphisms](SGA-1/I.html#I.2)
-  3. [x] [Unramified morphisms](SGA-1/I.html#I.3)
-  4. [x] [Étale morphisms. Étale coverings](SGA-1/I.html#I.4)
-  5. [x] [Fundamental property of étale morphisms](SGA-1/I.html#I.5)
-  6. [x] [Application to étale extensions of complete local rings](SGA-1/I.html#I.6)
-  7. [x] [Local construction of unramified and étale morphisms](SGA-1/I.html#I.7)
-  8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](SGA-1/I.html#I.8)
-  9. [x] [Invariance properties](SGA-1/I.html#I.9)
-  10. [x] [Étale coverings of a normal scheme](SGA-1/I.html#I.10)
-  11. [x] [Various addenda](SGA-1/I.html#I.11)
+  1. [x] [Basics of differential calculus](https://thosgood.com/sga/SGA-1/I.html#I.1)
+  2. [x] [Quasi-finite morphisms](https://thosgood.com/sga/SGA-1/I.html#I.2)
+  3. [x] [Unramified morphisms](https://thosgood.com/sga/SGA-1/I.html#I.3)
+  4. [x] [Étale morphisms. Étale coverings](https://thosgood.com/sga/SGA-1/I.html#I.4)
+  5. [x] [Fundamental property of étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.5)
+  6. [x] [Application to étale extensions of complete local rings](https://thosgood.com/sga/SGA-1/I.html#I.6)
+  7. [x] [Local construction of unramified and étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.7)
+  8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](https://thosgood.com/sga/SGA-1/I.html#I.8)
+  9. [x] [Invariance properties](https://thosgood.com/sga/SGA-1/I.html#I.9)
+  10. [x] [Étale coverings of a normal scheme](https://thosgood.com/sga/SGA-1/I.html#I.10)
+  11. [x] [Various addenda](https://thosgood.com/sga/SGA-1/I.html#I.11)
 </details>
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/II.html">II. Smooth morphisms: generalities, differential properties</a> <i>(@thosgood)</i>
   </summary>
 
-  - [ ] [Introduction](SGA-1/index.html) *(@thosgood)*
-
-  - [II. Smooth morphisms: generalities, differential properties](SGA-1/II.html) *(@thosgood)*
-
-  1. [x] [Generalities](SGA-1/II.html#II.1) *(2)*
+  1. [x] [Generalities](https://thosgood.com/sga/SGA-1/II.html#II.1) *(2)*
   2. [ ] Some smoothness criteria for morphisms *(3)*
   3. [ ] Invariance properties *(1)*
   4. [ ] Differential properties of smooth morphisms *(17)*
   5. [ ] The case of a base field *(6)*
+</details>
 
-  - III. Smooth morphisms: extension properties
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/III.html">III. Smooth morphisms: extension properties</a> <i>(@thosgood)</i>
+  </summary>
 
   1. [ ] Formally smooth homomorphisms *(4)*
   2. [ ] Characteristic lifting property of formally smooth homomorphisms *(5)*
@@ -42,8 +43,11 @@
   5. [ ] Global infinitesimal extension of morphisms *(7)*
   6. [ ] Global infinitesimal extension of smooth `S`-schemes *(5)*
   7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring `A` *(5)*
+</details>
 
-  - IV. Flat morphisms
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/IV.html">IV. Flat morphisms</a> <i>(@thosgood)</i>
+  </summary>
 
   1. [ ] Syllogisms on flat modules *(3)*
   2. [ ] Faithfully flat modules *(3)*
@@ -51,6 +55,52 @@
   4. [ ] Relations to free modules *(2)*
   5. [ ] Local flatness criteria *(5)*
   6. [ ] Flat morphisms and open sets *(5)*
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/V.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/VI.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/VIII.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/IX.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/X.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XI.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XII.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XIII.html"></a> <i>(@thosgood)</i>
+  </summary>
+</details>
 
   - V. The fundamental group: generalities
 
@@ -142,21 +192,20 @@
   6. [ ] Appendix II: Finiteness theorem for direct images of stacks *(4)*
   7. [ ] Bibliography *(1)*
 
-</details>
 <br>
 
 
-## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](SGA-2/index.html)
+## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/SGA-2/index.html)
 
 <details>
   <summary markdown="span">Table of contents
   </summary>
 
-  - [Introduction](SGA-2/index.html)
+  - [Introduction](https://thosgood.com/sga/SGA-2/index.html)
 
-  - [I. Global and local cohomological invariants with respect to a closed subspace](SGA-2/)
+  - [I. Global and local cohomological invariants with respect to a closed subspace](https://thosgood.com/sga/SGA-2/)
 
-  1. [ ] [The functors `\Gamma_Z` and `\underline{\Gamma}_Z`](SGA-2/I.html#I.1) *(7)*
+  1. [ ] [The functors `\Gamma_Z` and `\underline{\Gamma}_Z`](https://thosgood.com/sga/SGA-2/I.html#I.1) *(7)*
   2. [ ] The functors `H_Z^\bullet(X,F)` and `\underline{H}_Z^\bullet(X,F)` *(6)*
 
   - II. Applications to quasi-coherent sheaves on preschemes
@@ -669,18 +718,18 @@
 <br>
 
 
-## [6. Intersection theory and the Riemann--Roch theorem](SGA-6/index.html)
+## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/index.html)
 
 <details>
   <summary markdown="span">Table of contents
   </summary>
 
-  - [0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem](SGA-6/zero.html)
+  - [0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/zero.html)
 
-  - [I. Generalities on finiteness conditions in derived categories](SGA-6/I.html)
+  - [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/SGA-6/I.html)
 
-  0. [x] [Introduction](SGA-6/I.html#I.0)
-  1. [ ] [Preliminary definitions](SGA-6/I.html#I.1)
+  0. [x] [Introduction](https://thosgood.com/sga/SGA-6/I.html#I.0)
+  1. [ ] [Preliminary definitions](https://thosgood.com/sga/SGA-6/I.html#I.1)
 
   - II. Existence of global resolutions
 
