@@ -566,243 +566,451 @@
 ## 4-1. Topos theory and étale cohomology of schemes I
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">I. Presheaves
   </summary>
-
-  - I. Presheaves
-
-  - II. Topologies and sheaves
-
-  - III. Functoriality of categories of sheaves
-
-  - IV. Toposes
-
 </details>
+
+<details>
+  <summary markdown="span">II. Topologies and sheaves
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">III. Functoriality of categories of sheaves
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IV. Toposes
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 4-2. Topos theory and étale cohomology of schemes II
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">V. Cohomology in toposes
   </summary>
-
-  - V. Cohomology in toposes
-
-  - Vb. Techniques for cohomological descent
-
-  - VI. Finiteness conditions. Fibred toposes and sites. Applications to questions of passing to the limit
-
-  - VII. Étale site and topos of a scheme
-
-  - VIII. Fibred functors, supports, cohomological study of finite morphisms
-
 </details>
+
+<details>
+  <summary markdown="span">Vb. Techniques for cohomological descent
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VI. Finiteness conditions. Fibred toposes and sites. Applications to questions of passing to the limit
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VII. Étale site and topos of a scheme
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VIII. Fibred functors, supports, cohomological study of finite morphisms
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 4-3. Topos theory and étale cohomology of schemes III
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">IX. Constructible sheaves. Cohomology of an algebraic curve
   </summary>
-
-  - IX. Constructible sheaves. Cohomology of an algebraic curve
-
-  - X. Cohomological dimension: first results
-
-  - XI. Comparison with classical cohomology: the case of a smooth prescheme
-
-  - XII. Base change theorem for a proper morphism
-
-  - XIII. Base change theorem for a proper morphism: end of proof
-
-  - XIV. Finiteness theorem for a proper morphism; cohomological dimension of affine algebraic schemes
-
-  - XV. Acyclic morphisms
-
-  - XVI. Base change theorem for a smooth morphism, and applications
-
-  - XVII. Cohomology with proper support
-
-  - XVIII. The global duality formula
-
-  - XIX. Cohomology of excellent preschemes of equal characteristic
-
 </details>
+
+<details>
+  <summary markdown="span">X. Cohomological dimension: first results
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XI. Comparison with classical cohomology: the case of a smooth prescheme
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XII. Base change theorem for a proper morphism
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIII. Base change theorem for a proper morphism: end of proof
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIV. Finiteness theorem for a proper morphism; cohomological dimension of affine algebraic schemes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XV. Acyclic morphisms
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVI. Base change theorem for a smooth morphism, and applications
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVII. Cohomology with proper support
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVIII. The global duality formula
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIX. Cohomology of excellent preschemes of equal characteristic
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 4½. Étale cohomology
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
   </summary>
-
-  - 0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
-
-  - 1. Étale cohomology: starting points
-
-  - 2. Relation to the trace formula
-
-  - 3. `L`-functions modulo `\ell^n` and modulo `p`
-
-  - 4. Cohomology class associated to a cycle
-
-  - 5. Duality
-
-  - 6. Applications of the trace formula to trigonometric sums
-
-  - 7. Finiteness theorems in `\ell`-adic cohomology
-
-  - 8. Derived categories
-
 </details>
+
+<details>
+  <summary markdown="span">1. Étale cohomology: starting points
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">2. Relation to the trace formula
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">3. `L`-functions modulo `\ell^n` and modulo `p`
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">4. Cohomology class associated to a cycle
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">5. Duality
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">6. Applications of the trace formula to trigonometric sums
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">7. Finiteness theorems in `\ell`-adic cohomology
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">8. Derived categories
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 5. `\ell`-adic cohomology and `L`-functions
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">I. Dualising complexes
   </summary>
-
-  - I. Dualising complexes
-
-  - ~~II. (Does not exist)~~
-
-  - III. The Lefschetz formula
-
-  - IIIb. Calculations of local terms
-
-  - ~~IV. (Does not exist)~~
-
-  - V. `J`-adic projective systems
-
-  - VI. `\ell`-adic cohomology
-
-  - VII. Cohomology of some classical schemes; cohomological theory of Chern classes
-
-  - VIII. Groups of classes of abelian and triangulated categories, perfect complexes
-
-  - ~~IX. (Does not exist)~~
-
-  - X. The Euler--Poincaré formula in étale cohomology
-
-  - ~~XI. (Does not exist)~~
-
-  - XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
-
-  - ~~XIII. (Does not exist)~~
-
-  - XIV. The Frobenius morphism, and rationality of `L`-functions
-
 </details>
+
+<details>
+  <summary markdown="span">II. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">III. The Lefschetz formula
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IIIb. Calculations of local terms
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IV. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">V. `J`-adic projective systems
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VI. `\ell`-adic cohomology
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VII. Cohomology of some classical schemes; cohomological theory of Chern classes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VIII. Groups of classes of abelian and triangulated categories, perfect complexes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IX. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">X. The Euler--Poincaré formula in étale cohomology
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XI. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIII. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIV. The Frobenius morphism, and rationality of `L`-functions
+  </summary>
+</details>
+
+
 <br>
 
 
 ## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/index.html)
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/zero.html">0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem</a>
   </summary>
+</details>
 
-  - [0. Outline of a programme for an intersection theory / Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/zero.html)
-
-  - [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/SGA-6/I.html)
+<details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
+  </summary>
 
   0. [x] [Introduction](https://thosgood.com/sga/SGA-6/I.html#I.0)
   1. [ ] [Preliminary definitions](https://thosgood.com/sga/SGA-6/I.html#I.1)
-
-  - II. Existence of global resolutions
-
-  - III. Relative finiteness conditions
-
-  - IV. Grothendieck groups of ringed toposes
-
-  - V. Generalities on `\lambda`-rings
-
-  - VI. `K^\bullet` of a projective bundle: calculations and consequences
-
-  - VII. Regular immersions and calculation of `K^\bullet` of a blown-up scheme
-
-  - VIII. The Riemann--Roch theorem
-
-  - IX. Some calculations of `K` groups
-
-  - X. Formalism of intersections on proper algebraic schemes
-
-  - ~~XI. (Does not exist)~~
-
-  - XII. Relative representability theorem for the Picard functor
-
-  - XIII. Finiteness theorems for the Picard functor
-
-  - XIV. Open problems in intersection theory
-
 </details>
+
+<details>
+  <summary markdown="span">II. Existence of global resolutions
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">III. Relative finiteness conditions
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IV. Grothendieck groups of ringed toposes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">V. Generalities on `\lambda`-rings
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VI. `K^\bullet` of a projective bundle: calculations and consequences
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VII. Regular immersions and calculation of `K^\bullet` of a blown-up scheme
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VIII. The Riemann--Roch theorem
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IX. Some calculations of `K` groups
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">X. Formalism of intersections on proper algebraic schemes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XI. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XII. Relative representability theorem for the Picard functor
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIII. Finiteness theorems for the Picard functor
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIV. Open problems in intersection theory
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 7-1. Monodromy groups in algebraic geometry I
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">I. Summary of the first talks by A. Grothendieck
   </summary>
-
-  - I. Summary of the first talks by A. Grothendieck
-
-  - II. Finiteness properties of the fundamental group
-
-  - ~~III. (Does not exist)~~
-
-  - ~~IV. (Does not exist)~~
-
-  - ~~V. (Does not exist)~~
-
-  - VI. Formal deformation theory
-
-  - VII. Bi-extension of sheaves of groups
-
-  - VIII. Addenda on bi-extensions. General properties of bi-extensions of group schemes
-
-  - IX. Néron models and monodromy
-
 </details>
+
+<details>
+  <summary markdown="span">II. Finiteness properties of the fundamental group
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">III. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IV. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">V. <i>(Does not exist)</i>
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VI. Formal deformation theory
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VII. Bi-extension of sheaves of groups
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">VIII. Addenda on bi-extensions. General properties of bi-extensions of group schemes
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">IX. Néron models and monodromy
+  </summary>
+</details>
+
+
 <br>
 
 
 ## 7-2. Monodromy groups in algebraic geometry II
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">X. Intersections on regular surfaces
   </summary>
-
-  - X. Intersections on regular surfaces
-
-  - XI. Cohomology of complete intersections
-
-  - XII. Quadrics
-
-  - XIII. Formalism of vanishing cycles
-
-  - XIV. Comparison with transcendental theory
-
-  - XV. The Picard--Lefschetz formula
-
-  - XVI. The Milnor formula
-
-  - XVII. Lefschetz pencils: existence theorem
-
-  - XVIII. Cohomological study of Lefschetz pencils
-
-  - XIX. Noether's theorem
-
-  - XX Griffiths's theorem
-
-  - XXI. Level of cohomology of complete intersections
-
-  - XXII. Congruence formula for the 𝜻-function
-
 </details>
-<br>
+
+<details>
+  <summary markdown="span">XI. Cohomology of complete intersections
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XII. Quadrics
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIII. Formalism of vanishing cycles
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIV. Comparison with transcendental theory
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XV. The Picard--Lefschetz formula
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVI. The Milnor formula
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVII. Lefschetz pencils: existence theorem
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XVIII. Cohomological study of Lefschetz pencils
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XIX. Noether's theorem
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XX Griffiths's theorem
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XXI. Level of cohomology of complete intersections
+  </summary>
+</details>
+
+<details>
+  <summary markdown="span">XXII. Congruence formula for the 𝜻-function
+  </summary>
+</details>
