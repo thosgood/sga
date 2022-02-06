@@ -3,7 +3,7 @@
 ## [1. Étale covers and the fundamental group](SGA-1/index.html)
 
 <details>
-  <summary markdown="span"> [I. Étale morphisms](SGA-1/I.html) *(@thosgood)*
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/I.html">I. Étale morphisms</a> <i>(@thosgood)</i>
   </summary>
   
   1. [x] [Basics of differential calculus](SGA-1/I.html#I.1)
