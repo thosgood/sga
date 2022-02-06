@@ -7,7 +7,7 @@
 <details>
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/I.html">I. Étale morphisms</a> <i>(@thosgood)</i>
   </summary>
-  
+
   1. [x] [Basics of differential calculus](https://thosgood.com/sga/SGA-1/I.html#I.1)
   2. [x] [Quasi-finite morphisms](https://thosgood.com/sga/SGA-1/I.html#I.2)
   3. [x] [Unramified morphisms](https://thosgood.com/sga/SGA-1/I.html#I.3)
@@ -33,7 +33,7 @@
 </details>
 
 <details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/III.html">III. Smooth morphisms: extension properties</a> <i>(@thosgood)</i>
+  <summary markdown="span">III. Smooth morphisms: extension properties
   </summary>
 
   1. [ ] Formally smooth homomorphisms *(4)*
@@ -46,7 +46,7 @@
 </details>
 
 <details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/IV.html">IV. Flat morphisms</a> <i>(@thosgood)</i>
+  <summary markdown="span">IV. Flat morphisms
   </summary>
 
   1. [ ] Syllogisms on flat modules *(3)*
@@ -58,51 +58,8 @@
 </details>
 
 <details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/V.html"></a> <i>(@thosgood)</i>
+  <summary markdown="span">V. The fundamental group: generalities
   </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/VI.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/VIII.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/IX.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/X.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XI.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XII.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/XIII.html"></a> <i>(@thosgood)</i>
-  </summary>
-</details>
-
-  - V. The fundamental group: generalities
 
   0. [ ] Introduction *(1)*
   1. [ ] Preschemes with finite operator groups. Quotient preschemes *(5)*
@@ -114,8 +71,11 @@
   7. [ ] Case of preschemes *(3)*
   8. [ ] Case of a normal base prescheme *(1)*
   9. [ ] Case of non-connected preschemes: multi-Galois categories *(1)*
+</details>
 
-  - VI. Fibred categories and descent
+<details>
+  <summary markdown="span">VI. Fibred categories and descent
+  </summary>
 
   0. [ ] Introduction *(1)*
   1. [ ] Universes, categories, equivalence of categories *(2)*
@@ -131,10 +91,16 @@
   11. [ ] Various examples *(7)*
   12. [ ] Functors on a cloven category *(5)*
   13. [ ] Bibliography *(1)*
+</details>
 
-  - ~~VII. (Does not exist)~~
+<details>
+  <summary markdown="span">VII. <i>(Does not exist)</i>
+  </summary>
+</details>
 
-  - VIII. Faithfully flat descent
+<details>
+  <summary markdown="span">VIII. Faithfully flat descent
+  </summary>
 
   1. [ ] Descent for quasi-coherent modules *(7)*
   2. [ ] Descent for affine preschemes over one another *(1)*
@@ -144,8 +110,11 @@
   6. [ ] Applications to finite and quasi-finite morphisms *(3)*
   7. [ ] Effectiveness criteria for a descent data *(8)*
   8. [ ] Bibliography *(1)*
+</details>
 
-  - IX. Descent of étale morphisms. Applications to the fundamental group
+<details>
+  <summary markdown="span">IX. Descent of étale morphisms. Applications to the fundamental group
+  </summary>
 
   1. [ ] Reminders on étale morphisms *(3)*
   2. [ ] Submersive and universally submersive morphisms *(2)*
@@ -154,15 +123,21 @@
   5. [ ] Translation in terms of the fundamental group *(11)*
   6. [ ] A fundamental exact sequence. Descent by morphisms with relatively connected fibres *(7)*
   7. [ ] Bibliography *(1)*
+</details>
 
-  - X. Specialisation theory of the fundamental group
+<details>
+  <summary markdown="span">X. Specialisation theory of the fundamental group
+  </summary>
 
   1. [ ] Exact sequence of homotopy for a proper and separable morphism *(7)*
   2. [ ] Application to the existence theorem of sheaves: semi-continuity theorem for fundamental groups of fibres of a proper and separable morphism *(7)*
   3. [ ] Application to the purity theorem: continuity theorem for fundamental groups of fibres of a proper and simple morphism *(9)*
   4. [ ] Bibliography *(1)*
+</details>
 
-  - XI. Examples and addenda
+<details>
+  <summary markdown="span">XI. Examples and addenda
+  </summary>
 
   1. [ ] Projective spaces, unirational varieties *(1)*
   2. [ ] Abelian varieties *(4)*
@@ -171,8 +146,11 @@
   5. [ ] Particular cases of principal bundles *(3)*
   6. [ ] Applications to principal coverings: Kummer and Artinschreier theories *(8)*
   7. [ ] Bibliography *(1)*
+</details>
 
-  - XII. Algebraic geometry and analytic geometry
+<details>
+  <summary markdown="span">XII. Algebraic geometry and analytic geometry
+  </summary>
 
   1. [ ] Analytic space associated to a scheme *(4)*
   2. [ ] Comparison of properties of a scheme and the associated analytic space *(4)*
@@ -180,8 +158,11 @@
   4. [ ] Cohomological comparison theorems and existence theorems *(6)*
   5. [ ] Comparison theorems for étale coverings *(11)*
   6. [ ] Bibliography *(1)*
+</details>
 
-  - XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
+<details>
+  <summary markdown="span">XIII. Cohomological properties of sheaves of sets and of sheaves of non-commutative groups
+  </summary>
 
   0. [ ] Reminders on the theory of stacks *(1)*
   1. [ ] Cohomological properness *(3)*
@@ -191,6 +172,8 @@
   5. [ ] Appendix I: Variations on Abhyankar's lemma *(8)*
   6. [ ] Appendix II: Finiteness theorem for direct images of stacks *(4)*
   7. [ ] Bibliography *(1)*
+</details>
+
 
 <br>
 
