@@ -3,13 +3,9 @@
 ## [1. Étale covers and the fundamental group](SGA-1/index.html)
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span"> [I. Étale morphisms](SGA-1/I.html) *(@thosgood)*
   </summary>
-
-  - [ ] [Introduction](SGA-1/index.html) *(@thosgood)*
-
-  - [I. Étale morphisms](SGA-1/I.html) *(@thosgood)*
-
+  
   1. [x] [Basics of differential calculus](SGA-1/I.html#I.1)
   2. [x] [Quasi-finite morphisms](SGA-1/I.html#I.2)
   3. [x] [Unramified morphisms](SGA-1/I.html#I.3)
@@ -21,6 +17,13 @@
   9. [x] [Invariance properties](SGA-1/I.html#I.9)
   10. [x] [Étale coverings of a normal scheme](SGA-1/I.html#I.10)
   11. [x] [Various addenda](SGA-1/I.html#I.11)
+</details>
+
+<details>
+  <summary markdown="span">Table of contents
+  </summary>
+
+  - [ ] [Introduction](SGA-1/index.html) *(@thosgood)*
 
   - [II. Smooth morphisms: generalities, differential properties](SGA-1/II.html) *(@thosgood)*
 
