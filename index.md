@@ -38,11 +38,11 @@
 
   1. [ ] Formally smooth homomorphisms *(4)*
   2. [ ] Characteristic lifting property of formally smooth homomorphisms *(5)*
-  3. [ ] Local infinitesimal extension of morphisms in a smooth `S`-scheme *(2)*
-  4. [ ] Local infinitesimal extension of smooth `S`-schemes *(1)*
+  3. [ ] Local infinitesimal extension of morphisms in a smooth 𝑆-scheme *(2)*
+  4. [ ] Local infinitesimal extension of smooth 𝑆-schemes *(1)*
   5. [ ] Global infinitesimal extension of morphisms *(7)*
-  6. [ ] Global infinitesimal extension of smooth `S`-schemes *(5)*
-  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring `A` *(5)*
+  6. [ ] Global infinitesimal extension of smooth 𝑆-schemes *(5)*
+  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring 𝐴 *(5)*
 </details>
 
 <details>
@@ -80,13 +80,13 @@
   0. [ ] Introduction *(1)*
   1. [ ] Universes, categories, equivalence of categories *(2)*
   2. [ ] Categories over one another *(4)*
-  3. [ ] Base change for categories over `\mathscr{E}` *(6)*
-  4. [ ] Fibred categories. Equivalence of `\mathscr{E}`-categories *(3)*
+  3. [ ] Base change for categories over ℰ *(6)*
+  4. [ ] Fibred categories. Equivalence of ℰ-categories *(3)*
   5. [ ] Cartesian morphisms, inverse images, cartesian functors *(3)*
   6. [ ] Fibred categories and pre-fibred categories *(6)*
-  7. [ ] Cloven categories over `\mathscr{E}` *(5)*
-  8. [ ] Cloven category defined by a pseudofunctor `\mathscr{E}^\circ\to\mathsf{Cat}` *(4)*
-  9. [ ] Example: cloven category defined by a functor `\mathscr{E}^\circ\to\mathsf{Cat}`. Categories split over `\mathscr{E}` *(2)*
+  7. [ ] Cloven categories over ℰ *(5)*
+  8. [ ] Cloven category defined by a pseudofunctor ℰ°→𝖢𝖺𝗍 *(4)*
+  9. [ ] Example: cloven category defined by a functor ℰ°→𝖢𝖺𝗍. Categories split over ℰ *(2)*
   10. [ ] Co-fibred categories, bi-fibred categories *(1)*
   11. [ ] Various examples *(7)*
   12. [ ] Functors on a cloven category *(5)*
@@ -186,8 +186,8 @@
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-2/">I. Global and local cohomological invariants with respect to a closed subspace</a>
   </summary>
 
-  1. [ ] [The functors `\Gamma_Z` and `\underline{\Gamma}_Z`](https://thosgood.com/sga/SGA-2/I.html#I.1) *(7)*
-  2. [ ] The functors `H_Z^\bullet(X,F)` and `\underline{H}_Z^\bullet(X,F)` *(6)*
+  1. [ ] [The functors 𝛤𝑍 and <ins>𝛤𝑍</ins>](https://thosgood.com/sga/SGA-2/I.html#I.1) *(7)*
+  2. [ ] The functors 𝐻𝑍•(𝑋,𝐹) and <ins>𝐻𝑍•(𝑋,𝐹)</ins> *(6)*
 </details>
 
 <details>
@@ -212,18 +212,18 @@
 
   1. [ ] Generalities on functors of modules *(4)*
   2. [ ] Characterisation of exact functors *(1)*
-  3. [ ] Study of the case where `T` is left exact and `T(M)` is of finite type for all `M` *(3)*
+  3. [ ] Study of the case where 𝑇 is left exact and 𝑇(𝑀) is of finite type for all 𝑀 *(3)*
   4. [ ] Dualising module. Dualising functor *(5)*
   5. [ ] Consequences of the theory of dualising modules *(5)*
 </details>
 
 <details>
-  <summary markdown="span">V. Local duality and structure of the `H^i(M)`
+  <summary markdown="span">V. Local duality and structure of the 𝐻ⁱ(𝑀)
   </summary>
 
   1. [ ] Complexes of homomorphisms *(3)*
   2. [ ] The local duality theorem for a local regular ring *(1)*
-  3. [ ] Application to the structure of the `H^i(M)` *(7)*
+  3. [ ] Application to the structure of the 𝐻ⁱ(𝑀) *(7)*
 </details>
 
 <details>
@@ -238,8 +238,8 @@
   <summary markdown="span">VII. Nullity criteria. Coherence conditions for the sheaves `\underline{\operatorname{Ext}}(F,G)`
   </summary>
 
-  1. [ ] Study of `i<n` *(5)*
-  2. [ ] Study of `i>n` *(2)*
+  1. [ ] Study of 𝑖<𝑛 *(5)*
+  2. [ ] Study of 𝑖>𝑛 *(2)*
 </details>
 
 <details>
@@ -264,8 +264,8 @@
   </summary>
 
   1. [ ] Comparison of `\mathsf{Et}(\widehat{X})` with `\mathsf{Et}(Y)` *(1)*
-  2. [ ] Comparison of `\mathsf{Et}(Y)` with `\mathsf{Et}(U)`, for varying `U` *(5)*
-  3. [ ] Comparison of `\pi_1(X)` with `\pi_1(U)` *(7)*
+  2. [ ] Comparison of `\mathsf{Et}(Y)` with `\mathsf{Et}(U)`, for varying 𝑈 *(5)*
+  3. [ ] Comparison of 𝜋₁(𝑋) with 𝜋₁(𝑈) *(7)*
 </details>
 
 <details>
@@ -293,9 +293,9 @@
   </summary>
 
   1. [ ] Links between local and global results. Affine problems relating to duality *(4)*
-  2. [ ] Problems relating to `\pi_0`: local Bertini theorems *(5)*
-  3. [ ] Problems relating to `\pi_1` *(2)*
-  4. [ ] Problems relating to higher `\pi_i`: local and global Lefschetz theorems for complex analytic spaces *(6)*
+  2. [ ] Problems relating to 𝜋₀: local Bertini theorems *(5)*
+  3. [ ] Problems relating to 𝜋₁ *(2)*
+  4. [ ] Problems relating to higher 𝜋ᵢ: local and global Lefschetz theorems for complex analytic spaces *(6)*
   5. [ ] Problems relating to local Picard groups *(5)*
   6. [ ] Comments *(7)*
 </details>
@@ -371,8 +371,8 @@
   - VIa. Generalities on algebraic groups
 
   0. [ ] Preliminary remarks *(4)*
-  1. [ ] Local properties of an `A`-group of locally finite type *(4)*
-  2. [ ] Connected components of an `A`-group of locally finite type *(5)*
+  1. [ ] Local properties of an 𝐴-group of locally finite type *(4)*
+  2. [ ] Connected components of an 𝐴-group of locally finite type *(5)*
   3. [ ] Construction of quotient groups: case of groups of finite type *(6)*
   4. [ ] Construction of quotient groups: general case *(6)*
   5. [ ] Addenda *(5)*
@@ -391,15 +391,15 @@
   10. [ ] Passage to the projective limit for group preschemes and operator group preschemes *(11)*
   11. [ ] Affine group preschemes *(16)*
 
-  - VIIa. Infinitesimal study of group schemes: differential operators and Lie `p`-algebras
+  - VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
 
   1. [ ] Differential operators *(5)*
   2. [ ] Invariant differential operators on group preschemes *(7)*
   3. [ ] Coalgebras and Cartier duality *(10)*
   4. [ ] "Frobeniuseries" *(11)*
-  5. [ ] Lie `p`-algebras *(9)*
-  6. [ ] Lie `p`-algebras of a group `S`-prescheme *(7)*
-  7. [ ] Radicial groups of height `1` *(8)*
+  5. [ ] Lie 𝑝-algebras *(9)*
+  6. [ ] Lie 𝑝-algebras of a group 𝑆-prescheme *(7)*
+  7. [ ] Radicial groups of height 1 *(8)*
   8. [ ] Case of a base field *(6)*
 
   - VIIb. Infinitesimal study of group schemes: formal groups
@@ -407,8 +407,8 @@
   0. [ ] Reminders on pseudocompact rings and modules *(15)*
   1. [ ] Formal varieties over a pseudocompact ring *(20)*
   2. [ ] Generalities on formal groups *(19)*
-  3. [ ] Phenomena particular to characteristic `0` *(10)*
-  4. [ ] Phenomena particular to characteristic `p>0` *(10)*
+  3. [ ] Phenomena particular to characteristic 0 *(10)*
+  4. [ ] Phenomena particular to characteristic 𝑝>0 *(10)*
   5. [ ] Homogeneous spaces of infinitesimal formal groups over a field *(13)*
 
 </details>
@@ -423,7 +423,7 @@
 
   1. [ ] Biduality *(5)*
   2. [ ] Scheme-theoretic properties of diagonalisable groups *(1)*
-  3. [ ] Exactness properties of the functor `D_S` *(4)*
+  3. [ ] Exactness properties of the functor 𝐷ₛ *(4)*
   4. [ ] Torsors under a diagonalisable group *(4)*
   5. [ ] Quotient of an affine scheme by a diagonalisable group acting freely *(5)*
   6. [ ] Essentially free morphisms, and representability of certain functors of the form `\prod_{Y/S}Z/Y` *(5)*
@@ -490,7 +490,7 @@
   </summary>
 
   1. [ ] An auxiliary lemma on varieties with operators *(4)*
-  2. [ ] Density theorem and the theory of regular points of `G` *(16)*
+  2. [ ] Density theorem and the theory of regular points of 𝐺 *(16)*
   3. [ ] Case of a prescheme over an arbitrary base *(7)*
   4. [ ] Lie algebras over a field: rank, regular elements, Cartan sub-algebras *(7)*
   5. [ ] Case of the Lie algebra of a smooth algebraic group: density theorem *(8)*
@@ -518,7 +518,7 @@
   1. [ ] Lifting finite subgroups *(7)*
   2. [ ] Infinitesimal lifting of sub-toruses *(17)*
   3. [ ] Characterisation of a sub-torus by its underlying set *(24)*
-  4. [ ] Characterisation of a sub-torus `T` by the subgroups `_{n}T` *(11)*
+  4. [ ] Characterisation of a sub-torus 𝑇 by the subgroups ₙ𝑇 *(11)*
   5. [ ] Representability of the functor: smooth subgroups identical to their connected normaliser *(13)*
   6. [ ] Functor of Cartan subgroups and functor of parabolic subgroups *(13)*
   7. [ ] Cartan subgroups of a smooth group *(14)*
@@ -586,7 +586,7 @@
   <summary markdown="span">XX. Reductive groups of semi-simple rank 1
   </summary>
 
-  1. [ ] Elementary systems. The groups `P_r` and `P_{-r}` *(12)*
+  1. [ ] Elementary systems. The groups 𝑃ᵣ and 𝑃₋ᵣ *(12)*
   2. [ ] Structure of elementary systems *(13)*
   3. [ ] The Weyl group *(11)*
   4. [ ] The isomorphism theorem *(2)*
@@ -601,7 +601,7 @@
   1. [ ] Generalities *(7)*
   2. [ ] Relations between two roots *(5)*
   3. [ ] Simple roots, positive roots *(20)*
-  4. [ ] Reduced raditical data of semi-simple rank `2` *(4)*
+  4. [ ] Reduced raditical data of semi-simple rank 2 *(4)*
   5. [ ] The Weyl group: generators and relations *(6)*
   6. [ ] Morphisms of radicial data *(17)*
   7. [ ] Structure *(12)*
@@ -625,7 +625,7 @@
 
   1. [ ] Pinnings *(8)*
   2. [ ] Generators and relations for a pinned group *(14)*
-  3. [ ] Groups of semi-simple rank `2` *(20)*
+  3. [ ] Groups of semi-simple rank 2 *(20)*
   4. [ ] Uniqueness of pinned groups: fundamental theorem *(8)*
   5. [ ] Corollaries of the fundamental theorem *(5)*
   6. [ ] Chevalley systems *(5)*
@@ -786,7 +786,7 @@
 </details>
 
 <details>
-  <summary markdown="span">3. `L`-functions modulo `\ell^n` and modulo `p`
+  <summary markdown="span">3. 𝐿-functions modulo ℓⁿ and modulo 𝑝
   </summary>
 </details>
 
@@ -806,7 +806,7 @@
 </details>
 
 <details>
-  <summary markdown="span">7. Finiteness theorems in `\ell`-adic cohomology
+  <summary markdown="span">7. Finiteness theorems in ℓ-adic cohomology
   </summary>
 </details>
 
@@ -819,7 +819,7 @@
 <br>
 
 
-## 5. `\ell`-adic cohomology and `L`-functions
+## 5. ℓ-adic cohomology and 𝐿-functions
 
 <details>
   <summary markdown="span">I. Dualising complexes
@@ -847,12 +847,12 @@
 </details>
 
 <details>
-  <summary markdown="span">V. `J`-adic projective systems
+  <summary markdown="span">V. 𝐽-adic projective systems
   </summary>
 </details>
 
 <details>
-  <summary markdown="span">VI. `\ell`-adic cohomology
+  <summary markdown="span">VI. ℓ-adic cohomology
   </summary>
 </details>
 
@@ -892,7 +892,7 @@
 </details>
 
 <details>
-  <summary markdown="span">XIV. The Frobenius morphism, and rationality of `L`-functions
+  <summary markdown="span">XIV. The Frobenius morphism, and rationality of 𝐿-functions
   </summary>
 </details>
 
@@ -931,17 +931,17 @@
 </details>
 
 <details>
-  <summary markdown="span">V. Generalities on `\lambda`-rings
+  <summary markdown="span">V. Generalities on λ-rings
   </summary>
 </details>
 
 <details>
-  <summary markdown="span">VI. `K^\bullet` of a projective bundle: calculations and consequences
+  <summary markdown="span">VI. 𝐾• of a projective bundle: calculations and consequences
   </summary>
 </details>
 
 <details>
-  <summary markdown="span">VII. Regular immersions and calculation of `K^\bullet` of a blown-up scheme
+  <summary markdown="span">VII. Regular immersions and calculation of 𝐾• of a blown-up scheme
   </summary>
 </details>
 
@@ -951,7 +951,7 @@
 </details>
 
 <details>
-  <summary markdown="span">IX. Some calculations of `K` groups
+  <summary markdown="span">IX. Some calculations of 𝐾 groups
   </summary>
 </details>
 
