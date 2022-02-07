@@ -29,7 +29,7 @@ In the first section of this introduction, we give some details about the conten
 \oldpage{vii}
 in the second, about the entirety of the "*Séminaire de Géométrie Algébrique du Bois-Marie*", of which the present volume constitutes the first tome.
 
-## 1.
+## 1. {#introduction.1}
 
 The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
 This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the *Éléments de Géométrie Algébrique* by J. Dieudonné and A. Grothendieck (cited as "EGA").
@@ -44,14 +44,14 @@ Exposés [I](#I) to [IV](#IV) present the local notions of *étale* and *smooth*
 they hardly ever use the language of schemes, as detailed in Chapter I of the *Élements*.^[A more complete study is now available in EGA IV 17,18.]
 [Exposé V](#V) presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case, where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of the usual Galois theory.
 Exposés [VI](#VI) and [VIII](#VIII) present the *theory of descent*, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
-We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente", *Bull. Soc. Math. France* **2** (1964), viii + 150 p.).
+We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente". *Bull. Soc. Math. France* **2** (1964), viii + 150 p.).
 In [Exposé IX](#IX), we study more specifically the theory of descent by étale morphisms, obtaining a systematic approach for Van Kampen type theorems for the fundamental group, which appear here as simple translations of theorems of descent.
 It essentially deals with a calculation of the fundamental group of a connected scheme $X$ endowed with a surjective and proper morphism (say, $X'\to X$) in terms of the fundamental groups of the connected components of $X'$ and of the fibre products $X'\times_X X'$, $X'\times_X X'\times_X X'$, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
 [Exposé X](#X) gives the theory of *specialisation of the fundamental group* for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic $p>0$, thanks to the known result obtained by transcendental methods in characteristic zero.
 [Exposé XI](#XI) gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
 For other commentaries on the text, see the [*Foreword*](#foreword), found after this introduction.
 
-Since the editing of the seminar in 1961, the language of *étale topology*, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
+Since the writing of the seminar in 1961, the language of *étale topology*, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
 it is detailed in SGA 4 ("Cohomologie étale des schémes") of the *Séminaire de Géométrie Algébrique*, which will appear in the same series as the present volume.
 This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
 There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in *loc. cit.*).
@@ -62,10 +62,10 @@ We also note the necessity of developing a theory of the fundamental group of a 
 While we wait for such a rewriting of the whole theory, [Exposé XIII](#XIII), by Mme Raynaud, using the language and results of SGA 4, aims to show the part that we can extract in some typical questions, most notably generalising certain results of [Exposé X](#XIII) to non-proper relative schemes.
 There we give, in particular, the structure of the "prime at $p$" fundamental group of a non-complete algebraic curve in arbitrary characteristic (which I announced in 1959, but for which a proof had not been published up until now).
 
-Despite these numerous gaps and imperfections (as others would say: because of these gaps and imperfections), I think that the present volume could be useful for the reader who wishes to familiarise themselves with the theory of the fundamental group, as well as a work of reference, as we await the editing and appearance of a text that avoids the criticisms that I have just listed.
+Despite these numerous gaps and imperfections (as others would say: because of these gaps and imperfections), I think that the present volume could be useful for the reader who wishes to familiarise themselves with the theory of the fundamental group, as well as a work of reference, as we await the writing and appearance of a text that avoids the criticisms that I have just listed.
 
 
-## 2.
+## 2. {#introduction.2}
 
 The present volume constitutes the tome 1 of the "*Séminaire de Géométrie Algébrique du Bois-Marie*", whose following volumes are intended to appear in the same series as this one.
 The aim of the *Séminaire*, parallel to the "*Éléments de Géométrie Algébrique*" by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
@@ -90,7 +90,7 @@ Here is the list of the volumes of the *Séminaire* that should appear (cited as
 - SGA 7. Local monodromy groups in algebraic geometry.
 
 Three of these partial *Séminaires* have been written in *collaboration* with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
-As for the other active participants of the *Séminaire*, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as editor, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
+As for the other active participants of the *Séminaire*, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
 
 
 It is useful to give some precise remarks concerning the relation between the *Séminaire* and the *Éléments*.
@@ -98,7 +98,7 @@ The latter was intended, in principle, to give an exposé of a set of ideas and 
 From this point of view, it was natural to consider the *Séminaire* as a preliminary version of the *Éléments*, destined to be included almost entirely, sooner or later, in the latter.
 This process had already somewhat started a few years ago, since exposés [I](#I) to [IV](#IV) of the current volume (SGA 1) are entirely covered by EGA IV, and exposés [VI](#VI) to [VIII](#VIII) should be, in some years, in EGA VI.
 However, given how the work in constructing the *Éléments* and the *Séminaire* is developing, and as the proportions of the two become more precise, the initial principle (that the *Séminaire* should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
-Taking into account the care that is generally given to the editing of the various parts of the *Séminaire*, there will doubtless be no need to go back over them in the Éléments (or other treaties that would take over from it) until further progress in the editing process would allow us to make very substantial improvements, at the cost of rather big changes.
+Taking into account the care that is generally given to the writing of the various parts of the *Séminaire*, there will doubtless be no need to go back over them in the Éléments (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
 \oldpage{xi}
 This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mmm. Raynaud).
 However, nothing currently indicates that this will also be the case in the near future for any of the other parts mentioned above (SGA 3 to SGA 7).
@@ -123,15 +123,34 @@ Today they acquire a new force and dimension, given the danger of destruction of
 I have explained my thoughts on these problems, which are much more important than the advancement of any of the sciences (mathematics included), in more detail in other places;
 the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal *Survivre* (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
 \oldpage{xii}
+So I found myself working for three years at an institution even though it was, unbeknownst to me, participating in a finance model that I consider immoral and dangerous.^[It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.]
+Being currently the only person to have this opinion amongst my colleagues at the IHES, which has condemned my efforts to suppress military subventions from the IHES budget to fail, I have taken the necessary decision to leave the IHES on the 30th of September, 1970, and to equally suspend all scientific collaboration with this institute, for as long as it continues to accept such subventions.
+I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the *Séminaire de Géométrie Algébrique du Bois Marie*.
+As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the *Lecture Notes* series.
+I am happy to thank here Springer and Mr. K. Peters for the efficient and polite help that they have given me in making this publication possible, in particular for dealing with the typing of the photo-offset of new exposés added to old seminars, and of exposés missing incomplete seminars.
 
-**TO-DO**
+I equally thank Mr. J.P. Delale, who had the thankless job of compiling the index of notation and the index of terminology.
+
+*Massy, August 1970.*
 
 
 # Foreword {#foreword}
 
+\oldpage{xiii}
 Each of these written exposés covers the material of multiple consecutive oral exposés.
 It did not seem useful to make a note of the dates.
 
-Exposé VII, which is referenced at various points throughout [Exposé VIII](#VIII), has not been
+Exposé VII, which is referenced at various points throughout [Exposé VIII](#VIII), has not been written by the speaker, who, in the oral conferences, was limited to outlining the language of descent in general categories, by working from a strictly utilitarian point of view and not entering into the logical difficulties that often arise due to this language.
+It seemed that a proper exposé of this language would go beyond the limits of these current notes, even if only due to length.
+For a proper exposé of the theory of descent, I refer the reader to an article in preparation by Jean Giraud.
+Whilst waiting for its appearance^[It is now published: J. Giraud, "Méthode de la Descente". *Bull. Soc. Math. France* **2** (1964), viii + 150 p.], I think that an attentive reader will have no problems in supplementing, by their own means, the phantom references in [Exposé VIII](#VIII).
+
+Other oral exposés, found after [Exposé XI](#XI), and to which there are references in certain places of the text, have also not been written down, and were meant to form the substance of an Exposé XII and an Exposé XIII.
+The first of these oral exposés covered, in the framework of schemes and analytic spaces with nilpotent elements (as introduced in the *Séminaire Cartan 1960/61*), the construction of the analytic space associated to a prescheme of locally finite type over a complete valuation field $k$, GAGA-type theorems in the case where $k$ is the field of complex numbers, and the application to the comparison of the fundamental group defined by transcendental methods and the fundamental group studied in these notes (cf. A. Grothendieck, "Fondements de la Géométrie Algébrique". *Séminaire Bourbaki* **190** (December 1959), page 10).
+The latter oral exposés outlined the generalised of methods developed in the text for the study of coverings that admit moderate ramification, and of the structure of the fundamental group of a complete curve minus a finite number of points (cf. *loc. cit.* **182**, page 27, théorème 14).
+\oldpage{xiv}
+These exposés do not introduce any essentially new ideas, which is why it did not seem necessary to write them up properly before the appearance of the corresponding chapters of *Éléments de Géométrie Algébrique*.^[They are included in the present volume in [Exposé XII](#XII) by Mme Raynaud with a different proof from the original given in the oral seminar (cf. [Introduction](#introduction)).]
+
+However,
 
 **TO-DO**
