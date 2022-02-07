@@ -1,6 +1,6 @@
 ## 1. Basics of differential calculus {#I.1}
 
-Let $X$ be a prescheme on $Y$, and $\Delta_{X/Y}$ the diagonal morphism $X\to X\times_Y X$.
+Let $X$ be a prescheme over $Y$, and $\Delta_{X/Y}$ the diagonal morphism $X\to X\times_Y X$.
 This is an immersion, and thus a closed immersion of $X$ into an open subset $V$ of $X\times_Y X$.
 Let $\scr{I}_X$ be the ideal of the closed sub-prescheme corresponding to the diagonal in $V$ (N.B. if one really wishes to do things intrinsically, without assuming that $X$ is separated over $Y$ --- a misleading hypothesis --- then one should consider the set-theoretic inverse image of $\cal{O}_{X\times X}$ in $X$ and denote by $\scr{I}_X$ the augmentation ideal in the above ...).
 The sheaf $\scr{I}_X/\scr{I}_X^2$ can be thought of as a quasi-coherent sheaf on $X$, which we denote by $\Omega_{X/Y}^1$.
