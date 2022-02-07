@@ -151,6 +151,10 @@ The latter oral exposés outlined the generalised of methods developed in the te
 \oldpage{xiv}
 These exposés do not introduce any essentially new ideas, which is why it did not seem necessary to write them up properly before the appearance of the corresponding chapters of *Éléments de Géométrie Algébrique*.^[They are included in the present volume in [Exposé XII](#XII) by Mme Raynaud with a different proof from the original given in the oral seminar (cf. [Introduction](#introduction)).]
 
-However,
+However, the Lefschetz type theorems for the fundamental group and the Picard group, from both a local and a global point of view, were the subject of a separate seminar in 1962, which was completely written down and is available to read.^[*Cohomologie étale des faisceaux cohérents et théorèmes de Lefschetz locaux et globaux* (SGA 2), appeared in North Holland Pub. Cie.]
+We point out that the results developed, both in the present *Séminaire* and the seminar from 1962, will be used in an essential manner in the appearance of many key results about the étale cohomology of preschemes, which will be the subject of a *Séminaire* (led by M. Artin and myself) in 1963/64, currently in preparation.^[*Cohomologie étale des schémas* (SGA 4), to appear in the same series.]
+Exposés [I](#I) to [IV](#IV), which are of an essentially local nature, and very elementary, will be absorbed entirely by chapter IV of *Éléments de Géométrie Algébrique*, of which the first part is being printed and will probably be published towards the end of 1964.
+They can, nevertheless, be useful for a reader who wants to catch up to speed with the essential properties of smooth, étale, or flat morphisms, before diving into the arcana of a systematic treatment.
+As for the other exposés, they will be absorbed into chapter VIII^[In fact, following a change to the initial plan for the *Éléments*, the study of the fundamental group has been postponed to a later chapter of the *Éléments*, cf. the [Introduction](#introduction) that precedes this foreword.] of the *Éléments*, whose publication can barely even be contemplated for many years.
 
-**TO-DO**
+*Bures, June 1963.*
