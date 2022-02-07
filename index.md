@@ -2,7 +2,7 @@
 
 ## [1. Étale covers and the fundamental group](https://thosgood.com/sga/SGA-1/index.html)
 
-- [ ] [Introduction](https://thosgood.com/sga/SGA-1/index.html) *(@thosgood)*
+- [x] [Introduction and foreword](https://thosgood.com/sga/SGA-1/index.html) *(@thosgood)*
 
 <details>
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-1/I.html">I. Étale morphisms</a> <i>(@thosgood)</i>
