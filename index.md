@@ -11,13 +11,13 @@
   1. [x] [Basics of differential calculus](https://thosgood.com/sga/SGA-1/I.html#I.1)
   2. [x] [Quasi-finite morphisms](https://thosgood.com/sga/SGA-1/I.html#I.2)
   3. [x] [Unramified morphisms](https://thosgood.com/sga/SGA-1/I.html#I.3)
-  4. [x] [Étale morphisms. Étale coverings](https://thosgood.com/sga/SGA-1/I.html#I.4)
+  4. [x] [Étale morphisms. Étale covers](https://thosgood.com/sga/SGA-1/I.html#I.4)
   5. [x] [Fundamental property of étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.5)
   6. [x] [Application to étale extensions of complete local rings](https://thosgood.com/sga/SGA-1/I.html#I.6)
   7. [x] [Local construction of unramified and étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.7)
   8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](https://thosgood.com/sga/SGA-1/I.html#I.8)
   9. [x] [Invariance properties](https://thosgood.com/sga/SGA-1/I.html#I.9)
-  10. [x] [Étale coverings of a normal scheme](https://thosgood.com/sga/SGA-1/I.html#I.10)
+  10. [x] [Étale covers of a normal scheme](https://thosgood.com/sga/SGA-1/I.html#I.10)
   11. [x] [Various addenda](https://thosgood.com/sga/SGA-1/I.html#I.11)
 </details>
 

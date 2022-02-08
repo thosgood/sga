@@ -80,13 +80,13 @@
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.1"><i class="fa fa-check"></i>1. Basics of differential calculus</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.2"><i class="fa fa-check"></i>2. Quasi-finite morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.3"><i class="fa fa-check"></i>3. Unramified morphisms</a></li>
-<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.4"><i class="fa fa-check"></i>4. Étale morphisms. Étale coverings</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.4"><i class="fa fa-check"></i>4. Étale morphisms. Étale covers</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.5"><i class="fa fa-check"></i>5. Fundamental property of étale morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.6"><i class="fa fa-check"></i>6. Application to étale extensions of complete local rings</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.7"><i class="fa fa-check"></i>7. Local construction of unramified and étale morphisms</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.8"><i class="fa fa-check"></i>8. Infinitesimal lifting of étale schemes. Applications to formal schemes</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.9"><i class="fa fa-check"></i>9. Invariance properties</a></li>
-<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.10"><i class="fa fa-check"></i>10. Étale coverings of a normal scheme</a></li>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.10"><i class="fa fa-check"></i>10. Étale covers of a normal scheme</a></li>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.11"><i class="fa fa-check"></i>11. Various addenda</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="II.html"><a href="II.html"><i class="fa fa-check"></i>II. Smooth morphisms: generalities, differential properties</a><ul>
@@ -228,7 +228,7 @@ We are thus going to strengthen the notion of unramified-ness.</li>
 
 </div>
 <div id="I.4" class="section level2">
-<h2>4. Étale morphisms. Étale coverings</h2>
+<h2>4. Étale morphisms. Étale covers</h2>
 <p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
 these facts will be proved later, if there is time<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>.</p>
 <div id="I.4.1" class="rmenv" title="Definition 4.1">
@@ -388,7 +388,7 @@ We will see below that it is in fact an equivalence between the first and the se
 </div>
 <p>The following form (which looks more general) of <a href="I.html#I.5.5">5.5</a> is often useful:</p>
 <div id="I.5.6" class="itenv" title="Corollary 5.6">
-<p><strong>(Extension of coverings).</strong>
+<p><strong>(Extension of liftings).</strong>
 Consider a commutative diagram of morphisms
 <eq env="displaymath">
   \begin{CD}
@@ -618,7 +618,7 @@ Then the local ring of <eq env="math">z</eq> in <eq env="math">X'_0</eq> can be 
 This isomorphism is defined by an isomorphism from a neighbourhood <eq env="math">U_0</eq> of <eq env="math">x</eq> in <eq env="math">X</eq> to a neighbourhood of <eq env="math">z</eq> in <eq env="math">X'_0</eq>, and we can assume this to be identical to <eq env="math">X'_0</eq> by taking <eq env="math">X</eq> to be small enough.</p>
 </div>
 <div id="I.8.2" class="itenv" title="Corollary 8.2">
-<p>The analogous claim holds for étale <em>coverings</em>, if we suppose the residue field <eq env="math">k(y)</eq> to be infinite.</p>
+<p>The analogous claim holds for étale <em>covers</em>, if we suppose the residue field <eq env="math">k(y)</eq> to be infinite.</p>
 </div>
 <div class="proof">
 <p><span id="unlabeled-div-26" class="proof"><em>Proof</em>. </span>The proof is the same, just replacing <a href="I.html#I.7.5">7.5</a> by <a href="I.html#I.7.6">7.6</a>.</p>
@@ -637,17 +637,17 @@ It thus suffices to find a solution locally, which we know is possible by <a hre
 </div>
 <div id="I.8.4" class="itenv" title="Corollary 8.4">
 <p>Let <eq env="math">S</eq> be a locally Noetherian formal prescheme, endowed with an ideal of definition <eq env="math">{\mathscr{J}}</eq>, and let <eq env="math">S_0=(|S|,{\mathcal{O}}_S/{\mathscr{J}})</eq> be the corresponding ordinary prescheme.
-Then the functor <eq env="math">{\mathfrak{X}}\mapsto{\mathfrak{X}}\times_S S_0</eq> from the category of étale coverings of <eq env="math">S</eq> to the category of étale coverings of <eq env="math">S_0</eq> is an equivalence of categories.</p>
+Then the functor <eq env="math">{\mathfrak{X}}\mapsto{\mathfrak{X}}\times_S S_0</eq> from the category of étale covers of <eq env="math">S</eq> to the category of étale covers of <eq env="math">S_0</eq> is an equivalence of categories.</p>
 </div>
 <div class="proof">
-<p><span id="unlabeled-div-28" class="proof"><em>Proof</em>. </span>Of course, we define an étale covering of a <em>formal</em> prescheme <eq env="math">S</eq> to be a covering of <eq env="math">S</eq> (i.e a formal prescheme over <eq env="math">S</eq> defined by a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq>) such that <eq env="math">{\mathscr{B}}</eq> is <em>locally free</em>, and such that the residue fibres <eq env="math">{\mathscr{B}}_s\otimes_{{\mathcal{O}}_s}k(s)</eq> of <eq env="math">{\mathscr{B}}</eq> are <em>separable</em> algebras over <eq env="math">k(s)</eq>.
+<p><span id="unlabeled-div-28" class="proof"><em>Proof</em>. </span>Of course, we define an étale cover of a <em>formal</em> prescheme <eq env="math">S</eq> to be a cover of <eq env="math">S</eq> (i.e a formal prescheme over <eq env="math">S</eq> defined by a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq>) such that <eq env="math">{\mathscr{B}}</eq> is <em>locally free</em>, and such that the residue fibres <eq env="math">{\mathscr{B}}_s\otimes_{{\mathcal{O}}_s}k(s)</eq> of <eq env="math">{\mathscr{B}}</eq> are <em>separable</em> algebras over <eq env="math">k(s)</eq>.
 If we denote by <eq env="math">S_n</eq> the ordinary prescheme <eq env="math">(|S|,{\mathcal{O}}_S/{\mathscr{J}}^{n+1})</eq>, then the data of a coherent sheaf of algebras <eq env="math">{\mathscr{B}}</eq> on <eq env="math">S</eq> is equivalent to the data of a sequence of coherent sheaves of algebras <eq env="math">{\mathscr{B}}_n</eq> on the <eq env="math">S_n</eq>, endowed with a transitive system of homomorphisms <eq env="math">{\mathscr{B}}_m\to{\mathscr{B}}_n</eq> (for <eq env="math">m\geqslant n</eq>) defining the isomorphisms <eq env="math">{\mathscr{B}}_m\otimes_{{\mathcal{O}}_{S_m}}{\mathcal{O}}_{S_n}\xrightarrow{\sim}{\mathscr{B}}_n</eq>.
 It is immediate that <eq env="math">{\mathscr{B}}</eq> is locally free if and only if the <eq env="math">{\mathscr{B}}_n</eq> are locally free over the <eq env="math">S_n</eq>, and that the separability condition is satisfied if and only if it is satisfied for <eq env="math">{\mathscr{B}}_0</eq>, or for all the <eq env="math">{\mathscr{B}}_n</eq>.
 Thus <eq env="math">{\mathscr{B}}</eq> is étale over <eq env="math">S</eq> if and only if the <eq env="math">{\mathscr{B}}_n</eq> are étale over the <eq env="math">S_n</eq>.
 Taking this into account, <a href="I.html#I.8.4">8.4</a> follows immediately from <a href="I.html#I.8.3">8.3</a>.</p>
 </div>
 <div class="rmenv" title="Remark">
-<p>It was not necessary to restrict ourselves to the case of <em>coverings</em> in <a href="I.html#I.8.4">8.4</a>, but this is the only case that we will use for the moment.</p>
+<p>It was not necessary to restrict ourselves to the case of <em>covers</em> in <a href="I.html#I.8.4">8.4</a>, but this is the only case that we will use for the moment.</p>
 </div>
 
 </div>
@@ -822,13 +822,13 @@ Then the set of points where <eq env="math">f</eq> is étale is identical to the
 </div>
 <p>(This is the “less trivial” statement which was alluded to in the remark in §4.)</p>
 <div class="rmenv" title="Remark">
-<p>We do not claim that a connected étale covering of an irreducible scheme is itself irreducible if we do not assume the base to be normal.
+<p>We do not claim that a connected étale cover of an irreducible scheme is itself irreducible if we do not assume the base to be normal.
 This question will be studied in §11.</p>
 </div>
 
 </div>
 <div id="I.10" class="section level2">
-<h2>10. Étale coverings of a normal scheme</h2>
+<h2>10. Étale covers of a normal scheme</h2>
 <div id="I.10.1" class="itenv" title="Proposition 10.1">
 <p>Let <eq env="math">Y</eq> be normal and connected of field <eq env="math">K</eq>, and let <eq env="math">X</eq> be a separated étale prescheme over <eq env="math">Y</eq>.
 Then the connected components <eq env="math">X_i</eq> of <eq env="math">X</eq> are integral, their fields <eq env="math">K_i</eq> are finite separable extensions of <eq env="math">K</eq>, and <eq env="math">X_i</eq> can be identified with a non-empty open subset of the normalisation of <eq env="math">X</eq> in <eq env="math">K_i</eq> (and thus <eq env="math">X</eq> with a dense open subset of the normalisation of <eq env="math">Y</eq> in <eq env="math">R(X)=L=\prod K_i</eq>, where <eq env="math">R(X)</eq> is the ring of rational functions on <eq env="math">X</eq>).</p>
@@ -838,7 +838,7 @@ Then the connected components <eq env="math">X_i</eq> of <eq env="math">X</eq> a
 Since <eq env="math">X_i</eq> is normal, and also finite and dominant over <eq env="math">Y</eq>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <eq env="math">X_i</eq> is an open subset of the normalisation of <eq env="math">X</eq> in the field <eq env="math">K_i</eq> of <eq env="math">X_i</eq>.</p>
 </div>
 <div id="I.10.2" class="itenv" title="Corollary 10.2">
-<p>Under the conditions of <a href="I.html#I.10.1">10.1</a>, <eq env="math">X</eq> is finite over <eq env="math">Y</eq> (i.e. an étale covering of <eq env="math">Y</eq>) if and only if <eq env="math">X</eq> is isomorphic to the normalisation <eq env="math">Y'</eq> of <eq env="math">Y</eq> in <eq env="math">L=R(X)</eq> (the ring of rational functions on <eq env="math">X</eq>).</p>
+<p>Under the conditions of <a href="I.html#I.10.1">10.1</a>, <eq env="math">X</eq> is finite over <eq env="math">Y</eq> (i.e. an étale cover of <eq env="math">Y</eq>) if and only if <eq env="math">X</eq> is isomorphic to the normalisation <eq env="math">Y'</eq> of <eq env="math">Y</eq> in <eq env="math">L=R(X)</eq> (the ring of rational functions on <eq env="math">X</eq>).</p>
 </div>
 <div class="proof">
 <p><span id="unlabeled-div-37" class="proof"><em>Proof</em>. </span>We know that this normalisation is finite over <eq env="math">Y</eq> (since <eq env="math">Y</eq> is normal, and <eq env="math">R/K</eq> separable);
@@ -848,7 +848,7 @@ conversely, if <eq env="math">X</eq> is finite over <eq env="math">Y</eq>, then 
 Thus:</p>
 <div id="I.10.3" class="itenv" title="Corollary 10.3">
 <p>For every <eq env="math">X</eq> which is finite over <eq env="math">Y</eq> and such that every irreducible component of <eq env="math">X</eq> dominates <eq env="math">Y</eq>, let <eq env="math">R(X)</eq> be the ring of rational functions on <eq env="math">X</eq> (given by the product of the local rings of the generic points of the irreducible components of <eq env="math">X</eq>), so that <eq env="math">X\mapsto R(X)</eq> is a functor, with values in algebras of finite rank over <eq env="math">K=R(Y)</eq>.
-Then this functor establishes an equivalence between the category of connected étale coverings of <eq env="math">Y</eq> and the category of extensions <eq env="math">L</eq> of <eq env="math">K</eq> that are unramified over <eq env="math">Y</eq>.</p>
+Then this functor establishes an equivalence between the category of connected étale covers of <eq env="math">Y</eq> and the category of extensions <eq env="math">L</eq> of <eq env="math">K</eq> that are unramified over <eq env="math">Y</eq>.</p>
 </div>
 <div class="proof">
 <p><span id="unlabeled-div-38" class="proof"><em>Proof</em>. </span>The inverse functor is the normalisation functor.</p>
@@ -886,7 +886,7 @@ In the case where <eq env="math">Y=\operatorname{Spec}(A)</eq> and <eq env="math
 i.e. the normalisation ring <eq env="math">\overline{A'}</eq> of <eq env="math">A'</eq> in <eq env="math">L_1</eq> is the <eq env="math">A</eq>-algebra generated by <eq env="math">A'</eq> and by the normalisation <eq env="math">\overline{A}</eq> of <eq env="math">A</eq> in <eq env="math">L</eq>.</p>
 </div>
 <p>This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields…</p>
-<p>To finish this section, we are going to give the intuitive interpretation of the notion of étale coverings: there should be the “maximal number” of points over the point <eq env="math">y\in Y</eq> in question, and, in particular, there should not be “multiple points combined” over <eq env="math">y</eq>.
+<p>To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the “maximal number” of points over the point <eq env="math">y\in Y</eq> in question, and, in particular, there should not be “multiple points combined” over <eq env="math">y</eq>.
 To prove results in this sense, in all desirable generality, we will assume here <a href="I.html#I.10.7">Proposition 10.7</a> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley’s technique of constructible sets, and a little bit of the theory of descent…).</p>
 <p>A morphism of finite type <eq env="math">f\colon X\to Y</eq> is said to be <em>universally open</em> if, for every base extension <eq env="math">Y'\to Y</eq> (with <eq env="math">Y'</eq> locally Noetherian), the morphism <eq env="math">f'\colon X'=X\times_Y Y'\to Y'</eq> is open, i.e. sends open subsets to open subsets.
 We can actually restrict to the case where <eq env="math">Y'</eq> is of finite type over <eq env="math">y</eq> (and even to the case where <eq env="math">Y'</eq> is of the form <eq env="math">Y[t_1,\ldots,t_r]</eq>, where the <eq env="math">t_i</eq> are indeterminates).
@@ -908,19 +908,19 @@ For it to be constant on a neighbourhood of the point <eq env="math">y</eq> (i.e
 <div id="I.10.9" class="itenv" title="Proposition 10.9">
 <p>Let <eq env="math">f\colon X\to Y</eq> be a separated <em>étale</em> morphism.
 With the notation of <a href="I.html#I.10.7">10.7</a>, the function <eq env="math">n\mapsto n(y)</eq> is upper semi-continuous.
-For it to be constant on a neighbourhood of the point <eq env="math">y</eq> (i.e. for it to be the case that <eq env="math">n(y)=n(z_i)</eq>, where the <eq env="math">z_i</eq> are the generic points of the irreducible components of <eq env="math">Y</eq> that contain <eq env="math">y</eq>), it is necessary and sufficient for there to exist a neighbourhood <eq env="math">U</eq> of <eq env="math">y</eq> such that <eq env="math">X|U</eq> is <em>finite</em> over <eq env="math">U</eq>, i.e. such that <eq env="math">X|U</eq> is an <em>étale covering</em> of <eq env="math">U</eq>.</p>
+For it to be constant on a neighbourhood of the point <eq env="math">y</eq> (i.e. for it to be the case that <eq env="math">n(y)=n(z_i)</eq>, where the <eq env="math">z_i</eq> are the generic points of the irreducible components of <eq env="math">Y</eq> that contain <eq env="math">y</eq>), it is necessary and sufficient for there to exist a neighbourhood <eq env="math">U</eq> of <eq env="math">y</eq> such that <eq env="math">X|U</eq> is <em>finite</em> over <eq env="math">U</eq>, i.e. such that <eq env="math">X|U</eq> is an <em>étale cover</em> of <eq env="math">U</eq>.</p>
 </div>
 <div id="I.10.10" class="itenv" title="Corollary 10.10">
-<p>For a separated étale morphism <eq env="math">f\colon X\to Y</eq> (with <eq env="math">Y</eq> connected) to be finite (i.e. for <eq env="math">f</eq> to make <eq env="math">X</eq> an <em>étale covering</em> of <eq env="math">Y</eq>), it is necessary and sufficient for all of the fibres of <eq env="math">f</eq> to have the same geometric number of points.</p>
+<p>For a separated étale morphism <eq env="math">f\colon X\to Y</eq> (with <eq env="math">Y</eq> connected) to be finite (i.e. for <eq env="math">f</eq> to make <eq env="math">X</eq> an <em>étale cover</em> of <eq env="math">Y</eq>), it is necessary and sufficient for all of the fibres of <eq env="math">f</eq> to have the same geometric number of points.</p>
 </div>
 <p>In <a href="I.html#I.10.7">10.7</a> and <a href="I.html#I.10.8">its corollary</a>, there was no normality hypothesis on <eq env="math">Y</eq>;
-if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a covering):</p>
+if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):</p>
 <div id="I.10.11" class="itenv" title="Theorem 10.11">
 <p>Let <eq env="math">f\colon X\to Y</eq> be a separated <em>quasi-finite</em> morphism.
 Suppose that <eq env="math">Y</eq> is <em>irreducible</em>, that every component of <eq env="math">X</eq> dominates <eq env="math">Y</eq>, and that <eq env="math">X</eq> is reduced (i.e. that <eq env="math">{\mathcal{O}}_X</eq> has no nilpotent elements).
 Let <eq env="math">n</eq> be the degree of <eq env="math">X</eq> over <eq env="math">Y</eq> (i.e. the sum of the degrees, over the field <eq env="math">K</eq> of <eq env="math">Y</eq>, of the fields <eq env="math">K_i</eq> of the irreducible components <eq env="math">X_i</eq> of <eq env="math">X</eq>).
 Let <eq env="math">y</eq> be a normal point of <eq env="math">Y</eq>.
-Then the geometric number <eq env="math">n(y)</eq> of points of <eq env="math">X</eq> over <eq env="math">y</eq> is <eq env="math">\leqslant n</eq>, with equality if and only if there exists an open neighbourhood <eq env="math">U</eq> of <eq env="math">y</eq> such that <eq env="math">X|U</eq> is an <em>étale covering</em> of <eq env="math">U</eq>.</p>
+Then the geometric number <eq env="math">n(y)</eq> of points of <eq env="math">X</eq> over <eq env="math">y</eq> is <eq env="math">\leqslant n</eq>, with equality if and only if there exists an open neighbourhood <eq env="math">U</eq> of <eq env="math">y</eq> such that <eq env="math">X|U</eq> is an <em>étale cover</em> of <eq env="math">U</eq>.</p>
 </div>
 <div class="proof">
 <p><span id="unlabeled-div-39" class="proof"><em>Proof</em>. </span>The “only if” is trivial;
@@ -959,14 +959,14 @@ Since <eq env="math">y'</eq> is a normal point of <eq env="math">Y'</eq>, we are
 </div>
 <div id="I.11" class="section level2">
 <h2>11. Various addenda</h2>
-<p>We have already said that a connected étale covering of an integral scheme is not necessarily integral.
+<p>We have already said that a connected étale cover of an integral scheme is not necessarily integral.
 Here are two examples of this fact.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Let <eq env="math">C</eq> be an algebraic curve with an ordinary double point <eq env="math">x</eq>, and let <eq env="math">C'</eq> be its normalisation, with <eq env="math">a</eq> and <eq env="math">b</eq> the two points of <eq env="math">C'</eq> over <eq env="math">x</eq>.
 Let <eq env="math">C'_1</eq> and <eq env="math">C'_2</eq> be copies of <eq env="math">C'</eq>, with <eq env="math">a_i</eq> (resp. <eq env="math">b_i</eq>) the point of <eq env="math">C'_i</eq> corresponding to <eq env="math">a</eq> (resp. <eq env="math">b</eq>).
 In the curve <eq env="math">C'_1\coprod C'_2</eq>, we identify <eq env="math">a_1</eq> with <eq env="math">b_2</eq>, and <eq env="math">a_2</eq> with <eq env="math">b_1</eq> (we leave making this process of identification precise to the reader; it will be explained in Chapter VI of the multiplodoque, but, in the case of curves over an algebraically closed field, is already covered in Serre’s book on algebraic curves).
-We obtain a curve <eq env="math">C''</eq> which is <em>connected</em> and <em>reducible</em>, and which is a degree-<eq env="math">2</eq> étale covering of <eq env="math">C</eq>.
-The reader can verify that, generally, the “Galois” connected étale coverings <eq env="math">C''</eq> of <eq env="math">C</eq> whose inverse images <eq env="math">C''\times_C C'</eq> are <em>trivial</em> coverings of <eq env="math">C'</eq> (i.e. isomorphic to the sum of a certain number of copies of <eq env="math">C'</eq>) are “cyclic” of degree <eq env="math">n</eq>, and, conversely, for every integer <eq env="math">n&gt;0</eq>, we can construct a cyclic connected étale covering of degree <eq env="math">n</eq>.
+We obtain a curve <eq env="math">C''</eq> which is <em>connected</em> and <em>reducible</em>, and which is a degree-<eq env="math">2</eq> étale cover of <eq env="math">C</eq>.
+The reader can verify that, generally, the “Galois” connected étale covers <eq env="math">C''</eq> of <eq env="math">C</eq> whose inverse images <eq env="math">C''\times_C C'</eq> are <em>trivial</em> covers of <eq env="math">C'</eq> (i.e. isomorphic to the sum of a certain number of copies of <eq env="math">C'</eq>) are “cyclic” of degree <eq env="math">n</eq>, and, conversely, for every integer <eq env="math">n&gt;0</eq>, we can construct a cyclic connected étale cover of degree <eq env="math">n</eq>.
 In the language of the fundamental group (which will be developed later), this implies that the quotient of <eq env="math">\pi_1(C)</eq> by the closed invariant subgroup generated by the image of <eq env="math">\pi_1(C')\to\pi_1(C)</eq> (the homomorphism induced by the projection) is isomorphic to the compactification of <eq env="math">\mathbb{Z}</eq>.
 More precisely, we should show that the fundamental group of <eq env="math">C</eq> is isomorphic to the (topological) free product of the fundamental group of <eq env="math">C</eq> with the compactification of <eq env="math">\mathbb{Z}</eq>.
 We note that is was questions of this sort that gave birth to the “theory of descent” for schemes.</p></li>
@@ -979,7 +979,7 @@ let <eq env="math">B</eq> be a finite and étale algebra over <eq env="math">A</
 Then the residue algebra of <eq env="math">B'=A'\otimes_A B</eq> over <eq env="math">B</eq> is <eq env="math">L\otimes_k k'</eq>, which is not local, and so <eq env="math">B'</eq> is not a local ring, and thus <eq env="math">B</eq> has zero divisors (since it is complete).
 Now <eq env="math">B'</eq> is contained in the total ring of fractions of <eq env="math">B</eq> (since it is free over <eq env="math">A'</eq>, thus torsion free over <eq env="math">A'</eq>, thus torsion free over <eq env="math">A</eq>, thus contained in <eq env="math">B'\otimes_A K=B'_{(K)}=A'_{(K)}\otimes_K B_{(K)}=B_{(K)}</eq>, since <eq env="math">A'_{(k)}=K</eq>), and so <eq env="math">B</eq> is not integral.
 In the case of the ring <eq env="math">\mathbb{R}[s,t]/(s^2+t^2)\mathbb{R}[s,t]</eq>, taking <eq env="math">k'/k=\mathbb{C}/\mathbb{R}</eq>, we see that <eq env="math">B</eq> is the local ring of two secant lines at their point of intersection.</p>
-<p>We note also that, if there exists a connected étale covering <eq env="math">X</eq> of <eq env="math">Y</eq> that is integral but not irreducible, then every irreducible component of <eq env="math">X</eq> gives an example of an unramified covering <eq env="math">X'</eq> of <eq env="math">Y</eq> that dominates <eq env="math">Y</eq> but is not étale over <eq env="math">Y</eq>.
+<p>We note also that, if there exists a connected étale cover <eq env="math">X</eq> of <eq env="math">Y</eq> that is integral but not irreducible, then every irreducible component of <eq env="math">X</eq> gives an example of an unramified cover <eq env="math">X'</eq> of <eq env="math">Y</eq> that dominates <eq env="math">Y</eq> but is not étale over <eq env="math">Y</eq>.
 In the case of example (a), we thus see that <eq env="math">C'</eq> is unramified over <eq env="math">C</eq>, without being étale at the two points <eq env="math">a</eq> and <eq env="math">b</eq> (note that, directly, by inspection of the completions of the local rings at <eq env="math">x</eq> and <eq env="math">a</eq>, from the “formal” point of view, <eq env="math">C'</eq> at the point <eq env="math">a</eq> can be identified with a closed subscheme of <eq env="math">C</eq> at the point <eq env="math">x</eq>, i.e. one of the two “branches” of <eq env="math">C</eq> passing through <eq env="math">x</eq>).</p></li>
 </ol>
 <p>In both (a) and (b), we see that the fact that the conclusions of <a href="I.html#I.9.5">9.5 (i) and (ii)</a> fail to hold is directly linked with the fact that a point of <eq env="math">Y</eq> “blows up” at <em>distinct</em> points of the normalisation (in (b), the fact that the residue extension is non-radicial should be interpreted geometrically in this way).
@@ -987,7 +987,7 @@ More precisely, we say that an integral local ring <eq env="math">A</eq> is <em>
 a point <eq env="math">y</eq> of an integral prescheme is said to be geometrically unibranch if its local ring is geometrically unibranch.
 <em>Examples:</em>
 a normal point, an ordinary cusp point of a curve, etc.
-It seems that, if <eq env="math">Y</eq> admits a point which is not unibranch, then there always exists a non-irreducible connected étale covering of <eq env="math">Y</eq>;
+It seems that, if <eq env="math">Y</eq> admits a point which is not unibranch, then there always exists a non-irreducible connected étale cover of <eq env="math">Y</eq>;
 at least, this is what we have shown in case (b), when <eq env="math">Y</eq> is the spectrum of a complete local ring.
 We can show, however, that <em>if all the points of <eq env="math">Y</eq> are geometrically unibranch, then every unramified connected <eq env="math">Y</eq>-prescheme that dominates <eq env="math">Y</eq> is étale and irreducible</em>.
 The proof follows that of <a href="I.html#I.9.5">9.5</a>, using the following generalisation of <a href="I.html#I.8.3">Theorem 8.3</a>, which will be proved later by means of the technique of descent:<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></p>
