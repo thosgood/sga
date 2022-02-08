@@ -199,6 +199,6 @@ Then the set of points where $f$ is étale is identical to the complement of the
 (This is the "less trivial" statement which was alluded to in the remark in §4.)
 
 ::: {.rmenv title="Remark"}
-We do not claim that a connected étale covering of an irreducible scheme is itself irreducible if we do not assume the base to be normal.
+We do not claim that a connected étale cover of an irreducible scheme is itself irreducible if we do not assume the base to be normal.
 This question will be studied in §11.
 :::

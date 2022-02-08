@@ -30,7 +30,7 @@ This isomorphism is defined by an isomorphism from a neighbourhood $U_0$ of $x$ 
 :::
 
 ::: {.itenv #I.8.2 title="Corollary 8.2"}
-The analogous claim holds for étale _coverings_, if we suppose the residue field $k(y)$ to be infinite.
+The analogous claim holds for étale _covers_, if we suppose the residue field $k(y)$ to be infinite.
 :::
 
 ::: {.proof}
@@ -54,11 +54,11 @@ It thus suffices to find a solution locally, which we know is possible by [8.1](
 
 ::: {.itenv #I.8.4 title="Corollary 8.4"}
 Let $S$ be a locally Noetherian formal prescheme, endowed with an ideal of definition $\scr{J}$, and let $S_0=(|S|,\cal{O}_S/\scr{J})$ be the corresponding ordinary prescheme.
-Then the functor $\frak{X}\mapsto\frak{X}\times_S S_0$ from the category of étale coverings of $S$ to the category of étale coverings of $S_0$ is an equivalence of categories.
+Then the functor $\frak{X}\mapsto\frak{X}\times_S S_0$ from the category of étale covers of $S$ to the category of étale covers of $S_0$ is an equivalence of categories.
 :::
 
 ::: {.proof}
-Of course, we define an étale covering of a _formal_ prescheme $S$ to be a covering of $S$ (i.e a formal prescheme over $S$ defined by a coherent sheaf of algebras $\scr{B}$) such that $\scr{B}$ is _locally free_, and such that the residue fibres $\scr{B}_s\otimes_{\cal{O}_s}k(s)$ of $\scr{B}$ are _separable_ algebras over $k(s)$.
+Of course, we define an étale cover of a _formal_ prescheme $S$ to be a cover of $S$ (i.e a formal prescheme over $S$ defined by a coherent sheaf of algebras $\scr{B}$) such that $\scr{B}$ is _locally free_, and such that the residue fibres $\scr{B}_s\otimes_{\cal{O}_s}k(s)$ of $\scr{B}$ are _separable_ algebras over $k(s)$.
 If we denote by $S_n$ the ordinary prescheme $(|S|,\cal{O}_S/\scr{J}^{n+1})$, then the data of a coherent sheaf of algebras $\scr{B}$ on $S$ is equivalent to the data of a sequence of coherent sheaves of algebras $\scr{B}_n$ on the $S_n$, endowed with a transitive system of homomorphisms $\scr{B}_m\to\scr{B}_n$ (for $m\geq n$) defining the isomorphisms $\scr{B}_m\otimes_{\cal{O}_{S_m}}\cal{O}_{S_n}\xrightarrow{\sim}\scr{B}_n$.
 It is immediate that $\scr{B}$ is locally free if and only if the $\scr{B}_n$ are locally free over the $S_n$, and that the separability condition is satisfied if and only if it is satisfied for $\scr{B}_0$, or for all the $\scr{B}_n$.
 Thus $\scr{B}$ is étale over $S$ if and only if the $\scr{B}_n$ are étale over the $S_n$.
@@ -66,5 +66,5 @@ Taking this into account, [8.4](#I.8.4) follows immediately from [8.3](#I.8.3).
 :::
 
 ::: {.rmenv title="Remark"}
-It was not necessary to restrict ourselves to the case of _coverings_ in [8.4](#I.8.4), but this is the only case that we will use for the moment.
+It was not necessary to restrict ourselves to the case of _covers_ in [8.4](#I.8.4), but this is the only case that we will use for the moment.
 :::

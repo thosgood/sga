@@ -1,4 +1,4 @@
-## 10. Étale coverings of a normal scheme {#I.10}
+## 10. Étale covers of a normal scheme {#I.10}
 
 ::: {.itenv #I.10.1 title="Proposition 10.1"}
 Let $Y$ be normal and connected of field $K$, and let $X$ be a separated étale prescheme over $Y$.
@@ -11,7 +11,7 @@ Since $X_i$ is normal, and also finite and dominant over $Y$, it follows from a 
 :::
 
 ::: {.itenv #I.10.2 title="Corollary 10.2"}
-Under the conditions of [10.1](#I.10.1), $X$ is finite over $Y$ (i.e. an étale covering of $Y$) if and only if $X$ is isomorphic to the normalisation $Y'$ of $Y$ in $L=R(X)$ (the ring of rational functions on $X$).
+Under the conditions of [10.1](#I.10.1), $X$ is finite over $Y$ (i.e. an étale cover of $Y$) if and only if $X$ is isomorphic to the normalisation $Y'$ of $Y$ in $L=R(X)$ (the ring of rational functions on $X$).
 :::
 
 ::: {.proof}
@@ -24,7 +24,7 @@ Thus:
 
 ::: {.itenv #I.10.3 title="Corollary 10.3"}
 For every $X$ which is finite over $Y$ and such that every irreducible component of $X$ dominates $Y$, let $R(X)$ be the ring of rational functions on $X$ (given by the product of the local rings of the generic points of the irreducible components of $X$), so that $X\mapsto R(X)$ is a functor, with values in algebras of finite rank over $K=R(Y)$.
-Then this functor establishes an equivalence between the category of connected étale coverings of $Y$ and the category of extensions $L$ of $K$ that are unramified over $Y$.
+Then this functor establishes an equivalence between the category of connected étale covers of $Y$ and the category of extensions $L$ of $K$ that are unramified over $Y$.
 :::
 
 ::: {.proof}
@@ -73,7 +73,7 @@ i.e. the normalisation ring $\overline{A'}$ of $A'$ in $L_1$ is the $A$-algebra 
 
 This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
 
-To finish this section, we are going to give the intuitive interpretation of the notion of étale coverings: there should be the "maximal number" of points over the point $y\in Y$ in question, and, in particular, there should not be "multiple points combined" over $y$.
+To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point $y\in Y$ in question, and, in particular, there should not be "multiple points combined" over $y$.
 To prove results in this sense, in all desirable generality, we will assume here [Proposition 10.7](#I.10.7) found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
 
 A morphism of finite type $f\colon X\to Y$ is said to be _universally open_ if, for every base extension $Y'\to Y$ (with $Y'$ locally Noetherian), the morphism $f'\colon X'=X\times_Y Y'\to Y'$ is open, i.e. sends open subsets to open subsets.
@@ -99,22 +99,22 @@ If $y\mapsto n(y)$ is constant, and if $Y$ is geometrically unibranch^[For the d
 ::: {.itenv #I.10.9 title="Proposition 10.9"}
 Let $f\colon X\to Y$ be a separated _étale_ morphism.
 With the notation of [10.7](#I.10.7), the function $n\mapsto n(y)$ is upper semi-continuous.
-For it to be constant on a neighbourhood of the point $y$ (i.e. for it to be the case that $n(y)=n(z_i)$, where the $z_i$ are the generic points of the irreducible components of $Y$ that contain $y$), it is necessary and sufficient for there to exist a neighbourhood $U$ of $y$ such that $X|U$ is _finite_ over $U$, i.e. such that $X|U$ is an _étale covering_ of $U$.
+For it to be constant on a neighbourhood of the point $y$ (i.e. for it to be the case that $n(y)=n(z_i)$, where the $z_i$ are the generic points of the irreducible components of $Y$ that contain $y$), it is necessary and sufficient for there to exist a neighbourhood $U$ of $y$ such that $X|U$ is _finite_ over $U$, i.e. such that $X|U$ is an _étale cover_ of $U$.
 :::
 
 ::: {.itenv #I.10.10 title="Corollary 10.10"}
-For a separated étale morphism $f\colon X\to Y$ (with $Y$ connected) to be finite (i.e. for $f$ to make $X$ an _étale covering_ of $Y$), it is necessary and sufficient for all of the fibres of $f$ to have the same geometric number of points.
+For a separated étale morphism $f\colon X\to Y$ (with $Y$ connected) to be finite (i.e. for $f$ to make $X$ an _étale cover_ of $Y$), it is necessary and sufficient for all of the fibres of $f$ to have the same geometric number of points.
 :::
 
 In [10.7](#I.10.7) and [its corollary](#I.10.8), there was no normality hypothesis on $Y$;
-if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a covering):
+if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):
 
 ::: {.itenv #I.10.11 title="Theorem 10.11"}
 Let $f\colon X\to Y$ be a separated _quasi-finite_ morphism.
 Suppose that $Y$ is _irreducible_, that every component of $X$ dominates $Y$, and that $X$ is reduced (i.e. that $\cal{O}_X$ has no nilpotent elements).
 Let $n$ be the degree of $X$ over $Y$ (i.e. the sum of the degrees, over the field $K$ of $Y$, of the fields $K_i$ of the irreducible components $X_i$ of $X$).
 Let $y$ be a normal point of $Y$.
-Then the geometric number $n(y)$ of points of $X$ over $y$ is $\leq n$, with equality if and only if there exists an open neighbourhood $U$ of $y$ such that $X|U$ is an _étale covering_ of $U$.
+Then the geometric number $n(y)$ of points of $X$ over $y$ is $\leq n$, with equality if and only if there exists an open neighbourhood $U$ of $y$ such that $X|U$ is an _étale cover_ of $U$.
 :::
 
 ::: {.proof}
