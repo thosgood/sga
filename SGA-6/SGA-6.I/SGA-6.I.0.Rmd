@@ -30,7 +30,7 @@ If $\cal{O}_X$ is a sheaf of regular local rings, then every coherent $\cal{O}_X
 $$
   \scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
 $$
-where the $\scr{L}_i$ are locally of finite type.
+where the $\scr{L}_i$ are free and of finite type.
 It is thus natural, when $\cal{O}_X$ is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
 such modules are called _perfect_.
 More generally, we say that a _complex_ $\scr{F}$ of $\cal{O}_X$-modules is _perfect_ if there exists, locally, a quasi-isomorphism $\scr{L}\xrightarrow{\sim}\scr{F}$, where $\scr{L}$ is a bounded complex of free modules of finite type.
@@ -41,7 +41,7 @@ $$
   \scr{L} \to \scr{F} \to \scr{R} \to \scr{L}[1]
 $$
 where $\scr{L}$ is perfect, and $\scr{R}$ is acyclic in degree $\geq n$.
-**(TO-DO: check that $\scr{L}$ isn't just perfect in degree $\geq n$)**
+**(TO-DO: check that $\scr{L}$ isn't also just perfect in degree $\geq n$)**
 Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [I.5](#I.5)).
 We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
 
