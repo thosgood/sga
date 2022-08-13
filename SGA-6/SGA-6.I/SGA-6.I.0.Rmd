@@ -28,7 +28,7 @@ In the case where $\cal{O}_X$ is coherent, to say that a complex $\scr{F}$ is ps
 
 If $\cal{O}_X$ is a sheaf of regular local rings, then every coherent $\cal{O}_X$-module $\scr{F}$ locally admits a _finite_ left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
 $$
-  \scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
+  0\to\scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
 $$
 where the $\scr{L}_i$ are free and of finite type.
 It is thus natural, when $\cal{O}_X$ is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
