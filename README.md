@@ -409,7 +409,7 @@
 </details>
 
 <details>
-  <summary markdown="span">VIIa. Infinitesimal study of group schemes: differential operators and Lie p-algebras
+  <summary markdown="span">VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
   </summary>
 
   1. [ ] Differential operators *(5)*
