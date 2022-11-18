@@ -1,6 +1,6 @@
 --- 
 title: "SGA 1: Étale covers and the fundamental group"
-author: "A. Grothendieck and M. Raynaud"
+author: "Organised by A. Grothendieck; supplemented by Mme. M. Raynaud"
 date: "1960--1961 (web version last updated: `r format(Sys.Date(), format='%d %B %Y')`)"
 description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 1."
 ---
@@ -100,7 +100,7 @@ This process had already somewhat started a few years ago, since exposés [I](#I
 However, given how the work in constructing the *Éléments* and the *Séminaire* is developing, and as the proportions of the two become more precise, the initial principle (that the *Séminaire* should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
 Taking into account the care that is generally given to the writing of the various parts of the *Séminaire*, there will doubtless be no need to go back over them in the Éléments (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
 \oldpage{xi}
-This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mmm. Raynaud).
+This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mme. Raynaud).
 However, nothing currently indicates that this will also be the case in the near future for any of the other parts mentioned above (SGA 3 to SGA 7).
 
 The references in the "*Séminaire de Géométrie Algébrique du Bois-Marie*" are in the following format.
