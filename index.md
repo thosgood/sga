@@ -319,18 +319,19 @@
 ## 3-1. Group schemes I: General properties of group schemes
 
 <details>
-  <summary markdown="span">Table of contents
+  <summary markdown="span">I. Algebraic structures. Group cohomology
   </summary>
-
-  - I. Algebraic structures. Group cohomology
 
   1. [ ] Generalities *(12)*
   2. [ ] Algebraic structures *(7)*
   3. [ ] Category of `\mathcal{O}`-modules, category of `G`-`\mathcal{O}`-modules *(2)*
   4. [ ] Algebraic structures in the category of preschemes *(15)*
   5. [ ] Group cohomology *(6)*
+</details>
 
-  - II. Tangent bundles. Lie algebras
+<details>
+  <summary markdown="span">II. Tangent bundles. Lie algebras
+  </summary>
 
   1. [ ] `\underline{\operatorname{Hom}}_{Z/S}(X,Y)` functors *(2)*
   2. [ ] The preschemes `I_S(M)` *(3)*
@@ -338,16 +339,22 @@
   4. [ ] Tangent space of a group. Lie algebras *(15)*
   5. [ ] Calculation of some Lie algebras *(6)*
   6. [ ] Various remarks *(3)*
+</details>
 
-  - III. Infinitesimal extensions
+<details>
+  <summary markdown="span">III. Infinitesimal extensions
+  </summary>
 
   0. [ ] Reminders from SGA 1 III. Various remarks *(15)*
   1. [ ] Extensions and cohomology *(12)*
   2. [ ] Infinitesimal extensions of a morphism of group preschemes *(9)*
   3. [ ] Infinitesimal extensions of a group prescheme *(6)*
   4. [ ] Infinitesimal extensions of closed subgroups *(32)*
+</details>
 
-  - IV. Topologies and sheaves
+<details>
+  <summary markdown="span">IV. Topologies and sheaves
+  </summary>
 
   1. [ ] Universal effective epimorphisms  *(6)*
   2. [ ] Descent morphisms *(5)*
@@ -355,8 +362,11 @@
   4. [ ] Topologies and sheaves *(43)*
   5. [ ] Passage to the quotient and algebraic structures *(10)*
   6. [ ] Topologies in the category of schemes *(12)*
+</details>
 
-  - V. Construction of quotient preschemes
+<details>
+  <summary markdown="span">V. Construction of quotient preschemes
+  </summary>
 
   1. [ ] `\mathcal{C}`-groupoids *(4)*
   2. [ ] Examples of `\mathcal{C}`-groupoids *(2)*
@@ -367,8 +377,11 @@
   7. [ ] Passage to the quotient by a proper and flat equivalence prerelation *(5)*
   8. [ ] Passage to the quotient by a flat and non-necessarily proper equivalence prerelation *(3)*
   9. [ ] Elimination of Noetherian hypotheses *(3)*
+</details>
 
-  - VIa. Generalities on algebraic groups
+<details>
+  <summary markdown="span">VIa. Generalities on algebraic groups
+  </summary>
 
   0. [ ] Preliminary remarks *(4)*
   1. [ ] Local properties of an 𝐴-group of locally finite type *(4)*
@@ -376,8 +389,11 @@
   3. [ ] Construction of quotient groups: case of groups of finite type *(6)*
   4. [ ] Construction of quotient groups: general case *(6)*
   5. [ ] Addenda *(5)*
+</details>
 
-  - VIb. Generalities on group preschemes
+<details>
+  <summary markdown="span">VIb. Generalities on group preschemes
+  </summary>
 
   1. [ ] Morphisms of groups of locally finite type over a field *(9)*
   2. [ ] "Open properties" of groups and morphisms of groups of locally finite presentation *(12)*
@@ -390,8 +406,11 @@
   9. [ ] Quotient sheaves *(6)*
   10. [ ] Passage to the projective limit for group preschemes and operator group preschemes *(11)*
   11. [ ] Affine group preschemes *(16)*
+</details>
 
-  - VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
+<details>
+  <summary markdown="span">VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
+  </summary>
 
   1. [ ] Differential operators *(5)*
   2. [ ] Invariant differential operators on group preschemes *(7)*
@@ -401,8 +420,11 @@
   6. [ ] Lie 𝑝-algebras of a group 𝑆-prescheme *(7)*
   7. [ ] Radicial groups of height 1 *(8)*
   8. [ ] Case of a base field *(6)*
+</details>
 
-  - VIIb. Infinitesimal study of group schemes: formal groups
+<details>
+  <summary markdown="span">VIIb. Infinitesimal study of group schemes: formal groups
+  </summary>
 
   0. [ ] Reminders on pseudocompact rings and modules *(15)*
   1. [ ] Formal varieties over a pseudocompact ring *(20)*
@@ -410,8 +432,8 @@
   3. [ ] Phenomena particular to characteristic 0 *(10)*
   4. [ ] Phenomena particular to characteristic 𝑝>0 *(10)*
   5. [ ] Homogeneous spaces of infinitesimal formal groups over a field *(13)*
-
 </details>
+
 <br>
 
 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>I. Generalities on finiteness conditions in derived categories | SGA 6: Intersection theory and the Riemann–Roch theorem</title>
   <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 6." />
-  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
 
   <meta property="og:title" content="I. Generalities on finiteness conditions in derived categories | SGA 6: Intersection theory and the Riemann–Roch theorem" />
   <meta property="og:type" content="book" />
@@ -48,7 +48,6 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -72,9 +71,11 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
 <li class="chapter" data-level="" data-path="zero.html"><a href="zero.html"><i class="fa fa-check"></i>0. Outline of a programme for a theory of intersections</a></li>
-<li class="chapter" data-level="" data-path="I.html"><a href="I.html"><i class="fa fa-check"></i>I. Generalities on finiteness conditions in derived categories</a><ul>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html"><i class="fa fa-check"></i>I. Generalities on finiteness conditions in derived categories</a>
+<ul>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.0"><i class="fa fa-check"></i>0. Introduction</a></li>
-<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.1"><i class="fa fa-check"></i>1. Preliminary definitions</a><ul>
+<li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.1"><i class="fa fa-check"></i>1. Preliminary definitions</a>
+<ul>
 <li class="chapter" data-level="" data-path="I.html"><a href="I.html#I.1.1"><i class="fa fa-check"></i>1.1 Fibred categories with additive (resp. abelian, resp. triangulated) fibres</a></li>
 </ul></li>
 </ul></li>
@@ -100,13 +101,11 @@
 
 <div id="I.0" class="section level2">
 <h2>0. Introduction</h2>
-
 <p>The aim of Exposés <a href="I.html#I">I</a> to <a href="#IV">IV</a> is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</p>
 <p>As was mentioned in <a href="zero.html#zero">Exp. 0</a>, it is the need to define “Grothendieck groups” that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</p>
 <p>The classical notion of coherent sheaves on a ringed space <eq env="math">(X,{\mathcal{O}}_X)</eq> becomes uninteresting as soon as <eq env="math">{\mathcal{O}}_X</eq> is no longer coherent.
 We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
 We arrive at a satisfying notion by remarking that, if <eq env="math">{\mathcal{O}}_X</eq> is coherent, then a coherent sheaf <eq env="math">{\mathscr{F}}</eq> is not only of finite presentation but also of finite <eq env="math">n</eq>-presentation for all <eq env="math">n\in\mathbb{N}</eq>, where “finite <eq env="math">n</eq>-presentation” means that there exists, locally, an exact sequence
-
 <eq env="displaymath">
   {\mathscr{L}}_n \to {\mathscr{L}}_{n-1} \to \ldots \to {\mathscr{L}}_0 \to {\mathscr{F}} \to 0
 </eq>
@@ -120,7 +119,6 @@ Firstly, it is stable under isomorphism in the derived category <eq env="math">D
 even better, if two objects of a distinguished triangle in <eq env="math">D(X)</eq> are pseudo-coherent, then so too is the third: in other words, the full subcategory <eq env="math">D(X)_\mathrm{coh}</eq> of <eq env="math">D(X)</eq> consisting of pseudo-coherent complexes is a triangulated subcategory.
 Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
 In the case where <eq env="math">{\mathcal{O}}_X</eq> is coherent, to say that a complex <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent simply means that the cohomology of <eq env="math">{\mathscr{F}}</eq> is locally bounded above, and that all the <eq env="math">{\mathscr{H}}^i({\mathscr{F}})</eq> are coherent.</p>
-
 <p>If <eq env="math">{\mathcal{O}}_X</eq> is a sheaf of regular local rings, then every coherent <eq env="math">{\mathcal{O}}_X</eq>-module <eq env="math">{\mathscr{F}}</eq> locally admits a <em>finite</em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
 <eq env="displaymath">
   0\to{\mathscr{L}}_n \to {\mathscr{L}}_{n-1} \to \ldots \to {\mathscr{L}}_0 \to {\mathscr{F}} \to 0
@@ -139,7 +137,6 @@ where <eq env="math">{\mathscr{L}}</eq> is perfect, and <eq env="math">{\mathscr
 <strong>(TO-DO: check that <eq env="math">{\mathscr{L}}</eq> isn’t also just perfect in degree <eq env="math">\geqslant n</eq>)</strong>
 Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. <a href="#I.5">I.5</a>).
 We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.</p>
-
 <p>Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
 Sections <a href="I.html#I.1">I.1</a> to <a href="#I.5">I.5</a> of Exposé I are dedicated to their definition, and to establishing their elementary stability properties.
 For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
@@ -148,7 +145,6 @@ It also turns out to be practical — and useful, most notably in <a href="#II">
 <p>In <a href="#II">Exp. II</a>, we examine the problem of “the existence of global resolutions”: under what conditions, on a ringed topos <eq env="math">(X,{\mathcal{O}}_X)</eq>, is a pseudo-coherent (resp. perfect) complex <em>globally</em> isomorphic in <eq env="math">D(X)</eq> to a complex of locally free modules of finite type?
 The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see <a href="#XIV">Exp. XIV</a>).
 This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
-
 Such criteria are given in <a href="#II">Exp. II</a>.
 In particular, we show that there exist global resolutions in the following cases:
 <eq env="math">X</eq> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
@@ -160,7 +156,6 @@ We place ourselves here in the setting of ordinary schemes, which suffices for t
 Let <eq env="math">p\colon X\to S</eq> be an <eq env="math">S</eq>-scheme locally of finite type, and let <eq env="math">{\mathscr{F}}</eq> be a complex of <eq env="math">{\mathcal{O}}_X</eq>-modules;
 we say that <eq env="math">{\mathscr{F}}</eq> is <em>pseudo-coherent</em> (resp. <em>perfect</em>) <em>with respect to <eq env="math">p</eq></em> if we can locally embed (by a closed immersion) <eq env="math">X</eq> into a smooth <eq env="math">S</eq>-scheme <eq env="math">X'</eq> in such a way that <eq env="math">{\mathscr{F}}</eq> extended by zero on <eq env="math">X'</eq> is pseudo-coherent (resp. perfect).
 The notion of pseudo-coherence with respect to <eq env="math">p</eq> is especially interesting in the case where <eq env="math">S</eq> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-
 On the other hand, as we might expect, to say that <eq env="math">{\mathscr{F}}</eq> is perfect with respect to <eq env="math">p</eq> is equivalent to saying that <eq env="math">{\mathscr{F}}</eq> is pseudo-coherent with respect to <eq env="math">p</eq> and locally of finite tor-dimension with respect to <eq env="math">p</eq> (i.e. with respect to the sheaf of rings <eq env="math">p^{-1}({\mathcal{O}}_S)</eq>).
 The central theorem of <a href="#III">Exp. III</a> is the <em>finiteness theorem</em>, which affirms (in a slightly more precise way) that, if <eq env="math">f\colon X\to Y</eq> is a <em>proper</em> morphism of <eq env="math">S</eq>-schemes locally of finite type, then the functor <eq env="math">\mathbb{R}f_*</eq> sends complexes that are pseudo-coherent with respect to <eq env="math">S</eq> to complexes that are pseudo-coherent with respect to <eq env="math">S</eq>;
 this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:</p>
