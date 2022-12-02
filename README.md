@@ -948,8 +948,10 @@
 </details>
 
 <details>
-  <summary markdown="span">IV. Grothendieck groups of ringed toposes
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
   </summary>
+
+  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/SGA-6/IV.html#IV.1)
 </details>
 
 <details>
