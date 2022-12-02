@@ -67,7 +67,7 @@ Despite these numerous gaps and imperfections (as others would say: because of t
 
 ## 2. {#introduction.2}
 
-The present volume constitutes the tome 1 of the "*Séminaire de Géométrie Algébrique du Bois-Marie*", whose following volumes are intended to appear in the same series as this one.
+The present volume constitutes tome 1 of the "*Séminaire de Géométrie Algébrique du Bois-Marie*", whose following volumes are intended to appear in the same series as this one.
 The aim of the *Séminaire*, parallel to the "*Éléments de Géométrie Algébrique*" by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
 The standard reference for all the volumes of the *Séminaire* consists of Chapters I, II, and III of "*Éléments de Géométrie Algébrique*" (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.^[See the Introduction of EGA I for more precise details.]
 Furthermore, in each volume of the *Séminaire*, we will freely refer, as needed, to previous volumes of the same *Séminaire*, or to other chapters of "*Élements*", either already published or on the brink of being published.
