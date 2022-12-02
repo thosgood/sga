@@ -930,6 +930,14 @@
 </details>
 
 <details>
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/zeroRRR.html">0[RRR]. Classes of sheaves and the Riemann--Roch theorem</a>
+  </summary>
+
+  1. [ ] [Lambda rings](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.I)
+  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.II)
+</details>
+
+<details>
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
   </summary>
 
@@ -948,8 +956,10 @@
 </details>
 
 <details>
-  <summary markdown="span">IV. Grothendieck groups of ringed toposes
+  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
   </summary>
+
+  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/SGA-6/IV.html#IV.1)
 </details>
 
 <details>
