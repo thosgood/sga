@@ -180,7 +180,7 @@
 
 ## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/SGA-2/index.html)
 
-- [Introduction](https://thosgood.com/sga/SGA-2/index.html)
+- [ ] [Introduction](https://thosgood.com/sga/SGA-2/index.html)
 
 <details>
   <summary markdown="span"><a href="https://thosgood.com/sga/SGA-2/">I. Global and local cohomological invariants with respect to a closed subspace</a>
