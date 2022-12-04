@@ -41,7 +41,7 @@ We have restricted ourselves to adding some footnotes to the original text, corr
 \oldpage{viii}
 
 Exposés [I](#I) to [IV](#IV) present the local notions of *étale* and *smooth* morphisms;
-they hardly ever use the language of schemes, as detailed in Chapter I of the *Élements*.^[A more complete study is now available in EGA IV 17,18.]
+they hardly ever use the language of schemes, as detailed in Chapter I of the *Éléments*.^[A more complete study is now available in EGA IV 17,18.]
 [Exposé V](#V) presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case, where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of the usual Galois theory.
 Exposés [VI](#VI) and [VIII](#VIII) present the *theory of descent*, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
 We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente". *Bull. Soc. Math. France* **2** (1964), viii + 150 p.).
@@ -52,10 +52,10 @@ It essentially deals with a calculation of the fundamental group of a connected 
 For other commentaries on the text, see the [*Foreword*](#foreword), found after this introduction.
 
 Since the writing of the seminar in 1961, the language of *étale topology*, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
-it is detailed in SGA 4 ("Cohomologie étale des schémes") of the *Séminaire de Géométrie Algébrique*, which will appear in the same series as the present volume.
+it is detailed in SGA 4 ("Cohomologie étale des schémas") of the *Séminaire de Géométrie Algébrique*, which will appear in the same series as the present volume.
 This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
 There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in *loc. cit.*).
-This was what was planed for the chapter of *Élements* dedicated to the fundamental group, which also had to cover many other ideas which could not find their place here (relying on the technique of resolution of singularities):
+This was what was planed for the chapter of *Éléments* dedicated to the fundamental group, which also had to cover many other ideas which could not find their place here (relying on the technique of resolution of singularities):
 \oldpage{ix}
 calculation of the "local fundamental group" of a complete local ring in terms of a suitable resolution of singularities of the ring, local and global Künneth formulas for the fundamental group without any hypotheses of properness (cf. [Exposé XIII](#XIII)), the results of M. Artin on the comparison of the local fundamental groups of an excellent Henselian local ring and of its completion ([SGA 4 XIX](../SGA-4-3/XIX.html)).
 We also note the necessity of developing a theory of the fundamental group of a topos, which would simultaneously cover the ordinary topological theory, the semi-simplicial version, the "profinite" version developed in [Exposé V](#V), and the slightly more general pro-discrete version found in [SGA 3 X 7](../SGA-3-2/X.html#X.7) (adapted to the case of non-normal and non-unibranch schemes).
@@ -70,7 +70,7 @@ Despite these numerous gaps and imperfections (as others would say: because of t
 The present volume constitutes tome 1 of the "*Séminaire de Géométrie Algébrique du Bois-Marie*", whose following volumes are intended to appear in the same series as this one.
 The aim of the *Séminaire*, parallel to the "*Éléments de Géométrie Algébrique*" by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
 The standard reference for all the volumes of the *Séminaire* consists of Chapters I, II, and III of "*Éléments de Géométrie Algébrique*" (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.^[See the Introduction of EGA I for more precise details.]
-Furthermore, in each volume of the *Séminaire*, we will freely refer, as needed, to previous volumes of the same *Séminaire*, or to other chapters of "*Élements*", either already published or on the brink of being published.
+Furthermore, in each volume of the *Séminaire*, we will freely refer, as needed, to previous volumes of the same *Séminaire*, or to other chapters of "*Éléments*", either already published or on the brink of being published.
 
 Each *volume* of the *Séminaire* is based on a main subject, indicated in the title of the corresponding volume(s);
 the oral seminar generally lasts one academic year, sometimes more.
