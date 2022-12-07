@@ -485,7 +485,7 @@
 
 ## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html) {#sga-6}
 
-- [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
+- [ ] [0. Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html) *(18)*
 - [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
   1. [ ] [$\lambda$-rings (formal preliminaries)](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I) *(17)*
   2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II) *(30)*
