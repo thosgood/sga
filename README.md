@@ -24,11 +24,11 @@
 - [ ] III. Smooth morphisms: extension properties
   1. [ ] Formally smooth homomorphisms *(4)*
   2. [ ] Characteristic lifting property of formally smooth homomorphisms *(5)*
-  3. [ ] Local infinitesimal extension of morphisms in a smooth 𝑆-scheme *(2)*
-  4. [ ] Local infinitesimal extension of smooth 𝑆-schemes *(1)*
+  3. [ ] Local infinitesimal extension of morphisms in a smooth $S$-scheme *(2)*
+  4. [ ] Local infinitesimal extension of smooth $S$-schemes *(1)*
   5. [ ] Global infinitesimal extension of morphisms *(7)*
-  6. [ ] Global infinitesimal extension of smooth 𝑆-schemes *(5)*
-  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring 𝐴 *(5)*
+  6. [ ] Global infinitesimal extension of smooth $S$-schemes *(5)*
+  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring $A$ *(5)*
 - [ ] IV. Flat morphisms
   1. [ ] Syllogisms on flat modules *(3)*
   2. [ ] Faithfully flat modules *(3)*
@@ -114,7 +114,7 @@
 <br>
 
 
-## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/sga-2/index.html) {#sga-2}
+## 2. Local cohomology of coherent sheaves and local and global Lefschetz theoremshttps://thosgood.com/sga/sga-2/index.ht {#sga-2}
 
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
