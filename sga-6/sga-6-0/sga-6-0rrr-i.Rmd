@@ -1,4 +1,4 @@
-## I. $\lambda$-rings {#zeroRRR.I}
+## I. $\lambda$-rings (formal preliminaries) {#zeroRRR.I}
 
 ### I.1 Definitions {#zeroRRR.I.1}
 

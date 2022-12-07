@@ -487,15 +487,24 @@
 
 - [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
 - [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
-  1. [ ] [$\lambda$-rings](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I)
-  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II)
+  1. [ ] [$\lambda$-rings (formal preliminaries)](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I) *(17)*
+  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II) *(30)*
 - [ ] [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/sga-6/I.html)
   0. [x] [Introduction](https://thosgood.com/sga/sga-6/I.html#I.0)
-  1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1)
+  1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1) *(11)*
+  2. [ ] Pseudo-coherent complexes *(18)*
+  3. [ ] Link to the classical notion of coherence *(7)*
+  4. [ ] Perfect complexes *(12)*
+  5. [ ] Finite $\operatorname{Tor}$-dimension and perfection *(10)*
+  6. [ ] Rank of a perfect complex *(9)*
+  7. [ ] Duality of perfect complexes *(6)*
+  8. [ ] Traces and cup-products *(5)*
 - [ ] II. Existence of global resolutions
 - [ ] III. Relative finiteness conditions
 - [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html)
-  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1)
+  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1) *(5)*
+  2. [ ] The functors $K_\bullet$ and $K^\bullet$ on a ringed topos *(12)*
+  3. [ ] Supplement on the Grothendieck groups of schemes *(7)*
 - [ ] V. Generalities on $\lambda$-rings
 - [ ] VI. $K^\bullet$ of a projective bundle: calculations and consequences
 - [ ] VII. Regular immersions and calculation of $K^\bullet$ of a blown-up scheme
