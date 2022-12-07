@@ -181,7 +181,7 @@
 <br>
 
 
-## 3-1. Group schemes I: General properties of group schemes {#sga-3-1}
+## 3-I. Group schemes I: General properties of group schemes {#sga-3-I}
 
 - [ ] I. Algebraic structures. Group cohomology
   1. [ ] Generalities *(12)*
@@ -259,7 +259,7 @@
 <br>
 
 
-## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes {#sga-3-2}
+## 3-II. Group schemes II: Groups of multiplicative type, and structure of general group schemes {#sga-3-II}
 
 - [ ] VIII. Diagonalisable groups
   1. [ ] Biduality *(5)*
@@ -358,7 +358,7 @@
 <br>
 
 
-## 3-3. Group schemes III: Structure of reductive group schemes {#sga-3-3}
+## 3-III. Group schemes III: Structure of reductive group schemes {#sga-3-III}
 
 - [ ] XIX. Reductive groups: generalities
   1. [ ] Reminders on groups over an algebraically closed field *(9)*
@@ -404,7 +404,7 @@
 <br>
 
 
-## 4-1. Topos theory and étale cohomology of schemes I {#sga-4-1}
+## 4-I. Topos theory and étale cohomology of schemes I {#sga-4-I}
 
 - [ ] I. Presheaves
 - [ ] II. Topologies and sheaves
@@ -415,7 +415,7 @@
 <br>
 
 
-## 4-2. Topos theory and étale cohomology of schemes II {#sga-4-2}
+## 4-II. Topos theory and étale cohomology of schemes II {#sga-4-II}
 
 - [ ] V. Cohomology in toposes
 - [ ] Vb. Techniques for cohomological descent
@@ -427,7 +427,7 @@
 <br>
 
 
-## 4-3. Topos theory and étale cohomology of schemes III {#sga-4-3}
+## 4-II. Topos theory and étale cohomology of schemes III {#sga-4-II}
 
 - [ ] IX. Constructible sheaves. Cohomology of an algebraic curve
 - [ ] X. Cohomological dimension: first results
@@ -511,7 +511,7 @@
 <br>
 
 
-## 7-1. Monodromy groups in algebraic geometry I {#sga-7-1}
+## 7-I. Monodromy groups in algebraic geometry I {#sga-7-I}
 
 - [ ] I. Summary of the first talks by A. Grothendieck
 - [ ] II. Finiteness properties of the fundamental group
@@ -527,7 +527,7 @@
 <br>
 
 
-## 7-2. Monodromy groups in algebraic geometry II {#sga-7-2}
+## 7-II. Monodromy groups in algebraic geometry II {#sga-7-II}
 
 - [ ] X. Intersections on regular surfaces
 - [ ] XI. Cohomology of complete intersections
