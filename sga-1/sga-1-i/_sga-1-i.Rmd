@@ -1,0 +1,3 @@
+# I. Étale morphisms {#I}
+
+To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from [§2](#I.2)).

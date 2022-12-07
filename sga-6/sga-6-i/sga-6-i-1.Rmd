@@ -1,0 +1,14 @@
+## 1. Preliminary definitions {#I.1}
+
+### 1.1 Fibred categories with additive (resp. abelian, resp. triangulated) fibres {#I.1.1}
+
+::: {.rmenv #I.1.1.1 title="1.1.1"}
+Let $\cal{S}$ be a category, and let $\cal{C}$ be a fibred $\cal{S}$-category ([SGA 1 VI 6.1](../SGA-1/VI.html#VI.6.1)) with additive (resp. triangulated) fibres.
+We say that $\cal{C}$ is an _additive_ (resp. _triangulated_) _$\cal{S}$-category_ (or that $\cal{C}$ is additive (resp. triangulated) over $\cal{S}$) if, for every arrow $f\colon X\to Y$ of $\cal{S}$, the inverse image functor (determined up to unique isomorphism) $f^*\colon\cal{C}_Y\to\cal{C}_X$ is additive (resp. exact).
+We say that $\cal{C}$ is an _abelian_ $\cal{S}$-category if $\cal{C}$ is an additive $\cal{S}$-category with abelian fibres, and that $\cal{C}$ is a _flat_ abelian $\cal{S}$-category if, further, the inverse image functors are exact.
+:::
+
+::: {.rmenv #I.1.1.2 title="1.1.2"}
+Let $\cal{C}$ be a triangulated $\cal{S}$-category.
+We define, using a cleavage of $\cal{C}$ ([SGA 1 VI 7.1](../SGA-1/VI.html#VI.7.1)), for example, a fibred $\cal{S}$ category $\operatorname{Tr}(\cal{C})$ whose fibre at each $X\in\ob(\cal{S})$ is the category $\operatorname{Tr}(\cal{C}_X)$ of distinguished triangles of $\cal{C}_X$.
+:::

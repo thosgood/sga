@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga";
+  -o-font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga"
+}
+
+.page-inner {
+  max-width: 720px !important;
+}
+
+.katex-html {
+  white-space: nowrap;
+}
+
+.book.font-family-0 {
+  font-family: 'Merriweather', serif;
+}
+
+.book.font-family-1 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.page-wrapper p {
+  text-align: justify;
+}
+
+
+/* TOC */
+
+.book .book-summary nav ul.summary h4 {
+  font-size: 1rem;
+  padding-left: 1em;
+  margin: 1.18rem 0;
+}
+
+
+/* Header */
+
+.book .book-header h1 {
+  text-align: left;
+  padding-left: 100px;
+  opacity: 1;
+}
+
+
+/* Book */
+
+.page-inner h1 {
+  font-size: 1.75em !important;
+  border-bottom: 1px solid black;
+}
+
+.page-inner h2 {
+  font-size: 1.5em !important;
+}
+
+.page-inner h1,
+.page-inner h2,
+.page-inner h3,
+.page-inner h4,
+.page-inner h5 {
+  font-kerning: none;
+}
+
+/*.katex, .page-inner .katex {
+  font-size: 1em;
+}*/
+
+
+/* Custom environments */
+
+.itenv {
+  font-style: italic;
+  margin: 1em 0;
+}
+.itenv em {
+  font-style: normal !important;
+}
+
+.rmenv {
+  font-style: normal;
+  margin: 1em 0;
+}
+
+.itenv:before,
+.rmenv:before {
+  content: attr(title)".";
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 0.5em;
+  display: inline;
+}
+
+.itenv > p:first-of-type,
+.rmenv > p:first-of-type {
+  margin-top: 0 !important;
+  display: inline;
+}
+
+.itenv > :last-child,
+.rmenv > :last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* Anchor links */
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  overflow: visible !important; /* so anchor link doesn't get cut off */
+}
+
+a.anchor {
+  float: left;
+  margin-left: -35px;
+  vertical-align: baseline;
+  /* Icon made by Freepik from www.flaticon.com */
+  height: 30px;
+  width: 30px;
+  background-image: url(../assets/link.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+  background-position: center center !important;
+  opacity: 0;
+}
+
+.book.color-theme-2 a.anchor {
+  filter: invert(100%);
+}
+
+.hasAnchor:hover a.anchor,
+a.anchor:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 800px) { /* don't show anchor link on small screens */
+  .hasAnchor:hover a.anchor {
+    visibility: hidden;
+  }
+}
+
+h1.hasAnchor,
+h2.hasAnchor,
+h3.hasAnchor,
+h4.hasAnchor,
+h5.hasAnchor {
+  border-bottom: 1px solid transparent;
+}
+h1.hasAnchor:hover,
+h2.hasAnchor:hover,
+h3.hasAnchor:hover,
+h4.hasAnchor:hover,
+h5.hasAnchor:hover {
+  border-bottom: 1px solid gray;
+}
+
+.itenv.hasAnchor,
+.rmenv.hasAnchor,
+.eqtag.hasAnchor {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.itenv.hasAnchor:hover,
+.rmenv.hasAnchor:hover,
+.eqtag.hasAnchor:hover {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.eqtag.hasAnchor {
+  margin-top: -1em;
+}
+
+
+/* Reset footnote numbering each chapter
+   (https://github.com/rstudio/bookdown/issues/589#issuecomment-701044587) */
+
+/* don't show the wrong footnote calls */
+.footnote-ref sup, .footnoteRef sup {
+  display: none;
+}
+
+/* use a counter for footnote calls */
+.page-inner {
+  counter-reset: fn-call;
+}
+
+.footnote-ref, .footnoteRef {
+  counter-increment: fn-call;
+}
+
+/* generate new footnote calls */
+.footnote-ref::after, .footnoteRef::after {
+  content: counter(fn-call);
+  position: relative;
+  top: -.5em;
+  font-size: 85%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* use a counter for footnotes numbering */
+.footnotes ol {
+  list-style: none;
+  counter-reset: fn-number;
+}
+
+.footnotes li {
+  counter-increment: fn-number;
+}
+
+.footnotes li p:first-child::before {
+content: counter(fn-number) '. ';
+width: 1.5em;
+float: left;
+}
