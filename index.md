@@ -24,11 +24,11 @@
 - [ ] III. Smooth morphisms: extension properties
   1. [ ] Formally smooth homomorphisms *(4)*
   2. [ ] Characteristic lifting property of formally smooth homomorphisms *(5)*
-  3. [ ] Local infinitesimal extension of morphisms in a smooth 𝑆-scheme *(2)*
-  4. [ ] Local infinitesimal extension of smooth 𝑆-schemes *(1)*
+  3. [ ] Local infinitesimal extension of morphisms in a smooth $S$-scheme *(2)*
+  4. [ ] Local infinitesimal extension of smooth $S$-schemes *(1)*
   5. [ ] Global infinitesimal extension of morphisms *(7)*
-  6. [ ] Global infinitesimal extension of smooth 𝑆-schemes *(5)*
-  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring 𝐴 *(5)*
+  6. [ ] Global infinitesimal extension of smooth $S$-schemes *(5)*
+  7. [ ] Application to the construction of smooth formal schemes and of smooth ordinary schemes over a complete local ring $A$ *(5)*
 - [ ] IV. Flat morphisms
   1. [ ] Syllogisms on flat modules *(3)*
   2. [ ] Faithfully flat modules *(3)*
@@ -114,7 +114,7 @@
 <br>
 
 
-## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/sga-2/index.html) {#sga-2}
+## 2. Local cohomology of coherent sheaves and local and global Lefschetz theoremshttps://thosgood.com/sga/sga-2/index.ht {#sga-2}
 
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
@@ -461,7 +461,7 @@
 <br>
 
 
-## 5. ℓ-adic cohomology and 𝐿-functions {#sga-5}
+## 5. $\ell$-adic cohomology and $L$-functions {#sga-5}
 
 - [ ] I. Dualising complexes
 - [ ] II. <i>(Does not exist)</i>
@@ -469,7 +469,7 @@
 - [ ] IIIb. Calculations of local terms
 - [ ] IV. <i>(Does not exist)</i>
 - [ ] V. 𝐽-adic projective systems
-- [ ] VI. ℓ-adic cohomology
+- [ ] VI. $\ell$-adic cohomology
 - [ ] VII. Cohomology of some classical schemes; cohomological theory of Chern classes
 - [ ] VIII. Groups of classes of abelian and triangulated categories, perfect complexes
 - [ ] IX. <i>(Does not exist)</i>
@@ -477,7 +477,7 @@
 - [ ] XI. <i>(Does not exist)</i>
 - [ ] XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
 - [ ] XIII. <i>(Does not exist)</i>
-- [ ] XIV. The Frobenius morphism, and rationality of 𝐿-functions
+- [ ] XIV. The Frobenius morphism, and rationality of $L$-functions
 
 
 <br>
@@ -487,15 +487,24 @@
 
 - [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
 - [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
-  1. [ ] [$\lambda$-rings](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I)
-  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II)
+  1. [ ] [$\lambda$-rings (formal preliminaries)](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I) *(17)*
+  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II) *(30)*
 - [ ] [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/sga-6/I.html)
   0. [x] [Introduction](https://thosgood.com/sga/sga-6/I.html#I.0)
-  1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1)
+  1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1) *(11)*
+  2. [ ] Pseudo-coherent complexes *(18)*
+  3. [ ] Link to the classical notion of coherence *(7)*
+  4. [ ] Perfect complexes *(12)*
+  5. [ ] Finite $\operatorname{Tor}$-dimension and perfection *(10)*
+  6. [ ] Rank of a perfect complex *(9)*
+  7. [ ] Duality of perfect complexes *(6)*
+  8. [ ] Traces and cup-products *(5)*
 - [ ] II. Existence of global resolutions
 - [ ] III. Relative finiteness conditions
 - [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html)
-  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1)
+  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1) *(5)*
+  2. [ ] The functors $K_\bullet$ and $K^\bullet$ on a ringed topos *(12)*
+  3. [ ] Supplement on the Grothendieck groups of schemes *(7)*
 - [ ] V. Generalities on $\lambda$-rings
 - [ ] VI. $K^\bullet$ of a projective bundle: calculations and consequences
 - [ ] VII. Regular immersions and calculation of $K^\bullet$ of a blown-up scheme
