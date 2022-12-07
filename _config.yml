@@ -1,4 +1,4 @@
-remote_theme: poole/hyde
+remote_theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   parse_block_html: true
