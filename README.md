@@ -1,22 +1,22 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## [1. Étale covers and the fundamental group](https://thosgood.com/sga/SGA-1/index.html)
+## [1. Étale covers and the fundamental group](https://thosgood.com/sga/sga-1/index.html)
 
-- [x] [Introduction and foreword](https://thosgood.com/sga/SGA-1/index.html) *(@thosgood)*
-- [x] [I. Étale morphisms](https://thosgood.com/sga/SGA-1/I.html) *(@thosgood)*
-  1. [x] [Basics of differential calculus](https://thosgood.com/sga/SGA-1/I.html#I.1)
-  2. [x] [Quasi-finite morphisms](https://thosgood.com/sga/SGA-1/I.html#I.2)
-  3. [x] [Unramified morphisms](https://thosgood.com/sga/SGA-1/I.html#I.3)
-  4. [x] [Étale morphisms. Étale covers](https://thosgood.com/sga/SGA-1/I.html#I.4)
-  5. [x] [Fundamental property of étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.5)
-  6. [x] [Application to étale extensions of complete local rings](https://thosgood.com/sga/SGA-1/I.html#I.6)
-  7. [x] [Local construction of unramified and étale morphisms](https://thosgood.com/sga/SGA-1/I.html#I.7)
-  8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](https://thosgood.com/sga/SGA-1/I.html#I.8)
-  9. [x] [Invariance properties](https://thosgood.com/sga/SGA-1/I.html#I.9)
-  10. [x] [Étale covers of a normal scheme](https://thosgood.com/sga/SGA-1/I.html#I.10)
-  11. [x] [Various addenda](https://thosgood.com/sga/SGA-1/I.html#I.11)
-- [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/SGA-1/II.html)
-  1. [x] [Generalities](https://thosgood.com/sga/SGA-1/II.html#II.1) *(2)*
+- [x] [Introduction and foreword](https://thosgood.com/sga/sga-1/index.html) *(@thosgood)*
+- [x] [I. Étale morphisms](https://thosgood.com/sga/sga-1/I.html) *(@thosgood)*
+  1. [x] [Basics of differential calculus](https://thosgood.com/sga/sga-1/I.html#I.1)
+  2. [x] [Quasi-finite morphisms](https://thosgood.com/sga/sga-1/I.html#I.2)
+  3. [x] [Unramified morphisms](https://thosgood.com/sga/sga-1/I.html#I.3)
+  4. [x] [Étale morphisms. Étale covers](https://thosgood.com/sga/sga-1/I.html#I.4)
+  5. [x] [Fundamental property of étale morphisms](https://thosgood.com/sga/sga-1/I.html#I.5)
+  6. [x] [Application to étale extensions of complete local rings](https://thosgood.com/sga/sga-1/I.html#I.6)
+  7. [x] [Local construction of unramified and étale morphisms](https://thosgood.com/sga/sga-1/I.html#I.7)
+  8. [x] [Infinitesimal lifting of étale schemes. Applications to formal schemes](https://thosgood.com/sga/sga-1/I.html#I.8)
+  9. [x] [Invariance properties](https://thosgood.com/sga/sga-1/I.html#I.9)
+  10. [x] [Étale covers of a normal scheme](https://thosgood.com/sga/sga-1/I.html#I.10)
+  11. [x] [Various addenda](https://thosgood.com/sga/sga-1/I.html#I.11)
+- [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/sga-1/II.html)
+  1. [x] [Generalities](https://thosgood.com/sga/sga-1/II.html#II.1) *(2)*
   2. [ ] Some smoothness criteria for morphisms *(3)*
   3. [ ] Invariance properties *(1)*
   4. [ ] Differential properties of smooth morphisms *(17)*
@@ -114,11 +114,11 @@
 <br>
 
 
-## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/SGA-2/index.html)
+## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/sga-2/index.html)
 
-- [ ] [Introduction](https://thosgood.com/sga/SGA-2/index.html)
-- [ ] [I. Global and local cohomological invariants with respect to a closed subspace](https://thosgood.com/sga/SGA-2/I.html)
-  1. [ ] [The functors 𝛤𝑍 and <ins>𝛤𝑍</ins>](https://thosgood.com/sga/SGA-2/I.html#I.1) *(7)*
+- [ ] [Introduction](https://thosgood.com/sga/sga-2/index.html)
+- [ ] [I. Global and local cohomological invariants with respect to a closed subspace](https://thosgood.com/sga/sga-2/I.html)
+  1. [ ] [The functors 𝛤𝑍 and <ins>𝛤𝑍</ins>](https://thosgood.com/sga/sga-2/I.html#I.1) *(7)*
   2. [ ] The functors 𝐻𝑍•(𝑋,𝐹) and <ins>𝐻𝑍•(𝑋,𝐹)</ins> *(6)*
 -[ ] II. Applications to quasi-coherent sheaves on preschemes *(8)*
 -[ ] III. Cohomological invariants and depth
@@ -483,19 +483,19 @@
 <br>
 
 
-## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/index.html)
+## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html)
 
-- [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/SGA-6/zero.html)
-- [ ] <a href="https://thosgood.com/sga/SGA-6/zeroRRR.html">0[RRR]. Classes of sheaves and the Riemann--Roch theorem</a>
-  1. [ ] [λ-rings](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.I)
-  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.II)
-- [ ] <a href="https://thosgood.com/sga/SGA-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
-  0. [x] [Introduction](https://thosgood.com/sga/SGA-6/I.html#I.0)
-  1. [ ] [Preliminary definitions](https://thosgood.com/sga/SGA-6/I.html#I.1)
+- [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
+- [ ] <a href="https://thosgood.com/sga/sga-6/zeroRRR.html">0[RRR]. Classes of sheaves and the Riemann--Roch theorem</a>
+  1. [ ] [λ-rings](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I)
+  2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II)
+- [ ] <a href="https://thosgood.com/sga/sga-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
+  0. [x] [Introduction](https://thosgood.com/sga/sga-6/I.html#I.0)
+  1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1)
 - [ ] II. Existence of global resolutions
 - [ ] III. Relative finiteness conditions
-- [ ] <a href="https://thosgood.com/sga/SGA-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
-  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/SGA-6/IV.html#IV.1)
+- [ ] <a href="https://thosgood.com/sga/sga-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
+  1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1)
 - [ ] V. Generalities on λ-rings
 - [ ] VI. 𝐾• of a projective bundle: calculations and consequences
 - [ ] VII. Regular immersions and calculation of 𝐾• of a blown-up scheme
