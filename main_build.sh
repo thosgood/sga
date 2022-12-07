@@ -7,7 +7,7 @@ cp README.md build/index.md
 cp _config.yml build/
 cp -R assets build/
 
-# make this loop cleverer
+# TO-DO: make this loop cleverer (use a regex or something)
 for NUM in 1 6; do
   [ -d "sga-$NUM" ] &&
   cp {_output.yml,assets/scripts.html,assets/style.css} sga-$NUM/ &&
