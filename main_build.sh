@@ -9,9 +9,9 @@ cp -R assets build/
 
 for num in 1 2 6
 do
-  cp {_output.yml,assets/scripts.html,assets/style.css} SGA-$num/ &&
-  cd SGA-$num &&
+  cp {_output.yml,assets/scripts.html,assets/style.css} sga-$num/ &&
+  cd sga-$num &&
   ./build.R &&
-  mv build ../build/SGA-$num &&
+  mv build ../build/sga-$num &&
   cd -
 done
