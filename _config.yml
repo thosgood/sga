@@ -4,3 +4,4 @@ plugins:
 markdown: kramdown
 kramdown:
   parse_block_html: true
+  math_engine: katex
