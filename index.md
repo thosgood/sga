@@ -117,136 +117,65 @@
 ## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/SGA-2/index.html)
 
 - [ ] [Introduction](https://thosgood.com/sga/SGA-2/index.html)
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-2/">I. Global and local cohomological invariants with respect to a closed subspace</a>
-  </summary>
-
+- [ ] [I. Global and local cohomological invariants with respect to a closed subspace](https://thosgood.com/sga/SGA-2/I.html)
   1. [ ] [The functors 𝛤𝑍 and <ins>𝛤𝑍</ins>](https://thosgood.com/sga/SGA-2/I.html#I.1) *(7)*
   2. [ ] The functors 𝐻𝑍•(𝑋,𝐹) and <ins>𝐻𝑍•(𝑋,𝐹)</ins> *(6)*
-</details>
-
-<details>
-  <summary markdown="span">II. Applications to quasi-coherent sheaves on preschemes
-  </summary>
-
-  - [ ] Applications to quasi-coherent sheaves on preschemes *(8)*
-</details>
-
-<details>
-  <summary markdown="span">III. Cohomological invariants and depth
-  </summary>
-
+-[ ] II. Applications to quasi-coherent sheaves on preschemes *(8)*
+-[ ] III. Cohomological invariants and depth
   1. [ ] Reminders *(1)*
   2. [ ] Depth *(6)*
   3. [ ] Depth and topological properties *(9)*
-</details>
-
-<details>
-  <summary markdown="span">IV. Dualising modules and dualising functors
-  </summary>
-
+-[ ] IV. Dualising modules and dualising functors
   1. [ ] Generalities on functors of modules *(4)*
   2. [ ] Characterisation of exact functors *(1)*
   3. [ ] Study of the case where 𝑇 is left exact and 𝑇(𝑀) is of finite type for all 𝑀 *(3)*
   4. [ ] Dualising module. Dualising functor *(5)*
   5. [ ] Consequences of the theory of dualising modules *(5)*
-</details>
-
-<details>
-  <summary markdown="span">V. Local duality and structure of the 𝐻ⁱ(𝑀)
-  </summary>
-
+-[ ] V. Local duality and structure of the 𝐻ⁱ(𝑀)
   1. [ ] Complexes of homomorphisms *(3)*
   2. [ ] The local duality theorem for a local regular ring *(1)*
   3. [ ] Application to the structure of the 𝐻ⁱ(𝑀) *(7)*
-</details>
-
-<details>
-  <summary markdown="span">VI. The functors `\operatorname{Ext}(X;F,G)` and `\underline{\operatorname{Ext}}(F,G)`
-  </summary>
-
+-[ ] VI. The functors `\operatorname{Ext}(X;F,G)` and `\underline{\operatorname{Ext}}(F,G)`
   1. [ ] Generalities *(3)*
   2. [ ] Application to quasi-coherent sheaves on preschemes *(2)*
-</details>
-
-<details>
-  <summary markdown="span">VII. Nullity criteria. Coherence conditions for the sheaves `\underline{\operatorname{Ext}}(F,G)`
-  </summary>
-
+-[ ] VII. Nullity criteria. Coherence conditions for the sheaves `\underline{\operatorname{Ext}}(F,G)`
   1. [ ] Study of 𝑖<𝑛 *(5)*
   2. [ ] Study of 𝑖>𝑛 *(2)*
-</details>
-
-<details>
-  <summary markdown="span">VIII. Finiteness theorem
-  </summary>
-
+-[ ] VIII. Finiteness theorem
   1. [ ] Bi-duality spectral sequence *(5)*
   2. [ ] Finiteness theorem *(7)*
   3. [ ] Applications *(3)*
-</details>
-
-<details>
-  <summary markdown="span">IX. Algebraic geometry and formal geometry
-  </summary>
-
+-[ ] IX. Algebraic geometry and formal geometry
   1. [ ] Comparison theorem *(8)*
   2. [ ] Existence theorem *(4)*
-</details>
-
-<details>
-  <summary markdown="span">X. Applications to the fundamental group
-  </summary>
-
+-[ ] X. Applications to the fundamental group
   1. [ ] Comparison of `\mathsf{Et}(\widehat{X})` with `\mathsf{Et}(Y)` *(1)*
   2. [ ] Comparison of `\mathsf{Et}(Y)` with `\mathsf{Et}(U)`, for varying 𝑈 *(5)*
   3. [ ] Comparison of 𝜋₁(𝑋) with 𝜋₁(𝑈) *(7)*
-</details>
-
-<details>
-  <summary markdown="span">XI. Applications to the Picard group
-  </summary>
-
+-[ ] XI. Applications to the Picard group
   1. [ ] Comparison of `\operatorname{Pic}(\widehat{X})` with `\operatorname{Pic}(Y)` *(1)*
   2. [ ] Comparison of `\operatorname{Pic}(Y)` with `\operatorname{Pic}(U)`, for varying `U` *(5)*
   3. [ ] Comparison of `\mathsf{P}(X)` with `\mathsf{P}(U)` *(7)*
-</details>
-
-<details>
-  <summary markdown="span">XII. Applications to projective algebraic schemes
-  </summary>
-
+-[ ] XII. Applications to projective algebraic schemes
   1. [ ] Projective duality theorem and finiteness theorem *(7)*
   2. [ ] Lefschetz theory for a projective morphism: Grauert's comparison theorem *(4)*
   3. [ ] Lefschetz theory for a projective morphism: existence theorem *(7)*
   4. [ ] Formal completion and normal flatness *(10)*
   5. [ ] Universal finiteness conditions for a non-proper morphism *(8)*
-</details>
-
-<details>
-  <summary markdown="span">XIII. Problems and conjectures
-  </summary>
-
+-[ ] XIII. Problems and conjectures
   1. [ ] Links between local and global results. Affine problems relating to duality *(4)*
   2. [ ] Problems relating to 𝜋₀: local Bertini theorems *(5)*
   3. [ ] Problems relating to 𝜋₁ *(2)*
   4. [ ] Problems relating to higher 𝜋ᵢ: local and global Lefschetz theorems for complex analytic spaces *(6)*
   5. [ ] Problems relating to local Picard groups *(5)*
   6. [ ] Comments *(7)*
-</details>
-
-<details>
-  <summary markdown="span">XIV. Depth and Lefschetz theorems in étale cohomology
-  </summary>
-
+-[ ] XIV. Depth and Lefschetz theorems in étale cohomology
   1. [ ] Cohomological and homotopic depth *(30)*
   2. [ ] Technical lemmas *(7)*
   3. [ ] Converse of the affine Lefschetz theorem *(12)*
   4. [ ] Main theorem and variations *(21)*
   5. [ ] Geometric depth *(6)*
   6. [ ] Open questions *(5)*
-</details>
 
 
 <br>
@@ -254,56 +183,33 @@
 
 ## 3-1. Group schemes I: General properties of group schemes
 
-<details>
-  <summary markdown="span">I. Algebraic structures. Group cohomology
-  </summary>
-
+- [ ] I. Algebraic structures. Group cohomology
   1. [ ] Generalities *(12)*
   2. [ ] Algebraic structures *(7)*
   3. [ ] Category of `\mathcal{O}`-modules, category of `G`-`\mathcal{O}`-modules *(2)*
   4. [ ] Algebraic structures in the category of preschemes *(15)*
   5. [ ] Group cohomology *(6)*
-</details>
-
-<details>
-  <summary markdown="span">II. Tangent bundles. Lie algebras
-  </summary>
-
+- [ ] II. Tangent bundles. Lie algebras
   1. [ ] `\underline{\operatorname{Hom}}_{Z/S}(X,Y)` functors *(2)*
   2. [ ] The preschemes `I_S(M)` *(3)*
   3. [ ] The tangent bundle, the (E) condition *(11)*
   4. [ ] Tangent space of a group. Lie algebras *(15)*
   5. [ ] Calculation of some Lie algebras *(6)*
   6. [ ] Various remarks *(3)*
-</details>
-
-<details>
-  <summary markdown="span">III. Infinitesimal extensions
-  </summary>
-
+- [ ] III. Infinitesimal extensions
   0. [ ] Reminders from SGA 1 III. Various remarks *(15)*
   1. [ ] Extensions and cohomology *(12)*
   2. [ ] Infinitesimal extensions of a morphism of group preschemes *(9)*
   3. [ ] Infinitesimal extensions of a group prescheme *(6)*
   4. [ ] Infinitesimal extensions of closed subgroups *(32)*
-</details>
-
-<details>
-  <summary markdown="span">IV. Topologies and sheaves
-  </summary>
-
+- [ ] IV. Topologies and sheaves
   1. [ ] Universal effective epimorphisms  *(6)*
   2. [ ] Descent morphisms *(5)*
   3. [ ] Universal effective equivalence relations *(14)*
   4. [ ] Topologies and sheaves *(43)*
   5. [ ] Passage to the quotient and algebraic structures *(10)*
   6. [ ] Topologies in the category of schemes *(12)*
-</details>
-
-<details>
-  <summary markdown="span">V. Construction of quotient preschemes
-  </summary>
-
+- [ ] V. Construction of quotient preschemes
   1. [ ] `\mathcal{C}`-groupoids *(4)*
   2. [ ] Examples of `\mathcal{C}`-groupoids *(2)*
   3. [ ] Some syllogisms for `\mathcal{C}`-groupoids *(5)*
@@ -313,24 +219,14 @@
   7. [ ] Passage to the quotient by a proper and flat equivalence prerelation *(5)*
   8. [ ] Passage to the quotient by a flat and non-necessarily proper equivalence prerelation *(3)*
   9. [ ] Elimination of Noetherian hypotheses *(3)*
-</details>
-
-<details>
-  <summary markdown="span">VIa. Generalities on algebraic groups
-  </summary>
-
+- [ ] VIa. Generalities on algebraic groups
   0. [ ] Preliminary remarks *(4)*
   1. [ ] Local properties of an 𝐴-group of locally finite type *(4)*
   2. [ ] Connected components of an 𝐴-group of locally finite type *(5)*
   3. [ ] Construction of quotient groups: case of groups of finite type *(6)*
   4. [ ] Construction of quotient groups: general case *(6)*
   5. [ ] Addenda *(5)*
-</details>
-
-<details>
-  <summary markdown="span">VIb. Generalities on group preschemes
-  </summary>
-
+- [ ] VIb. Generalities on group preschemes
   1. [ ] Morphisms of groups of locally finite type over a field *(9)*
   2. [ ] "Open properties" of groups and morphisms of groups of locally finite presentation *(12)*
   3. [ ] Identity component of a group of locally finite presentation *(7)*
@@ -342,12 +238,7 @@
   9. [ ] Quotient sheaves *(6)*
   10. [ ] Passage to the projective limit for group preschemes and operator group preschemes *(11)*
   11. [ ] Affine group preschemes *(16)*
-</details>
-
-<details>
-  <summary markdown="span">VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
-  </summary>
-
+- [ ] VIIa. Infinitesimal study of group schemes: differential operators and Lie 𝑝-algebras
   1. [ ] Differential operators *(5)*
   2. [ ] Invariant differential operators on group preschemes *(7)*
   3. [ ] Coalgebras and Cartier duality *(10)*
@@ -356,29 +247,21 @@
   6. [ ] Lie 𝑝-algebras of a group 𝑆-prescheme *(7)*
   7. [ ] Radicial groups of height 1 *(8)*
   8. [ ] Case of a base field *(6)*
-</details>
-
-<details>
-  <summary markdown="span">VIIb. Infinitesimal study of group schemes: formal groups
-  </summary>
-
+- [ ] VIIb. Infinitesimal study of group schemes: formal groups
   0. [ ] Reminders on pseudocompact rings and modules *(15)*
   1. [ ] Formal varieties over a pseudocompact ring *(20)*
   2. [ ] Generalities on formal groups *(19)*
   3. [ ] Phenomena particular to characteristic 0 *(10)*
   4. [ ] Phenomena particular to characteristic 𝑝>0 *(10)*
   5. [ ] Homogeneous spaces of infinitesimal formal groups over a field *(13)*
-</details>
+
 
 <br>
 
 
 ## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes
 
-<details>
-  <summary markdown="span">VIII. Diagonalisable groups
-  </summary>
-
+- [ ] VIII. Diagonalisable groups
   1. [ ] Biduality *(5)*
   2. [ ] Scheme-theoretic properties of diagonalisable groups *(1)*
   3. [ ] Exactness properties of the functor 𝐷ₛ *(4)*
@@ -386,12 +269,7 @@
   5. [ ] Quotient of an affine scheme by a diagonalisable group acting freely *(5)*
   6. [ ] Essentially free morphisms, and representability of certain functors of the form `\prod_{Y/S}Z/Y` *(5)*
   7. [ ] Appendix: Monomorphisms of group preschemes *(25)*
-</details>
-
-<details>
-  <summary markdown="span">IX. Groups of multiplicative type: homomorphisms to a group scheme
-  </summary>
-
+- [ ] IX. Groups of multiplicative type: homomorphisms to a group scheme
   1. [ ] Definitions *(3)*
   2. [ ] Extension of certain properties of diagonalisable groups to groups of multiplicative type *(6)*
   3. [ ] Infinitesimal properties: lifting and conjugation theorem *(4)*
@@ -400,12 +278,7 @@
   6. [ ] Monomorphisms of groups of multiplicative type and canonical factorisation of a homomorphism of such a group *(5)*
   7. [ ] Algebraicity of formal homomorphisms to an affine group *(6)*
   8. [ ] Subgroups, quotient groups, and extensions of groups of multiplicative type over a field *(3)*
-</details>
-
-<details>
-  <summary markdown="span">X. Characterisation and classification of group of multiplicative types
-  </summary>
-
+- [ ] X. Characterisation and classification of group of multiplicative types
   1. [ ] Classification of isotrivial groups: case of a base field *(4)*
   2. [ ] Infinitesimal variations of structure *(5)*
   3. [ ] Infinitesimal finite variations of structure: case of a complete base ring *(6)*
@@ -414,12 +287,7 @@
   6. [ ] Infinite principal Galois coverings and the enlarged fundamental group *(6)*
   7. [ ] Classification of twisted constant preschemes and finite groups of multiplicative type in terms of the enlarged fundamental group *(4)*
   8. [ ] Appendix: Elimination of certain affine hypotheses *(11)*
-</details>
-
-<details>
-  <summary markdown="span">XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
-  </summary>
-
+- [ ] XI. Representability criteria. Applications to multiplicative subgroups of affine group schemes
   0. [ ] Introduction *(1)*
   1. [ ] Reminders on smooth, étale, and unramified morphisms *(9)*
   2. [ ] Examples of formally smooth functors extracted from the theory of groups of multiplicative type *(4)*
@@ -427,12 +295,7 @@
   4. [ ] Scheme of subgroups of multiplicative type of an affine smooth group *(7)*
   5. [ ] First corollaries of the representability theorem *(7)*
   6. [ ] On a rigidity property for homomorphisms of certain group schemes, and the representability of certain transporters *(9)*
-</details>
-
-<details>
-  <summary markdown="span">XII. Maximal toruses, Weyl group, Cartan subgroup, reductive centre of smooth and affine group schemes
-  </summary>
-
+- [ ] XII. Maximal toruses, Weyl group, Cartan subgroup, reductive centre of smooth and affine group schemes
   1. [ ] Maximal toruses *(1)*
   2. [ ] The Weyl group *(10)*
   3. [ ] Cartan subgroups *(5)*
@@ -441,24 +304,14 @@
   6. [ ] Maximal toruses and Cartan subgroups of not-necessarily affine algebraic groups (over an algebraically closed base field) *(6)*
   7. [ ] Application to non-necessarily affine smooth group preschemes *(23)*
   8. [ ] Semi-simple elements, union and intersection of maximal toruses in non-necessarily affine group schemes *(2)*
-</details>
-
-<details>
-  <summary markdown="span">XIII. Regular elements of algebraic groups and of Lie algebras
-  </summary>
-
+- [ ] XIII. Regular elements of algebraic groups and of Lie algebras
   1. [ ] An auxiliary lemma on varieties with operators *(4)*
   2. [ ] Density theorem and the theory of regular points of 𝐺 *(16)*
   3. [ ] Case of a prescheme over an arbitrary base *(7)*
   4. [ ] Lie algebras over a field: rank, regular elements, Cartan sub-algebras *(7)*
   5. [ ] Case of the Lie algebra of a smooth algebraic group: density theorem *(8)*
   6. [ ] Cartan sub-algebras and subgroups of type (C), with respect to a smooth algebraic group *(5)*
-</details>
-
-<details>
-  <summary markdown="span">XIV. Regular elements (continued). Applications to algebraic groups
-  </summary>
-
+- [ ] XIV. Regular elements (continued). Applications to algebraic groups
   1. [ ] Construction of Cartan subgroups and maximal toruses for a smooth algebraic group *(3)*
   2. [ ] Lie algebras on an arbitrary prescheme: regular sections and Cartan sub-algebras *(13)*
   3. [ ] Subgroups of type (C) of group preschemes over an arbitrary prescheme *(11)*
@@ -466,12 +319,7 @@
   5. [ ] Relations between Cartan subgroups and Cartan sub-algebras *(4)*
   6. [ ] Applications to the structure of algebraic groups *(8)*
   7. [ ] Appendix: Existence of regular elements over finite fields *(7)*
-</details>
-
-<details>
-  <summary markdown="span">XV. Addenda on sub-toruses of group preschemes. Application to smooth groups
-  </summary>
-
+- [ ] XV. Addenda on sub-toruses of group preschemes. Application to smooth groups
   0. [ ] Introduction *(1)*
   1. [ ] Lifting finite subgroups *(7)*
   2. [ ] Infinitesimal lifting of sub-toruses *(17)*
@@ -481,24 +329,14 @@
   6. [ ] Functor of Cartan subgroups and functor of parabolic subgroups *(13)*
   7. [ ] Cartan subgroups of a smooth group *(14)*
   8. [ ] Representability criteria of the functor of sub-toruses of a smooth group *(25)*
-</details>
-
-<details>
-  <summary markdown="span">XVI. Groups of unipotent rank zero
-  </summary>
-
+- [ ] XVI. Groups of unipotent rank zero
   1. [ ] An immersion criterion *(19)*
   2. [ ] Representability theorem for quotients *(7)*
   3. [ ] Groups with flat centre *(10)*
   4. [ ] Groups with affine fibres, of unitpotent rank zero *(4)*
   5. [ ] Application to reductive and semi-simple groups *(3)*
   6. [ ] Applications: extension of certain rigidity properties of toruses of groups of unipotent rank zero *(5)*
-</details>
-
-<details>
-  <summary markdown="span">XVII. Unipotent algebraic groups. Extensions between unipotent groups and group of multiplicative types
-  </summary>
-
+- [ ] XVII. Unipotent algebraic groups. Extensions between unipotent groups and group of multiplicative types
   0. [ ] Some notation *(2)*
   1. [ ] Definition of unipotent algebraic groups *(4)*
   2. [ ] First properties of unipotent groups *(9)*
@@ -510,17 +348,11 @@
   8. [ ] Appendix I: Hochschild cohomology and extensions of algebraic groups *(5)*
   9. [ ] Appendix II: Reminders and addenda on radicial groups *(4)*
   10. [ ] Appendix III: Remarks and addenda for chapters XV, XVI, and XVII *(5)*
-</details>
-
-<details>
-  <summary markdown="span">XVIII. Weil's theorem on the construction of a group from a rational law
-  </summary>
-
+- [ ] XVIII. Weil's theorem on the construction of a group from a rational law
   0. [ ] Introduction *(1)*
   1. [ ] "Reminders" on rational maps *(2)*
   2. [ ] Local determination of a morphism of groups *(4)*
   3. [ ] Construction of a group from a rational law *(15)*
-</details>
 
 
 <br>
@@ -528,34 +360,21 @@
 
 ## 3-3. Group schemes III: Structure of reductive group schemes
 
-<details>
-  <summary markdown="span">XIX. Reductive groups: generalities
-  </summary>
-
+- [ ] XIX. Reductive groups: generalities
   1. [ ] Reminders on groups over an algebraically closed field *(9)*
   2. [ ] Reductive group schemes: definitions and first properties *(5)*
   3. [ ] Roots and root systems of reductive group schemes *(4)*
   4. [ ] Roots and vector group schemes *(6)*
   5. [ ] An instructive example
   6. [ ] Local existence of maximal toruses. The Weyl group *(4)*
-</details>
-
-<details>
-  <summary markdown="span">XX. Reductive groups of semi-simple rank 1
-  </summary>
-
+- [ ] XX. Reductive groups of semi-simple rank 1
   1. [ ] Elementary systems. The groups 𝑃ᵣ and 𝑃₋ᵣ *(12)*
   2. [ ] Structure of elementary systems *(13)*
   3. [ ] The Weyl group *(11)*
   4. [ ] The isomorphism theorem *(2)*
   5. [ ] Examples of elementary systems, applications *(7)*
   6. [ ] Generators and relations for an elementary system *(5)*
-</details>
-
-<details>
-  <summary markdown="span">XXI. Radicial data
-  </summary>
-
+- [ ] XXI. Radicial data
   1. [ ] Generalities *(7)*
   2. [ ] Relations between two roots *(5)*
   3. [ ] Simple roots, positive roots *(20)*
@@ -563,46 +382,23 @@
   5. [ ] The Weyl group: generators and relations *(6)*
   6. [ ] Morphisms of radicial data *(17)*
   7. [ ] Structure *(12)*
-</details>
-
-<details>
-  <summary markdown="span">XXII. Reductive groups: split groups, subgroups, quotient groups
-  </summary>
-
+- [ ] XXII. Reductive groups: split groups, subgroups, quotient groups
   1. [ ] Roots and coroots. Split groups and radicial data *(9)*
   2. [ ] Existence of split groups. Type of a reductive group *(3)*
   3. [ ] The Weyl group *(3)*
   4. [ ] Homomorphisms of split groups *(16)*
   5. [ ] Subgroups of type (R) *(64)*
   6. [ ] The derived group *(12)*
-</details>
-
-<details>
-  <summary markdown="span">XXIII. Reductive groups: uniticity of pinned groups
-  </summary>
-
+- [ ] XXIII. Reductive groups: uniticity of pinned groups
   1. [ ] Pinnings *(8)*
   2. [ ] Generators and relations for a pinned group *(14)*
   3. [ ] Groups of semi-simple rank 2 *(20)*
   4. [ ] Uniqueness of pinned groups: fundamental theorem *(8)*
   5. [ ] Corollaries of the fundamental theorem *(5)*
   6. [ ] Chevalley systems *(5)*
-</details>
-
-<details>
-  <summary markdown="span">XXIV. Automorphisms of reductive groups
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XXV. Existence theorem
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XXVI Parabolic subgroups of reductive groups
-  </summary>
-</details>
+- [ ] XXIV. Automorphisms of reductive groups
+- [ ] XXV. Existence theorem
+- [ ] XXVI Parabolic subgroups of reductive groups
 
 
 <br>
@@ -610,25 +406,10 @@
 
 ## 4-1. Topos theory and étale cohomology of schemes I
 
-<details>
-  <summary markdown="span">I. Presheaves
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">II. Topologies and sheaves
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">III. Functoriality of categories of sheaves
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IV. Toposes
-  </summary>
-</details>
+- [ ] I. Presheaves
+- [ ] II. Topologies and sheaves
+- [ ] III. Functoriality of categories of sheaves
+- [ ] IV. Toposes
 
 
 <br>
@@ -636,30 +417,11 @@
 
 ## 4-2. Topos theory and étale cohomology of schemes II
 
-<details>
-  <summary markdown="span">V. Cohomology in toposes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">Vb. Techniques for cohomological descent
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VI. Finiteness conditions. Fibred toposes and sites. Applications to questions of passing to the limit
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VII. Étale site and topos of a scheme
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VIII. Fibred functors, supports, cohomological study of finite morphisms
-  </summary>
-</details>
+- [ ] V. Cohomology in toposes
+- [ ] Vb. Techniques for cohomological descent
+- [ ] VI. Finiteness conditions. Fibred toposes and sites. Applications to questions of passing to the limit
+- [ ] VII. Étale site and topos of a scheme
+- [ ] VIII. Fibred functors, supports, cohomological study of finite morphisms
 
 
 <br>
@@ -667,60 +429,17 @@
 
 ## 4-3. Topos theory and étale cohomology of schemes III
 
-<details>
-  <summary markdown="span">IX. Constructible sheaves. Cohomology of an algebraic curve
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">X. Cohomological dimension: first results
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XI. Comparison with classical cohomology: the case of a smooth prescheme
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XII. Base change theorem for a proper morphism
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIII. Base change theorem for a proper morphism: end of proof
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIV. Finiteness theorem for a proper morphism; cohomological dimension of affine algebraic schemes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XV. Acyclic morphisms
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVI. Base change theorem for a smooth morphism, and applications
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVII. Cohomology with proper support
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVIII. The global duality formula
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIX. Cohomology of excellent preschemes of equal characteristic
-  </summary>
-</details>
+- [ ] IX. Constructible sheaves. Cohomology of an algebraic curve
+- [ ] X. Cohomological dimension: first results
+- [ ] XI. Comparison with classical cohomology: the case of a smooth prescheme
+- [ ] XII. Base change theorem for a proper morphism
+- [ ] XIII. Base change theorem for a proper morphism: end of proof
+- [ ] XIV. Finiteness theorem for a proper morphism; cohomological dimension of affine algebraic schemes
+- [ ] XV. Acyclic morphisms
+- [ ] XVI. Base change theorem for a smooth morphism, and applications
+- [ ] XVII. Cohomology with proper support
+- [ ] XVIII. The global duality formula
+- [ ] XIX. Cohomology of excellent preschemes of equal characteristic
 
 
 <br>
@@ -728,50 +447,15 @@
 
 ## 4½. Étale cohomology
 
-<details>
-  <summary markdown="span">0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">1. Étale cohomology: starting points
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">2. Relation to the trace formula
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">3. 𝐿-functions modulo ℓⁿ and modulo 𝑝
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">4. Cohomology class associated to a cycle
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">5. Duality
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">6. Applications of the trace formula to trigonometric sums
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">7. Finiteness theorems in ℓ-adic cohomology
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">8. Derived categories
-  </summary>
-</details>
+- [ ] 0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
+- [ ] 1. Étale cohomology: starting points
+- [ ] 2. Relation to the trace formula
+- [ ] 3. 𝐿-functions modulo ℓⁿ and modulo 𝑝
+- [ ] 4. Cohomology class associated to a cycle
+- [ ] 5. Duality
+- [ ] 6. Applications of the trace formula to trigonometric sums
+- [ ] 7. Finiteness theorems in ℓ-adic cohomology
+- [ ] 8. Derived categories
 
 
 <br>
@@ -779,80 +463,21 @@
 
 ## 5. ℓ-adic cohomology and 𝐿-functions
 
-<details>
-  <summary markdown="span">I. Dualising complexes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">II. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">III. The Lefschetz formula
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IIIb. Calculations of local terms
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IV. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">V. 𝐽-adic projective systems
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VI. ℓ-adic cohomology
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VII. Cohomology of some classical schemes; cohomological theory of Chern classes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VIII. Groups of classes of abelian and triangulated categories, perfect complexes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IX. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">X. The Euler--Poincaré formula in étale cohomology
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XI. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIII. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIV. The Frobenius morphism, and rationality of 𝐿-functions
-  </summary>
-</details>
+- [ ] I. Dualising complexes
+- [ ] II. <i>(Does not exist)</i>
+- [ ] III. The Lefschetz formula
+- [ ] IIIb. Calculations of local terms
+- [ ] IV. <i>(Does not exist)</i>
+- [ ] V. 𝐽-adic projective systems
+- [ ] VI. ℓ-adic cohomology
+- [ ] VII. Cohomology of some classical schemes; cohomological theory of Chern classes
+- [ ] VIII. Groups of classes of abelian and triangulated categories, perfect complexes
+- [ ] IX. <i>(Does not exist)</i>
+- [ ] X. The Euler--Poincaré formula in étale cohomology
+- [ ] XI. <i>(Does not exist)</i>
+- [ ] XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
+- [ ] XIII. <i>(Does not exist)</i>
+- [ ] XIV. The Frobenius morphism, and rationality of 𝐿-functions
 
 
 <br>
@@ -861,89 +486,26 @@
 ## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/SGA-6/index.html)
 
 - [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/SGA-6/zero.html)
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/zeroRRR.html">0[RRR]. Classes of sheaves and the Riemann--Roch theorem</a>
-  </summary>
-
+- [ ] <a href="https://thosgood.com/sga/SGA-6/zeroRRR.html">0[RRR]. Classes of sheaves and the Riemann--Roch theorem</a>
   1. [ ] [λ-rings](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.I)
   2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/SGA-6/zeroRRR.html#zeroRRR.II)
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
-  </summary>
-
+- [ ] <a href="https://thosgood.com/sga/SGA-6/I.html">I. Generalities on finiteness conditions in derived categories</a>
   0. [x] [Introduction](https://thosgood.com/sga/SGA-6/I.html#I.0)
   1. [ ] [Preliminary definitions](https://thosgood.com/sga/SGA-6/I.html#I.1)
-</details>
-
-<details>
-  <summary markdown="span">II. Existence of global resolutions
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">III. Relative finiteness conditions
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span"><a href="https://thosgood.com/sga/SGA-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
-  </summary>
-
+- [ ] II. Existence of global resolutions
+- [ ] III. Relative finiteness conditions
+- [ ] <a href="https://thosgood.com/sga/SGA-6/IV.html">IV. Grothendieck groups of ringed toposes</a>
   1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/SGA-6/IV.html#IV.1)
-</details>
-
-<details>
-  <summary markdown="span">V. Generalities on λ-rings
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VI. 𝐾• of a projective bundle: calculations and consequences
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VII. Regular immersions and calculation of 𝐾• of a blown-up scheme
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VIII. The Riemann--Roch theorem
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IX. Some calculations of 𝐾 groups
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">X. Formalism of intersections on proper algebraic schemes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XI. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XII. Relative representability theorem for the Picard functor
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIII. Finiteness theorems for the Picard functor
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIV. Open problems in intersection theory
-  </summary>
-</details>
+- [ ] V. Generalities on λ-rings
+- [ ] VI. 𝐾• of a projective bundle: calculations and consequences
+- [ ] VII. Regular immersions and calculation of 𝐾• of a blown-up scheme
+- [ ] VIII. The Riemann--Roch theorem
+- [ ] IX. Some calculations of 𝐾 groups
+- [ ] X. Formalism of intersections on proper algebraic schemes
+- [ ] XI. <i>(Does not exist)</i>
+- [ ] XII. Relative representability theorem for the Picard functor
+- [ ] XIII. Finiteness theorems for the Picard functor
+- [ ] XIV. Open problems in intersection theory
 
 
 <br>
@@ -951,50 +513,15 @@
 
 ## 7-1. Monodromy groups in algebraic geometry I
 
-<details>
-  <summary markdown="span">I. Summary of the first talks by A. Grothendieck
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">II. Finiteness properties of the fundamental group
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">III. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IV. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">V. <i>(Does not exist)</i>
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VI. Formal deformation theory
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VII. Bi-extension of sheaves of groups
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">VIII. Addenda on bi-extensions. General properties of bi-extensions of group schemes
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">IX. Néron models and monodromy
-  </summary>
-</details>
+- [ ] I. Summary of the first talks by A. Grothendieck
+- [ ] II. Finiteness properties of the fundamental group
+- [ ] III. <i>(Does not exist)</i>
+- [ ] IV. <i>(Does not exist)</i>
+- [ ] V. <i>(Does not exist)</i>
+- [ ] VI. Formal deformation theory
+- [ ] VII. Bi-extension of sheaves of groups
+- [ ] VIII. Addenda on bi-extensions. General properties of bi-extensions of group schemes
+- [ ] IX. Néron models and monodromy
 
 
 <br>
@@ -1002,67 +529,16 @@
 
 ## 7-2. Monodromy groups in algebraic geometry II
 
-<details>
-  <summary markdown="span">X. Intersections on regular surfaces
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XI. Cohomology of complete intersections
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XII. Quadrics
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIII. Formalism of vanishing cycles
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIV. Comparison with transcendental theory
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XV. The Picard--Lefschetz formula
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVI. The Milnor formula
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVII. Lefschetz pencils: existence theorem
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XVIII. Cohomological study of Lefschetz pencils
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XIX. Noether's theorem
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XX Griffiths's theorem
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XXI. Level of cohomology of complete intersections
-  </summary>
-</details>
-
-<details>
-  <summary markdown="span">XXII. Congruence formula for the 𝜻-function
-  </summary>
-</details>
+- [ ] X. Intersections on regular surfaces
+- [ ] XI. Cohomology of complete intersections
+- [ ] XII. Quadrics
+- [ ] XIII. Formalism of vanishing cycles
+- [ ] XIV. Comparison with transcendental theory
+- [ ] XV. The Picard--Lefschetz formula
+- [ ] XVI. The Milnor formula
+- [ ] XVII. Lefschetz pencils: existence theorem
+- [ ] XVIII. Cohomological study of Lefschetz pencils
+- [ ] XIX. Noether's theorem
+- [ ] XX Griffiths's theorem
+- [ ] XXI. Level of cohomology of complete intersections
+- [ ] XXII. Congruence formula for the 𝜻-function
