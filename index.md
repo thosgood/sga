@@ -1,6 +1,6 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
-## [1. Étale covers and the fundamental group](https://thosgood.com/sga/sga-1/index.html)
+## [1. Étale covers and the fundamental group](https://thosgood.com/sga/sga-1/index.html) {#sga-1}
 
 - [x] [Introduction and foreword](https://thosgood.com/sga/sga-1/index.html) *(@thosgood)*
 - [x] [I. Étale morphisms](https://thosgood.com/sga/sga-1/I.html) *(@thosgood)*
@@ -114,7 +114,7 @@
 <br>
 
 
-## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/sga-2/index.html)
+## [2. Local cohomology of coherent sheaves and local and global Lefschetz theorems](https://thosgood.com/sga/sga-2/index.html) {#sga-2}
 
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
@@ -181,7 +181,7 @@
 <br>
 
 
-## 3-1. Group schemes I: General properties of group schemes
+## 3-1. Group schemes I: General properties of group schemes {#sga-3-1}
 
 - [ ] I. Algebraic structures. Group cohomology
   1. [ ] Generalities *(12)*
@@ -259,7 +259,7 @@
 <br>
 
 
-## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes
+## 3-2. Group schemes II: Groups of multiplicative type, and structure of general group schemes {#sga-3-2}
 
 - [ ] VIII. Diagonalisable groups
   1. [ ] Biduality *(5)*
@@ -358,7 +358,7 @@
 <br>
 
 
-## 3-3. Group schemes III: Structure of reductive group schemes
+## 3-3. Group schemes III: Structure of reductive group schemes {#sga-3-3}
 
 - [ ] XIX. Reductive groups: generalities
   1. [ ] Reminders on groups over an algebraically closed field *(9)*
@@ -404,7 +404,7 @@
 <br>
 
 
-## 4-1. Topos theory and étale cohomology of schemes I
+## 4-1. Topos theory and étale cohomology of schemes I {#sga-4-1}
 
 - [ ] I. Presheaves
 - [ ] II. Topologies and sheaves
@@ -415,7 +415,7 @@
 <br>
 
 
-## 4-2. Topos theory and étale cohomology of schemes II
+## 4-2. Topos theory and étale cohomology of schemes II {#sga-4-2}
 
 - [ ] V. Cohomology in toposes
 - [ ] Vb. Techniques for cohomological descent
@@ -427,7 +427,7 @@
 <br>
 
 
-## 4-3. Topos theory and étale cohomology of schemes III
+## 4-3. Topos theory and étale cohomology of schemes III {#sga-4-3}
 
 - [ ] IX. Constructible sheaves. Cohomology of an algebraic curve
 - [ ] X. Cohomological dimension: first results
@@ -445,7 +445,7 @@
 <br>
 
 
-## 4½. Étale cohomology
+## 4½. Étale cohomology {#sga-4.5}
 
 - [ ] 0. An Ariadne's thread for SGA 4, SGA 4½, and SGA 5
 - [ ] 1. Étale cohomology: starting points
@@ -461,7 +461,7 @@
 <br>
 
 
-## 5. ℓ-adic cohomology and 𝐿-functions
+## 5. ℓ-adic cohomology and 𝐿-functions {#sga-5}
 
 - [ ] I. Dualising complexes
 - [ ] II. <i>(Does not exist)</i>
@@ -483,7 +483,7 @@
 <br>
 
 
-## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html)
+## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html) {#sga-6}
 
 - [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
 - [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
@@ -511,7 +511,7 @@
 <br>
 
 
-## 7-1. Monodromy groups in algebraic geometry I
+## 7-1. Monodromy groups in algebraic geometry I {#sga-7-1}
 
 - [ ] I. Summary of the first talks by A. Grothendieck
 - [ ] II. Finiteness properties of the fundamental group
@@ -527,7 +527,7 @@
 <br>
 
 
-## 7-2. Monodromy groups in algebraic geometry II
+## 7-2. Monodromy groups in algebraic geometry II {#sga-7-2}
 
 - [ ] X. Intersections on regular surfaces
 - [ ] XI. Cohomology of complete intersections
