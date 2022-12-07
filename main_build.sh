@@ -6,6 +6,7 @@ mkdir -p build
 cp README.md build/index.md
 cp _config.yml build/
 cp -R assets build/
+cp -R _layouts build/
 
 # TO-DO: make this loop cleverer (use a regex or something)
 for NUM in 1 6; do
