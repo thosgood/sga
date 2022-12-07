@@ -114,7 +114,7 @@
 <br>
 
 
-## 2. Local cohomology of coherent sheaves and local and global Lefschetz theoremshttps://thosgood.com/sga/sga-2/index.ht {#sga-2}
+## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems {#sga-2}
 
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
@@ -501,7 +501,7 @@
   8. [ ] Traces and cup-products *(5)*
 - [ ] II. Existence of global resolutions
 - [ ] III. Relative finiteness conditions
-- [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html)
+- [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html) *(@thosgood)*
   1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1) *(5)*
   2. [ ] The functors $K_\bullet$ and $K^\bullet$ on a ringed topos *(12)*
   3. [ ] Supplement on the Grothendieck groups of schemes *(7)*
