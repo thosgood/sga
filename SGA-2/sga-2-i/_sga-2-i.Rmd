@@ -1,2 +1,0 @@
-# I. Global and local cohomological invariants with respect to a closed subspace {#I}
-

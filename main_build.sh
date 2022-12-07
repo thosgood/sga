@@ -7,7 +7,7 @@ cp README.md build/index.md
 cp _config.yml build/
 cp -R assets build/
 
-for num in 1 2 6
+for num in 1 6
 do
   cp {_output.yml,assets/scripts.html,assets/style.css} sga-$num/ &&
   cd sga-$num &&
