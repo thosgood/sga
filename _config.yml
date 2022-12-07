@@ -1,4 +1,4 @@
-remote_theme: CloudCannon/edition-jekyll-template
+remote_theme: poole/hyde
 markdown: kramdown
 kramdown:
   parse_block_html: true
