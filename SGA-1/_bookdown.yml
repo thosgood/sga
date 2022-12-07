@@ -1,23 +1,23 @@
-book_filename: "SGA-1"
+book_filename: "sga-1"
 delete_merged_file: true
-view: https://github.com/thosgood/sga/blob/main/SGA-1/%s
+view: https://github.com/thosgood/sga/blob/main/sga-1/%s
 language:
   ui:
     chapter_name: "Exposé "
 rmd_files:
 - index.Rmd
-- SGA-1.I/SGA-1.I.Rmd
-- SGA-1.I/SGA-1.I.1.Rmd
-- SGA-1.I/SGA-1.I.2.Rmd
-- SGA-1.I/SGA-1.I.3.Rmd
-- SGA-1.I/SGA-1.I.4.Rmd
-- SGA-1.I/SGA-1.I.5.Rmd
-- SGA-1.I/SGA-1.I.6.Rmd
-- SGA-1.I/SGA-1.I.7.Rmd
-- SGA-1.I/SGA-1.I.8.Rmd
-- SGA-1.I/SGA-1.I.9.Rmd
-- SGA-1.I/SGA-1.I.10.Rmd
-- SGA-1.I/SGA-1.I.11.Rmd
-- SGA-1.II/SGA-1.II.Rmd
-- SGA-1.II/SGA-1.II.1.Rmd
-- SGA-1.II/SGA-1.II.2.Rmd
+- sga-1-i/_sga-1-i.Rmd
+- sga-1-i/sga-1-i-1.Rmd
+- sga-1-i/sga-1-i-2.Rmd
+- sga-1-i/sga-1-i-3.Rmd
+- sga-1-i/sga-1-i-4.Rmd
+- sga-1-i/sga-1-i-5.Rmd
+- sga-1-i/sga-1-i-6.Rmd
+- sga-1-i/sga-1-i-7.Rmd
+- sga-1-i/sga-1-i-8.Rmd
+- sga-1-i/sga-1-i-9.Rmd
+- sga-1-i/sga-1-i-10.Rmd
+- sga-1-i/sga-1-i-11.Rmd
+- sga-1-ii/_sga-1-ii.Rmd
+- sga-1-ii/sga-1-ii-1.Rmd
+- sga-1-ii/sga-1-ii-2.Rmd

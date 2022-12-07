@@ -1,17 +1,17 @@
-book_filename: "SGA-6"
+book_filename: "sga-6"
 delete_merged_file: true
-view: https://github.com/thosgood/sga/blob/main/SGA-6/%s
+view: https://github.com/thosgood/sga/blob/main/sga-6/%s
 language:
   ui:
     chapter_name: "Exposé "
 rmd_files:
 - index.Rmd
-- SGA-6.0/SGA-6.0.Rmd
-- SGA-6.0/SGA-6.0RRR.Rmd
-- SGA-6.0/SGA-6.0RRR.I.Rmd
-- SGA-6.0/SGA-6.0RRR.II.Rmd
-- SGA-6.I/SGA-6.I.Rmd
-- SGA-6.I/SGA-6.I.0.Rmd
-- SGA-6.I/SGA-6.I.1.Rmd
-- SGA-6.IV/SGA-6.IV.Rmd
-- SGA-6.IV/SGA-6.IV.1.Rmd
+- sga-6-0/_sga-6-0.Rmd
+- sga-6-0/_sga-6-0rrr.Rmd
+- sga-6-0/sga-6-0rrr-i.Rmd
+- sga-6-0/sga-6-0rrr-ii.Rmd
+- sga-6-i/_sga-6-i.Rmd
+- sga-6-i/sga-6-i-0.Rmd
+- sga-6-i/sga-6-i-1.Rmd
+- sga-6-iv/_sga-6-iv.Rmd
+- sga-6-iv/sga-6-iv-1.Rmd

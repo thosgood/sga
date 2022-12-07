@@ -1,10 +1,10 @@
-book_filename: "SGA-2"
+book_filename: "sga-2"
 delete_merged_file: true
-view: https://github.com/thosgood/sga/blob/main/SGA-2/%s
+view: https://github.com/thosgood/sga/blob/main/sga-2/%s
 language:
   ui:
     chapter_name: "Exposé "
 rmd_files:
 - index.Rmd
-- SGA-2.I/SGA-2.I.Rmd
-- SGA-2.I/SGA-2.I.1.Rmd
+- sga-2-i/_sga-2-i.Rmd
+- sga-2-i/sga-2-i-1.Rmd
