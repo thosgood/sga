@@ -461,7 +461,7 @@
 <br>
 
 
-## 5. ℓ-adic cohomology and 𝐿-functions {#sga-5}
+## 5. $\ell$-adic cohomology and $L$-functions {#sga-5}
 
 - [ ] I. Dualising complexes
 - [ ] II. <i>(Does not exist)</i>
@@ -469,7 +469,7 @@
 - [ ] IIIb. Calculations of local terms
 - [ ] IV. <i>(Does not exist)</i>
 - [ ] V. 𝐽-adic projective systems
-- [ ] VI. ℓ-adic cohomology
+- [ ] VI. $\ell$-adic cohomology
 - [ ] VII. Cohomology of some classical schemes; cohomological theory of Chern classes
 - [ ] VIII. Groups of classes of abelian and triangulated categories, perfect complexes
 - [ ] IX. <i>(Does not exist)</i>
@@ -477,7 +477,7 @@
 - [ ] XI. <i>(Does not exist)</i>
 - [ ] XII. The Nielsen--Wecken and Lefschetz formulas in algebraic geometry
 - [ ] XIII. <i>(Does not exist)</i>
-- [ ] XIV. The Frobenius morphism, and rationality of 𝐿-functions
+- [ ] XIV. The Frobenius morphism, and rationality of $L$-functions
 
 
 <br>
