@@ -407,8 +407,33 @@
 ## 4-I. Topos theory and étale cohomology of schemes I {#sga-4-I}
 
 - [ ] I. Presheaves
+  1. [ ] Universes
+  2. [ ] 𝒰-categories. Presheaves of sets
+  3. [ ] Projective and inductive limits
+  4. [ ] Exactness properties of the category of presheaves
+  4. [ ] Sieves
+  6. [ ] Functoriality of categories of presheaves
+  7. [ ] Faithful functors and conservative functors
+  8. [ ] Generators and cogenerators sub-categories
+  9. [ ] Ind-objects and pro-objects 
+  10. [ ] Accessible functors, cardinal filtrations and the construction of small generators sub-categories
+  11. [ ] Glossary
+  12. [ ] References
 - [ ] II. Topologies and sheaves
+  1. [ ] Topologies, covering families, pre-topologies
+  2. [ ] Sheaves of sets
+  3. [ ] Sheaf associated to a presheaf
+  4. [ ] Exactness properties of the category of sheaves
+  4. [ ] Extension of a topology from $C$ to $C$<sup>^</sup>
+  6. [ ] Sheaves with values in a category
+  7. [ ] References
 - [ ] III. Functoriality of categories of sheaves
+  1. [ ] Continuous functors
+  2. [ ] Cocontinuous functors
+  3. [ ] Induced topology
+  4. [ ] Comparison lemma
+  4. [ ] Localization
+  6. [ ] References
 - [ ] IV. Toposes
 
 
