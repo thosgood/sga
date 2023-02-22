@@ -51,13 +51,13 @@
   0. [ ] Introduction *(1)*
   1. [ ] Universes, categories, equivalence of categories *(2)*
   2. [ ] Categories over one another *(4)*
-  3. [ ] Base change for categories over ℰ *(6)*
-  4. [ ] Fibred categories. Equivalence of ℰ-categories *(3)*
+  3. [ ] Base change for categories over $\mathcal{E}$ *(6)*
+  4. [ ] Fibred categories. Equivalence of $\mathcal{E}$-categories *(3)*
   5. [ ] Cartesian morphisms, inverse images, cartesian functors *(3)*
   6. [ ] Fibred categories and pre-fibred categories *(6)*
-  7. [ ] Cloven categories over ℰ *(5)*
-  8. [ ] Cloven category defined by a pseudofunctor ℰ°→𝖢𝖺𝗍 *(4)*
-  9. [ ] Example: cloven category defined by a functor ℰ°→𝖢𝖺𝗍. Categories split over ℰ *(2)*
+  7. [ ] Cloven categories over $\mathcal{E}$ *(5)*
+  8. [ ] Cloven category defined by a pseudofunctor $\mathcal{E}^\circ\to\mathsf{Cat}$ *(4)*
+  9. [ ] Example: cloven category defined by a functor $\mathcal{E}^\circ\to\mathsf{Cat}$. Categories split over $\mathcal{E}$ *(2)*
   10. [ ] Co-fibred categories, bi-fibred categories *(1)*
   11. [ ] Various examples *(7)*
   12. [ ] Functors on a cloven category *(5)*
@@ -368,7 +368,7 @@
   5. [ ] An instructive example
   6. [ ] Local existence of maximal toruses. The Weyl group *(4)*
 - [ ] XX. Reductive groups of semi-simple rank 1
-  1. [ ] Elementary systems. The groups 𝑃ᵣ and 𝑃₋ᵣ *(12)*
+  1. [ ] Elementary systems. The groups $P_r$ and $P_{-r}$ *(12)*
   2. [ ] Structure of elementary systems *(13)*
   3. [ ] The Weyl group *(11)*
   4. [ ] The isomorphism theorem *(2)*
