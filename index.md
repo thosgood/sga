@@ -51,13 +51,13 @@
   0. [ ] Introduction *(1)*
   1. [ ] Universes, categories, equivalence of categories *(2)*
   2. [ ] Categories over one another *(4)*
-  3. [ ] Base change for categories over ℰ *(6)*
-  4. [ ] Fibred categories. Equivalence of ℰ-categories *(3)*
+  3. [ ] Base change for categories over $\mathcal{E}$ *(6)*
+  4. [ ] Fibred categories. Equivalence of $\mathcal{E}$-categories *(3)*
   5. [ ] Cartesian morphisms, inverse images, cartesian functors *(3)*
   6. [ ] Fibred categories and pre-fibred categories *(6)*
-  7. [ ] Cloven categories over ℰ *(5)*
-  8. [ ] Cloven category defined by a pseudofunctor ℰ°→𝖢𝖺𝗍 *(4)*
-  9. [ ] Example: cloven category defined by a functor ℰ°→𝖢𝖺𝗍. Categories split over ℰ *(2)*
+  7. [ ] Cloven categories over $\mathcal{E}$ *(5)*
+  8. [ ] Cloven category defined by a pseudofunctor $\mathcal{E}^\circ\to\mathsf{Cat}$ *(4)*
+  9. [ ] Example: cloven category defined by a functor $\mathcal{E}^\circ\to\mathsf{Cat}$. Categories split over $\mathcal{E}$ *(2)*
   10. [ ] Co-fibred categories, bi-fibred categories *(1)*
   11. [ ] Various examples *(7)*
   12. [ ] Functors on a cloven category *(5)*
@@ -114,7 +114,7 @@
 <br>
 
 
-## 2. Local cohomology of coherent sheaves and local and global Lefschetz theoremshttps://thosgood.com/sga/sga-2/index.ht {#sga-2}
+## 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems {#sga-2}
 
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
@@ -139,8 +139,8 @@
   1. [ ] Generalities *(3)*
   2. [ ] Application to quasi-coherent sheaves on preschemes *(2)*
 - [ ] VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\operatorname{Ext}}(F,G)$
-  1. [ ] Study of $i<n$ *(5)*
-  2. [ ] Study of $i>n$ *(2)*
+  1. [ ] Study of $i < n$ *(5)*
+  2. [ ] Study of $i > n$ *(2)*
 - [ ] VIII. Finiteness theorem
   1. [ ] Bi-duality spectral sequence *(5)*
   2. [ ] Finiteness theorem *(7)*
@@ -368,7 +368,7 @@
   5. [ ] An instructive example
   6. [ ] Local existence of maximal toruses. The Weyl group *(4)*
 - [ ] XX. Reductive groups of semi-simple rank 1
-  1. [ ] Elementary systems. The groups 𝑃ᵣ and 𝑃₋ᵣ *(12)*
+  1. [ ] Elementary systems. The groups $P_r$ and $P_{-r}$ *(12)*
   2. [ ] Structure of elementary systems *(13)*
   3. [ ] The Weyl group *(11)*
   4. [ ] The isomorphism theorem *(2)*
@@ -485,7 +485,7 @@
 
 ## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html) {#sga-6}
 
-- [ ] [Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html)
+- [ ] [0. Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html) *(18)*
 - [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
   1. [ ] [$\lambda$-rings (formal preliminaries)](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I) *(17)*
   2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II) *(30)*
@@ -501,7 +501,7 @@
   8. [ ] Traces and cup-products *(5)*
 - [ ] II. Existence of global resolutions
 - [ ] III. Relative finiteness conditions
-- [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html)
+- [ ] [IV. Grothendieck groups of ringed toposes](https://thosgood.com/sga/sga-6/IV.html) *(@thosgood)*
   1. [ ] [Reminders and generalities on Grothendieck groups](https://thosgood.com/sga/sga-6/IV.html#IV.1) *(5)*
   2. [ ] The functors $K_\bullet$ and $K^\bullet$ on a ringed topos *(12)*
   3. [ ] Supplement on the Grothendieck groups of schemes *(7)*
