@@ -15,7 +15,7 @@
   9. [x] [Invariance properties](https://thosgood.com/sga/sga-1/I.html#I.9)
   10. [x] [Étale covers of a normal scheme](https://thosgood.com/sga/sga-1/I.html#I.10)
   11. [x] [Various addenda](https://thosgood.com/sga/sga-1/I.html#I.11)
-- [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/sga-1/II.html)
+- [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/sga-1/II.html) *(@thosgood)*
   1. [x] [Generalities](https://thosgood.com/sga/sga-1/II.html#II.1)
   2. [ ] Some smoothness criteria for morphisms *(3)*
   3. [ ] Invariance properties *(1)*
@@ -485,11 +485,11 @@
 
 ## [6. Intersection theory and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/index.html) {#sga-6}
 
-- [ ] [0. Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html) *(18)*
-- [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html)
+- [ ] [0. Outline of a programme for an intersection theory](https://thosgood.com/sga/sga-6/zero.html) *(18)* *(@thosgood)*
+- [ ] [0[RRR]. Classes of sheaves and the Riemann--Roch theorem](https://thosgood.com/sga/sga-6/zeroRRR.html) *(@thosgood)*
   1. [ ] [$\lambda$-rings (formal preliminaries)](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.I) *(17)*
   2. [ ] [Classes of coherent algebraic sheaves and Chern classes](https://thosgood.com/sga/sga-6/zeroRRR.html#zeroRRR.II) *(30)*
-- [ ] [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/sga-6/I.html)
+- [ ] [I. Generalities on finiteness conditions in derived categories](https://thosgood.com/sga/sga-6/I.html) *(@thosgood)*
   0. [x] [Introduction](https://thosgood.com/sga/sga-6/I.html#I.0)
   1. [ ] [Preliminary definitions](https://thosgood.com/sga/sga-6/I.html#I.1) *(11)*
   2. [ ] Pseudo-coherent complexes *(18)*
