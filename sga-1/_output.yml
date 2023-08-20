@@ -15,7 +15,7 @@ bookdown::gitbook:
     fontsettings:
       theme: white
       family: serif
-      size: 1
+      size: 2
     sharing:
       facebook: no
       github: no
