@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 html {
   text-rendering: optimizeLegibility;
@@ -7,7 +7,7 @@ html {
   -ms-font-feature-settings: "liga";
   -o-font-feature-settings: "liga";
   -webkit-font-feature-settings: "liga";
-  font-feature-settings: "liga"
+  font-feature-settings: "liga";
 }
 
 .page-inner {
@@ -19,11 +19,11 @@ html {
 }
 
 .book.font-family-0 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
 }
 
 .book.font-family-1 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .page-wrapper p {
@@ -68,9 +68,9 @@ html {
   font-kerning: none;
 }
 
-/*.katex, .page-inner .katex {
-  font-size: 1em;
-}*/
+.katex, .page-inner .katex {
+  font-size: 1.1em !important;
+}
 
 
 /* Custom environments */
