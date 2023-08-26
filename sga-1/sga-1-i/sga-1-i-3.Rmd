@@ -79,6 +79,6 @@ In order for $B/A$ to be unramified, it is necessary and sufficient that $\hat{B
 
 - In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of $A$ which destroys the aforementioned extension.
 - Consider the example where $A$ is the local ring of an ordinary double point of a curve, and $B$ a point of its normalisation:
-    then $A\subset B$, $B$ is unramified over $A$ with trivial residue extension, and $\hat{A}\to\hat{B}$ is surjective but _not injective_.
-    We are thus going to strengthen the notion of unramified-ness.
+  then $A\subset B$, $B$ is unramified over $A$ with trivial residue extension, and $\hat{A}\to\hat{B}$ is surjective but _not injective_.
+  We are thus going to strengthen the notion of unramified-ness.
 :::

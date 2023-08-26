@@ -11,22 +11,22 @@ The necessity is trivial, and the sufficiency remains to be shown.
 We are going to give two different proofs: the first is shorter, the second is more elementary.
 
 1. A flat morphism is open, and so we can suppose (by replacing $Y$ with $f(X)$) that $f$ is an onto _homeomorphism_.
-    For any base extension, it remains true that $f$ is flat, radicial, surjective, thus a homeomorphism, and a fortiori closed.
-    Thus $f$ is _proper_.
-    Thus $f$ is _finite_ (reference: Chevalley's theorem), defined by a coherent sheaf $\scr{B}$ of algebras.
-    Now $\scr{B}$ is locally free, and further, by hypothesis, of rank $1$ everywhere, and so $X=Y$.
+  For any base extension, it remains true that $f$ is flat, radicial, surjective, thus a homeomorphism, and a fortiori closed.
+  Thus $f$ is _proper_.
+  Thus $f$ is _finite_ (reference: Chevalley's theorem), defined by a coherent sheaf $\scr{B}$ of algebras.
+  Now $\scr{B}$ is locally free, and further, by hypothesis, of rank $1$ everywhere, and so $X=Y$.
 
 2. We can suppose that $Y$ and $X$ are _affine_.
-    We can further easily reduce to proving the following:
-    if $Y=\Spec(A)$, with $A$ local, and if $f^{-1}(y)$ is non-empty (where $y$ is the closed point of $Y$), then $X=Y$ (indeed, this would imply that every $y\in f(X)$ has an open neighbourhood $U$ such that $X|U=U$).
-    We will then have that $X=\Spec(B)$, and wish to prove that $A=B$.
-    But, for this, we can reduce to proving the analogous claim where we replace $A$ by $\hat{A}$, and $B$ by $B\otimes_A\hat{A}$
-    (taking into account the fact that $\hat{A}$ is faithfully flat over $A$).
-    We can thus suppose that $A$ is _complete_.
-    Let $x$ be the point over $y$.
-    By [2.2](#I.2.2), $\cal{O}_x$ is finite over $A$, and is thus (being flat and radicial over $A$) identical to $A$.
-    So $X=Y\coprod X'$ (disjoint sum).
-    But since $X$ is radicial over $Y$, $X'$ is empty.
+  We can further easily reduce to proving the following:
+  if $Y=\Spec(A)$, with $A$ local, and if $f^{-1}(y)$ is non-empty (where $y$ is the closed point of $Y$), then $X=Y$ (indeed, this would imply that every $y\in f(X)$ has an open neighbourhood $U$ such that $X|U=U$).
+  We will then have that $X=\Spec(B)$, and wish to prove that $A=B$.
+  But, for this, we can reduce to proving the analogous claim where we replace $A$ by $\hat{A}$, and $B$ by $B\otimes_A\hat{A}$
+  (taking into account the fact that $\hat{A}$ is faithfully flat over $A$).
+  We can thus suppose that $A$ is _complete_.
+  Let $x$ be the point over $y$.
+  By [2.2](#I.2.2), $\cal{O}_x$ is finite over $A$, and is thus (being flat and radicial over $A$) identical to $A$.
+  So $X=Y\coprod X'$ (disjoint sum).
+  But since $X$ is radicial over $Y$, $X'$ is empty.
 :::
 
 ::: {.itenv #I.5.2 title="Corollary 5.2"}

@@ -50,7 +50,7 @@ i. $K$ is unramified over $Y$.
 ii. If $L$ is an extension of $K$ that is unramified over $Y$, and if $Y'$ is a normal prescheme, of field $L$, that dominates $Y$ (e.g. the normalisation of $Y$ in $L$), and $M$ an extension of $L$ that is unramified over $Y'$, then $M/K$ is unramified over $X$ (this is the _transitivity_ property).
 
 iii. Let $Y'$ be a normal integral prescheme that dominates $Y$, of field $K'/K$;
-    if $L$ is an extension of $K$ that is unramified over $Y$, then $L\otimes_K K'$ is an extension of $K'$ that is unramified over $Y'$ (this is the _translation_ property)
+  if $L$ is an extension of $K$ that is unramified over $Y$, then $L\otimes_K K'$ is an extension of $K'$ that is unramified over $Y'$ (this is the _translation_ property)
 :::
 
 Furthermore:

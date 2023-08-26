@@ -7,11 +7,11 @@ these facts will be proved later, if there is time^[cf. [IV](#IV).].
 —
 
 a. Let $f\colon X\to Y$ be a morphism of finite type.
-    We say that $f$ is _étale_ at $x$ if $f$ is both flat and unramified at $x$.
-    We say that $f$ is étale if it is étale at all points.
-    We say that $X$ is étale at $x$ over $Y$, or that it is a $Y$-prescheme which is étale at $x$ etc.
+  We say that $f$ is _étale_ at $x$ if $f$ is both flat and unramified at $x$.
+  We say that $f$ is étale if it is étale at all points.
+  We say that $X$ is étale at $x$ over $Y$, or that it is a $Y$-prescheme which is étale at $x$ etc.
 b. Let $f\colon A\to B$ be a local homomorphism.
-    We say that $f$ is étale, or that $B$ is étale over $A$, if $B$ is flat and unramified over $A$.^[cf. regrets in [III 1.2](#III.1.2).]
+  We say that $f$ is étale, or that $B$ is étale over $A$, if $B$ is flat and unramified over $A$.^[cf. regrets in [III 1.2](#III.1.2).]
 :::
 
 ::: {.itenv #I.4.2 title="Proposition 4.2"}
@@ -59,7 +59,7 @@ Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is tr
 
 As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
 
-_[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper --- see (2.1) in 'Life and work of Alexander Grothendieck' by Ching-Li Chan and Frans Oort for more information._
+_[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper --- see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information._
 
 ::: {.itenv #I.4.7 title="Corollary 4.7"}
 The cartesian product of two étale morphisms is étale.

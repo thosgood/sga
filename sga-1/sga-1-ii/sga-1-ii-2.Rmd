@@ -1,1 +1,57 @@
 ## 2. Some smoothness criteria for morphisms {#II.2}
+
+::: {.itenv #II.2.1 title="Theorem 2.1" latex="{Theorem 2.1}"}
+Let $f\colon X\to Y$ be a morphism locally of finite type, and let $x\in X$ and $y=f(x)$.
+For $f$ to be smooth at $x$, it is necessary and sufficient that
+
+a. $f$ be flat at $x$, and
+b. $f^{-1}(y)$ be smooth over $k(y)$ at $x$.
+:::
+
+::: {.proof}
+Since the composite of two flat morphisms is flat, and since $Y[t_1,\ldots,t_n]\to Y$ is a flat morphism, we see that smooth implies flat;
+taking [(1.3), (ii)](#II.1.3) into account, this proves necessity.
+Now suppose that (a) and (b) are satisfied, and let $V$ be an affine neighbourhood of $y$ of ring $A$, and $U$ an affine neighbourhood of $x$ over $V$ of ring $B$.
+Taking $U$ to be small enough, we can suppose, by (b), that there exists an *étale* $k(y)$-morphism
+$$
+  g\colon U|f^{-1}(y)
+  \to \Spec k[t_1,\ldots,t_n]
+  \qquad\text{(where }k=k(y)\text{)}
+$$
+defined by $n$ sections $g_i$ of the structure sheaf of $U|f^{-1}(y)$.
+We easily note that we can suppose the $g_i$ (which are a priori elements of $B\otimes_A k=BS^{-1}$, where $S=A\setminus\frak{p}$, with $\frak{p}$ the prime ideal of $A$ corresponding to $y$) to come from sections of the structure sheaf of $U$, so that $g$ is induced by a morphism, also denoted by $g$,
+$$
+  g\colon U
+  \to Y[t_1,\ldots,t_n]
+$$
+(after possibly multiplying the $g_i$ by a single non-zero element of $k$).
+But $U$ is flat over $Y$ by (a), and so too is $Y[t_1,\ldots,t_n]$;
+we also know that $g$ induces an étale morphism between the fibres over $y$, and so $g$ is étale at $x$ by [(I 5.8)](#I.5.8).
+:::
+
+::: {.itenv #II.2.2 title="Corollary 2.2" latex="{Corollary 2.2}"}
+Let $S$ be a prescheme, and let $f\colon X\to Y$ an $S$-morphism of finite type, with $Y$ of finite type and flat over $S$.
+Let $x\in X$, and let $s$ be the projection of $x$ to $S$.
+For $f$ to be smooth at $x$, it is necessary and sufficient that $X$ be flat (or smooth) over $S$ at $x$, and that the induced morphism $f_s\colon X_s\to Y_s$ between the fibres over $s$ be smooth at $x$.
+:::
+
+::: {.proof}
+Only the sufficiency needs proving, and this follows from [(2.1)](#II.2.1), combined with the flatness criterion [(I 5.9)](#I.5.9).
+:::
+
+To state the following result, "recall" that a morphism $f\colon X\to Y$ locally of finite type is said to be *equidimensional* at the point $x\in X$ if (setting $y=f(x)$) we can find an open neighbourhood $U$ of $x$ of which every component dominates a component of $Y$ such that, for all $y'\in Y$, the irreducible components of $f^{-1}(y')\cap U$ all have the same dimension, independent of $y$.
+It suffices, in this condition, to take $y'$ to be the generic points of the irreducible components of $Y$ passing through $y$, *and* the point $y$ itself.
+If, for example, $X$ and $Y$ are integral and $f$ is dominant, then the condition implies that the components of the $f^{-1}(y)$ passing through $x$ have "the good" dimension, i.e. the dimension of the generic fibre (recall that they are always $\geq$ the dimension of the generic fibre).
+If $f$ is equidimensional at $x$, with the dimension of its fibre at $x$ being $n$, and if $g\colon U\to Y'=Y[t_1,\ldots,t_n]$ is a $Y$-morphism on a neighbourhood $U$ of $x$ that induces a morphism on the fibres of $y$ that is quasi-finite at $x$ (or, equivalently, if $g$ is quasi-finite at $x$), then we can show that every irreducible component of $U$ passing through $x$ dominates an irreducible component of $Y'$.
+By the "normalisation lemma", such a $g$ always exists (and, conversely, if there exists a quasi-finite $Y$-morphism $g$ on an open neighbourhood $U$ of $x$ into a $Y$-scheme of the form $Y'=Y[t_1,\ldots,t_n]$ such that every component of $U$ passing through $x$ dominates a component of $Y'$, then $f$ is equidimensional at $x$).
+Then:
+
+::: {.itenv #II.2.3 title="Proposition 2.3" latex="{Proposition 2.3}"}
+Let $f\colon X\to Y$ be a morphism locally of finite type, and let $x\in X$, and $y=f(x)$.
+Suppose that $\cal{O}_y$ is normal.
+For $f$ to be smooth at $x$, it is necessary and sufficient that $f$ be equidimensional at $x$, and that $f^{-1}(y)$ be smooth over $k(y)$ at $x$.
+:::
+
+::: {.proof}
+We
+:::
