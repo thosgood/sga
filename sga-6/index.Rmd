@@ -16,6 +16,10 @@ description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."
 \providecommand{\coh}{\mathrm{coh}}
 \providecommand{\perf}{\mathrm{perf}}
 \providecommand{\ob}{\operatorname{ob}}
+\providecommand{\cl}{\operatorname{cl}}
+\providecommand{\Kb}{\operatorname{K}^\mathrm{b}}
+\providecommand{\Db}{\operatorname{D}^\mathrm{b}}
+\providecommand{\HH}{\operatorname{H}}
 
 
 # Introduction {-}

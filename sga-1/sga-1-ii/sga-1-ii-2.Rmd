@@ -10,7 +10,7 @@ b. $f^{-1}(y)$ be smooth over $k(y)$ at $x$.
 
 ::: {.proof}
 Since the composite of two flat morphisms is flat, and since $Y[t_1,\ldots,t_n]\to Y$ is a flat morphism, we see that smooth implies flat;
-taking [(1.3), (ii)](#II.1.3) into account, this proves necessity.
+taking [1.3, (ii)](#II.1.3) into account, this proves necessity.
 Now suppose that (a) and (b) are satisfied, and let $V$ be an affine neighbourhood of $y$ of ring $A$, and $U$ an affine neighbourhood of $x$ over $V$ of ring $B$.
 Taking $U$ to be small enough, we can suppose, by (b), that there exists an *étale* $k(y)$-morphism
 $$
@@ -26,7 +26,7 @@ $$
 $$
 (after possibly multiplying the $g_i$ by a single non-zero element of $k$).
 But $U$ is flat over $Y$ by (a), and so too is $Y[t_1,\ldots,t_n]$;
-we also know that $g$ induces an étale morphism between the fibres over $y$, and so $g$ is étale at $x$ by [(I 5.8)](#I.5.8).
+we also know that $g$ induces an étale morphism between the fibres over $y$, and so $g$ is étale at $x$ by [I 5.8](#I.5.8).
 :::
 
 ::: {.itenv #II.2.2 title="Corollary 2.2" latex="{Corollary 2.2}"}
@@ -36,7 +36,7 @@ For $f$ to be smooth at $x$, it is necessary and sufficient that $X$ be flat (or
 :::
 
 ::: {.proof}
-Only the sufficiency needs proving, and this follows from [(2.1)](#II.2.1), combined with the flatness criterion [(I 5.9)](#I.5.9).
+Only the sufficiency needs proving, and this follows from [2.1](#II.2.1), combined with the flatness criterion [I 5.9](#I.5.9).
 :::
 
 To state the following result, "recall" that a morphism $f\colon X\to Y$ locally of finite type is said to be *equidimensional* at the point $x\in X$ if (setting $y=f(x)$) we can find an open neighbourhood $U$ of $x$ of which every component dominates a component of $Y$ such that, for all $y'\in Y$, the irreducible components of $f^{-1}(y')\cap U$ all have the same dimension, independent of $y$.
