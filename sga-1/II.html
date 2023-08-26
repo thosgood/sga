@@ -198,6 +198,56 @@ It behaves additively under composition of morphisms.</p>
 </div>
 <div id="II.2" class="section level2">
 <h2>2. Some smoothness criteria for morphisms</h2>
+<div id="II.2.1" class="itenv" title="Theorem 2.1">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a morphism locally of finite type, and let <eq env="math">x\in X</eq> and <eq env="math">y=f(x)</eq>.
+For <eq env="math">f</eq> to be smooth at <eq env="math">x</eq>, it is necessary and sufficient that</p>
+<ol style="list-style-type: lower-alpha">
+<li><eq env="math">f</eq> be flat at <eq env="math">x</eq>, and</li>
+<li><eq env="math">f^{-1}(y)</eq> be smooth over <eq env="math">k(y)</eq> at <eq env="math">x</eq>.</li>
+</ol>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-43" class="proof"><em>Proof</em>. </span>Since the composite of two flat morphisms is flat, and since <eq env="math">Y[t_1,\ldots,t_n]\to Y</eq> is a flat morphism, we see that smooth implies flat;
+taking <a href="II.html#II.1.3">(1.3), (ii)</a> into account, this proves necessity.
+Now suppose that (a) and (b) are satisfied, and let <eq env="math">V</eq> be an affine neighbourhood of <eq env="math">y</eq> of ring <eq env="math">A</eq>, and <eq env="math">U</eq> an affine neighbourhood of <eq env="math">x</eq> over <eq env="math">V</eq> of ring <eq env="math">B</eq>.
+Taking <eq env="math">U</eq> to be small enough, we can suppose, by (b), that there exists an <em>étale</em> <eq env="math">k(y)</eq>-morphism
+<eq env="displaymath">
+  g\colon U|f^{-1}(y)
+  \to \operatorname{Spec}k[t_1,\ldots,t_n]
+  \qquad\text{(where }k=k(y)\text{)}
+</eq>
+defined by <eq env="math">n</eq> sections <eq env="math">g_i</eq> of the structure sheaf of <eq env="math">U|f^{-1}(y)</eq>.
+We easily note that we can suppose the <eq env="math">g_i</eq> (which are a priori elements of <eq env="math">B\otimes_A k=BS^{-1}</eq>, where <eq env="math">S=A\setminus{\mathfrak{p}}</eq>, with <eq env="math">{\mathfrak{p}}</eq> the prime ideal of <eq env="math">A</eq> corresponding to <eq env="math">y</eq>) to come from sections of the structure sheaf of <eq env="math">U</eq>, so that <eq env="math">g</eq> is induced by a morphism, also denoted by <eq env="math">g</eq>,
+<eq env="displaymath">
+  g\colon U
+  \to Y[t_1,\ldots,t_n]
+</eq>
+(after possibly multiplying the <eq env="math">g_i</eq> by a single non-zero element of <eq env="math">k</eq>).
+But <eq env="math">U</eq> is flat over <eq env="math">Y</eq> by (a), and so too is <eq env="math">Y[t_1,\ldots,t_n]</eq>;
+we also know that <eq env="math">g</eq> induces an étale morphism between the fibres over <eq env="math">y</eq>, and so <eq env="math">g</eq> is étale at <eq env="math">x</eq> by <a href="I.html#I.5.8">(I 5.8)</a>.</p>
+</div>
+<div id="II.2.2" class="itenv" title="Corollary 2.2">
+<p>Let <eq env="math">S</eq> be a prescheme, and let <eq env="math">f\colon X\to Y</eq> an <eq env="math">S</eq>-morphism of finite type, with <eq env="math">Y</eq> of finite type and flat over <eq env="math">S</eq>.
+Let <eq env="math">x\in X</eq>, and let <eq env="math">s</eq> be the projection of <eq env="math">x</eq> to <eq env="math">S</eq>.
+For <eq env="math">f</eq> to be smooth at <eq env="math">x</eq>, it is necessary and sufficient that <eq env="math">X</eq> be flat (or smooth) over <eq env="math">S</eq> at <eq env="math">x</eq>, and that the induced morphism <eq env="math">f_s\colon X_s\to Y_s</eq> between the fibres over <eq env="math">s</eq> be smooth at <eq env="math">x</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-44" class="proof"><em>Proof</em>. </span>Only the sufficiency needs proving, and this follows from <a href="II.html#II.2.1">(2.1)</a>, combined with the flatness criterion <a href="I.html#I.5.9">(I 5.9)</a>.</p>
+</div>
+<p>To state the following result, “recall” that a morphism <eq env="math">f\colon X\to Y</eq> locally of finite type is said to be <em>equidimensional</em> at the point <eq env="math">x\in X</eq> if (setting <eq env="math">y=f(x)</eq>) we can find an open neighbourhood <eq env="math">U</eq> of <eq env="math">x</eq> of which every component dominates a component of <eq env="math">Y</eq> such that, for all <eq env="math">y'\in Y</eq>, the irreducible components of <eq env="math">f^{-1}(y')\cap U</eq> all have the same dimension, independent of <eq env="math">y</eq>.
+It suffices, in this condition, to take <eq env="math">y'</eq> to be the generic points of the irreducible components of <eq env="math">Y</eq> passing through <eq env="math">y</eq>, <em>and</em> the point <eq env="math">y</eq> itself.
+If, for example, <eq env="math">X</eq> and <eq env="math">Y</eq> are integral and <eq env="math">f</eq> is dominant, then the condition implies that the components of the <eq env="math">f^{-1}(y)</eq> passing through <eq env="math">x</eq> have “the good” dimension, i.e. the dimension of the generic fibre (recall that they are always <eq env="math">\geqslant</eq> the dimension of the generic fibre).
+If <eq env="math">f</eq> is equidimensional at <eq env="math">x</eq>, with the dimension of its fibre at <eq env="math">x</eq> being <eq env="math">n</eq>, and if <eq env="math">g\colon U\to Y'=Y[t_1,\ldots,t_n]</eq> is a <eq env="math">Y</eq>-morphism on a neighbourhood <eq env="math">U</eq> of <eq env="math">x</eq> that induces a morphism on the fibres of <eq env="math">y</eq> that is quasi-finite at <eq env="math">x</eq> (or, equivalently, if <eq env="math">g</eq> is quasi-finite at <eq env="math">x</eq>), then we can show that every irreducible component of <eq env="math">U</eq> passing through <eq env="math">x</eq> dominates an irreducible component of <eq env="math">Y'</eq>.
+By the “normalisation lemma”, such a <eq env="math">g</eq> always exists (and, conversely, if there exists a quasi-finite <eq env="math">Y</eq>-morphism <eq env="math">g</eq> on an open neighbourhood <eq env="math">U</eq> of <eq env="math">x</eq> into a <eq env="math">Y</eq>-scheme of the form <eq env="math">Y'=Y[t_1,\ldots,t_n]</eq> such that every component of <eq env="math">U</eq> passing through <eq env="math">x</eq> dominates a component of <eq env="math">Y'</eq>, then <eq env="math">f</eq> is equidimensional at <eq env="math">x</eq>).
+Then:</p>
+<div id="II.2.3" class="itenv" title="Proposition 2.3">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a morphism locally of finite type, and let <eq env="math">x\in X</eq>, and <eq env="math">y=f(x)</eq>.
+Suppose that <eq env="math">{\mathcal{O}}_y</eq> is normal.
+For <eq env="math">f</eq> to be smooth at <eq env="math">x</eq>, it is necessary and sufficient that <eq env="math">f</eq> be equidimensional at <eq env="math">x</eq>, and that <eq env="math">f^{-1}(y)</eq> be smooth over <eq env="math">k(y)</eq> at <eq env="math">x</eq>.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-45" class="proof"><em>Proof</em>. </span>We</p>
+</div>
 
 </div>
 </div>
