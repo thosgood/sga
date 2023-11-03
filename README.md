@@ -119,7 +119,7 @@
 - [ ] Introduction
 - [ ] I. Global and local cohomological invariants with respect to a closed subspace
   1. [ ] The functors $\Gamma_Z$ and $\underline{\Gamma}_Z$ *(7)*
-  2. [ ] The functors $\operatorname{H}_Z^\bullet(X,F)$ and $\underline{\operatorname{H}}_Z^\bullet(F)$ *(6)*
+  2. [ ] The functors $\mathop{\text{H}}_Z^\bullet(X,F)$ and $\underline{\mathop{\text{H}}}_Z^\bullet(F)$ *(6)*
 - [ ] II. Applications to quasi-coherent sheaves on preschemes *(8)*
 - [ ] III. Cohomological invariants and depth
   1. [ ] Reminders *(1)*
@@ -131,14 +131,14 @@
   3. [ ] Study of the case where $T$ is left exact and $T(M)$ is of finite type for all $M$ *(3)*
   4. [ ] Dualising module. Dualising functor *(5)*
   5. [ ] Consequences of the theory of dualising modules *(5)*
-- [ ] V. Local duality and structure of the $\operatorname{H}^i(M)$
+- [ ] V. Local duality and structure of the $\\mathop{\text{H}}^i(M)$
   1. [ ] Complexes of homomorphisms *(3)*
   2. [ ] The local duality theorem for a local regular ring *(1)*
-  3. [ ] Application to the structure of the $\operatorname{H}^i(M)$ *(7)*
-- [ ] VI. The functors $\operatorname{Ext}(X;F,G)$ and $\underline{\operatorname{Ext}}(F,G)$
+  3. [ ] Application to the structure of the $\mathop{\text{H}}^i(M)$ *(7)*
+- [ ] VI. The functors $\mathop{\text{Ext}}(X;F,G)$ and $\underline{\mathop{\text{Ext}}}(F,G)$
   1. [ ] Generalities *(3)*
   2. [ ] Application to quasi-coherent sheaves on preschemes *(2)*
-- [ ] VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\operatorname{Ext}}(F,G)$
+- [ ] VII. Nullity criteria. Coherence conditions for the sheaves $\underline{\mathop{\text{Ext}}}(F,G)$
   1. [ ] Study of $i < n$ *(5)*
   2. [ ] Study of $i > n$ *(2)*
 - [ ] VIII. Finiteness theorem
@@ -153,8 +153,8 @@
   2. [ ] Comparison of $\mathsf{Et}(Y)$ with $\mathsf{Et}(U)$, for varying 𝑈 *(5)*
   3. [ ] Comparison of $\pi_1(X)$ with $\pi_1(U)$ *(7)*
 - [ ] XI. Applications to the Picard group
-  1. [ ] Comparison of $\operatorname{Pic}(\widehat{X})$ with $\operatorname{Pic}(Y)$ *(1)*
-  2. [ ] Comparison of $\operatorname{Pic}(Y)$ with $\operatorname{Pic}(U)$, for varying $U$ *(5)*
+  1. [ ] Comparison of $\mathop{\text{Pic}}(\widehat{X})$ with $\mathop{\text{Pic}}(Y)$ *(1)*
+  2. [ ] Comparison of $\mathop{\text{Pic}}(Y)$ with $\mathop{\text{Pic}}(U)$, for varying $U$ *(5)*
   3. [ ] Comparison of $\mathsf{P}(X)$ with $\mathsf{P}(U)$ *(7)*
 - [ ] XII. Applications to projective algebraic schemes
   1. [ ] Projective duality theorem and finiteness theorem *(7)*
@@ -190,7 +190,7 @@
   4. [ ] Algebraic structures in the category of preschemes *(15)*
   5. [ ] Group cohomology *(6)*
 - [ ] II. Tangent bundles. Lie algebras
-  1. [ ] $\underline{\operatorname{Hom}}_{Z/S}(X,Y)$ functors *(2)*
+  1. [ ] $\underline{\mathop{\text{Hom}}}_{Z/S}(X,Y)$ functors *(2)*
   2. [ ] The preschemes $I_S(M)$ *(3)*
   3. [ ] The tangent bundle, the (E) condition *(11)*
   4. [ ] Tangent space of a group. Lie algebras *(15)*
@@ -495,7 +495,7 @@
   2. [ ] Pseudo-coherent complexes *(18)*
   3. [ ] Link to the classical notion of coherence *(7)*
   4. [ ] Perfect complexes *(12)*
-  5. [ ] Finite $\operatorname{Tor}$-dimension and perfection *(10)*
+  5. [ ] Finite $ \mathop{\text{Tor}}$-dimension and perfection *(10)*
   6. [ ] Rank of a perfect complex *(9)*
   7. [ ] Duality of perfect complexes *(6)*
   8. [ ] Traces and cup-products *(5)*
