@@ -25,6 +25,7 @@ description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."
 \providecommand{\RR}{\operatorname{R}}
 \providecommand{\Todd}{\operatorname{Todd}}
 \providecommand{\ch}{\operatorname{ch}}
+\providecommand{\Tr}{\operatorname{Tr}}
 
 
 # Introduction {-}

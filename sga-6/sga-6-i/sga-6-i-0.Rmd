@@ -1,19 +1,16 @@
 ## 0. Introduction {#I.0}
 
-\oldpage{78}
-
-The aim of Exposés [I](#I) to [IV](#IV) is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
+\oldpage{78 (1)}The aim of Exposés [I](#I) to [IV](#IV) is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 
 As was mentioned in [Exp. 0](#zero), it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
 
 The classical notion of coherent sheaves on a ringed space $(X,\cal{O}_X)$ becomes uninteresting as soon as $\cal{O}_X$ is no longer coherent.
 We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
 We arrive at a satisfying notion by remarking that, if $\cal{O}_X$ is coherent, then a coherent sheaf $\scr{F}$ is not only of finite presentation but also of finite $n$-presentation for all $n\in\mathbb{N}$, where "finite $n$-presentation" means that there exists, locally, an exact sequence
-\oldpage{79}
 $$
   \scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
 $$
-where the $\scr{L}_i$ are free and of finite type.
+\oldpage{79 (2)}where the $\scr{L}_i$ are free and of finite type.
 If we no longer suppose the sheaf $\cal{O}_X$ to be coherent, then we say that an $\cal{O}_X$-module $\scr{F}$ is _pseudo-coherent_ if it satisfies the above condition, i.e. if it is of finite $n$-presentation for all $n\in\mathbb{N}$.
 Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of $\cal{O}_X$-modules are pseudo-coherent, then so too is the third.
 We can easily generalise the above notion to complexes of sheaves: a _complex_ $\scr{F}$ of $\cal{O}_X$-modules is said to be _pseudo-coherent_ if it is $n$-pseudo-coherent for all $n\in\mathbb{Z}$, where "$n$-pseudo coherent" means that there exists, locally, a quasi-isomorphism $\scr{L}\xrightarrow{\sim}\scr{F}$, where $\scr{L}$ is a bounded-above complex, whose components in degree $\geq n$ are free sheaves of finite type.
@@ -24,9 +21,7 @@ even better, if two objects of a distinguished triangle in $D(X)$ are pseudo-coh
 Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
 In the case where $\cal{O}_X$ is coherent, to say that a complex $\scr{F}$ is pseudo-coherent simply means that the cohomology of $\scr{F}$ is locally bounded above, and that all the $\scr{H}^i(\scr{F})$ are coherent.
 
-\oldpage{80}
-
-If $\cal{O}_X$ is a sheaf of regular local rings, then every coherent $\cal{O}_X$-module $\scr{F}$ locally admits a _finite_ left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+\oldpage{80 (3)}If $\cal{O}_X$ is a sheaf of regular local rings, then every coherent $\cal{O}_X$-module $\scr{F}$ locally admits a _finite_ left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
 $$
   0\to\scr{L}_n \to \scr{L}_{n-1} \to \ldots \to \scr{L}_0 \to \scr{F} \to 0
 $$
@@ -45,9 +40,7 @@ where $\scr{L}$ is perfect, and $\scr{R}$ is acyclic in degree $\geq n$.
 Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [I.5](#I.5)).
 We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
 
-\oldpage{81}
-
-Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
+\oldpage{81 (4)}Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
 Sections [I.1](#I.1) to [I.5](#I.5) of Exposé I are dedicated to their definition, and to establishing their elementary stability properties.
 For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
 It also turns out to be practical --- and useful, most notably in [Exp. II](#II) --- to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
@@ -57,8 +50,7 @@ Sections [I.6](#I.6) to [I.8](#I.8) of Exposé I generalise a certain number of 
 In [Exp. II](#II), we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos $(X,\cal{O}_X)$, is a pseudo-coherent (resp. perfect) complex _globally_ isomorphic in $D(X)$ to a complex of locally free modules of finite type?
 The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [Exp. XIV](#XIV)).
 This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
-\oldpage{82}
-Such criteria are given in [Exp. II](#II).
+\oldpage{82 (5)}Such criteria are given in [Exp. II](#II).
 In particular, we show that there exist global resolutions in the following cases:
 $X$ is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
 or $X$ is the topos of sheaves of sets on a compact topological space, and $\cal{O}_X$ is the sheaf of continuous complex-valued functions.
@@ -70,8 +62,7 @@ We place ourselves here in the setting of ordinary schemes, which suffices for t
 Let $p\colon X\to S$ be an $S$-scheme locally of finite type, and let $\scr{F}$ be a complex of $\cal{O}_X$-modules;
 we say that $\scr{F}$ is _pseudo-coherent_ (resp. _perfect_) _with respect to $p$_ if we can locally embed (by a closed immersion) $X$ into a smooth $S$-scheme $X'$ in such a way that $\scr{F}$ extended by zero on $X'$ is pseudo-coherent (resp. perfect).
 The notion of pseudo-coherence with respect to $p$ is especially interesting in the case where $S$ is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-\oldpage{83}
-On the other hand, as we might expect, to say that $\scr{F}$ is perfect with respect to $p$ is equivalent to saying that $\scr{F}$ is pseudo-coherent with respect to $p$ and locally of finite tor-dimension with respect to $p$ (i.e. with respect to the sheaf of rings $p^{-1}(\cal{O}_S)$).
+\oldpage{83 (6)}On the other hand, as we might expect, to say that $\scr{F}$ is perfect with respect to $p$ is equivalent to saying that $\scr{F}$ is pseudo-coherent with respect to $p$ and locally of finite tor-dimension with respect to $p$ (i.e. with respect to the sheaf of rings $p^{-1}(\cal{O}_S)$).
 The central theorem of [Exp. III](#III) is the _finiteness theorem_, which affirms (in a slightly more precise way) that, if $f\colon X\to Y$ is a _proper_ morphism of $S$-schemes locally of finite type, then the functor $\mathbb{R}f_*$ sends complexes that are pseudo-coherent with respect to $S$ to complexes that are pseudo-coherent with respect to $S$;
 this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
 
@@ -86,5 +77,5 @@ We recover, as a corollary, the "Grauert's continuity and semi-continuity theore
 On a ringed space $(X,\cal{O}_X)$, we denote by $K^\bullet(X)$ (resp. $K_\bullet(X)$) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
 The group $K^\bullet(X)$ is a ring, and $K_\bullet(X)$ is a module over $K^\bullet(X)$.
 As suggested by the superscript bullet, $K^\bullet$ is a contravariant functor, whilst $K_\bullet$ is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
-There are also unusual variances (covariance of $K^\bullet$ and contravariance of $K_\bullet$) for morphisms satisfying suitable regularity hypotheses.
+\oldpage{84 (7)}There are also unusual variances (covariance of $K^\bullet$ and contravariance of $K_\bullet$) for morphisms satisfying suitable regularity hypotheses.
 Finally, the globalisation criteria of [Exp. II](#II) allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
