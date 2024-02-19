@@ -57,7 +57,7 @@ One of the main goals of this Seminar is to generalise (1.2) simultaneously in t
 a. Remove the hypothesis of the existence of a base field $k$.
 b. Replace the regularity hypotheses on $Y$ and $X$ by a "local regularity" hypothesis on $f$.
 
-Finally, on the way, we will equally deal with the problem:
+Finally, along the way, we will equally deal with the problem:
 
 c. Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on $X$ and on $Y$.
 

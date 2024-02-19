@@ -53,5 +53,18 @@ For $f$ to be smooth at $x$, it is necessary and sufficient that $f$ be equidime
 :::
 
 ::: {.proof}
-We
+We immediately see from the definition that a smooth morphism is equidimensional (N.B. a flat morphism of finite type is not necessary equidimensional at $x$, even if its fibre at $x$ is irreducible).
+Let us prove the converse.
+Since $f^{-1}(y)$ is smooth over $k(y)$ at $x$, we can suppose (by replacing, if necessary, $X$ by a suitable neighbourhood of $x$) that there exists a $Y$-morphism
+$$
+  g\colon X\to Y[t_1,\ldots,t_n] = Y'
+$$
+that induces an étale morphism on the fibres of $y$, and is a fortiori quasi-finite at $x$.
+Thus $g$ is unramified, and (since $f$ is equidimensional at $x$) the irreducible components of $X$ that contain $x$ each dominate a component of $Y'$, and a fortiori the homomorphism $\cal{O}_{y'}\to\cal{O}_x$ induced by $g$ (where $y'=g(x)$) is *injective*.
+This homomorphism is also unramified, and $\cal{O}_{y'}$ is normal since it is the localisation of the ring $\cal{O}_y[t_1,\ldots,t_n]$, which is itself normal since $\cal{O}_y$ is.
+Thus the homomorphism $\cal{O}_{y'}\to\cal{O}_x$ is étale [I 9.5 (ii)](#I.9.5).
+:::
+
+::: {.rmenv #II.2.4 title="Remarks 2.4" latex="{Remarks 2.4}"}
+The
 :::
