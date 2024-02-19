@@ -13,6 +13,8 @@ description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."
 \renewcommand{\scr}[1]{{\mathscr{#1}}}
 \renewcommand{\frak}[1]{{\mathfrak{#1}}}
 
+\providecommand{\ZZ}{\mathbb{Z}}
+\providecommand{\QQ}{\mathbb{Q}}
 \providecommand{\coh}{\mathrm{coh}}
 \providecommand{\perf}{\mathrm{perf}}
 \providecommand{\ob}{\operatorname{ob}}
@@ -20,6 +22,9 @@ description: "Séminaire de Géométrie Algébrique du Bois Marie: Book 6."
 \providecommand{\Kb}{\operatorname{K}^\mathrm{b}}
 \providecommand{\Db}{\operatorname{D}^\mathrm{b}}
 \providecommand{\HH}{\operatorname{H}}
+\providecommand{\RR}{\operatorname{R}}
+\providecommand{\Todd}{\operatorname{Todd}}
+\providecommand{\ch}{\operatorname{ch}}
 
 
 # Introduction {-}
