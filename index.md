@@ -427,7 +427,7 @@
 <br>
 
 
-## 4-II. Topos theory and étale cohomology of schemes III {#sga-4-II}
+## 4-III. Topos theory and étale cohomology of schemes III {#sga-4-III}
 
 - [ ] IX. Constructible sheaves. Cohomology of an algebraic curve
 - [ ] X. Cohomological dimension: first results

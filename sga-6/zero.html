@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>0. Outline of a programme for a theory of intersections | SGA 6: Intersection theory and the Riemann–Roch theorem</title>
   <meta name="description" content="Séminaire de Géométrie Algébrique du Bois Marie: Book 6." />
-  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
   <meta property="og:title" content="0. Outline of a programme for a theory of intersections | SGA 6: Intersection theory and the Riemann–Roch theorem" />
   <meta property="og:type" content="book" />
@@ -77,6 +77,7 @@
 <li class="chapter" data-level="" data-path="zero.html"><a href="zero.html"><i class="fa fa-check"></i>0. Outline of a programme for a theory of intersections</a>
 <ul>
 <li class="chapter" data-level="" data-path="zero.html"><a href="zero.html#section"><i class="fa fa-check"></i>1.</a></li>
+<li class="chapter" data-level="" data-path="zero.html"><a href="zero.html#section-1"><i class="fa fa-check"></i>2.</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="zeroRRR.html"><a href="zeroRRR.html"><i class="fa fa-check"></i>0[RRR]. Classes of sheaves and the Riemann–Roch theorem</a>
 <ul>
@@ -124,7 +125,65 @@
 It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre <span class="citation">[@2]</span> or in the report by Grothendieck mentioned previously in the introduction (cited as <span class="citation">[@RRR]</span>), which is reproduced as an appendix at the end of this current exposé.</p>
 <div id="section" class="section level2">
 <h2>1.</h2>
-<p>Recall</p>
+<p>Recall the Riemann–Roch formula for a proper morphism
+<eq env="displaymath">
+  f\colon X\to Y
+</eq>
+of smooth quasi-projective schemes over a field <eq env="math">k</eq> and a coherent sheaf <eq env="math">{\mathcal{F}}</eq> on <eq env="math">X</eq>:
+<eq env="displaymath">
+  \operatorname{Todd}(T_Y)\operatorname{ch}_Y(f_*(\operatorname{cl}({\mathcal{F}})))
+  = f_*(\operatorname{Todd}(T_X)\operatorname{ch}_X({\mathcal{F}}))
+\tag{1.1}
+</eq>
+where <eq env="math">\operatorname{cl}({\mathcal{F}})</eq> denotes the class of <eq env="math">{\mathcal{F}}</eq> in the group <eq env="math">K(X)</eq> of classes of coherent sheaves on <eq env="math">X</eq>, and <eq env="math">\operatorname{ch}_X</eq> and <eq env="math">\operatorname{ch}_Y</eq> denote the Chern characters of on <eq env="math">X</eq> and <eq env="math">Y</eq> (resp.), and <eq env="math">T_X</eq> and <eq env="math">T_Y</eq> the tangent bundles to <eq env="math">X</eq> and <eq env="math">Y</eq> (resp.).
+This formula holds in <eq env="math">A(Y)\otimes_\mathbb{Z}\mathbb{Q}</eq>, where <eq env="math">A(Y)</eq> is the Chow ring of <eq env="math">Y</eq>;
+the <eq env="math">f_*</eq> on the right-hand side is induced by tensoring with <eq env="math">\mathbb{Q}</eq> the “direct image of cycles” homomorphism
+<eq env="displaymath">
+  f_*\colon A(X) \to A(Y)
+</eq>
+and the <eq env="math">f_*</eq> on the left-hand side is the Euler–Poincaré characteristic of <eq env="math">{\mathcal{F}}</eq> with respect to <eq env="math">f</eq>:
+<eq env="displaymath">
+  f_*(\operatorname{cl}({\mathcal{F}}))
+  = \sum_i (-1)^i \operatorname{cl}(\operatorname{R}^i f_*({\mathcal{F}})).
+</eq>
+As we know, <eq env="math">\operatorname{Todd}(-)</eq> and <eq env="math">\operatorname{ch}(-)</eq> are universal polynomials in the Chern classes of the argument with coefficients in <eq env="math">\mathbb{Q}</eq>.
+Since the constant term of <eq env="math">\operatorname{Todd}(-)</eq> is <eq env="math">1</eq>, it is an invertible element for any value of argument, so that Equation (1.1) can be rewritten, after multiplication by <eq env="math">\operatorname{Todd}(T_Y)^{-1}</eq>, in the form which is more useful for our needs:
+<eq env="displaymath">
+  \operatorname{ch}_Y(f_*(\operatorname{cl}({\mathcal{F}})))
+  = f_*(\operatorname{Todd}(T_f)\operatorname{ch}_X({\mathcal{F}}))
+\tag{1.2}
+</eq>
+where we set
+<eq env="displaymath">
+  T_f
+  = T_X - f^*(T_Y) \in K(X)
+\tag{1.3}
+</eq>
+so that <eq env="math">T_f</eq> plays the role of a <em>virtual relative tangent bundle</em> of <eq env="math">X</eq> over <eq env="math">Y</eq>.
+In the case where the morphism <eq env="math">f</eq> is smooth (i.e. with everywhere-surjective tangent map), we have simply
+<eq env="displaymath">
+  T_f
+  = T_{X/Y}
+</eq>
+(the tangent bundle along the fibres) and so, in the case where <eq env="math">f\colon X\to Y</eq> is an immersion, we find
+<eq env="displaymath">
+  T_f
+  = -\check{N}_{X/Y}
+</eq>
+where <eq env="math">\check{N}_{X/Y}</eq> denotes the normal sheaf of <eq env="math">X</eq> in <eq env="math">Y</eq>.</p>
+<p>One of the main goals of this Seminar is to generalise (1.2) simultaneously in two directions:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Remove the hypothesis of the existence of a base field <eq env="math">k</eq>.</li>
+<li>Replace the regularity hypotheses on <eq env="math">Y</eq> and <eq env="math">X</eq> by a “local regularity” hypothesis on <eq env="math">f</eq>.</li>
+</ol>
+<p>Finally, on the way, we will equally deal with the problem:</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <eq env="math">X</eq> and on <eq env="math">Y</eq>.</li>
+</ol>
+</div>
+<div id="section-1" class="section level2">
+<h2>2.</h2>
+<p>We</p>
 <p><strong>TO-DO</strong></p>
 
 </div>
