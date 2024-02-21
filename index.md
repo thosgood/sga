@@ -20,7 +20,7 @@
 - [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/sga-1/II.html) *(@thosgood)*
   1. [x] [Generalities](https://thosgood.com/sga/sga-1/II.html#II.1)
   2. [x] [Some smoothness criteria for morphisms](https://thosgood.com/sga/sga-1/II.html#II.2)
-  3. [ ] Invariance properties *(1)*
+  3. [x] [Invariance properties](https://thosgood.com/sga/sga-1/II.html#II.3)
   4. [ ] Differential properties of smooth morphisms *(17)*
   5. [ ] The case of a base field *(6)*
 - [ ] III. Smooth morphisms: extension properties
