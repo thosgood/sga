@@ -1,5 +1,7 @@
 # Séminaire de Géométrie Algébrique du Bois Marie
 
+*At the moment, the only translations being worked on (very slowly) are [SGA 1](#sga-1) and [SGA 6](#sga-6).*
+
 ## [1. Étale covers and the fundamental group](https://thosgood.com/sga/sga-1/index.html) {#sga-1}
 
 - [x] [Introduction and foreword](https://thosgood.com/sga/sga-1/index.html) *(@thosgood)*
@@ -17,7 +19,7 @@
   11. [x] [Various addenda](https://thosgood.com/sga/sga-1/I.html#I.11)
 - [ ] [II. Smooth morphisms: generalities, differential properties](https://thosgood.com/sga/sga-1/II.html) *(@thosgood)*
   1. [x] [Generalities](https://thosgood.com/sga/sga-1/II.html#II.1)
-  2. [ ] Some smoothness criteria for morphisms *(3)*
+  2. [x] [Some smoothness criteria for morphisms](https://thosgood.com/sga/sga-1/II.html#II.2)
   3. [ ] Invariance properties *(1)*
   4. [ ] Differential properties of smooth morphisms *(17)*
   5. [ ] The case of a base field *(6)*
