@@ -1,0 +1,29 @@
+## 3. Invariance properties {#II.3}
+
+::: {.itenv #II.3.1 title="Proposition 3.1" latex="{Proposition 3.1}"}
+Let $f\colon X\to Y$ be a morphism, and let $x\in X$ and $y=f(x)$.
+Suppose that $f$ is smooth at $x$.
+For $\cal{O}_x$ to be reduced (resp. regular, resp. normal), it is necessary and sufficient that $\cal{O}_y$ be.
+:::
+
+This statement is indeed known when $X$ is of the form $Y[t_1,\ldots,t_n]$, and it is proven in [I 9](#I.9) for an étale morphism;
+the general case follows immediately thanks to [Definition 1.1](#II.1.1).
+
+We will not give the details here of the other invariance properties, following already from just flatness, or from the fact that $X$ is locally quasi-finite and flat over a $Y$-prescheme of the form $Y[t_1,\ldots,t_n]$ (or, as we say, that $X$ is Cohen--Macaulay over $Y$).
+We note that this last fact implies that
+$$
+  \begin{aligned}
+    \dim\cal{O}_x
+    &= \dim\cal{O}_y + n - d
+  \\\operatorname{prof}\cal{O}_x
+    &= \operatorname{prof}\cal{O}_y + n - d
+  \end{aligned}
+\tag{3.1}
+$$
+where $n$ is the dimension of the fibre of $f$ at $x$, and $d$ is the transcendence degree of $k(x)$ over $k(y)$, whence (setting $\operatorname{coprof}=\dim-\operatorname{prof}$)^[For these formulas, cf. EGA IV 6.1 and 6.3]
+$$
+  \operatorname{coprof}\cal{O}_x
+  = \operatorname{coprof}\cal{O}_y.
+\tag{3.2}
+$$
+It thus follows, for example, that $\cal{O}_x$ is Cohen--Macaulay (resp. without embedded components) if and only if the same is true of $\cal{O}_y$.
