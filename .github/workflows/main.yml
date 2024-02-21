@@ -12,42 +12,32 @@ jobs:
   bookdown:
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️ Checkout
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: 📦 Cache Yarn packages
-        uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: 💿 Install R
+      - name: Install R
         uses: r-lib/actions/setup-r@v2
-
-      - name: 📦 Cache R packages
-        id: cache-r-packages
-        uses: actions/cache@v2
         with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
+          r-version: '4.2.0'
 
-      - name: 💿 Install Pandoc
+      - name: Install Pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      - name: 💿 Install R packages
-        if: steps.cache-r-packages.outputs.cache-hit != 'true'
-        run: |
-          R -e "install.packages('bookdown')"
+      - name: Install TinyTeX
+        uses: r-lib/actions/setup-tinytex@v2
+        env:
+          TINYTEX_INSTALLER: TinyTeX
 
-      - name: 🛠 Build site
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Build site
         run: |
           ./main_build.sh
 
-      - name: 🚀 Deploy to build branch
+      - name: Deploy to build branch
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
