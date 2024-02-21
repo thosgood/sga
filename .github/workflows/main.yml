@@ -23,15 +23,14 @@ jobs:
       - name: Install Pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install TinyTeX
-        uses: r-lib/actions/setup-tinytex@v2
-        env:
-          TINYTEX_INSTALLER: TinyTeX
-
       - name: Install R dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+
+      - name: Install R packages
+        run: |
+          R -e "install.packages('bookdown')"
 
       - name: Build site
         run: |
