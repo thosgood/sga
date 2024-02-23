@@ -13,6 +13,7 @@ for NUM in 1 6; do
   [ -d "sga-$NUM" ] &&
   cp {_output.yml,assets/scripts.html,assets/style.css} sga-$NUM/ &&
   cd sga-$NUM &&
+  R -e "install.packages('bookdown')" &&
   ./build.R &&
   mv build ../build/sga-$NUM &&
   cd -
