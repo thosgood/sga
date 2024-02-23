@@ -11,9 +11,8 @@ cp -R _layouts build/
 # TO-DO: make this loop cleverer (use a regex or something)
 for NUM in 1 6; do
   [ -d "sga-$NUM" ] &&
-  cp {_output.yml,assets/scripts.html,assets/style.css} sga-$NUM/ &&
+  cp {assets/_output.yml,assets/scripts.html,assets/style.css} sga-$NUM/ &&
   cd sga-$NUM &&
-  R -e "install.packages('bookdown')" &&
   ./build.R &&
   mv build ../build/sga-$NUM &&
   cd -
