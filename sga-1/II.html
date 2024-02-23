@@ -97,6 +97,8 @@
 <ul>
 <li class="chapter" data-level="" data-path="II.html"><a href="II.html#II.1"><i class="fa fa-check"></i>1. Generalities</a></li>
 <li class="chapter" data-level="" data-path="II.html"><a href="II.html#II.2"><i class="fa fa-check"></i>2. Some smoothness criteria for morphisms</a></li>
+<li class="chapter" data-level="" data-path="II.html"><a href="II.html#II.3"><i class="fa fa-check"></i>3. Invariance properties</a></li>
+<li class="chapter" data-level="" data-path="II.html"><a href="II.html#II.4"><i class="fa fa-check"></i>4. Differential properties of smooth morphisms</a></li>
 </ul></li>
 </ul>
 
@@ -282,7 +284,41 @@ For <eq env="math">f</eq> to be smooth at all the points of <eq env="math">X</eq
 Furthermore, <eq env="math">X</eq> then denoted a closed subscheme (if we can say that) of some <eq env="math">\mathbb{P}_K^n</eq> (with <eq env="math">K</eq> the field of fractions of <eq env="math">A</eq>), and, due to a lack of adequate language, the more intrinsic role of an object “defined over <eq env="math">A</eq>” (and not only over <eq env="math">K</eq>) didn’t really appear.</p>
 
 </div>
+<div id="II.3" class="section level2">
+<h2>3. Invariance properties</h2>
+<div id="II.3.1" class="itenv" title="Proposition 3.1">
+<p>Let <eq env="math">f\colon X\to Y</eq> be a morphism, and let <eq env="math">x\in X</eq> and <eq env="math">y=f(x)</eq>.
+Suppose that <eq env="math">f</eq> is smooth at <eq env="math">x</eq>.
+For <eq env="math">{\mathcal{O}}_x</eq> to be reduced (resp. regular, resp. normal), it is necessary and sufficient that <eq env="math">{\mathcal{O}}_y</eq> be.</p>
 </div>
+<p>This statement is indeed known when <eq env="math">X</eq> is of the form <eq env="math">Y[t_1,\ldots,t_n]</eq>, and it is proven in <a href="I.html#I.9">I 9</a> for an étale morphism;
+the general case follows immediately thanks to <a href="II.html#II.1.1">Definition 1.1</a>.</p>
+<p>We will not give the details here of the other invariance properties, following already from just flatness, or from the fact that <eq env="math">X</eq> is locally quasi-finite and flat over a <eq env="math">Y</eq>-prescheme of the form <eq env="math">Y[t_1,\ldots,t_n]</eq> (or, as we say, that <eq env="math">X</eq> is Cohen–Macaulay over <eq env="math">Y</eq>).
+We note that this last fact implies that
+<eq env="displaymath">
+  \begin{aligned}
+    \dim{\mathcal{O}}_x
+    &amp;= \dim{\mathcal{O}}_y + n - d
+  \\\operatorname{prof}{\mathcal{O}}_x
+    &amp;= \operatorname{prof}{\mathcal{O}}_y + n - d
+  \end{aligned}
+\tag{3.1}
+</eq>
+where <eq env="math">n</eq> is the dimension of the fibre of <eq env="math">f</eq> at <eq env="math">x</eq>, and <eq env="math">d</eq> is the transcendence degree of <eq env="math">k(x)</eq> over <eq env="math">k(y)</eq>, whence (setting <eq env="math">\operatorname{coprof}=\dim-\operatorname{prof}</eq>)<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a>
+<eq env="displaymath">
+  \operatorname{coprof}{\mathcal{O}}_x
+  = \operatorname{coprof}{\mathcal{O}}_y.
+\tag{3.2}
+</eq>
+It thus follows, for example, that <eq env="math">{\mathcal{O}}_x</eq> is Cohen–Macaulay (resp. without embedded components) if and only if the same is true of <eq env="math">{\mathcal{O}}_y</eq>.</p>
+
+</div>
+<div id="II.4" class="section level2">
+<h2>4. Differential properties of smooth morphisms</h2>
+
+</div>
+</div>
+
 
 
 
@@ -318,6 +354,7 @@ Furthermore, <eq env="math">X</eq> then denoted a closed subscheme (if we can sa
 <li id="fn21"><p>It is better to say, as in EGA IV 18.6.1, that <eq env="math">B</eq> is <em>essentially smooth</em> over <eq env="math">A</eq>.<a href="II.html#fnref21" class="footnote-back">↩︎</a></p></li>
 <li id="fn22"><p>cf. EGA IV 7.8.<a href="II.html#fnref22" class="footnote-back">↩︎</a></p></li>
 <li id="fn23"><p>cf. EGA IV 5.12.10.<a href="II.html#fnref23" class="footnote-back">↩︎</a></p></li>
+<li id="fn24"><p>For these formulas, cf. EGA IV 6.1 and 6.3<a href="II.html#fnref24" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
