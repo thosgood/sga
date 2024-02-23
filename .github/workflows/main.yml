@@ -28,10 +28,6 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Install R packages
-        run: |
-          R -e "install.packages('bookdown')"
-
       - name: Build site
         run: |
           ./main_build.sh
