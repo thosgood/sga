@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 
+renv::restore()
 bookdown::render_book("index.Rmd",
                       "bookdown::gitbook",
                       output_dir = "build",
