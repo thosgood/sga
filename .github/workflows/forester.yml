@@ -27,7 +27,7 @@ jobs:
         run: eval $(opam env)
 
       - name: Build forest
-        run: forester build trees/
+        run: opam exec -- forester build trees/
 
       - name: Deploy to build branch
         uses: JamesIves/github-pages-deploy-action@3.6.2
