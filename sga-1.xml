@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>368</anchor>  <addr>sga-1</addr><route>sga-1.xml</route>    <title>SGA 1: Étale covers and the fundamental group</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>369</anchor>  <addr>sga-1-introduction</addr><route>sga-1-introduction.xml</route>    <title>Introduction</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>368</anchor>  <addr>sga-1</addr><route>sga-1.xml</route>    <title>SGA 1: Étale covers and the fundamental group</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>369</anchor>  <addr>sga1-introduction</addr><route>sga1-introduction.xml</route>    <title>Introduction</title>   </frontmatter> <mainmatter><p>
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, of which the present volume constitutes the first tome.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>370</anchor>  <addr>sga-1-introduction-1</addr><route>sga-1-introduction-1.xml</route>    <title>1. The present volume</title>   </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>370</anchor>  <addr>sga1-introduction-1</addr><route>sga1-introduction-1.xml</route>    <title>1. The present volume</title>   </frontmatter> <mainmatter><p>
     The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the &quot;Kroneckerian&quot; point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
     This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck (cited as &quot;EGA&quot;).
     The study of this present volume of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
@@ -21,7 +21,7 @@
     This essentially involves a calculation of the fundamental group of a connected scheme <tex>X</tex> endowed with a surjective and proper morphism (say, <tex>X' \to  X</tex>) in terms of the fundamental groups of the connected components of <tex>X'</tex> and of the fibre products <tex>X' \times _X X'</tex>, <tex>X' \times _X X' \times _X X'</tex>, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
     Exposé X gives the theory of <em>specialisation of the fundamental group</em> for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic <tex>p&gt;0</tex>, thanks to the known result obtained by transcendental methods in characteristic zero.
     <tex>Exposé XI</tex> gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
-    For other commentaries on the text, see the Foreword <ref addr="sga-1-foreword" href="sga-1-foreword.xml"/>, found after this Introduction.
+    For other commentaries on the text, see the Foreword <ref addr="sga1-foreword" href="sga1-foreword.xml"/>, found after this Introduction.
   </p><p>
     Since the writing of the seminar in 1961, the language of <em>étale topology</em>, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
     it is detailed in tome 4 (&quot;Cohomologie étale des schémas&quot;) of the <em>Séminaire de Géométrie Algébrique</em>, which will appear in the same series as the present volume.
@@ -34,7 +34,7 @@
     There we give, in particular, the structure of the &quot;prime at <tex>p</tex>&quot; fundamental group of a non-complete algebraic curve in arbitrary characteristic (which I announced in 1959, but for which a proof had not been published up until now).
   </p><p>
     Despite these numerous gaps and imperfections (as others would say: because of these gaps and imperfections), I think that the present volume could be useful for the reader who wishes to familiarise themselves with the theory of the fundamental group, as well as a work of reference, while we await the writing and appearance of a text that avoids the criticisms that I have just listed.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>371</anchor>  <addr>sga-1-introduction-2</addr><route>sga-1-introduction-2.xml</route>    <title>2. The entire SGA</title>   </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>371</anchor>  <addr>sga1-introduction-2</addr><route>sga1-introduction-2.xml</route>    <title>2. The entire SGA</title>   </frontmatter> <mainmatter><p>
     The present volume constitutes tome 1 of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, whose following volumes are intended to appear in the same series as this one.
     The aim of the <em>Séminaire</em>, parallel to the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
     The standard reference for all the volumes of the <em>Séminaire</em> consists of Chapters I, II, and III of <em>Éléments de Géométrie Algébrique</em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
@@ -108,7 +108,7 @@
     I am happy to thank here Springer and Mr. K. Peters for the efficient and polite help that they have given me in making this publication possible, in particular for dealing with the typing of the photo-offset of new exposés added to old seminars, and of missing exposés in incomplete seminars.
   </p><p>
     I equally thank Mr. J.P. Delale, who had the thankless job of compiling the index of notation and the index of terminology.
-  </p><p><em>Massy, August 1970.</em></p></mainmatter> </tree></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>372</anchor>  <addr>sga-1-foreword</addr><route>sga-1-foreword.xml</route>    <title>Foreword</title>   </frontmatter> <mainmatter><p>
+  </p><p><em>Massy, August 1970.</em></p></mainmatter> </tree></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>372</anchor>  <addr>sga1-foreword</addr><route>sga1-foreword.xml</route>    <title>Foreword</title>   </frontmatter> <mainmatter><p>
   Each of these written exposés covers the material of multiple consecutive oral exposés.
   It did not seem useful to make a note of the dates.
 </p><p>
@@ -121,7 +121,7 @@
   The first of these oral exposés covered, in the framework of schemes and analytic spaces with nilpotent elements (as introduced in the <em>Séminaire Cartan 1960/61</em>), the construction of the analytic space associated to a prescheme of locally finite type over a complete valuation field <tex>k</tex>, GAGA-type theorems in the case where <tex>k</tex> is the field of complex numbers, and the application to the comparison of the fundamental group defined by transcendental methods and the fundamental group studied in these notes (cf. A. Grothendieck, &quot;Fondements de la Géométrie Algébrique&quot;. <em>Séminaire Bourbaki</em> <strong>190</strong> (December 1959), page 10).
   The latter oral exposés outlined the generalisation of methods developed in the text for the study of coverings that admit moderate ramification, and of the structure of the fundamental group of a complete curve minus a finite number of points (cf. <em>loc. cit.</em> <strong>182</strong>, page 27, théorème 14).
   These exposés do not introduce any essentially new ideas, which is why it did not seem necessary to write them up properly before the appearance of the corresponding chapters of <em>Éléments de Géométrie Algébrique</em>.
-  (They are included in the present volume in Exposé XII by Mme Raynaud with a different proof from the original given in the oral seminar (cf. <ref addr="sga-1-introduction" href="sga-1-introduction.xml"/>).)
+  (They are included in the present volume in Exposé XII by Mme Raynaud with a different proof from the original given in the oral seminar (cf. <ref addr="sga1-introduction" href="sga1-introduction.xml"/>).)
 </p><p>
   However, the Lefschetz type theorems for the fundamental group and the Picard group, from both a local and a global point of view, were the subject of a separate seminar in 1962, which was completely written down and is available to read.
   (<em>Cohomologie étale des faisceaux cohérents et théorèmes de Lefschetz locaux et globaux</em> (SGA 2), appeared in North Holland Pub. Cie.)
@@ -130,10 +130,10 @@
   Exposés I to IV, which are of an essentially local nature, and very elementary, will be absorbed entirely by Chapter IV of <em>Éléments de Géométrie Algébrique</em>, of which the first part is being printed and will probably be published towards the end of 1964.
   They can, nevertheless, be useful for a reader who wants to catch up to speed with the essential properties of smooth, étale, or flat morphisms, before diving into the arcana of a systematic treatment.
   As for the other exposés, they will be absorbed into Chapter VIII of the <em>Éléments</em>, whose publication can barely even be contemplated for many years.
-  (In fact, following a change to the initial plan for the <em>Éléments</em>, the study of the fundamental group has been postponed to a later chapter of the <em>Éléments</em>, cf. the Introduction <ref addr="sga-1-introduction" href="sga-1-introduction.xml"/> that precedes this Foreword.)
-</p><p><em>Bures, June 1963.</em></p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>373</anchor>  <addr>sga-1.i</addr><route>sga-1.i.xml</route>    <title>Exposé I. Étale morphisms</title>   </frontmatter> <mainmatter><p>
-  To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <ref addr="sga-1.i.2" href="sga-1.i.2.xml"/>).
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>374</anchor>  <addr>sga-1.i.1</addr><route>sga-1.i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
+  (In fact, following a change to the initial plan for the <em>Éléments</em>, the study of the fundamental group has been postponed to a later chapter of the <em>Éléments</em>, cf. the Introduction <ref addr="sga1-introduction" href="sga1-introduction.xml"/> that precedes this Foreword.)
+</p><p><em>Bures, June 1963.</em></p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>373</anchor>  <addr>sga1-i</addr><route>sga1-i.xml</route>    <title>Exposé I. Étale morphisms</title>   </frontmatter> <mainmatter><p>
+  To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <ref addr="sga1-i.2" href="sga1-i.2.xml"/>).
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>374</anchor>  <addr>sga1-i.1</addr><route>sga1-i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
   Let <tex>X</tex> be a prescheme over <tex>Y</tex>, and <tex>\Delta _{X/Y}</tex> the diagonal morphism <tex>X \to  X \times _Y X</tex>.
   This is an immersion, and thus a closed immersion of <tex>X</tex> into an open subset <tex>V</tex> of <tex>X \times _Y X</tex>.
   Let <tex>\mathscr {I}_X</tex> be the ideal of the closed sub-prescheme corresponding to the diagonal in <tex>V</tex> (N.B. if one really wishes to do things intrinsically, without assuming that <tex>X</tex> is separated over <tex>Y</tex> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <tex>\mathcal {O}_{X \times  X}</tex> in <tex>X</tex> and denote by <tex>\mathscr {I}_X</tex> the augmentation ideal in the above ...).
@@ -142,7 +142,7 @@
   We also introduce the sheaves <tex>\mathcal {O}_{X \times _Y X}/ \mathscr {I}_X^{n+1}= \mathscr {P}^n_{X/Y}</tex>, which are sheaves of <em>rings</em> on <tex>X</tex>, giving us preschemes denoted by <tex>\Delta _{X/Y}^n</tex> and called the <em><tex>n</tex>-th infinitesimal neighbourhood of <tex>X/Y</tex></em>.
   The polysyllogism is entirely trivial, even if rather long (cf. EGA IV 16.3);
   it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>375</anchor>  <addr>sga-1.i.2</addr><route>sga-1.i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>376</anchor> <taxon>Proposition</taxon> <addr>sga-1.i.2.1</addr><route>sga-1.i.2.1.xml</route>    <title>2.1</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>375</anchor>  <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>376</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>    <title>2.1</title>   </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
     Then the following conditions are equivalent:
   </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
@@ -152,28 +152,13 @@
     <li>
       The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
     </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga-1.i.2.1" href="sga-1.i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
+  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
   A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal {O}_x</tex> is quasi-finite over <tex>\mathcal {O}_{f(x)}</tex>.
   This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
   (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>377</anchor> <taxon>Corollary</taxon> <addr>sga-1.i.2.2</addr><route>sga-1.i.2.2.xml</route>    <title>2.2</title>   </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>377</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>    <title>2.2</title>   </frontmatter> <mainmatter><p>
     If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
   </p></mainmatter> </tree><p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></mainmatter> </tree></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>378</anchor>  <addr>index</addr><route>index.xml</route>    <title>Séminaire de Géométrie Algébrique du Bois-Marie</title>   </frontmatter> <mainmatter><p>
-  TO-DO: describe this translation
-</p><ul><li><link href="sga-1.xml" type="local" addr="sga-1" title="SGA 1: Étale covers and the fundamental group"><strong>SGA 1: Étale covers and the fundamental group</strong></link>
-
-    <p>
-      Directed by A. Grothendieck.
-      Augmented with two exposés by Mme M. Raynaud.
-      1960–61.
-      <link href="https://arxiv.org/abs/math/0206203v2" type="external">arXiv:math/0206203v2</link></p></li>
-  <li><link href="sga-6.xml" type="local" addr="sga-6" title="SGA 6: Intersection theory and the Riemann–Roch theorem"><strong>SGA 6: Intersection theory and the Riemann–Roch theorem</strong></link>
-
-    <p>
-      Directed by P. Berthelot, A. Grothendieck, and L. Illusie.
-      With the collaboration of D. Ferrand, J.P. Jouanolou, O. Jussila, S. Kleiman, M. Raynaud, and J.P. Serre.
-      1966–67.
-    </p></li></ul></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</p></mainmatter> </tree></mainmatter> </tree></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

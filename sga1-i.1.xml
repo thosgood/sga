@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>284</anchor>  <addr>sga-1.i.1</addr><route>sga-1.i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>284</anchor>  <addr>sga1-i.1</addr><route>sga1-i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
   Let <tex>X</tex> be a prescheme over <tex>Y</tex>, and <tex>\Delta _{X/Y}</tex> the diagonal morphism <tex>X \to  X \times _Y X</tex>.
   This is an immersion, and thus a closed immersion of <tex>X</tex> into an open subset <tex>V</tex> of <tex>X \times _Y X</tex>.
   Let <tex>\mathscr {I}_X</tex> be the ideal of the closed sub-prescheme corresponding to the diagonal in <tex>V</tex> (N.B. if one really wishes to do things intrinsically, without assuming that <tex>X</tex> is separated over <tex>Y</tex> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <tex>\mathcal {O}_{X \times  X}</tex> in <tex>X</tex> and denote by <tex>\mathscr {I}_X</tex> the augmentation ideal in the above ...).
@@ -9,9 +9,9 @@
   We also introduce the sheaves <tex>\mathcal {O}_{X \times _Y X}/ \mathscr {I}_X^{n+1}= \mathscr {P}^n_{X/Y}</tex>, which are sheaves of <em>rings</em> on <tex>X</tex>, giving us preschemes denoted by <tex>\Delta _{X/Y}^n</tex> and called the <em><tex>n</tex>-th infinitesimal neighbourhood of <tex>X/Y</tex></em>.
   The polysyllogism is entirely trivial, even if rather long (cf. EGA IV 16.3);
   it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.
-</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>285</anchor>  <addr>sga-1.i</addr><route>sga-1.i.xml</route>    <title>Exposé I. Étale morphisms</title>   </frontmatter> <mainmatter><p>
-  To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <ref addr="sga-1.i.2" href="sga-1.i.2.xml"/>).
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>286</anchor>  <addr>sga-1.i.1</addr><route>sga-1.i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>285</anchor>  <addr>sga1-i</addr><route>sga1-i.xml</route>    <title>Exposé I. Étale morphisms</title>   </frontmatter> <mainmatter><p>
+  To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <ref addr="sga1-i.2" href="sga1-i.2.xml"/>).
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>286</anchor>  <addr>sga1-i.1</addr><route>sga1-i.1.xml</route>    <title>I.1. Basics of differential calculus</title>   </frontmatter> <mainmatter><p>
   Let <tex>X</tex> be a prescheme over <tex>Y</tex>, and <tex>\Delta _{X/Y}</tex> the diagonal morphism <tex>X \to  X \times _Y X</tex>.
   This is an immersion, and thus a closed immersion of <tex>X</tex> into an open subset <tex>V</tex> of <tex>X \times _Y X</tex>.
   Let <tex>\mathscr {I}_X</tex> be the ideal of the closed sub-prescheme corresponding to the diagonal in <tex>V</tex> (N.B. if one really wishes to do things intrinsically, without assuming that <tex>X</tex> is separated over <tex>Y</tex> — a misleading hypothesis — then one should consider the set-theoretic inverse image of <tex>\mathcal {O}_{X \times  X}</tex> in <tex>X</tex> and denote by <tex>\mathscr {I}_X</tex> the augmentation ideal in the above ...).
@@ -20,7 +20,7 @@
   We also introduce the sheaves <tex>\mathcal {O}_{X \times _Y X}/ \mathscr {I}_X^{n+1}= \mathscr {P}^n_{X/Y}</tex>, which are sheaves of <em>rings</em> on <tex>X</tex>, giving us preschemes denoted by <tex>\Delta _{X/Y}^n</tex> and called the <em><tex>n</tex>-th infinitesimal neighbourhood of <tex>X/Y</tex></em>.
   The polysyllogism is entirely trivial, even if rather long (cf. EGA IV 16.3);
   it seems wise to not discuss it until we use it for something helpful, with smooth morphisms.
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>287</anchor>  <addr>sga-1.i.2</addr><route>sga-1.i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>288</anchor> <taxon>Proposition</taxon> <addr>sga-1.i.2.1</addr><route>sga-1.i.2.1.xml</route>    <title>2.1</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>287</anchor>  <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>288</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>    <title>2.1</title>   </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
     Then the following conditions are equivalent:
   </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
@@ -30,12 +30,12 @@
     <li>
       The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
     </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga-1.i.2.1" href="sga-1.i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
+  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
   A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal {O}_x</tex> is quasi-finite over <tex>\mathcal {O}_{f(x)}</tex>.
   This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
   (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>289</anchor> <taxon>Corollary</taxon> <addr>sga-1.i.2.2</addr><route>sga-1.i.2.2.xml</route>    <title>2.2</title>   </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>289</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>    <title>2.2</title>   </frontmatter> <mainmatter><p>
     If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
   </p></mainmatter> </tree><p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
