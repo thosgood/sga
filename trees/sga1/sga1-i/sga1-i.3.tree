@@ -1,10 +1,12 @@
-\title{I.3. Unramified morphisms}
+\title{Unramified morphisms}
+\number{I.3}
 \parent{sga1-i}
 
 \import{sga1-macros}
+\put\transclude/numbered{false}
 
 \subtree[sga1-i.3.1]{
-  \title{3.1}
+  \number{I.3.1}
   \taxon{proposition}
 
   \p{
@@ -37,7 +39,7 @@
 }
 
 \subtree[sga1-i.3.2]{
-  \title{3.2}
+  \number{I.3.2}
   \taxon{definition}
 
   \p{\todo{the following list should be a, b}}
@@ -65,7 +67,7 @@
 }
 
 \subtree[sga1-i.3.3]{
-  \title{3.3}
+  \number{I.3.3}
   \taxon{corollary}
 
   \p{
@@ -74,7 +76,7 @@
 }
 
 \subtree[sga1-i.3.4]{
-  \title{3.4}
+  \number{I.3.4}
   \taxon{corollary}
 
   \p{
@@ -91,7 +93,7 @@
 }
 
 \subtree[sga1-i.3.5]{
-  \title{3.5}
+  \number{I.3.5}
   \taxon{proposition}
 
   \p{\todo{the following list should be i, ii, etc}}
@@ -117,7 +119,7 @@
 }
 
 \subtree[sga1-i.3.6]{
-  \title{3.6}
+  \number{I.3.6}
   \taxon{corollary}
 
   \p{\todo{the following list should be iv, v, etc}}
@@ -136,7 +138,7 @@
 }
 
 \subtree[sga1-i.3.7]{
-  \title{3.7}
+  \number{I.3.7}
   \taxon{proposition}
 
   \p{

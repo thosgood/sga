@@ -1,5 +1,9 @@
-\title{Exposé I. Generalities on finiteness conditions in derived categories}
+\title{Generalities on finiteness conditions in derived categories}
+\number{I}
 \parent{sga6}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
 
 \transclude{sga6-i.0}
 \transclude{sga6-i.1}

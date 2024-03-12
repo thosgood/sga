@@ -1,5 +1,9 @@
-\title{I. #{\lambda}-rings (formal preliminaries)}
+\title{#{\lambda}-rings (formal preliminaries)}
+\number{I}
 \parent{sga6-0rrr}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
 
 \p{
   ...

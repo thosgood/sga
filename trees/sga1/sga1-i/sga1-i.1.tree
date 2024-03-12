@@ -1,7 +1,9 @@
-\title{I.1. Basics of differential calculus}
+\title{Basics of differential calculus}
+\number{I.1}
 \parent{sga1-i}
 
 \import{sga1-macros}
+\put\transclude/numbered{false}
 
 \p{
   Let #{X} be a prescheme over #{Y}, and #{\Delta_{X/Y}} the diagonal morphism #{X\to X\times_Y X}.

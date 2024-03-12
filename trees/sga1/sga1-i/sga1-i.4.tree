@@ -1,4 +1,8 @@
-\title{I.4. Étale morphisms. Étale covers}
+\title{Étale morphisms. Étale covers}
+\number{I.4}
 \parent{sga1-i}
 
 \import{sga1-macros}
+\put\transclude/numbered{false}
+
+\todo{fix the auto-capitalisation of the title not recognising É}

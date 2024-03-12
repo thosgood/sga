@@ -1,5 +1,9 @@
-\title{Exposé 0[RRR]. Classes of sheaves and the Riemann–Roch theorem}
+\title{Classes of sheaves and the Riemann–Roch theorem}
+\number{0RRR}
 \parent{sga6}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
 
 \p{
   ...

@@ -1,10 +1,12 @@
-\title{I.2. Quasi-finite morphisms}
+\title{Quasi-finite morphisms}
+\number{I.2}
 \parent{sga1-i}
 
 \import{sga1-macros}
+\put\transclude/numbered{false}
 
 \subtree[sga1-i.2.1]{
-  \title{2.1}
+  \number{I.2.1}
   \taxon{proposition}
 
   \p{
@@ -36,7 +38,7 @@
 }
 
 \subtree[sga1-i.2.2]{
-  \title{2.2}
+  \number{I.2.2}
   \taxon{corollary}
 
   \p{

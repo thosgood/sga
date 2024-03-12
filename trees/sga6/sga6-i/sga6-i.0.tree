@@ -1,5 +1,9 @@
-\title{I.0. Introduction}
+\title{Introduction}
+\number{I.0}
 \parent{sga6-i}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
 
 \p{
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
