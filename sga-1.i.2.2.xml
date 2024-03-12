@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>188</anchor> <taxon>Corollary</taxon> <addr>sga-1.i.2.2</addr><route>sga-1.i.2.2.xml</route>    <title><link href="sga-1.i.2.xml" type="local" addr="sga-1.i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.2</title>  <parent>sga-1.i.2</parent> </frontmatter> <mainmatter><p>
+    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>189</anchor>  <addr>sga-1.i.2</addr><route>sga-1.i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>190</anchor> <taxon>Proposition</taxon> <addr>sga-1.i.2.1</addr><route>sga-1.i.2.1.xml</route>    <title><link href="sga-1.i.2.xml" type="local" addr="sga-1.i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.1</title>  <parent>sga-1.i.2</parent> </frontmatter> <mainmatter><p>
+    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+    Then the following conditions are equivalent:
+  </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
+    </li>
+    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
+    </li>
+    <li>
+      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
+    </li></ol></mainmatter> </tree><p>
+  If the conditions of <ref addr="sga-1.i.2.1" href="sga-1.i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
+  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal {O}_x</tex> is quasi-finite over <tex>\mathcal {O}_{f(x)}</tex>.
+  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
+  A morphism is said to be quasi-finite if it is quasi-finite at each point.
+  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>191</anchor> <taxon>Corollary</taxon> <addr>sga-1.i.2.2</addr><route>sga-1.i.2.2.xml</route>    <title><link href="sga-1.i.2.xml" type="local" addr="sga-1.i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.2</title>  <parent>sga-1.i.2</parent> </frontmatter> <mainmatter><p>
+    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </p></mainmatter> </tree><p>
+  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
+</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>192</anchor>  <addr>sga-1.i.2</addr><route>sga-1.i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>193</anchor> <taxon>Proposition</taxon> <addr>sga-1.i.2.1</addr><route>sga-1.i.2.1.xml</route>    <title><link href="sga-1.i.2.xml" type="local" addr="sga-1.i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.1</title>  <parent>sga-1.i.2</parent> </frontmatter> <mainmatter><p>
+    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+    Then the following conditions are equivalent:
+  </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
+    </li>
+    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
+    </li>
+    <li>
+      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
+    </li></ol></mainmatter> </tree><p>
+  If the conditions of <ref addr="sga-1.i.2.1" href="sga-1.i.2.1.xml" taxon="Proposition"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
+  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal {O}_x</tex> is quasi-finite over <tex>\mathcal {O}_{f(x)}</tex>.
+  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
+  A morphism is said to be quasi-finite if it is quasi-finite at each point.
+  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>194</anchor> <taxon>Corollary</taxon> <addr>sga-1.i.2.2</addr><route>sga-1.i.2.2.xml</route>    <title><link href="sga-1.i.2.xml" type="local" addr="sga-1.i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.2</title>  <parent>sga-1.i.2</parent> </frontmatter> <mainmatter><p>
+    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </p></mainmatter> </tree><p>
+  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
+</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
