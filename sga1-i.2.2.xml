@@ -5,7 +5,7 @@
   </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>189</anchor>  <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>190</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>    <title><link href="sga1-i.2.xml" type="local" addr="sga1-i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.1</title>  <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
     Then the following conditions are equivalent:
-  </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
+  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
     </li>
     <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
     </li>
@@ -24,7 +24,7 @@
 </p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>192</anchor>  <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title>I.2. Quasi-finite morphisms</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>193</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>    <title><link href="sga1-i.2.xml" type="local" addr="sga1-i.2" title="I.2. Quasi-finite morphisms">I.2. Quasi-finite morphisms</link> › 2.1</title>  <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
     Then the following conditions are equivalent:
-  </p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
+  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
     </li>
     <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
     </li>
