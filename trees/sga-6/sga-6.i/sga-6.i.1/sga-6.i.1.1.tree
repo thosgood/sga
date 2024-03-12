@@ -1,0 +1,19 @@
+\title{I.1.1. Fibred categories with additive (resp. abelian, resp. triangulated) fibres}
+
+\subtree[sga-6.i.1.1.1]{
+  \title{I.1.1.1}
+
+  \p{
+    Let #{\mathcal{S}} be a category, and let #{\mathcal{C}} be a fibred #{\mathcal{S}}-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that #{\mathcal{C}} is an \em{additive} (resp. \em{triangulated}) #{\mathcal{S}}-category (or that #{\mathcal{C}} is additive (resp. triangulated) over #{\mathcal{S}}) if, for every arrow #{f\colon X\to Y} of #{\mathcal{S}}, the inverse image functor (determined up to unique isomorphism) #{f^*\colon\mathcal{C}_Y\to\mathcal{C}_X} is additive (resp. exact).
+    We say that #{\mathcal{C}} is an \em{abelian} #{\mathcal{S}}-category if #{\mathcal{C}} is an additive #{\mathcal{S}}-category with abelian fibres, and that #{\mathcal{C}} is a \em{flat} abelian #{\mathcal{S}}-category if, further, the inverse image functors are exact.
+  }
+}
+
+\subtree[sga-6.i.1.1.2]{
+  \title{I.1.1.2}
+
+  \p{
+    ...
+  }
+}

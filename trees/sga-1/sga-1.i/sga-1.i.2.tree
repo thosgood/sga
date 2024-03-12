@@ -1,0 +1,44 @@
+\title{I.2. Quasi-finite morphisms}
+
+\subtree[sga-1.i.2.1]{
+  \title{2.1}
+  \taxon{proposition}
+
+  \p{
+    Let #{A\to B} be a local homomorphism (N.B. all rings are now Noetherian), and let #{\mathfrak{m}} be the maximal ideal of #{A}.
+    Then the following conditions are equivalent:
+  }
+
+  \ol{
+    \li{
+      #{B/\mathfrak{m}B} is of finite dimension over #{k=A/\mathfrak{m}}.
+    }
+    \li{
+      #{\mathfrak{m}B} is an ideal of definition, and #{B/\mathfrak{r}(B)=k(B)} is an extension of #{k=k(A)}.
+    }
+    \li{
+      The completion #{\widehat{B}} of #{B} is finite over the completion #{\widehat{A}} of #{A}.
+    }
+  }
+}
+
+\p{
+  If the conditions of \ref{sga-1.i.2.1} are satisfied, then we say that #{B} is \em{quasi-finite} over #{A}.
+  A morphism #{f\colon X\to Y} is said to be quasi-finite at #{x} (or the #{Y}-prescheme #{f} is said to be quasi-finite at #{x}) if #{\mathcal{O}_x} is quasi-finite over #{\mathcal{O}_{f(x)}}.
+  This is equivalent to saying that #{x} is \em{isolated in its fibre #{f^{-1}(x)}}.
+  A morphism is said to be quasi-finite if it is quasi-finite at each point.
+  (In [EGA II 6.2.3] we further suppose that #{f} is of finite type.)
+}
+
+\subtree[sga-1.i.2.2]{
+  \title{2.2}
+  \taxon{corollary}
+
+  \p{
+    If #{A} is complete, then quasi-finiteness is equivalent to finiteness.
+  }
+}
+
+\p{
+  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
+}

@@ -1,0 +1,8 @@
+\title{SGA 1: Étale covers and the fundamental group}
+
+\import{sga-1-macros}
+
+\transclude{sga-1-introduction}
+\transclude{sga-1-foreword}
+
+\transclude{sga-1.i}

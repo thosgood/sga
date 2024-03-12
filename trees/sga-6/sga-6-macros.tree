@@ -1,0 +1,13 @@
+\def\ZZ{#{\mathbb{Z}}}
+\def\QQ{#{\mathbb{Q}}}
+\def\coh{#{\mathrm{coh}}}
+\def\perf{#{\mathrm{perf}}}
+\def\ob{#{\operatorname{ob}}}
+\def\cl{#{\operatorname{cl}}}
+\def\Kb{#{\operatorname{K}^\mathrm{b}}}
+\def\Db{#{\operatorname{D}^\mathrm{b}}}
+\def\HH{#{\operatorname{H}}}
+\def\RR{#{\operatorname{R}}}
+\def\Todd{#{\operatorname{Todd}}}
+\def\ch{#{\operatorname{ch}}}
+\def\Tr{#{\operatorname{Tr}}}

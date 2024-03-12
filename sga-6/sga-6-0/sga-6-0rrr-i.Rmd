@@ -1,5 +1,0 @@
-## I. $\lambda$-rings (formal preliminaries) {#zeroRRR.I}
-
-### I.1 Definitions {#zeroRRR.I.1}
-
-**TO-DO**

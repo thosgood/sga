@@ -1,0 +1,27 @@
+name: 🌲 Forester
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  bookdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set-up OCaml
+        uses: ocaml/setup-ocaml@v2
+        with:
+          ocaml-compiler: "5.1"
+
+      - name: Install dependencies
+        run: opam install forester
+
+      - name: Build forest
+        run: forester build trees/

@@ -1,0 +1,10 @@
+\def\tr{#{\operatorname{tr}}}
+\def\Spec{#{\operatorname{Spec}}}
+\def\Hom{#{\operatorname{Hom}}}
+\def\gr{#{\operatorname{gr}}}
+\def\rank{#{\operatorname{rank}}}
+
+\def\id{#{\mathrm{id}}}
+\def\dd{#{\mathrm{d}}}
+
+\def\alg[x]{#{\x\mathsf{-alg}}}
