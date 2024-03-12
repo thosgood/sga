@@ -1,6 +1,6 @@
 \title{I.2. Quasi-finite morphisms}
 
-\subtree[sga-1.i.2.1]{
+\subtree[sga1-i.2.1]{
   \title{2.1}
   \taxon{proposition}
 
@@ -23,14 +23,14 @@
 }
 
 \p{
-  If the conditions of \ref{sga-1.i.2.1} are satisfied, then we say that #{B} is \em{quasi-finite} over #{A}.
+  If the conditions of \ref{sga1-i.2.1} are satisfied, then we say that #{B} is \em{quasi-finite} over #{A}.
   A morphism #{f\colon X\to Y} is said to be quasi-finite at #{x} (or the #{Y}-prescheme #{f} is said to be quasi-finite at #{x}) if #{\mathcal{O}_x} is quasi-finite over #{\mathcal{O}_{f(x)}}.
   This is equivalent to saying that #{x} is \em{isolated in its fibre #{f^{-1}(x)}}.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
   (In [EGA II 6.2.3] we further suppose that #{f} is of finite type.)
 }
 
-\subtree[sga-1.i.2.2]{
+\subtree[sga1-i.2.2]{
   \title{2.2}
   \taxon{corollary}
 

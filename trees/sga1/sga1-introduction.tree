@@ -4,7 +4,7 @@
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the \em{Séminaire de Géométrie Algébrique du Bois-Marie}, of which the present volume constitutes the first tome.
 }
 
-\subtree[sga-1-introduction-1]{
+\subtree[sga1-introduction-1]{
   \title{1. The present volume}
   
   \p{
@@ -30,7 +30,7 @@
     This essentially involves a calculation of the fundamental group of a connected scheme #{X} endowed with a surjective and proper morphism (say, #{X'\to X}) in terms of the fundamental groups of the connected components of #{X'} and of the fibre products #{X'\times_X X'}, #{X'\times_X X'\times_X X'}, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
     Exposé X gives the theory of \em{specialisation of the fundamental group} for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic #{p>0}, thanks to the known result obtained by transcendental methods in characteristic zero.
     #{Exposé XI} gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
-    For other commentaries on the text, see the Foreword \ref{sga-1-foreword}, found after this Introduction.
+    For other commentaries on the text, see the Foreword \ref{sga1-foreword}, found after this Introduction.
   }
 
   \p{
@@ -50,7 +50,7 @@
   }
 }
 
-\subtree[sga-1-introduction-2]{
+\subtree[sga1-introduction-2]{
   \title{2. The entire SGA}
 
   \p{

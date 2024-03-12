@@ -4,9 +4,13 @@
   TO-DO: describe this translation
 }
 
+\p{
+  [GitHub repo](https://github.com/thosgood/sga)
+}
+
 \ul{
   \li{
-    [\strong{SGA 1: Étale covers and the fundamental group}](sga-1)
+    [\strong{SGA 1: Étale covers and the fundamental group}](sga1)
 
     \p{
       Directed by A. Grothendieck.
@@ -16,7 +20,7 @@
     }
   }
   \li{
-    [\strong{SGA 6: Intersection theory and the Riemann–Roch theorem}](sga-6)
+    [\strong{SGA 6: Intersection theory and the Riemann–Roch theorem}](sga6)
 
     \p{
       Directed by P. Berthelot, A. Grothendieck, and L. Illusie.

@@ -5,4 +5,4 @@
   It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as [@RRR]), which is reproduced as an appendix at the end of this current exposé.
 }
 
-\transclude{sga-6.0.1}
+\transclude{sga6-0.1}

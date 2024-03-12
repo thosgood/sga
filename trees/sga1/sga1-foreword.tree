@@ -17,7 +17,7 @@
   The first of these oral exposés covered, in the framework of schemes and analytic spaces with nilpotent elements (as introduced in the \em{Séminaire Cartan 1960/61}), the construction of the analytic space associated to a prescheme of locally finite type over a complete valuation field #{k}, GAGA-type theorems in the case where #{k} is the field of complex numbers, and the application to the comparison of the fundamental group defined by transcendental methods and the fundamental group studied in these notes (cf. A. Grothendieck, "Fondements de la Géométrie Algébrique". \em{Séminaire Bourbaki} \strong{190} (December 1959), page 10).
   The latter oral exposés outlined the generalisation of methods developed in the text for the study of coverings that admit moderate ramification, and of the structure of the fundamental group of a complete curve minus a finite number of points (cf. \em{loc. cit.} \strong{182}, page 27, théorème 14).
   These exposés do not introduce any essentially new ideas, which is why it did not seem necessary to write them up properly before the appearance of the corresponding chapters of \em{Éléments de Géométrie Algébrique}.
-  (They are included in the present volume in Exposé XII by Mme Raynaud with a different proof from the original given in the oral seminar (cf. \ref{sga-1-introduction}).)
+  (They are included in the present volume in Exposé XII by Mme Raynaud with a different proof from the original given in the oral seminar (cf. \ref{sga1-introduction}).)
 }
 
 \p{
@@ -28,7 +28,7 @@
   Exposés I to IV, which are of an essentially local nature, and very elementary, will be absorbed entirely by Chapter IV of \em{Éléments de Géométrie Algébrique}, of which the first part is being printed and will probably be published towards the end of 1964.
   They can, nevertheless, be useful for a reader who wants to catch up to speed with the essential properties of smooth, étale, or flat morphisms, before diving into the arcana of a systematic treatment.
   As for the other exposés, they will be absorbed into Chapter VIII of the \em{Éléments}, whose publication can barely even be contemplated for many years.
-  (In fact, following a change to the initial plan for the \em{Éléments}, the study of the fundamental group has been postponed to a later chapter of the \em{Éléments}, cf. the Introduction \ref{sga-1-introduction} that precedes this Foreword.)
+  (In fact, following a change to the initial plan for the \em{Éléments}, the study of the fundamental group has been postponed to a later chapter of the \em{Éléments}, cf. the Introduction \ref{sga1-introduction} that precedes this Foreword.)
 }
 
 \p{
