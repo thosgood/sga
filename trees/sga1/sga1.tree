@@ -2,7 +2,14 @@
 
 \import{sga1-macros}
 
-\transclude{sga1-introduction}
-\transclude{sga1-foreword}
-
-\transclude{sga1-i}
+\ul{
+  \li{
+    [Introduction](sga1-introduction)
+  }
+  \li{
+    [Foreword](sga1-foreword)
+  }
+  \li{
+    [\strong{Exposé I.} Étale morphisms](sga1-i)
+  }
+}
