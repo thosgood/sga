@@ -1,5 +1,7 @@
 \title{I.2. Quasi-finite morphisms}
 
+\import{sga1-macros}
+
 \subtree[sga1-i.2.1]{
   \title{2.1}
   \taxon{proposition}
@@ -8,6 +10,8 @@
     Let #{A\to B} be a local homomorphism (N.B. all rings are now Noetherian), and let #{\mathfrak{m}} be the maximal ideal of #{A}.
     Then the following conditions are equivalent:
   }
+
+  \p{\todo{the following list should be i, ii, etc}}
 
   \ol{
     \li{

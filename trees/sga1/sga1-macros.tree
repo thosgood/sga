@@ -8,3 +8,15 @@
 \def\dd{#{\mathrm{d}}}
 
 \def\alg[x]{#{\x\mathsf{-alg}}}
+
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{proof}
+      \body
+    }
+  }
+}
+
+\def\todo[x]{\strong{\em{TO-DO: \x}}}

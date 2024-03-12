@@ -1,5 +1,7 @@
 \title{I.1. Basics of differential calculus}
 
+\import{sga1-macros}
+
 \p{
   Let #{X} be a prescheme over #{Y}, and #{\Delta_{X/Y}} the diagonal morphism #{X\to X\times_Y X}.
   This is an immersion, and thus a closed immersion of #{X} into an open subset #{V} of #{X\times_Y X}.
