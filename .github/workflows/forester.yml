@@ -9,7 +9,7 @@ on:
       - 'README.md'
 
 jobs:
-  bookdown:
+  forester:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,3 +25,10 @@ jobs:
 
       - name: Build forest
         run: forester build trees/
+
+      - name: Deploy to build branch
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: build
+          FOLDER: output
