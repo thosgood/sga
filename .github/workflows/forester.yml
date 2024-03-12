@@ -21,7 +21,7 @@ jobs:
           ocaml-compiler: "5.1"
 
       - name: Install dependencies
-        run: opam install forester
+        run: opam install forester && eval $(opam env)
 
       - name: Build forest
         run: forester build trees/
