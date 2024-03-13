@@ -30,12 +30,14 @@
   }
 
   \proof{
-    For the implication (i) #{\implies} (ii), we can use Nakayama to reduce to the case where #{Y=\Spec(k)} and #{X=\Spec(k')}, where it is well known, and also trivial by the definition of separable;
-    (ii) #{\implies} (iii) comes from a nice and easy characterisation of open immersions, using Krull;
-    (iii) #{\implies} (i) follows as well from reducing to the case where #{Y=\Spec(k)} and the diagonal morphism is everywhere an open immersion.
-    We must then prove that #{X} is finite with separable ring over #{k}, and this leads us to consider the case where #{k} is algebraically closed.
-    But then every closed point of #{X} is isolated (since it is identical to the inverse image of the diagonal by the morphism #{X\to X\times_k X} defined by #{x}), whence #{X} is finite.
-    We can thus suppose that #{X} consists of a single point, with ring #{A}, and so #{A\otimes_k A\to A} is an isomorphism, hence #{A=k}.
+    \p{
+      For the implication (i) #{\implies} (ii), we can use Nakayama to reduce to the case where #{Y=\Spec(k)} and #{X=\Spec(k')}, where it is well known, and also trivial by the definition of separable;
+      (ii) #{\implies} (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) #{\implies} (i) follows as well from reducing to the case where #{Y=\Spec(k)} and the diagonal morphism is everywhere an open immersion.
+      We must then prove that #{X} is finite with separable ring over #{k}, and this leads us to consider the case where #{k} is algebraically closed.
+      But then every closed point of #{X} is isolated (since it is identical to the inverse image of the diagonal by the morphism #{X\to X\times_k X} defined by #{x}), whence #{X} is finite.
+      We can thus suppose that #{X} consists of a single point, with ring #{A}, and so #{A\otimes_k A\to A} is an isomorphism, hence #{A=k}.
+    }
   }
 }
 
