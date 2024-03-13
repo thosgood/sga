@@ -7,3 +7,9 @@
 \put\transclude/numbered{false}
 
 \todo{fix the auto-capitalisation of the title not recognising É}
+
+\p{
+  We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
+  these facts will be proved later, if there is time.
+  \footnote{cf. \fref{sga1-iv}.}
+}

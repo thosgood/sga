@@ -22,3 +22,4 @@
 \def\note[x]{\em{[Trans.] \x}}
 \def\todo[x]{\strong{\em{TO-DO: \x}}}
 \def\fref[x]{[\x \strong{(?)}]}
+\def\footnote[x]{(\x)}

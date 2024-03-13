@@ -19,14 +19,14 @@
 
   \p{
     Exposés I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which were distributed by the \em{Institut des Hautes Études Scientifiques}.
-    (As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the \em{Séminaire de Géométrie Algébrique du Bois-Marie} from now on will appear in book form, like the present volume.)
+    \footnote{As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the \em{Séminaire de Géométrie Algébrique du Bois-Marie} from now on will appear in book form, like the present volume.}
     We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, "simple morphism" being replaced with "smooth morphism", which does not lead to the same confusion).
   }
 
   \p{
     Exposés I to IV present the local notions of \em{étale} and \em{smooth} morphisms;
     they hardly ever use the language of schemes, as detailed in Chapter I of the \em{Éléments}.
-    (A more complete study is now available in EGA IV, 17 and 18.)
+    \footnote{A more complete study is now available in EGA IV, 17 and 18.}
     Exposé V presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of usual Galois theory.
     Exposés VI and VIII present the \em{theory of descent}, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
     We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente". \em{Bull. Soc. Math. France} \strong{2} (1964), viii+150 p.).
@@ -61,7 +61,7 @@
     The present volume constitutes tome 1 of the \em{Séminaire de Géométrie Algébrique du Bois-Marie}, whose following volumes are intended to appear in the same series as this one.
     The aim of the \em{Séminaire}, parallel to the \em{Éléments de Géométrie Algébrique} by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
     The standard reference for all the volumes of the \em{Séminaire} consists of Chapters I, II, and III of \em{Éléments de Géométrie Algébrique} (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
-    (See the Introduction of EGA I for more precise details.)
+    \footnote{See the Introduction of EGA I for more precise details.}
     Furthermore, in each volume of the \em{Séminaire}, we will freely refer as needed to previous volumes of the same \em{Séminaire}, or to other chapters of \em{Éléments}, either already published or on the brink of being published.
   }
 
@@ -139,7 +139,7 @@
     I have explained my thoughts on these problems, which are much more important than the advancement of any of the sciences (mathematics included), in more detail in other places;
     the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal \em{Survivre} (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
     So I found myself working for three years at an institution even though it was, unbeknownst to me, participating in a financing model that I consider immoral and dangerous.
-    (It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.)
+    \footnote{It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.}
     Being currently the only person to have this opinion amongst my colleagues at the IHES, which has condemned to fail my efforts to suppress military subventions from the IHES budget, I have taken the necessary decision to leave the IHES on the 30th of September, 1970, and to equally suspend all scientific collaboration with this institute for as long as it continues to accept such subventions.
     I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the \em{Séminaire de Géométrie Algébrique du Bois-Marie}.
     As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the \em{Lecture Notes} series.
