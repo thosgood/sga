@@ -1,3 +1,13 @@
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{proof}
+      \body
+    }
+  }
+}
+
 \def\ZZ{#{\mathbb{Z}}}
 \def\QQ{#{\mathbb{Q}}}
 \def\coh{#{\mathrm{coh}}}
@@ -11,3 +21,9 @@
 \def\Todd{#{\operatorname{Todd}}}
 \def\ch{#{\operatorname{ch}}}
 \def\Tr{#{\operatorname{Tr}}}
+
+\def\sh[x]{#{\mathcal{\x}}}
+
+\def\note[x]{\em{[Trans.] \x}}
+\def\todo[x]{\strong{\em{TO-DO: \x}}}
+\def\fref[x]{[\x \strong{(?)}]}

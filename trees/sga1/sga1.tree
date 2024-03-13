@@ -10,6 +10,6 @@
     [Foreword](sga1-foreword)
   }
   \li{
-    [\strong{Exposé I.} Étale morphisms](sga1-i)
+    [\strong{\ref{sga1-i}} Étale morphisms](sga1-i)
   }
 }

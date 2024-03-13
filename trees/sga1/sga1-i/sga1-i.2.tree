@@ -1,4 +1,5 @@
 \title{Quasi-finite morphisms}
+\taxon{section}
 \number{I.2}
 \parent{sga1-i}
 
@@ -6,8 +7,8 @@
 \put\transclude/numbered{false}
 
 \subtree[sga1-i.2.1]{
-  \number{I.2.1}
   \taxon{proposition}
+  \number{I.2.1}
 
   \p{
     Let #{A\to B} be a local homomorphism (N.B. all rings are now Noetherian), and let #{\mathfrak{m}} be the maximal ideal of #{A}.
@@ -31,15 +32,15 @@
 
 \p{
   If the conditions of \ref{sga1-i.2.1} are satisfied, then we say that #{B} is \em{quasi-finite} over #{A}.
-  A morphism #{f\colon X\to Y} is said to be quasi-finite at #{x} (or the #{Y}-prescheme #{f} is said to be quasi-finite at #{x}) if #{\mathcal{O}_x} is quasi-finite over #{\mathcal{O}_{f(x)}}.
+  A morphism #{f\colon X\to Y} is said to be quasi-finite at #{x} (or the #{Y}-prescheme #{f} is said to be quasi-finite at #{x}) if #{\sh{O}_x} is quasi-finite over #{\sh{O}_{f(x)}}.
   This is equivalent to saying that #{x} is \em{isolated in its fibre #{f^{-1}(x)}}.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
   (In [EGA II 6.2.3] we further suppose that #{f} is of finite type.)
 }
 
 \subtree[sga1-i.2.2]{
-  \number{I.2.2}
   \taxon{corollary}
+  \number{I.2.2}
 
   \p{
     If #{A} is complete, then quasi-finiteness is equivalent to finiteness.

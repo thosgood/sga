@@ -6,7 +6,8 @@
 ## Forester things
 
 - [ ] footnotes
-- [ ] numbering of sections/propositions
 - [ ] numbering in lists (e.g. in `sga-1.i.2`)
-- [ ] hyperlinks to other Exposés/Sections/Volumes
+- [ ] `\ref` for non-existent trees
+- [ ] `\ref` that includes title (for e.g. Exposés)
 - [ ] pretty URLs?
+- [ ] recognising É as a capital letter

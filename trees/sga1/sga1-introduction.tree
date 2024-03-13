@@ -1,12 +1,15 @@
 \title{Introduction}
 \parent{sga1}
 
+\import{sga1-macros}
+\put\transclude/numbered{false}
+
 \p{
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the \em{Séminaire de Géométrie Algébrique du Bois-Marie}, of which the present volume constitutes the first tome.
 }
 
 \subtree[sga1-introduction-1]{
-  \title{1. The present volume}
+  \number{1}
   
   \p{
     The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
@@ -52,7 +55,7 @@
 }
 
 \subtree[sga1-introduction-2]{
-  \title{2. The entire SGA}
+  \number{2}
 
   \p{
     The present volume constitutes tome 1 of the \em{Séminaire de Géométrie Algébrique du Bois-Marie}, whose following volumes are intended to appear in the same series as this one.
@@ -120,15 +123,7 @@
   }
 
   \p{
-    The references in the \em{Séminaire de Géométrie Algébrique du Bois-Marie} are in the following format.
-    An \em{interior reference} to one of the parts SGA 1 to SGA 7 of the \em{Séminaire} is given in the form [III 9.7], where the "III" denotes the number of the Exposé, which appears at the top of each page of the Exposé in question, and "9.7" is the number of the statement (or definition, remark, etc.) inside this Exposé.
-    If necessary, longer decimal numbers may be used, e.g. [9.7.1] and [9.7.2], to denote the various steps in the proof of Proposition 9.7.
-    The reference [III 9] denotes Section 9 of Exposé III.
-    The number of the Exposé is omitted for references internal to an Exposé.
-    For a \em{reference to another} of the \em{volumes} of the \em{Séminaire}, we use the same notation, but preceded by the mention of the part of the SGA in question, e.g. [SGA 1 III 9.7].
-    Similarly, the reference [EGA IV 11.5.7] means: \em{Éléments de Géométrie Algébrique}, Chapter IV, statement (or definition, etc.) 11.5.7;
-    here, the first arabic numeral again denotes the number of the section.
-    As well as these conventions used throughout the SGA, the bibliography for an Exposé will generally be printed at the end of the Exposé in question, and references to it inside the Exposé will be in the form of numbers between brackets, such as [@3].
+    \note{We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.}
   }
 
   \p{

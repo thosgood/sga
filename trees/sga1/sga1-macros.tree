@@ -1,14 +1,3 @@
-\def\tr{#{\operatorname{tr}}}
-\def\Spec{#{\operatorname{Spec}}}
-\def\Hom{#{\operatorname{Hom}}}
-\def\gr{#{\operatorname{gr}}}
-\def\rank{#{\operatorname{rank}}}
-
-\def\id{#{\mathrm{id}}}
-\def\dd{#{\mathrm{d}}}
-
-\def\alg[x]{#{\x\mathsf{-alg}}}
-
 \def\proof[body]{
   \scope{
     \put\transclude/toc{false}
@@ -19,4 +8,17 @@
   }
 }
 
+\def\tr{#{\operatorname{tr}}}
+\def\Spec{#{\operatorname{Spec}}}
+\def\Hom{#{\operatorname{Hom}}}
+\def\gr{#{\operatorname{gr}}}
+\def\rank{#{\operatorname{rank}}}
+\def\id{#{\mathrm{id}}}
+\def\dd{#{\mathrm{d}}}
+
+\def\sh[x]{#{\mathcal{\x}}}
+\def\alg[x]{#{\x\mathsf{-alg}}}
+
+\def\note[x]{\em{[Trans.] \x}}
 \def\todo[x]{\strong{\em{TO-DO: \x}}}
+\def\fref[x]{[\x \strong{(?)}]}

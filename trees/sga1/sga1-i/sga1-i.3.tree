@@ -1,4 +1,5 @@
 \title{Unramified morphisms}
+\taxon{section}
 \number{I.3}
 \parent{sga1-i}
 
@@ -18,7 +19,7 @@
 
   \ol{
     \li{
-      #{\mathcal{O}_x/\mathfrak{m}_y\mathcal{O}_x} is a finite separable extension of #{k(y)}.
+      #{\sh{O}_x/\mathfrak{m}_y\sh{O}_x} is a finite separable extension of #{k(y)}.
     }
     \li{
       #{\Omega_{X/Y}^1} is zero at #{x}.

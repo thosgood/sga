@@ -1,4 +1,5 @@
-\title{1}
+\taxon{section}
+\number{1}
 \parent{sga6-0}
 
 \import{sga6-macros}
