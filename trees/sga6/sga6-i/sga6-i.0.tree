@@ -43,7 +43,6 @@
   Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex #{\sh{F}} is pseudo-coherent if and only if, for all #{n\in\mathbb{Z}}, #{\sh{F}} can be "locally approximated to order #{n} by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
   ##{\sh{L} \to \sh{F} \to \sh{R} \to \sh{L}[1]}
   where #{\sh{L}} is perfect, and #{\sh{R}} is acyclic in degree #{\geq n}.
-  \todo{check that #{\sh{L}} isn't also just perfect in degree #{\geq n}}
   Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. \fref{sga6-i.5}).
   We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
 }
