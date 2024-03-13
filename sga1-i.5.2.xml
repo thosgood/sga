@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>733</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
+    If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>734</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    Indeed, <tex>f</tex> is also an open immersion.
+  </mainmatter> </tree>
+  
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>735</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>736</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
+    For <tex>f</tex> to be an open immersion, it is necessary and sufficient for it to be <em>étale</em> and <em>radicial</em>.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>737</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+      The necessity is trivial, and the sufficiency remains to be shown.
+      We are going to give two different proofs: the first is shorter, the second is more elementary.
+    </p>
+
+    <ol><li>
+        A flat morphism is open, and so we can suppose (by replacing <tex>Y</tex> with <tex>f(X)</tex>) that <tex>f</tex> is an onto <em>homeomorphism</em>.
+        For any base extension, it remains true that <tex>f</tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <tex>f</tex> is <em>proper</em>.
+        Thus <tex>f</tex> is <em>finite</em> (reference: Chevalley's theorem), defined by a coherent sheaf <tex>\mathcal { B }</tex> of algebras.
+        Now <tex>\mathcal { B }</tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <tex>X=Y</tex>.
+      </li>
+
+      <li>
+        We can suppose that <tex>Y</tex> and <tex>X</tex> are <em>affine</em>.
+        We can further easily reduce to proving the following:
+        if <tex>Y= \operatorname {Spec} (A)</tex>, with <tex>A</tex> local, and if <tex>f^{-1}(y)</tex> is non-empty (where <tex>y</tex> is the closed point of <tex>Y</tex>), then <tex>X=Y</tex> (indeed, this would imply that every <tex>y \in  f(X)</tex> has an open neighbourhood <tex>U</tex> such that <tex>X|U=U</tex>).
+        We will then have that <tex>X= \operatorname {Spec} (B)</tex>, and wish to prove that <tex>A=B</tex>.
+        But for this we can reduce to proving the analogous claim where we replace <tex>A</tex> by <tex>\widehat {A}</tex>, and <tex>B</tex> by <tex>B \otimes _A \widehat {A}</tex>
+        (taking into account the fact that <tex>\widehat {A}</tex> is faithfully flat over <tex>A</tex>).
+        We can thus suppose that <tex>A</tex> is <em>complete</em>.
+        Let <tex>x</tex> be the point over <tex>y</tex>.
+        By <ref addr="sga1-i.2.2" href="sga1-i.2.2.xml" taxon="Corollary" number="I.2.2"/>, <tex>\mathcal { O } _x</tex> is finite over <tex>A</tex>, and is thus (being flat and radicial over <tex>A</tex>) identical to <tex>A</tex>.
+        So <tex>X=Y \coprod  X'</tex> (disjoint sum).
+        But since <tex>X</tex> is radicial over <tex>Y</tex>, <tex>X'</tex> is empty.
+      </li></ol>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>738</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
+    If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>739</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    Indeed, <tex>f</tex> is also an open immersion.
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><p>
+  We thus deduce:
+</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>740</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>741</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
+    For <tex>f</tex> to be an open immersion, it is necessary and sufficient for it to be <em>étale</em> and <em>radicial</em>.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>742</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+      The necessity is trivial, and the sufficiency remains to be shown.
+      We are going to give two different proofs: the first is shorter, the second is more elementary.
+    </p>
+
+    <ol><li>
+        A flat morphism is open, and so we can suppose (by replacing <tex>Y</tex> with <tex>f(X)</tex>) that <tex>f</tex> is an onto <em>homeomorphism</em>.
+        For any base extension, it remains true that <tex>f</tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <tex>f</tex> is <em>proper</em>.
+        Thus <tex>f</tex> is <em>finite</em> (reference: Chevalley's theorem), defined by a coherent sheaf <tex>\mathcal { B }</tex> of algebras.
+        Now <tex>\mathcal { B }</tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <tex>X=Y</tex>.
+      </li>
+
+      <li>
+        We can suppose that <tex>Y</tex> and <tex>X</tex> are <em>affine</em>.
+        We can further easily reduce to proving the following:
+        if <tex>Y= \operatorname {Spec} (A)</tex>, with <tex>A</tex> local, and if <tex>f^{-1}(y)</tex> is non-empty (where <tex>y</tex> is the closed point of <tex>Y</tex>), then <tex>X=Y</tex> (indeed, this would imply that every <tex>y \in  f(X)</tex> has an open neighbourhood <tex>U</tex> such that <tex>X|U=U</tex>).
+        We will then have that <tex>X= \operatorname {Spec} (B)</tex>, and wish to prove that <tex>A=B</tex>.
+        But for this we can reduce to proving the analogous claim where we replace <tex>A</tex> by <tex>\widehat {A}</tex>, and <tex>B</tex> by <tex>B \otimes _A \widehat {A}</tex>
+        (taking into account the fact that <tex>\widehat {A}</tex> is faithfully flat over <tex>A</tex>).
+        We can thus suppose that <tex>A</tex> is <em>complete</em>.
+        Let <tex>x</tex> be the point over <tex>y</tex>.
+        By <ref addr="sga1-i.2.2" href="sga1-i.2.2.xml" taxon="Corollary" number="I.2.2"/>, <tex>\mathcal { O } _x</tex> is finite over <tex>A</tex>, and is thus (being flat and radicial over <tex>A</tex>) identical to <tex>A</tex>.
+        So <tex>X=Y \coprod  X'</tex> (disjoint sum).
+        But since <tex>X</tex> is radicial over <tex>Y</tex>, <tex>X'</tex> is empty.
+      </li></ol>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>743</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
+    If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>744</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    Indeed, <tex>f</tex> is also an open immersion.
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><p>
+  We thus deduce:
+</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
