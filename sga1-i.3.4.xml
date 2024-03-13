@@ -16,12 +16,14 @@
   
     
     <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>251</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    For the implication (i) <tex>\implies</tex> (ii), we can use Nakayama to reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex> and <tex>X= \operatorname {Spec} (k')</tex>, where it is well known, and also trivial by the definition of separable;
-    (ii) <tex>\implies</tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
-    (iii) <tex>\implies</tex> (i) follows as well from reducing to the case where <tex>Y= \operatorname {Spec} (k)</tex> and the diagonal morphism is everywhere an open immersion.
-    We must then prove that <tex>X</tex> is finite with separable ring over <tex>k</tex>, and this leads us to consider the case where <tex>k</tex> is algebraically closed.
-    But then every closed point of <tex>X</tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <tex>X \to  X \times _k X</tex> defined by <tex>x</tex>), whence <tex>X</tex> is finite.
-    We can thus suppose that <tex>X</tex> consists of a single point, with ring <tex>A</tex>, and so <tex>A \otimes _k A \to  A</tex> is an isomorphism, hence <tex>A=k</tex>.
+    <p>
+      For the implication (i) <tex>\implies</tex> (ii), we can use Nakayama to reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex> and <tex>X= \operatorname {Spec} (k')</tex>, where it is well known, and also trivial by the definition of separable;
+      (ii) <tex>\implies</tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) <tex>\implies</tex> (i) follows as well from reducing to the case where <tex>Y= \operatorname {Spec} (k)</tex> and the diagonal morphism is everywhere an open immersion.
+      We must then prove that <tex>X</tex> is finite with separable ring over <tex>k</tex>, and this leads us to consider the case where <tex>k</tex> is algebraically closed.
+      But then every closed point of <tex>X</tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <tex>X \to  X \times _k X</tex> defined by <tex>x</tex>), whence <tex>X</tex> is finite.
+      We can thus suppose that <tex>X</tex> consists of a single point, with ring <tex>A</tex>, and so <tex>A \otimes _k A \to  A</tex> is an isomorphism, hence <tex>A=k</tex>.
+    </p>
   </mainmatter> </tree>
   
 </mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>252</anchor> <taxon>Definition</taxon> <addr>sga1-i.3.2</addr><route>sga1-i.3.2.xml</route>     <number>I.3.2</number> <parent>sga1-i.3</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be a, b</em></strong></p><ol><li>
@@ -89,12 +91,14 @@
   
     
     <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>262</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    For the implication (i) <tex>\implies</tex> (ii), we can use Nakayama to reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex> and <tex>X= \operatorname {Spec} (k')</tex>, where it is well known, and also trivial by the definition of separable;
-    (ii) <tex>\implies</tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
-    (iii) <tex>\implies</tex> (i) follows as well from reducing to the case where <tex>Y= \operatorname {Spec} (k)</tex> and the diagonal morphism is everywhere an open immersion.
-    We must then prove that <tex>X</tex> is finite with separable ring over <tex>k</tex>, and this leads us to consider the case where <tex>k</tex> is algebraically closed.
-    But then every closed point of <tex>X</tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <tex>X \to  X \times _k X</tex> defined by <tex>x</tex>), whence <tex>X</tex> is finite.
-    We can thus suppose that <tex>X</tex> consists of a single point, with ring <tex>A</tex>, and so <tex>A \otimes _k A \to  A</tex> is an isomorphism, hence <tex>A=k</tex>.
+    <p>
+      For the implication (i) <tex>\implies</tex> (ii), we can use Nakayama to reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex> and <tex>X= \operatorname {Spec} (k')</tex>, where it is well known, and also trivial by the definition of separable;
+      (ii) <tex>\implies</tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) <tex>\implies</tex> (i) follows as well from reducing to the case where <tex>Y= \operatorname {Spec} (k)</tex> and the diagonal morphism is everywhere an open immersion.
+      We must then prove that <tex>X</tex> is finite with separable ring over <tex>k</tex>, and this leads us to consider the case where <tex>k</tex> is algebraically closed.
+      But then every closed point of <tex>X</tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <tex>X \to  X \times _k X</tex> defined by <tex>x</tex>), whence <tex>X</tex> is finite.
+      We can thus suppose that <tex>X</tex> consists of a single point, with ring <tex>A</tex>, and so <tex>A \otimes _k A \to  A</tex> is an isomorphism, hence <tex>A=k</tex>.
+    </p>
   </mainmatter> </tree>
   
 </mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>263</anchor> <taxon>Definition</taxon> <addr>sga1-i.3.2</addr><route>sga1-i.3.2.xml</route>     <number>I.3.2</number> <parent>sga1-i.3</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be a, b</em></strong></p><ol><li>
@@ -149,4 +153,16 @@
       Consider the example where <tex>A</tex> is the local ring of an ordinary double point of a curve, and <tex>B</tex> a point of its normalisation:
       then <tex>A \subset  B</tex>, <tex>B</tex> is unramified over <tex>A</tex> with trivial residue extension, and <tex>\widehat {A} \to \widehat {B}</tex> is surjective but <em>not injective</em>.
       We are thus going to strengthen the notion of unramified-ness.
-    </li></ul></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+    </li></ul></mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>271</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+    Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
+    If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>272</anchor> <taxon>Proof</taxon>       <parent>sga1-i.4.8</parent> </frontmatter> <mainmatter>
+    <p>
+      Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree></backlinks> <references/></backmatter></tree>
