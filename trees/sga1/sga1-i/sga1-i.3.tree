@@ -1,0 +1,166 @@
+\title{Unramified morphisms}
+\taxon{section}
+\number{I.3}
+\parent{sga1-i}
+
+\import{sga1-macros}
+\put\transclude/numbered{false}
+
+\subtree[sga1-i.3.1]{
+  \number{I.3.1}
+  \taxon{proposition}
+
+  \p{
+    Let #{f\colon X\to Y} be a morphism of finite type, #{x\in X}, and #{y=f(x)}.
+    Then the following conditions are equivalent:
+  }
+
+  \p{\todo{the following list should be i, ii, etc}}
+
+  \ol{
+    \li{
+      #{\sh{O}_x/\mathfrak{m}_y\sh{O}_x} is a finite separable extension of #{k(y)}.
+    }
+    \li{
+      #{\Omega_{X/Y}^1} is zero at #{x}.
+    }
+    \li{
+      The diagonal morphism #{\Delta_{X/Y}} is an open immersion on a neighbourhood of #{x}.
+    }
+  }
+
+  \proof{
+    \p{
+      For the implication (i) #{\implies} (ii), we can use Nakayama to reduce to the case where #{Y=\Spec(k)} and #{X=\Spec(k')}, where it is well known, and also trivial by the definition of separable;
+      (ii) #{\implies} (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) #{\implies} (i) follows as well from reducing to the case where #{Y=\Spec(k)} and the diagonal morphism is everywhere an open immersion.
+      We must then prove that #{X} is finite with separable ring over #{k}, and this leads us to consider the case where #{k} is algebraically closed.
+      But then every closed point of #{X} is isolated (since it is identical to the inverse image of the diagonal by the morphism #{X\to X\times_k X} defined by #{x}), whence #{X} is finite.
+      We can thus suppose that #{X} consists of a single point, with ring #{A}, and so #{A\otimes_k A\to A} is an isomorphism, hence #{A=k}.
+    }
+  }
+}
+
+\subtree[sga1-i.3.2]{
+  \number{I.3.2}
+  \taxon{definition}
+
+  \p{\todo{the following list should be a, b}}
+
+  \ol{
+    \li{
+      Let #{f} satisfy one of the equivalent conditions of \ref{sga1-i.3.1}.
+      Then we say that #{f} is \em{unramified} at #{x}, or that #{X} is unramified at #{x} on #{Y}.
+    }
+    \li{
+      Let #{A\to B} be a local homomorphism.
+      We say that it is \em{unramified}, or that #{B} is a local \em{unramified} algebra on #{A}, if #{B/\mathfrak{r}(A)B} is a finite separable extension of #{A/\mathfrak{r}(A)}, i.e. if #{\mathfrak{r}(A)B=\mathfrak{r}(B)} and #{k(B)} is a separable extension of #{k(A)}.
+      (cf. regrets in [III 1.2])
+    }
+  }
+}
+
+\subtree{
+  \taxon{remarks}
+
+  \p{
+    The fact that #{B} is unramified over #{A} can be seen at the level of the completions of #{A} and #{B}.
+    Unramified implies quasi-finite.
+  }
+}
+
+\subtree[sga1-i.3.3]{
+  \number{I.3.3}
+  \taxon{corollary}
+
+  \p{
+    The set of points where #{f} is unramified is open.
+  }
+}
+
+\subtree[sga1-i.3.4]{
+  \number{I.3.4}
+  \taxon{corollary}
+
+  \p{
+    Let #{X'} and #{X} be preschemes of finite type over #{Y}, and #{g\colon X'\to X} a #{Y}-morphism.
+    If #{X} is unramified over #{Y}, then the graph morphism #{\Gamma_g\colon X'\to X\times_Y X} is an open immersion.
+  }
+}
+
+\p{
+  Indeed, this is the inverse image of the diagonal morphism #{X\to X\times_Y X} by
+  ##{g\times_Y \id_{X'}\colon X'\times_Y X\to X\times_Y X.}
+  One can also introduce the annihilator ideal #{\mathfrak{d}_{X/Y}} of #{\Omega_{X/Y}^1}, called the \em{different ideal} of #{X/Y};
+  it defines a closed sub-prescheme of #{X} which, set-theoretically, is the set of point where #{X/Y} is ramified, i.e. not unramified.
+}
+
+\subtree[sga1-i.3.5]{
+  \number{I.3.5}
+  \taxon{proposition}
+
+  \p{\todo{the following list should be i, ii, etc}}
+
+  \ol{
+    \li{
+      An immersion is ramified.
+    }
+    \li{
+      The composition of two ramified morphisms is also ramified.
+    }
+    \li{
+      Base extension of a ramified morphisms is also ramified.
+    }
+  }
+}
+
+\p{
+  We are rather indifferent about (ii) and (iii) (the second seems more interesting to me).
+  We can, of course, also be more precise, by giving some one-off statements;
+  this is more general only in appearance (except for in the case of definition (b)), and is boring.
+  We obtain, as per usual, the corollaries:
+}
+
+\subtree[sga1-i.3.6]{
+  \number{I.3.6}
+  \taxon{corollary}
+
+  \p{\todo{the following list should be iv, v, etc}}
+
+  \ol{
+    \li{
+      The cartesian product of two unramified morphisms is unramified.
+    }
+    \li{
+      If #{gf} is unramified then so too is #{f}.
+    }
+    \li{
+      If #{f} is unramified then so too is #{f_\mathrm{red}}.
+    }
+  }
+}
+
+\subtree[sga1-i.3.7]{
+  \number{I.3.7}
+  \taxon{proposition}
+
+  \p{
+    Let #{A\to B} be a local homomorphism, and suppose that the residue extension #{k(B)/k(A)} is trivial, with #{k(A)} algebraically closed.
+    In order for #{B/A} to be unramified, it is necessary and sufficient that #{\widehat{B}} be (as an #{\widehat{A}}-algebra) a quotient of #{\widehat{A}}.
+  }
+}
+
+\subtree{
+  \taxon{remarks}
+
+  \ul{
+    \li{
+      In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of #{A} which destroys the aforementioned extension.
+    }
+    \li{
+      Consider the example where #{A} is the local ring of an ordinary double point of a curve, and #{B} a point of its normalisation:
+      then #{A\subset B}, #{B} is unramified over #{A} with trivial residue extension, and #{\widehat{A}\to\widehat{B}} is surjective but \em{not injective}.
+      We are thus going to strengthen the notion of unramified-ness.
+    }
+  }
+}

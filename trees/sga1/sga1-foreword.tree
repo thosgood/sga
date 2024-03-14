@@ -1,0 +1,40 @@
+\title{Foreword}
+\parent{sga1}
+
+\import{sga1-macros}
+\put\transclude/numbered{false}
+
+\p{
+  Each of these written exposés covers the material of multiple consecutive oral exposés.
+  It did not seem useful to make a note of the dates.
+}
+
+\p{
+  Exposé VII, which is referenced at various points throughout Exposé VIII, has not been written by the speaker, who, in the oral conferences, was limited to outlining the language of descent in general categories, by working from a strictly utilitarian point of view and not entering into the logical difficulties that often arise due to this language.
+  It seemed that a proper exposé of this language would go beyond the limits of these current notes, even if only due to length.
+  For a proper exposé of the theory of descent, I refer the reader to an article in preparation by Jean Giraud.
+  Whilst waiting for its appearance \footnote{it is now published: J. Giraud, "Méthode de la Descente". \em{Bull. Soc. Math. France} \strong{2} (1964), viii+150 p.}, I think that an attentive reader will have no problems in supplementing, by their own means, the phantom references in Exposé VIII.
+}
+
+\p{
+  Other oral exposés, found after Exposé XI, and to which there are references in certain places of the text, have also not been written down, and were meant to form the substance of an Exposé XII and an Exposé XIII.
+  The first of these oral exposés covered, in the framework of schemes and analytic spaces with nilpotent elements (as introduced in the \em{Séminaire Cartan 1960/61}), the construction of the analytic space associated to a prescheme of locally finite type over a complete valuation field #{k}, GAGA-type theorems in the case where #{k} is the field of complex numbers, and the application to the comparison of the fundamental group defined by transcendental methods and the fundamental group studied in these notes (cf. A. Grothendieck, "Fondements de la Géométrie Algébrique". \em{Séminaire Bourbaki} \strong{190} (December 1959), page 10).
+  The latter oral exposés outlined the generalisation of methods developed in the text for the study of coverings that admit moderate ramification, and of the structure of the fundamental group of a complete curve minus a finite number of points (cf. \em{loc. cit.} \strong{182}, page 27, théorème 14).
+  These exposés do not introduce any essentially new ideas, which is why it did not seem necessary to write them up properly before the appearance of the corresponding chapters of \em{Éléments de Géométrie Algébrique}.
+  \footnote{They are included in the present volume in Exposé XII by Mme Raynaud with a different proof from the original given in the oral seminar (cf. \ref{sga1-introduction}).}
+}
+
+\p{
+  However, the Lefschetz type theorems for the fundamental group and the Picard group, from both a local and a global point of view, were the subject of a separate seminar in 1962, which was completely written down and is available to read.
+  \footnote{\em{Cohomologie étale des faisceaux cohérents et théorèmes de Lefschetz locaux et globaux} (SGA 2), appeared in North Holland Pub. Cie.}
+  We point out that the results developed, both in the present \em{Séminaire} and the seminar from 1962, will be used in an essential manner in the appearance of many key results about the étale cohomology of preschemes, which will be the subject of a \em{Séminaire} (led by M. Artin and myself) in 1963/64, currently in preparation.
+  \footnote{\em{Cohomologie étale des schémas} (SGA 4), to appear in the same series.}
+  Exposés I to IV, which are of an essentially local nature, and very elementary, will be absorbed entirely by Chapter IV of \em{Éléments de Géométrie Algébrique}, of which the first part is being printed and will probably be published towards the end of 1964.
+  They can, nevertheless, be useful for a reader who wants to catch up to speed with the essential properties of smooth, étale, or flat morphisms, before diving into the arcana of a systematic treatment.
+  As for the other exposés, they will be absorbed into Chapter VIII of the \em{Éléments}, whose publication can barely even be contemplated for many years.
+  \footnote{In fact, following a change to the initial plan for the \em{Éléments}, the study of the fundamental group has been postponed to a later chapter of the \em{Éléments}, cf. the Introduction \ref{sga1-introduction} that precedes this Foreword.}
+}
+
+\p{
+  \em{Bures, June 1963.}
+}

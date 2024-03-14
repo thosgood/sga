@@ -1,0 +1,80 @@
+\taxon{section}
+\number{1}
+\parent{sga6-0}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
+
+\p{
+  Recall the Riemann–Roch formula for a proper morphism
+  ##{f\colon X\to Y}
+  of smooth quasi-projective schemes over a field #{k} and a coherent sheaf #{\sh{F}} on #{X}:
+  ##{
+    \Todd(T_Y)\ch_Y(f_*(\cl(\sh{F})))
+    = f_*(\Todd(T_X)\ch_X(\sh{F}))
+  \tag{1.1}
+  }
+  where #{\cl(\sh{F})} denotes the class of #{\sh{F}} in the group #{K(X)} of classes of coherent sheaves on #{X}, and #{\ch_X} and #{\ch_Y} denote the Chern characters of on #{X} and #{Y} (resp.), and #{T_X} and #{T_Y} the tangent bundles to #{X} and #{Y} (resp.).
+  This formula holds in #{A(Y)\otimes_\ZZ\QQ}, where #{A(Y)} is the Chow ring of #{Y};
+  the #{f_*} on the right-hand side is induced by tensoring with #{\QQ} the "direct image of cycles" homomorphism
+  ##{
+    f_*\colon A(X) \to A(Y)
+  }
+  and the #{f_*} on the left-hand side is the Euler–Poincaré characteristic of #{\sh{F}} with respect to #{f}:
+  ##{
+    f_*(\cl(\sh{F}))
+    = \sum_i (-1)^i \cl(\RR^i f_*(\sh{F})).
+  }
+  As we know, #{\Todd(-)} and #{\ch(-)} are universal polynomials in the Chern classes of the argument with coefficients in #{\QQ}.
+  Since the constant term of #{\Todd(-)} is #{1}, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by #{\Todd(T_Y)^{-1}}, in the form which is more useful for our needs:
+  ##{
+    \ch_Y(f_*(\cl(\sh{F})))
+    = f_*(\Todd(T_f)\ch_X(\sh{F}))
+  \tag{1.2}
+  }
+  where we set
+  ##{
+    T_f
+    = T_X - f^*(T_Y) \in K(X)
+  \tag{1.3}
+  }
+  so that #{T_f} plays the role of a \em{virtual relative tangent bundle} of #{X} over #{Y}.
+  In the case where the morphism #{f} is smooth (i.e. with everywhere-surjective tangent map), we have simply
+  ##{
+    T_f
+    = T_{X/Y}
+  }
+  (the tangent bundle along the fibres) and so, in the case where #{f\colon X\to Y} is an immersion, we find
+  ##{
+    T_f
+    = -\check{N}_{X/Y}
+  }
+  where #{\check{N}_{X/Y}} denotes the normal sheaf of #{X} in #{Y}.
+}
+
+\p{
+  One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
+}
+
+\todo{this list should be a, b}
+
+\ol{
+  \li{
+    Remove the hypothesis of the existence of a base field #{k}.
+  }
+  \li{
+    Replace the regularity hypotheses on #{Y} and #{X} by a "local regularity" hypothesis on #{f}.
+  }
+}
+
+\p{
+  Finally, along the way, we will equally deal with the problem:
+}
+
+\todo{this list should be c}
+
+\ol{
+  \li{
+    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on #{X} and on #{Y}.
+  }
+}

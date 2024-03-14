@@ -1,0 +1,15 @@
+\title{SGA 1: Étale covers and the fundamental group}
+
+\import{sga1-macros}
+
+\ul{
+  \li{
+    [Introduction](sga1-introduction)
+  }
+  \li{
+    [Foreword](sga1-foreword)
+  }
+  \li{
+    [\strong{\ref{sga1-i}} Étale morphisms](sga1-i)
+  }
+}

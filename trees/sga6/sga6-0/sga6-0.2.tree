@@ -1,0 +1,10 @@
+\taxon{section}
+\number{2}
+\parent{sga6-0}
+
+\import{sga6-macros}
+\put\transclude/numbered{false}
+
+\p{
+  \todo{finish}
+}
