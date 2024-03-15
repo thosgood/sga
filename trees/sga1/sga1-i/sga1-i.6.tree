@@ -5,3 +5,9 @@
 
 \import{sga1-macros}
 \put\transclude/numbered{false}
+
+\p{
+  This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
+  Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in \fref{sga1-i.7} (using the Main Theorem).
+  This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
+}

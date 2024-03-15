@@ -8,6 +8,10 @@
   \strong{\em{TO-DO: describe this translation}}
 }
 
+\p{
+  Many thanks to [Jon Sterling](https://www.jonmsterling.com/index.xml) for helping with the technical support in getting this translation ported to run on [Forester](https://www.jonmsterling.com/jms-005P.xml).
+}
+
 \ul{
   \li{
     [\strong{SGA 1: Étale covers and the fundamental group}](sga1)

@@ -2,6 +2,8 @@
 
 - [ ] describe the translation in `index.tree`
 - [ ] replace `...` with some custom "to-do" macro
+- [ ] replace "" by “”
+- [ ] replace ' by ’ (?)
 
 ## Forester things
 

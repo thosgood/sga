@@ -1,15 +1,9 @@
 \title{SGA 1: Étale covers and the fundamental group}
 
 \import{sga1-macros}
+\put\transclude/expanded{false}
+\put\transclude/numbered{false}
 
-\ul{
-  \li{
-    [Introduction](sga1-introduction)
-  }
-  \li{
-    [Foreword](sga1-foreword)
-  }
-  \li{
-    [\strong{\ref{sga1-i}} Étale morphisms](sga1-i)
-  }
-}
+\transclude{sga1-introduction}
+\transclude{sga1-foreword}
+\transclude{sga1-i}

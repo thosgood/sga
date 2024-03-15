@@ -1,18 +1,10 @@
 \title{SGA 6: Intersection theory and the Riemann–Roch theorem}
 
 \import{sga6-macros}
+\put\transclude/expanded{false}
+\put\transclude/numbered{false}
 
-\ul{
-  \li{
-    [Introduction](sga6-introduction)
-  }
-  \li{
-    [\strong{Exposé 0.} Outline of a programme for a theory of intersections](sga6-0)
-  }
-  \li{
-    [\strong{Exposé 0[RRR].} Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr)
-  }
-  \li{
-    [\strong{Exposé I.} Generalities on finiteness conditions in derived categories](sga6-i)
-  }
-}
+\transclude{sga6-introduction}
+\transclude{sga6-0}
+\transclude{sga6-0rrr}
+\transclude{sga6-i}
