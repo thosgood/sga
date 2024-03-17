@@ -1,0 +1,15 @@
+\title{Local construction of unramified and étale morphisms}
+\taxon{section}
+\number{I.7}
+\parent{sga1-i}
+
+\import{sga1-macros}
+\put\transclude/numbered{false}
+
+\subtree[sga1-i.7.1]{
+  \taxon{proposition}
+  \number{I.7.1}
+
+  \p{
+  }
+}

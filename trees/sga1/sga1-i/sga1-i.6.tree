@@ -11,3 +11,46 @@
   Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in \fref{sga1-i.7} (using the Main Theorem).
   This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
 }
+
+\subtree[sga1-i.6.1]{
+  \taxon{theorem}
+  \number{I.6.1}
+
+  \p{
+    Let #{A} be a complete local ring (Noetherian, of course), with residue field #{k}.
+    For any #{A}-algebra #{B}, let #{R(B)=B\otimes_Ak} be thought of as a #{k}-algebra;
+    this depends functorially on #{B}.
+    Then #{R} defines an \em{equivalence} between the category of #{A}-algebras that are \em{finite and étale over #{A}} and the category of algebras that are \em{finite rank and separable over #{k}}.
+  }
+}
+
+\p{
+  Firstly, the functor in question is fully faithful, as follows from the more general fact:
+}
+
+\subtree[sga1-i.6.2]{
+  \taxon{corollary}
+  \number{I.6.2}
+
+  \p{
+    Let #{B} and #{B'} be #{A}-algebras that are finite over #{A}.
+    If #{B} is étale over #{A}, then the canonical map
+    ##{
+      \Hom_{\alg{A}}(B,B')
+      \to \Hom_{\alg{k}}(R(B),R(B'))
+    }
+    is bijective.
+  }
+
+  \proof{
+    \p{
+      We can reduce to the case where #{A} is Artinian (by replacing #{A} by #{A/\frak{m}^n}), and then this is a particular case of \ref{sga1-i.5.5}.
+    }
+  }
+}
+
+\p{
+  It remains to prove that, for every finite and separable #{k} algebra (or we can simply say "étale", for brevity) #{L}, there exists some #{B} étale over #{A} such that #{R(B)} is isomorphic to #{L}.
+  We can suppose that #{L} is a separable extension of #{k}, and, as such, it admits a generator #{x}, i.e. it is isomorphic to an algebra #{k[t]/Fk[t]}, where #{F\in k[t]} is a monic polynomial.
+  We can lift #{F} to a monic polynomial #{F_1} in #{A[t]}, and we take #{B=A[t]/F_1A[t]}.
+}
