@@ -12,7 +12,7 @@
 
   \p{
     Let #{f\colon X\to Y} be a morphism of finite type.
-    For #{f} to be an open immersion, it is necessary and sufficient for it to be \em{étale} and \em{radicial}.
+    For #{f} to be an open immersion, it is necessary and sufficient that it be \em{étale} and \em{radicial}.
   }
 
   \proof{
@@ -180,12 +180,12 @@
 
   \p{
     Let #{X} and #{X'} be preschemes that are of finite type and flat over #{Y}, and let #{g\colon X\to X'} be a #{Y}-morphism.
-    For #{g} to be an open immersion (resp. an isomorphism), it is necessary and sufficient for the induced morphism on the fibres
+    For #{g} to be an open immersion (resp. an isomorphism), it is necessary and sufficient that the induced morphism on the fibres
     ##{
       g\otimes_Y k(y)\colon
       X\otimes_Y k(y) \to X'\otimes_Y k(y)
     }
-    to be an open immersion (resp. an isomorphism) for all #{y\in Y}.
+    be an open immersion (resp. an isomorphism) for all #{y\in Y}.
   }
 
   \proof{
@@ -203,7 +203,7 @@
 
   \p{
     Let #{X} and #{X'} be #{Y}-preschemes, #{g\colon X\to X'} a #{Y}-morphism, #{x} a point of #{X}, and #{y} the projection of #{x} in #{Y}.
-    For #{g} to be quasi-finite (resp. unramified) at #{x}, it is necessary and sufficient for #{g\otimes_Y k(y)} to be so.
+    For #{g} to be quasi-finite (resp. unramified) at #{x}, it is necessary and sufficient that #{g\otimes_Y k(y)} be so.
   }
 
   \proof{
@@ -219,7 +219,7 @@
 
   \p{
     With the notation of \ref{sga1-i.5.8}, suppose that #{X} and #{X'} are flat and of finite type over #{Y}.
-    For #{g} to be flat (resp. étale) at #{x}, it is necessary and sufficient for #{g\otimes_Y k(y)} to be so.
+    For #{g} to be flat (resp. étale) at #{x}, it is necessary and sufficient that #{g\otimes_Y k(y)} be so.
   }
 
   \proof{
