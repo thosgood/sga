@@ -235,9 +235,9 @@
   \taxon{Remark}
 
   \p{
-    We must be able to state \ref{sga1-i.7.6} for a ring $\sh{O}$ that is only semi-local, so that we also cover \ref{sga1-i.7.5}:
-    we make the hypothesis that $\sh{O}/\mathfrak{m}\sh{O}$ is a \em{monogenous} $k$-algebra;
-    we can thus find some $u\in B$ whose image in $B/\mathfrak{m}B$ is a generator, and belongs to every maximal ideal of $B$ that doesn't come from $\sh{O}$.
+    We must be able to state \ref{sga1-i.7.6} for a ring #{\sh{O}} that is only semi-local, so that we also cover \ref{sga1-i.7.5}:
+    we make the hypothesis that #{\sh{O}/\mathfrak{m}\sh{O}} is a \em{monogenous} #{k}-algebra;
+    we can thus find some #{u\in B} whose image in #{B/\mathfrak{m}B} is a generator, and belongs to every maximal ideal of #{B} that doesn't come from #{\sh{O}}.
     Both \ref{sga1-i.7.9} and \ref{sga1-i.7.10} should be able to be adapted without difficulty.
     More generally, ...
   }
