@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1153</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1175</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
     Let <tex>A</tex> be a complete local ring (Noetherian, of course), with residue field <tex>k</tex>.
     For any <tex>A</tex>-algebra <tex>B</tex>, let <tex>R(B)=B \otimes _Ak</tex> be thought of as a <tex>k</tex>-algebra;
     this depends functorially on <tex>B</tex>.
     Then <tex>R</tex> defines an <em>equivalence</em> between the category of <tex>A</tex>-algebras that are <em>finite and étale over <tex>A</tex></em> and the category of algebras that are <em>finite rank and separable over <tex>k</tex></em>.
-  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1154</anchor> <taxon>Section</taxon> <addr>sga1-i.6</addr><route>sga1-i.6.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Application to étale extensions of complete local rings</title> <number>I.6</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1176</anchor> <taxon>Section</taxon> <addr>sga1-i.6</addr><route>sga1-i.6.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Application to étale extensions of complete local rings</title> <number>I.6</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
   This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
   Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in [sga1-i.7 <strong>(?)</strong>] (using the Main Theorem).
   This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1155</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1177</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
     Let <tex>A</tex> be a complete local ring (Noetherian, of course), with residue field <tex>k</tex>.
     For any <tex>A</tex>-algebra <tex>B</tex>, let <tex>R(B)=B \otimes _Ak</tex> be thought of as a <tex>k</tex>-algebra;
     this depends functorially on <tex>B</tex>.
     Then <tex>R</tex> defines an <em>equivalence</em> between the category of <tex>A</tex>-algebras that are <em>finite and étale over <tex>A</tex></em> and the category of algebras that are <em>finite rank and separable over <tex>k</tex></em>.
   </p></mainmatter> </tree><p>
   Firstly, the functor in question is fully faithful, as follows from the more general fact:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1156</anchor> <taxon>Corollary</taxon> <addr>sga1-i.6.2</addr><route>sga1-i.6.2.xml</route>     <number>I.6.2</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1178</anchor> <taxon>Corollary</taxon> <addr>sga1-i.6.2</addr><route>sga1-i.6.2.xml</route>     <number>I.6.2</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
     Let <tex>B</tex> and <tex>B'</tex> be <tex>A</tex>-algebras that are finite over <tex>A</tex>.
     If <tex>B</tex> is étale over <tex>A</tex>, then the canonical map
     <tex display="block">        \operatorname {Hom} _{ A \mathsf {-alg} }(B,B')        \to   \operatorname {Hom} _{ k \mathsf {-alg} }(R(B),R(B'))     </tex>
@@ -24,7 +24,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1157</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1179</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can reduce to the case where <tex>A</tex> is Artinian (by replacing <tex>A</tex> by <tex>A/ \frak {m}^n</tex>), and then this is a particular case of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/>.
     </p>
@@ -34,18 +34,18 @@
   It remains to prove that, for every finite and separable <tex>k</tex> algebra (or we can simply say &quot;étale&quot;, for brevity) <tex>L</tex>, there exists some <tex>B</tex> étale over <tex>A</tex> such that <tex>R(B)</tex> is isomorphic to <tex>L</tex>.
   We can suppose that <tex>L</tex> is a separable extension of <tex>k</tex>, and, as such, it admits a generator <tex>x</tex>, i.e. it is isomorphic to an algebra <tex>k[t]/Fk[t]</tex>, where <tex>F \in  k[t]</tex> is a monic polynomial.
   We can lift <tex>F</tex> to a monic polynomial <tex>F_1</tex> in <tex>A[t]</tex>, and we take <tex>B=A[t]/F_1A[t]</tex>.
-</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1158</anchor> <taxon>Section</taxon> <addr>sga1-i.6</addr><route>sga1-i.6.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Application to étale extensions of complete local rings</title> <number>I.6</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1180</anchor> <taxon>Section</taxon> <addr>sga1-i.6</addr><route>sga1-i.6.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Application to étale extensions of complete local rings</title> <number>I.6</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
   This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
   Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in [sga1-i.7 <strong>(?)</strong>] (using the Main Theorem).
   This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1159</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1181</anchor> <taxon>Theorem</taxon> <addr>sga1-i.6.1</addr><route>sga1-i.6.1.xml</route>     <number>I.6.1</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
     Let <tex>A</tex> be a complete local ring (Noetherian, of course), with residue field <tex>k</tex>.
     For any <tex>A</tex>-algebra <tex>B</tex>, let <tex>R(B)=B \otimes _Ak</tex> be thought of as a <tex>k</tex>-algebra;
     this depends functorially on <tex>B</tex>.
     Then <tex>R</tex> defines an <em>equivalence</em> between the category of <tex>A</tex>-algebras that are <em>finite and étale over <tex>A</tex></em> and the category of algebras that are <em>finite rank and separable over <tex>k</tex></em>.
   </p></mainmatter> </tree><p>
   Firstly, the functor in question is fully faithful, as follows from the more general fact:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1160</anchor> <taxon>Corollary</taxon> <addr>sga1-i.6.2</addr><route>sga1-i.6.2.xml</route>     <number>I.6.2</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1182</anchor> <taxon>Corollary</taxon> <addr>sga1-i.6.2</addr><route>sga1-i.6.2.xml</route>     <number>I.6.2</number> <parent>sga1-i.6</parent> </frontmatter> <mainmatter><p>
     Let <tex>B</tex> and <tex>B'</tex> be <tex>A</tex>-algebras that are finite over <tex>A</tex>.
     If <tex>B</tex> is étale over <tex>A</tex>, then the canonical map
     <tex display="block">        \operatorname {Hom} _{ A \mathsf {-alg} }(B,B')        \to   \operatorname {Hom} _{ k \mathsf {-alg} }(R(B),R(B'))     </tex>
@@ -53,7 +53,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1161</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1183</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can reduce to the case where <tex>A</tex> is Artinian (by replacing <tex>A</tex> by <tex>A/ \frak {m}^n</tex>), and then this is a particular case of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/>.
     </p>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2083</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>A \to  B</tex> be an étale local homomorphism.
+    For <tex>A</tex> to be regular, it is necessary and sufficient that <tex>B</tex> be regular.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2084</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      Let <tex>k</tex> be the residue field of <tex>A</tex>, and <tex>L</tex> the residue field of <tex>B</tex>.
+      Since <tex>B</tex> is flat over <tex>A</tex>, and since <tex>L=B \otimes _A k</tex> (i.e. <tex>\mathfrak {n}= \mathfrak {m}B</tex>, where <tex>\mathfrak {m}</tex> and <tex>\mathfrak {n}</tex> are the maximal ideals of <tex>A</tex> and <tex>B</tex> respectively), the <tex>\mathfrak {m}</tex>-adic filtration on <tex>B</tex> is identical to the <tex>\mathfrak {n}</tex>-adic filtration, and
+      <tex display="block">          \operatorname {gr} ^ \bullet (B) =  \operatorname {gr} ^ \bullet (A) \otimes _k L.       </tex>
+      It follows that <tex>\operatorname {gr} ^ \bullet (B)</tex> is a polynomial algebra over <tex>L</tex> if and only if <tex>\operatorname {gr} ^ \bullet (A)</tex> is a polynomial algebra over <tex>K</tex>.
+      (N.B. we have not used the fact that <tex>L/k</tex> is separable.)
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2085</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+  Let <tex>A \to  B</tex> be a morphism that is local and étale;
+  we study here some cases where a certain property of <tex>A</tex> implies the same property for <tex>B</tex>, or vice versa.
+  A certain number of such propositions are already consequences of the simple fact that <tex>B</tex> is <em>quasi-finite</em> and <em>flat</em> over <tex>A</tex>, and we content ourselves with &quot;recalling&quot; some of them.
+  <em><tex>A</tex> and <tex>B</tex> have the same Krull dimension, and the same depth</em> (Serre's &quot;cohomological codimension&quot;, in the more modern language).
+  It also follows, for example, that <em><tex>A</tex> is Cohen–Macaulay if and only if <tex>B</tex> is</em>.
+  Also, for any prime ideal <tex>\mathfrak {q}</tex> of <tex>B</tex> (inducing some <tex>\mathfrak {p}</tex> of <tex>A</tex>), <tex>B_ \mathfrak {q}</tex> is again quasi-finite and flat over <tex>A_ \mathfrak {p}</tex>, as long as we suppose that <tex>B</tex> is the localisation of an algebra of finite type over <tex>A</tex> (this follows from the fact that the set of points where a morphism of finite type is quasi-finite (resp. flat) is open);
+  furthermore, <em>every</em> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex> is induced by a prime ideal <tex>\mathfrak {q}</tex> of <tex>B</tex> (since <tex>B</tex> is <em>faithfully</em> flat over <tex>A</tex>).
+  It thus follows, for example, that <em><tex>\mathfrak {q}</tex> and <tex>\mathfrak {p}</tex> have the same rank</em>;
+  also, <em><tex>A</tex> has no embedded prime ideals if and only if <tex>B</tex> has none</em>.
+</p><p>
+  We will thus content ourselves with more specific propositions concerning the case of étale morphisms.
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2086</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>A \to  B</tex> be an étale local homomorphism.
+    For <tex>A</tex> to be regular, it is necessary and sufficient that <tex>B</tex> be regular.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2087</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      Let <tex>k</tex> be the residue field of <tex>A</tex>, and <tex>L</tex> the residue field of <tex>B</tex>.
+      Since <tex>B</tex> is flat over <tex>A</tex>, and since <tex>L=B \otimes _A k</tex> (i.e. <tex>\mathfrak {n}= \mathfrak {m}B</tex>, where <tex>\mathfrak {m}</tex> and <tex>\mathfrak {n}</tex> are the maximal ideals of <tex>A</tex> and <tex>B</tex> respectively), the <tex>\mathfrak {m}</tex>-adic filtration on <tex>B</tex> is identical to the <tex>\mathfrak {n}</tex>-adic filtration, and
+      <tex display="block">          \operatorname {gr} ^ \bullet (B) =  \operatorname {gr} ^ \bullet (A) \otimes _k L.       </tex>
+      It follows that <tex>\operatorname {gr} ^ \bullet (B)</tex> is a polynomial algebra over <tex>L</tex> if and only if <tex>\operatorname {gr} ^ \bullet (A)</tex> is a polynomial algebra over <tex>K</tex>.
+      (N.B. we have not used the fact that <tex>L/k</tex> is separable.)
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2088</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
+    If <tex>Y</tex> is regular, then <tex>X</tex> is regular;
+    the converse is true if <tex>f</tex> is surjective.
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2089</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
+    If <tex>Y</tex> is reduced, then <tex>X</tex> is reduced;
+    the converse is true if <tex>f</tex> is surjective.
+  </p></mainmatter> </tree><p>
+  This is equivalent to the following:
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2090</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
+    For <tex>A</tex> to be reduced, it is necessary and sufficient that <tex>B</tex> be reduced.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2091</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      The necessity is trivial, since <tex>A \to  B</tex> is injective (since <tex>B</tex> is faithfully flat over <tex>A</tex>).
+      For the sufficiency, let <tex>\mathfrak {p}_i</tex> be the minimal prime ideals of <tex>A</tex>.
+      By hypothesis, the natural map <tex>A \to \prod _i A/ \mathfrak {p}_i</tex> is injective, and so tensoring with the flat <tex>A</tex>-module <tex>B</tex> gives that <tex>B \to \prod _i B/ \mathfrak {p}_iB</tex> is injective, and we can thus reduce to proving that the <tex>B/ \mathfrak {p}_iB</tex> are reduced.
+      Since <tex>B/ \mathfrak {p}_iB</tex> is étale over <tex>A/ \mathfrak {p}_i</tex>, we can reduce to the case where <tex>A</tex> is integral.
+      Let <tex>K</tex> be the field of fractions of <tex>A</tex>, so that <tex>A \to  K</tex> is injective, and thus so too is <tex>B \to  B \otimes _A K</tex> (since <tex>B</tex> is <tex>A</tex>-flat), and we can thus reduce to proving that <tex>B \otimes _A K</tex> is reduced.
+      But <tex>B</tex> is the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>, and thus is the local ring of a point <tex>x</tex> of a scheme of finite type <tex>X= \operatorname {Spec} (C)</tex> over <tex>Y= \operatorname {Spec} (A)</tex> that is also <em>étale</em> over <tex>Y</tex>, so <tex>B \otimes _A K</tex> is a localisation (with respect to some suitable multiplicatively stable set) of the ring <tex>C \otimes _A K</tex> of <tex>X \otimes _A K</tex>.
+      Since <tex>X \otimes _A K</tex> is étale over <tex>K</tex>, its ring is a finite product of fields (that are separable extensions of <tex>K</tex>), and thus so too is <tex>B \otimes _A K</tex>.
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2092</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+  Let <tex>A \to  B</tex> be a morphism that is local and étale;
+  we study here some cases where a certain property of <tex>A</tex> implies the same property for <tex>B</tex>, or vice versa.
+  A certain number of such propositions are already consequences of the simple fact that <tex>B</tex> is <em>quasi-finite</em> and <em>flat</em> over <tex>A</tex>, and we content ourselves with &quot;recalling&quot; some of them.
+  <em><tex>A</tex> and <tex>B</tex> have the same Krull dimension, and the same depth</em> (Serre's &quot;cohomological codimension&quot;, in the more modern language).
+  It also follows, for example, that <em><tex>A</tex> is Cohen–Macaulay if and only if <tex>B</tex> is</em>.
+  Also, for any prime ideal <tex>\mathfrak {q}</tex> of <tex>B</tex> (inducing some <tex>\mathfrak {p}</tex> of <tex>A</tex>), <tex>B_ \mathfrak {q}</tex> is again quasi-finite and flat over <tex>A_ \mathfrak {p}</tex>, as long as we suppose that <tex>B</tex> is the localisation of an algebra of finite type over <tex>A</tex> (this follows from the fact that the set of points where a morphism of finite type is quasi-finite (resp. flat) is open);
+  furthermore, <em>every</em> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex> is induced by a prime ideal <tex>\mathfrak {q}</tex> of <tex>B</tex> (since <tex>B</tex> is <em>faithfully</em> flat over <tex>A</tex>).
+  It thus follows, for example, that <em><tex>\mathfrak {q}</tex> and <tex>\mathfrak {p}</tex> have the same rank</em>;
+  also, <em><tex>A</tex> has no embedded prime ideals if and only if <tex>B</tex> has none</em>.
+</p><p>
+  We will thus content ourselves with more specific propositions concerning the case of étale morphisms.
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2093</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>A \to  B</tex> be an étale local homomorphism.
+    For <tex>A</tex> to be regular, it is necessary and sufficient that <tex>B</tex> be regular.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2094</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      Let <tex>k</tex> be the residue field of <tex>A</tex>, and <tex>L</tex> the residue field of <tex>B</tex>.
+      Since <tex>B</tex> is flat over <tex>A</tex>, and since <tex>L=B \otimes _A k</tex> (i.e. <tex>\mathfrak {n}= \mathfrak {m}B</tex>, where <tex>\mathfrak {m}</tex> and <tex>\mathfrak {n}</tex> are the maximal ideals of <tex>A</tex> and <tex>B</tex> respectively), the <tex>\mathfrak {m}</tex>-adic filtration on <tex>B</tex> is identical to the <tex>\mathfrak {n}</tex>-adic filtration, and
+      <tex display="block">          \operatorname {gr} ^ \bullet (B) =  \operatorname {gr} ^ \bullet (A) \otimes _k L.       </tex>
+      It follows that <tex>\operatorname {gr} ^ \bullet (B)</tex> is a polynomial algebra over <tex>L</tex> if and only if <tex>\operatorname {gr} ^ \bullet (A)</tex> is a polynomial algebra over <tex>K</tex>.
+      (N.B. we have not used the fact that <tex>L/k</tex> is separable.)
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2095</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
+    If <tex>Y</tex> is regular, then <tex>X</tex> is regular;
+    the converse is true if <tex>f</tex> is surjective.
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2096</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
+    If <tex>Y</tex> is reduced, then <tex>X</tex> is reduced;
+    the converse is true if <tex>f</tex> is surjective.
+  </p></mainmatter> </tree><p>
+  This is equivalent to the following:
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2097</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+    Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
+    For <tex>A</tex> to be reduced, it is necessary and sufficient that <tex>B</tex> be reduced.
+  </p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2098</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <p>
+      The necessity is trivial, since <tex>A \to  B</tex> is injective (since <tex>B</tex> is faithfully flat over <tex>A</tex>).
+      For the sufficiency, let <tex>\mathfrak {p}_i</tex> be the minimal prime ideals of <tex>A</tex>.
+      By hypothesis, the natural map <tex>A \to \prod _i A/ \mathfrak {p}_i</tex> is injective, and so tensoring with the flat <tex>A</tex>-module <tex>B</tex> gives that <tex>B \to \prod _i B/ \mathfrak {p}_iB</tex> is injective, and we can thus reduce to proving that the <tex>B/ \mathfrak {p}_iB</tex> are reduced.
+      Since <tex>B/ \mathfrak {p}_iB</tex> is étale over <tex>A/ \mathfrak {p}_i</tex>, we can reduce to the case where <tex>A</tex> is integral.
+      Let <tex>K</tex> be the field of fractions of <tex>A</tex>, so that <tex>A \to  K</tex> is injective, and thus so too is <tex>B \to  B \otimes _A K</tex> (since <tex>B</tex> is <tex>A</tex>-flat), and we can thus reduce to proving that <tex>B \otimes _A K</tex> is reduced.
+      But <tex>B</tex> is the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>, and thus is the local ring of a point <tex>x</tex> of a scheme of finite type <tex>X= \operatorname {Spec} (C)</tex> over <tex>Y= \operatorname {Spec} (A)</tex> that is also <em>étale</em> over <tex>Y</tex>, so <tex>B \otimes _A K</tex> is a localisation (with respect to some suitable multiplicatively stable set) of the ring <tex>C \otimes _A K</tex> of <tex>X \otimes _A K</tex>.
+      Since <tex>X \otimes _A K</tex> is étale over <tex>K</tex>, its ring is a finite product of fields (that are separable extensions of <tex>K</tex>), and thus so too is <tex>B \otimes _A K</tex>.
+    </p>
+  </mainmatter> </tree>
+  
+</mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
