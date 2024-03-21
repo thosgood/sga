@@ -280,4 +280,33 @@
   Finally, along the way, we will equally deal with the problem:
 </p><strong><em>TO-DO: this list should be c</em></strong><ol><li>
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <tex>X</tex> and on <tex>Y</tex>.
-  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2595</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2595</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2596</anchor>  <addr>index</addr><route>index.xml</route>    <title>Séminaire de Géométrie Algébrique du Bois-Marie</title>   </frontmatter> <mainmatter><p>
+  You can view the entire source code of this translation (and contribute or submit corrections) in the <link href="https://github.com/thosgood/sga" type="external">GitHub repository</link>.
+</p><p><strong><em>TO-DO: describe this translation</em></strong></p><p>
+  Many thanks to <link href="https://www.jonmsterling.com/index.xml" type="external">Jon Sterling</link> for helping with the technical support in getting this translation ported to run on <link href="https://www.jonmsterling.com/jms-005P.xml" type="external">Forester</link>.
+</p><ul><li><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group"><strong>SGA 1: Étale covers and the fundamental group</strong></link>
+
+    <p>
+      Directed by A. Grothendieck.
+      Augmented with two exposés by Mme M. Raynaud.
+      1960–61.
+      <link href="https://arxiv.org/abs/math/0206203v2" type="external">arXiv:math/0206203v2</link></p>
+
+    <ul><li><link href="sga1-introduction.xml" type="local" addr="sga1-introduction" title="SGA 1: Étale covers and the fundamental group › Introduction">Introduction</link> ✓
+      </li>
+      <li><link href="sga1-foreword.xml" type="local" addr="sga1-foreword" title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</link> ✓
+      </li>
+      <li><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms">I. Étale morphisms</link> ✓
+      </li></ul></li>
+  <li><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem"><strong>SGA 6: Intersection theory and the Riemann–Roch theorem</strong></link>
+
+    <p>
+      Directed by P. Berthelot, A. Grothendieck, and L. Illusie.
+      With the collaboration of D. Ferrand, J.P. Jouanolou, O. Jussila, S. Kleiman, M. Raynaud, and J.P. Serre.
+      1966–67.
+    </p>
+
+    <ul><li><link href="sga6-introduction.xml" type="local" addr="sga6-introduction" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Introduction">Introduction</link></li>
+      <li><link href="sga6-0.xml" type="local" addr="sga6-0" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections">0. Outline of a programme for an intersection theory</link></li>
+      <li><link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">0[RRR]. Classes of sheaves and the Riemann–Roch theorem</link></li>
+      <li><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories">I. Generalities on finiteness conditions in derived categories</link></li></ul></li></ul></mainmatter> </tree></backlinks> <references/></backmatter></tree>
