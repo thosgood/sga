@@ -22,6 +22,18 @@
       1960–61.
       [arXiv:math/0206203v2](https://arxiv.org/abs/math/0206203v2)
     }
+
+    \ul{
+      \li{
+        [Introduction](sga1-introduction) ✓
+      }
+      \li{
+        [Foreword](sga1-foreword) ✓
+      }
+      \li{
+        [I. Étale morphisms](sga1-i) ✓
+      }
+    }
   }
   \li{
     [\strong{SGA 6: Intersection theory and the Riemann–Roch theorem}](sga6)
@@ -30,6 +42,21 @@
       Directed by P. Berthelot, A. Grothendieck, and L. Illusie.
       With the collaboration of D. Ferrand, J.P. Jouanolou, O. Jussila, S. Kleiman, M. Raynaud, and J.P. Serre.
       1966–67.
+    }
+
+    \ul{
+      \li{
+        [Introduction](sga6-introduction)
+      }
+      \li{
+        [0. Outline of a programme for an intersection theory](sga6-0)
+      }
+      \li{
+        [0[RRR]. Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr)
+      }
+      \li{
+        [I. Generalities on finiteness conditions in derived categories](sga6-i)
+      }
     }
   }
 }
