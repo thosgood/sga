@@ -91,3 +91,195 @@
     }
   }
 }
+
+\subtree[sga1-i.9.4]{
+  \taxon{corollary}
+  \number{I.9.4}
+
+  \p{
+    Let #{f\colon A\to B} be an étale local homomorphism, with #{A} analytically reduced (i.e. such that the completion #{\widehat{A}} of #{A} has no nilpotent elements).
+    Then #{B} is analytically reduced, and a fortiori reduced.
+  }
+
+  \proof{
+    Indeed, #{\widehat{B}} is \em{finite} and étale over #{\widehat{A}};
+    we can apply \ref{sga1-i.9.3}.
+  }
+}
+
+\subtree[sga1-i.9.5]{
+  \taxon{theorem}
+  \number{I.9.5}
+
+  \p{
+    Let #{f\colon A\to B} be a local homomorphism, with #{B} isomorphic to the localisation of an #{A}-algebra of finite type over #{A}.
+  }
+
+  \p{\todo{the following list should be i, ii}}
+
+  \ol{
+    \li{
+      If #{f} is étale, then #{A} is normal if and only if #{B} is normal.
+    }
+    \li{
+      If #{A} is normal, then #{f} is étale if and only if #{f} is injective and unramified (and then #{B} is normal, by (i)).
+    }
+  }
+}
+
+\p{
+  We will give two different proofs of (i):
+  the first using certain properties of quasi-finite flat morphisms (stated at the start of this section) and without using \ref{sga1-i.7.6} (and thus the Main Theorem);
+  the second proof does the opposite.
+  For (ii), it seems like we do indeed need the Main Theorem, no matter what.
+}
+
+\subtree[sga1-i.9.5.i-proof-1]{
+  \taxon{proof}
+  \number{I.9.5.i}
+  \title{First proof}
+
+  \p{
+    We use the following necessary and sufficient condition for a local Noetherian ring #{A} of dimension #{\neq0} to be normal.
+  }
+
+  \subtree[sga1-i.9-serres-criterion]{
+    \title{Serre's criterion}
+
+    \p{\todo{the following list should be i, ii}}
+
+    \ol{
+      \li{
+        For every rank-#{1} prime ideal #{\mathfrak{p}} of #{A}, #{A_\mathfrak{p}} is normal (or, equivalently, regular);
+      }
+      \li{
+        For every rank-#{\geq2} prime ideal #{\mathfrak{p}} of #{A}, the depth of #{A_\mathfrak{p}} is #{\geq2}.
+        \footnote{cf. EGA IV 5.8.6.}
+      }
+    }
+  }
+
+  \p{
+    We assume this criterion here, but it should also appear in the section on flatness.
+    Its main advantage is that it does not suppose a priori that #{A} is reduced, nor a fortiori that #{A} is integral.
+    Here, we can already suppose that #{\dim A=\dim B\neq0}.
+  }
+
+  \p{
+    By the statements at the start of this section, the rank-#{1} (resp. rank-#{\geq2}) prime ideals #{\mathfrak{p}} of #{A} are exactly the intersections of #{A} with the rank-#{1} (resp. rank-#{\geq2}) prime ideals #{\mathfrak{q}} of #{B}.
+    Finally, if #{\mathfrak{p}} and #{\mathfrak{q}} correspond to one another, then #{B_\mathfrak{q}} is étale over #{A_\mathfrak{p}}, and thus of the same depth as #{A_\mathfrak{p}}, and is regular if and only if #{A_\mathfrak{p}} is (by \ref{sga1-i.9.1}).
+    Applying [Serre's criterion](sga1-i.9-serres-criterion), we see that #{A} is normal if and only if #{B} is.
+  }
+}
+
+\subtree[sga1-i.9.5.i-proof-2]{
+  \taxon{proof}
+  \number{I.9.5.i}
+  \title{Second proof}
+
+  \p{
+    Suppose that #{B} is normal, with field of fractions #{L};
+    let #{K} be the field of fractions of #{A} (and note that #{A} is integral, since #{B} is integral).
+    We have already seen, in the proof of \ref{sga1-i.9.3}, that #{B\otimes_A K} is a finite product of fields;
+    since it is contained in #{L}, it is a field;
+    since it contains #{B}, it is equal to #{L} itself.
+    An element of #{K} that is integral over #{A} is integral over #{B}, and is thus in #{B}, since #{B} is normal, and thus also in #{A}, since #{B\cap K=A} (as follows from the fact that #{B} is faithfully flat over #{A}).
+  }
+
+  \p{
+    Now suppose that #{A} is normal;
+    we will prove that #{B} is also normal.
+    By \ref{sga1-i.7.6}, we have that #{B=B'_\mathfrak{n}}, where #{B'=A[t]/FA[t]} (with #{F} and #{\mathfrak{n}} as in \ref{sga1-i.7.6}).
+    Thus #{L=B\otimes_A K} is a localisation of #{B'\otimes_A K=K[t]/FK[t]}, and also a product of fields (finite separable extensions of #{K}).
+    This latter product (#{B'\otimes_A K}) is a direct factor of #{B'_K} (since each time we localise an Artinian ring (here #{B'_K}) with respect to a multiplicatively stable set), and thus corresponds to a decomposition #{F=F_1F_2} in #{K[t]}, with the generator of #{L} corresponding to #{t} being annihilated by #{F_1}.
+    But, \em{since #{A} is normal, the #{F_i} are in #{A[t]}} (supposing that they are monic).
+    Note that #{B\to L=B\otimes_A K} is injective (since #{A\to K} is, since #{B} is flat over #{A}), and so #{F_1(u)=0}, with #{u} being the class of #{t} in #{L}.
+    Suppose that #{F} were of minimal degree;
+    then it would follows that #{F_2=1}.
+    (N.B. we would have #{F'(u)=F'_1(u)F_2(u)+F_1(u)F'_2(u)=F'_1(u)F_2(u)}, since #{F_1(u)=0}, whence #{F'_1(u)\neq 0} since #{F'(u)\neq0}.)
+    Thus
+    ##{
+      L = B\otimes_A K = K[t]/FK[t]
+    }
+    and so #{F} is a separable polynomial in #{K[T]} (but evidently not necessarily in #{A[t]}).
+    (N.B. for now, we have only shown, essentially, that we can choose #{F} and #{\mathfrak{n}} in \ref{sga1-i.7.6} such that, with the above notation, #{B'\to B'_\mathfrak{n}=B} is \em{injective};
+    for this, we have used the fact that #{A} is normal;
+    I do not know if this remains true without this normality hypothesis).
+  }
+}
+
+\p{
+  Now recall the well-known lemma, taken from Serre's lectures last year:
+}
+
+\subtree[sga1-i.9.6]{
+  \taxon{lemma}
+  \number{I.9.6}
+
+  \p{
+    Let #{K} be a ring, #{F\in K[t]} a separable monic polynomial, #{L=K[t]/FK[t]}, and #{u} the class of #{t} in #{L} (so that #{F'(u)} is an invertible element of #{L}).
+    Then
+    ##{
+      \tr_{L/K} u^i/F'(u) =
+      \begin{cases}
+        0 &\text{if }0\leq i<n-1\text{;}
+      \\1 &\text{if }i=n-1
+      \end{cases}
+    }
+    where #{n=\deg F}.
+  }
+}
+
+\subtree[sga1-i.9.7]{
+  \taxon{corollary}
+  \number{I.9.7}
+
+  \p{
+    The determinant of the matrix #{(u^j\cdot u^i/F'(u))_{0\leq i,j\leq n-1}} is equal to #{(-1)^{n(n-1)/2}}, and thus invertible in every sub-ring #{A} of #{K}.
+  }
+}
+
+\subtree[sga1-i.9.8]{
+  \taxon{corollary}
+  \number{I.9.8}
+
+  \p{
+    Let #{A} be a sub-ring of #{K}, #{V} the #{A}-module generated by the #{u^i} (for #{0\leq i\leq n-1}), and #{V'} the sub-#{A}-module of #{L} consisting of the #{x\in L} such that #{\tr_{L/K}(xy)\in A} for all #{y\in V} (i.e. for #{y} of the form #{u^i}, for #{0\leq i\leq n-1}).
+    Then #{V'} is the #{A}-module given by the basis #{u^i/F'(u)} (for #{0\leq i\leq n-1}).
+  }
+}
+
+\subtree[sga1-i.9.9]{
+  \taxon{corollary}
+  \number{I.9.9}
+
+  \p{
+    Suppose that #{K} is the field of fractions of an integral normal ring #{A}, with the coefficients of #{F} lying in #{A}.
+    Then, with the notation of \ref{sga1-i.9.8}, #{V'} contains the normal closure #{A'} of #{A} in #{L}, which is thus contained in #{A[u]/F'(u)}, and a fortiori in #{A[u][F'(u)^{-1}]}.
+  }
+}
+
+\p{
+  We can apply [the above corollary](sga1-i.9.9) to the situation that we have obtained in the proof: since #{F'(u)} is invertible in #{B}, and since #{B} contains #{A[u]}, #{B} contains #{A'}.
+  By the Main Theorem (or by the fact that #{B=A[u]_\mathfrak{n}}), #{B} is a localisation of #{A'}.
+  Since #{A'} is normal, so too is #{B}.
+}
+
+\subtree[sga1-i.9.5.ii-proof]{
+  \taxon{proof}
+  \number{I.9.5.ii}
+
+  \p{
+    We proceed as in the above proof to show that we can choose #{F} in \ref{sga1-i.7.6} such that we again have
+    ##{
+      L = B\otimes_A K = K[t]/FK[t]
+    }
+    The only obstacle a priori is that we can no longer prove that #{B\to L} is injective, since #{B} is no longer assumed to be flat over #{A}, and so we can only apply the same argument a priori to the image #{B_1} of #{B} under the aforementioned homomorphism.
+    It immediately follows that #{B_1} is flat over #{A} (since it is the localisation of a free #{A}-algebra).
+    By \ref{sga1-i.4.8}, the morphism #{B\to B_1} is étale, and thus an isomorphism, which finishes the proof.
+  }
+}
+
+\p{
+  (From an editorial point of view, we should perform the two proofs above, and place the formal calculations of the lemma and of its corollaries in a separate section).
+}

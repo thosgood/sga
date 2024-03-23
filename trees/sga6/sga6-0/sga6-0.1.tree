@@ -9,6 +9,7 @@
   Recall the Riemann–Roch formula for a proper morphism
   ##{f\colon X\to Y}
   of smooth quasi-projective schemes over a field #{k} and a coherent sheaf #{\sh{F}} on #{X}:
+  \todo{equation numbering}
   ##{
     \Todd(T_Y)\ch_Y(f_*(\cl(\sh{F})))
     = f_*(\Todd(T_X)\ch_X(\sh{F}))
@@ -27,6 +28,7 @@
   }
   As we know, #{\Todd(-)} and #{\ch(-)} are universal polynomials in the Chern classes of the argument with coefficients in #{\QQ}.
   Since the constant term of #{\Todd(-)} is #{1}, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by #{\Todd(T_Y)^{-1}}, in the form which is more useful for our needs:
+  \todo{equation numbering}
   ##{
     \ch_Y(f_*(\cl(\sh{F})))
     = f_*(\Todd(T_f)\ch_X(\sh{F}))
