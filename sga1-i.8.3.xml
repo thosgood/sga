@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2049</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2061</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     The functor described in <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> is an <em>equivalence</em> of <em>categories</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2050</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2062</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     By <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/>, it remains only to show that every étale <tex>S_0</tex>-scheme <tex>X_0</tex> is isomorphic to an <tex>S_0</tex>-scheme <tex>X \times _S S_0</tex>, where <tex>X</tex> is an étale <tex>S</tex>-scheme.
     The underlying topological space of <tex>X</tex> must necessarily be identical to the one of <tex>X_0</tex>, and with <tex>X_0</tex> being identified with a closed sub-prescheme of <tex>X</tex>.
     The problem is thus equivalent to the following:
@@ -16,13 +16,13 @@
     It thus suffices to find a solution locally, which we know is possible by <ref addr="sga1-i.8.1" href="sga1-i.8.1.xml" taxon="Proposition" number="I.8.1"/>.
   </mainmatter> </tree>
   
-</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2051</anchor> <taxon>Section</taxon> <addr>sga1-i.8</addr><route>sga1-i.8.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</title> <number>I.8</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2052</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2063</anchor> <taxon>Section</taxon> <addr>sga1-i.8</addr><route>sga1-i.8.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</title> <number>I.8</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2064</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>Y</tex> be a prescheme, <tex>Y_0</tex> a sub-prescheme, <tex>X_0</tex> an étale <tex>Y_0</tex>-scheme, and <tex>x</tex> a point of <tex>X_0</tex>.
     Then there exists an étale <tex>Y</tex>-scheme <tex>X</tex>, a neighbourhood <tex>U_0</tex> of <tex>x</tex> in <tex>X_0</tex>, and a <tex>Y_0</tex>-isomorphism <tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2053</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2065</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>y</tex> be the projection of <tex>x</tex> in <tex>Y_0</tex>;
       applying <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> to the étale local homomorphism <tex>A_0 \to  B_0</tex> of local rings of <tex>y</tex> and <tex>x</tex> in <tex>Y_0</tex> and <tex>X_0</tex>, we obtain an isomorphism
@@ -43,23 +43,23 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2054</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.2</addr><route>sga1-i.8.2.xml</route>     <number>I.8.2</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2066</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.2</addr><route>sga1-i.8.2.xml</route>     <number>I.8.2</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     The analogous claim holds for étale <em>covers</em>, if we suppose the residue field <tex>k(y)</tex> to be infinite.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2055</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2067</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The proof is the same, just replacing <ref addr="sga1-i.7.5" href="sga1-i.7.5.xml" taxon="Corollary" number="I.7.5"/> by <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2056</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2068</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     The functor described in <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> is an <em>equivalence</em> of <em>categories</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2057</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2069</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     By <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/>, it remains only to show that every étale <tex>S_0</tex>-scheme <tex>X_0</tex> is isomorphic to an <tex>S_0</tex>-scheme <tex>X \times _S S_0</tex>, where <tex>X</tex> is an étale <tex>S</tex>-scheme.
     The underlying topological space of <tex>X</tex> must necessarily be identical to the one of <tex>X_0</tex>, and with <tex>X_0</tex> being identified with a closed sub-prescheme of <tex>X</tex>.
     The problem is thus equivalent to the following:
@@ -70,13 +70,13 @@
     It thus suffices to find a solution locally, which we know is possible by <ref addr="sga1-i.8.1" href="sga1-i.8.1.xml" taxon="Proposition" number="I.8.1"/>.
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2058</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2070</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <tex>\mathcal { J }</tex>, and let <tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</tex> be the corresponding ordinary prescheme.
     Then the functor <tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</tex> from the category of étale covers of <tex>S</tex> to the category of étale covers of <tex>S_0</tex> is an equivalence of categories.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2059</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2071</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Of course, we define an étale cover of a <em>formal</em> prescheme <tex>S</tex> to be a cover of <tex>S</tex> (i.e a formal prescheme over <tex>S</tex> defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex>) such that <tex>\mathcal { B }</tex> is <em>locally free</em>, and such that the residue fibres <tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</tex> of <tex>\mathcal { B }</tex> are <em>separable</em> algebras over <tex>k(s)</tex>.
       If we denote by <tex>S_n</tex> the ordinary prescheme <tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</tex>, then the data of a coherent sheaf of algebras <tex>\mathcal { B }</tex> on <tex>S</tex> is equivalent to the data of a sequence of coherent sheaves of algebras <tex>\mathcal { B } _n</tex> on the <tex>S_n</tex>, endowed with a transitive system of homomorphisms <tex>\mathcal { B } _m \to \mathcal { B } _n</tex> (for <tex>m \geq  n</tex>) defining the isomorphisms <tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</tex>.
@@ -86,9 +86,9 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2060</anchor> <taxon>Remark</taxon>       <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2072</anchor> <taxon>Remark</taxon>       <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     It was not necessary to restrict ourselves to the case of <em>covers</em> in <ref addr="sga1-i.8.4" href="sga1-i.8.4.xml" taxon="Corollary" number="I.8.4"/>, but this is the only case that we will use for the moment.
-  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2061</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2073</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -98,19 +98,19 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2062</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.5</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2074</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.5</parent> </frontmatter> <mainmatter>
     <p>
       We can again reduce to the case where <tex>Y=S</tex>, and then this follows from the &quot;topological&quot; description of sections of <tex>X/Y</tex> given in <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2063</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2075</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>Y</tex> be a prescheme, <tex>Y_0</tex> a sub-prescheme, <tex>X_0</tex> an étale <tex>Y_0</tex>-scheme, and <tex>x</tex> a point of <tex>X_0</tex>.
     Then there exists an étale <tex>Y</tex>-scheme <tex>X</tex>, a neighbourhood <tex>U_0</tex> of <tex>x</tex> in <tex>X_0</tex>, and a <tex>Y_0</tex>-isomorphism <tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2064</anchor> <taxon>Proof</taxon>       <parent>sga1-i.8.1</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2076</anchor> <taxon>Proof</taxon>       <parent>sga1-i.8.1</parent> </frontmatter> <mainmatter>
     <p>
       Let <tex>y</tex> be the projection of <tex>x</tex> in <tex>Y_0</tex>;
       applying <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> to the étale local homomorphism <tex>A_0 \to  B_0</tex> of local rings of <tex>y</tex> and <tex>x</tex> in <tex>Y_0</tex> and <tex>X_0</tex>, we obtain an isomorphism
@@ -131,13 +131,13 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2065</anchor> <taxon>Section</taxon> <addr>sga1-i.8</addr><route>sga1-i.8.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</title> <number>I.8</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2066</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2077</anchor> <taxon>Section</taxon> <addr>sga1-i.8</addr><route>sga1-i.8.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</title> <number>I.8</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2078</anchor> <taxon>Proposition</taxon> <addr>sga1-i.8.1</addr><route>sga1-i.8.1.xml</route>     <number>I.8.1</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>Y</tex> be a prescheme, <tex>Y_0</tex> a sub-prescheme, <tex>X_0</tex> an étale <tex>Y_0</tex>-scheme, and <tex>x</tex> a point of <tex>X_0</tex>.
     Then there exists an étale <tex>Y</tex>-scheme <tex>X</tex>, a neighbourhood <tex>U_0</tex> of <tex>x</tex> in <tex>X_0</tex>, and a <tex>Y_0</tex>-isomorphism <tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2067</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2079</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>y</tex> be the projection of <tex>x</tex> in <tex>Y_0</tex>;
       applying <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> to the étale local homomorphism <tex>A_0 \to  B_0</tex> of local rings of <tex>y</tex> and <tex>x</tex> in <tex>Y_0</tex> and <tex>X_0</tex>, we obtain an isomorphism
@@ -158,23 +158,23 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2068</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.2</addr><route>sga1-i.8.2.xml</route>     <number>I.8.2</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2080</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.2</addr><route>sga1-i.8.2.xml</route>     <number>I.8.2</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     The analogous claim holds for étale <em>covers</em>, if we suppose the residue field <tex>k(y)</tex> to be infinite.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2069</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2081</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The proof is the same, just replacing <ref addr="sga1-i.7.5" href="sga1-i.7.5.xml" taxon="Corollary" number="I.7.5"/> by <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2070</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2082</anchor> <taxon>Theorem</taxon> <addr>sga1-i.8.3</addr><route>sga1-i.8.3.xml</route>     <number>I.8.3</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     The functor described in <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> is an <em>equivalence</em> of <em>categories</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2071</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2083</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     By <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/>, it remains only to show that every étale <tex>S_0</tex>-scheme <tex>X_0</tex> is isomorphic to an <tex>S_0</tex>-scheme <tex>X \times _S S_0</tex>, where <tex>X</tex> is an étale <tex>S</tex>-scheme.
     The underlying topological space of <tex>X</tex> must necessarily be identical to the one of <tex>X_0</tex>, and with <tex>X_0</tex> being identified with a closed sub-prescheme of <tex>X</tex>.
     The problem is thus equivalent to the following:
@@ -185,13 +185,13 @@
     It thus suffices to find a solution locally, which we know is possible by <ref addr="sga1-i.8.1" href="sga1-i.8.1.xml" taxon="Proposition" number="I.8.1"/>.
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2072</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2084</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <tex>\mathcal { J }</tex>, and let <tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</tex> be the corresponding ordinary prescheme.
     Then the functor <tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</tex> from the category of étale covers of <tex>S</tex> to the category of étale covers of <tex>S_0</tex> is an equivalence of categories.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2073</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2085</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Of course, we define an étale cover of a <em>formal</em> prescheme <tex>S</tex> to be a cover of <tex>S</tex> (i.e a formal prescheme over <tex>S</tex> defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex>) such that <tex>\mathcal { B }</tex> is <em>locally free</em>, and such that the residue fibres <tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</tex> of <tex>\mathcal { B }</tex> are <em>separable</em> algebras over <tex>k(s)</tex>.
       If we denote by <tex>S_n</tex> the ordinary prescheme <tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</tex>, then the data of a coherent sheaf of algebras <tex>\mathcal { B }</tex> on <tex>S</tex> is equivalent to the data of a sequence of coherent sheaves of algebras <tex>\mathcal { B } _n</tex> on the <tex>S_n</tex>, endowed with a transitive system of homomorphisms <tex>\mathcal { B } _m \to \mathcal { B } _n</tex> (for <tex>m \geq  n</tex>) defining the isomorphisms <tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</tex>.
@@ -201,15 +201,15 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2074</anchor> <taxon>Remark</taxon>       <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2086</anchor> <taxon>Remark</taxon>       <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     It was not necessary to restrict ourselves to the case of <em>covers</em> in <ref addr="sga1-i.8.4" href="sga1-i.8.4.xml" taxon="Corollary" number="I.8.4"/>, but this is the only case that we will use for the moment.
-  </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2075</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2087</anchor> <taxon>Corollary</taxon> <addr>sga1-i.8.4</addr><route>sga1-i.8.4.xml</route>     <number>I.8.4</number> <parent>sga1-i.8</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <tex>\mathcal { J }</tex>, and let <tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</tex> be the corresponding ordinary prescheme.
     Then the functor <tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</tex> from the category of étale covers of <tex>S</tex> to the category of étale covers of <tex>S_0</tex> is an equivalence of categories.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2076</anchor> <taxon>Proof</taxon>       <parent>sga1-i.8.4</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2088</anchor> <taxon>Proof</taxon>       <parent>sga1-i.8.4</parent> </frontmatter> <mainmatter>
     <p>
       Of course, we define an étale cover of a <em>formal</em> prescheme <tex>S</tex> to be a cover of <tex>S</tex> (i.e a formal prescheme over <tex>S</tex> defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex>) such that <tex>\mathcal { B }</tex> is <em>locally free</em>, and such that the residue fibres <tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</tex> of <tex>\mathcal { B }</tex> are <em>separable</em> algebras over <tex>k(s)</tex>.
       If we denote by <tex>S_n</tex> the ordinary prescheme <tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</tex>, then the data of a coherent sheaf of algebras <tex>\mathcal { B }</tex> on <tex>S</tex> is equivalent to the data of a sequence of coherent sheaves of algebras <tex>\mathcal { B } _n</tex> on the <tex>S_n</tex>, endowed with a transitive system of homomorphisms <tex>\mathcal { B } _m \to \mathcal { B } _n</tex> (for <tex>m \geq  n</tex>) defining the isomorphisms <tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</tex>.
