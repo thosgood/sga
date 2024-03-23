@@ -32,7 +32,7 @@
       Let #{A} be a complete integral local ring;
       we know that its normalisation #{A'} is finite over #{A} (by Nagata), and is thus a complete semi-local ring, and thus local, since it is integral.
       Suppose that the residue extension #{L/k} that it defines is non-radicial (in the contrary case, we say that #{A} is \em{geometrically unibranch}; cf. below).
-      This will be the case, for example, for the ring #{\mathbb{R}[[s,t]]/(s^2+t^2)\mathbb{R}[[s,t]]}, where #{\mathbb{R}} is the field of real numbers.
+      This will be the case, for example, for the ring #{\mathbb{R}[{[s,t]}]/(s^2+t^2)\mathbb{R}[{[s,t]}]}, where #{\mathbb{R}} is the field of real numbers.
       Then let #{k'} be a finite Galois extension of #{k} such that #{L\otimes_k k'} decomposes;
       let #{B} be a finite and étale algebra over #{A} corresponding to the residue extension #{k'} (recall that #{B} is essentially unique).
       Then the residue algebra of #{B'=A'\otimes_A B} over #{B} is #{L\otimes_k k'}, which is not local, and so #{B'} is not a local ring, and thus #{B} has zero divisors (since it is complete).
