@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2146</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2534</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
   Recall the Riemann–Roch formula for a proper morphism
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
@@ -13,6 +14,7 @@
   <tex display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </tex>
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where we set
   <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
@@ -33,13 +35,14 @@
   Finally, along the way, we will equally deal with the problem:
 </p><strong><em>TO-DO: this list should be c</em></strong><ol><li>
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <tex>X</tex> and on <tex>Y</tex>.
-  </li></ol></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2147</anchor> <taxon>Exposé</taxon> <addr>sga6-0</addr><route>sga6-0.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Outline of a programme for a theory of intersections</title> <number>0</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
+  </li></ol></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2535</anchor> <taxon>Exposé</taxon> <addr>sga6-0</addr><route>sga6-0.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Outline of a programme for a theory of intersections</title> <number>0</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
   The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
   It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</link>), which is reproduced as <link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</link> at the end of this current exposé.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2148</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2536</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
   Recall the Riemann–Roch formula for a proper morphism
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
@@ -49,6 +52,7 @@
   <tex display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </tex>
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where we set
   <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
@@ -69,13 +73,14 @@
   Finally, along the way, we will equally deal with the problem:
 </p><strong><em>TO-DO: this list should be c</em></strong><ol><li>
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <tex>X</tex> and on <tex>Y</tex>.
-  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2149</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2150</anchor> <taxon>Exposé</taxon> <addr>sga6-0</addr><route>sga6-0.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Outline of a programme for a theory of intersections</title> <number>0</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
+  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2537</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2538</anchor> <taxon>Exposé</taxon> <addr>sga6-0</addr><route>sga6-0.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Outline of a programme for a theory of intersections</title> <number>0</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
   The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
   It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</link>), which is reproduced as <link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</link> at the end of this current exposé.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2151</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2539</anchor> <taxon>Section</taxon> <addr>sga6-0.1</addr><route>sga6-0.1.xml</route>     <number>1</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p>
   Recall the Riemann–Roch formula for a proper morphism
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
@@ -85,6 +90,7 @@
   <tex display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </tex>
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
+  <strong><em>TO-DO: equation numbering</em></strong>
   <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
   where we set
   <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
@@ -105,4 +111,4 @@
   Finally, along the way, we will equally deal with the problem:
 </p><strong><em>TO-DO: this list should be c</em></strong><ol><li>
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <tex>X</tex> and on <tex>Y</tex>.
-  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2152</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+  </li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2540</anchor> <taxon>Section</taxon> <addr>sga6-0.2</addr><route>sga6-0.2.xml</route>     <number>2</number> <parent>sga6-0</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: finish</em></strong></p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
