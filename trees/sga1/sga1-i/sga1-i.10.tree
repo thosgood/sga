@@ -5,3 +5,258 @@
 
 \import{sga1-macros}
 \put\transclude/numbered{false}
+
+\subtree[sga1-i.10.1]{
+  \taxon{proposition}
+  \number{I.10.1}
+
+  \p{
+    Let #{Y} be normal and connected of field #{K}, and let #{X} be a separated étale prescheme over #{Y}.
+    Then the connected components #{X_i} of #{X} are integral, their fields #{K_i} are finite separable extensions of #{K}, and #{X_i} can be identified with a non-empty open subset of the normalisation of #{X} in #{K_i} (and thus #{X} with a dense open subset of the normalisation of #{Y} in #{R(X)=L=\prod K_i}, where #{R(X)} is the ring of rational functions on #{X}).
+  }
+
+  \proof{
+    \p{
+      By \ref{sga1-i.9.10}, #{X} is normal, and a fortiori its local rings are integral, and so the connected components of #{X} are irreducible.
+      Since #{X_i} is normal, and also finite and dominant over #{Y}, it follows from a particular (almost trivial, actually) case of the Main Theorem that #{X_i} is an open subset of the normalisation of #{X} in the field #{K_i} of #{X_i}.
+    }
+  }
+}
+
+\subtree[sga1-i.10.2]{
+  \taxon{corollary}
+  \number{I.10.2}
+
+  \p{
+    Under the conditions of \ref{sga1-i.10.1}, #{X} is finite over #{Y} (i.e. an étale cover of #{Y}) if and only if #{X} is isomorphic to the normalisation #{Y'} of #{Y} in #{L=R(X)} (the ring of rational functions on #{X}).
+  }
+
+  \proof{
+    \p{
+      We know that this normalisation is finite over #{Y} (since #{Y} is normal, and #{R/K} separable);
+      conversely, if #{X} is finite over #{Y}, then it is also finite over #{Y'}, and so its image in #{Y'} is closed (and it is also dense).
+    }
+  }
+}
+
+\p{
+  An algebra #{L} of finite rank over #{K} is said to be \em{unramified over #{X}} (or simply \em{unramified over #{K}} if #{X} is evident) if #{L} is a separable algebra over #{K} (i.e. a direct sum of separable extensions #{K_i}) \em{and} the normalisation #{Y'} of #{Y} in #{L} (i.e. the disjoint sum of the normalisations of #{Y} in the #{K_i}) is unramified (i.e. étale, by \ref{sga1-i.9.11}) over #{Y}.
+  Thus:
+}
+
+\subtree[sga1-i.10.3]{
+  \taxon{corollary}
+  \number{I.10.3}
+
+  \p{
+    For every #{X} that is finite over #{Y} and such that every irreducible component of #{X} dominates #{Y}, let #{R(X)} be the ring of rational functions on #{X} (given by the product of the local rings of the generic points of the irreducible components of #{X}), so that #{X\mapsto R(X)} is a functor, with values in algebras of finite rank over #{K=R(Y)}.
+    Then this functor establishes an equivalence between the category of connected étale covers of #{Y} and the category of extensions #{L} of #{K} that are unramified over #{Y}.
+  }
+
+  \proof{
+    \p{
+      The inverse functor is the normalisation functor.
+    }
+
+    \p{
+      Suppose that #{Y} is affine, and thus defined by a normal ring #{A} with field of fractions #{K}.
+      Let #{L} be a finite extension of #{K} given by a direct sum of fields.
+      Then, by definition, the normalisation #{Y'} of #{Y} in #{L} is isomorphic to #{\Spec(A')}, where #{A'} is the normalisation of #{A} in #{L}.
+      To say that #{L} is unramified over #{Y} implies that #{A'} is unramified (or even étale) over #{A}.
+      If #{A} is local, then it is equivalent to say that the local rings #{A'_\mathfrak{n}} (where #{\mathfrak{n}} runs over the finite set of maximal ideals of #{A'}, i.e. the prime ideals of #{A'} that induce the maximal ideal #{\mathfrak{m}} of #{A}) are unramified (i.e. étale) over the local ring #{A}.
+      Finally, note that the discriminant criterion of \ref{sga1-i.4.10} can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when #{X} dominates #{Y}, but with #{Y} still assumed to be locally integral: #{A\to B} and #{B\to B\otimes_A K} are injective — then #{\tr_{L/K}} is defined — and #{\tr_{L/K}(xy)} induces a \em{fundamental bilinear form} #{B\times B\to A}, i.e. there exists #{x_i\in B} (for #{1\leq i\leq n=\rank_K L}) such that #{\tr(x_ix_j)\in A} for all #{i,j}, and #{\det(\tr(x_i x_j))_{1\leq i,j\leq n}} is invertible in #{A}).
+    }
+  }
+}
+
+\p{
+  The syllogism \ref{sga1-i.4.6} immediately implies the syllogism of being unramified in the classical case:
+}
+
+\subtree[sga1-i.10.4]{
+  \taxon{proposition}
+  \number{I.10.4}
+
+  \p{
+    Let #{Y} be a normal integral prescheme, of field #{K}.
+    Then
+  }
+
+  \todo{the following list should be i, ii, etc}
+
+  \ol{
+    \li{
+      #{K} is unramified over #{Y}.
+    }
+
+    \li{
+      If #{L} is an extension of #{K} that is unramified over #{Y}, and if #{Y'} is a normal prescheme, of field #{L}, that dominates #{Y} (e.g. the normalisation of #{Y} in #{L}), and #{M} an extension of #{L} that is unramified over #{Y'}, then #{M/K} is unramified over #{X} (this is the \em{transitivity} property).
+    }
+
+    \li{
+      Let #{Y'} be a normal integral prescheme that dominates #{Y}, of field #{K'/K};
+      if #{L} is an extension of #{K} that is unramified over #{Y}, then #{L\otimes_K K'} is an extension of #{K'} that is unramified over #{Y'} (this is the \em{translation} property).
+    }
+  }
+}
+
+\p{
+  Furthermore:
+}
+
+\subtree[sga1-i.10.5]{
+  \taxon{corollary}
+  \number{I.10.5}
+
+  \p{
+    Under the conditions of (iii) in \ref{sga1-i.10.4}, if #{Y=\Spec(A)} and #{Y'=\Spec(A')}, then the normalisation #{\bar{A'}} of #{A'} in #{L'=L\otimes_K K'} can be identified with #{\bar{A}\otimes_A A'}, where #{\bar{A}} is the normalisation of #{A} in #{L}.
+  }
+}
+
+\p{
+  Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:
+}
+
+\subtree[sga1-i.10.6]{
+  \taxon{corollary}
+  \number{I.10.6}
+
+  \p{
+    Under the conditions of (iii) in \ref{sga1-i.10.4}, let #{L_1} be a \em{sum extension} of #{L/K} (unramified over #{Y}) and of #{K'/K}.
+    Then #{L_1/K'} is unramified over #{Y'}.
+    In the case where #{Y=\Spec(A)} and #{Y'=\Spec(A')}, we further have that
+    ##{
+      \bar{A'} = A[\bar{A},A']
+    }
+    i.e. the normalisation ring #{\bar{A'}} of #{A'} in #{L_1} is the #{A}-algebra generated by #{A'} and by the normalisation #{\bar{A}} of #{A} in #{L}.
+  }
+}
+
+\p{
+  This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
+}
+
+\p{
+  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point #{y\in Y} in question, and, in particular, there should not be "multiple points combined" over #{y}.
+  To prove results in this sense, in all desirable generality, we will assume here \ref{sga1-i.10.7} found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
+}
+
+\p{
+  A morphism of finite type #{f\colon X\to Y} is said to be \em{universally open} if, for every base extension #{Y'\to Y} (with #{Y'} locally Noetherian), the morphism #{f'\colon X'=X\times_Y Y'\to Y'} is open, i.e. sends open subsets to open subsets.
+  We can actually restrict to the case where #{Y'} is of finite type over #{y} (and even to the case where #{Y'} is of the form #{Y[t_1,\ldots,t_r]}, where the #{t_i} are indeterminates).
+  A universally open morphism is a fortiori open (but the converse is false);
+  on the other hand, if #{f} is open, and if #{X} and #{Y} are irreducible, then all of the components of all of the fibres of #{f} are of the same dimension (i.e. the dimension of the generic fibre #{f^{-1}(z)}, where #{z} is the generic point of #{Y}).
+  Finally, if #{Y} is normal, then this latter condition already implies that #{f} is \em{universally} open (Chevalley's theorem).
+  It thus follows, for example, that, if #{f\colon X\to Y} is a \em{quasi-finite} morphism, with #{Y} normal and irreducible, then #{f} is universally open (or even open) if and only if every irreducible component of #{X} dominates #{Y}.
+  Recall also that a flat morphism (of finite type) is open, and thus also universally open.
+  With these preliminaries, "recall" the following:
+}
+
+\subtree[sga1-i.10.7]{
+  \taxon{proposition}
+  \number{I.10.7}
+
+  \p{
+    Let #{f\colon X\to Y} be a quasi-finite, separated, universally open morphism.
+    For all #{y\in Y}, let #{n(y)} be the "geometric number of points in the fibre #{f^{-1}(y)}", equal to the sum of the separable degrees of the residue extensions #{k(x)/k(y)} as #{x} runs over the points of #{f^{-1}(y)}.
+    Then the function #{y\mapsto n(y)} on #{Y} is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point #{y} (i.e. for it to be the case that #{n(y)=n(z_i)}, where the #{z_i} are the generic points of the irreducible components of #{Y} that contain #{y}), it is necessary and sufficient for there to exist a neighbourhood #{U} of #{y} such that #{X|U} is \em{finite} over #{U}.
+    \footnote{cf. EGA IV 15.5.1.}
+  }
+}
+
+\subtree[sga1-i.10.8]{
+  \taxon{corollary}
+  \number{I.10.8}
+
+  \p{
+    If #{y\mapsto n(y)} is constant, and if #{Y} is geometrically unibranch\footnote{For the definition, cf. \ref{sga1-i.11}}, then the irreducible components of #{X} are disjoint.
+  }
+}
+
+\subtree[sga1-i.10.9]{
+  \taxon{proposition}
+  \number{I.10.9}
+
+  \p{
+    Let #{f\colon X\to Y} be a separated \em{étale} morphism.
+    With the notation of \ref{sga1-i.10.7}, the function #{n\mapsto n(y)} is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point #{y} (i.e. for it to be the case that #{n(y)=n(z_i)}, where the #{z_i} are the generic points of the irreducible components of #{Y} that contain #{y}), it is necessary and sufficient that there exist a neighbourhood #{U} of #{y} such that #{X|U} is \em{finite} over #{U}, i.e. such that #{X|U} is an \em{étale cover} of #{U}.
+  }
+}
+
+\subtree[sga1-i.10.10]{
+  \taxon{corollary}
+  \number{I.10.10}
+
+  \p{
+    For a separated étale morphism #{f\colon X\to Y} (with #{Y} connected) to be finite (i.e. for #{f} to make #{X} an \em{étale cover} of #{Y}), it is necessary and sufficient that all the fibres of #{f} have the same geometric number of points.
+  }
+}
+
+\p{
+  In \ref{sga1-i.10.7} and its corollary (\ref{sga1-i.10.8}), there was no normality hypothesis on #{Y};
+  if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):
+}
+
+\subtree[sga1-i.10.11]{
+  \taxon{theorem}
+  \number{I.10.11}
+
+  \p{
+    Let #{f\colon X\to Y} be a separated \em{quasi-finite} morphism.
+    Suppose that #{Y} is \em{irreducible}, that every component of #{X} dominates #{Y}, and that #{X} is reduced (i.e. that #{\sh{O}_X} has no nilpotent elements).
+    Let #{n} be the degree of #{X} over #{Y} (i.e. the sum of the degrees, over the field #{K} of #{Y}, of the fields #{K_i} of the irreducible components #{X_i} of #{X}).
+    Let #{y} be a normal point of #{Y}.
+    Then the geometric number #{n(y)} of points of #{X} over #{y} is #{\leq n}, with equality if and only if there exists an open neighbourhood #{U} of #{y} such that #{X|U} is an \em{étale cover} of #{U}.
+  }
+
+  \proof{
+    \p{
+      The "only if" is trivial;
+      we will prove the "if".
+      Let #{z} be the generic point of #{Y}.
+      Then #{n(z)}, which is equal to the sum of the separable degrees of the #{K_i/K}, is #{\leq n}, and, by \ref{sga1-i.10.7}, we have that #{n(y)\leq n(z)};
+      thus #{n(y)\leq n}, with equality implying that #{X|U} if \em{finite} over #{U}, for some suitable neighbourhood #{U} of #{y}.
+      We can thus suppose that #{X} is finite over #{Y}, and that the function #{n(y')} on #{Y} is constant.
+      Then, by \ref{sga1-i.10.8}, #{X} is the disjoint union of its irreducible components, and so, to prove that it is unramified at #{y}, we can restrict to the case where #{X} is irreducible, thus integral.
+      Finally, we can assume that #{Y=\Spec(\sh{O}_y)}.
+      The theorem thus reduces to the following classical statement:
+    }
+  }
+}
+
+\subtree[sga1-i.10.12]{
+  \taxon{corollary}
+  \number{I.10.12}
+
+  \p{
+    Let #{A} be a normal local ring (Noetherian, as always), of field #{K};
+    let #{L} be a finite extension of #{K} of degree #{n}, and of separable degree #{n_s};
+    let #{B} be a sub-ring of #{L} that is finite over #{A}, with field of fraction #{L};
+    let #{\mathfrak{m}} be the maximal ideal of #{A}, and #{n'} the separable degree of #{B/\mathfrak{m}B} over #{A/\mathfrak{m}A=k} (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+    Then #{n'\leq n_s}, and a fortiori #{n'\leq n}.
+    This latter inequality is an equality if and only if #{B} is unramified (i.e. étale) over #{A}.
+  }
+
+  \proof{
+    \p{
+      It remains only to show that, if #{n'=n}, then #{B} is étale over #{A}.
+      Recall the proof in the case where #{k} is infinite:
+      we need only show that #{R=B/\mathfrak{m}B} is separable over #{k};
+      if this were not the case, then it would follow (by a known lemma) that there exists an element #{a} of #{R} whose minimal polynomial over #{k} is of degree #{>n'}.
+      This element would come from an element #{x} of #{B}, whose minimal polynomial over #{K} (as an element of #{L}) is of degree #{\leq n};
+      but this minimal polynomial has coefficients in #{A}, since #{A} is normal, and thus gives, by restriction modulo #{\mathfrak{m}}, a monic polynomial #{F\in k[t]} of degree #{\leq n=n'}, such that #{F(a)=0}.
+      But this is a contradiction.
+    }
+
+    \p{
+      In the general case (where #{k} can be finite), we can again use geometric language:
+      we consider #{Y'=\Spec(A[t])}, which is faithfully flat over #{Y}, and the generic point #{y'} of the fibre #{\Spec(k[t])} of #{Y'} over #{y}.
+      Then #{X} is unramified over #{Y} at #{y} if and only if #{X'=X\times_Y Y'=\Spec(B[t])} is unramified over #{Y'} at #{y'}, as we immediately see.
+      On the other hand, by the choice of #{y'}, its residue field is #{k(t)}, and thus infinite.
+      Since #{y'} is a normal point of #{Y'}, we are now in the previous case.
+    }
+  }
+}
