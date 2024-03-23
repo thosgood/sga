@@ -283,3 +283,58 @@
 \p{
   (From an editorial point of view, we should perform the two proofs above, and place the formal calculations of the lemma and of its corollaries in a separate section).
 }
+
+\subtree[sga1-i.9.10]{
+  \taxon{corollary}
+  \number{I.9.10}
+
+  \p{
+    Let #{f\colon X\to Y} be an étale morphism.
+    If #{Y} is normal, then #{X} is normal;
+    the converse is true if #{f} is surjective.
+  }
+}
+
+\subtree[sga1-i.9.11]{
+  \taxon{corollary}
+  \number{I.9.11}
+
+  \p{
+    Let #{f\colon X\to Y} be a dominant morphism, with #{Y} normal and #{X} connected.
+    If #{f} is unramified, then it is also étale, and #{X} is then normal and thus irreducible (since it is connected).
+  }
+
+  \proof{
+    \p{
+      Let #{U} be the set of points where #{f} is étale.
+      Since #{U} is open, it suffices to show that it is also closed and non-empty.
+      Since #{U} contains the inverse image of the generic point of #{Y} (recall that, for an algebra over a field, unramified = étale), it is non-empty (since #{X} dominates #{Y}).
+      If #{x} belongs to the closure of #{U}, then it belongs to the closure of an irreducible component #{U_i} of #{U}, and thus to an irreducible component #{X_i=\overline{U_i}} of #{X} which intersects #{U} and which thus dominates #{Y} (since every component of #{U}, being flat over #{Y}, dominates #{Y}).
+      Then, if #{y} is the projection of #{x} over #{Y}, #{\sh{O}_y\to\sh{O}_x} is \em{injective} (taking into account the fact that #{\sh{O}_y} is integral).
+      Since #{\sh{O}_y} is normal and #{\sh{O}_y\to\sh{O}_x} is unramified, we conclude with the help of (ii) from \ref{sga1-i.9.5}.
+    }
+  }
+}
+
+\subtree[sga1-i.9.12]{
+  \taxon{corollary}
+  \number{I.9.12}
+
+  \p{
+    Let #{f\colon X\to Y} be a dominant morphism of finite type, with #{Y} normal and #{X} irreducible.
+    Then the set of points where #{f} is étale is identical to the complement of the support of #{\Omega_{X/Y}^1}, i.e. to the complement of the sub-prescheme of #{X} defined by the different ideal #{\mathfrak{d}_{X/Y}}.
+  }
+}
+
+\p{
+  (\ref{sga1-i.9.12} is the "less trivial" statement which was alluded to in the remark in \ref{sga1-i.4}.)
+}
+
+\subtree{
+  \taxon{remark}
+
+  \p{
+    We do not claim that a connected étale cover of an irreducible scheme is itself irreducible if we do not assume the base to be normal;
+    this question will be studied in \ref{sga1-i.11}.
+  }
+}

@@ -1,0 +1,7 @@
+\title{Étale covers of a normal scheme}
+\taxon{section}
+\number{I.10}
+\parent{sga1-i}
+
+\import{sga1-macros}
+\put\transclude/numbered{false}
