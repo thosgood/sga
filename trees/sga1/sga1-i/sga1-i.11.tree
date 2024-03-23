@@ -55,7 +55,7 @@
   It seems that, if #{Y} admits a point which is not unibranch, then there always exists a non-irreducible connected étale cover of #{Y};
   at least, this is what we have shown in case (b), when #{Y} is the spectrum of a complete local ring.
   We can show, however, that \em{if all the points of #{Y} are geometrically unibranch, then every unramified connected #{Y}-prescheme that dominates #{Y} is étale and irreducible}.
-  The proof follows that of \ref{sga1-i.9.5}, using the following generalisation of \ref{sga1-i.8.3}, which will be proved later by means of the technique of descent:\footnote{cf. \fref{sga1-ix.4.10. For a more direct demonstration, cf. EGA IV 18.10.3, using a variant of \ref{sga1-i.9.5} for geometrically unibranch local rings.}
+  The proof follows that of \ref{sga1-i.9.5}, using the following generalisation of \ref{sga1-i.8.3}, which will be proved later by means of the technique of descent:\footnote{cf. \fref{sga1-ix.4.10}. For a more direct demonstration, cf. EGA IV 18.10.3, using a variant of \ref{sga1-i.9.5} for geometrically unibranch local rings.}
 }
 
 \p{
