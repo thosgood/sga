@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2607</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3171</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>K</tex> be a ring, <tex>F \in  K[t]</tex> a separable monic polynomial, <tex>L=K[t]/FK[t]</tex>, and <tex>u</tex> the class of <tex>t</tex> in <tex>L</tex> (so that <tex>F'(u)</tex> is an invertible element of <tex>L</tex>).
     Then
     <tex display="block">        \operatorname {tr} _{L/K} u^i/F'(u) =        \begin {cases}         0 &amp; \text {if }0 \leq  i&lt;n-1 \text {;}        \\ 1 &amp; \text {if }i=n-1        \end {cases}     </tex>
     where <tex>n= \deg  F</tex>.
-  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2608</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3172</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
   Let <tex>A \to  B</tex> be a morphism that is local and étale;
   we study here some cases where a certain property of <tex>A</tex> implies the same property for <tex>B</tex>, or vice versa.
   A certain number of such propositions are already consequences of the simple fact that <tex>B</tex> is <em>quasi-finite</em> and <em>flat</em> over <tex>A</tex>, and we content ourselves with &quot;recalling&quot; some of them.
@@ -17,13 +17,13 @@
   also, <em><tex>A</tex> has no embedded prime ideals if and only if <tex>B</tex> has none</em>.
 </p><p>
   We will thus content ourselves with more specific propositions concerning the case of étale morphisms.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2609</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3173</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be an étale local homomorphism.
     For <tex>A</tex> to be regular, it is necessary and sufficient that <tex>B</tex> be regular.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2610</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3174</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>k</tex> be the residue field of <tex>A</tex>, and <tex>L</tex> the residue field of <tex>B</tex>.
       Since <tex>B</tex> is flat over <tex>A</tex>, and since <tex>L=B \otimes _A k</tex> (i.e. <tex>\mathfrak {n}= \mathfrak {m}B</tex>, where <tex>\mathfrak {m}</tex> and <tex>\mathfrak {n}</tex> are the maximal ideals of <tex>A</tex> and <tex>B</tex> respectively), the <tex>\mathfrak {m}</tex>-adic filtration on <tex>B</tex> is identical to the <tex>\mathfrak {n}</tex>-adic filtration, and
@@ -33,23 +33,23 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2611</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3175</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is regular, then <tex>X</tex> is regular;
     the converse is true if <tex>f</tex> is surjective.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2612</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3176</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is reduced, then <tex>X</tex> is reduced;
     the converse is true if <tex>f</tex> is surjective.
   </p></mainmatter> </tree><p>
   This is equivalent to the following:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2613</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3177</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
     For <tex>A</tex> to be reduced, it is necessary and sufficient that <tex>B</tex> be reduced.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2614</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3178</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The necessity is trivial, since <tex>A \to  B</tex> is injective (since <tex>B</tex> is faithfully flat over <tex>A</tex>).
       For the sufficiency, let <tex>\mathfrak {p}_i</tex> be the minimal prime ideals of <tex>A</tex>.
@@ -61,18 +61,18 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2615</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.4</addr><route>sga1-i.9.4.xml</route>     <number>I.9.4</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3179</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.4</addr><route>sga1-i.9.4.xml</route>     <number>I.9.4</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>A</tex> analytically reduced (i.e. such that the completion <tex>\widehat {A}</tex> of <tex>A</tex> has no nilpotent elements).
     Then <tex>B</tex> is analytically reduced, and a fortiori reduced.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2616</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3180</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     Indeed, <tex>\widehat {B}</tex> is <em>finite</em> and étale over <tex>\widehat {A}</tex>;
     we can apply <ref addr="sga1-i.9.3" href="sga1-i.9.3.xml" taxon="Corollary" number="I.9.3"/>.
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2617</anchor> <taxon>Theorem</taxon> <addr>sga1-i.9.5</addr><route>sga1-i.9.5.xml</route>     <number>I.9.5</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3181</anchor> <taxon>Theorem</taxon> <addr>sga1-i.9.5</addr><route>sga1-i.9.5.xml</route>     <number>I.9.5</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be a local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
   </p><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
       If <tex>f</tex> is étale, then <tex>A</tex> is normal if and only if <tex>B</tex> is normal.
@@ -84,9 +84,9 @@
   the first using certain properties of quasi-finite flat morphisms (stated at the start of this section) and without using <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> (and thus the Main Theorem);
   the second proof does the opposite.
   For (ii), it seems like we do indeed need the Main Theorem, no matter what.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2618</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3182</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We use the following necessary and sufficient condition for a local Noetherian ring <tex>A</tex> of dimension <tex>\neq0</tex> to be normal.
-  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2619</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title>Serre's criterion</title>   </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
+  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3183</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title>Serre's criterion</title>   </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
         For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
       </li>
       <li>
@@ -99,7 +99,7 @@
     By the statements at the start of this section, the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {p}</tex> of <tex>A</tex> are exactly the intersections of <tex>A</tex> with the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {q}</tex> of <tex>B</tex>.
     Finally, if <tex>\mathfrak {p}</tex> and <tex>\mathfrak {q}</tex> correspond to one another, then <tex>B_ \mathfrak {q}</tex> is étale over <tex>A_ \mathfrak {p}</tex>, and thus of the same depth as <tex>A_ \mathfrak {p}</tex>, and is regular if and only if <tex>A_ \mathfrak {p}</tex> is (by <ref addr="sga1-i.9.1" href="sga1-i.9.1.xml" taxon="Proposition" number="I.9.1"/>).
     Applying <link href="sga1-i.9-serres-criterion.xml" type="local" addr="sga1-i.9-serres-criterion" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</link>, we see that <tex>A</tex> is normal if and only if <tex>B</tex> is.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2620</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-2</addr><route>sga1-i.9.5.i-proof-2.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › Second proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3184</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-2</addr><route>sga1-i.9.5.i-proof-2.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › Second proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Suppose that <tex>B</tex> is normal, with field of fractions <tex>L</tex>;
     let <tex>K</tex> be the field of fractions of <tex>A</tex> (and note that <tex>A</tex> is integral, since <tex>B</tex> is integral).
     We have already seen, in the proof of <ref addr="sga1-i.9.3" href="sga1-i.9.3.xml" taxon="Corollary" number="I.9.3"/>, that <tex>B \otimes _A K</tex> is a finite product of fields;
@@ -125,24 +125,24 @@
     I do not know if this remains true without this normality hypothesis).
   </p></mainmatter> </tree><p>
   Now recall the well-known lemma, taken from Serre's lectures last year:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2621</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3185</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>K</tex> be a ring, <tex>F \in  K[t]</tex> a separable monic polynomial, <tex>L=K[t]/FK[t]</tex>, and <tex>u</tex> the class of <tex>t</tex> in <tex>L</tex> (so that <tex>F'(u)</tex> is an invertible element of <tex>L</tex>).
     Then
     <tex display="block">        \operatorname {tr} _{L/K} u^i/F'(u) =        \begin {cases}         0 &amp; \text {if }0 \leq  i&lt;n-1 \text {;}        \\ 1 &amp; \text {if }i=n-1        \end {cases}     </tex>
     where <tex>n= \deg  F</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2622</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.7</addr><route>sga1-i.9.7.xml</route>     <number>I.9.7</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3186</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.7</addr><route>sga1-i.9.7.xml</route>     <number>I.9.7</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     The determinant of the matrix <tex>(u^j \cdot  u^i/F'(u))_{0 \leq  i,j \leq  n-1}</tex> is equal to <tex>(-1)^{n(n-1)/2}</tex>, and thus invertible in every sub-ring <tex>A</tex> of <tex>K</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2623</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.8</addr><route>sga1-i.9.8.xml</route>     <number>I.9.8</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3187</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.8</addr><route>sga1-i.9.8.xml</route>     <number>I.9.8</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>A</tex> be a sub-ring of <tex>K</tex>, <tex>V</tex> the <tex>A</tex>-module generated by the <tex>u^i</tex> (for <tex>0 \leq  i \leq  n-1</tex>), and <tex>V'</tex> the sub-<tex>A</tex>-module of <tex>L</tex> consisting of the <tex>x \in  L</tex> such that <tex>\operatorname {tr} _{L/K}(xy) \in  A</tex> for all <tex>y \in  V</tex> (i.e. for <tex>y</tex> of the form <tex>u^i</tex>, for <tex>0 \leq  i \leq  n-1</tex>).
     Then <tex>V'</tex> is the <tex>A</tex>-module given by the basis <tex>u^i/F'(u)</tex> (for <tex>0 \leq  i \leq  n-1</tex>).
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2624</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.9</addr><route>sga1-i.9.9.xml</route>     <number>I.9.9</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3188</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.9</addr><route>sga1-i.9.9.xml</route>     <number>I.9.9</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Suppose that <tex>K</tex> is the field of fractions of an integral normal ring <tex>A</tex>, with the coefficients of <tex>F</tex> lying in <tex>A</tex>.
     Then, with the notation of <ref addr="sga1-i.9.8" href="sga1-i.9.8.xml" taxon="Corollary" number="I.9.8"/>, <tex>V'</tex> contains the normal closure <tex>A'</tex> of <tex>A</tex> in <tex>L</tex>, which is thus contained in <tex>A[u]/F'(u)</tex>, and a fortiori in <tex>A[u][F'(u)^{-1}]</tex>.
   </p></mainmatter> </tree><p>
   We can apply <link href="sga1-i.9.9.xml" type="local" addr="sga1-i.9.9">the above corollary</link> to the situation that we have obtained in the proof: since <tex>F'(u)</tex> is invertible in <tex>B</tex>, and since <tex>B</tex> contains <tex>A[u]</tex>, <tex>B</tex> contains <tex>A'</tex>.
   By the Main Theorem (or by the fact that <tex>B=A[u]_ \mathfrak {n}</tex>), <tex>B</tex> is a localisation of <tex>A'</tex>.
   Since <tex>A'</tex> is normal, so too is <tex>B</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2625</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.ii-proof</addr><route>sga1-i.9.5.ii-proof.xml</route>     <number>I.9.5.ii</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3189</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.ii-proof</addr><route>sga1-i.9.5.ii-proof.xml</route>     <number>I.9.5.ii</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We proceed as in the above proof to show that we can choose <tex>F</tex> in <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> such that we again have
     <tex display="block">       L = B \otimes _A K = K[t]/FK[t]     </tex>
     The only obstacle a priori is that we can no longer prove that <tex>B \to  L</tex> is injective, since <tex>B</tex> is no longer assumed to be flat over <tex>A</tex>, and so we can only apply the same argument a priori to the image <tex>B_1</tex> of <tex>B</tex> under the aforementioned homomorphism.
@@ -150,36 +150,36 @@
     By <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>, the morphism <tex>B \to  B_1</tex> is étale, and thus an isomorphism, which finishes the proof.
   </p></mainmatter> </tree><p>
   (From an editorial point of view, we should perform the two proofs above, and place the formal calculations of the lemma and of its corollaries in a separate section).
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2626</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.10</addr><route>sga1-i.9.10.xml</route>     <number>I.9.10</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3190</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.10</addr><route>sga1-i.9.10.xml</route>     <number>I.9.10</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is normal, then <tex>X</tex> is normal;
     the converse is true if <tex>f</tex> is surjective.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2627</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.11</addr><route>sga1-i.9.11.xml</route>     <number>I.9.11</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3191</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.11</addr><route>sga1-i.9.11.xml</route>     <number>I.9.11</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a dominant morphism, with <tex>Y</tex> normal and <tex>X</tex> connected.
     If <tex>f</tex> is unramified, then it is also étale, and <tex>X</tex> is then normal and thus irreducible (since it is connected).
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2628</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3192</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>U</tex> be the set of points where <tex>f</tex> is étale.
       Since <tex>U</tex> is open, it suffices to show that it is also closed and non-empty.
       Since <tex>U</tex> contains the inverse image of the generic point of <tex>Y</tex> (recall that, for an algebra over a field, unramified = étale), it is non-empty (since <tex>X</tex> dominates <tex>Y</tex>).
-      If <tex>x</tex> belongs to the closure of <tex>U</tex>, then it belongs to the closure of an irreducible component <tex>U_i</tex> of <tex>U</tex>, and thus to an irreducible component <tex>X_i= \overline {U_i}</tex> of <tex>X</tex> which intersects <tex>U</tex> and which thus dominates <tex>Y</tex> (since every component of <tex>U</tex>, being flat over <tex>Y</tex>, dominates <tex>Y</tex>).
+      If <tex>x</tex> belongs to the closure of <tex>U</tex>, then it belongs to the closure of an irreducible component <tex>U_i</tex> of <tex>U</tex>, and thus to an irreducible component <tex>X_i= \bar {U_i}</tex> of <tex>X</tex> which intersects <tex>U</tex> and which thus dominates <tex>Y</tex> (since every component of <tex>U</tex>, being flat over <tex>Y</tex>, dominates <tex>Y</tex>).
       Then, if <tex>y</tex> is the projection of <tex>x</tex> over <tex>Y</tex>, <tex>\mathcal { O } _y \to \mathcal { O } _x</tex> is <em>injective</em> (taking into account the fact that <tex>\mathcal { O } _y</tex> is integral).
       Since <tex>\mathcal { O } _y</tex> is normal and <tex>\mathcal { O } _y \to \mathcal { O } _x</tex> is unramified, we conclude with the help of (ii) from <ref addr="sga1-i.9.5" href="sga1-i.9.5.xml" taxon="Theorem" number="I.9.5"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2629</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.12</addr><route>sga1-i.9.12.xml</route>     <number>I.9.12</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3193</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.12</addr><route>sga1-i.9.12.xml</route>     <number>I.9.12</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a dominant morphism of finite type, with <tex>Y</tex> normal and <tex>X</tex> irreducible.
     Then the set of points where <tex>f</tex> is étale is identical to the complement of the support of <tex>\Omega _{X/Y}^1</tex>, i.e. to the complement of the sub-prescheme of <tex>X</tex> defined by the different ideal <tex>\mathfrak {d}_{X/Y}</tex>.
   </p></mainmatter> </tree><p>
   (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/> is the &quot;less trivial&quot; statement which was alluded to in the remark in <ref addr="sga1-i.4" href="sga1-i.4.xml" taxon="Section" number="I.4"/>.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2630</anchor> <taxon>Remark</taxon>       <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3194</anchor> <taxon>Remark</taxon>       <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We do not claim that a connected étale cover of an irreducible scheme is itself irreducible if we do not assume the base to be normal;
     this question will be studied in <ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11"/>.
-  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>2631</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3195</anchor> <taxon>Section</taxon> <addr>sga1-i.9</addr><route>sga1-i.9.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</title> <number>I.9</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><p>
   Let <tex>A \to  B</tex> be a morphism that is local and étale;
   we study here some cases where a certain property of <tex>A</tex> implies the same property for <tex>B</tex>, or vice versa.
   A certain number of such propositions are already consequences of the simple fact that <tex>B</tex> is <em>quasi-finite</em> and <em>flat</em> over <tex>A</tex>, and we content ourselves with &quot;recalling&quot; some of them.
@@ -191,13 +191,13 @@
   also, <em><tex>A</tex> has no embedded prime ideals if and only if <tex>B</tex> has none</em>.
 </p><p>
   We will thus content ourselves with more specific propositions concerning the case of étale morphisms.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2632</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3196</anchor> <taxon>Proposition</taxon> <addr>sga1-i.9.1</addr><route>sga1-i.9.1.xml</route>     <number>I.9.1</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>A \to  B</tex> be an étale local homomorphism.
     For <tex>A</tex> to be regular, it is necessary and sufficient that <tex>B</tex> be regular.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2633</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3197</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>k</tex> be the residue field of <tex>A</tex>, and <tex>L</tex> the residue field of <tex>B</tex>.
       Since <tex>B</tex> is flat over <tex>A</tex>, and since <tex>L=B \otimes _A k</tex> (i.e. <tex>\mathfrak {n}= \mathfrak {m}B</tex>, where <tex>\mathfrak {m}</tex> and <tex>\mathfrak {n}</tex> are the maximal ideals of <tex>A</tex> and <tex>B</tex> respectively), the <tex>\mathfrak {m}</tex>-adic filtration on <tex>B</tex> is identical to the <tex>\mathfrak {n}</tex>-adic filtration, and
@@ -207,23 +207,23 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2634</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3198</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.2</addr><route>sga1-i.9.2.xml</route>     <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is regular, then <tex>X</tex> is regular;
     the converse is true if <tex>f</tex> is surjective.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2635</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3199</anchor> <taxon>Proposition</taxon>      <number>I.9.2</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is reduced, then <tex>X</tex> is reduced;
     the converse is true if <tex>f</tex> is surjective.
   </p></mainmatter> </tree><p>
   This is equivalent to the following:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2636</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3200</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.3</addr><route>sga1-i.9.3.xml</route>     <number>I.9.3</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
     For <tex>A</tex> to be reduced, it is necessary and sufficient that <tex>B</tex> be reduced.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2637</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3201</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The necessity is trivial, since <tex>A \to  B</tex> is injective (since <tex>B</tex> is faithfully flat over <tex>A</tex>).
       For the sufficiency, let <tex>\mathfrak {p}_i</tex> be the minimal prime ideals of <tex>A</tex>.
@@ -235,18 +235,18 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2638</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.4</addr><route>sga1-i.9.4.xml</route>     <number>I.9.4</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3202</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.4</addr><route>sga1-i.9.4.xml</route>     <number>I.9.4</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be an étale local homomorphism, with <tex>A</tex> analytically reduced (i.e. such that the completion <tex>\widehat {A}</tex> of <tex>A</tex> has no nilpotent elements).
     Then <tex>B</tex> is analytically reduced, and a fortiori reduced.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2639</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3203</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     Indeed, <tex>\widehat {B}</tex> is <em>finite</em> and étale over <tex>\widehat {A}</tex>;
     we can apply <ref addr="sga1-i.9.3" href="sga1-i.9.3.xml" taxon="Corollary" number="I.9.3"/>.
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2640</anchor> <taxon>Theorem</taxon> <addr>sga1-i.9.5</addr><route>sga1-i.9.5.xml</route>     <number>I.9.5</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3204</anchor> <taxon>Theorem</taxon> <addr>sga1-i.9.5</addr><route>sga1-i.9.5.xml</route>     <number>I.9.5</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  A \to  B</tex> be a local homomorphism, with <tex>B</tex> isomorphic to the localisation of an <tex>A</tex>-algebra of finite type over <tex>A</tex>.
   </p><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
       If <tex>f</tex> is étale, then <tex>A</tex> is normal if and only if <tex>B</tex> is normal.
@@ -258,9 +258,9 @@
   the first using certain properties of quasi-finite flat morphisms (stated at the start of this section) and without using <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> (and thus the Main Theorem);
   the second proof does the opposite.
   For (ii), it seems like we do indeed need the Main Theorem, no matter what.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2641</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3205</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We use the following necessary and sufficient condition for a local Noetherian ring <tex>A</tex> of dimension <tex>\neq0</tex> to be normal.
-  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2642</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title>Serre's criterion</title>   </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
+  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3206</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title>Serre's criterion</title>   </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
         For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
       </li>
       <li>
@@ -273,7 +273,7 @@
     By the statements at the start of this section, the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {p}</tex> of <tex>A</tex> are exactly the intersections of <tex>A</tex> with the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {q}</tex> of <tex>B</tex>.
     Finally, if <tex>\mathfrak {p}</tex> and <tex>\mathfrak {q}</tex> correspond to one another, then <tex>B_ \mathfrak {q}</tex> is étale over <tex>A_ \mathfrak {p}</tex>, and thus of the same depth as <tex>A_ \mathfrak {p}</tex>, and is regular if and only if <tex>A_ \mathfrak {p}</tex> is (by <ref addr="sga1-i.9.1" href="sga1-i.9.1.xml" taxon="Proposition" number="I.9.1"/>).
     Applying <link href="sga1-i.9-serres-criterion.xml" type="local" addr="sga1-i.9-serres-criterion" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</link>, we see that <tex>A</tex> is normal if and only if <tex>B</tex> is.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2643</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-2</addr><route>sga1-i.9.5.i-proof-2.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › Second proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3207</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-2</addr><route>sga1-i.9.5.i-proof-2.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › Second proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Suppose that <tex>B</tex> is normal, with field of fractions <tex>L</tex>;
     let <tex>K</tex> be the field of fractions of <tex>A</tex> (and note that <tex>A</tex> is integral, since <tex>B</tex> is integral).
     We have already seen, in the proof of <ref addr="sga1-i.9.3" href="sga1-i.9.3.xml" taxon="Corollary" number="I.9.3"/>, that <tex>B \otimes _A K</tex> is a finite product of fields;
@@ -299,24 +299,24 @@
     I do not know if this remains true without this normality hypothesis).
   </p></mainmatter> </tree><p>
   Now recall the well-known lemma, taken from Serre's lectures last year:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2644</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3208</anchor> <taxon>Lemma</taxon> <addr>sga1-i.9.6</addr><route>sga1-i.9.6.xml</route>     <number>I.9.6</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>K</tex> be a ring, <tex>F \in  K[t]</tex> a separable monic polynomial, <tex>L=K[t]/FK[t]</tex>, and <tex>u</tex> the class of <tex>t</tex> in <tex>L</tex> (so that <tex>F'(u)</tex> is an invertible element of <tex>L</tex>).
     Then
     <tex display="block">        \operatorname {tr} _{L/K} u^i/F'(u) =        \begin {cases}         0 &amp; \text {if }0 \leq  i&lt;n-1 \text {;}        \\ 1 &amp; \text {if }i=n-1        \end {cases}     </tex>
     where <tex>n= \deg  F</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2645</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.7</addr><route>sga1-i.9.7.xml</route>     <number>I.9.7</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3209</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.7</addr><route>sga1-i.9.7.xml</route>     <number>I.9.7</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     The determinant of the matrix <tex>(u^j \cdot  u^i/F'(u))_{0 \leq  i,j \leq  n-1}</tex> is equal to <tex>(-1)^{n(n-1)/2}</tex>, and thus invertible in every sub-ring <tex>A</tex> of <tex>K</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2646</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.8</addr><route>sga1-i.9.8.xml</route>     <number>I.9.8</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3210</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.8</addr><route>sga1-i.9.8.xml</route>     <number>I.9.8</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>A</tex> be a sub-ring of <tex>K</tex>, <tex>V</tex> the <tex>A</tex>-module generated by the <tex>u^i</tex> (for <tex>0 \leq  i \leq  n-1</tex>), and <tex>V'</tex> the sub-<tex>A</tex>-module of <tex>L</tex> consisting of the <tex>x \in  L</tex> such that <tex>\operatorname {tr} _{L/K}(xy) \in  A</tex> for all <tex>y \in  V</tex> (i.e. for <tex>y</tex> of the form <tex>u^i</tex>, for <tex>0 \leq  i \leq  n-1</tex>).
     Then <tex>V'</tex> is the <tex>A</tex>-module given by the basis <tex>u^i/F'(u)</tex> (for <tex>0 \leq  i \leq  n-1</tex>).
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2647</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.9</addr><route>sga1-i.9.9.xml</route>     <number>I.9.9</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3211</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.9</addr><route>sga1-i.9.9.xml</route>     <number>I.9.9</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Suppose that <tex>K</tex> is the field of fractions of an integral normal ring <tex>A</tex>, with the coefficients of <tex>F</tex> lying in <tex>A</tex>.
     Then, with the notation of <ref addr="sga1-i.9.8" href="sga1-i.9.8.xml" taxon="Corollary" number="I.9.8"/>, <tex>V'</tex> contains the normal closure <tex>A'</tex> of <tex>A</tex> in <tex>L</tex>, which is thus contained in <tex>A[u]/F'(u)</tex>, and a fortiori in <tex>A[u][F'(u)^{-1}]</tex>.
   </p></mainmatter> </tree><p>
   We can apply <link href="sga1-i.9.9.xml" type="local" addr="sga1-i.9.9">the above corollary</link> to the situation that we have obtained in the proof: since <tex>F'(u)</tex> is invertible in <tex>B</tex>, and since <tex>B</tex> contains <tex>A[u]</tex>, <tex>B</tex> contains <tex>A'</tex>.
   By the Main Theorem (or by the fact that <tex>B=A[u]_ \mathfrak {n}</tex>), <tex>B</tex> is a localisation of <tex>A'</tex>.
   Since <tex>A'</tex> is normal, so too is <tex>B</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2648</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.ii-proof</addr><route>sga1-i.9.5.ii-proof.xml</route>     <number>I.9.5.ii</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3212</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.ii-proof</addr><route>sga1-i.9.5.ii-proof.xml</route>     <number>I.9.5.ii</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We proceed as in the above proof to show that we can choose <tex>F</tex> in <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> such that we again have
     <tex display="block">       L = B \otimes _A K = K[t]/FK[t]     </tex>
     The only obstacle a priori is that we can no longer prove that <tex>B \to  L</tex> is injective, since <tex>B</tex> is no longer assumed to be flat over <tex>A</tex>, and so we can only apply the same argument a priori to the image <tex>B_1</tex> of <tex>B</tex> under the aforementioned homomorphism.
@@ -324,33 +324,33 @@
     By <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>, the morphism <tex>B \to  B_1</tex> is étale, and thus an isomorphism, which finishes the proof.
   </p></mainmatter> </tree><p>
   (From an editorial point of view, we should perform the two proofs above, and place the formal calculations of the lemma and of its corollaries in a separate section).
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2649</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.10</addr><route>sga1-i.9.10.xml</route>     <number>I.9.10</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3213</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.10</addr><route>sga1-i.9.10.xml</route>     <number>I.9.10</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be an étale morphism.
     If <tex>Y</tex> is normal, then <tex>X</tex> is normal;
     the converse is true if <tex>f</tex> is surjective.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2650</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.11</addr><route>sga1-i.9.11.xml</route>     <number>I.9.11</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3214</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.11</addr><route>sga1-i.9.11.xml</route>     <number>I.9.11</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a dominant morphism, with <tex>Y</tex> normal and <tex>X</tex> connected.
     If <tex>f</tex> is unramified, then it is also étale, and <tex>X</tex> is then normal and thus irreducible (since it is connected).
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>2651</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>3215</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Let <tex>U</tex> be the set of points where <tex>f</tex> is étale.
       Since <tex>U</tex> is open, it suffices to show that it is also closed and non-empty.
       Since <tex>U</tex> contains the inverse image of the generic point of <tex>Y</tex> (recall that, for an algebra over a field, unramified = étale), it is non-empty (since <tex>X</tex> dominates <tex>Y</tex>).
-      If <tex>x</tex> belongs to the closure of <tex>U</tex>, then it belongs to the closure of an irreducible component <tex>U_i</tex> of <tex>U</tex>, and thus to an irreducible component <tex>X_i= \overline {U_i}</tex> of <tex>X</tex> which intersects <tex>U</tex> and which thus dominates <tex>Y</tex> (since every component of <tex>U</tex>, being flat over <tex>Y</tex>, dominates <tex>Y</tex>).
+      If <tex>x</tex> belongs to the closure of <tex>U</tex>, then it belongs to the closure of an irreducible component <tex>U_i</tex> of <tex>U</tex>, and thus to an irreducible component <tex>X_i= \bar {U_i}</tex> of <tex>X</tex> which intersects <tex>U</tex> and which thus dominates <tex>Y</tex> (since every component of <tex>U</tex>, being flat over <tex>Y</tex>, dominates <tex>Y</tex>).
       Then, if <tex>y</tex> is the projection of <tex>x</tex> over <tex>Y</tex>, <tex>\mathcal { O } _y \to \mathcal { O } _x</tex> is <em>injective</em> (taking into account the fact that <tex>\mathcal { O } _y</tex> is integral).
       Since <tex>\mathcal { O } _y</tex> is normal and <tex>\mathcal { O } _y \to \mathcal { O } _x</tex> is unramified, we conclude with the help of (ii) from <ref addr="sga1-i.9.5" href="sga1-i.9.5.xml" taxon="Theorem" number="I.9.5"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2652</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.12</addr><route>sga1-i.9.12.xml</route>     <number>I.9.12</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3216</anchor> <taxon>Corollary</taxon> <addr>sga1-i.9.12</addr><route>sga1-i.9.12.xml</route>     <number>I.9.12</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a dominant morphism of finite type, with <tex>Y</tex> normal and <tex>X</tex> irreducible.
     Then the set of points where <tex>f</tex> is étale is identical to the complement of the support of <tex>\Omega _{X/Y}^1</tex>, i.e. to the complement of the sub-prescheme of <tex>X</tex> defined by the different ideal <tex>\mathfrak {d}_{X/Y}</tex>.
   </p></mainmatter> </tree><p>
   (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/> is the &quot;less trivial&quot; statement which was alluded to in the remark in <ref addr="sga1-i.4" href="sga1-i.4.xml" taxon="Section" number="I.4"/>.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>2653</anchor> <taxon>Remark</taxon>       <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3217</anchor> <taxon>Remark</taxon>       <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
     We do not claim that a connected étale cover of an irreducible scheme is itself irreducible if we do not assume the base to be normal;
     this question will be studied in <ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11"/>.
   </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>

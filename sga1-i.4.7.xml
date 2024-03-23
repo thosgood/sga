@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>611</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1136</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     The cartesian product of two étale morphisms is étale.
-  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>612</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
+  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1137</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
   We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
-  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>613</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
+  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1138</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
       Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
       We say that <tex>f</tex> is <em>étale</em> at <tex>x</tex> if <tex>f</tex> is both flat and unramified at <tex>x</tex>.
       We say that <tex>f</tex> is étale if it is étale at all points.
@@ -14,32 +14,32 @@
     <li>
       Let <tex>f \colon  A \to  B</tex> be a local homomorphism.
       We say that <tex>f</tex> is étale, or that <tex>B</tex> is étale over <tex>A</tex>, if <tex>B</tex> is flat and unramified over <tex>A</tex>
-      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>614</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1139</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     For <tex>B/A</tex> to be étale, it is necessary and sufficient that <tex>\widehat {B}/ \widehat {A}</tex> be étale.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>615</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1140</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       This is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>616</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1141</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be of finite type, and <tex>x \in  X</tex>.
     The property of <tex>f</tex> being étale at <tex>x</tex> depends only on the local homomorphism <tex>\mathcal { O } _{f(x)} \to \mathcal { O } _x</tex>, and in fact only on the corresponding homomorphism for the completions.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>617</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1142</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Suppose that the residue extension <tex>k(A) \to  k(B)</tex> is trivial, or that <tex>k(A)</tex> is algebraically closed.
     Then <tex>B/A</tex> is étale if and only if <tex>\widehat {A} \to \widehat {B}</tex> is an isomorphism.
   </p></mainmatter> </tree><p>
   We can combine flatness with <ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7"/>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>618</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1143</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     Then the set of points where <tex>f</tex> is étale is open.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>619</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1144</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Again, this is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
     </p>
@@ -47,7 +47,7 @@
   
 </mainmatter> </tree><p>
   This proposition shows that we can forget about the &quot;one-off&quot; comments in the study of morphisms of finite type that are somewhere étale.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>620</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1145</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
       An open immersion is étale.
     </li>
     <li>
@@ -58,7 +58,7 @@
     </li></ol>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>621</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1146</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for &quot;unramified&quot; and &quot;flat&quot;.
     </p>
@@ -66,26 +66,26 @@
   
 </mainmatter> </tree><p>
   As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>622</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1147</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     The cartesian product of two étale morphisms is étale.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>623</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1148</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
     If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>624</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1149</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>625</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1150</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     We say that a cover of <tex>Y</tex> is étale (resp. unramified) if it is a <tex>Y</tex>-scheme <tex>X</tex> that is finite over <tex>Y</tex> and étale (resp. unramified) over <tex>Y</tex>.
   </p></mainmatter> </tree><p>
   The first condition means that <tex>X</tex> is defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex> over <tex>Y</tex>.
   The second means that <tex>\mathcal { B }</tex> is locally free over <tex>Y</tex> (resp. means absolutely nothing) <em>and</em>, further, that, for all <tex>y \in  Y</tex>, the fibre <tex>\mathcal { B } (y)= \mathcal { B } _y \otimes _{ \mathcal { O } _y}k(y)</tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <tex>k(y)</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>626</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1151</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be a flat cover of <tex>Y</tex> of degree <tex>n</tex> (the definition of this term deserved to figure in <ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9"/>) defined by a locally free coherent sheaf <tex>\mathcal { B }</tex> of algebras.
     We define, as usual, the trace homomorphism <tex>\mathcal { B } \to \mathcal { A }</tex> (that is, a homomorphism of <tex>\mathcal { A }</tex>-modules, where <tex>\mathcal { A } = \mathcal { O } _Y</tex>).
     For <tex>X</tex> to be étale it is necessary and sufficient that the corresponding bilinear form <tex>\operatorname {tr} _{ \mathcal { B } / \mathcal { A } }xy</tex> define an isomorphism of <tex>\mathcal { B }</tex> over <tex>\mathcal { B }</tex>, or, equivalently, that the <em>discriminant section</em>
@@ -94,18 +94,18 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>627</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1152</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <tex>k</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>628</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1153</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     We will have a less trivial statement to make later on (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/>), when we do not suppose a priori that <tex>X</tex> is flat over <tex>Y</tex>, but instead require some normality hypothesis.
-  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>629</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
+  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1154</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
   We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
-  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>630</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
+  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1155</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
       Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
       We say that <tex>f</tex> is <em>étale</em> at <tex>x</tex> if <tex>f</tex> is both flat and unramified at <tex>x</tex>.
       We say that <tex>f</tex> is étale if it is étale at all points.
@@ -114,32 +114,32 @@
     <li>
       Let <tex>f \colon  A \to  B</tex> be a local homomorphism.
       We say that <tex>f</tex> is étale, or that <tex>B</tex> is étale over <tex>A</tex>, if <tex>B</tex> is flat and unramified over <tex>A</tex>
-      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>631</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1156</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     For <tex>B/A</tex> to be étale, it is necessary and sufficient that <tex>\widehat {B}/ \widehat {A}</tex> be étale.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>632</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1157</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       This is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>633</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1158</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be of finite type, and <tex>x \in  X</tex>.
     The property of <tex>f</tex> being étale at <tex>x</tex> depends only on the local homomorphism <tex>\mathcal { O } _{f(x)} \to \mathcal { O } _x</tex>, and in fact only on the corresponding homomorphism for the completions.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>634</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1159</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Suppose that the residue extension <tex>k(A) \to  k(B)</tex> is trivial, or that <tex>k(A)</tex> is algebraically closed.
     Then <tex>B/A</tex> is étale if and only if <tex>\widehat {A} \to \widehat {B}</tex> is an isomorphism.
   </p></mainmatter> </tree><p>
   We can combine flatness with <ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7"/>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>635</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1160</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     Then the set of points where <tex>f</tex> is étale is open.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>636</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1161</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Again, this is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
     </p>
@@ -147,7 +147,7 @@
   
 </mainmatter> </tree><p>
   This proposition shows that we can forget about the &quot;one-off&quot; comments in the study of morphisms of finite type that are somewhere étale.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>637</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1162</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
       An open immersion is étale.
     </li>
     <li>
@@ -158,7 +158,7 @@
     </li></ol>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>638</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1163</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for &quot;unramified&quot; and &quot;flat&quot;.
     </p>
@@ -166,26 +166,26 @@
   
 </mainmatter> </tree><p>
   As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>639</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1164</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     The cartesian product of two étale morphisms is étale.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>640</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1165</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
     If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>641</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1166</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>642</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1167</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     We say that a cover of <tex>Y</tex> is étale (resp. unramified) if it is a <tex>Y</tex>-scheme <tex>X</tex> that is finite over <tex>Y</tex> and étale (resp. unramified) over <tex>Y</tex>.
   </p></mainmatter> </tree><p>
   The first condition means that <tex>X</tex> is defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex> over <tex>Y</tex>.
   The second means that <tex>\mathcal { B }</tex> is locally free over <tex>Y</tex> (resp. means absolutely nothing) <em>and</em>, further, that, for all <tex>y \in  Y</tex>, the fibre <tex>\mathcal { B } (y)= \mathcal { B } _y \otimes _{ \mathcal { O } _y}k(y)</tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <tex>k(y)</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>643</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1168</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be a flat cover of <tex>Y</tex> of degree <tex>n</tex> (the definition of this term deserved to figure in <ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9"/>) defined by a locally free coherent sheaf <tex>\mathcal { B }</tex> of algebras.
     We define, as usual, the trace homomorphism <tex>\mathcal { B } \to \mathcal { A }</tex> (that is, a homomorphism of <tex>\mathcal { A }</tex>-modules, where <tex>\mathcal { A } = \mathcal { O } _Y</tex>).
     For <tex>X</tex> to be étale it is necessary and sufficient that the corresponding bilinear form <tex>\operatorname {tr} _{ \mathcal { B } / \mathcal { A } }xy</tex> define an isomorphism of <tex>\mathcal { B }</tex> over <tex>\mathcal { B }</tex>, or, equivalently, that the <em>discriminant section</em>
@@ -194,12 +194,12 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>644</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1169</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <tex>k</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>645</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1170</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     We will have a less trivial statement to make later on (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/>), when we do not suppose a priori that <tex>X</tex> is flat over <tex>Y</tex>, but instead require some normality hypothesis.
   </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>

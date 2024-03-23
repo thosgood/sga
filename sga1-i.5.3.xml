@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>854</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1379</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be an unramified <tex>Y</tex>-scheme, with <tex>Y</tex> connected.
     Then every section of <tex>X</tex> over <tex>Y</tex> is an isomorphism from <tex>Y</tex> to a connected component of <tex>X</tex>.
     There is thus a bijective correspondence between the set of such sections and the set of connected components <tex>X_i</tex> of <tex>X</tex> such that the projection <tex>X_i \to  Y</tex> is an isomorphism (or, equivalently, by <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>, surjective and radicial).
@@ -8,20 +8,20 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>855</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1380</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Only the first claim demands a proof;
       by <ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2"/>, it suffices to note that a section is a closed immersion (since <tex>X</tex> is separated over <tex>Y</tex>) and also étale, by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>856</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>857</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1381</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1382</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     For <tex>f</tex> to be an open immersion, it is necessary and sufficient that it be <em>étale</em> and <em>radicial</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>858</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1383</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
@@ -51,13 +51,13 @@
       </li></ol>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>859</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1384</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
     If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>860</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1385</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>f</tex> is also an open immersion.
     </p>
@@ -65,7 +65,7 @@
   
 </mainmatter> </tree><p>
   We thus deduce:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>861</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1386</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be an unramified <tex>Y</tex>-scheme, with <tex>Y</tex> connected.
     Then every section of <tex>X</tex> over <tex>Y</tex> is an isomorphism from <tex>Y</tex> to a connected component of <tex>X</tex>.
     There is thus a bijective correspondence between the set of such sections and the set of connected components <tex>X_i</tex> of <tex>X</tex> such that the projection <tex>X_i \to  Y</tex> is an isomorphism (or, equivalently, by <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>, surjective and radicial).
@@ -73,21 +73,21 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>862</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1387</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Only the first claim demands a proof;
       by <ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2"/>, it suffices to note that a section is a closed immersion (since <tex>X</tex> is separated over <tex>Y</tex>) and also étale, by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>863</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1388</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>Y</tex> be preschemes over <tex>S</tex>, with <tex>X</tex> unramified and separated over <tex>S</tex>, and <tex>Y</tex> connected.
     Let <tex>f</tex> and <tex>g</tex> be <tex>S</tex>-morphisms from <tex>Y</tex> to <tex>X</tex>, and suppose that <tex>y</tex> is a point of <tex>Y</tex> such that <tex>f(y)=g(y)=x</tex>, and such that the residue homomorphisms <tex>k(x) \to  k(y)</tex> defined by <tex>f</tex> and <tex>g</tex> are identical (&quot;<tex>f</tex> and <tex>g</tex> agree geometrically at <tex>y</tex>&quot;).
     Then <tex>f</tex> and <tex>g</tex> are identical.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>864</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1389</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       This follows from <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/> by reducing to the case where <tex>Y=S</tex>, and by replacing <tex>X</tex> with <tex>X \times _S Y</tex>.
     </p>
@@ -95,7 +95,7 @@
   
 </mainmatter> </tree><p>
   Here is a particularly important variant of <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>865</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1390</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -105,13 +105,13 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>866</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1391</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can again reduce to the case where <tex>Y=S</tex>, and then this follows from the &quot;topological&quot; description of sections of <tex>X/Y</tex> given in <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>867</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1392</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -120,7 +120,7 @@
     is <em>bijective</em>.
   </p></mainmatter> </tree><p>
   The following form of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> (which looks more general) is often useful:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>868</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1393</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Consider a commutative diagram of morphisms
     <tex display="block">        \begin {CD}         X @&lt;&lt;&lt; Y_0        \\ @VVV @VVV        \\ S @&lt;&lt;&lt; Y        \end {CD}     </tex>
     where <tex>X \to  S</tex> is étale, and <tex>Y_0 \to  Y</tex> is a bijective closed immersion.
@@ -128,7 +128,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>869</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1394</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       By replacing <tex>S</tex> with <tex>Y</tex>, and <tex>X</tex> with <tex>X \times _S Y</tex>, we can reduce to the case where <tex>Y=S</tex>, and this is then a particular case of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> for <tex>Y=S</tex>.
     </p>
@@ -136,7 +136,7 @@
   
 </mainmatter> </tree><p>
   We also note the following immediate consequence of <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/> (which we did not give as a corollary, in order to not interrupt the line of ideas developed following <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>870</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1395</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be preschemes that are of finite type and flat over <tex>Y</tex>, and let <tex>g \colon  X \to  X'</tex> be a <tex>Y</tex>-morphism.
     For <tex>g</tex> to be an open immersion (resp. an isomorphism), it is necessary and sufficient that the induced morphism on the fibres
     <tex display="block">       g \otimes _Y k(y) \colon        X \otimes _Y k(y)  \to  X' \otimes _Y k(y)     </tex>
@@ -144,7 +144,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>871</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1396</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       It suffices to prove sufficiency;
       since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
@@ -152,25 +152,25 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>872</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1397</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be <tex>Y</tex>-preschemes, <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism, <tex>x</tex> a point of <tex>X</tex>, and <tex>y</tex> the projection of <tex>x</tex> in <tex>Y</tex>.
     For <tex>g</tex> to be quasi-finite (resp. unramified) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>873</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1398</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The two algebras over <tex>k(g(x))</tex> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <tex>x</tex> are the same for <tex>g</tex> and <tex>g \otimes _Y k(y)</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>874</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1399</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     With the notation of <ref addr="sga1-i.5.8" href="sga1-i.5.8.xml" taxon="Corollary" number="I.5.8"/>, suppose that <tex>X</tex> and <tex>X'</tex> are flat and of finite type over <tex>Y</tex>.
     For <tex>g</tex> to be flat (resp. étale) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>875</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1400</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       For &quot;flat&quot;, the statement only serves as a reminder, since this is one of the fundamental criteria of flatness.
       (cf. [sga1-iv.5.9 <strong>(?)</strong>].)
@@ -178,25 +178,25 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>876</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1401</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
     If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>877</anchor> <taxon>Proof</taxon>       <parent>sga1-i.4.8</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1402</anchor> <taxon>Proof</taxon>       <parent>sga1-i.4.8</parent> </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>878</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1403</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     For <tex>f</tex> to be an open immersion, it is necessary and sufficient that it be <em>étale</em> and <em>radicial</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>879</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.1</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1404</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.1</parent> </frontmatter> <mainmatter>
     <p>
       Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
@@ -226,25 +226,25 @@
       </li></ol>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>880</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1405</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
     If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>881</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.2</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1406</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.2</parent> </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>f</tex> is also an open immersion.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>882</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>883</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1407</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1408</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     For <tex>f</tex> to be an open immersion, it is necessary and sufficient that it be <em>étale</em> and <em>radicial</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>884</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1409</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
@@ -274,13 +274,13 @@
       </li></ol>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>885</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1410</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
     If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>886</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1411</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>f</tex> is also an open immersion.
     </p>
@@ -288,7 +288,7 @@
   
 </mainmatter> </tree><p>
   We thus deduce:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>887</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1412</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be an unramified <tex>Y</tex>-scheme, with <tex>Y</tex> connected.
     Then every section of <tex>X</tex> over <tex>Y</tex> is an isomorphism from <tex>Y</tex> to a connected component of <tex>X</tex>.
     There is thus a bijective correspondence between the set of such sections and the set of connected components <tex>X_i</tex> of <tex>X</tex> such that the projection <tex>X_i \to  Y</tex> is an isomorphism (or, equivalently, by <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>, surjective and radicial).
@@ -296,21 +296,21 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>888</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1413</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Only the first claim demands a proof;
       by <ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2"/>, it suffices to note that a section is a closed immersion (since <tex>X</tex> is separated over <tex>Y</tex>) and also étale, by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>889</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1414</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>Y</tex> be preschemes over <tex>S</tex>, with <tex>X</tex> unramified and separated over <tex>S</tex>, and <tex>Y</tex> connected.
     Let <tex>f</tex> and <tex>g</tex> be <tex>S</tex>-morphisms from <tex>Y</tex> to <tex>X</tex>, and suppose that <tex>y</tex> is a point of <tex>Y</tex> such that <tex>f(y)=g(y)=x</tex>, and such that the residue homomorphisms <tex>k(x) \to  k(y)</tex> defined by <tex>f</tex> and <tex>g</tex> are identical (&quot;<tex>f</tex> and <tex>g</tex> agree geometrically at <tex>y</tex>&quot;).
     Then <tex>f</tex> and <tex>g</tex> are identical.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>890</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1415</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       This follows from <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/> by reducing to the case where <tex>Y=S</tex>, and by replacing <tex>X</tex> with <tex>X \times _S Y</tex>.
     </p>
@@ -318,7 +318,7 @@
   
 </mainmatter> </tree><p>
   Here is a particularly important variant of <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>891</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1416</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -328,13 +328,13 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>892</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1417</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can again reduce to the case where <tex>Y=S</tex>, and then this follows from the &quot;topological&quot; description of sections of <tex>X/Y</tex> given in <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>893</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1418</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -343,7 +343,7 @@
     is <em>bijective</em>.
   </p></mainmatter> </tree><p>
   The following form of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> (which looks more general) is often useful:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>894</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1419</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Consider a commutative diagram of morphisms
     <tex display="block">        \begin {CD}         X @&lt;&lt;&lt; Y_0        \\ @VVV @VVV        \\ S @&lt;&lt;&lt; Y        \end {CD}     </tex>
     where <tex>X \to  S</tex> is étale, and <tex>Y_0 \to  Y</tex> is a bijective closed immersion.
@@ -351,7 +351,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>895</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1420</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       By replacing <tex>S</tex> with <tex>Y</tex>, and <tex>X</tex> with <tex>X \times _S Y</tex>, we can reduce to the case where <tex>Y=S</tex>, and this is then a particular case of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> for <tex>Y=S</tex>.
     </p>
@@ -359,7 +359,7 @@
   
 </mainmatter> </tree><p>
   We also note the following immediate consequence of <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/> (which we did not give as a corollary, in order to not interrupt the line of ideas developed following <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>896</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1421</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be preschemes that are of finite type and flat over <tex>Y</tex>, and let <tex>g \colon  X \to  X'</tex> be a <tex>Y</tex>-morphism.
     For <tex>g</tex> to be an open immersion (resp. an isomorphism), it is necessary and sufficient that the induced morphism on the fibres
     <tex display="block">       g \otimes _Y k(y) \colon        X \otimes _Y k(y)  \to  X' \otimes _Y k(y)     </tex>
@@ -367,7 +367,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>897</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1422</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       It suffices to prove sufficiency;
       since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
@@ -375,25 +375,25 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>898</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1423</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be <tex>Y</tex>-preschemes, <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism, <tex>x</tex> a point of <tex>X</tex>, and <tex>y</tex> the projection of <tex>x</tex> in <tex>Y</tex>.
     For <tex>g</tex> to be quasi-finite (resp. unramified) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>899</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1424</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The two algebras over <tex>k(g(x))</tex> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <tex>x</tex> are the same for <tex>g</tex> and <tex>g \otimes _Y k(y)</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>900</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1425</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     With the notation of <ref addr="sga1-i.5.8" href="sga1-i.5.8.xml" taxon="Corollary" number="I.5.8"/>, suppose that <tex>X</tex> and <tex>X'</tex> are flat and of finite type over <tex>Y</tex>.
     For <tex>g</tex> to be flat (resp. étale) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>901</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1426</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       For &quot;flat&quot;, the statement only serves as a reminder, since this is one of the fundamental criteria of flatness.
       (cf. [sga1-iv.5.9 <strong>(?)</strong>].)
@@ -401,20 +401,20 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>902</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1427</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>Y</tex> be preschemes over <tex>S</tex>, with <tex>X</tex> unramified and separated over <tex>S</tex>, and <tex>Y</tex> connected.
     Let <tex>f</tex> and <tex>g</tex> be <tex>S</tex>-morphisms from <tex>Y</tex> to <tex>X</tex>, and suppose that <tex>y</tex> is a point of <tex>Y</tex> such that <tex>f(y)=g(y)=x</tex>, and such that the residue homomorphisms <tex>k(x) \to  k(y)</tex> defined by <tex>f</tex> and <tex>g</tex> are identical (&quot;<tex>f</tex> and <tex>g</tex> agree geometrically at <tex>y</tex>&quot;).
     Then <tex>f</tex> and <tex>g</tex> are identical.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>903</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.4</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1428</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.4</parent> </frontmatter> <mainmatter>
     <p>
       This follows from <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/> by reducing to the case where <tex>Y=S</tex>, and by replacing <tex>X</tex> with <tex>X \times _S Y</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>904</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1429</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -424,19 +424,19 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>905</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.5</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1430</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.5</parent> </frontmatter> <mainmatter>
     <p>
       We can again reduce to the case where <tex>Y=S</tex>, and then this follows from the &quot;topological&quot; description of sections of <tex>X/Y</tex> given in <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>906</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>907</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1431</anchor> <taxon>Section</taxon> <addr>sga1-i.5</addr><route>sga1-i.5.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</title> <number>I.5</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1432</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
     For <tex>f</tex> to be an open immersion, it is necessary and sufficient that it be <em>étale</em> and <em>radicial</em>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>908</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1433</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
@@ -466,13 +466,13 @@
       </li></ol>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>909</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1434</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.2</addr><route>sga1-i.5.2.xml</route>     <number>I.5.2</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>f \colon  X \to  Y</tex> be a morphism that is both a <em>closed immersion</em> and <em>étale</em>.
     If <tex>X</tex> is connected, then <tex>f</tex> is an isomorphism from <tex>X</tex> to a connected component of <tex>Y</tex>.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>910</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1435</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Indeed, <tex>f</tex> is also an open immersion.
     </p>
@@ -480,7 +480,7 @@
   
 </mainmatter> </tree><p>
   We thus deduce:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>911</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1436</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> be an unramified <tex>Y</tex>-scheme, with <tex>Y</tex> connected.
     Then every section of <tex>X</tex> over <tex>Y</tex> is an isomorphism from <tex>Y</tex> to a connected component of <tex>X</tex>.
     There is thus a bijective correspondence between the set of such sections and the set of connected components <tex>X_i</tex> of <tex>X</tex> such that the projection <tex>X_i \to  Y</tex> is an isomorphism (or, equivalently, by <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>, surjective and radicial).
@@ -488,21 +488,21 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>912</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1437</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       Only the first claim demands a proof;
       by <ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2"/>, it suffices to note that a section is a closed immersion (since <tex>X</tex> is separated over <tex>Y</tex>) and also étale, by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>913</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1438</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.4</addr><route>sga1-i.5.4.xml</route>     <number>I.5.4</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>Y</tex> be preschemes over <tex>S</tex>, with <tex>X</tex> unramified and separated over <tex>S</tex>, and <tex>Y</tex> connected.
     Let <tex>f</tex> and <tex>g</tex> be <tex>S</tex>-morphisms from <tex>Y</tex> to <tex>X</tex>, and suppose that <tex>y</tex> is a point of <tex>Y</tex> such that <tex>f(y)=g(y)=x</tex>, and such that the residue homomorphisms <tex>k(x) \to  k(y)</tex> defined by <tex>f</tex> and <tex>g</tex> are identical (&quot;<tex>f</tex> and <tex>g</tex> agree geometrically at <tex>y</tex>&quot;).
     Then <tex>f</tex> and <tex>g</tex> are identical.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>914</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1439</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       This follows from <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/> by reducing to the case where <tex>Y=S</tex>, and by replacing <tex>X</tex> with <tex>X \times _S Y</tex>.
     </p>
@@ -510,7 +510,7 @@
   
 </mainmatter> </tree><p>
   Here is a particularly important variant of <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>915</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1440</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.5</addr><route>sga1-i.5.5.xml</route>     <number>I.5.5</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -520,13 +520,13 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>916</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1441</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       We can again reduce to the case where <tex>Y=S</tex>, and then this follows from the &quot;topological&quot; description of sections of <tex>X/Y</tex> given in <ref addr="sga1-i.5.3" href="sga1-i.5.3.xml" taxon="Corollary" number="I.5.3"/>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>917</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1442</anchor> <taxon>Scholium</taxon>       <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>S</tex> be a prescheme, and let <tex>X</tex> and <tex>Y</tex> be <tex>S</tex>-preschemes.
     Let <tex>S_0</tex> be a closed sub-prescheme of <tex>S</tex> that has the same underlying space as <tex>S</tex>, and let <tex>X_0=X \times _S S_0</tex> and <tex>Y_0=Y \times _S S_0</tex> be the &quot;restrictions&quot; of <tex>X</tex> and <tex>Y</tex> to <tex>S_0</tex>.
     Suppose that <tex>X</tex> is étale over <tex>S</tex>.
@@ -535,7 +535,7 @@
     is <em>bijective</em>.
   </p></mainmatter> </tree><p>
   The following form of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> (which looks more general) is often useful:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>918</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1443</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.6</addr><route>sga1-i.5.6.xml</route>    <title><link href="sga1-i.5.xml" type="local" addr="sga1-i.5" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Fundamental property of étale morphisms</link> › Extension of liftings</title> <number>I.5.6</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Consider a commutative diagram of morphisms
     <tex display="block">        \begin {CD}         X @&lt;&lt;&lt; Y_0        \\ @VVV @VVV        \\ S @&lt;&lt;&lt; Y        \end {CD}     </tex>
     where <tex>X \to  S</tex> is étale, and <tex>Y_0 \to  Y</tex> is a bijective closed immersion.
@@ -543,7 +543,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>919</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1444</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       By replacing <tex>S</tex> with <tex>Y</tex>, and <tex>X</tex> with <tex>X \times _S Y</tex>, we can reduce to the case where <tex>Y=S</tex>, and this is then a particular case of <ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5"/> for <tex>Y=S</tex>.
     </p>
@@ -551,7 +551,7 @@
   
 </mainmatter> </tree><p>
   We also note the following immediate consequence of <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/> (which we did not give as a corollary, in order to not interrupt the line of ideas developed following <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>920</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1445</anchor> <taxon>Proposition</taxon> <addr>sga1-i.5.7</addr><route>sga1-i.5.7.xml</route>     <number>I.5.7</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be preschemes that are of finite type and flat over <tex>Y</tex>, and let <tex>g \colon  X \to  X'</tex> be a <tex>Y</tex>-morphism.
     For <tex>g</tex> to be an open immersion (resp. an isomorphism), it is necessary and sufficient that the induced morphism on the fibres
     <tex display="block">       g \otimes _Y k(y) \colon        X \otimes _Y k(y)  \to  X' \otimes _Y k(y)     </tex>
@@ -559,7 +559,7 @@
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>921</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1446</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       It suffices to prove sufficiency;
       since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
@@ -567,25 +567,25 @@
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>922</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1447</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.8</addr><route>sga1-i.5.8.xml</route>     <number>I.5.8</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     Let <tex>X</tex> and <tex>X'</tex> be <tex>Y</tex>-preschemes, <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism, <tex>x</tex> a point of <tex>X</tex>, and <tex>y</tex> the projection of <tex>x</tex> in <tex>Y</tex>.
     For <tex>g</tex> to be quasi-finite (resp. unramified) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>923</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1448</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       The two algebras over <tex>k(g(x))</tex> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <tex>x</tex> are the same for <tex>g</tex> and <tex>g \otimes _Y k(y)</tex>.
     </p>
   </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>924</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1449</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.9</addr><route>sga1-i.5.9.xml</route>     <number>I.5.9</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
     With the notation of <ref addr="sga1-i.5.8" href="sga1-i.5.8.xml" taxon="Corollary" number="I.5.8"/>, suppose that <tex>X</tex> and <tex>X'</tex> are flat and of finite type over <tex>Y</tex>.
     For <tex>g</tex> to be flat (resp. étale) at <tex>x</tex>, it is necessary and sufficient that <tex>g \otimes _Y k(y)</tex> be so.
   </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>925</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1450</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
     <p>
       For &quot;flat&quot;, the statement only serves as a reminder, since this is one of the fundamental criteria of flatness.
       (cf. [sga1-iv.5.9 <strong>(?)</strong>].)
