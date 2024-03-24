@@ -13,7 +13,7 @@
   ##{
     \Todd(T_Y)\ch_Y(f_*(\cl(\sh{F})))
     = f_*(\Todd(T_X)\ch_X(\sh{F}))
-  \tag{1.1}
+  \startverb\tag{1.1}\stopverb
   }
   where #{\cl(\sh{F})} denotes the class of #{\sh{F}} in the group #{K(X)} of classes of coherent sheaves on #{X}, and #{\ch_X} and #{\ch_Y} denote the Chern characters of on #{X} and #{Y} (resp.), and #{T_X} and #{T_Y} the tangent bundles to #{X} and #{Y} (resp.).
   This formula holds in #{A(Y)\otimes_\ZZ\QQ}, where #{A(Y)} is the Chow ring of #{Y};
@@ -32,13 +32,13 @@
   ##{
     \ch_Y(f_*(\cl(\sh{F})))
     = f_*(\Todd(T_f)\ch_X(\sh{F}))
-  \tag{1.2}
+  \startverb\tag{1.2}\stopverb
   }
   where we set
   ##{
     T_f
     = T_X - f^*(T_Y) \in K(X)
-  \tag{1.3}
+  \startverb\tag{1.3}\stopverb
   }
   so that #{T_f} plays the role of a \em{virtual relative tangent bundle} of #{X} over #{Y}.
   In the case where the morphism #{f} is smooth (i.e. with everywhere-surjective tangent map), we have simply
