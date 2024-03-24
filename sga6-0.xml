@@ -8,7 +8,7 @@
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
   the <tex>f_*</tex> on the right-hand side is induced by tensoring with <tex>\mathbb {Q}</tex> the &quot;direct image of cycles&quot; homomorphism
@@ -18,9 +18,9 @@
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </tex>
   where we set
-  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
+  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </tex>
   so that <tex>T_f</tex> plays the role of a <em>virtual relative tangent bundle</em> of <tex>X</tex> over <tex>Y</tex>.
   In the case where the morphism <tex>f</tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <tex display="block">     T_f     = T_{X/Y}   </tex>
@@ -48,7 +48,7 @@
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
   the <tex>f_*</tex> on the right-hand side is induced by tensoring with <tex>\mathbb {Q}</tex> the &quot;direct image of cycles&quot; homomorphism
@@ -58,9 +58,9 @@
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </tex>
   where we set
-  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
+  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </tex>
   so that <tex>T_f</tex> plays the role of a <em>virtual relative tangent bundle</em> of <tex>X</tex> over <tex>Y</tex>.
   In the case where the morphism <tex>f</tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <tex display="block">     T_f     = T_{X/Y}   </tex>
@@ -173,7 +173,7 @@
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
   the <tex>f_*</tex> on the right-hand side is induced by tensoring with <tex>\mathbb {Q}</tex> the &quot;direct image of cycles&quot; homomorphism
@@ -183,9 +183,9 @@
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </tex>
   where we set
-  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
+  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </tex>
   so that <tex>T_f</tex> plays the role of a <em>virtual relative tangent bundle</em> of <tex>X</tex> over <tex>Y</tex>.
   In the case where the morphism <tex>f</tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <tex display="block">     T_f     = T_{X/Y}   </tex>
@@ -289,7 +289,7 @@
   <tex display="block">f \colon  X \to  Y</tex>
   of smooth quasi-projective schemes over a field <tex>k</tex> and a coherent sheaf <tex>\mathcal { F }</tex> on <tex>X</tex>:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </tex>
   where <tex>\operatorname {cl} ( \mathcal { F } )</tex> denotes the class of <tex>\mathcal { F }</tex> in the group <tex>K(X)</tex> of classes of coherent sheaves on <tex>X</tex>, and <tex>\operatorname {ch} _X</tex> and <tex>\operatorname {ch} _Y</tex> denote the Chern characters of on <tex>X</tex> and <tex>Y</tex> (resp.), and <tex>T_X</tex> and <tex>T_Y</tex> the tangent bundles to <tex>X</tex> and <tex>Y</tex> (resp.).
   This formula holds in <tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</tex>, where <tex>A(Y)</tex> is the Chow ring of <tex>Y</tex>;
   the <tex>f_*</tex> on the right-hand side is induced by tensoring with <tex>\mathbb {Q}</tex> the &quot;direct image of cycles&quot; homomorphism
@@ -299,9 +299,9 @@
   As we know, <tex>\operatorname {Todd} (-)</tex> and <tex>\operatorname {ch} (-)</tex> are universal polynomials in the Chern classes of the argument with coefficients in <tex>\mathbb {Q}</tex>.
   Since the constant term of <tex>\operatorname {Todd} (-)</tex> is <tex>1</tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <tex>\operatorname {Todd} (T_Y)^{-1}</tex>, in the form which is more useful for our needs:
   <strong><em>TO-DO: equation numbering</em></strong>
-  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))       </tex>
+  <tex display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </tex>
   where we set
-  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)       </tex>
+  <tex display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </tex>
   so that <tex>T_f</tex> plays the role of a <em>virtual relative tangent bundle</em> of <tex>X</tex> over <tex>Y</tex>.
   In the case where the morphism <tex>f</tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <tex display="block">     T_f     = T_{X/Y}   </tex>
