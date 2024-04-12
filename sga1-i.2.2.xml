@@ -1,79 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>673</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>674</anchor> <taxon>Section</taxon> <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Quasi-finite morphisms</title> <number>I.2</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>675</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Quasi-finite morphisms</fr:title><fr:number>I.2</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
     Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition" number="I.2.1"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
-  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal { O } _x</tex> is quasi-finite over <tex>\mathcal { O } _{f(x)}</tex>.
-  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
+  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
+    </fr:li>
+    <fr:li><fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
+    </fr:li>
+    <fr:li>
+      The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
+    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+  If the conditions of <fr:ref
+addr="sga1-i.2.1"
+href="sga1-i.2.1.xml"
+taxon="Proposition"
+number="I.2.1"></fr:ref> are satisfied, then we say that <fr:tex>B</fr:tex> is <fr:em>quasi-finite</fr:em> over <fr:tex>A</fr:tex>.
+  A morphism <fr:tex>f \colon  X \to  Y</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex> (or the <fr:tex>Y</fr:tex>-prescheme <fr:tex>f</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex>) if <fr:tex>\mathcal { O } _x</fr:tex> is quasi-finite over <fr:tex>\mathcal { O } _{f(x)}</fr:tex>.
+  This is equivalent to saying that <fr:tex>x</fr:tex> is <fr:em>isolated in its fibre <fr:tex>f^{-1}(x)</fr:tex></fr:em>.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>676</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> </tree><p>
+  (In [EGA II 6.2.3] we further suppose that <fr:tex>f</fr:tex> is of finite type.)
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>677</anchor> <taxon>Section</taxon> <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Quasi-finite morphisms</title> <number>I.2</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>678</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
-    Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition" number="I.2.1"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
-  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal { O } _x</tex> is quasi-finite over <tex>\mathcal { O } _{f(x)}</tex>.
-  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
-  A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>679</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> </tree><p>
-  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>680</anchor> <taxon>Theorem</taxon> <addr>sga1-i.5.1</addr><route>sga1-i.5.1.xml</route>     <number>I.5.1</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
-    For <tex>f</tex> to be an open immersion, it is necessary and sufficient that it be <em>étale</em> and <em>radicial</em>.
-  </p>
+</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type.
+    For <fr:tex>f</fr:tex> to be an open immersion, it is necessary and sufficient that it be <fr:em>étale</fr:em> and <fr:em>radicial</fr:em>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>681</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.1</parent> </frontmatter> <mainmatter>
-    <p>
-      Recall what &quot;radicial&quot; means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
       We are going to give two different proofs: the first is shorter, the second is more elementary.
-    </p>
+    </fr:p>
 
-    <ol><li>
-        A flat morphism is open, and so we can suppose (by replacing <tex>Y</tex> with <tex>f(X)</tex>) that <tex>f</tex> is an onto <em>homeomorphism</em>.
-        For any base extension, it remains true that <tex>f</tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
-        Thus <tex>f</tex> is <em>proper</em>.
-        Thus <tex>f</tex> is <em>finite</em> (reference: Chevalley's theorem), defined by a coherent sheaf <tex>\mathcal { B }</tex> of algebras.
-        Now <tex>\mathcal { B }</tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <tex>X=Y</tex>.
-      </li>
+    <fr:ol><fr:li>
+        A flat morphism is open, and so we can suppose (by replacing <fr:tex>Y</fr:tex> with <fr:tex>f(X)</fr:tex>) that <fr:tex>f</fr:tex> is an onto <fr:em>homeomorphism</fr:em>.
+        For any base extension, it remains true that <fr:tex>f</fr:tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <fr:tex>f</fr:tex> is <fr:em>proper</fr:em>.
+        Thus <fr:tex>f</fr:tex> is <fr:em>finite</fr:em> (reference: Chevalley's theorem), defined by a coherent sheaf <fr:tex>\mathcal { B }</fr:tex> of algebras.
+        Now <fr:tex>\mathcal { B }</fr:tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <fr:tex>X=Y</fr:tex>.
+      </fr:li>
 
-      <li>
-        We can suppose that <tex>Y</tex> and <tex>X</tex> are <em>affine</em>.
+      <fr:li>
+        We can suppose that <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> are <fr:em>affine</fr:em>.
         We can further easily reduce to proving the following:
-        if <tex>Y= \operatorname {Spec} (A)</tex>, with <tex>A</tex> local, and if <tex>f^{-1}(y)</tex> is non-empty (where <tex>y</tex> is the closed point of <tex>Y</tex>), then <tex>X=Y</tex> (indeed, this would imply that every <tex>y \in  f(X)</tex> has an open neighbourhood <tex>U</tex> such that <tex>X|U=U</tex>).
-        We will then have that <tex>X= \operatorname {Spec} (B)</tex>, and wish to prove that <tex>A=B</tex>.
-        But for this we can reduce to proving the analogous claim where we replace <tex>A</tex> by <tex>\widehat {A}</tex>, and <tex>B</tex> by <tex>B \otimes _A \widehat {A}</tex>
-        (taking into account the fact that <tex>\widehat {A}</tex> is faithfully flat over <tex>A</tex>).
-        We can thus suppose that <tex>A</tex> is <em>complete</em>.
-        Let <tex>x</tex> be the point over <tex>y</tex>.
-        By <ref addr="sga1-i.2.2" href="sga1-i.2.2.xml" taxon="Corollary" number="I.2.2"/>, <tex>\mathcal { O } _x</tex> is finite over <tex>A</tex>, and is thus (being flat and radicial over <tex>A</tex>) identical to <tex>A</tex>.
-        So <tex>X=Y \coprod  X'</tex> (disjoint sum).
-        But since <tex>X</tex> is radicial over <tex>Y</tex>, <tex>X'</tex> is empty.
-      </li></ol>
-  </mainmatter> </tree>
+        if <fr:tex>Y= \operatorname {Spec} (A)</fr:tex>, with <fr:tex>A</fr:tex> local, and if <fr:tex>f^{-1}(y)</fr:tex> is non-empty (where <fr:tex>y</fr:tex> is the closed point of <fr:tex>Y</fr:tex>), then <fr:tex>X=Y</fr:tex> (indeed, this would imply that every <fr:tex>y \in  f(X)</fr:tex> has an open neighbourhood <fr:tex>U</fr:tex> such that <fr:tex>X|U=U</fr:tex>).
+        We will then have that <fr:tex>X= \operatorname {Spec} (B)</fr:tex>, and wish to prove that <fr:tex>A=B</fr:tex>.
+        But for this we can reduce to proving the analogous claim where we replace <fr:tex>A</fr:tex> by <fr:tex>\widehat {A}</fr:tex>, and <fr:tex>B</fr:tex> by <fr:tex>B \otimes _A \widehat {A}</fr:tex>
+        (taking into account the fact that <fr:tex>\widehat {A}</fr:tex> is faithfully flat over <fr:tex>A</fr:tex>).
+        We can thus suppose that <fr:tex>A</fr:tex> is <fr:em>complete</fr:em>.
+        Let <fr:tex>x</fr:tex> be the point over <fr:tex>y</fr:tex>.
+        By <fr:ref
+addr="sga1-i.2.2"
+href="sga1-i.2.2.xml"
+taxon="Corollary"
+number="I.2.2"></fr:ref>, <fr:tex>\mathcal { O } _x</fr:tex> is finite over <fr:tex>A</fr:tex>, and is thus (being flat and radicial over <fr:tex>A</fr:tex>) identical to <fr:tex>A</fr:tex>.
+        So <fr:tex>X=Y \coprod  X'</fr:tex> (disjoint sum).
+        But since <fr:tex>X</fr:tex> is radicial over <fr:tex>Y</fr:tex>, <fr:tex>X'</fr:tex> is empty.
+      </fr:li></fr:ol>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

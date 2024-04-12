@@ -1,384 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1171</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
-    If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
-  </p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.4.8</fr:addr><fr:route>sga1-i.4.8.xml</fr:route><fr:number>I.4.8</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> and <fr:tex>X'</fr:tex> be of finite type over <fr:tex>Y</fr:tex>, and <fr:tex>g \colon  X \to  X'</fr:tex> a <fr:tex>Y</fr:tex>-morphism.
+    If <fr:tex>X'</fr:tex> is unramified over <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> is étale over <fr:tex>Y</fr:tex>, then <fr:tex>g</fr:tex> is étale.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1172</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Indeed, <fr:tex>g</fr:tex> is the composition of the graph morphism <fr:tex>\Gamma _g \colon  X \to  X \times _Y X'</fr:tex> (which is an open immersion by <fr:ref
+addr="sga1-i.3.4"
+href="sga1-i.3.4.xml"
+taxon="Corollary"
+number="I.3.4"></fr:ref>) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex>X' \to  Y</fr:tex> of the étale morphism <fr:tex>X \to  Y</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1173</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale morphisms. Étale covers</fr:title><fr:number>I.4</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:strong><fr:em>TO-DO: fix the auto-capitalisation of the title not recognising É</fr:em></fr:strong><fr:p>
   We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
-  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1174</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
-      Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
-      We say that <tex>f</tex> is <em>étale</em> at <tex>x</tex> if <tex>f</tex> is both flat and unramified at <tex>x</tex>.
-      We say that <tex>f</tex> is étale if it is étale at all points.
-      We say that <tex>X</tex> is étale at <tex>x</tex> over <tex>Y</tex>, or that it is a <tex>Y</tex>-prescheme which is étale at <tex>x</tex> etc.
-    </li>
-    <li>
-      Let <tex>f \colon  A \to  B</tex> be a local homomorphism.
-      We say that <tex>f</tex> is étale, or that <tex>B</tex> is étale over <tex>A</tex>, if <tex>B</tex> is flat and unramified over <tex>A</tex>
-      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1175</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    For <tex>B/A</tex> to be étale, it is necessary and sufficient that <tex>\widehat {B}/ \widehat {A}</tex> be étale.
-  </p>
+  (cf. [sga1-iv <fr:strong>(?)</fr:strong>].)</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sga1-i.4.1</fr:addr><fr:route>sga1-i.4.1.xml</fr:route><fr:number>I.4.1</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:strong><fr:em>TO-DO: this list should be a, b</fr:em></fr:strong><fr:ol><fr:li>
+      Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type.
+      We say that <fr:tex>f</fr:tex> is <fr:em>étale</fr:em> at <fr:tex>x</fr:tex> if <fr:tex>f</fr:tex> is both flat and unramified at <fr:tex>x</fr:tex>.
+      We say that <fr:tex>f</fr:tex> is étale if it is étale at all points.
+      We say that <fr:tex>X</fr:tex> is étale at <fr:tex>x</fr:tex> over <fr:tex>Y</fr:tex>, or that it is a <fr:tex>Y</fr:tex>-prescheme which is étale at <fr:tex>x</fr:tex> etc.
+    </fr:li>
+    <fr:li>
+      Let <fr:tex>f \colon  A \to  B</fr:tex> be a local homomorphism.
+      We say that <fr:tex>f</fr:tex> is étale, or that <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, if <fr:tex>B</fr:tex> is flat and unramified over <fr:tex>A</fr:tex>
+      (cf. regrets in [sga1-iii.1.2 <fr:strong>(?)</fr:strong>].)</fr:li></fr:ol></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.2</fr:addr><fr:route>sga1-i.4.2.xml</fr:route><fr:number>I.4.2</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For <fr:tex>B/A</fr:tex> to be étale, it is necessary and sufficient that <fr:tex>\widehat {B}/ \widehat {A}</fr:tex> be étale.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1176</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      This is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>341</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      This is true individually for both "unramified" and "flat".
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1177</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be of finite type, and <tex>x \in  X</tex>.
-    The property of <tex>f</tex> being étale at <tex>x</tex> depends only on the local homomorphism <tex>\mathcal { O } _{f(x)} \to \mathcal { O } _x</tex>, and in fact only on the corresponding homomorphism for the completions.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1178</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Suppose that the residue extension <tex>k(A) \to  k(B)</tex> is trivial, or that <tex>k(A)</tex> is algebraically closed.
-    Then <tex>B/A</tex> is étale if and only if <tex>\widehat {A} \to \widehat {B}</tex> is an isomorphism.
-  </p></mainmatter> </tree><p>
-  We can combine flatness with <ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7"/>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1179</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
-    Then the set of points where <tex>f</tex> is étale is open.
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.4.3</fr:addr><fr:route>sga1-i.4.3.xml</fr:route><fr:number>I.4.3</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be of finite type, and <fr:tex>x \in  X</fr:tex>.
+    The property of <fr:tex>f</fr:tex> being étale at <fr:tex>x</fr:tex> depends only on the local homomorphism <fr:tex>\mathcal { O } _{f(x)} \to \mathcal { O } _x</fr:tex>, and in fact only on the corresponding homomorphism for the completions.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.4.4</fr:addr><fr:route>sga1-i.4.4.xml</fr:route><fr:number>I.4.4</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that the residue extension <fr:tex>k(A) \to  k(B)</fr:tex> is trivial, or that <fr:tex>k(A)</fr:tex> is algebraically closed.
+    Then <fr:tex>B/A</fr:tex> is étale if and only if <fr:tex>\widehat {A} \to \widehat {B}</fr:tex> is an isomorphism.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  We can combine flatness with <fr:ref
+addr="sga1-i.3.7"
+href="sga1-i.3.7.xml"
+taxon="Proposition"
+number="I.3.7"></fr:ref>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.5</fr:addr><fr:route>sga1-i.4.5.xml</fr:route><fr:number>I.4.5</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type.
+    Then the set of points where <fr:tex>f</fr:tex> is étale is open.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1180</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Again, this is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Again, this is true individually for both "unramified" and "flat".
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  This proposition shows that we can forget about the &quot;one-off&quot; comments in the study of morphisms of finite type that are somewhere étale.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1181</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
+</fr:mainmatter></fr:tree><fr:p>
+  This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:strong><fr:em>TO-DO: this list should be i, ii etc</fr:em></fr:strong><fr:ol><fr:li>
       An open immersion is étale.
-    </li>
-    <li>
+    </fr:li>
+    <fr:li>
       The composition of two étale morphisms is étale.
-    </li>
-    <li>
+    </fr:li>
+    <fr:li>
       The base extension of an étale morphism is étale.
-    </li></ol>
+    </fr:li></fr:ol>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1182</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
+</fr:mainmatter></fr:tree><fr:p>
   As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1183</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
+  (<fr:em>[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper — see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information.</fr:em>)</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.4.7</fr:addr><fr:route>sga1-i.4.7.xml</fr:route><fr:number>I.4.7</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The cartesian product of two étale morphisms is étale.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1184</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
-    If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
-  </p>
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.4.8</fr:addr><fr:route>sga1-i.4.8.xml</fr:route><fr:number>I.4.8</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> and <fr:tex>X'</fr:tex> be of finite type over <fr:tex>Y</fr:tex>, and <fr:tex>g \colon  X \to  X'</fr:tex> a <fr:tex>Y</fr:tex>-morphism.
+    If <fr:tex>X'</fr:tex> is unramified over <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> is étale over <fr:tex>Y</fr:tex>, then <fr:tex>g</fr:tex> is étale.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1185</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Indeed, <fr:tex>g</fr:tex> is the composition of the graph morphism <fr:tex>\Gamma _g \colon  X \to  X \times _Y X'</fr:tex> (which is an open immersion by <fr:ref
+addr="sga1-i.3.4"
+href="sga1-i.3.4.xml"
+taxon="Corollary"
+number="I.3.4"></fr:ref>) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex>X' \to  Y</fr:tex> of the étale morphism <fr:tex>X \to  Y</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1186</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    We say that a cover of <tex>Y</tex> is étale (resp. unramified) if it is a <tex>Y</tex>-scheme <tex>X</tex> that is finite over <tex>Y</tex> and étale (resp. unramified) over <tex>Y</tex>.
-  </p></mainmatter> </tree><p>
-  The first condition means that <tex>X</tex> is defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex> over <tex>Y</tex>.
-  The second means that <tex>\mathcal { B }</tex> is locally free over <tex>Y</tex> (resp. means absolutely nothing) <em>and</em>, further, that, for all <tex>y \in  Y</tex>, the fibre <tex>\mathcal { B } (y)= \mathcal { B } _y \otimes _{ \mathcal { O } _y}k(y)</tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <tex>k(y)</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1187</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> be a flat cover of <tex>Y</tex> of degree <tex>n</tex> (the definition of this term deserved to figure in <ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9"/>) defined by a locally free coherent sheaf <tex>\mathcal { B }</tex> of algebras.
-    We define, as usual, the trace homomorphism <tex>\mathcal { B } \to \mathcal { A }</tex> (that is, a homomorphism of <tex>\mathcal { A }</tex>-modules, where <tex>\mathcal { A } = \mathcal { O } _Y</tex>).
-    For <tex>X</tex> to be étale it is necessary and sufficient that the corresponding bilinear form <tex>\operatorname {tr} _{ \mathcal { B } / \mathcal { A } }xy</tex> define an isomorphism of <tex>\mathcal { B }</tex> over <tex>\mathcal { B }</tex>, or, equivalently, that the <em>discriminant section</em>
-    <tex display="block">       d_{X/Y}       = d_{ \mathcal { B } / \mathcal { A } }        \in   \Gamma \big (Y, \wedge ^n \check { \mathcal { B } } \otimes _ \mathcal { A } \wedge ^n \check { \mathcal { B } } \big )     </tex>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>351</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sga1-i.4.9</fr:addr><fr:route>sga1-i.4.9.xml</fr:route><fr:number>I.4.9</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a cover of <fr:tex>Y</fr:tex> is étale (resp. unramified) if it is a <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex> that is finite over <fr:tex>Y</fr:tex> and étale (resp. unramified) over <fr:tex>Y</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  The first condition means that <fr:tex>X</fr:tex> is defined by a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex> over <fr:tex>Y</fr:tex>.
+  The second means that <fr:tex>\mathcal { B }</fr:tex> is locally free over <fr:tex>Y</fr:tex> (resp. means absolutely nothing) <fr:em>and</fr:em>, further, that, for all <fr:tex>y \in  Y</fr:tex>, the fibre <fr:tex>\mathcal { B } (y)= \mathcal { B } _y \otimes _{ \mathcal { O } _y}k(y)</fr:tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <fr:tex>k(y)</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.10</fr:addr><fr:route>sga1-i.4.10.xml</fr:route><fr:number>I.4.10</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> be a flat cover of <fr:tex>Y</fr:tex> of degree <fr:tex>n</fr:tex> (the definition of this term deserved to figure in <fr:ref
+addr="sga1-i.4.9"
+href="sga1-i.4.9.xml"
+taxon="Definition"
+number="I.4.9"></fr:ref>) defined by a locally free coherent sheaf <fr:tex>\mathcal { B }</fr:tex> of algebras.
+    We define, as usual, the trace homomorphism <fr:tex>\mathcal { B } \to \mathcal { A }</fr:tex> (that is, a homomorphism of <fr:tex>\mathcal { A }</fr:tex>-modules, where <fr:tex>\mathcal { A } = \mathcal { O } _Y</fr:tex>).
+    For <fr:tex>X</fr:tex> to be étale it is necessary and sufficient that the corresponding bilinear form <fr:tex>\operatorname {tr} _{ \mathcal { B } / \mathcal { A } }xy</fr:tex> define an isomorphism of <fr:tex>\mathcal { B }</fr:tex> over <fr:tex>\mathcal { B }</fr:tex>, or, equivalently, that the <fr:em>discriminant section</fr:em>
+    <fr:tex
+display="block">       d_{X/Y}       = d_{ \mathcal { B } / \mathcal { A } }        \in   \Gamma \big (Y, \wedge ^n \check { \mathcal { B } } \otimes _ \mathcal { A } \wedge ^n \check { \mathcal { B } } \big )     </fr:tex>
     is invertible, or that the discriminant ideal defined by this section is the unit ring.
-  </p>
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1188</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We can reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <tex>k</tex>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.4.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We can reduce to the case where <fr:tex>Y= \operatorname {Spec} (k)</fr:tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <fr:tex>k</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1189</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    We will have a less trivial statement to make later on (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/>), when we do not suppose a priori that <tex>X</tex> is flat over <tex>Y</tex>, but instead require some normality hypothesis.
-  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1190</anchor> <taxon>Corollary</taxon> <addr>sga1-i.3.4</addr><route>sga1-i.3.4.xml</route>     <number>I.3.4</number> <parent>sga1-i.3</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X'</tex> and <tex>X</tex> be preschemes of finite type over <tex>Y</tex>, and <tex>g \colon  X' \to  X</tex> a <tex>Y</tex>-morphism.
-    If <tex>X</tex> is unramified over <tex>Y</tex>, then the graph morphism <tex>\Gamma _g \colon  X' \to  X \times _Y X</tex> is an open immersion.
-  </p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1191</anchor> <taxon>Section</taxon> <addr>sga1-i.4</addr><route>sga1-i.4.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale morphisms. Étale covers</title> <number>I.4</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><strong><em>TO-DO: fix the auto-capitalisation of the title not recognising É</em></strong><p>
-  We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
-  these facts will be proved later, if there is time.
-  (cf. [sga1-iv <strong>(?)</strong>].)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1192</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.1</addr><route>sga1-i.4.1.xml</route>     <number>I.4.1</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be a, b</em></strong><ol><li>
-      Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
-      We say that <tex>f</tex> is <em>étale</em> at <tex>x</tex> if <tex>f</tex> is both flat and unramified at <tex>x</tex>.
-      We say that <tex>f</tex> is étale if it is étale at all points.
-      We say that <tex>X</tex> is étale at <tex>x</tex> over <tex>Y</tex>, or that it is a <tex>Y</tex>-prescheme which is étale at <tex>x</tex> etc.
-    </li>
-    <li>
-      Let <tex>f \colon  A \to  B</tex> be a local homomorphism.
-      We say that <tex>f</tex> is étale, or that <tex>B</tex> is étale over <tex>A</tex>, if <tex>B</tex> is flat and unramified over <tex>A</tex>
-      (cf. regrets in [sga1-iii.1.2 <strong>(?)</strong>].)</li></ol></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1193</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.2</addr><route>sga1-i.4.2.xml</route>     <number>I.4.2</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    For <tex>B/A</tex> to be étale, it is necessary and sufficient that <tex>\widehat {B}/ \widehat {A}</tex> be étale.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1194</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      This is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1195</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.3</addr><route>sga1-i.4.3.xml</route>     <number>I.4.3</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be of finite type, and <tex>x \in  X</tex>.
-    The property of <tex>f</tex> being étale at <tex>x</tex> depends only on the local homomorphism <tex>\mathcal { O } _{f(x)} \to \mathcal { O } _x</tex>, and in fact only on the corresponding homomorphism for the completions.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1196</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.4</addr><route>sga1-i.4.4.xml</route>     <number>I.4.4</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Suppose that the residue extension <tex>k(A) \to  k(B)</tex> is trivial, or that <tex>k(A)</tex> is algebraically closed.
-    Then <tex>B/A</tex> is étale if and only if <tex>\widehat {A} \to \widehat {B}</tex> is an isomorphism.
-  </p></mainmatter> </tree><p>
-  We can combine flatness with <ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7"/>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1197</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.5</addr><route>sga1-i.4.5.xml</route>     <number>I.4.5</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type.
-    Then the set of points where <tex>f</tex> is étale is open.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1198</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Again, this is true individually for both &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><p>
-  This proposition shows that we can forget about the &quot;one-off&quot; comments in the study of morphisms of finite type that are somewhere étale.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1199</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.6</addr><route>sga1-i.4.6.xml</route>     <number>I.4.6</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><strong><em>TO-DO: this list should be i, ii etc</em></strong><ol><li>
-      An open immersion is étale.
-    </li>
-    <li>
-      The composition of two étale morphisms is étale.
-    </li>
-    <li>
-      The base extension of an étale morphism is étale.
-    </li></ol>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1200</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for &quot;unramified&quot; and &quot;flat&quot;.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><p>
-  As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<em>[Trans.] Grothendieck's &quot;multiplodoque d'algèbre homologique&quot; was the final version of his Tohoku paper — see (2.1) in &quot;Life and work of Alexander Grothendieck&quot; by Ching-Li Chan and Frans Oort for more information.</em>)</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1201</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.7</addr><route>sga1-i.4.7.xml</route>     <number>I.4.7</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    The cartesian product of two étale morphisms is étale.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1202</anchor> <taxon>Corollary</taxon> <addr>sga1-i.4.8</addr><route>sga1-i.4.8.xml</route>     <number>I.4.8</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> and <tex>X'</tex> be of finite type over <tex>Y</tex>, and <tex>g \colon  X \to  X'</tex> a <tex>Y</tex>-morphism.
-    If <tex>X'</tex> is unramified over <tex>Y</tex> and <tex>X</tex> is étale over <tex>Y</tex>, then <tex>g</tex> is étale.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1203</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Indeed, <tex>g</tex> is the composition of the graph morphism <tex>\Gamma _g \colon  X \to  X \times _Y X'</tex> (which is an open immersion by <ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4"/>) and the projection morphism, which is étale since it is just a &quot;change of base&quot; by <tex>X' \to  Y</tex> of the étale morphism <tex>X \to  Y</tex>.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1204</anchor> <taxon>Definition</taxon> <addr>sga1-i.4.9</addr><route>sga1-i.4.9.xml</route>     <number>I.4.9</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    We say that a cover of <tex>Y</tex> is étale (resp. unramified) if it is a <tex>Y</tex>-scheme <tex>X</tex> that is finite over <tex>Y</tex> and étale (resp. unramified) over <tex>Y</tex>.
-  </p></mainmatter> </tree><p>
-  The first condition means that <tex>X</tex> is defined by a coherent sheaf of algebras <tex>\mathcal { B }</tex> over <tex>Y</tex>.
-  The second means that <tex>\mathcal { B }</tex> is locally free over <tex>Y</tex> (resp. means absolutely nothing) <em>and</em>, further, that, for all <tex>y \in  Y</tex>, the fibre <tex>\mathcal { B } (y)= \mathcal { B } _y \otimes _{ \mathcal { O } _y}k(y)</tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <tex>k(y)</tex>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1205</anchor> <taxon>Proposition</taxon> <addr>sga1-i.4.10</addr><route>sga1-i.4.10.xml</route>     <number>I.4.10</number> <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> be a flat cover of <tex>Y</tex> of degree <tex>n</tex> (the definition of this term deserved to figure in <ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9"/>) defined by a locally free coherent sheaf <tex>\mathcal { B }</tex> of algebras.
-    We define, as usual, the trace homomorphism <tex>\mathcal { B } \to \mathcal { A }</tex> (that is, a homomorphism of <tex>\mathcal { A }</tex>-modules, where <tex>\mathcal { A } = \mathcal { O } _Y</tex>).
-    For <tex>X</tex> to be étale it is necessary and sufficient that the corresponding bilinear form <tex>\operatorname {tr} _{ \mathcal { B } / \mathcal { A } }xy</tex> define an isomorphism of <tex>\mathcal { B }</tex> over <tex>\mathcal { B }</tex>, or, equivalently, that the <em>discriminant section</em>
-    <tex display="block">       d_{X/Y}       = d_{ \mathcal { B } / \mathcal { A } }        \in   \Gamma \big (Y, \wedge ^n \check { \mathcal { B } } \otimes _ \mathcal { A } \wedge ^n \check { \mathcal { B } } \big )     </tex>
-    is invertible, or that the discriminant ideal defined by this section is the unit ring.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1206</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We can reduce to the case where <tex>Y= \operatorname {Spec} (k)</tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <tex>k</tex>.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1207</anchor> <taxon>Remark</taxon>       <parent>sga1-i.4</parent> </frontmatter> <mainmatter><p>
-    We will have a less trivial statement to make later on (<ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12"/>), when we do not suppose a priori that <tex>X</tex> is flat over <tex>Y</tex>, but instead require some normality hypothesis.
-  </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1208</anchor> <taxon>Corollary</taxon> <addr>sga1-i.5.3</addr><route>sga1-i.5.3.xml</route>     <number>I.5.3</number> <parent>sga1-i.5</parent> </frontmatter> <mainmatter><p>
-    Let <tex>X</tex> be an unramified <tex>Y</tex>-scheme, with <tex>Y</tex> connected.
-    Then every section of <tex>X</tex> over <tex>Y</tex> is an isomorphism from <tex>Y</tex> to a connected component of <tex>X</tex>.
-    There is thus a bijective correspondence between the set of such sections and the set of connected components <tex>X_i</tex> of <tex>X</tex> such that the projection <tex>X_i \to  Y</tex> is an isomorphism (or, equivalently, by <ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1"/>, surjective and radicial).
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We will have a less trivial statement to make later on (<fr:ref
+addr="sga1-i.9.12"
+href="sga1-i.9.12.xml"
+taxon="Corollary"
+number="I.9.12"></fr:ref>), when we do not suppose a priori that <fr:tex>X</fr:tex> is flat over <fr:tex>Y</fr:tex>, but instead require some normality hypothesis.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.4</fr:addr><fr:route>sga1-i.3.4.xml</fr:route><fr:number>I.3.4</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X'</fr:tex> and <fr:tex>X</fr:tex> be preschemes of finite type over <fr:tex>Y</fr:tex>, and <fr:tex>g \colon  X' \to  X</fr:tex> a <fr:tex>Y</fr:tex>-morphism.
+    If <fr:tex>X</fr:tex> is unramified over <fr:tex>Y</fr:tex>, then the graph morphism <fr:tex>\Gamma _g \colon  X' \to  X \times _Y X</fr:tex> is an open immersion.
+  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.5.3</fr:addr><fr:route>sga1-i.5.3.xml</fr:route><fr:number>I.5.3</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> be an unramified <fr:tex>Y</fr:tex>-scheme, with <fr:tex>Y</fr:tex> connected.
+    Then every section of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex> is an isomorphism from <fr:tex>Y</fr:tex> to a connected component of <fr:tex>X</fr:tex>.
+    There is thus a bijective correspondence between the set of such sections and the set of connected components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex> such that the projection <fr:tex>X_i \to  Y</fr:tex> is an isomorphism (or, equivalently, by <fr:ref
+addr="sga1-i.5.1"
+href="sga1-i.5.1.xml"
+taxon="Theorem"
+number="I.5.1"></fr:ref>, surjective and radicial).
     In particular, a section is determined by its value at a point.
-  </p>
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1209</anchor> <taxon>Proof</taxon>       <parent>sga1-i.5.3</parent> </frontmatter> <mainmatter>
-    <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
       Only the first claim demands a proof;
-      by <ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2"/>, it suffices to note that a section is a closed immersion (since <tex>X</tex> is separated over <tex>Y</tex>) and also étale, by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>.
-    </p>
-  </mainmatter> </tree>
+      by <fr:ref
+addr="sga1-i.5.2"
+href="sga1-i.5.2.xml"
+taxon="Corollary"
+number="I.5.2"></fr:ref>, it suffices to note that a section is a closed immersion (since <fr:tex>X</fr:tex> is separated over <fr:tex>Y</fr:tex>) and also étale, by <fr:ref
+addr="sga1-i.4.8"
+href="sga1-i.4.8.xml"
+taxon="Corollary"
+number="I.4.8"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1210</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.ii-proof</addr><route>sga1-i.9.5.ii-proof.xml</route>     <number>I.9.5.ii</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
-    We proceed as in the above proof to show that we can choose <tex>F</tex> in <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> such that we again have
-    <tex display="block">       L = B \otimes _A K = K[t]/FK[t]     </tex>
-    The only obstacle a priori is that we can no longer prove that <tex>B \to  L</tex> is injective, since <tex>B</tex> is no longer assumed to be flat over <tex>A</tex>, and so we can only apply the same argument a priori to the image <tex>B_1</tex> of <tex>B</tex> under the aforementioned homomorphism.
-    It immediately follows that <tex>B_1</tex> is flat over <tex>A</tex> (since it is the localisation of a free <tex>A</tex>-algebra).
-    By <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>, the morphism <tex>B \to  B_1</tex> is étale, and thus an isomorphism, which finishes the proof.
-  </p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1211</anchor> <taxon>Section</taxon> <addr>sga1-i.7</addr><route>sga1-i.7.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Local construction of unramified and étale morphisms</title> <number>I.7</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1212</anchor> <taxon>Proposition</taxon> <addr>sga1-i.7.1</addr><route>sga1-i.7.1.xml</route>     <number>I.7.1</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a Noetherian ring, <tex>B</tex> an algebra which is finite over <tex>A</tex>, and <tex>u</tex> a generator of <tex>B</tex> over <tex>A</tex>.
-    Let <tex>F \in  A[t]</tex> be such that <tex>F(u)=0</tex> (we do not assume <tex>F</tex> to be monic), and <tex>u'=F'(u)</tex> (where <tex>F'</tex> is the differentiated polynomial).
-    Let <tex>\mathfrak {q}</tex> be a prime ideal of <tex>B</tex> not containing <tex>u'</tex>, and <tex>\mathfrak {p}</tex> its intersection with <tex>A</tex>.
-    Then <tex>B_ \mathfrak {q}</tex> is unramified over <tex>A_ \mathfrak {p}</tex>.
-  </p></mainmatter> </tree><p>
-  In other words, taking <tex>Y= \operatorname {Spec} (A)</tex>, <tex>X= \operatorname {Spec} (B)</tex>, and <tex>X_{u'}= \operatorname {Spec} (B_{u'})</tex>, we claim that <tex>X_{u'}</tex> is unramified over <tex>Y</tex>.
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.ii-proof</fr:addr><fr:route>sga1-i.9.5.ii-proof.xml</fr:route><fr:number>I.9.5.ii</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We proceed as in the above proof to show that we can choose <fr:tex>F</fr:tex> in <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6"></fr:ref> such that we again have
+    <fr:tex
+display="block">       L = B \otimes _A K = K[t]/FK[t]     </fr:tex>
+    The only obstacle a priori is that we can no longer prove that <fr:tex>B \to  L</fr:tex> is injective, since <fr:tex>B</fr:tex> is no longer assumed to be flat over <fr:tex>A</fr:tex>, and so we can only apply the same argument a priori to the image <fr:tex>B_1</fr:tex> of <fr:tex>B</fr:tex> under the aforementioned homomorphism.
+    It immediately follows that <fr:tex>B_1</fr:tex> is flat over <fr:tex>A</fr:tex> (since it is the localisation of a free <fr:tex>A</fr:tex>-algebra).
+    By <fr:ref
+addr="sga1-i.4.8"
+href="sga1-i.4.8.xml"
+taxon="Corollary"
+number="I.4.8"></fr:ref>, the morphism <fr:tex>B \to  B_1</fr:tex> is étale, and thus an isomorphism, which finishes the proof.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.7</fr:addr><fr:route>sga1-i.7.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Local construction of unramified and étale morphisms</fr:title><fr:number>I.7</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.7.1</fr:addr><fr:route>sga1-i.7.1.xml</fr:route><fr:number>I.7.1</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be a Noetherian ring, <fr:tex>B</fr:tex> an algebra which is finite over <fr:tex>A</fr:tex>, and <fr:tex>u</fr:tex> a generator of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>.
+    Let <fr:tex>F \in  A[t]</fr:tex> be such that <fr:tex>F(u)=0</fr:tex> (we do not assume <fr:tex>F</fr:tex> to be monic), and <fr:tex>u'=F'(u)</fr:tex> (where <fr:tex>F'</fr:tex> is the differentiated polynomial).
+    Let <fr:tex>\mathfrak {q}</fr:tex> be a prime ideal of <fr:tex>B</fr:tex> not containing <fr:tex>u'</fr:tex>, and <fr:tex>\mathfrak {p}</fr:tex> its intersection with <fr:tex>A</fr:tex>.
+    Then <fr:tex>B_ \mathfrak {q}</fr:tex> is unramified over <fr:tex>A_ \mathfrak {p}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  In other words, taking <fr:tex>Y= \operatorname {Spec} (A)</fr:tex>, <fr:tex>X= \operatorname {Spec} (B)</fr:tex>, and <fr:tex>X_{u'}= \operatorname {Spec} (B_{u'})</fr:tex>, we claim that <fr:tex>X_{u'}</fr:tex> is unramified over <fr:tex>Y</fr:tex>.
   This statement follows from the following, more precise:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1213</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.2</addr><route>sga1-i.7.2.xml</route>     <number>I.7.2</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    The different ideal of <tex>B/A</tex> contains <tex>u'B</tex>, and is equal to <tex>u'B</tex> if the natural homomorphism <tex>A[t]/FA[t] \to  B</tex> (sending <tex>t</tex> to <tex>u</tex>) is an isomorphism.
-  </p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.2</fr:addr><fr:route>sga1-i.7.2.xml</fr:route><fr:number>I.7.2</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The different ideal of <fr:tex>B/A</fr:tex> contains <fr:tex>u'B</fr:tex>, and is equal to <fr:tex>u'B</fr:tex> if the natural homomorphism <fr:tex>A[t]/FA[t] \to  B</fr:tex> (sending <fr:tex>t</fr:tex> to <fr:tex>u</fr:tex>) is an isomorphism.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1214</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Let <tex>J</tex> be the kernel of the homomorphism <tex>C=A[t] \to  B</tex>, so that <tex>J</tex> contains <tex>FA[t]</tex>, and is equal to it in the second case described in <ref addr="sga1-i.7.2" href="sga1-i.7.2.xml" taxon="Corollary" number="I.7.2"/>.
-      Since the homomorphism <tex>C \to  B</tex> is surjective, <tex>\Omega _{B/A}^1</tex> can be identified with the quotient of <tex>\Omega _{C/A}^1</tex> by the sub-module generated by <tex>J \Omega _{C/A}^1</tex> and <tex>\mathrm {d} (J)</tex> (we should have explicitly described the definition of the homomorphism <tex>d</tex> and the calculation of <tex>\Omega ^1</tex> for an algebra of polynomials in <ref addr="sga1-i" href="sga1-i.xml" taxon="Exposé" number="I"/>).
-      Identifying <tex>\Omega _{C/A}^1</tex> with <tex>C</tex>, via the basis <tex>\mathrm {d}  t</tex>, we obtain <tex>B/B \cdot  J'</tex>, and so the different ideal is generated by the set <tex>J'</tex> of images in <tex>B</tex> of derivatives of <tex>G \in  J</tex> (and it suffices to take <tex>G</tex> that generate <tex>J</tex>).
-      Since <tex>F \in  J</tex> (resp. <tex>F</tex> is a generator of <tex>J</tex>), we are done.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>J</fr:tex> be the kernel of the homomorphism <fr:tex>C=A[t] \to  B</fr:tex>, so that <fr:tex>J</fr:tex> contains <fr:tex>FA[t]</fr:tex>, and is equal to it in the second case described in <fr:ref
+addr="sga1-i.7.2"
+href="sga1-i.7.2.xml"
+taxon="Corollary"
+number="I.7.2"></fr:ref>.
+      Since the homomorphism <fr:tex>C \to  B</fr:tex> is surjective, <fr:tex>\Omega _{B/A}^1</fr:tex> can be identified with the quotient of <fr:tex>\Omega _{C/A}^1</fr:tex> by the sub-module generated by <fr:tex>J \Omega _{C/A}^1</fr:tex> and <fr:tex>\mathrm {d} (J)</fr:tex> (we should have explicitly described the definition of the homomorphism <fr:tex>d</fr:tex> and the calculation of <fr:tex>\Omega ^1</fr:tex> for an algebra of polynomials in <fr:ref
+addr="sga1-i"
+href="sga1-i.xml"
+taxon="Exposé"
+number="I"></fr:ref>).
+      Identifying <fr:tex>\Omega _{C/A}^1</fr:tex> with <fr:tex>C</fr:tex>, via the basis <fr:tex>\mathrm {d}  t</fr:tex>, we obtain <fr:tex>B/B \cdot  J'</fr:tex>, and so the different ideal is generated by the set <fr:tex>J'</fr:tex> of images in <fr:tex>B</fr:tex> of derivatives of <fr:tex>G \in  J</fr:tex> (and it suffices to take <fr:tex>G</fr:tex> that generate <fr:tex>J</fr:tex>).
+      Since <fr:tex>F \in  J</fr:tex> (resp. <fr:tex>F</fr:tex> is a generator of <fr:tex>J</fr:tex>), we are done.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1215</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.3</addr><route>sga1-i.7.3.xml</route>     <number>I.7.3</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of <ref addr="sga1-i.7.1" href="sga1-i.7.1.xml" taxon="Proposition" number="I.7.1"/>, and supposing that <tex>F</tex> is monic and that <tex>A[t]/FA[t] \to  B</tex> is an isomorphism, in order for <tex>B_ \mathfrak {q}</tex> to be étale over <tex>A_ \mathfrak {p}</tex> it is necessary and sufficient that <tex>\mathfrak {q}</tex> not contain <tex>u'</tex>.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1216</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      Since <tex>B</tex> is flat over <tex>A</tex>, being étale is equivalent to being unramified, and we can apply <ref addr="sga1-i.7.2" href="sga1-i.7.2.xml" taxon="Corollary" number="I.7.2"/>.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1217</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.4</addr><route>sga1-i.7.4.xml</route>     <number>I.7.4</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of <ref addr="sga1-i.7.3" href="sga1-i.7.3.xml" taxon="Corollary" number="I.7.3"/>, in order for <tex>B</tex> to be étale over <tex>A</tex>, it is necessary and sufficient that <tex>u'</tex> be invertible, or for the ideal <tex>F'</tex> generated by <tex>F</tex> in <tex>A[t]</tex> to be the unit ideal.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1218</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      The second claim follows from the first along with Nakayama (in <tex>B</tex>).
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><p>
-  A monic polynomial <tex>F \in  A[t]</tex> that has the property stated in <ref addr="sga1-i.7.4" href="sga1-i.7.4.xml" taxon="Corollary" number="I.7.4"/> is said to be a <em>separable polynomial</em> (if <tex>F</tex> is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where <tex>A</tex> is a field, we recover the usual definition).
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1219</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.5</addr><route>sga1-i.7.5.xml</route>     <number>I.7.5</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>B</tex> be an algebra which is <em>finite</em> over the <em>local</em> ring <tex>A</tex>.
-    Suppose that <tex>K(A)</tex> is infinite, or that <tex>B</tex> is local.
-    Let <tex>n</tex> be the rank of <tex>L=B \otimes _A K(A)</tex> over <tex>K(A)=k</tex>.
-    For <tex>B</tex> to be unramified (resp. étale) over <tex>A</tex>, it is necessary and sufficient that <tex>B</tex> be isomorphic to a quotient of (resp. isomorphic to) <tex>A[t]/FA[t]</tex>, where <tex>F</tex> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <tex>n</tex>.
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.3</fr:addr><fr:route>sga1-i.7.3.xml</fr:route><fr:number>I.7.3</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1"></fr:ref>, and supposing that <fr:tex>F</fr:tex> is monic and that <fr:tex>A[t]/FA[t] \to  B</fr:tex> is an isomorphism, in order for <fr:tex>B_ \mathfrak {q}</fr:tex> to be étale over <fr:tex>A_ \mathfrak {p}</fr:tex> it is necessary and sufficient that <fr:tex>\mathfrak {q}</fr:tex> not contain <fr:tex>u'</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1220</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Since <fr:tex>B</fr:tex> is flat over <fr:tex>A</fr:tex>, being étale is equivalent to being unramified, and we can apply <fr:ref
+addr="sga1-i.7.2"
+href="sga1-i.7.2.xml"
+taxon="Corollary"
+number="I.7.2"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.4</fr:addr><fr:route>sga1-i.7.4.xml</fr:route><fr:number>I.7.4</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of <fr:ref
+addr="sga1-i.7.3"
+href="sga1-i.7.3.xml"
+taxon="Corollary"
+number="I.7.3"></fr:ref>, in order for <fr:tex>B</fr:tex> to be étale over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>u'</fr:tex> be invertible, or for the ideal <fr:tex>F'</fr:tex> generated by <fr:tex>F</fr:tex> in <fr:tex>A[t]</fr:tex> to be the unit ideal.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      The second claim follows from the first along with Nakayama (in <fr:tex>B</fr:tex>).
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  A monic polynomial <fr:tex>F \in  A[t]</fr:tex> that has the property stated in <fr:ref
+addr="sga1-i.7.4"
+href="sga1-i.7.4.xml"
+taxon="Corollary"
+number="I.7.4"></fr:ref> is said to be a <fr:em>separable polynomial</fr:em> (if <fr:tex>F</fr:tex> is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where <fr:tex>A</fr:tex> is a field, we recover the usual definition).
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>B</fr:tex> be an algebra which is <fr:em>finite</fr:em> over the <fr:em>local</fr:em> ring <fr:tex>A</fr:tex>.
+    Suppose that <fr:tex>K(A)</fr:tex> is infinite, or that <fr:tex>B</fr:tex> is local.
+    Let <fr:tex>n</fr:tex> be the rank of <fr:tex>L=B \otimes _A K(A)</fr:tex> over <fr:tex>K(A)=k</fr:tex>.
+    For <fr:tex>B</fr:tex> to be unramified (resp. étale) over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>B</fr:tex> be isomorphic to a quotient of (resp. isomorphic to) <fr:tex>A[t]/FA[t]</fr:tex>, where <fr:tex>F</fr:tex> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <fr:tex>n</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
       We only have to prove necessity.
-      Suppose that <tex>B</tex> is unramified over <tex>A</tex>, and thus that <tex>L</tex> is separable over <tex>k</tex>.
-      It then follows from the hypotheses that <tex>L/k</tex> admits a generator <tex>\xi</tex>, and so the <tex>\xi ^i</tex> (for <tex>0 \leq  i&lt;n</tex>) form a basis for <tex>L</tex> over <tex>k</tex>.
-      Let <tex>u \in  B</tex> be a lift of <tex>\xi</tex>;
-      by Nakayama, the <tex>u^i</tex> (for <tex>0 \leq  i&lt;n</tex>) generate (resp. form a basis of) the <tex>A</tex>-module <tex>B</tex>, and, in particular, we obtain a monic polynomial <tex>F \in  A[t]</tex> such that <tex>F(u)=0</tex>;
-      then <tex>B</tex> is isomorphic to a quotient of (resp. isomorphic to) <tex>A[t]/FA[t]</tex>.
-      Finally, by applying <ref addr="sga1-i.7.4" href="sga1-i.7.4.xml" taxon="Corollary" number="I.7.4"/> to <tex>L/k</tex>, we see that <tex>F</tex> and <tex>F'</tex> generate <tex>A[t]</tex> modulo <tex>\mathfrak {m}A[t]</tex>, and so (by Nakayama in <tex>A[t]/FA[t]</tex>) <tex>F</tex> and <tex>F'</tex> generate <tex>A[t]</tex>, and we are done.
-    </p>
-  </mainmatter> </tree>
+      Suppose that <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex>, and thus that <fr:tex>L</fr:tex> is separable over <fr:tex>k</fr:tex>.
+      It then follows from the hypotheses that <fr:tex>L/k</fr:tex> admits a generator <fr:tex>\xi</fr:tex>, and so the <fr:tex>\xi ^i</fr:tex> (for <fr:tex>0 \leq  i&lt;n</fr:tex>) form a basis for <fr:tex>L</fr:tex> over <fr:tex>k</fr:tex>.
+      Let <fr:tex>u \in  B</fr:tex> be a lift of <fr:tex>\xi</fr:tex>;
+      by Nakayama, the <fr:tex>u^i</fr:tex> (for <fr:tex>0 \leq  i&lt;n</fr:tex>) generate (resp. form a basis of) the <fr:tex>A</fr:tex>-module <fr:tex>B</fr:tex>, and, in particular, we obtain a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex>;
+      then <fr:tex>B</fr:tex> is isomorphic to a quotient of (resp. isomorphic to) <fr:tex>A[t]/FA[t]</fr:tex>.
+      Finally, by applying <fr:ref
+addr="sga1-i.7.4"
+href="sga1-i.7.4.xml"
+taxon="Corollary"
+number="I.7.4"></fr:ref> to <fr:tex>L/k</fr:tex>, we see that <fr:tex>F</fr:tex> and <fr:tex>F'</fr:tex> generate <fr:tex>A[t]</fr:tex> modulo <fr:tex>\mathfrak {m}A[t]</fr:tex>, and so (by Nakayama in <fr:tex>A[t]/FA[t]</fr:tex>) <fr:tex>F</fr:tex> and <fr:tex>F'</fr:tex> generate <fr:tex>A[t]</fr:tex>, and we are done.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1221</anchor> <taxon>Theorem</taxon> <addr>sga1-i.7.6</addr><route>sga1-i.7.6.xml</route>     <number>I.7.6</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a local ring, and <tex>A \to \mathcal { O }</tex> a local homomorphism such that <tex>\mathcal { O }</tex> is isomorphic to the localisation of an algebra of finite type over <tex>A</tex>.
-    Suppose that <tex>\mathcal { O }</tex> is <em>unramified</em> over <tex>A</tex>.
-    Then we can find an <tex>A</tex>-algebra <tex>B</tex> that is integral over <tex>A</tex>, a maximal ideal <tex>\mathfrak {n}</tex> of <tex>B</tex>, a generator <tex>u</tex> of <tex>B</tex> over <tex>A</tex>, and a monic polynomial <tex>F \in  A[t]</tex> such that <tex>\mathfrak {n} \not \ni  F'(u)</tex> and such that <tex>\mathcal { O }</tex> is isomorphic (as an <tex>A</tex>-algebra) to <tex>B_ \mathfrak {n}</tex>.
-    If <tex>\mathcal { O }</tex> is étale over <tex>A</tex>, then we can take <tex>B=A[t]/FA[t]</tex>.
-  </p></mainmatter> </tree><p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be a local ring, and <fr:tex>A \to \mathcal { O }</fr:tex> a local homomorphism such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex>A</fr:tex>.
+    Suppose that <fr:tex>\mathcal { O }</fr:tex> is <fr:em>unramified</fr:em> over <fr:tex>A</fr:tex>.
+    Then we can find an <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex> that is integral over <fr:tex>A</fr:tex>, a maximal ideal <fr:tex>\mathfrak {n}</fr:tex> of <fr:tex>B</fr:tex>, a generator <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>, and a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>\mathfrak {n} \not \ni  F'(u)</fr:tex> and such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic (as an <fr:tex>A</fr:tex>-algebra) to <fr:tex>B_ \mathfrak {n}</fr:tex>.
+    If <fr:tex>\mathcal { O }</fr:tex> is étale over <fr:tex>A</fr:tex>, then we can take <fr:tex>B=A[t]/FA[t]</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   (Of course, these conditions are more than sufficient ...)
-</p><p>
-  Before proving <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/>, we first state some nice corollaries:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1222</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.7</addr><route>sga1-i.7.7.xml</route>     <number>I.7.7</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    For <tex>\mathcal { O }</tex> to be unramified over <tex>A</tex>, it is necessary and sufficient that <tex>\mathcal { O }</tex> be isomorphic to the quotient of an algebra which is unramified and <em>étale</em> over <tex>A</tex>.
-  </p>
+</fr:p><fr:p>
+  Before proving <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6"></fr:ref>, we first state some nice corollaries:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.7</fr:addr><fr:route>sga1-i.7.7.xml</fr:route><fr:number>I.7.7</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For <fr:tex>\mathcal { O }</fr:tex> to be unramified over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>\mathcal { O }</fr:tex> be isomorphic to the quotient of an algebra which is unramified and <fr:em>étale</fr:em> over <fr:tex>A</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1223</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We can take <tex>\mathcal { O } '=B'_{ \mathfrak {n}'}</tex>, where <tex>B'=A[t]/FA[t]</tex> and where <tex>\mathfrak {n}'</tex> is the inverse image of <tex>\mathfrak {n}</tex> in <tex>B'</tex>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>389</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We can take <fr:tex>\mathcal { O } '=B'_{ \mathfrak {n}'}</fr:tex>, where <fr:tex>B'=A[t]/FA[t]</fr:tex> and where <fr:tex>\mathfrak {n}'</fr:tex> is the inverse image of <fr:tex>\mathfrak {n}</fr:tex> in <fr:tex>B'</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1224</anchor> <taxon>Corollary</taxon> <addr>sga1-i.7.8</addr><route>sga1-i.7.8.xml</route>     <number>I.7.8</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a morphism of finite type, and <tex>x \in  X</tex>.
-    For <tex>f</tex> to be unramified at <tex>x</tex>, it is necessary and sufficient that there exist an open neighbourhood <tex>U</tex> of <tex>x</tex> such that <tex>f|U</tex> factors as <tex>U \to  X' \to  Y</tex>, where the first arrow is a closed immersion, and the second is an étale morphism.
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.8</fr:addr><fr:route>sga1-i.7.8.xml</fr:route><fr:number>I.7.8</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type, and <fr:tex>x \in  X</fr:tex>.
+    For <fr:tex>f</fr:tex> to be unramified at <fr:tex>x</fr:tex>, it is necessary and sufficient that there exist an open neighbourhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex> such that <fr:tex>f|U</fr:tex> factors as <fr:tex>U \to  X' \to  Y</fr:tex>, where the first arrow is a closed immersion, and the second is an étale morphism.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>1225</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      This is a simple translation of <ref addr="sga1-i.7.7" href="sga1-i.7.7.xml" taxon="Corollary" number="I.7.7"/>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      This is a simple translation of <fr:ref
+addr="sga1-i.7.7"
+href="sga1-i.7.7.xml"
+taxon="Corollary"
+number="I.7.7"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  We will now show how the jargon of <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> follows from the main theorem:
-  there exists, by <ref addr="sga1-i.7.7" href="sga1-i.7.7.xml" taxon="Corollary" number="I.7.7"/>, an epimorphism <tex>\mathcal { O } ' \to \mathcal { O }</tex>, where <tex>\mathcal { O }</tex> has all the desired properties;
-  but since <tex>\mathcal { O } '</tex> and <tex>\mathcal { O }</tex> are étale over <tex>A</tex>, the morphism <tex>\mathcal { O } ' \to \mathcal { O }</tex> is étale by <ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8"/>, and thus an isomorphism.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1226</anchor> <taxon>Proof</taxon> <addr>sga1-i.7.6-proof</addr><route>sga1-i.7.6-proof.xml</route>     <number>I.7.6</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    This mimics a proof from the <em>Séminaire Chevalley</em>.
-    By the &quot;Main Theorem&quot;, we have that <tex>\mathcal { O } =B_ \mathfrak {n}</tex>, where <tex>B</tex> is an algebra that is finite over <tex>A</tex>, and <tex>\mathfrak {n}</tex> is a maximal ideal.
-    Then <tex>B/ \mathfrak {n}=B( \mathcal { O } )</tex> is a separable, and thus monogenous, extension of <tex>k</tex>;
-    if <tex>\mathfrak {n}_i</tex> (for <tex>1 \leq  i \leq  r</tex>) are maximal ideas of <tex>B</tex> that are distinct from <tex>\mathfrak {n}</tex>, then there thus exists an element <tex>u</tex> of <tex>B</tex> that belongs to all the <tex>\mathfrak {n}_i</tex>, and thus whose image in <tex>B/ \mathfrak {n}</tex> is a generator.
-    But <tex>B/ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {n}B_ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</tex> (where <tex>\mathfrak {m}</tex> is the maximal ideal of <tex>A</tex>).
+</fr:mainmatter></fr:tree><fr:p>
+  We will now show how the jargon of <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6"></fr:ref> follows from the main theorem:
+  there exists, by <fr:ref
+addr="sga1-i.7.7"
+href="sga1-i.7.7.xml"
+taxon="Corollary"
+number="I.7.7"></fr:ref>, an epimorphism <fr:tex>\mathcal { O } ' \to \mathcal { O }</fr:tex>, where <fr:tex>\mathcal { O }</fr:tex> has all the desired properties;
+  but since <fr:tex>\mathcal { O } '</fr:tex> and <fr:tex>\mathcal { O }</fr:tex> are étale over <fr:tex>A</fr:tex>, the morphism <fr:tex>\mathcal { O } ' \to \mathcal { O }</fr:tex> is étale by <fr:ref
+addr="sga1-i.4.8"
+href="sga1-i.4.8.xml"
+taxon="Corollary"
+number="I.4.8"></fr:ref>, and thus an isomorphism.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.7.6-proof</fr:addr><fr:route>sga1-i.7.6-proof.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This mimics a proof from the <fr:em>Séminaire Chevalley</fr:em>.
+    By the "Main Theorem", we have that <fr:tex>\mathcal { O } =B_ \mathfrak {n}</fr:tex>, where <fr:tex>B</fr:tex> is an algebra that is finite over <fr:tex>A</fr:tex>, and <fr:tex>\mathfrak {n}</fr:tex> is a maximal ideal.
+    Then <fr:tex>B/ \mathfrak {n}=B( \mathcal { O } )</fr:tex> is a separable, and thus monogenous, extension of <fr:tex>k</fr:tex>;
+    if <fr:tex>\mathfrak {n}_i</fr:tex> (for <fr:tex>1 \leq  i \leq  r</fr:tex>) are maximal ideas of <fr:tex>B</fr:tex> that are distinct from <fr:tex>\mathfrak {n}</fr:tex>, then there thus exists an element <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> that belongs to all the <fr:tex>\mathfrak {n}_i</fr:tex>, and thus whose image in <fr:tex>B/ \mathfrak {n}</fr:tex> is a generator.
+    But <fr:tex>B/ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {n}B_ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> (where <fr:tex>\mathfrak {m}</fr:tex> is the maximal ideal of <fr:tex>A</fr:tex>).
 
-    Suppose, for the moment, that we have both <ref addr="sga1-i.7.9" href="sga1-i.7.9.xml" taxon="Lemma" number="I.7.9"/> and <ref addr="sga1-i.7.10" href="sga1-i.7.10.xml" taxon="Lemma" number="I.7.10"/>.
-    Let <tex>n</tex> be the rank of the <tex>k</tex>-algebra <tex>L=B \otimes _A k</tex>.
-    By Nakayama, there exists a monic polynomial of degree <tex>n</tex> in <tex>A[t]</tex> such that <tex>F(u)=0</tex>.
-    Let <tex>f</tex> be the polynomial induced from <tex>F</tex> by reduction <tex>\mod \mathfrak {m}</tex>.
-    Then <tex>L</tex> is <tex>k</tex>-isomorphic to <tex>k[t]/fk[t]</tex>, and so, by <ref addr="sga1-i.7.3" href="sga1-i.7.3.xml" taxon="Corollary" number="I.7.3"/>, <tex>f'( \xi )</tex> is not contained in the maximal ideal of <tex>L</tex> that corresponds to <tex>\mathfrak {n}</tex> (where <tex>\xi</tex> denotes the image of <tex>t</tex> in <tex>L</tex>, i.e. the image of <tex>u</tex> in <tex>L</tex>).
-    Since <tex>f'( \xi )</tex> is the image of <tex>F'(u)</tex>, we are done.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1227</anchor> <taxon>Lemma</taxon> <addr>sga1-i.7.9</addr><route>sga1-i.7.9.xml</route>     <number>I.7.9</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a local ring, <tex>B</tex> an algebra that is finite over <tex>A</tex>, <tex>\mathfrak {n}</tex> a maximal ideal of <tex>B</tex>, and <tex>u</tex> an element of <tex>B</tex> whose image in <tex>B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</tex> is a generator as an algebra over <tex>k=A/ \mathfrak {m}</tex>, and such that <tex>u</tex> is contained in every maximal ideal of <tex>B</tex> that is distinct from <tex>\mathfrak {n}</tex>.
-    Let <tex>B'=B[u]</tex> and <tex>\mathfrak {n}'= \mathfrak {n}B'</tex>.
-    Then the canonical homomorphism <tex>B'_{ \mathfrak {n}'} \to  B_ \mathfrak {n}</tex> is an isomorphism.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1228</anchor> <taxon>Lemma</taxon> <addr>sga1-i.7.10</addr><route>sga1-i.7.10.xml</route>     <number>I.7.10</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>B</tex> be a algebra that is finite over <tex>A</tex> and generated by a single element <tex>u</tex>, and let <tex>\mathfrak {n}</tex> be a maximal ideal of <tex>B</tex> such that <tex>B_ \mathfrak {n}</tex> is unramified over <tex>A</tex>.
-    Then there exists a monic polynomial <tex>F \in  A[t]</tex> such that <tex>F(u)=0</tex> and <tex>F'(u) \not \in \mathfrak {n}</tex>.
-  </p></mainmatter> </tree><p>
-  N.B. <ref addr="sga1-i.7.10" href="sga1-i.7.10.xml" taxon="Lemma" number="I.7.10"/> should have appeared as a corollary to <ref addr="sga1-i.7.1" href="sga1-i.7.1.xml" taxon="Proposition" number="I.7.1"/>, and before <ref addr="sga1-i.7.5" href="sga1-i.7.5.xml" taxon="Corollary" number="I.7.5"/> (which it implies).
-</p><p>
-  So <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> now follows from the combination of <ref addr="sga1-i.7.9" href="sga1-i.7.9.xml" taxon="Lemma" number="I.7.9"/> and <ref addr="sga1-i.7.10" href="sga1-i.7.10.xml" taxon="Lemma" number="I.7.10"/>;
-  it remains only to prove <ref addr="sga1-i.7.9" href="sga1-i.7.9.xml" taxon="Lemma" number="I.7.9"/>.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1229</anchor> <taxon>Proof</taxon> <addr>sga1-i.7.9-proof</addr><route>sga1-i.7.9-proof.xml</route>     <number>I.7.9</number> <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    Let <tex>S'=B' \setminus \mathfrak {n}'</tex>, so that <tex>B'S'^{-1}=B'_ \mathfrak {n'}</tex>.
-    Similarly, let <tex>S=B \setminus \mathfrak {n}</tex>, so that <tex>BS^{-1}=B_ \mathfrak {n}</tex>.
-    We then have a natural homomorphism <tex>BS'^{-1} \to  BS^{-1}=B_ \mathfrak {n}</tex>;
-    we will show that this is an isomorphism, i.e. that the elements of <tex>S</tex> are invertible in <tex>BS'^{-1}</tex>, i.e. that every maximal ideal <tex>\mathfrak {p}</tex> of <tex>BS'^{-1}</tex> does not meet <tex>S</tex>, i.e. that every maximal ideal of <tex>BS'^{-1}</tex> induces <tex>\mathfrak {n}</tex> on <tex>B</tex>.
-    <tex display="block">        \begin {CD}         B @&gt;&gt;&gt; BS'^{-1} @&gt;&gt;&gt; BS^{-1} = B_ \mathfrak {n}        \\ @AAA @AAA        \\ B' @&gt;&gt;&gt; B'S'^{-1} = B'_{ \mathfrak {n}'}        \end {CD}     </tex>
-    Since <tex>BS'^{-1}</tex> is finite over <tex>B'S'^{-1}=B'_{ \mathfrak {n}'}</tex>, <tex>\mathfrak {p}</tex> induces the unique maximal ideal <tex>\mathfrak {n}'B_{ \mathfrak {n}'}</tex> of <tex>B'_{ \mathfrak {n}'}</tex>, and thus induces the maximal ideal <tex>\mathfrak {n}'</tex> of <tex>B'</tex>;
-    since <tex>B</tex> is finite over <tex>B'</tex>, the ideal <tex>\mathfrak {q}</tex> of <tex>B</tex> induced by <tex>\mathfrak {p}</tex>, which lives over <tex>\mathfrak {n}'</tex>, is necessarily maximal, and does not contain <tex>u</tex>, and is thus identical to <tex>\mathfrak {n}</tex>.
-    (We have just used the fact that <tex>u</tex> belongs to every maximal ideal of <tex>B</tex> that is distinct from <tex>\mathfrak {n}</tex>).
-    We now prove that <tex>BS'^{-1}</tex> is equal to <tex>B'S'^{-1}</tex>:
-    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <tex>\mathfrak {n}'BS'^{-1}</tex>, and, a fortiori, it suffices to prove equality modulo <tex>\mathfrak {m}BS'^{-1}</tex>;
-    but <tex>BS'^{-1}/ \mathfrak {m}BS'^{-1}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</tex> is generated, over <tex>k</tex>, by <tex>u</tex> (here we use the other property of <tex>u</tex>), and so the image of <tex>B'</tex> (and, a fortiori, of <tex>B'S'^{-1}</tex>) inside is everything (as a sub-ring that contains <tex>k</tex> and the image of <tex>u</tex>.)
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1230</anchor> <taxon>Remark</taxon>       <parent>sga1-i.7</parent> </frontmatter> <mainmatter><p>
-    We must be able to state <ref addr="sga1-i.7.6" href="sga1-i.7.6.xml" taxon="Theorem" number="I.7.6"/> for a ring <tex>\mathcal { O }</tex> that is only semi-local, so that we also cover <ref addr="sga1-i.7.5" href="sga1-i.7.5.xml" taxon="Corollary" number="I.7.5"/>:
-    we make the hypothesis that <tex>\mathcal { O } / \mathfrak {m} \mathcal { O }</tex> is a <em>monogenous</em> <tex>k</tex>-algebra;
-    we can thus find some <tex>u \in  B</tex> whose image in <tex>B/ \mathfrak {m}B</tex> is a generator, and belongs to every maximal ideal of <tex>B</tex> that doesn't come from <tex>\mathcal { O }</tex>.
-    Both <ref addr="sga1-i.7.9" href="sga1-i.7.9.xml" taxon="Lemma" number="I.7.9"/> and <ref addr="sga1-i.7.10" href="sga1-i.7.10.xml" taxon="Lemma" number="I.7.10"/> should be able to be adapted without difficulty.
+    Suppose, for the moment, that we have both <fr:ref
+addr="sga1-i.7.9"
+href="sga1-i.7.9.xml"
+taxon="Lemma"
+number="I.7.9"></fr:ref> and <fr:ref
+addr="sga1-i.7.10"
+href="sga1-i.7.10.xml"
+taxon="Lemma"
+number="I.7.10"></fr:ref>.
+    Let <fr:tex>n</fr:tex> be the rank of the <fr:tex>k</fr:tex>-algebra <fr:tex>L=B \otimes _A k</fr:tex>.
+    By Nakayama, there exists a monic polynomial of degree <fr:tex>n</fr:tex> in <fr:tex>A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex>.
+    Let <fr:tex>f</fr:tex> be the polynomial induced from <fr:tex>F</fr:tex> by reduction <fr:tex>\mod \mathfrak {m}</fr:tex>.
+    Then <fr:tex>L</fr:tex> is <fr:tex>k</fr:tex>-isomorphic to <fr:tex>k[t]/fk[t]</fr:tex>, and so, by <fr:ref
+addr="sga1-i.7.3"
+href="sga1-i.7.3.xml"
+taxon="Corollary"
+number="I.7.3"></fr:ref>, <fr:tex>f'( \xi )</fr:tex> is not contained in the maximal ideal of <fr:tex>L</fr:tex> that corresponds to <fr:tex>\mathfrak {n}</fr:tex> (where <fr:tex>\xi</fr:tex> denotes the image of <fr:tex>t</fr:tex> in <fr:tex>L</fr:tex>, i.e. the image of <fr:tex>u</fr:tex> in <fr:tex>L</fr:tex>).
+    Since <fr:tex>f'( \xi )</fr:tex> is the image of <fr:tex>F'(u)</fr:tex>, we are done.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>sga1-i.7.9</fr:addr><fr:route>sga1-i.7.9.xml</fr:route><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be a local ring, <fr:tex>B</fr:tex> an algebra that is finite over <fr:tex>A</fr:tex>, <fr:tex>\mathfrak {n}</fr:tex> a maximal ideal of <fr:tex>B</fr:tex>, and <fr:tex>u</fr:tex> an element of <fr:tex>B</fr:tex> whose image in <fr:tex>B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> is a generator as an algebra over <fr:tex>k=A/ \mathfrak {m}</fr:tex>, and such that <fr:tex>u</fr:tex> is contained in every maximal ideal of <fr:tex>B</fr:tex> that is distinct from <fr:tex>\mathfrak {n}</fr:tex>.
+    Let <fr:tex>B'=B[u]</fr:tex> and <fr:tex>\mathfrak {n}'= \mathfrak {n}B'</fr:tex>.
+    Then the canonical homomorphism <fr:tex>B'_{ \mathfrak {n}'} \to  B_ \mathfrak {n}</fr:tex> is an isomorphism.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>sga1-i.7.10</fr:addr><fr:route>sga1-i.7.10.xml</fr:route><fr:number>I.7.10</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>B</fr:tex> be a algebra that is finite over <fr:tex>A</fr:tex> and generated by a single element <fr:tex>u</fr:tex>, and let <fr:tex>\mathfrak {n}</fr:tex> be a maximal ideal of <fr:tex>B</fr:tex> such that <fr:tex>B_ \mathfrak {n}</fr:tex> is unramified over <fr:tex>A</fr:tex>.
+    Then there exists a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex> and <fr:tex>F'(u) \not \in \mathfrak {n}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  N.B. <fr:ref
+addr="sga1-i.7.10"
+href="sga1-i.7.10.xml"
+taxon="Lemma"
+number="I.7.10"></fr:ref> should have appeared as a corollary to <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1"></fr:ref>, and before <fr:ref
+addr="sga1-i.7.5"
+href="sga1-i.7.5.xml"
+taxon="Corollary"
+number="I.7.5"></fr:ref> (which it implies).
+</fr:p><fr:p>
+  So <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6"></fr:ref> now follows from the combination of <fr:ref
+addr="sga1-i.7.9"
+href="sga1-i.7.9.xml"
+taxon="Lemma"
+number="I.7.9"></fr:ref> and <fr:ref
+addr="sga1-i.7.10"
+href="sga1-i.7.10.xml"
+taxon="Lemma"
+number="I.7.10"></fr:ref>;
+  it remains only to prove <fr:ref
+addr="sga1-i.7.9"
+href="sga1-i.7.9.xml"
+taxon="Lemma"
+number="I.7.9"></fr:ref>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.7.9-proof</fr:addr><fr:route>sga1-i.7.9-proof.xml</fr:route><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S'=B' \setminus \mathfrak {n}'</fr:tex>, so that <fr:tex>B'S'^{-1}=B'_ \mathfrak {n'}</fr:tex>.
+    Similarly, let <fr:tex>S=B \setminus \mathfrak {n}</fr:tex>, so that <fr:tex>BS^{-1}=B_ \mathfrak {n}</fr:tex>.
+    We then have a natural homomorphism <fr:tex>BS'^{-1} \to  BS^{-1}=B_ \mathfrak {n}</fr:tex>;
+    we will show that this is an isomorphism, i.e. that the elements of <fr:tex>S</fr:tex> are invertible in <fr:tex>BS'^{-1}</fr:tex>, i.e. that every maximal ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>BS'^{-1}</fr:tex> does not meet <fr:tex>S</fr:tex>, i.e. that every maximal ideal of <fr:tex>BS'^{-1}</fr:tex> induces <fr:tex>\mathfrak {n}</fr:tex> on <fr:tex>B</fr:tex>.
+    <fr:tex
+display="block">        \begin {CD}         B @&gt;&gt;&gt; BS'^{-1} @&gt;&gt;&gt; BS^{-1} = B_ \mathfrak {n}        \\ @AAA @AAA        \\ B' @&gt;&gt;&gt; B'S'^{-1} = B'_{ \mathfrak {n}'}        \end {CD}     </fr:tex>
+    Since <fr:tex>BS'^{-1}</fr:tex> is finite over <fr:tex>B'S'^{-1}=B'_{ \mathfrak {n}'}</fr:tex>, <fr:tex>\mathfrak {p}</fr:tex> induces the unique maximal ideal <fr:tex>\mathfrak {n}'B_{ \mathfrak {n}'}</fr:tex> of <fr:tex>B'_{ \mathfrak {n}'}</fr:tex>, and thus induces the maximal ideal <fr:tex>\mathfrak {n}'</fr:tex> of <fr:tex>B'</fr:tex>;
+    since <fr:tex>B</fr:tex> is finite over <fr:tex>B'</fr:tex>, the ideal <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex> induced by <fr:tex>\mathfrak {p}</fr:tex>, which lives over <fr:tex>\mathfrak {n}'</fr:tex>, is necessarily maximal, and does not contain <fr:tex>u</fr:tex>, and is thus identical to <fr:tex>\mathfrak {n}</fr:tex>.
+    (We have just used the fact that <fr:tex>u</fr:tex> belongs to every maximal ideal of <fr:tex>B</fr:tex> that is distinct from <fr:tex>\mathfrak {n}</fr:tex>).
+    We now prove that <fr:tex>BS'^{-1}</fr:tex> is equal to <fr:tex>B'S'^{-1}</fr:tex>:
+    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <fr:tex>\mathfrak {n}'BS'^{-1}</fr:tex>, and, a fortiori, it suffices to prove equality modulo <fr:tex>\mathfrak {m}BS'^{-1}</fr:tex>;
+    but <fr:tex>BS'^{-1}/ \mathfrak {m}BS'^{-1}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> is generated, over <fr:tex>k</fr:tex>, by <fr:tex>u</fr:tex> (here we use the other property of <fr:tex>u</fr:tex>), and so the image of <fr:tex>B'</fr:tex> (and, a fortiori, of <fr:tex>B'S'^{-1}</fr:tex>) inside is everything (as a sub-ring that contains <fr:tex>k</fr:tex> and the image of <fr:tex>u</fr:tex>.)
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We must be able to state <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6"></fr:ref> for a ring <fr:tex>\mathcal { O }</fr:tex> that is only semi-local, so that we also cover <fr:ref
+addr="sga1-i.7.5"
+href="sga1-i.7.5.xml"
+taxon="Corollary"
+number="I.7.5"></fr:ref>:
+    we make the hypothesis that <fr:tex>\mathcal { O } / \mathfrak {m} \mathcal { O }</fr:tex> is a <fr:em>monogenous</fr:em> <fr:tex>k</fr:tex>-algebra;
+    we can thus find some <fr:tex>u \in  B</fr:tex> whose image in <fr:tex>B/ \mathfrak {m}B</fr:tex> is a generator, and belongs to every maximal ideal of <fr:tex>B</fr:tex> that doesn't come from <fr:tex>\mathcal { O }</fr:tex>.
+    Both <fr:ref
+addr="sga1-i.7.9"
+href="sga1-i.7.9.xml"
+taxon="Lemma"
+number="I.7.9"></fr:ref> and <fr:ref
+addr="sga1-i.7.10"
+href="sga1-i.7.10.xml"
+taxon="Lemma"
+number="I.7.10"></fr:ref> should be able to be adapted without difficulty.
     More generally, ...
-  </p></mainmatter> </tree></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

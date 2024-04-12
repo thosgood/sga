@@ -1,263 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3392</anchor>  <addr>sga1-introduction-2</addr><route>sga1-introduction-2.xml</route>     <number>2</number> <parent>sga1-introduction</parent> </frontmatter> <mainmatter><p>
-    The present volume constitutes tome 1 of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, whose following volumes are intended to appear in the same series as this one.
-    The aim of the <em>Séminaire</em>, parallel to the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
-    The standard reference for all the volumes of the <em>Séminaire</em> consists of Chapters I, II, and III of <em>Éléments de Géométrie Algébrique</em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The present volume constitutes tome 1 of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, whose following volumes are intended to appear in the same series as this one.
+    The aim of the <fr:em>Séminaire</fr:em>, parallel to the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
+    The standard reference for all the volumes of the <fr:em>Séminaire</fr:em> consists of Chapters I, II, and III of <fr:em>Éléments de Géométrie Algébrique</fr:em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
     (See the Introduction of EGA I for more precise details.)
-    Furthermore, in each volume of the <em>Séminaire</em>, we will freely refer as needed to previous volumes of the same <em>Séminaire</em>, or to other chapters of <em>Éléments</em>, either already published or on the brink of being published.
-  </p><p>
-    Each <em>volume</em> of the <em>Séminaire</em> is based on a main subject, indicated in the title of the corresponding volume(s);
+    Furthermore, in each volume of the <fr:em>Séminaire</fr:em>, we will freely refer as needed to previous volumes of the same <fr:em>Séminaire</fr:em>, or to other chapters of <fr:em>Éléments</fr:em>, either already published or on the brink of being published.
+  </fr:p><fr:p>
+    Each <fr:em>volume</fr:em> of the <fr:em>Séminaire</fr:em> is based on a main subject, indicated in the title of the corresponding volume(s);
     the oral seminar generally lasts one academic year, sometimes more.
-    The exposés within each volume of the <em>Séminaire</em> are generally in a logical order of dependence on one another;
-    however, the different volumes of the <em>Séminaire</em> are largely logically independent of one another.
-    So the volume &quot;Group schemes&quot; is largely logically independent of the two volumes of the <em>Séminaire</em> that come before it chronologically;
+    The exposés within each volume of the <fr:em>Séminaire</fr:em> are generally in a logical order of dependence on one another;
+    however, the different volumes of the <fr:em>Séminaire</fr:em> are largely logically independent of one another.
+    So the volume "Group schemes" is largely logically independent of the two volumes of the <fr:em>Séminaire</fr:em> that come before it chronologically;
     however, it makes frequent reference to results of EGA IV.
-    Here is the list of the volumes of the <em>Séminaire</em> that should appear (cited as SGA I to SGA 7 in what follows):
-  </p><ul><li><strong>SGA 1.</strong>
+    Here is the list of the volumes of the <fr:em>Séminaire</fr:em> that should appear (cited as SGA I to SGA 7 in what follows):
+  </fr:p><fr:ul><fr:li><fr:strong>SGA 1.</fr:strong>
       Étale covers and the fundamental group, 1960/61.
-    </li>
-    <li><strong>SGA 2.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 2.</fr:strong>
       Local cohomology of coherent sheaves and local and global Lefschetz theorems, 1961/62.
-    </li>
-    <li><strong>SGA 3.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 3.</fr:strong>
       Group schemes, 1963/64 (3 volumes, in collaboration with M. Demazure).
-    </li>
-    <li><strong>SGA 4.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 4.</fr:strong>
       Topos theory and étale cohomology of schemes, 1963/64 (3 volumes, in collaboration with M. Artin and J.L. Verdier).
-    </li>
-    <li><strong>SGA 5.</strong>
-      <tex>\ell</tex>-adic cohomology and <tex>L</tex>-functions, 1964/65 (2 volumes).
-    </li>
-    <li><strong>SGA 6.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 5.</fr:strong>
+      <fr:tex>\ell</fr:tex>-adic cohomology and <fr:tex>L</fr:tex>-functions, 1964/65 (2 volumes).
+    </fr:li>
+    <fr:li><fr:strong>SGA 6.</fr:strong>
       Intersection theory and the Riemann--Roch theorem, 1966/67 (2 volumes, in collaboration with P. Berthelot and L. Illusie).
-    </li>
-    <li><strong>SGA 7.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 7.</fr:strong>
       Local monodromy groups in algebraic geometry.
-    </li></ul><p>
-    Three of these partial <em>Séminaires</em> have been written in <em>collaboration</em> with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
-    As for the other active participants of the <em>Séminaire</em>, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
-  </p><p>
-    It is useful to give some precise remarks concerning the relation between the <em>Séminaire</em> and the <em>Éléments</em>.
+    </fr:li></fr:ul><fr:p>
+    Three of these partial <fr:em>Séminaires</fr:em> have been written in <fr:em>collaboration</fr:em> with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
+    As for the other active participants of the <fr:em>Séminaire</fr:em>, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
+  </fr:p><fr:p>
+    It is useful to give some precise remarks concerning the relation between the <fr:em>Séminaire</fr:em> and the <fr:em>Éléments</fr:em>.
     The latter was intended, in principle, to give an exposé of a set of ideas and techniques that were judged to be the most fundamental in Algebraic Geometry, as these ideas and techniques emerge all by themselves from the natural requirements of logical and aesthetic coherence.
-    From this point of view, it was natural to consider the <em>Séminaire</em> as a preliminary version of the <em>Éléments</em>, destined to be included almost entirely, sooner or later, in the latter.
+    From this point of view, it was natural to consider the <fr:em>Séminaire</fr:em> as a preliminary version of the <fr:em>Éléments</fr:em>, destined to be included almost entirely, sooner or later, in the latter.
     This process had already somewhat started a few years ago, since Exposés I to IV of the current volume (SGA 1) are entirely covered by EGA IV, and Exposés VI to VIII should be, in some years, in EGA VI.
-    However, given how the work in constructing the <em>Éléments</em> and the <em>Séminaire</em> is developing, and as the proportions of the two become more precise, the initial principle (that the <em>Séminaire</em> should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
-    Taking into account the care that is generally given to the writing of the various parts of the <em>Séminaire</em>, there will doubtless be no need to go back over them in the <em>Éléments</em> (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
+    However, given how the work in constructing the <fr:em>Éléments</fr:em> and the <fr:em>Séminaire</fr:em> is developing, and as the proportions of the two become more precise, the initial principle (that the <fr:em>Séminaire</fr:em> should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
+    Taking into account the care that is generally given to the writing of the various parts of the <fr:em>Séminaire</fr:em>, there will doubtless be no need to go back over them in the <fr:em>Éléments</fr:em> (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
     This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mme. Raynaud).
     However, nothing currently indicates that this will also be the case in the near future for any of the other parts mentioned above (SGA 3 to SGA 7).
-  </p><p><em>[Trans.] We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.</em></p><p>
+  </fr:p><fr:p><fr:em>[Trans.] We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.</fr:em></fr:p><fr:p>
     Finally, for the ease of the reader, every time that it seems necessary, at the end of the volumes of the SGA we attach an index of notation and an index of terminology containing, if necessary, an English translation of the French terms used.
-  </p><p>
+  </fr:p><fr:p>
     I want to add an extra-mathematical comment to this introduction.
     In the month of November, 1969, I discovered that the Institut des Hautes Études Scientifiques, where I have been a professor essentially since its founding, had been receiving subventions from the Ministère des Armées for three years.
     Already as a young researcher, I found it extremely regrettable how few qualms the majority of scientists had in agreeing to collaborate in one form or another with military institutions.
     My motivations back then were essentially of a moral nature, and thus not very likely to be taken seriously.
     Today they acquire a new force and dimension, given the danger of destruction of the human species threatened by the proliferation of military institutions and of the means of mass destruction that they posses.
     I have explained my thoughts on these problems, which are much more important than the advancement of any of the sciences (mathematics included), in more detail in other places;
-    the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal <em>Survivre</em> (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
+    the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal <fr:em>Survivre</fr:em> (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
     So I found myself working for three years at an institution even though it was, unbeknownst to me, participating in a financing model that I consider immoral and dangerous.
     (It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.)
     Being currently the only person to have this opinion amongst my colleagues at the IHES, which has condemned to fail my efforts to suppress military subventions from the IHES budget, I have taken the necessary decision to leave the IHES on the 30th of September, 1970, and to equally suspend all scientific collaboration with this institute for as long as it continues to accept such subventions.
-    I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>.
-    As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the <em>Lecture Notes</em> series.
+    I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>.
+    As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the <fr:em>Lecture Notes</fr:em> series.
     I am happy to thank here Springer and Mr. K. Peters for the efficient and polite help that they have given me in making this publication possible, in particular for dealing with the typing of the photo-offset of new exposés added to old seminars, and of missing exposés in incomplete seminars.
-  </p><p>
+  </fr:p><fr:p>
     I equally thank Mr. J.P. Delale, who had the thankless job of compiling the index of notation and the index of terminology.
-  </p><p><em>Massy, August 1970.</em></p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3393</anchor>  <addr>sga1-introduction</addr><route>sga1-introduction.xml</route>    <title><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Introduction</title>  <parent>sga1</parent> </frontmatter> <mainmatter><p>
-  In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, of which the present volume constitutes the first tome.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3394</anchor>  <addr>sga1-introduction-1</addr><route>sga1-introduction-1.xml</route>     <number>1</number> <parent>sga1-introduction</parent> </frontmatter> <mainmatter><p>
-    The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the &quot;Kroneckerian&quot; point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
-    This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck (cited as &quot;EGA&quot;).
-    The study of this present volume of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
-  </p><p>
-    Exposés I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which were distributed by the <em>Institut des Hautes Études Scientifiques</em>.
-    (As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em> from now on will appear in book form, like the present volume.)
-    We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, &quot;simple morphism&quot; being replaced with &quot;smooth morphism&quot;, which does not lead to the same confusion).
-  </p><p>
-    Exposés I to IV present the local notions of <em>étale</em> and <em>smooth</em> morphisms;
-    they hardly ever use the language of schemes, as detailed in Chapter I of the <em>Éléments</em>.
+  </fr:p><fr:p><fr:em>Massy, August 1970.</fr:em></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>635</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, of which the present volume constitutes the first tome.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>631</fr:anchor><fr:addr>sga1-introduction-1</fr:addr><fr:route>sga1-introduction-1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
+    This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck (cited as "EGA").
+    The study of this present volume of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
+  </fr:p><fr:p>
+    Exposés I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which were distributed by the <fr:em>Institut des Hautes Études Scientifiques</fr:em>.
+    (As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em> from now on will appear in book form, like the present volume.)
+    We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, "simple morphism" being replaced with "smooth morphism", which does not lead to the same confusion).
+  </fr:p><fr:p>
+    Exposés I to IV present the local notions of <fr:em>étale</fr:em> and <fr:em>smooth</fr:em> morphisms;
+    they hardly ever use the language of schemes, as detailed in Chapter I of the <fr:em>Éléments</fr:em>.
     (A more complete study is now available in EGA IV, 17 and 18.)
     Exposé V presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of usual Galois theory.
-    Exposés VI and VIII present the <em>theory of descent</em>, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
-    We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud (&quot;Méthode de la Descente&quot;. <em>Bull. Soc. Math. France</em> <strong>2</strong> (1964), viii+150 p.).
+    Exposés VI and VIII present the <fr:em>theory of descent</fr:em>, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
+    We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud ("Méthode de la Descente". <fr:em>Bull. Soc. Math. France</fr:em> <fr:strong>2</fr:strong> (1964), viii+150 p.).
     In Exposé IX, we study more specifically the theory of descent by étale morphisms, obtaining a systematic approach for Van Kampen type theorems for the fundamental group, which appear here as simple translations of theorems of descent.
-    This essentially involves a calculation of the fundamental group of a connected scheme <tex>X</tex> endowed with a surjective and proper morphism (say, <tex>X' \to  X</tex>) in terms of the fundamental groups of the connected components of <tex>X'</tex> and of the fibre products <tex>X' \times _X X'</tex>, <tex>X' \times _X X' \times _X X'</tex>, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
-    Exposé X gives the theory of <em>specialisation of the fundamental group</em> for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic <tex>p&gt;0</tex>, thanks to the known result obtained by transcendental methods in characteristic zero.
+    This essentially involves a calculation of the fundamental group of a connected scheme <fr:tex>X</fr:tex> endowed with a surjective and proper morphism (say, <fr:tex>X' \to  X</fr:tex>) in terms of the fundamental groups of the connected components of <fr:tex>X'</fr:tex> and of the fibre products <fr:tex>X' \times _X X'</fr:tex>, <fr:tex>X' \times _X X' \times _X X'</fr:tex>, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
+    Exposé X gives the theory of <fr:em>specialisation of the fundamental group</fr:em> for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic <fr:tex>p&gt;0</fr:tex>, thanks to the known result obtained by transcendental methods in characteristic zero.
     Exposé XI gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
-    For other commentaries on the text, see the <link href="sga1-foreword.xml" type="local" addr="sga1-foreword" title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</link>, found after this Introduction.
-  </p><p>
-    Since the writing of the seminar in 1961, the language of <em>étale topology</em>, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
-    it is detailed in tome 4 (&quot;Cohomologie étale des schémas&quot;) of the <em>Séminaire de Géométrie Algébrique</em>, which will appear in the same series as the present volume.
+    For other commentaries on the text, see the <fr:link
+href="sga1-foreword.xml"
+type="local"
+addr="sga1-foreword">Foreword</fr:link>, found after this Introduction.
+  </fr:p><fr:p>
+    Since the writing of the seminar in 1961, the language of <fr:em>étale topology</fr:em>, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
+    it is detailed in tome 4 ("Cohomologie étale des schémas") of the <fr:em>Séminaire de Géométrie Algébrique</fr:em>, which will appear in the same series as the present volume.
     This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
-    There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in <em>loc. cit.</em>).
-    This was what was planed for the chapter of <em>Éléments</em> dedicated to the fundamental group, which also had to cover many other ideas which could not find their place here (relying on the technique of resolution of singularities):
-    calculation of the &quot;local fundamental group&quot; of a complete local ring in terms of a suitable resolution of singularities of the ring, local and global Künneth formulas for the fundamental group without any hypotheses of properness (cf. Exposé XIII), the results of M. Artin on the comparison of the local fundamental groups of an excellent Henselian local ring and of its completion (SGA 4 XIX).
-    We also note the necessity of developing a theory of the fundamental group of a topos, which would simultaneously cover the ordinary topological theory, the semi-simplicial version, the &quot;profinite&quot; version developed in Exposé V, and the slightly more general pro-discrete version found in [SGA 3 X 7] (adapted to the case of non-normal and non-unibranch schemes).
+    There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in <fr:em>loc. cit.</fr:em>).
+    This was what was planed for the chapter of <fr:em>Éléments</fr:em> dedicated to the fundamental group, which also had to cover many other ideas which could not find their place here (relying on the technique of resolution of singularities):
+    calculation of the "local fundamental group" of a complete local ring in terms of a suitable resolution of singularities of the ring, local and global Künneth formulas for the fundamental group without any hypotheses of properness (cf. Exposé XIII), the results of M. Artin on the comparison of the local fundamental groups of an excellent Henselian local ring and of its completion (SGA 4 XIX).
+    We also note the necessity of developing a theory of the fundamental group of a topos, which would simultaneously cover the ordinary topological theory, the semi-simplicial version, the "profinite" version developed in Exposé V, and the slightly more general pro-discrete version found in [SGA 3 X 7] (adapted to the case of non-normal and non-unibranch schemes).
     While we wait for such a rewriting of the whole theory, Exposé XIII, by Mme Raynaud, using the language and results of SGA 4, aims to show the part that we can extract in some typical questions, most notably generalising certain results of Exposé X to non-proper relative schemes.
-    There we give, in particular, the structure of the &quot;prime at <tex>p</tex>&quot; fundamental group of a non-complete algebraic curve in arbitrary characteristic (which I announced in 1959, but for which a proof had not been published up until now).
-  </p><p>
+    There we give, in particular, the structure of the "prime at <fr:tex>p</fr:tex>" fundamental group of a non-complete algebraic curve in arbitrary characteristic (which I announced in 1959, but for which a proof had not been published up until now).
+  </fr:p><fr:p>
     Despite these numerous gaps and imperfections (as others would say: because of these gaps and imperfections), I think that the present volume could be useful for the reader who wishes to familiarise themselves with the theory of the fundamental group, as well as a work of reference, while we await the writing and appearance of a text that avoids the criticisms that I have just listed.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3395</anchor>  <addr>sga1-introduction-2</addr><route>sga1-introduction-2.xml</route>     <number>2</number> <parent>sga1-introduction</parent> </frontmatter> <mainmatter><p>
-    The present volume constitutes tome 1 of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, whose following volumes are intended to appear in the same series as this one.
-    The aim of the <em>Séminaire</em>, parallel to the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
-    The standard reference for all the volumes of the <em>Séminaire</em> consists of Chapters I, II, and III of <em>Éléments de Géométrie Algébrique</em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The present volume constitutes tome 1 of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, whose following volumes are intended to appear in the same series as this one.
+    The aim of the <fr:em>Séminaire</fr:em>, parallel to the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
+    The standard reference for all the volumes of the <fr:em>Séminaire</fr:em> consists of Chapters I, II, and III of <fr:em>Éléments de Géométrie Algébrique</fr:em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
     (See the Introduction of EGA I for more precise details.)
-    Furthermore, in each volume of the <em>Séminaire</em>, we will freely refer as needed to previous volumes of the same <em>Séminaire</em>, or to other chapters of <em>Éléments</em>, either already published or on the brink of being published.
-  </p><p>
-    Each <em>volume</em> of the <em>Séminaire</em> is based on a main subject, indicated in the title of the corresponding volume(s);
+    Furthermore, in each volume of the <fr:em>Séminaire</fr:em>, we will freely refer as needed to previous volumes of the same <fr:em>Séminaire</fr:em>, or to other chapters of <fr:em>Éléments</fr:em>, either already published or on the brink of being published.
+  </fr:p><fr:p>
+    Each <fr:em>volume</fr:em> of the <fr:em>Séminaire</fr:em> is based on a main subject, indicated in the title of the corresponding volume(s);
     the oral seminar generally lasts one academic year, sometimes more.
-    The exposés within each volume of the <em>Séminaire</em> are generally in a logical order of dependence on one another;
-    however, the different volumes of the <em>Séminaire</em> are largely logically independent of one another.
-    So the volume &quot;Group schemes&quot; is largely logically independent of the two volumes of the <em>Séminaire</em> that come before it chronologically;
+    The exposés within each volume of the <fr:em>Séminaire</fr:em> are generally in a logical order of dependence on one another;
+    however, the different volumes of the <fr:em>Séminaire</fr:em> are largely logically independent of one another.
+    So the volume "Group schemes" is largely logically independent of the two volumes of the <fr:em>Séminaire</fr:em> that come before it chronologically;
     however, it makes frequent reference to results of EGA IV.
-    Here is the list of the volumes of the <em>Séminaire</em> that should appear (cited as SGA I to SGA 7 in what follows):
-  </p><ul><li><strong>SGA 1.</strong>
+    Here is the list of the volumes of the <fr:em>Séminaire</fr:em> that should appear (cited as SGA I to SGA 7 in what follows):
+  </fr:p><fr:ul><fr:li><fr:strong>SGA 1.</fr:strong>
       Étale covers and the fundamental group, 1960/61.
-    </li>
-    <li><strong>SGA 2.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 2.</fr:strong>
       Local cohomology of coherent sheaves and local and global Lefschetz theorems, 1961/62.
-    </li>
-    <li><strong>SGA 3.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 3.</fr:strong>
       Group schemes, 1963/64 (3 volumes, in collaboration with M. Demazure).
-    </li>
-    <li><strong>SGA 4.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 4.</fr:strong>
       Topos theory and étale cohomology of schemes, 1963/64 (3 volumes, in collaboration with M. Artin and J.L. Verdier).
-    </li>
-    <li><strong>SGA 5.</strong>
-      <tex>\ell</tex>-adic cohomology and <tex>L</tex>-functions, 1964/65 (2 volumes).
-    </li>
-    <li><strong>SGA 6.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 5.</fr:strong>
+      <fr:tex>\ell</fr:tex>-adic cohomology and <fr:tex>L</fr:tex>-functions, 1964/65 (2 volumes).
+    </fr:li>
+    <fr:li><fr:strong>SGA 6.</fr:strong>
       Intersection theory and the Riemann--Roch theorem, 1966/67 (2 volumes, in collaboration with P. Berthelot and L. Illusie).
-    </li>
-    <li><strong>SGA 7.</strong>
+    </fr:li>
+    <fr:li><fr:strong>SGA 7.</fr:strong>
       Local monodromy groups in algebraic geometry.
-    </li></ul><p>
-    Three of these partial <em>Séminaires</em> have been written in <em>collaboration</em> with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
-    As for the other active participants of the <em>Séminaire</em>, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
-  </p><p>
-    It is useful to give some precise remarks concerning the relation between the <em>Séminaire</em> and the <em>Éléments</em>.
+    </fr:li></fr:ul><fr:p>
+    Three of these partial <fr:em>Séminaires</fr:em> have been written in <fr:em>collaboration</fr:em> with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
+    As for the other active participants of the <fr:em>Séminaire</fr:em>, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
+  </fr:p><fr:p>
+    It is useful to give some precise remarks concerning the relation between the <fr:em>Séminaire</fr:em> and the <fr:em>Éléments</fr:em>.
     The latter was intended, in principle, to give an exposé of a set of ideas and techniques that were judged to be the most fundamental in Algebraic Geometry, as these ideas and techniques emerge all by themselves from the natural requirements of logical and aesthetic coherence.
-    From this point of view, it was natural to consider the <em>Séminaire</em> as a preliminary version of the <em>Éléments</em>, destined to be included almost entirely, sooner or later, in the latter.
+    From this point of view, it was natural to consider the <fr:em>Séminaire</fr:em> as a preliminary version of the <fr:em>Éléments</fr:em>, destined to be included almost entirely, sooner or later, in the latter.
     This process had already somewhat started a few years ago, since Exposés I to IV of the current volume (SGA 1) are entirely covered by EGA IV, and Exposés VI to VIII should be, in some years, in EGA VI.
-    However, given how the work in constructing the <em>Éléments</em> and the <em>Séminaire</em> is developing, and as the proportions of the two become more precise, the initial principle (that the <em>Séminaire</em> should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
-    Taking into account the care that is generally given to the writing of the various parts of the <em>Séminaire</em>, there will doubtless be no need to go back over them in the <em>Éléments</em> (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
+    However, given how the work in constructing the <fr:em>Éléments</fr:em> and the <fr:em>Séminaire</fr:em> is developing, and as the proportions of the two become more precise, the initial principle (that the <fr:em>Séminaire</fr:em> should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
+    Taking into account the care that is generally given to the writing of the various parts of the <fr:em>Séminaire</fr:em>, there will doubtless be no need to go back over them in the <fr:em>Éléments</fr:em> (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
     This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mme. Raynaud).
     However, nothing currently indicates that this will also be the case in the near future for any of the other parts mentioned above (SGA 3 to SGA 7).
-  </p><p><em>[Trans.] We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.</em></p><p>
+  </fr:p><fr:p><fr:em>[Trans.] We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.</fr:em></fr:p><fr:p>
     Finally, for the ease of the reader, every time that it seems necessary, at the end of the volumes of the SGA we attach an index of notation and an index of terminology containing, if necessary, an English translation of the French terms used.
-  </p><p>
+  </fr:p><fr:p>
     I want to add an extra-mathematical comment to this introduction.
     In the month of November, 1969, I discovered that the Institut des Hautes Études Scientifiques, where I have been a professor essentially since its founding, had been receiving subventions from the Ministère des Armées for three years.
     Already as a young researcher, I found it extremely regrettable how few qualms the majority of scientists had in agreeing to collaborate in one form or another with military institutions.
     My motivations back then were essentially of a moral nature, and thus not very likely to be taken seriously.
     Today they acquire a new force and dimension, given the danger of destruction of the human species threatened by the proliferation of military institutions and of the means of mass destruction that they posses.
     I have explained my thoughts on these problems, which are much more important than the advancement of any of the sciences (mathematics included), in more detail in other places;
-    the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal <em>Survivre</em> (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
+    the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal <fr:em>Survivre</fr:em> (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
     So I found myself working for three years at an institution even though it was, unbeknownst to me, participating in a financing model that I consider immoral and dangerous.
     (It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.)
     Being currently the only person to have this opinion amongst my colleagues at the IHES, which has condemned to fail my efforts to suppress military subventions from the IHES budget, I have taken the necessary decision to leave the IHES on the 30th of September, 1970, and to equally suspend all scientific collaboration with this institute for as long as it continues to accept such subventions.
-    I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>.
-    As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the <em>Lecture Notes</em> series.
+    I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>.
+    As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the <fr:em>Lecture Notes</fr:em> series.
     I am happy to thank here Springer and Mr. K. Peters for the efficient and polite help that they have given me in making this publication possible, in particular for dealing with the typing of the photo-offset of new exposés added to old seminars, and of missing exposés in incomplete seminars.
-  </p><p>
+  </fr:p><fr:p>
     I equally thank Mr. J.P. Delale, who had the thankless job of compiling the index of notation and the index of terminology.
-  </p><p><em>Massy, August 1970.</em></p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3396</anchor>  <addr>sga1-introduction</addr><route>sga1-introduction.xml</route>    <title><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Introduction</title>  <parent>sga1</parent> </frontmatter> <mainmatter><p>
-  In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, of which the present volume constitutes the first tome.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3397</anchor>  <addr>sga1-introduction-1</addr><route>sga1-introduction-1.xml</route>     <number>1</number> <parent>sga1-introduction</parent> </frontmatter> <mainmatter><p>
-    The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the &quot;Kroneckerian&quot; point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
-    This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck (cited as &quot;EGA&quot;).
-    The study of this present volume of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
-  </p><p>
-    Exposés I to XI of this book are a textual reproduction, practically unchanged, of the mimeographed notes from the oral seminar, which were distributed by the <em>Institut des Hautes Études Scientifiques</em>.
-    (As well as the notes of the following seminars. Since this method of distribution turned out to be impractical and inadequate in the long term, all the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em> from now on will appear in book form, like the present volume.)
-    We have restricted ourselves to adding some footnotes to the original text, correcting typos, and making an adjustment to terminology (notably, &quot;simple morphism&quot; being replaced with &quot;smooth morphism&quot;, which does not lead to the same confusion).
-  </p><p>
-    Exposés I to IV present the local notions of <em>étale</em> and <em>smooth</em> morphisms;
-    they hardly ever use the language of schemes, as detailed in Chapter I of the <em>Éléments</em>.
-    (A more complete study is now available in EGA IV, 17 and 18.)
-    Exposé V presents the axiomatic description of the fundamental group of a scheme, which is useful even in the classical case where the scheme is simply the spectrum of a field, since we then find a strong and convenient reformulation of usual Galois theory.
-    Exposés VI and VIII present the <em>theory of descent</em>, which has become more and more important in algebraic geometry over the past few years, and which could do the same in analytic geometry and in topology.
-    We note that Exposé VII was not transcribed, but its contents can be found incorporated into an article by J. Giraud (&quot;Méthode de la Descente&quot;. <em>Bull. Soc. Math. France</em> <strong>2</strong> (1964), viii+150 p.).
-    In Exposé IX, we study more specifically the theory of descent by étale morphisms, obtaining a systematic approach for Van Kampen type theorems for the fundamental group, which appear here as simple translations of theorems of descent.
-    This essentially involves a calculation of the fundamental group of a connected scheme <tex>X</tex> endowed with a surjective and proper morphism (say, <tex>X' \to  X</tex>) in terms of the fundamental groups of the connected components of <tex>X'</tex> and of the fibre products <tex>X' \times _X X'</tex>, <tex>X' \times _X X' \times _X X'</tex>, and the homomorphisms between these groups induced by the canonical simplicial morphisms between the above schemes.
-    Exposé X gives the theory of <em>specialisation of the fundamental group</em> for a proper and smooth morphism, with the most striking result being the determination (more or less) of the fundamental group of a smooth algebraic curve in characteristic <tex>p&gt;0</tex>, thanks to the known result obtained by transcendental methods in characteristic zero.
-    Exposé XI gives some examples and addenda, including a cohomological version of Kummer's theory of coverings, as well as Artin--Schreier's.
-    For other commentaries on the text, see the <link href="sga1-foreword.xml" type="local" addr="sga1-foreword" title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</link>, found after this Introduction.
-  </p><p>
-    Since the writing of the seminar in 1961, the language of <em>étale topology</em>, along with a corresponding cohomology theory, has been developed by M. Artin in collaboration with myself;
-    it is detailed in tome 4 (&quot;Cohomologie étale des schémas&quot;) of the <em>Séminaire de Géométrie Algébrique</em>, which will appear in the same series as the present volume.
-    This language, as well as the results that it has given up until now, give us a particularly supple tool for the study of the fundamental group, allowing us to better understand (and even improve upon) certain results given here.
-    There will thus be a need to entirely rewrite the theory of the fundamental group from this point of view (in fact, all the key results so far appear in <em>loc. cit.</em>).
-    This was what was planed for the chapter of <em>Éléments</em> dedicated to the fundamental group, which also had to cover many other ideas which could not find their place here (relying on the technique of resolution of singularities):
-    calculation of the &quot;local fundamental group&quot; of a complete local ring in terms of a suitable resolution of singularities of the ring, local and global Künneth formulas for the fundamental group without any hypotheses of properness (cf. Exposé XIII), the results of M. Artin on the comparison of the local fundamental groups of an excellent Henselian local ring and of its completion (SGA 4 XIX).
-    We also note the necessity of developing a theory of the fundamental group of a topos, which would simultaneously cover the ordinary topological theory, the semi-simplicial version, the &quot;profinite&quot; version developed in Exposé V, and the slightly more general pro-discrete version found in [SGA 3 X 7] (adapted to the case of non-normal and non-unibranch schemes).
-    While we wait for such a rewriting of the whole theory, Exposé XIII, by Mme Raynaud, using the language and results of SGA 4, aims to show the part that we can extract in some typical questions, most notably generalising certain results of Exposé X to non-proper relative schemes.
-    There we give, in particular, the structure of the &quot;prime at <tex>p</tex>&quot; fundamental group of a non-complete algebraic curve in arbitrary characteristic (which I announced in 1959, but for which a proof had not been published up until now).
-  </p><p>
-    Despite these numerous gaps and imperfections (as others would say: because of these gaps and imperfections), I think that the present volume could be useful for the reader who wishes to familiarise themselves with the theory of the fundamental group, as well as a work of reference, while we await the writing and appearance of a text that avoids the criticisms that I have just listed.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3398</anchor>  <addr>sga1-introduction-2</addr><route>sga1-introduction-2.xml</route>     <number>2</number> <parent>sga1-introduction</parent> </frontmatter> <mainmatter><p>
-    The present volume constitutes tome 1 of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>, whose following volumes are intended to appear in the same series as this one.
-    The aim of the <em>Séminaire</em>, parallel to the <em>Éléments de Géométrie Algébrique</em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
-    The standard reference for all the volumes of the <em>Séminaire</em> consists of Chapters I, II, and III of <em>Éléments de Géométrie Algébrique</em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
-    (See the Introduction of EGA I for more precise details.)
-    Furthermore, in each volume of the <em>Séminaire</em>, we will freely refer as needed to previous volumes of the same <em>Séminaire</em>, or to other chapters of <em>Éléments</em>, either already published or on the brink of being published.
-  </p><p>
-    Each <em>volume</em> of the <em>Séminaire</em> is based on a main subject, indicated in the title of the corresponding volume(s);
-    the oral seminar generally lasts one academic year, sometimes more.
-    The exposés within each volume of the <em>Séminaire</em> are generally in a logical order of dependence on one another;
-    however, the different volumes of the <em>Séminaire</em> are largely logically independent of one another.
-    So the volume &quot;Group schemes&quot; is largely logically independent of the two volumes of the <em>Séminaire</em> that come before it chronologically;
-    however, it makes frequent reference to results of EGA IV.
-    Here is the list of the volumes of the <em>Séminaire</em> that should appear (cited as SGA I to SGA 7 in what follows):
-  </p><ul><li><strong>SGA 1.</strong>
-      Étale covers and the fundamental group, 1960/61.
-    </li>
-    <li><strong>SGA 2.</strong>
-      Local cohomology of coherent sheaves and local and global Lefschetz theorems, 1961/62.
-    </li>
-    <li><strong>SGA 3.</strong>
-      Group schemes, 1963/64 (3 volumes, in collaboration with M. Demazure).
-    </li>
-    <li><strong>SGA 4.</strong>
-      Topos theory and étale cohomology of schemes, 1963/64 (3 volumes, in collaboration with M. Artin and J.L. Verdier).
-    </li>
-    <li><strong>SGA 5.</strong>
-      <tex>\ell</tex>-adic cohomology and <tex>L</tex>-functions, 1964/65 (2 volumes).
-    </li>
-    <li><strong>SGA 6.</strong>
-      Intersection theory and the Riemann--Roch theorem, 1966/67 (2 volumes, in collaboration with P. Berthelot and L. Illusie).
-    </li>
-    <li><strong>SGA 7.</strong>
-      Local monodromy groups in algebraic geometry.
-    </li></ul><p>
-    Three of these partial <em>Séminaires</em> have been written in <em>collaboration</em> with other mathematicians, who appear as coauthors on the covers of the corresponding volumes.
-    As for the other active participants of the <em>Séminaire</em>, whose roles (from as much of an editorial point of view as a mathematical one) have grown over the years, the name of each participant appears at the top of the exposés for which they are responsible, either as speaker or as writer, and the list of those who appear in a given volume can be found on the flyleaf of the volume in question.
-  </p><p>
-    It is useful to give some precise remarks concerning the relation between the <em>Séminaire</em> and the <em>Éléments</em>.
-    The latter was intended, in principle, to give an exposé of a set of ideas and techniques that were judged to be the most fundamental in Algebraic Geometry, as these ideas and techniques emerge all by themselves from the natural requirements of logical and aesthetic coherence.
-    From this point of view, it was natural to consider the <em>Séminaire</em> as a preliminary version of the <em>Éléments</em>, destined to be included almost entirely, sooner or later, in the latter.
-    This process had already somewhat started a few years ago, since Exposés I to IV of the current volume (SGA 1) are entirely covered by EGA IV, and Exposés VI to VIII should be, in some years, in EGA VI.
-    However, given how the work in constructing the <em>Éléments</em> and the <em>Séminaire</em> is developing, and as the proportions of the two become more precise, the initial principle (that the <em>Séminaire</em> should be only a preliminary and provisional version) seems less and less realistic, for the reason (amongst others) of the limits imposed by the long-sighted nature of the length of the human life.
-    Taking into account the care that is generally given to the writing of the various parts of the <em>Séminaire</em>, there will doubtless be no need to go back over them in the <em>Éléments</em> (or other treaties that would take over from it) until further progress in the writing process would allow us to make very substantial improvements, at the cost of rather big changes.
-    This is the case as of now for the current seminar SGA 1, as we said above, and also for SGA 2 (thanks to recent results by Mme. Raynaud).
-    However, nothing currently indicates that this will also be the case in the near future for any of the other parts mentioned above (SGA 3 to SGA 7).
-  </p><p><em>[Trans.] We omit one paragraph from this translation since it simply describes the citation and cross-reference formatting of the book, which we do not precisely follow here.</em></p><p>
-    Finally, for the ease of the reader, every time that it seems necessary, at the end of the volumes of the SGA we attach an index of notation and an index of terminology containing, if necessary, an English translation of the French terms used.
-  </p><p>
-    I want to add an extra-mathematical comment to this introduction.
-    In the month of November, 1969, I discovered that the Institut des Hautes Études Scientifiques, where I have been a professor essentially since its founding, had been receiving subventions from the Ministère des Armées for three years.
-    Already as a young researcher, I found it extremely regrettable how few qualms the majority of scientists had in agreeing to collaborate in one form or another with military institutions.
-    My motivations back then were essentially of a moral nature, and thus not very likely to be taken seriously.
-    Today they acquire a new force and dimension, given the danger of destruction of the human species threatened by the proliferation of military institutions and of the means of mass destruction that they posses.
-    I have explained my thoughts on these problems, which are much more important than the advancement of any of the sciences (mathematics included), in more detail in other places;
-    the reader can, for example, consult the article by G. Edwards in the Volume 1 of the journal <em>Survivre</em> (August, 1970), which gives a more detailed summary of these problems than I have done elsewhere.
-    So I found myself working for three years at an institution even though it was, unbeknownst to me, participating in a financing model that I consider immoral and dangerous.
-    (It goes without saying that the opinion that I express here is entirely my own, and not that of the publishing house Springer, which is editing this volume.)
-    Being currently the only person to have this opinion amongst my colleagues at the IHES, which has condemned to fail my efforts to suppress military subventions from the IHES budget, I have taken the necessary decision to leave the IHES on the 30th of September, 1970, and to equally suspend all scientific collaboration with this institute for as long as it continues to accept such subventions.
-    I have asked M. Motchane, the director of the IHES, for the IHES to abstain, starting from the 1st of October, 1970, from sharing mathematical texts of which I am an author, or which form part of the <em>Séminaire de Géométrie Algébrique du Bois-Marie</em>.
-    As was mentioned above, the diffusion of this seminar will be undertaken by the publishing house Julius Springer, in the <em>Lecture Notes</em> series.
-    I am happy to thank here Springer and Mr. K. Peters for the efficient and polite help that they have given me in making this publication possible, in particular for dealing with the typing of the photo-offset of new exposés added to old seminars, and of missing exposés in incomplete seminars.
-  </p><p>
-    I equally thank Mr. J.P. Delale, who had the thankless job of compiling the index of notation and the index of terminology.
-  </p><p><em>Massy, August 1970.</em></p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+  </fr:p><fr:p><fr:em>Massy, August 1970.</fr:em></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

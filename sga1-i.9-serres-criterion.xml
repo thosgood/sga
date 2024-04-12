@@ -1,53 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>6737</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title><link href="sga1-i.9.5.i-proof-1.xml" type="local" addr="sga1-i.9.5.i-proof-1" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</link> › Serre's criterion</title>  <parent>sga1-i.9.5.i-proof-1</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
-        For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
-      </li>
-      <li>
-        For every rank-<tex>\geq2</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, the depth of <tex>A_ \mathfrak {p}</tex> is <tex>\geq2</tex>.
-        (cf. EGA IV 5.8.6.)</li></ol></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>6738</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
-    We use the following necessary and sufficient condition for a local Noetherian ring <tex>A</tex> of dimension <tex>\neq0</tex> to be normal.
-  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>6739</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title><link href="sga1-i.9.5.i-proof-1.xml" type="local" addr="sga1-i.9.5.i-proof-1" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</link> › Serre's criterion</title>  <parent>sga1-i.9.5.i-proof-1</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
-        For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
-      </li>
-      <li>
-        For every rank-<tex>\geq2</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, the depth of <tex>A_ \mathfrak {p}</tex> is <tex>\geq2</tex>.
-        (cf. EGA IV 5.8.6.)</li></ol></mainmatter> </tree><p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
+href="sga1-i.9.5.i-proof-1.xml"
+type="local"
+addr="sga1-i.9.5.i-proof-1"><fr:link
+href="sga1-i.9.xml"
+type="local"
+addr="sga1-i.9"><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:link> › Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+      </fr:li>
+      <fr:li>
+        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>778</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+href="sga1-i.9.xml"
+type="local"
+addr="sga1-i.9"><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex>A</fr:tex> of dimension <fr:tex>\neq0</fr:tex> to be normal.
+  </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+      </fr:li>
+      <fr:li>
+        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
     We assume this criterion here, but it should also appear in the section on flatness.
-    Its main advantage is that it does not suppose a priori that <tex>A</tex> is reduced, nor a fortiori that <tex>A</tex> is integral.
-    Here, we can already suppose that <tex>\dim  A= \dim  B \neq0</tex>.
-  </p><p>
-    By the statements at the start of this section, the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {p}</tex> of <tex>A</tex> are exactly the intersections of <tex>A</tex> with the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {q}</tex> of <tex>B</tex>.
-    Finally, if <tex>\mathfrak {p}</tex> and <tex>\mathfrak {q}</tex> correspond to one another, then <tex>B_ \mathfrak {q}</tex> is étale over <tex>A_ \mathfrak {p}</tex>, and thus of the same depth as <tex>A_ \mathfrak {p}</tex>, and is regular if and only if <tex>A_ \mathfrak {p}</tex> is (by <ref addr="sga1-i.9.1" href="sga1-i.9.1.xml" taxon="Proposition" number="I.9.1"/>).
-    Applying <link href="sga1-i.9-serres-criterion.xml" type="local" addr="sga1-i.9-serres-criterion" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</link>, we see that <tex>A</tex> is normal if and only if <tex>B</tex> is.
-  </p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>6740</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
-    We use the following necessary and sufficient condition for a local Noetherian ring <tex>A</tex> of dimension <tex>\neq0</tex> to be normal.
-  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>6741</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title><link href="sga1-i.9.5.i-proof-1.xml" type="local" addr="sga1-i.9.5.i-proof-1" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</link> › Serre's criterion</title>  <parent>sga1-i.9.5.i-proof-1</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
-        For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
-      </li>
-      <li>
-        For every rank-<tex>\geq2</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, the depth of <tex>A_ \mathfrak {p}</tex> is <tex>\geq2</tex>.
-        (cf. EGA IV 5.8.6.)</li></ol></mainmatter> </tree><p>
+    Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
+    Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.
+  </fr:p><fr:p>
+    By the statements at the start of this section, the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex> are exactly the intersections of <fr:tex>A</fr:tex> with the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex>.
+    Finally, if <fr:tex>\mathfrak {p}</fr:tex> and <fr:tex>\mathfrak {q}</fr:tex> correspond to one another, then <fr:tex>B_ \mathfrak {q}</fr:tex> is étale over <fr:tex>A_ \mathfrak {p}</fr:tex>, and thus of the same depth as <fr:tex>A_ \mathfrak {p}</fr:tex>, and is regular if and only if <fr:tex>A_ \mathfrak {p}</fr:tex> is (by <fr:ref
+addr="sga1-i.9.1"
+href="sga1-i.9.1.xml"
+taxon="Proposition"
+number="I.9.1"></fr:ref>).
+    Applying <fr:link
+href="sga1-i.9-serres-criterion.xml"
+type="local"
+addr="sga1-i.9-serres-criterion">Serre's criterion</fr:link>, we see that <fr:tex>A</fr:tex> is normal if and only if <fr:tex>B</fr:tex> is.
+  </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+href="sga1-i.9.xml"
+type="local"
+addr="sga1-i.9"><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex>A</fr:tex> of dimension <fr:tex>\neq0</fr:tex> to be normal.
+  </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+      </fr:li>
+      <fr:li>
+        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
     We assume this criterion here, but it should also appear in the section on flatness.
-    Its main advantage is that it does not suppose a priori that <tex>A</tex> is reduced, nor a fortiori that <tex>A</tex> is integral.
-    Here, we can already suppose that <tex>\dim  A= \dim  B \neq0</tex>.
-  </p><p>
-    By the statements at the start of this section, the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {p}</tex> of <tex>A</tex> are exactly the intersections of <tex>A</tex> with the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {q}</tex> of <tex>B</tex>.
-    Finally, if <tex>\mathfrak {p}</tex> and <tex>\mathfrak {q}</tex> correspond to one another, then <tex>B_ \mathfrak {q}</tex> is étale over <tex>A_ \mathfrak {p}</tex>, and thus of the same depth as <tex>A_ \mathfrak {p}</tex>, and is regular if and only if <tex>A_ \mathfrak {p}</tex> is (by <ref addr="sga1-i.9.1" href="sga1-i.9.1.xml" taxon="Proposition" number="I.9.1"/>).
-    Applying <link href="sga1-i.9-serres-criterion.xml" type="local" addr="sga1-i.9-serres-criterion" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</link>, we see that <tex>A</tex> is normal if and only if <tex>B</tex> is.
-  </p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>6742</anchor> <taxon>Proof</taxon> <addr>sga1-i.9.5.i-proof-1</addr><route>sga1-i.9.5.i-proof-1.xml</route>    <title><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</title> <number>I.9.5.i</number> <parent>sga1-i.9</parent> </frontmatter> <mainmatter><p>
-    We use the following necessary and sufficient condition for a local Noetherian ring <tex>A</tex> of dimension <tex>\neq0</tex> to be normal.
-  </p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>6743</anchor>  <addr>sga1-i.9-serres-criterion</addr><route>sga1-i.9-serres-criterion.xml</route>    <title><link href="sga1-i.9.5.i-proof-1.xml" type="local" addr="sga1-i.9.5.i-proof-1" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><link href="sga1-i.9.xml" type="local" addr="sga1-i.9" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Invariance properties</link> › First proof</link> › Serre's criterion</title>  <parent>sga1-i.9.5.i-proof-1</parent> </frontmatter> <mainmatter><p><strong><em>TO-DO: the following list should be i, ii</em></strong></p><ol><li>
-        For every rank-<tex>1</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, <tex>A_ \mathfrak {p}</tex> is normal (or, equivalently, regular);
-      </li>
-      <li>
-        For every rank-<tex>\geq2</tex> prime ideal <tex>\mathfrak {p}</tex> of <tex>A</tex>, the depth of <tex>A_ \mathfrak {p}</tex> is <tex>\geq2</tex>.
-        (cf. EGA IV 5.8.6.)</li></ol></mainmatter> </tree><p>
-    We assume this criterion here, but it should also appear in the section on flatness.
-    Its main advantage is that it does not suppose a priori that <tex>A</tex> is reduced, nor a fortiori that <tex>A</tex> is integral.
-    Here, we can already suppose that <tex>\dim  A= \dim  B \neq0</tex>.
-  </p><p>
-    By the statements at the start of this section, the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {p}</tex> of <tex>A</tex> are exactly the intersections of <tex>A</tex> with the rank-<tex>1</tex> (resp. rank-<tex>\geq2</tex>) prime ideals <tex>\mathfrak {q}</tex> of <tex>B</tex>.
-    Finally, if <tex>\mathfrak {p}</tex> and <tex>\mathfrak {q}</tex> correspond to one another, then <tex>B_ \mathfrak {q}</tex> is étale over <tex>A_ \mathfrak {p}</tex>, and thus of the same depth as <tex>A_ \mathfrak {p}</tex>, and is regular if and only if <tex>A_ \mathfrak {p}</tex> is (by <ref addr="sga1-i.9.1" href="sga1-i.9.1.xml" taxon="Proposition" number="I.9.1"/>).
-    Applying <link href="sga1-i.9-serres-criterion.xml" type="local" addr="sga1-i.9-serres-criterion" title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</link>, we see that <tex>A</tex> is normal if and only if <tex>B</tex> is.
-  </p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+    Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
+    Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.
+  </fr:p><fr:p>
+    By the statements at the start of this section, the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex> are exactly the intersections of <fr:tex>A</fr:tex> with the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex>.
+    Finally, if <fr:tex>\mathfrak {p}</fr:tex> and <fr:tex>\mathfrak {q}</fr:tex> correspond to one another, then <fr:tex>B_ \mathfrak {q}</fr:tex> is étale over <fr:tex>A_ \mathfrak {p}</fr:tex>, and thus of the same depth as <fr:tex>A_ \mathfrak {p}</fr:tex>, and is regular if and only if <fr:tex>A_ \mathfrak {p}</fr:tex> is (by <fr:ref
+addr="sga1-i.9.1"
+href="sga1-i.9.1.xml"
+taxon="Proposition"
+number="I.9.1"></fr:ref>).
+    Applying <fr:link
+href="sga1-i.9-serres-criterion.xml"
+type="local"
+addr="sga1-i.9-serres-criterion">Serre's criterion</fr:link>, we see that <fr:tex>A</fr:tex> is normal if and only if <fr:tex>B</fr:tex> is.
+  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

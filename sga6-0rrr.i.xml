@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3414</anchor>  <addr>sga6-0rrr.i</addr><route>sga6-0rrr.i.xml</route>    <title><link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Classes of sheaves and the Riemann–Roch theorem</link> › <tex>\lambda</tex>-rings (formal preliminaries)</title> <number>I</number> <parent>sga6-0rrr</parent> </frontmatter> <mainmatter><p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>649</fr:anchor><fr:addr>sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title><fr:link
+href="sga6-0rrr.xml"
+type="local"
+addr="sga6-0rrr"><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:link> › <fr:tex>\lambda</fr:tex>-rings (formal preliminaries)</fr:title><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
-</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3415</anchor> <taxon>Exposé</taxon> <addr>sga6-0rrr</addr><route>sga6-0rrr.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Classes of sheaves and the Riemann–Roch theorem</title> <number>0RRR</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>648</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3416</anchor>  <addr>sga6-0rrr.i</addr><route>sga6-0rrr.i.xml</route>    <title><link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Classes of sheaves and the Riemann–Roch theorem</link> › <tex>\lambda</tex>-rings (formal preliminaries)</title> <number>I</number> <parent>sga6-0rrr</parent> </frontmatter> <mainmatter><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>646</fr:anchor><fr:addr>sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title><fr:tex>\lambda</fr:tex>-rings (formal preliminaries)</fr:title><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
-</p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3417</anchor> <taxon>Exposé</taxon> <addr>sga6-0rrr</addr><route>sga6-0rrr.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Classes of sheaves and the Riemann–Roch theorem</title> <number>0RRR</number> <parent>sga6</parent> </frontmatter> <mainmatter><p>
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3418</anchor>  <addr>sga6-0rrr.i</addr><route>sga6-0rrr.i.xml</route>    <title><link href="sga6-0rrr.xml" type="local" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Classes of sheaves and the Riemann–Roch theorem</link> › <tex>\lambda</tex>-rings (formal preliminaries)</title> <number>I</number> <parent>sga6-0rrr</parent> </frontmatter> <mainmatter><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>646</fr:anchor><fr:addr>sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title><fr:tex>\lambda</fr:tex>-rings (formal preliminaries)</fr:title><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
-</p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

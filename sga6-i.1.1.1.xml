@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3419</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3420</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title><link href="sga6-i.1.xml" type="local" addr="sga6-i.1" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories › Preliminary definitions"><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</link> › Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number> <parent>sga6-i.1</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3421</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3422</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>653</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title><fr:link
+href="sga6-i.1.xml"
+type="local"
+addr="sga6-i.1"><fr:link
+href="sga6-i.xml"
+type="local"
+addr="sga6-i"><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:link> › Preliminary definitions</fr:link> › Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
-  </p></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>3423</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title><link href="sga6-i.1.xml" type="local" addr="sga6-i.1" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories › Preliminary definitions"><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</link> › Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number> <parent>sga6-i.1</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3424</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>3425</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
-    ...
-  </p></mainmatter> </tree></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

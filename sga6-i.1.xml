@@ -1,240 +1,420 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>5980</anchor> <taxon>Section</taxon> <addr>sga6-i.1</addr><route>sga6-i.1.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</title> <number>I.1</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5981</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number>  </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5982</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number>  </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5983</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number>  </frontmatter> <mainmatter><p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
+href="sga6-i.xml"
+type="local"
+addr="sga6-i"><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:link> › Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
-  </p></mainmatter> </tree></mainmatter> </tree></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>5984</anchor> <taxon>Exposé</taxon> <addr>sga6-i</addr><route>sga6-i.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</title> <number>I</number> <parent>sga6</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5985</anchor> <taxon>Section</taxon> <addr>sga6-i.0</addr><route>sga6-i.0.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Introduction</title> <number>I.0</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><p>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>755</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
-</p><p>
-  As was mentioned in <ref addr="sga6-0" href="sga6-0.xml" taxon="Exposé" number="0"/>, it is the need to define &quot;Grothendieck groups&quot; that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
-</p><p>
-  The classical notion of coherent sheaves on a ringed space <tex>(X, \mathcal { O } _X)</tex> becomes uninteresting as soon as <tex>\mathcal { O } _X</tex> is no longer coherent.
+</fr:p><fr:p>
+  As was mentioned in <fr:ref
+addr="sga6-0"
+href="sga6-0.xml"
+taxon="Exposé"
+number="0"></fr:ref>, it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
+</fr:p><fr:p>
+  The classical notion of coherent sheaves on a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex> becomes uninteresting as soon as <fr:tex>\mathcal { O } _X</fr:tex> is no longer coherent.
   We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
-  We arrive at a satisfying notion by remarking that, if <tex>\mathcal { O } _X</tex> is coherent, then a coherent sheaf <tex>\mathcal { F }</tex> is not only of finite presentation but also of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>, where &quot;finite <tex>n</tex>-presentation&quot; means that there exists, locally, an exact sequence
-  <tex display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  If we no longer suppose the sheaf <tex>\mathcal { O } _X</tex> to be coherent, then we say that an <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> if it satisfies the above condition, i.e. if it is of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>.
-  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <tex>\mathcal { O } _X</tex>-modules are pseudo-coherent, then so too is the third.
-  We can easily generalise the above notion to complexes of sheaves: a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is said to be <em>pseudo-coherent</em> if it is <tex>n</tex>-pseudo-coherent for all <tex>n \in \mathbb {Z}</tex>, where &quot;<tex>n</tex>-pseudo coherent&quot; means that there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded-above complex, whose components in degree <tex>\geq  n</tex> are free sheaves of finite type.
-  For a complex <tex>\mathcal { F }</tex> concentrated in degree <tex>0</tex>, to say that <tex>\mathcal { F }</tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
-  The notion of a pseudo-coherent complex has excellent stability properties, described in <ref addr="sga6-i.1" href="sga6-i.1.xml" taxon="Section" number="I.1"/> and [sga6-i.2 <strong>(?)</strong>].
-  Firstly, it is stable under isomorphism in the derived category <tex>D(X)</tex> of the category of <tex>\mathcal { O } _X</tex>-modules;
-  even better, if two objects of a distinguished triangle in <tex>D(X)</tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <tex>D(X)_ \mathrm {coh}</tex> of <tex>D(X)</tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
+  We arrive at a satisfying notion by remarking that, if <fr:tex>\mathcal { O } _X</fr:tex> is coherent, then a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> is not only of finite presentation but also of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>, where "finite <fr:tex>n</fr:tex>-presentation" means that there exists, locally, an exact sequence
+  <fr:tex
+display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  If we no longer suppose the sheaf <fr:tex>\mathcal { O } _X</fr:tex> to be coherent, then we say that an <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> if it satisfies the above condition, i.e. if it is of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>.
+  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <fr:tex>\mathcal { O } _X</fr:tex>-modules are pseudo-coherent, then so too is the third.
+  We can easily generalise the above notion to complexes of sheaves: a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is said to be <fr:em>pseudo-coherent</fr:em> if it is <fr:tex>n</fr:tex>-pseudo-coherent for all <fr:tex>n \in \mathbb {Z}</fr:tex>, where "<fr:tex>n</fr:tex>-pseudo coherent" means that there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded-above complex, whose components in degree <fr:tex>\geq  n</fr:tex> are free sheaves of finite type.
+  For a complex <fr:tex>\mathcal { F }</fr:tex> concentrated in degree <fr:tex>0</fr:tex>, to say that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
+  The notion of a pseudo-coherent complex has excellent stability properties, described in <fr:ref
+addr="sga6-i.1"
+href="sga6-i.1.xml"
+taxon="Section"
+number="I.1"></fr:ref> and [sga6-i.2 <fr:strong>(?)</fr:strong>].
+  Firstly, it is stable under isomorphism in the derived category <fr:tex>D(X)</fr:tex> of the category of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  even better, if two objects of a distinguished triangle in <fr:tex>D(X)</fr:tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <fr:tex>D(X)_ \mathrm {coh}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
   Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
-  In the case where <tex>\mathcal { O } _X</tex> is coherent, to say that a complex <tex>\mathcal { F }</tex> is pseudo-coherent simply means that the cohomology of <tex>\mathcal { F }</tex> is locally bounded above and that all the <tex>\mathcal { H } ^i( \mathcal { F } )</tex> are coherent.
-</p><p>
-  If <tex>\mathcal { O } _X</tex> is a sheaf of regular local rings, then every coherent <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> locally admits a <em>finite</em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
-  <tex display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  It is thus natural, when <tex>\mathcal { O } _X</tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
-  such modules are called <em>perfect</em>.
-  More generally, we say that a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is <em>perfect</em> if there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded complex of free modules of finite type.
-  In [sga6-i.3 <strong>(?)</strong>], we show that the full subcategory <tex>D(X)_ \mathrm {perf}</tex> of <tex>D(X)</tex> consisting of perfect complexes is, like <tex>D(X)_ \mathrm {coh}</tex>, a triangulated subcategory that is &quot;stable&quot; under inverse images and derived tensor products.
-  We clearly have that <tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</tex>, but the inclusion is strict in general.
-  Pseudo-coherence can also be defined &quot;by passing to the limit&quot; from perfectness: a complex <tex>\mathcal { F }</tex> is pseudo-coherent if and only if, for all <tex>n \in \mathbb {Z}</tex>, <tex>\mathcal { F }</tex> can be &quot;locally approximated to order <tex>n</tex> by a perfect complex&quot;, by which we mean that there exists, locally, a distinguished triangle
-  <tex display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</tex>
-  where <tex>\mathcal { L }</tex> is perfect, and <tex>\mathcal { R }</tex> is acyclic in degree <tex>\geq  n</tex>.
-  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <strong>(?)</strong>]).
+  In the case where <fr:tex>\mathcal { O } _X</fr:tex> is coherent, to say that a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent simply means that the cohomology of <fr:tex>\mathcal { F }</fr:tex> is locally bounded above and that all the <fr:tex>\mathcal { H } ^i( \mathcal { F } )</fr:tex> are coherent.
+</fr:p><fr:p>
+  If <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of regular local rings, then every coherent <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> locally admits a <fr:em>finite</fr:em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+  <fr:tex
+display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  It is thus natural, when <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
+  such modules are called <fr:em>perfect</fr:em>.
+  More generally, we say that a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is <fr:em>perfect</fr:em> if there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded complex of free modules of finite type.
+  In [sga6-i.3 <fr:strong>(?)</fr:strong>], we show that the full subcategory <fr:tex>D(X)_ \mathrm {perf}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of perfect complexes is, like <fr:tex>D(X)_ \mathrm {coh}</fr:tex>, a triangulated subcategory that is "stable" under inverse images and derived tensor products.
+  We clearly have that <fr:tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</fr:tex>, but the inclusion is strict in general.
+  Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent if and only if, for all <fr:tex>n \in \mathbb {Z}</fr:tex>, <fr:tex>\mathcal { F }</fr:tex> can be "locally approximated to order <fr:tex>n</fr:tex> by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
+  <fr:tex
+display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</fr:tex>
+  where <fr:tex>\mathcal { L }</fr:tex> is perfect, and <fr:tex>\mathcal { R }</fr:tex> is acyclic in degree <fr:tex>\geq  n</fr:tex>.
+  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <fr:strong>(?)</fr:strong>]).
   We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
-</p><p>
+</fr:p><fr:p>
   Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
   Sections I.1 to I.5 of this present exposé are dedicated to their definition, and to establishing their elementary stability properties.
   For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
-  It also turns out to be practical — and useful, most notably in [sga6-ii <strong>(?)</strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
-</p><p>
+  It also turns out to be practical — and useful, most notably in [sga6-ii <fr:strong>(?)</fr:strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
+</fr:p><fr:p>
   Sections I.6 to I.8 of this present exposé generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.
-</p><p>
-  In [sga6-ii <strong>(?)</strong>], we examine the problem of &quot;the existence of global resolutions&quot;: under what conditions, on a ringed topos <tex>(X, \mathcal { O } _X)</tex>, is a pseudo-coherent (resp. perfect) complex <em>globally</em> isomorphic in <tex>D(X)</tex> to a complex of locally free modules of finite type?
-  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <strong>(?)</strong>]).
+</fr:p><fr:p>
+  In [sga6-ii <fr:strong>(?)</fr:strong>], we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos <fr:tex>(X, \mathcal { O } _X)</fr:tex>, is a pseudo-coherent (resp. perfect) complex <fr:em>globally</fr:em> isomorphic in <fr:tex>D(X)</fr:tex> to a complex of locally free modules of finite type?
+  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <fr:strong>(?)</fr:strong>]).
   This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
-  Such criteria are given in [sga6-ii <strong>(?)</strong>].
+  Such criteria are given in [sga6-ii <fr:strong>(?)</fr:strong>].
   In particular, we show that there exist global resolutions in the following cases:
-  <tex>X</tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
-  or <tex>X</tex> is the topos of sheaves of sets on a compact topological space, and <tex>\mathcal { O } _X</tex> is the sheaf of continuous complex-valued functions.
-  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a &quot;purely sheaf-theoretic&quot; definition of the index of a family of elliptic operators.
-</p><p>[sga6-iii <strong>(?)</strong>] studies the stability of finiteness conditions under the derived direct image.
-  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness &quot;into perspective&quot;.
+  <fr:tex>X</fr:tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
+  or <fr:tex>X</fr:tex> is the topos of sheaves of sets on a compact topological space, and <fr:tex>\mathcal { O } _X</fr:tex> is the sheaf of continuous complex-valued functions.
+  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.
+</fr:p><fr:p>[sga6-iii <fr:strong>(?)</fr:strong>] studies the stability of finiteness conditions under the derived direct image.
+  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
   We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
-  Let <tex>p \colon  X \to  S</tex> be an <tex>S</tex>-scheme locally of finite type, and let <tex>\mathcal { F }</tex> be a complex of <tex>\mathcal { O } _X</tex>-modules;
-  we say that <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> (resp. <em>perfect</em>) <em>with respect to <tex>p</tex></em> if we can locally embed (by a closed immersion) <tex>X</tex> into a smooth <tex>S</tex>-scheme <tex>X'</tex> in such a way that the extension of <tex>\mathcal { F }</tex> by zero on <tex>X'</tex> is pseudo-coherent (resp. perfect).
-  The notion of pseudo-coherence with respect to <tex>p</tex> is especially interesting in the case where <tex>S</tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-  On the other hand, as we might expect, to say that <tex>\mathcal { F }</tex> is perfect with respect to <tex>p</tex> is equivalent to saying that <tex>\mathcal { F }</tex> is pseudo-coherent with respect to <tex>p</tex> and locally of finite tor-dimension with respect to <tex>p</tex> (i.e. with respect to the sheaf of rings <tex>p^{-1}( \mathcal { O } _S)</tex>).
-  The central theorem of [sga6-iii <strong>(?)</strong>] is the <em>finiteness theorem</em>, which affirms (in a slightly more precise way) that, if <tex>f \colon  X \to  Y</tex> is a <em>proper</em> morphism of <tex>S</tex>-schemes locally of finite type, then the functor <tex>\mathbb {R}f_*</tex> sends complexes that are pseudo-coherent with respect to <tex>S</tex> to complexes that are pseudo-coherent with respect to <tex>S</tex>;
+  Let <fr:tex>p \colon  X \to  S</fr:tex> be an <fr:tex>S</fr:tex>-scheme locally of finite type, and let <fr:tex>\mathcal { F }</fr:tex> be a complex of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  we say that <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> (resp. <fr:em>perfect</fr:em>) <fr:em>with respect to <fr:tex>p</fr:tex></fr:em> if we can locally embed (by a closed immersion) <fr:tex>X</fr:tex> into a smooth <fr:tex>S</fr:tex>-scheme <fr:tex>X'</fr:tex> in such a way that the extension of <fr:tex>\mathcal { F }</fr:tex> by zero on <fr:tex>X'</fr:tex> is pseudo-coherent (resp. perfect).
+  The notion of pseudo-coherence with respect to <fr:tex>p</fr:tex> is especially interesting in the case where <fr:tex>S</fr:tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+  On the other hand, as we might expect, to say that <fr:tex>\mathcal { F }</fr:tex> is perfect with respect to <fr:tex>p</fr:tex> is equivalent to saying that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent with respect to <fr:tex>p</fr:tex> and locally of finite tor-dimension with respect to <fr:tex>p</fr:tex> (i.e. with respect to the sheaf of rings <fr:tex>p^{-1}( \mathcal { O } _S)</fr:tex>).
+  The central theorem of [sga6-iii <fr:strong>(?)</fr:strong>] is the <fr:em>finiteness theorem</fr:em>, which affirms (in a slightly more precise way) that, if <fr:tex>f \colon  X \to  Y</fr:tex> is a <fr:em>proper</fr:em> morphism of <fr:tex>S</fr:tex>-schemes locally of finite type, then the functor <fr:tex>\mathbb {R}f_*</fr:tex> sends complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex> to complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex>;
   this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
-</p><p><strong><em>TO-DO: the following list should be a, b</em></strong></p><ol><li><tex>S</tex> is locally Noetherian;
-  </li>
-  <li><tex>f</tex> is projective.
-  </li></ol><p>
-  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's &quot;theorem&quot;).
-  Combining the finiteness theorem with an essentially trivial formula called the <em>projection formula</em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
-  We recover, as a corollary, &quot;Grauert's continuity and semi-continuity theorems&quot; (EGA III 7.6).
-</p><p>[sga6-iv <strong>(?)</strong>] translates the results of Exposés I to III into the language of &quot;Grothendieck groups&quot;.
-  On a ringed space <tex>(X, \mathcal { O } _X)</tex>, we denote by <tex>K^ \bullet (X)</tex> (resp. <tex>K_ \bullet (X)</tex>) the &quot;Grothendieck group&quot; of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
-  The group <tex>K^ \bullet (X)</tex> is a ring, and <tex>K_ \bullet (X)</tex> is a module over <tex>K^ \bullet (X)</tex>.
-  As suggested by the superscript bullet, <tex>K^ \bullet</tex> is a contravariant functor, whilst <tex>K_ \bullet</tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
-  There are also unusual variances (covariance of <tex>K^ \bullet</tex> and contravariance of <tex>K_ \bullet</tex>) for morphisms satisfying suitable regularity hypotheses.
-  Finally, the globalisation criteria of [sga6-ii <strong>(?)</strong>] allow us to make the link with the &quot;Grothendieck groups&quot; defined naively from coherent sheaves or locally free sheaves of finite type.
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5986</anchor> <taxon>Section</taxon> <addr>sga6-i.1</addr><route>sga6-i.1.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</title> <number>I.1</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5987</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number>  </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5988</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number>  </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5989</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number>  </frontmatter> <mainmatter><p>
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be a, b</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>S</fr:tex> is locally Noetherian;
+  </fr:li>
+  <fr:li><fr:tex>f</fr:tex> is projective.
+  </fr:li></fr:ol><fr:p>
+  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's "theorem").
+  Combining the finiteness theorem with an essentially trivial formula called the <fr:em>projection formula</fr:em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
+  We recover, as a corollary, "Grauert's continuity and semi-continuity theorems" (EGA III 7.6).
+</fr:p><fr:p>[sga6-iv <fr:strong>(?)</fr:strong>] translates the results of Exposés I to III into the language of "Grothendieck groups".
+  On a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex>, we denote by <fr:tex>K^ \bullet (X)</fr:tex> (resp. <fr:tex>K_ \bullet (X)</fr:tex>) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+  The group <fr:tex>K^ \bullet (X)</fr:tex> is a ring, and <fr:tex>K_ \bullet (X)</fr:tex> is a module over <fr:tex>K^ \bullet (X)</fr:tex>.
+  As suggested by the superscript bullet, <fr:tex>K^ \bullet</fr:tex> is a contravariant functor, whilst <fr:tex>K_ \bullet</fr:tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
+  There are also unusual variances (covariance of <fr:tex>K^ \bullet</fr:tex> and contravariance of <fr:tex>K_ \bullet</fr:tex>) for morphisms satisfying suitable regularity hypotheses.
+  Finally, the globalisation criteria of [sga6-ii <fr:strong>(?)</fr:strong>] allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>671</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
-  </p></mainmatter> </tree></mainmatter> </tree></mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>5990</anchor> <taxon>Exposé</taxon> <addr>sga6-i</addr><route>sga6-i.xml</route>    <title><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</title> <number>I</number> <parent>sga6</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5991</anchor> <taxon>Section</taxon> <addr>sga6-i.0</addr><route>sga6-i.0.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Introduction</title> <number>I.0</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><p>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>754</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
-</p><p>
-  As was mentioned in <ref addr="sga6-0" href="sga6-0.xml" taxon="Exposé" number="0"/>, it is the need to define &quot;Grothendieck groups&quot; that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
-</p><p>
-  The classical notion of coherent sheaves on a ringed space <tex>(X, \mathcal { O } _X)</tex> becomes uninteresting as soon as <tex>\mathcal { O } _X</tex> is no longer coherent.
+</fr:p><fr:p>
+  As was mentioned in <fr:ref
+addr="sga6-0"
+href="sga6-0.xml"
+taxon="Exposé"
+number="0"></fr:ref>, it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
+</fr:p><fr:p>
+  The classical notion of coherent sheaves on a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex> becomes uninteresting as soon as <fr:tex>\mathcal { O } _X</fr:tex> is no longer coherent.
   We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
-  We arrive at a satisfying notion by remarking that, if <tex>\mathcal { O } _X</tex> is coherent, then a coherent sheaf <tex>\mathcal { F }</tex> is not only of finite presentation but also of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>, where &quot;finite <tex>n</tex>-presentation&quot; means that there exists, locally, an exact sequence
-  <tex display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  If we no longer suppose the sheaf <tex>\mathcal { O } _X</tex> to be coherent, then we say that an <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> if it satisfies the above condition, i.e. if it is of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>.
-  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <tex>\mathcal { O } _X</tex>-modules are pseudo-coherent, then so too is the third.
-  We can easily generalise the above notion to complexes of sheaves: a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is said to be <em>pseudo-coherent</em> if it is <tex>n</tex>-pseudo-coherent for all <tex>n \in \mathbb {Z}</tex>, where &quot;<tex>n</tex>-pseudo coherent&quot; means that there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded-above complex, whose components in degree <tex>\geq  n</tex> are free sheaves of finite type.
-  For a complex <tex>\mathcal { F }</tex> concentrated in degree <tex>0</tex>, to say that <tex>\mathcal { F }</tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
-  The notion of a pseudo-coherent complex has excellent stability properties, described in <ref addr="sga6-i.1" href="sga6-i.1.xml" taxon="Section" number="I.1"/> and [sga6-i.2 <strong>(?)</strong>].
-  Firstly, it is stable under isomorphism in the derived category <tex>D(X)</tex> of the category of <tex>\mathcal { O } _X</tex>-modules;
-  even better, if two objects of a distinguished triangle in <tex>D(X)</tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <tex>D(X)_ \mathrm {coh}</tex> of <tex>D(X)</tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
+  We arrive at a satisfying notion by remarking that, if <fr:tex>\mathcal { O } _X</fr:tex> is coherent, then a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> is not only of finite presentation but also of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>, where "finite <fr:tex>n</fr:tex>-presentation" means that there exists, locally, an exact sequence
+  <fr:tex
+display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  If we no longer suppose the sheaf <fr:tex>\mathcal { O } _X</fr:tex> to be coherent, then we say that an <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> if it satisfies the above condition, i.e. if it is of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>.
+  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <fr:tex>\mathcal { O } _X</fr:tex>-modules are pseudo-coherent, then so too is the third.
+  We can easily generalise the above notion to complexes of sheaves: a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is said to be <fr:em>pseudo-coherent</fr:em> if it is <fr:tex>n</fr:tex>-pseudo-coherent for all <fr:tex>n \in \mathbb {Z}</fr:tex>, where "<fr:tex>n</fr:tex>-pseudo coherent" means that there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded-above complex, whose components in degree <fr:tex>\geq  n</fr:tex> are free sheaves of finite type.
+  For a complex <fr:tex>\mathcal { F }</fr:tex> concentrated in degree <fr:tex>0</fr:tex>, to say that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
+  The notion of a pseudo-coherent complex has excellent stability properties, described in <fr:ref
+addr="sga6-i.1"
+href="sga6-i.1.xml"
+taxon="Section"
+number="I.1"></fr:ref> and [sga6-i.2 <fr:strong>(?)</fr:strong>].
+  Firstly, it is stable under isomorphism in the derived category <fr:tex>D(X)</fr:tex> of the category of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  even better, if two objects of a distinguished triangle in <fr:tex>D(X)</fr:tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <fr:tex>D(X)_ \mathrm {coh}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
   Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
-  In the case where <tex>\mathcal { O } _X</tex> is coherent, to say that a complex <tex>\mathcal { F }</tex> is pseudo-coherent simply means that the cohomology of <tex>\mathcal { F }</tex> is locally bounded above and that all the <tex>\mathcal { H } ^i( \mathcal { F } )</tex> are coherent.
-</p><p>
-  If <tex>\mathcal { O } _X</tex> is a sheaf of regular local rings, then every coherent <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> locally admits a <em>finite</em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
-  <tex display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  It is thus natural, when <tex>\mathcal { O } _X</tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
-  such modules are called <em>perfect</em>.
-  More generally, we say that a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is <em>perfect</em> if there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded complex of free modules of finite type.
-  In [sga6-i.3 <strong>(?)</strong>], we show that the full subcategory <tex>D(X)_ \mathrm {perf}</tex> of <tex>D(X)</tex> consisting of perfect complexes is, like <tex>D(X)_ \mathrm {coh}</tex>, a triangulated subcategory that is &quot;stable&quot; under inverse images and derived tensor products.
-  We clearly have that <tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</tex>, but the inclusion is strict in general.
-  Pseudo-coherence can also be defined &quot;by passing to the limit&quot; from perfectness: a complex <tex>\mathcal { F }</tex> is pseudo-coherent if and only if, for all <tex>n \in \mathbb {Z}</tex>, <tex>\mathcal { F }</tex> can be &quot;locally approximated to order <tex>n</tex> by a perfect complex&quot;, by which we mean that there exists, locally, a distinguished triangle
-  <tex display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</tex>
-  where <tex>\mathcal { L }</tex> is perfect, and <tex>\mathcal { R }</tex> is acyclic in degree <tex>\geq  n</tex>.
-  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <strong>(?)</strong>]).
+  In the case where <fr:tex>\mathcal { O } _X</fr:tex> is coherent, to say that a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent simply means that the cohomology of <fr:tex>\mathcal { F }</fr:tex> is locally bounded above and that all the <fr:tex>\mathcal { H } ^i( \mathcal { F } )</fr:tex> are coherent.
+</fr:p><fr:p>
+  If <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of regular local rings, then every coherent <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> locally admits a <fr:em>finite</fr:em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+  <fr:tex
+display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  It is thus natural, when <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
+  such modules are called <fr:em>perfect</fr:em>.
+  More generally, we say that a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is <fr:em>perfect</fr:em> if there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded complex of free modules of finite type.
+  In [sga6-i.3 <fr:strong>(?)</fr:strong>], we show that the full subcategory <fr:tex>D(X)_ \mathrm {perf}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of perfect complexes is, like <fr:tex>D(X)_ \mathrm {coh}</fr:tex>, a triangulated subcategory that is "stable" under inverse images and derived tensor products.
+  We clearly have that <fr:tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</fr:tex>, but the inclusion is strict in general.
+  Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent if and only if, for all <fr:tex>n \in \mathbb {Z}</fr:tex>, <fr:tex>\mathcal { F }</fr:tex> can be "locally approximated to order <fr:tex>n</fr:tex> by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
+  <fr:tex
+display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</fr:tex>
+  where <fr:tex>\mathcal { L }</fr:tex> is perfect, and <fr:tex>\mathcal { R }</fr:tex> is acyclic in degree <fr:tex>\geq  n</fr:tex>.
+  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <fr:strong>(?)</fr:strong>]).
   We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
-</p><p>
+</fr:p><fr:p>
   Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
   Sections I.1 to I.5 of this present exposé are dedicated to their definition, and to establishing their elementary stability properties.
   For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
-  It also turns out to be practical — and useful, most notably in [sga6-ii <strong>(?)</strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
-</p><p>
+  It also turns out to be practical — and useful, most notably in [sga6-ii <fr:strong>(?)</fr:strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
+</fr:p><fr:p>
   Sections I.6 to I.8 of this present exposé generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.
-</p><p>
-  In [sga6-ii <strong>(?)</strong>], we examine the problem of &quot;the existence of global resolutions&quot;: under what conditions, on a ringed topos <tex>(X, \mathcal { O } _X)</tex>, is a pseudo-coherent (resp. perfect) complex <em>globally</em> isomorphic in <tex>D(X)</tex> to a complex of locally free modules of finite type?
-  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <strong>(?)</strong>]).
+</fr:p><fr:p>
+  In [sga6-ii <fr:strong>(?)</fr:strong>], we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos <fr:tex>(X, \mathcal { O } _X)</fr:tex>, is a pseudo-coherent (resp. perfect) complex <fr:em>globally</fr:em> isomorphic in <fr:tex>D(X)</fr:tex> to a complex of locally free modules of finite type?
+  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <fr:strong>(?)</fr:strong>]).
   This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
-  Such criteria are given in [sga6-ii <strong>(?)</strong>].
+  Such criteria are given in [sga6-ii <fr:strong>(?)</fr:strong>].
   In particular, we show that there exist global resolutions in the following cases:
-  <tex>X</tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
-  or <tex>X</tex> is the topos of sheaves of sets on a compact topological space, and <tex>\mathcal { O } _X</tex> is the sheaf of continuous complex-valued functions.
-  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a &quot;purely sheaf-theoretic&quot; definition of the index of a family of elliptic operators.
-</p><p>[sga6-iii <strong>(?)</strong>] studies the stability of finiteness conditions under the derived direct image.
-  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness &quot;into perspective&quot;.
+  <fr:tex>X</fr:tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
+  or <fr:tex>X</fr:tex> is the topos of sheaves of sets on a compact topological space, and <fr:tex>\mathcal { O } _X</fr:tex> is the sheaf of continuous complex-valued functions.
+  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.
+</fr:p><fr:p>[sga6-iii <fr:strong>(?)</fr:strong>] studies the stability of finiteness conditions under the derived direct image.
+  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
   We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
-  Let <tex>p \colon  X \to  S</tex> be an <tex>S</tex>-scheme locally of finite type, and let <tex>\mathcal { F }</tex> be a complex of <tex>\mathcal { O } _X</tex>-modules;
-  we say that <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> (resp. <em>perfect</em>) <em>with respect to <tex>p</tex></em> if we can locally embed (by a closed immersion) <tex>X</tex> into a smooth <tex>S</tex>-scheme <tex>X'</tex> in such a way that the extension of <tex>\mathcal { F }</tex> by zero on <tex>X'</tex> is pseudo-coherent (resp. perfect).
-  The notion of pseudo-coherence with respect to <tex>p</tex> is especially interesting in the case where <tex>S</tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-  On the other hand, as we might expect, to say that <tex>\mathcal { F }</tex> is perfect with respect to <tex>p</tex> is equivalent to saying that <tex>\mathcal { F }</tex> is pseudo-coherent with respect to <tex>p</tex> and locally of finite tor-dimension with respect to <tex>p</tex> (i.e. with respect to the sheaf of rings <tex>p^{-1}( \mathcal { O } _S)</tex>).
-  The central theorem of [sga6-iii <strong>(?)</strong>] is the <em>finiteness theorem</em>, which affirms (in a slightly more precise way) that, if <tex>f \colon  X \to  Y</tex> is a <em>proper</em> morphism of <tex>S</tex>-schemes locally of finite type, then the functor <tex>\mathbb {R}f_*</tex> sends complexes that are pseudo-coherent with respect to <tex>S</tex> to complexes that are pseudo-coherent with respect to <tex>S</tex>;
+  Let <fr:tex>p \colon  X \to  S</fr:tex> be an <fr:tex>S</fr:tex>-scheme locally of finite type, and let <fr:tex>\mathcal { F }</fr:tex> be a complex of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  we say that <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> (resp. <fr:em>perfect</fr:em>) <fr:em>with respect to <fr:tex>p</fr:tex></fr:em> if we can locally embed (by a closed immersion) <fr:tex>X</fr:tex> into a smooth <fr:tex>S</fr:tex>-scheme <fr:tex>X'</fr:tex> in such a way that the extension of <fr:tex>\mathcal { F }</fr:tex> by zero on <fr:tex>X'</fr:tex> is pseudo-coherent (resp. perfect).
+  The notion of pseudo-coherence with respect to <fr:tex>p</fr:tex> is especially interesting in the case where <fr:tex>S</fr:tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+  On the other hand, as we might expect, to say that <fr:tex>\mathcal { F }</fr:tex> is perfect with respect to <fr:tex>p</fr:tex> is equivalent to saying that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent with respect to <fr:tex>p</fr:tex> and locally of finite tor-dimension with respect to <fr:tex>p</fr:tex> (i.e. with respect to the sheaf of rings <fr:tex>p^{-1}( \mathcal { O } _S)</fr:tex>).
+  The central theorem of [sga6-iii <fr:strong>(?)</fr:strong>] is the <fr:em>finiteness theorem</fr:em>, which affirms (in a slightly more precise way) that, if <fr:tex>f \colon  X \to  Y</fr:tex> is a <fr:em>proper</fr:em> morphism of <fr:tex>S</fr:tex>-schemes locally of finite type, then the functor <fr:tex>\mathbb {R}f_*</fr:tex> sends complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex> to complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex>;
   this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
-</p><p><strong><em>TO-DO: the following list should be a, b</em></strong></p><ol><li><tex>S</tex> is locally Noetherian;
-  </li>
-  <li><tex>f</tex> is projective.
-  </li></ol><p>
-  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's &quot;theorem&quot;).
-  Combining the finiteness theorem with an essentially trivial formula called the <em>projection formula</em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
-  We recover, as a corollary, &quot;Grauert's continuity and semi-continuity theorems&quot; (EGA III 7.6).
-</p><p>[sga6-iv <strong>(?)</strong>] translates the results of Exposés I to III into the language of &quot;Grothendieck groups&quot;.
-  On a ringed space <tex>(X, \mathcal { O } _X)</tex>, we denote by <tex>K^ \bullet (X)</tex> (resp. <tex>K_ \bullet (X)</tex>) the &quot;Grothendieck group&quot; of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
-  The group <tex>K^ \bullet (X)</tex> is a ring, and <tex>K_ \bullet (X)</tex> is a module over <tex>K^ \bullet (X)</tex>.
-  As suggested by the superscript bullet, <tex>K^ \bullet</tex> is a contravariant functor, whilst <tex>K_ \bullet</tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
-  There are also unusual variances (covariance of <tex>K^ \bullet</tex> and contravariance of <tex>K_ \bullet</tex>) for morphisms satisfying suitable regularity hypotheses.
-  Finally, the globalisation criteria of [sga6-ii <strong>(?)</strong>] allow us to make the link with the &quot;Grothendieck groups&quot; defined naively from coherent sheaves or locally free sheaves of finite type.
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5992</anchor> <taxon>Section</taxon> <addr>sga6-i.1</addr><route>sga6-i.1.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</title> <number>I.1</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5993</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number>  </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5994</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number>  </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5995</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number>  </frontmatter> <mainmatter><p>
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be a, b</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>S</fr:tex> is locally Noetherian;
+  </fr:li>
+  <fr:li><fr:tex>f</fr:tex> is projective.
+  </fr:li></fr:ol><fr:p>
+  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's "theorem").
+  Combining the finiteness theorem with an essentially trivial formula called the <fr:em>projection formula</fr:em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
+  We recover, as a corollary, "Grauert's continuity and semi-continuity theorems" (EGA III 7.6).
+</fr:p><fr:p>[sga6-iv <fr:strong>(?)</fr:strong>] translates the results of Exposés I to III into the language of "Grothendieck groups".
+  On a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex>, we denote by <fr:tex>K^ \bullet (X)</fr:tex> (resp. <fr:tex>K_ \bullet (X)</fr:tex>) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+  The group <fr:tex>K^ \bullet (X)</fr:tex> is a ring, and <fr:tex>K_ \bullet (X)</fr:tex> is a module over <fr:tex>K^ \bullet (X)</fr:tex>.
+  As suggested by the superscript bullet, <fr:tex>K^ \bullet</fr:tex> is a contravariant functor, whilst <fr:tex>K_ \bullet</fr:tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
+  There are also unusual variances (covariance of <fr:tex>K^ \bullet</fr:tex> and contravariance of <fr:tex>K_ \bullet</fr:tex>) for morphisms satisfying suitable regularity hypotheses.
+  Finally, the globalisation criteria of [sga6-ii <fr:strong>(?)</fr:strong>] allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>671</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
-  </p></mainmatter> </tree></mainmatter> </tree></mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>5996</anchor> <taxon>Section</taxon> <addr>sga6-i.1.1</addr><route>sga6-i.1.1.xml</route>    <title><link href="sga6-i.1.xml" type="local" addr="sga6-i.1" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories › Preliminary definitions"><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Preliminary definitions</link> › Fibred categories with additive (resp. abelian, resp. triangulated) fibres</title> <number>I.1.1</number> <parent>sga6-i.1</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5997</anchor>  <addr>sga6-i.1.1.1</addr><route>sga6-i.1.1.1.xml</route>     <number>I.1.1.1</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
-    Let <tex>\mathcal {S}</tex> be a category, and let <tex>\mathcal {C}</tex> be a fibred <tex>\mathcal {S}</tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <tex>\mathcal {C}</tex> is an <em>additive</em> (resp. <em>triangulated</em>) <tex>\mathcal {S}</tex>-category (or that <tex>\mathcal {C}</tex> is additive (resp. triangulated) over <tex>\mathcal {S}</tex>) if, for every arrow <tex>f \colon  X \to  Y</tex> of <tex>\mathcal {S}</tex>, the inverse image functor (determined up to unique isomorphism) <tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</tex> is additive (resp. exact).
-    We say that <tex>\mathcal {C}</tex> is an <em>abelian</em> <tex>\mathcal {S}</tex>-category if <tex>\mathcal {C}</tex> is an additive <tex>\mathcal {S}</tex>-category with abelian fibres, and that <tex>\mathcal {C}</tex> is a <em>flat</em> abelian <tex>\mathcal {S}</tex>-category if, further, the inverse image functors are exact.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>5998</anchor>  <addr>sga6-i.1.1.2</addr><route>sga6-i.1.1.2.xml</route>     <number>I.1.1.2</number> <parent>sga6-i.1.1</parent> </frontmatter> <mainmatter><p>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title><fr:link
+href="sga6-i.1.xml"
+type="local"
+addr="sga6-i.1"><fr:link
+href="sga6-i.xml"
+type="local"
+addr="sga6-i"><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:link> › Preliminary definitions</fr:link> › Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
+    We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
-  </p></mainmatter> </tree></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>5999</anchor> <taxon>Section</taxon> <addr>sga6-i.0</addr><route>sga6-i.0.xml</route>    <title><link href="sga6-i.xml" type="local" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories"><link href="sga6.xml" type="local" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</link> › Generalities on finiteness conditions in derived categories</link> › Introduction</title> <number>I.0</number> <parent>sga6-i</parent> </frontmatter> <mainmatter><p>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title><fr:link
+href="sga6-i.xml"
+type="local"
+addr="sga6-i"><fr:link
+href="sga6.xml"
+type="local"
+addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:link> › Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
-</p><p>
-  As was mentioned in <ref addr="sga6-0" href="sga6-0.xml" taxon="Exposé" number="0"/>, it is the need to define &quot;Grothendieck groups&quot; that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
-</p><p>
-  The classical notion of coherent sheaves on a ringed space <tex>(X, \mathcal { O } _X)</tex> becomes uninteresting as soon as <tex>\mathcal { O } _X</tex> is no longer coherent.
+</fr:p><fr:p>
+  As was mentioned in <fr:ref
+addr="sga6-0"
+href="sga6-0.xml"
+taxon="Exposé"
+number="0"></fr:ref>, it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.
+</fr:p><fr:p>
+  The classical notion of coherent sheaves on a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex> becomes uninteresting as soon as <fr:tex>\mathcal { O } _X</fr:tex> is no longer coherent.
   We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
-  We arrive at a satisfying notion by remarking that, if <tex>\mathcal { O } _X</tex> is coherent, then a coherent sheaf <tex>\mathcal { F }</tex> is not only of finite presentation but also of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>, where &quot;finite <tex>n</tex>-presentation&quot; means that there exists, locally, an exact sequence
-  <tex display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  If we no longer suppose the sheaf <tex>\mathcal { O } _X</tex> to be coherent, then we say that an <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> if it satisfies the above condition, i.e. if it is of finite <tex>n</tex>-presentation for all <tex>n \in \mathbb {N}</tex>.
-  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <tex>\mathcal { O } _X</tex>-modules are pseudo-coherent, then so too is the third.
-  We can easily generalise the above notion to complexes of sheaves: a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is said to be <em>pseudo-coherent</em> if it is <tex>n</tex>-pseudo-coherent for all <tex>n \in \mathbb {Z}</tex>, where &quot;<tex>n</tex>-pseudo coherent&quot; means that there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded-above complex, whose components in degree <tex>\geq  n</tex> are free sheaves of finite type.
-  For a complex <tex>\mathcal { F }</tex> concentrated in degree <tex>0</tex>, to say that <tex>\mathcal { F }</tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
-  The notion of a pseudo-coherent complex has excellent stability properties, described in <ref addr="sga6-i.1" href="sga6-i.1.xml" taxon="Section" number="I.1"/> and [sga6-i.2 <strong>(?)</strong>].
-  Firstly, it is stable under isomorphism in the derived category <tex>D(X)</tex> of the category of <tex>\mathcal { O } _X</tex>-modules;
-  even better, if two objects of a distinguished triangle in <tex>D(X)</tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <tex>D(X)_ \mathrm {coh}</tex> of <tex>D(X)</tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
+  We arrive at a satisfying notion by remarking that, if <fr:tex>\mathcal { O } _X</fr:tex> is coherent, then a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> is not only of finite presentation but also of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>, where "finite <fr:tex>n</fr:tex>-presentation" means that there exists, locally, an exact sequence
+  <fr:tex
+display="block">\mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  If we no longer suppose the sheaf <fr:tex>\mathcal { O } _X</fr:tex> to be coherent, then we say that an <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> if it satisfies the above condition, i.e. if it is of finite <fr:tex>n</fr:tex>-presentation for all <fr:tex>n \in \mathbb {N}</fr:tex>.
+  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <fr:tex>\mathcal { O } _X</fr:tex>-modules are pseudo-coherent, then so too is the third.
+  We can easily generalise the above notion to complexes of sheaves: a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is said to be <fr:em>pseudo-coherent</fr:em> if it is <fr:tex>n</fr:tex>-pseudo-coherent for all <fr:tex>n \in \mathbb {Z}</fr:tex>, where "<fr:tex>n</fr:tex>-pseudo coherent" means that there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded-above complex, whose components in degree <fr:tex>\geq  n</fr:tex> are free sheaves of finite type.
+  For a complex <fr:tex>\mathcal { F }</fr:tex> concentrated in degree <fr:tex>0</fr:tex>, to say that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
+  The notion of a pseudo-coherent complex has excellent stability properties, described in <fr:ref
+addr="sga6-i.1"
+href="sga6-i.1.xml"
+taxon="Section"
+number="I.1"></fr:ref> and [sga6-i.2 <fr:strong>(?)</fr:strong>].
+  Firstly, it is stable under isomorphism in the derived category <fr:tex>D(X)</fr:tex> of the category of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  even better, if two objects of a distinguished triangle in <fr:tex>D(X)</fr:tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <fr:tex>D(X)_ \mathrm {coh}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
   Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
-  In the case where <tex>\mathcal { O } _X</tex> is coherent, to say that a complex <tex>\mathcal { F }</tex> is pseudo-coherent simply means that the cohomology of <tex>\mathcal { F }</tex> is locally bounded above and that all the <tex>\mathcal { H } ^i( \mathcal { F } )</tex> are coherent.
-</p><p>
-  If <tex>\mathcal { O } _X</tex> is a sheaf of regular local rings, then every coherent <tex>\mathcal { O } _X</tex>-module <tex>\mathcal { F }</tex> locally admits a <em>finite</em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
-  <tex display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</tex>
-  where the <tex>\mathcal { L } _i</tex> are free and of finite type.
-  It is thus natural, when <tex>\mathcal { O } _X</tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
-  such modules are called <em>perfect</em>.
-  More generally, we say that a <em>complex</em> <tex>\mathcal { F }</tex> of <tex>\mathcal { O } _X</tex>-modules is <em>perfect</em> if there exists, locally, a quasi-isomorphism <tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</tex>, where <tex>\mathcal { L }</tex> is a bounded complex of free modules of finite type.
-  In [sga6-i.3 <strong>(?)</strong>], we show that the full subcategory <tex>D(X)_ \mathrm {perf}</tex> of <tex>D(X)</tex> consisting of perfect complexes is, like <tex>D(X)_ \mathrm {coh}</tex>, a triangulated subcategory that is &quot;stable&quot; under inverse images and derived tensor products.
-  We clearly have that <tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</tex>, but the inclusion is strict in general.
-  Pseudo-coherence can also be defined &quot;by passing to the limit&quot; from perfectness: a complex <tex>\mathcal { F }</tex> is pseudo-coherent if and only if, for all <tex>n \in \mathbb {Z}</tex>, <tex>\mathcal { F }</tex> can be &quot;locally approximated to order <tex>n</tex> by a perfect complex&quot;, by which we mean that there exists, locally, a distinguished triangle
-  <tex display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</tex>
-  where <tex>\mathcal { L }</tex> is perfect, and <tex>\mathcal { R }</tex> is acyclic in degree <tex>\geq  n</tex>.
-  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <strong>(?)</strong>]).
+  In the case where <fr:tex>\mathcal { O } _X</fr:tex> is coherent, to say that a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent simply means that the cohomology of <fr:tex>\mathcal { F }</fr:tex> is locally bounded above and that all the <fr:tex>\mathcal { H } ^i( \mathcal { F } )</fr:tex> are coherent.
+</fr:p><fr:p>
+  If <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of regular local rings, then every coherent <fr:tex>\mathcal { O } _X</fr:tex>-module <fr:tex>\mathcal { F }</fr:tex> locally admits a <fr:em>finite</fr:em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+  <fr:tex
+display="block">0 \to \mathcal { L } _n  \to   \mathcal { L } _{n-1}  \to   \ldots   \to   \mathcal { L } _0  \to   \mathcal { F }   \to  0</fr:tex>
+  where the <fr:tex>\mathcal { L } _i</fr:tex> are free and of finite type.
+  It is thus natural, when <fr:tex>\mathcal { O } _X</fr:tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
+  such modules are called <fr:em>perfect</fr:em>.
+  More generally, we say that a <fr:em>complex</fr:em> <fr:tex>\mathcal { F }</fr:tex> of <fr:tex>\mathcal { O } _X</fr:tex>-modules is <fr:em>perfect</fr:em> if there exists, locally, a quasi-isomorphism <fr:tex>\mathcal { L } \xrightarrow { \sim } \mathcal { F }</fr:tex>, where <fr:tex>\mathcal { L }</fr:tex> is a bounded complex of free modules of finite type.
+  In [sga6-i.3 <fr:strong>(?)</fr:strong>], we show that the full subcategory <fr:tex>D(X)_ \mathrm {perf}</fr:tex> of <fr:tex>D(X)</fr:tex> consisting of perfect complexes is, like <fr:tex>D(X)_ \mathrm {coh}</fr:tex>, a triangulated subcategory that is "stable" under inverse images and derived tensor products.
+  We clearly have that <fr:tex>D(X)_ \mathrm {perf} \subseteq  D(X)_ \mathrm {coh}</fr:tex>, but the inclusion is strict in general.
+  Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent if and only if, for all <fr:tex>n \in \mathbb {Z}</fr:tex>, <fr:tex>\mathcal { F }</fr:tex> can be "locally approximated to order <fr:tex>n</fr:tex> by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
+  <fr:tex
+display="block">\mathcal { L }   \to   \mathcal { F }   \to   \mathcal { R }   \to   \mathcal { L } [1]</fr:tex>
+  where <fr:tex>\mathcal { L }</fr:tex> is perfect, and <fr:tex>\mathcal { R }</fr:tex> is acyclic in degree <fr:tex>\geq  n</fr:tex>.
+  Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <fr:strong>(?)</fr:strong>]).
   We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.
-</p><p>
+</fr:p><fr:p>
   Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
   Sections I.1 to I.5 of this present exposé are dedicated to their definition, and to establishing their elementary stability properties.
   For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
-  It also turns out to be practical — and useful, most notably in [sga6-ii <strong>(?)</strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
-</p><p>
+  It also turns out to be practical — and useful, most notably in [sga6-ii <fr:strong>(?)</fr:strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.
+</fr:p><fr:p>
   Sections I.6 to I.8 of this present exposé generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.
-</p><p>
-  In [sga6-ii <strong>(?)</strong>], we examine the problem of &quot;the existence of global resolutions&quot;: under what conditions, on a ringed topos <tex>(X, \mathcal { O } _X)</tex>, is a pseudo-coherent (resp. perfect) complex <em>globally</em> isomorphic in <tex>D(X)</tex> to a complex of locally free modules of finite type?
-  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <strong>(?)</strong>]).
+</fr:p><fr:p>
+  In [sga6-ii <fr:strong>(?)</fr:strong>], we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos <fr:tex>(X, \mathcal { O } _X)</fr:tex>, is a pseudo-coherent (resp. perfect) complex <fr:em>globally</fr:em> isomorphic in <fr:tex>D(X)</fr:tex> to a complex of locally free modules of finite type?
+  The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <fr:strong>(?)</fr:strong>]).
   This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
-  Such criteria are given in [sga6-ii <strong>(?)</strong>].
+  Such criteria are given in [sga6-ii <fr:strong>(?)</fr:strong>].
   In particular, we show that there exist global resolutions in the following cases:
-  <tex>X</tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
-  or <tex>X</tex> is the topos of sheaves of sets on a compact topological space, and <tex>\mathcal { O } _X</tex> is the sheaf of continuous complex-valued functions.
-  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a &quot;purely sheaf-theoretic&quot; definition of the index of a family of elliptic operators.
-</p><p>[sga6-iii <strong>(?)</strong>] studies the stability of finiteness conditions under the derived direct image.
-  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness &quot;into perspective&quot;.
+  <fr:tex>X</fr:tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
+  or <fr:tex>X</fr:tex> is the topos of sheaves of sets on a compact topological space, and <fr:tex>\mathcal { O } _X</fr:tex> is the sheaf of continuous complex-valued functions.
+  As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.
+</fr:p><fr:p>[sga6-iii <fr:strong>(?)</fr:strong>] studies the stability of finiteness conditions under the derived direct image.
+  To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
   We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
-  Let <tex>p \colon  X \to  S</tex> be an <tex>S</tex>-scheme locally of finite type, and let <tex>\mathcal { F }</tex> be a complex of <tex>\mathcal { O } _X</tex>-modules;
-  we say that <tex>\mathcal { F }</tex> is <em>pseudo-coherent</em> (resp. <em>perfect</em>) <em>with respect to <tex>p</tex></em> if we can locally embed (by a closed immersion) <tex>X</tex> into a smooth <tex>S</tex>-scheme <tex>X'</tex> in such a way that the extension of <tex>\mathcal { F }</tex> by zero on <tex>X'</tex> is pseudo-coherent (resp. perfect).
-  The notion of pseudo-coherence with respect to <tex>p</tex> is especially interesting in the case where <tex>S</tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-  On the other hand, as we might expect, to say that <tex>\mathcal { F }</tex> is perfect with respect to <tex>p</tex> is equivalent to saying that <tex>\mathcal { F }</tex> is pseudo-coherent with respect to <tex>p</tex> and locally of finite tor-dimension with respect to <tex>p</tex> (i.e. with respect to the sheaf of rings <tex>p^{-1}( \mathcal { O } _S)</tex>).
-  The central theorem of [sga6-iii <strong>(?)</strong>] is the <em>finiteness theorem</em>, which affirms (in a slightly more precise way) that, if <tex>f \colon  X \to  Y</tex> is a <em>proper</em> morphism of <tex>S</tex>-schemes locally of finite type, then the functor <tex>\mathbb {R}f_*</tex> sends complexes that are pseudo-coherent with respect to <tex>S</tex> to complexes that are pseudo-coherent with respect to <tex>S</tex>;
+  Let <fr:tex>p \colon  X \to  S</fr:tex> be an <fr:tex>S</fr:tex>-scheme locally of finite type, and let <fr:tex>\mathcal { F }</fr:tex> be a complex of <fr:tex>\mathcal { O } _X</fr:tex>-modules;
+  we say that <fr:tex>\mathcal { F }</fr:tex> is <fr:em>pseudo-coherent</fr:em> (resp. <fr:em>perfect</fr:em>) <fr:em>with respect to <fr:tex>p</fr:tex></fr:em> if we can locally embed (by a closed immersion) <fr:tex>X</fr:tex> into a smooth <fr:tex>S</fr:tex>-scheme <fr:tex>X'</fr:tex> in such a way that the extension of <fr:tex>\mathcal { F }</fr:tex> by zero on <fr:tex>X'</fr:tex> is pseudo-coherent (resp. perfect).
+  The notion of pseudo-coherence with respect to <fr:tex>p</fr:tex> is especially interesting in the case where <fr:tex>S</fr:tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+  On the other hand, as we might expect, to say that <fr:tex>\mathcal { F }</fr:tex> is perfect with respect to <fr:tex>p</fr:tex> is equivalent to saying that <fr:tex>\mathcal { F }</fr:tex> is pseudo-coherent with respect to <fr:tex>p</fr:tex> and locally of finite tor-dimension with respect to <fr:tex>p</fr:tex> (i.e. with respect to the sheaf of rings <fr:tex>p^{-1}( \mathcal { O } _S)</fr:tex>).
+  The central theorem of [sga6-iii <fr:strong>(?)</fr:strong>] is the <fr:em>finiteness theorem</fr:em>, which affirms (in a slightly more precise way) that, if <fr:tex>f \colon  X \to  Y</fr:tex> is a <fr:em>proper</fr:em> morphism of <fr:tex>S</fr:tex>-schemes locally of finite type, then the functor <fr:tex>\mathbb {R}f_*</fr:tex> sends complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex> to complexes that are pseudo-coherent with respect to <fr:tex>S</fr:tex>;
   this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
-</p><p><strong><em>TO-DO: the following list should be a, b</em></strong></p><ol><li><tex>S</tex> is locally Noetherian;
-  </li>
-  <li><tex>f</tex> is projective.
-  </li></ol><p>
-  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's &quot;theorem&quot;).
-  Combining the finiteness theorem with an essentially trivial formula called the <em>projection formula</em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
-  We recover, as a corollary, &quot;Grauert's continuity and semi-continuity theorems&quot; (EGA III 7.6).
-</p><p>[sga6-iv <strong>(?)</strong>] translates the results of Exposés I to III into the language of &quot;Grothendieck groups&quot;.
-  On a ringed space <tex>(X, \mathcal { O } _X)</tex>, we denote by <tex>K^ \bullet (X)</tex> (resp. <tex>K_ \bullet (X)</tex>) the &quot;Grothendieck group&quot; of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
-  The group <tex>K^ \bullet (X)</tex> is a ring, and <tex>K_ \bullet (X)</tex> is a module over <tex>K^ \bullet (X)</tex>.
-  As suggested by the superscript bullet, <tex>K^ \bullet</tex> is a contravariant functor, whilst <tex>K_ \bullet</tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
-  There are also unusual variances (covariance of <tex>K^ \bullet</tex> and contravariance of <tex>K_ \bullet</tex>) for morphisms satisfying suitable regularity hypotheses.
-  Finally, the globalisation criteria of [sga6-ii <strong>(?)</strong>] allow us to make the link with the &quot;Grothendieck groups&quot; defined naively from coherent sheaves or locally free sheaves of finite type.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be a, b</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>S</fr:tex> is locally Noetherian;
+  </fr:li>
+  <fr:li><fr:tex>f</fr:tex> is projective.
+  </fr:li></fr:ol><fr:p>
+  Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's "theorem").
+  Combining the finiteness theorem with an essentially trivial formula called the <fr:em>projection formula</fr:em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
+  We recover, as a corollary, "Grauert's continuity and semi-continuity theorems" (EGA III 7.6).
+</fr:p><fr:p>[sga6-iv <fr:strong>(?)</fr:strong>] translates the results of Exposés I to III into the language of "Grothendieck groups".
+  On a ringed space <fr:tex>(X, \mathcal { O } _X)</fr:tex>, we denote by <fr:tex>K^ \bullet (X)</fr:tex> (resp. <fr:tex>K_ \bullet (X)</fr:tex>) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+  The group <fr:tex>K^ \bullet (X)</fr:tex> is a ring, and <fr:tex>K_ \bullet (X)</fr:tex> is a module over <fr:tex>K^ \bullet (X)</fr:tex>.
+  As suggested by the superscript bullet, <fr:tex>K^ \bullet</fr:tex> is a contravariant functor, whilst <fr:tex>K_ \bullet</fr:tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
+  There are also unusual variances (covariance of <fr:tex>K^ \bullet</fr:tex> and contravariance of <fr:tex>K_ \bullet</fr:tex>) for morphisms satisfying suitable regularity hypotheses.
+  Finally, the globalisation criteria of [sga6-ii <fr:strong>(?)</fr:strong>] allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

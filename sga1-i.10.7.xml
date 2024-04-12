@@ -1,515 +1,733 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>509</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.7</addr><route>sga1-i.10.7.xml</route>     <number>I.10.7</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a quasi-finite, separated, universally open morphism.
-    For all <tex>y \in  Y</tex>, let <tex>n(y)</tex> be the &quot;geometric number of points in the fibre <tex>f^{-1}(y)</tex>&quot;, equal to the sum of the separable degrees of the residue extensions <tex>k(x)/k(y)</tex> as <tex>x</tex> runs over the points of <tex>f^{-1}(y)</tex>.
-    Then the function <tex>y \mapsto  n(y)</tex> on <tex>Y</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient for there to exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>.
-    (cf. EGA IV 15.5.1.)</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>510</anchor> <taxon>Section</taxon> <addr>sga1-i.10</addr><route>sga1-i.10.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale covers of a normal scheme</title> <number>I.10</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>511</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.1</addr><route>sga1-i.10.1.xml</route>     <number>I.10.1</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be normal and connected of field <tex>K</tex>, and let <tex>X</tex> be a separated étale prescheme over <tex>Y</tex>.
-    Then the connected components <tex>X_i</tex> of <tex>X</tex> are integral, their fields <tex>K_i</tex> are finite separable extensions of <tex>K</tex>, and <tex>X_i</tex> can be identified with a non-empty open subset of the normalisation of <tex>X</tex> in <tex>K_i</tex> (and thus <tex>X</tex> with a dense open subset of the normalisation of <tex>Y</tex> in <tex>R(X)=L= \prod  K_i</tex>, where <tex>R(X)</tex> is the ring of rational functions on <tex>X</tex>).
-  </p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a quasi-finite, separated, universally open morphism.
+    For all <fr:tex>y \in  Y</fr:tex>, let <fr:tex>n(y)</fr:tex> be the "geometric number of points in the fibre <fr:tex>f^{-1}(y)</fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex>k(x)/k(y)</fr:tex> as <fr:tex>x</fr:tex> runs over the points of <fr:tex>f^{-1}(y)</fr:tex>.
+    Then the function <fr:tex>y \mapsto  n(y)</fr:tex> on <fr:tex>Y</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient for there to exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>.
+    (cf. EGA IV 15.5.1.)</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale covers of a normal scheme</fr:title><fr:number>I.10</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.1</fr:addr><fr:route>sga1-i.10.1.xml</fr:route><fr:number>I.10.1</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>Y</fr:tex> be normal and connected of field <fr:tex>K</fr:tex>, and let <fr:tex>X</fr:tex> be a separated étale prescheme over <fr:tex>Y</fr:tex>.
+    Then the connected components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex> are integral, their fields <fr:tex>K_i</fr:tex> are finite separable extensions of <fr:tex>K</fr:tex>, and <fr:tex>X_i</fr:tex> can be identified with a non-empty open subset of the normalisation of <fr:tex>X</fr:tex> in <fr:tex>K_i</fr:tex> (and thus <fr:tex>X</fr:tex> with a dense open subset of the normalisation of <fr:tex>Y</fr:tex> in <fr:tex>R(X)=L= \prod  K_i</fr:tex>, where <fr:tex>R(X)</fr:tex> is the ring of rational functions on <fr:tex>X</fr:tex>).
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>512</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      By <ref addr="sga1-i.9.10" href="sga1-i.9.10.xml" taxon="Corollary" number="I.9.10"/>, <tex>X</tex> is normal, and a fortiori its local rings are integral, and so the connected components of <tex>X</tex> are irreducible.
-      Since <tex>X_i</tex> is normal, and also finite and dominant over <tex>Y</tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <tex>X_i</tex> is an open subset of the normalisation of <tex>X</tex> in the field <tex>K_i</tex> of <tex>X_i</tex>.
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      By <fr:ref
+addr="sga1-i.9.10"
+href="sga1-i.9.10.xml"
+taxon="Corollary"
+number="I.9.10"></fr:ref>, <fr:tex>X</fr:tex> is normal, and a fortiori its local rings are integral, and so the connected components of <fr:tex>X</fr:tex> are irreducible.
+      Since <fr:tex>X_i</fr:tex> is normal, and also finite and dominant over <fr:tex>Y</fr:tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <fr:tex>X_i</fr:tex> is an open subset of the normalisation of <fr:tex>X</fr:tex> in the field <fr:tex>K_i</fr:tex> of <fr:tex>X_i</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>513</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.2</addr><route>sga1-i.10.2.xml</route>     <number>I.10.2</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of <ref addr="sga1-i.10.1" href="sga1-i.10.1.xml" taxon="Proposition" number="I.10.1"/>, <tex>X</tex> is finite over <tex>Y</tex> (i.e. an étale cover of <tex>Y</tex>) if and only if <tex>X</tex> is isomorphic to the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L=R(X)</tex> (the ring of rational functions on <tex>X</tex>).
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.2</fr:addr><fr:route>sga1-i.10.2.xml</fr:route><fr:number>I.10.2</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of <fr:ref
+addr="sga1-i.10.1"
+href="sga1-i.10.1.xml"
+taxon="Proposition"
+number="I.10.1"></fr:ref>, <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex> (i.e. an étale cover of <fr:tex>Y</fr:tex>) if and only if <fr:tex>X</fr:tex> is isomorphic to the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L=R(X)</fr:tex> (the ring of rational functions on <fr:tex>X</fr:tex>).
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>514</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We know that this normalisation is finite over <tex>Y</tex> (since <tex>Y</tex> is normal, and <tex>R/K</tex> separable);
-      conversely, if <tex>X</tex> is finite over <tex>Y</tex>, then it is also finite over <tex>Y'</tex>, and so its image in <tex>Y'</tex> is closed (and it is also dense).
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We know that this normalisation is finite over <fr:tex>Y</fr:tex> (since <fr:tex>Y</fr:tex> is normal, and <fr:tex>R/K</fr:tex> separable);
+      conversely, if <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex>, then it is also finite over <fr:tex>Y'</fr:tex>, and so its image in <fr:tex>Y'</fr:tex> is closed (and it is also dense).
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  An algebra <tex>L</tex> of finite rank over <tex>K</tex> is said to be <em>unramified over <tex>X</tex></em> (or simply <em>unramified over <tex>K</tex></em> if <tex>X</tex> is evident) if <tex>L</tex> is a separable algebra over <tex>K</tex> (i.e. a direct sum of separable extensions <tex>K_i</tex>) <em>and</em> the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> (i.e. the disjoint sum of the normalisations of <tex>Y</tex> in the <tex>K_i</tex>) is unramified (i.e. étale, by <ref addr="sga1-i.9.11" href="sga1-i.9.11.xml" taxon="Corollary" number="I.9.11"/>) over <tex>Y</tex>.
+</fr:mainmatter></fr:tree><fr:p>
+  An algebra <fr:tex>L</fr:tex> of finite rank over <fr:tex>K</fr:tex> is said to be <fr:em>unramified over <fr:tex>X</fr:tex></fr:em> (or simply <fr:em>unramified over <fr:tex>K</fr:tex></fr:em> if <fr:tex>X</fr:tex> is evident) if <fr:tex>L</fr:tex> is a separable algebra over <fr:tex>K</fr:tex> (i.e. a direct sum of separable extensions <fr:tex>K_i</fr:tex>) <fr:em>and</fr:em> the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex> (i.e. the disjoint sum of the normalisations of <fr:tex>Y</fr:tex> in the <fr:tex>K_i</fr:tex>) is unramified (i.e. étale, by <fr:ref
+addr="sga1-i.9.11"
+href="sga1-i.9.11.xml"
+taxon="Corollary"
+number="I.9.11"></fr:ref>) over <fr:tex>Y</fr:tex>.
   Thus:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>515</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.3</addr><route>sga1-i.10.3.xml</route>     <number>I.10.3</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For every <tex>X</tex> that is finite over <tex>Y</tex> and such that every irreducible component of <tex>X</tex> dominates <tex>Y</tex>, let <tex>R(X)</tex> be the ring of rational functions on <tex>X</tex> (given by the product of the local rings of the generic points of the irreducible components of <tex>X</tex>), so that <tex>X \mapsto  R(X)</tex> is a functor, with values in algebras of finite rank over <tex>K=R(Y)</tex>.
-    Then this functor establishes an equivalence between the category of connected étale covers of <tex>Y</tex> and the category of extensions <tex>L</tex> of <tex>K</tex> that are unramified over <tex>Y</tex>.
-  </p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.3</fr:addr><fr:route>sga1-i.10.3.xml</fr:route><fr:number>I.10.3</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For every <fr:tex>X</fr:tex> that is finite over <fr:tex>Y</fr:tex> and such that every irreducible component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, let <fr:tex>R(X)</fr:tex> be the ring of rational functions on <fr:tex>X</fr:tex> (given by the product of the local rings of the generic points of the irreducible components of <fr:tex>X</fr:tex>), so that <fr:tex>X \mapsto  R(X)</fr:tex> is a functor, with values in algebras of finite rank over <fr:tex>K=R(Y)</fr:tex>.
+    Then this functor establishes an equivalence between the category of connected étale covers of <fr:tex>Y</fr:tex> and the category of extensions <fr:tex>L</fr:tex> of <fr:tex>K</fr:tex> that are unramified over <fr:tex>Y</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>516</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
       The inverse functor is the normalisation functor.
-    </p>
+    </fr:p>
 
-    <p>
-      Suppose that <tex>Y</tex> is affine, and thus defined by a normal ring <tex>A</tex> with field of fractions <tex>K</tex>.
-      Let <tex>L</tex> be a finite extension of <tex>K</tex> given by a direct sum of fields.
-      Then, by definition, the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> is isomorphic to <tex>\operatorname {Spec} (A')</tex>, where <tex>A'</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-      To say that <tex>L</tex> is unramified over <tex>Y</tex> implies that <tex>A'</tex> is unramified (or even étale) over <tex>A</tex>.
-      If <tex>A</tex> is local, then it is equivalent to say that the local rings <tex>A'_ \mathfrak {n}</tex> (where <tex>\mathfrak {n}</tex> runs over the finite set of maximal ideals of <tex>A'</tex>, i.e. the prime ideals of <tex>A'</tex> that induce the maximal ideal <tex>\mathfrak {m}</tex> of <tex>A</tex>) are unramified (i.e. étale) over the local ring <tex>A</tex>.
-      Finally, note that the discriminant criterion of <ref addr="sga1-i.4.10" href="sga1-i.4.10.xml" taxon="Proposition" number="I.4.10"/> can also be applied to this situation
-      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <tex>X</tex> dominates <tex>Y</tex>, but with <tex>Y</tex> still assumed to be locally integral: <tex>A \to  B</tex> and <tex>B \to  B \otimes _A K</tex> are injective — then <tex>\operatorname {tr} _{L/K}</tex> is defined — and <tex>\operatorname {tr} _{L/K}(xy)</tex> induces a <em>fundamental bilinear form</em> <tex>B \times  B \to  A</tex>, i.e. there exists <tex>x_i \in  B</tex> (for <tex>1 \leq  i \leq  n= \operatorname {rank} _K L</tex>) such that <tex>\operatorname {tr} (x_ix_j) \in  A</tex> for all <tex>i,j</tex>, and <tex>\det ( \operatorname {tr} (x_i x_j))_{1 \leq  i,j \leq  n}</tex> is invertible in <tex>A</tex>).
-    </p>
-  </mainmatter> </tree>
+    <fr:p>
+      Suppose that <fr:tex>Y</fr:tex> is affine, and thus defined by a normal ring <fr:tex>A</fr:tex> with field of fractions <fr:tex>K</fr:tex>.
+      Let <fr:tex>L</fr:tex> be a finite extension of <fr:tex>K</fr:tex> given by a direct sum of fields.
+      Then, by definition, the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex> is isomorphic to <fr:tex>\operatorname {Spec} (A')</fr:tex>, where <fr:tex>A'</fr:tex> is the normalisation of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+      To say that <fr:tex>L</fr:tex> is unramified over <fr:tex>Y</fr:tex> implies that <fr:tex>A'</fr:tex> is unramified (or even étale) over <fr:tex>A</fr:tex>.
+      If <fr:tex>A</fr:tex> is local, then it is equivalent to say that the local rings <fr:tex>A'_ \mathfrak {n}</fr:tex> (where <fr:tex>\mathfrak {n}</fr:tex> runs over the finite set of maximal ideals of <fr:tex>A'</fr:tex>, i.e. the prime ideals of <fr:tex>A'</fr:tex> that induce the maximal ideal <fr:tex>\mathfrak {m}</fr:tex> of <fr:tex>A</fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex>A</fr:tex>.
+      Finally, note that the discriminant criterion of <fr:ref
+addr="sga1-i.4.10"
+href="sga1-i.4.10.xml"
+taxon="Proposition"
+number="I.4.10"></fr:ref> can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, but with <fr:tex>Y</fr:tex> still assumed to be locally integral: <fr:tex>A \to  B</fr:tex> and <fr:tex>B \to  B \otimes _A K</fr:tex> are injective — then <fr:tex>\operatorname {tr} _{L/K}</fr:tex> is defined — and <fr:tex>\operatorname {tr} _{L/K}(xy)</fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex>B \times  B \to  A</fr:tex>, i.e. there exists <fr:tex>x_i \in  B</fr:tex> (for <fr:tex>1 \leq  i \leq  n= \operatorname {rank} _K L</fr:tex>) such that <fr:tex>\operatorname {tr} (x_ix_j) \in  A</fr:tex> for all <fr:tex>i,j</fr:tex>, and <fr:tex>\det ( \operatorname {tr} (x_i x_j))_{1 \leq  i,j \leq  n}</fr:tex> is invertible in <fr:tex>A</fr:tex>).
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  The syllogism <ref addr="sga1-i.4.6" href="sga1-i.4.6.xml" taxon="Proposition" number="I.4.6"/> immediately implies the syllogism of being unramified in the classical case:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>517</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.4</addr><route>sga1-i.10.4.xml</route>     <number>I.10.4</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be a normal integral prescheme, of field <tex>K</tex>.
+</fr:mainmatter></fr:tree><fr:p>
+  The syllogism <fr:ref
+addr="sga1-i.4.6"
+href="sga1-i.4.6.xml"
+taxon="Proposition"
+number="I.4.6"></fr:ref> immediately implies the syllogism of being unramified in the classical case:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.4</fr:addr><fr:route>sga1-i.10.4.xml</fr:route><fr:number>I.10.4</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>Y</fr:tex> be a normal integral prescheme, of field <fr:tex>K</fr:tex>.
     Then
-  </p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong><ol><li><tex>K</tex> is unramified over <tex>Y</tex>.
-    </li>
+  </fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong><fr:ol><fr:li><fr:tex>K</fr:tex> is unramified over <fr:tex>Y</fr:tex>.
+    </fr:li>
 
-    <li>
-      If <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, and if <tex>Y'</tex> is a normal prescheme, of field <tex>L</tex>, that dominates <tex>Y</tex> (e.g. the normalisation of <tex>Y</tex> in <tex>L</tex>), and <tex>M</tex> an extension of <tex>L</tex> that is unramified over <tex>Y'</tex>, then <tex>M/K</tex> is unramified over <tex>X</tex> (this is the <em>transitivity</em> property).
-    </li>
+    <fr:li>
+      If <fr:tex>L</fr:tex> is an extension of <fr:tex>K</fr:tex> that is unramified over <fr:tex>Y</fr:tex>, and if <fr:tex>Y'</fr:tex> is a normal prescheme, of field <fr:tex>L</fr:tex>, that dominates <fr:tex>Y</fr:tex> (e.g. the normalisation of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex>), and <fr:tex>M</fr:tex> an extension of <fr:tex>L</fr:tex> that is unramified over <fr:tex>Y'</fr:tex>, then <fr:tex>M/K</fr:tex> is unramified over <fr:tex>X</fr:tex> (this is the <fr:em>transitivity</fr:em> property).
+    </fr:li>
 
-    <li>
-      Let <tex>Y'</tex> be a normal integral prescheme that dominates <tex>Y</tex>, of field <tex>K'/K</tex>;
-      if <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, then <tex>L \otimes _K K'</tex> is an extension of <tex>K'</tex> that is unramified over <tex>Y'</tex> (this is the <em>translation</em> property).
-    </li></ol></mainmatter> </tree><p>
+    <fr:li>
+      Let <fr:tex>Y'</fr:tex> be a normal integral prescheme that dominates <fr:tex>Y</fr:tex>, of field <fr:tex>K'/K</fr:tex>;
+      if <fr:tex>L</fr:tex> is an extension of <fr:tex>K</fr:tex> that is unramified over <fr:tex>Y</fr:tex>, then <fr:tex>L \otimes _K K'</fr:tex> is an extension of <fr:tex>K'</fr:tex> that is unramified over <fr:tex>Y'</fr:tex> (this is the <fr:em>translation</fr:em> property).
+    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
   Furthermore:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>518</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.5</addr><route>sga1-i.10.5.xml</route>     <number>I.10.5</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, if <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, then the normalisation <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L'=L \otimes _K K'</tex> can be identified with <tex>\bar {A} \otimes _A A'</tex>, where <tex>\bar {A}</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.5</fr:addr><fr:route>sga1-i.10.5.xml</fr:route><fr:number>I.10.5</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of (iii) in <fr:ref
+addr="sga1-i.10.4"
+href="sga1-i.10.4.xml"
+taxon="Proposition"
+number="I.10.4"></fr:ref>, if <fr:tex>Y= \operatorname {Spec} (A)</fr:tex> and <fr:tex>Y'= \operatorname {Spec} (A')</fr:tex>, then the normalisation <fr:tex>\bar {A'}</fr:tex> of <fr:tex>A'</fr:tex> in <fr:tex>L'=L \otimes _K K'</fr:tex> can be identified with <fr:tex>\bar {A} \otimes _A A'</fr:tex>, where <fr:tex>\bar {A}</fr:tex> is the normalisation of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>519</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.6</addr><route>sga1-i.10.6.xml</route>     <number>I.10.6</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, let <tex>L_1</tex> be a <em>sum extension</em> of <tex>L/K</tex> (unramified over <tex>Y</tex>) and of <tex>K'/K</tex>.
-    Then <tex>L_1/K'</tex> is unramified over <tex>Y'</tex>.
-    In the case where <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, we further have that
-    <tex display="block">        \bar {A'} = A[ \bar {A},A']     </tex>
-    i.e. the normalisation ring <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L_1</tex> is the <tex>A</tex>-algebra generated by <tex>A'</tex> and by the normalisation <tex>\bar {A}</tex> of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.6</fr:addr><fr:route>sga1-i.10.6.xml</fr:route><fr:number>I.10.6</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of (iii) in <fr:ref
+addr="sga1-i.10.4"
+href="sga1-i.10.4.xml"
+taxon="Proposition"
+number="I.10.4"></fr:ref>, let <fr:tex>L_1</fr:tex> be a <fr:em>sum extension</fr:em> of <fr:tex>L/K</fr:tex> (unramified over <fr:tex>Y</fr:tex>) and of <fr:tex>K'/K</fr:tex>.
+    Then <fr:tex>L_1/K'</fr:tex> is unramified over <fr:tex>Y'</fr:tex>.
+    In the case where <fr:tex>Y= \operatorname {Spec} (A)</fr:tex> and <fr:tex>Y'= \operatorname {Spec} (A')</fr:tex>, we further have that
+    <fr:tex
+display="block">        \bar {A'} = A[ \bar {A},A']     </fr:tex>
+    i.e. the normalisation ring <fr:tex>\bar {A'}</fr:tex> of <fr:tex>A'</fr:tex> in <fr:tex>L_1</fr:tex> is the <fr:tex>A</fr:tex>-algebra generated by <fr:tex>A'</fr:tex> and by the normalisation <fr:tex>\bar {A}</fr:tex> of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
-</p><p>
-  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the &quot;maximal number&quot; of points over the point <tex>y \in  Y</tex> in question, and, in particular, there should not be &quot;multiple points combined&quot; over <tex>y</tex>.
-  To prove results in this sense, in all desirable generality, we will assume here <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
-</p><p>
-  A morphism of finite type <tex>f \colon  X \to  Y</tex> is said to be <em>universally open</em> if, for every base extension <tex>Y' \to  Y</tex> (with <tex>Y'</tex> locally Noetherian), the morphism <tex>f' \colon  X'=X \times _Y Y' \to  Y'</tex> is open, i.e. sends open subsets to open subsets.
-  We can actually restrict to the case where <tex>Y'</tex> is of finite type over <tex>y</tex> (and even to the case where <tex>Y'</tex> is of the form <tex>Y[t_1, \ldots ,t_r]</tex>, where the <tex>t_i</tex> are indeterminates).
+</fr:p><fr:p>
+  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point <fr:tex>y \in  Y</fr:tex> in question, and, in particular, there should not be "multiple points combined" over <fr:tex>y</fr:tex>.
+  To prove results in this sense, in all desirable generality, we will assume here <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
+</fr:p><fr:p>
+  A morphism of finite type <fr:tex>f \colon  X \to  Y</fr:tex> is said to be <fr:em>universally open</fr:em> if, for every base extension <fr:tex>Y' \to  Y</fr:tex> (with <fr:tex>Y'</fr:tex> locally Noetherian), the morphism <fr:tex>f' \colon  X'=X \times _Y Y' \to  Y'</fr:tex> is open, i.e. sends open subsets to open subsets.
+  We can actually restrict to the case where <fr:tex>Y'</fr:tex> is of finite type over <fr:tex>y</fr:tex> (and even to the case where <fr:tex>Y'</fr:tex> is of the form <fr:tex>Y[t_1, \ldots ,t_r]</fr:tex>, where the <fr:tex>t_i</fr:tex> are indeterminates).
   A universally open morphism is a fortiori open (but the converse is false);
-  on the other hand, if <tex>f</tex> is open, and if <tex>X</tex> and <tex>Y</tex> are irreducible, then all of the components of all of the fibres of <tex>f</tex> are of the same dimension (i.e. the dimension of the generic fibre <tex>f^{-1}(z)</tex>, where <tex>z</tex> is the generic point of <tex>Y</tex>).
-  Finally, if <tex>Y</tex> is normal, then this latter condition already implies that <tex>f</tex> is <em>universally</em> open (Chevalley's theorem).
-  It thus follows, for example, that, if <tex>f \colon  X \to  Y</tex> is a <em>quasi-finite</em> morphism, with <tex>Y</tex> normal and irreducible, then <tex>f</tex> is universally open (or even open) if and only if every irreducible component of <tex>X</tex> dominates <tex>Y</tex>.
+  on the other hand, if <fr:tex>f</fr:tex> is open, and if <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are irreducible, then all of the components of all of the fibres of <fr:tex>f</fr:tex> are of the same dimension (i.e. the dimension of the generic fibre <fr:tex>f^{-1}(z)</fr:tex>, where <fr:tex>z</fr:tex> is the generic point of <fr:tex>Y</fr:tex>).
+  Finally, if <fr:tex>Y</fr:tex> is normal, then this latter condition already implies that <fr:tex>f</fr:tex> is <fr:em>universally</fr:em> open (Chevalley's theorem).
+  It thus follows, for example, that, if <fr:tex>f \colon  X \to  Y</fr:tex> is a <fr:em>quasi-finite</fr:em> morphism, with <fr:tex>Y</fr:tex> normal and irreducible, then <fr:tex>f</fr:tex> is universally open (or even open) if and only if every irreducible component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>.
   Recall also that a flat morphism (of finite type) is open, and thus also universally open.
-  With these preliminaries, &quot;recall&quot; the following:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>520</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.7</addr><route>sga1-i.10.7.xml</route>     <number>I.10.7</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a quasi-finite, separated, universally open morphism.
-    For all <tex>y \in  Y</tex>, let <tex>n(y)</tex> be the &quot;geometric number of points in the fibre <tex>f^{-1}(y)</tex>&quot;, equal to the sum of the separable degrees of the residue extensions <tex>k(x)/k(y)</tex> as <tex>x</tex> runs over the points of <tex>f^{-1}(y)</tex>.
-    Then the function <tex>y \mapsto  n(y)</tex> on <tex>Y</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient for there to exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>.
-    (cf. EGA IV 15.5.1.)</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>521</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.8</addr><route>sga1-i.10.8.xml</route>     <number>I.10.8</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    If <tex>y \mapsto  n(y)</tex> is constant, and if <tex>Y</tex> is geometrically unibranch(For the definition, cf. <ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11"/>), then the irreducible components of <tex>X</tex> are disjoint.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>522</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.9</addr><route>sga1-i.10.9.xml</route>     <number>I.10.9</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>étale</em> morphism.
-    With the notation of <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, the function <tex>n \mapsto  n(y)</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient that there exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>, i.e. such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>523</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.10</addr><route>sga1-i.10.10.xml</route>     <number>I.10.10</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For a separated étale morphism <tex>f \colon  X \to  Y</tex> (with <tex>Y</tex> connected) to be finite (i.e. for <tex>f</tex> to make <tex>X</tex> an <em>étale cover</em> of <tex>Y</tex>), it is necessary and sufficient that all the fibres of <tex>f</tex> have the same geometric number of points.
-  </p></mainmatter> </tree><p>
-  In <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> and its corollary (<ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>), there was no normality hypothesis on <tex>Y</tex>;
+  With these preliminaries, "recall" the following:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a quasi-finite, separated, universally open morphism.
+    For all <fr:tex>y \in  Y</fr:tex>, let <fr:tex>n(y)</fr:tex> be the "geometric number of points in the fibre <fr:tex>f^{-1}(y)</fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex>k(x)/k(y)</fr:tex> as <fr:tex>x</fr:tex> runs over the points of <fr:tex>f^{-1}(y)</fr:tex>.
+    Then the function <fr:tex>y \mapsto  n(y)</fr:tex> on <fr:tex>Y</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient for there to exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>.
+    (cf. EGA IV 15.5.1.)</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.8</fr:addr><fr:route>sga1-i.10.8.xml</fr:route><fr:number>I.10.8</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>y \mapsto  n(y)</fr:tex> is constant, and if <fr:tex>Y</fr:tex> is geometrically unibranch(For the definition, cf. <fr:ref
+addr="sga1-i.11"
+href="sga1-i.11.xml"
+taxon="Section"
+number="I.11"></fr:ref>), then the irreducible components of <fr:tex>X</fr:tex> are disjoint.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.9</fr:addr><fr:route>sga1-i.10.9.xml</fr:route><fr:number>I.10.9</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>étale</fr:em> morphism.
+    With the notation of <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, the function <fr:tex>n \mapsto  n(y)</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient that there exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, i.e. such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.10</fr:addr><fr:route>sga1-i.10.10.xml</fr:route><fr:number>I.10.10</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For a separated étale morphism <fr:tex>f \colon  X \to  Y</fr:tex> (with <fr:tex>Y</fr:tex> connected) to be finite (i.e. for <fr:tex>f</fr:tex> to make <fr:tex>X</fr:tex> an <fr:em>étale cover</fr:em> of <fr:tex>Y</fr:tex>), it is necessary and sufficient that all the fibres of <fr:tex>f</fr:tex> have the same geometric number of points.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  In <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref> and its corollary (<fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8"></fr:ref>), there was no normality hypothesis on <fr:tex>Y</fr:tex>;
   if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>524</anchor> <taxon>Theorem</taxon> <addr>sga1-i.10.11</addr><route>sga1-i.10.11.xml</route>     <number>I.10.11</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>quasi-finite</em> morphism.
-    Suppose that <tex>Y</tex> is <em>irreducible</em>, that every component of <tex>X</tex> dominates <tex>Y</tex>, and that <tex>X</tex> is reduced (i.e. that <tex>\mathcal { O } _X</tex> has no nilpotent elements).
-    Let <tex>n</tex> be the degree of <tex>X</tex> over <tex>Y</tex> (i.e. the sum of the degrees, over the field <tex>K</tex> of <tex>Y</tex>, of the fields <tex>K_i</tex> of the irreducible components <tex>X_i</tex> of <tex>X</tex>).
-    Let <tex>y</tex> be a normal point of <tex>Y</tex>.
-    Then the geometric number <tex>n(y)</tex> of points of <tex>X</tex> over <tex>y</tex> is <tex>\leq  n</tex>, with equality if and only if there exists an open neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
+    Suppose that <fr:tex>Y</fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, and that <fr:tex>X</fr:tex> is reduced (i.e. that <fr:tex>\mathcal { O } _X</fr:tex> has no nilpotent elements).
+    Let <fr:tex>n</fr:tex> be the degree of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex> (i.e. the sum of the degrees, over the field <fr:tex>K</fr:tex> of <fr:tex>Y</fr:tex>, of the fields <fr:tex>K_i</fr:tex> of the irreducible components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex>).
+    Let <fr:tex>y</fr:tex> be a normal point of <fr:tex>Y</fr:tex>.
+    Then the geometric number <fr:tex>n(y)</fr:tex> of points of <fr:tex>X</fr:tex> over <fr:tex>y</fr:tex> is <fr:tex>\leq  n</fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>525</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      The &quot;only if&quot; is trivial;
-      we will prove the &quot;if&quot;.
-      Let <tex>z</tex> be the generic point of <tex>Y</tex>.
-      Then <tex>n(z)</tex>, which is equal to the sum of the separable degrees of the <tex>K_i/K</tex>, is <tex>\leq  n</tex>, and, by <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, we have that <tex>n(y) \leq  n(z)</tex>;
-      thus <tex>n(y) \leq  n</tex>, with equality implying that <tex>X|U</tex> if <em>finite</em> over <tex>U</tex>, for some suitable neighbourhood <tex>U</tex> of <tex>y</tex>.
-      We can thus suppose that <tex>X</tex> is finite over <tex>Y</tex>, and that the function <tex>n(y')</tex> on <tex>Y</tex> is constant.
-      Then, by <ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>, <tex>X</tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <tex>y</tex>, we can restrict to the case where <tex>X</tex> is irreducible, thus integral.
-      Finally, we can assume that <tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</tex>.
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      The "only if" is trivial;
+      we will prove the "if".
+      Let <fr:tex>z</fr:tex> be the generic point of <fr:tex>Y</fr:tex>.
+      Then <fr:tex>n(z)</fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex>K_i/K</fr:tex>, is <fr:tex>\leq  n</fr:tex>, and, by <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, we have that <fr:tex>n(y) \leq  n(z)</fr:tex>;
+      thus <fr:tex>n(y) \leq  n</fr:tex>, with equality implying that <fr:tex>X|U</fr:tex> if <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, for some suitable neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex>.
+      We can thus suppose that <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex>, and that the function <fr:tex>n(y')</fr:tex> on <fr:tex>Y</fr:tex> is constant.
+      Then, by <fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8"></fr:ref>, <fr:tex>X</fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex>y</fr:tex>, we can restrict to the case where <fr:tex>X</fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</fr:tex>.
       The theorem thus reduces to the following classical statement:
-    </p>
-  </mainmatter> </tree>
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>526</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.12</addr><route>sga1-i.10.12.xml</route>     <number>I.10.12</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a normal local ring (Noetherian, as always), of field <tex>K</tex>;
-    let <tex>L</tex> be a finite extension of <tex>K</tex> of degree <tex>n</tex>, and of separable degree <tex>n_s</tex>;
-    let <tex>B</tex> be a sub-ring of <tex>L</tex> that is finite over <tex>A</tex>, with field of fraction <tex>L</tex>;
-    let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>, and <tex>n'</tex> the separable degree of <tex>B/ \mathfrak {m}B</tex> over <tex>A/ \mathfrak {m}A=k</tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
-    Then <tex>n' \leq  n_s</tex>, and a fortiori <tex>n' \leq  n</tex>.
-    This latter inequality is an equality if and only if <tex>B</tex> is unramified (i.e. étale) over <tex>A</tex>.
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.12</fr:addr><fr:route>sga1-i.10.12.xml</fr:route><fr:number>I.10.12</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be a normal local ring (Noetherian, as always), of field <fr:tex>K</fr:tex>;
+    let <fr:tex>L</fr:tex> be a finite extension of <fr:tex>K</fr:tex> of degree <fr:tex>n</fr:tex>, and of separable degree <fr:tex>n_s</fr:tex>;
+    let <fr:tex>B</fr:tex> be a sub-ring of <fr:tex>L</fr:tex> that is finite over <fr:tex>A</fr:tex>, with field of fraction <fr:tex>L</fr:tex>;
+    let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>, and <fr:tex>n'</fr:tex> the separable degree of <fr:tex>B/ \mathfrak {m}B</fr:tex> over <fr:tex>A/ \mathfrak {m}A=k</fr:tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+    Then <fr:tex>n' \leq  n_s</fr:tex>, and a fortiori <fr:tex>n' \leq  n</fr:tex>.
+    This latter inequality is an equality if and only if <fr:tex>B</fr:tex> is unramified (i.e. étale) over <fr:tex>A</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>527</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      It remains only to show that, if <tex>n'=n</tex>, then <tex>B</tex> is étale over <tex>A</tex>.
-      Recall the proof in the case where <tex>k</tex> is infinite:
-      we need only show that <tex>R=B/ \mathfrak {m}B</tex> is separable over <tex>k</tex>;
-      if this were not the case, then it would follow (by a known lemma) that there exists an element <tex>a</tex> of <tex>R</tex> whose minimal polynomial over <tex>k</tex> is of degree <tex>&gt;n'</tex>.
-      This element would come from an element <tex>x</tex> of <tex>B</tex>, whose minimal polynomial over <tex>K</tex> (as an element of <tex>L</tex>) is of degree <tex>\leq  n</tex>;
-      but this minimal polynomial has coefficients in <tex>A</tex>, since <tex>A</tex> is normal, and thus gives, by restriction modulo <tex>\mathfrak {m}</tex>, a monic polynomial <tex>F \in  k[t]</tex> of degree <tex>\leq  n=n'</tex>, such that <tex>F(a)=0</tex>.
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      It remains only to show that, if <fr:tex>n'=n</fr:tex>, then <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>.
+      Recall the proof in the case where <fr:tex>k</fr:tex> is infinite:
+      we need only show that <fr:tex>R=B/ \mathfrak {m}B</fr:tex> is separable over <fr:tex>k</fr:tex>;
+      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex>a</fr:tex> of <fr:tex>R</fr:tex> whose minimal polynomial over <fr:tex>k</fr:tex> is of degree <fr:tex>&gt;n'</fr:tex>.
+      This element would come from an element <fr:tex>x</fr:tex> of <fr:tex>B</fr:tex>, whose minimal polynomial over <fr:tex>K</fr:tex> (as an element of <fr:tex>L</fr:tex>) is of degree <fr:tex>\leq  n</fr:tex>;
+      but this minimal polynomial has coefficients in <fr:tex>A</fr:tex>, since <fr:tex>A</fr:tex> is normal, and thus gives, by restriction modulo <fr:tex>\mathfrak {m}</fr:tex>, a monic polynomial <fr:tex>F \in  k[t]</fr:tex> of degree <fr:tex>\leq  n=n'</fr:tex>, such that <fr:tex>F(a)=0</fr:tex>.
       But this is a contradiction.
-    </p>
+    </fr:p>
 
-    <p>
-      In the general case (where <tex>k</tex> can be finite), we can again use geometric language:
-      we consider <tex>Y'= \operatorname {Spec} (A[t])</tex>, which is faithfully flat over <tex>Y</tex>, and the generic point <tex>y'</tex> of the fibre <tex>\operatorname {Spec} (k[t])</tex> of <tex>Y'</tex> over <tex>y</tex>.
-      Then <tex>X</tex> is unramified over <tex>Y</tex> at <tex>y</tex> if and only if <tex>X'=X \times _Y Y'= \operatorname {Spec} (B[t])</tex> is unramified over <tex>Y'</tex> at <tex>y'</tex>, as we immediately see.
-      On the other hand, by the choice of <tex>y'</tex>, its residue field is <tex>k(t)</tex>, and thus infinite.
-      Since <tex>y'</tex> is a normal point of <tex>Y'</tex>, we are now in the previous case.
-    </p>
-  </mainmatter> </tree>
+    <fr:p>
+      In the general case (where <fr:tex>k</fr:tex> can be finite), we can again use geometric language:
+      we consider <fr:tex>Y'= \operatorname {Spec} (A[t])</fr:tex>, which is faithfully flat over <fr:tex>Y</fr:tex>, and the generic point <fr:tex>y'</fr:tex> of the fibre <fr:tex>\operatorname {Spec} (k[t])</fr:tex> of <fr:tex>Y'</fr:tex> over <fr:tex>y</fr:tex>.
+      Then <fr:tex>X</fr:tex> is unramified over <fr:tex>Y</fr:tex> at <fr:tex>y</fr:tex> if and only if <fr:tex>X'=X \times _Y Y'= \operatorname {Spec} (B[t])</fr:tex> is unramified over <fr:tex>Y'</fr:tex> at <fr:tex>y'</fr:tex>, as we immediately see.
+      On the other hand, by the choice of <fr:tex>y'</fr:tex>, its residue field is <fr:tex>k(t)</fr:tex>, and thus infinite.
+      Since <fr:tex>y'</fr:tex> is a normal point of <fr:tex>Y'</fr:tex>, we are now in the previous case.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>528</anchor> <taxon>Section</taxon> <addr>sga1-i.10</addr><route>sga1-i.10.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale covers of a normal scheme</title> <number>I.10</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>529</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.1</addr><route>sga1-i.10.1.xml</route>     <number>I.10.1</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be normal and connected of field <tex>K</tex>, and let <tex>X</tex> be a separated étale prescheme over <tex>Y</tex>.
-    Then the connected components <tex>X_i</tex> of <tex>X</tex> are integral, their fields <tex>K_i</tex> are finite separable extensions of <tex>K</tex>, and <tex>X_i</tex> can be identified with a non-empty open subset of the normalisation of <tex>X</tex> in <tex>K_i</tex> (and thus <tex>X</tex> with a dense open subset of the normalisation of <tex>Y</tex> in <tex>R(X)=L= \prod  K_i</tex>, where <tex>R(X)</tex> is the ring of rational functions on <tex>X</tex>).
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>530</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      By <ref addr="sga1-i.9.10" href="sga1-i.9.10.xml" taxon="Corollary" number="I.9.10"/>, <tex>X</tex> is normal, and a fortiori its local rings are integral, and so the connected components of <tex>X</tex> are irreducible.
-      Since <tex>X_i</tex> is normal, and also finite and dominant over <tex>Y</tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <tex>X_i</tex> is an open subset of the normalisation of <tex>X</tex> in the field <tex>K_i</tex> of <tex>X_i</tex>.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>531</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.2</addr><route>sga1-i.10.2.xml</route>     <number>I.10.2</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of <ref addr="sga1-i.10.1" href="sga1-i.10.1.xml" taxon="Proposition" number="I.10.1"/>, <tex>X</tex> is finite over <tex>Y</tex> (i.e. an étale cover of <tex>Y</tex>) if and only if <tex>X</tex> is isomorphic to the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L=R(X)</tex> (the ring of rational functions on <tex>X</tex>).
-  </p>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>292</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
+    Suppose that <fr:tex>Y</fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, and that <fr:tex>X</fr:tex> is reduced (i.e. that <fr:tex>\mathcal { O } _X</fr:tex> has no nilpotent elements).
+    Let <fr:tex>n</fr:tex> be the degree of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex> (i.e. the sum of the degrees, over the field <fr:tex>K</fr:tex> of <fr:tex>Y</fr:tex>, of the fields <fr:tex>K_i</fr:tex> of the irreducible components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex>).
+    Let <fr:tex>y</fr:tex> be a normal point of <fr:tex>Y</fr:tex>.
+    Then the geometric number <fr:tex>n(y)</fr:tex> of points of <fr:tex>X</fr:tex> over <fr:tex>y</fr:tex> is <fr:tex>\leq  n</fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>532</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We know that this normalisation is finite over <tex>Y</tex> (since <tex>Y</tex> is normal, and <tex>R/K</tex> separable);
-      conversely, if <tex>X</tex> is finite over <tex>Y</tex>, then it is also finite over <tex>Y'</tex>, and so its image in <tex>Y'</tex> is closed (and it is also dense).
-    </p>
-  </mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      The "only if" is trivial;
+      we will prove the "if".
+      Let <fr:tex>z</fr:tex> be the generic point of <fr:tex>Y</fr:tex>.
+      Then <fr:tex>n(z)</fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex>K_i/K</fr:tex>, is <fr:tex>\leq  n</fr:tex>, and, by <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, we have that <fr:tex>n(y) \leq  n(z)</fr:tex>;
+      thus <fr:tex>n(y) \leq  n</fr:tex>, with equality implying that <fr:tex>X|U</fr:tex> if <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, for some suitable neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex>.
+      We can thus suppose that <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex>, and that the function <fr:tex>n(y')</fr:tex> on <fr:tex>Y</fr:tex> is constant.
+      Then, by <fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8"></fr:ref>, <fr:tex>X</fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex>y</fr:tex>, we can restrict to the case where <fr:tex>X</fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</fr:tex>.
+      The theorem thus reduces to the following classical statement:
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  An algebra <tex>L</tex> of finite rank over <tex>K</tex> is said to be <em>unramified over <tex>X</tex></em> (or simply <em>unramified over <tex>K</tex></em> if <tex>X</tex> is evident) if <tex>L</tex> is a separable algebra over <tex>K</tex> (i.e. a direct sum of separable extensions <tex>K_i</tex>) <em>and</em> the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> (i.e. the disjoint sum of the normalisations of <tex>Y</tex> in the <tex>K_i</tex>) is unramified (i.e. étale, by <ref addr="sga1-i.9.11" href="sga1-i.9.11.xml" taxon="Corollary" number="I.9.11"/>) over <tex>Y</tex>.
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.9</fr:addr><fr:route>sga1-i.10.9.xml</fr:route><fr:number>I.10.9</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>étale</fr:em> morphism.
+    With the notation of <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, the function <fr:tex>n \mapsto  n(y)</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient that there exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, i.e. such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>294</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale covers of a normal scheme</fr:title><fr:number>I.10</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.1</fr:addr><fr:route>sga1-i.10.1.xml</fr:route><fr:number>I.10.1</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>Y</fr:tex> be normal and connected of field <fr:tex>K</fr:tex>, and let <fr:tex>X</fr:tex> be a separated étale prescheme over <fr:tex>Y</fr:tex>.
+    Then the connected components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex> are integral, their fields <fr:tex>K_i</fr:tex> are finite separable extensions of <fr:tex>K</fr:tex>, and <fr:tex>X_i</fr:tex> can be identified with a non-empty open subset of the normalisation of <fr:tex>X</fr:tex> in <fr:tex>K_i</fr:tex> (and thus <fr:tex>X</fr:tex> with a dense open subset of the normalisation of <fr:tex>Y</fr:tex> in <fr:tex>R(X)=L= \prod  K_i</fr:tex>, where <fr:tex>R(X)</fr:tex> is the ring of rational functions on <fr:tex>X</fr:tex>).
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      By <fr:ref
+addr="sga1-i.9.10"
+href="sga1-i.9.10.xml"
+taxon="Corollary"
+number="I.9.10"></fr:ref>, <fr:tex>X</fr:tex> is normal, and a fortiori its local rings are integral, and so the connected components of <fr:tex>X</fr:tex> are irreducible.
+      Since <fr:tex>X_i</fr:tex> is normal, and also finite and dominant over <fr:tex>Y</fr:tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <fr:tex>X_i</fr:tex> is an open subset of the normalisation of <fr:tex>X</fr:tex> in the field <fr:tex>K_i</fr:tex> of <fr:tex>X_i</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.2</fr:addr><fr:route>sga1-i.10.2.xml</fr:route><fr:number>I.10.2</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of <fr:ref
+addr="sga1-i.10.1"
+href="sga1-i.10.1.xml"
+taxon="Proposition"
+number="I.10.1"></fr:ref>, <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex> (i.e. an étale cover of <fr:tex>Y</fr:tex>) if and only if <fr:tex>X</fr:tex> is isomorphic to the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L=R(X)</fr:tex> (the ring of rational functions on <fr:tex>X</fr:tex>).
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We know that this normalisation is finite over <fr:tex>Y</fr:tex> (since <fr:tex>Y</fr:tex> is normal, and <fr:tex>R/K</fr:tex> separable);
+      conversely, if <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex>, then it is also finite over <fr:tex>Y'</fr:tex>, and so its image in <fr:tex>Y'</fr:tex> is closed (and it is also dense).
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  An algebra <fr:tex>L</fr:tex> of finite rank over <fr:tex>K</fr:tex> is said to be <fr:em>unramified over <fr:tex>X</fr:tex></fr:em> (or simply <fr:em>unramified over <fr:tex>K</fr:tex></fr:em> if <fr:tex>X</fr:tex> is evident) if <fr:tex>L</fr:tex> is a separable algebra over <fr:tex>K</fr:tex> (i.e. a direct sum of separable extensions <fr:tex>K_i</fr:tex>) <fr:em>and</fr:em> the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex> (i.e. the disjoint sum of the normalisations of <fr:tex>Y</fr:tex> in the <fr:tex>K_i</fr:tex>) is unramified (i.e. étale, by <fr:ref
+addr="sga1-i.9.11"
+href="sga1-i.9.11.xml"
+taxon="Corollary"
+number="I.9.11"></fr:ref>) over <fr:tex>Y</fr:tex>.
   Thus:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>533</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.3</addr><route>sga1-i.10.3.xml</route>     <number>I.10.3</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For every <tex>X</tex> that is finite over <tex>Y</tex> and such that every irreducible component of <tex>X</tex> dominates <tex>Y</tex>, let <tex>R(X)</tex> be the ring of rational functions on <tex>X</tex> (given by the product of the local rings of the generic points of the irreducible components of <tex>X</tex>), so that <tex>X \mapsto  R(X)</tex> is a functor, with values in algebras of finite rank over <tex>K=R(Y)</tex>.
-    Then this functor establishes an equivalence between the category of connected étale covers of <tex>Y</tex> and the category of extensions <tex>L</tex> of <tex>K</tex> that are unramified over <tex>Y</tex>.
-  </p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.3</fr:addr><fr:route>sga1-i.10.3.xml</fr:route><fr:number>I.10.3</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For every <fr:tex>X</fr:tex> that is finite over <fr:tex>Y</fr:tex> and such that every irreducible component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, let <fr:tex>R(X)</fr:tex> be the ring of rational functions on <fr:tex>X</fr:tex> (given by the product of the local rings of the generic points of the irreducible components of <fr:tex>X</fr:tex>), so that <fr:tex>X \mapsto  R(X)</fr:tex> is a functor, with values in algebras of finite rank over <fr:tex>K=R(Y)</fr:tex>.
+    Then this functor establishes an equivalence between the category of connected étale covers of <fr:tex>Y</fr:tex> and the category of extensions <fr:tex>L</fr:tex> of <fr:tex>K</fr:tex> that are unramified over <fr:tex>Y</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>534</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
       The inverse functor is the normalisation functor.
-    </p>
+    </fr:p>
 
-    <p>
-      Suppose that <tex>Y</tex> is affine, and thus defined by a normal ring <tex>A</tex> with field of fractions <tex>K</tex>.
-      Let <tex>L</tex> be a finite extension of <tex>K</tex> given by a direct sum of fields.
-      Then, by definition, the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> is isomorphic to <tex>\operatorname {Spec} (A')</tex>, where <tex>A'</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-      To say that <tex>L</tex> is unramified over <tex>Y</tex> implies that <tex>A'</tex> is unramified (or even étale) over <tex>A</tex>.
-      If <tex>A</tex> is local, then it is equivalent to say that the local rings <tex>A'_ \mathfrak {n}</tex> (where <tex>\mathfrak {n}</tex> runs over the finite set of maximal ideals of <tex>A'</tex>, i.e. the prime ideals of <tex>A'</tex> that induce the maximal ideal <tex>\mathfrak {m}</tex> of <tex>A</tex>) are unramified (i.e. étale) over the local ring <tex>A</tex>.
-      Finally, note that the discriminant criterion of <ref addr="sga1-i.4.10" href="sga1-i.4.10.xml" taxon="Proposition" number="I.4.10"/> can also be applied to this situation
-      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <tex>X</tex> dominates <tex>Y</tex>, but with <tex>Y</tex> still assumed to be locally integral: <tex>A \to  B</tex> and <tex>B \to  B \otimes _A K</tex> are injective — then <tex>\operatorname {tr} _{L/K}</tex> is defined — and <tex>\operatorname {tr} _{L/K}(xy)</tex> induces a <em>fundamental bilinear form</em> <tex>B \times  B \to  A</tex>, i.e. there exists <tex>x_i \in  B</tex> (for <tex>1 \leq  i \leq  n= \operatorname {rank} _K L</tex>) such that <tex>\operatorname {tr} (x_ix_j) \in  A</tex> for all <tex>i,j</tex>, and <tex>\det ( \operatorname {tr} (x_i x_j))_{1 \leq  i,j \leq  n}</tex> is invertible in <tex>A</tex>).
-    </p>
-  </mainmatter> </tree>
+    <fr:p>
+      Suppose that <fr:tex>Y</fr:tex> is affine, and thus defined by a normal ring <fr:tex>A</fr:tex> with field of fractions <fr:tex>K</fr:tex>.
+      Let <fr:tex>L</fr:tex> be a finite extension of <fr:tex>K</fr:tex> given by a direct sum of fields.
+      Then, by definition, the normalisation <fr:tex>Y'</fr:tex> of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex> is isomorphic to <fr:tex>\operatorname {Spec} (A')</fr:tex>, where <fr:tex>A'</fr:tex> is the normalisation of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+      To say that <fr:tex>L</fr:tex> is unramified over <fr:tex>Y</fr:tex> implies that <fr:tex>A'</fr:tex> is unramified (or even étale) over <fr:tex>A</fr:tex>.
+      If <fr:tex>A</fr:tex> is local, then it is equivalent to say that the local rings <fr:tex>A'_ \mathfrak {n}</fr:tex> (where <fr:tex>\mathfrak {n}</fr:tex> runs over the finite set of maximal ideals of <fr:tex>A'</fr:tex>, i.e. the prime ideals of <fr:tex>A'</fr:tex> that induce the maximal ideal <fr:tex>\mathfrak {m}</fr:tex> of <fr:tex>A</fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex>A</fr:tex>.
+      Finally, note that the discriminant criterion of <fr:ref
+addr="sga1-i.4.10"
+href="sga1-i.4.10.xml"
+taxon="Proposition"
+number="I.4.10"></fr:ref> can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, but with <fr:tex>Y</fr:tex> still assumed to be locally integral: <fr:tex>A \to  B</fr:tex> and <fr:tex>B \to  B \otimes _A K</fr:tex> are injective — then <fr:tex>\operatorname {tr} _{L/K}</fr:tex> is defined — and <fr:tex>\operatorname {tr} _{L/K}(xy)</fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex>B \times  B \to  A</fr:tex>, i.e. there exists <fr:tex>x_i \in  B</fr:tex> (for <fr:tex>1 \leq  i \leq  n= \operatorname {rank} _K L</fr:tex>) such that <fr:tex>\operatorname {tr} (x_ix_j) \in  A</fr:tex> for all <fr:tex>i,j</fr:tex>, and <fr:tex>\det ( \operatorname {tr} (x_i x_j))_{1 \leq  i,j \leq  n}</fr:tex> is invertible in <fr:tex>A</fr:tex>).
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><p>
-  The syllogism <ref addr="sga1-i.4.6" href="sga1-i.4.6.xml" taxon="Proposition" number="I.4.6"/> immediately implies the syllogism of being unramified in the classical case:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>535</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.4</addr><route>sga1-i.10.4.xml</route>     <number>I.10.4</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be a normal integral prescheme, of field <tex>K</tex>.
+</fr:mainmatter></fr:tree><fr:p>
+  The syllogism <fr:ref
+addr="sga1-i.4.6"
+href="sga1-i.4.6.xml"
+taxon="Proposition"
+number="I.4.6"></fr:ref> immediately implies the syllogism of being unramified in the classical case:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.4</fr:addr><fr:route>sga1-i.10.4.xml</fr:route><fr:number>I.10.4</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>Y</fr:tex> be a normal integral prescheme, of field <fr:tex>K</fr:tex>.
     Then
-  </p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong><ol><li><tex>K</tex> is unramified over <tex>Y</tex>.
-    </li>
+  </fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong><fr:ol><fr:li><fr:tex>K</fr:tex> is unramified over <fr:tex>Y</fr:tex>.
+    </fr:li>
 
-    <li>
-      If <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, and if <tex>Y'</tex> is a normal prescheme, of field <tex>L</tex>, that dominates <tex>Y</tex> (e.g. the normalisation of <tex>Y</tex> in <tex>L</tex>), and <tex>M</tex> an extension of <tex>L</tex> that is unramified over <tex>Y'</tex>, then <tex>M/K</tex> is unramified over <tex>X</tex> (this is the <em>transitivity</em> property).
-    </li>
+    <fr:li>
+      If <fr:tex>L</fr:tex> is an extension of <fr:tex>K</fr:tex> that is unramified over <fr:tex>Y</fr:tex>, and if <fr:tex>Y'</fr:tex> is a normal prescheme, of field <fr:tex>L</fr:tex>, that dominates <fr:tex>Y</fr:tex> (e.g. the normalisation of <fr:tex>Y</fr:tex> in <fr:tex>L</fr:tex>), and <fr:tex>M</fr:tex> an extension of <fr:tex>L</fr:tex> that is unramified over <fr:tex>Y'</fr:tex>, then <fr:tex>M/K</fr:tex> is unramified over <fr:tex>X</fr:tex> (this is the <fr:em>transitivity</fr:em> property).
+    </fr:li>
 
-    <li>
-      Let <tex>Y'</tex> be a normal integral prescheme that dominates <tex>Y</tex>, of field <tex>K'/K</tex>;
-      if <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, then <tex>L \otimes _K K'</tex> is an extension of <tex>K'</tex> that is unramified over <tex>Y'</tex> (this is the <em>translation</em> property).
-    </li></ol></mainmatter> </tree><p>
+    <fr:li>
+      Let <fr:tex>Y'</fr:tex> be a normal integral prescheme that dominates <fr:tex>Y</fr:tex>, of field <fr:tex>K'/K</fr:tex>;
+      if <fr:tex>L</fr:tex> is an extension of <fr:tex>K</fr:tex> that is unramified over <fr:tex>Y</fr:tex>, then <fr:tex>L \otimes _K K'</fr:tex> is an extension of <fr:tex>K'</fr:tex> that is unramified over <fr:tex>Y'</fr:tex> (this is the <fr:em>translation</fr:em> property).
+    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
   Furthermore:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>536</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.5</addr><route>sga1-i.10.5.xml</route>     <number>I.10.5</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, if <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, then the normalisation <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L'=L \otimes _K K'</tex> can be identified with <tex>\bar {A} \otimes _A A'</tex>, where <tex>\bar {A}</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.5</fr:addr><fr:route>sga1-i.10.5.xml</fr:route><fr:number>I.10.5</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of (iii) in <fr:ref
+addr="sga1-i.10.4"
+href="sga1-i.10.4.xml"
+taxon="Proposition"
+number="I.10.4"></fr:ref>, if <fr:tex>Y= \operatorname {Spec} (A)</fr:tex> and <fr:tex>Y'= \operatorname {Spec} (A')</fr:tex>, then the normalisation <fr:tex>\bar {A'}</fr:tex> of <fr:tex>A'</fr:tex> in <fr:tex>L'=L \otimes _K K'</fr:tex> can be identified with <fr:tex>\bar {A} \otimes _A A'</fr:tex>, where <fr:tex>\bar {A}</fr:tex> is the normalisation of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>537</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.6</addr><route>sga1-i.10.6.xml</route>     <number>I.10.6</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, let <tex>L_1</tex> be a <em>sum extension</em> of <tex>L/K</tex> (unramified over <tex>Y</tex>) and of <tex>K'/K</tex>.
-    Then <tex>L_1/K'</tex> is unramified over <tex>Y'</tex>.
-    In the case where <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, we further have that
-    <tex display="block">        \bar {A'} = A[ \bar {A},A']     </tex>
-    i.e. the normalisation ring <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L_1</tex> is the <tex>A</tex>-algebra generated by <tex>A'</tex> and by the normalisation <tex>\bar {A}</tex> of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.6</fr:addr><fr:route>sga1-i.10.6.xml</fr:route><fr:number>I.10.6</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the conditions of (iii) in <fr:ref
+addr="sga1-i.10.4"
+href="sga1-i.10.4.xml"
+taxon="Proposition"
+number="I.10.4"></fr:ref>, let <fr:tex>L_1</fr:tex> be a <fr:em>sum extension</fr:em> of <fr:tex>L/K</fr:tex> (unramified over <fr:tex>Y</fr:tex>) and of <fr:tex>K'/K</fr:tex>.
+    Then <fr:tex>L_1/K'</fr:tex> is unramified over <fr:tex>Y'</fr:tex>.
+    In the case where <fr:tex>Y= \operatorname {Spec} (A)</fr:tex> and <fr:tex>Y'= \operatorname {Spec} (A')</fr:tex>, we further have that
+    <fr:tex
+display="block">        \bar {A'} = A[ \bar {A},A']     </fr:tex>
+    i.e. the normalisation ring <fr:tex>\bar {A'}</fr:tex> of <fr:tex>A'</fr:tex> in <fr:tex>L_1</fr:tex> is the <fr:tex>A</fr:tex>-algebra generated by <fr:tex>A'</fr:tex> and by the normalisation <fr:tex>\bar {A}</fr:tex> of <fr:tex>A</fr:tex> in <fr:tex>L</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
-</p><p>
-  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the &quot;maximal number&quot; of points over the point <tex>y \in  Y</tex> in question, and, in particular, there should not be &quot;multiple points combined&quot; over <tex>y</tex>.
-  To prove results in this sense, in all desirable generality, we will assume here <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
-</p><p>
-  A morphism of finite type <tex>f \colon  X \to  Y</tex> is said to be <em>universally open</em> if, for every base extension <tex>Y' \to  Y</tex> (with <tex>Y'</tex> locally Noetherian), the morphism <tex>f' \colon  X'=X \times _Y Y' \to  Y'</tex> is open, i.e. sends open subsets to open subsets.
-  We can actually restrict to the case where <tex>Y'</tex> is of finite type over <tex>y</tex> (and even to the case where <tex>Y'</tex> is of the form <tex>Y[t_1, \ldots ,t_r]</tex>, where the <tex>t_i</tex> are indeterminates).
+</fr:p><fr:p>
+  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point <fr:tex>y \in  Y</fr:tex> in question, and, in particular, there should not be "multiple points combined" over <fr:tex>y</fr:tex>.
+  To prove results in this sense, in all desirable generality, we will assume here <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
+</fr:p><fr:p>
+  A morphism of finite type <fr:tex>f \colon  X \to  Y</fr:tex> is said to be <fr:em>universally open</fr:em> if, for every base extension <fr:tex>Y' \to  Y</fr:tex> (with <fr:tex>Y'</fr:tex> locally Noetherian), the morphism <fr:tex>f' \colon  X'=X \times _Y Y' \to  Y'</fr:tex> is open, i.e. sends open subsets to open subsets.
+  We can actually restrict to the case where <fr:tex>Y'</fr:tex> is of finite type over <fr:tex>y</fr:tex> (and even to the case where <fr:tex>Y'</fr:tex> is of the form <fr:tex>Y[t_1, \ldots ,t_r]</fr:tex>, where the <fr:tex>t_i</fr:tex> are indeterminates).
   A universally open morphism is a fortiori open (but the converse is false);
-  on the other hand, if <tex>f</tex> is open, and if <tex>X</tex> and <tex>Y</tex> are irreducible, then all of the components of all of the fibres of <tex>f</tex> are of the same dimension (i.e. the dimension of the generic fibre <tex>f^{-1}(z)</tex>, where <tex>z</tex> is the generic point of <tex>Y</tex>).
-  Finally, if <tex>Y</tex> is normal, then this latter condition already implies that <tex>f</tex> is <em>universally</em> open (Chevalley's theorem).
-  It thus follows, for example, that, if <tex>f \colon  X \to  Y</tex> is a <em>quasi-finite</em> morphism, with <tex>Y</tex> normal and irreducible, then <tex>f</tex> is universally open (or even open) if and only if every irreducible component of <tex>X</tex> dominates <tex>Y</tex>.
+  on the other hand, if <fr:tex>f</fr:tex> is open, and if <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are irreducible, then all of the components of all of the fibres of <fr:tex>f</fr:tex> are of the same dimension (i.e. the dimension of the generic fibre <fr:tex>f^{-1}(z)</fr:tex>, where <fr:tex>z</fr:tex> is the generic point of <fr:tex>Y</fr:tex>).
+  Finally, if <fr:tex>Y</fr:tex> is normal, then this latter condition already implies that <fr:tex>f</fr:tex> is <fr:em>universally</fr:em> open (Chevalley's theorem).
+  It thus follows, for example, that, if <fr:tex>f \colon  X \to  Y</fr:tex> is a <fr:em>quasi-finite</fr:em> morphism, with <fr:tex>Y</fr:tex> normal and irreducible, then <fr:tex>f</fr:tex> is universally open (or even open) if and only if every irreducible component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>.
   Recall also that a flat morphism (of finite type) is open, and thus also universally open.
-  With these preliminaries, &quot;recall&quot; the following:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>538</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.7</addr><route>sga1-i.10.7.xml</route>     <number>I.10.7</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a quasi-finite, separated, universally open morphism.
-    For all <tex>y \in  Y</tex>, let <tex>n(y)</tex> be the &quot;geometric number of points in the fibre <tex>f^{-1}(y)</tex>&quot;, equal to the sum of the separable degrees of the residue extensions <tex>k(x)/k(y)</tex> as <tex>x</tex> runs over the points of <tex>f^{-1}(y)</tex>.
-    Then the function <tex>y \mapsto  n(y)</tex> on <tex>Y</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient for there to exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>.
-    (cf. EGA IV 15.5.1.)</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>539</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.8</addr><route>sga1-i.10.8.xml</route>     <number>I.10.8</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    If <tex>y \mapsto  n(y)</tex> is constant, and if <tex>Y</tex> is geometrically unibranch(For the definition, cf. <ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11"/>), then the irreducible components of <tex>X</tex> are disjoint.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>540</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.9</addr><route>sga1-i.10.9.xml</route>     <number>I.10.9</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>étale</em> morphism.
-    With the notation of <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, the function <tex>n \mapsto  n(y)</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient that there exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>, i.e. such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>541</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.10</addr><route>sga1-i.10.10.xml</route>     <number>I.10.10</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For a separated étale morphism <tex>f \colon  X \to  Y</tex> (with <tex>Y</tex> connected) to be finite (i.e. for <tex>f</tex> to make <tex>X</tex> an <em>étale cover</em> of <tex>Y</tex>), it is necessary and sufficient that all the fibres of <tex>f</tex> have the same geometric number of points.
-  </p></mainmatter> </tree><p>
-  In <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> and its corollary (<ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>), there was no normality hypothesis on <tex>Y</tex>;
+  With these preliminaries, "recall" the following:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a quasi-finite, separated, universally open morphism.
+    For all <fr:tex>y \in  Y</fr:tex>, let <fr:tex>n(y)</fr:tex> be the "geometric number of points in the fibre <fr:tex>f^{-1}(y)</fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex>k(x)/k(y)</fr:tex> as <fr:tex>x</fr:tex> runs over the points of <fr:tex>f^{-1}(y)</fr:tex>.
+    Then the function <fr:tex>y \mapsto  n(y)</fr:tex> on <fr:tex>Y</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient for there to exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>.
+    (cf. EGA IV 15.5.1.)</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.8</fr:addr><fr:route>sga1-i.10.8.xml</fr:route><fr:number>I.10.8</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>y \mapsto  n(y)</fr:tex> is constant, and if <fr:tex>Y</fr:tex> is geometrically unibranch(For the definition, cf. <fr:ref
+addr="sga1-i.11"
+href="sga1-i.11.xml"
+taxon="Section"
+number="I.11"></fr:ref>), then the irreducible components of <fr:tex>X</fr:tex> are disjoint.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.9</fr:addr><fr:route>sga1-i.10.9.xml</fr:route><fr:number>I.10.9</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>étale</fr:em> morphism.
+    With the notation of <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, the function <fr:tex>n \mapsto  n(y)</fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex>y</fr:tex> (i.e. for it to be the case that <fr:tex>n(y)=n(z_i)</fr:tex>, where the <fr:tex>z_i</fr:tex> are the generic points of the irreducible components of <fr:tex>Y</fr:tex> that contain <fr:tex>y</fr:tex>), it is necessary and sufficient that there exist a neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, i.e. such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.10</fr:addr><fr:route>sga1-i.10.10.xml</fr:route><fr:number>I.10.10</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For a separated étale morphism <fr:tex>f \colon  X \to  Y</fr:tex> (with <fr:tex>Y</fr:tex> connected) to be finite (i.e. for <fr:tex>f</fr:tex> to make <fr:tex>X</fr:tex> an <fr:em>étale cover</fr:em> of <fr:tex>Y</fr:tex>), it is necessary and sufficient that all the fibres of <fr:tex>f</fr:tex> have the same geometric number of points.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  In <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref> and its corollary (<fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8"></fr:ref>), there was no normality hypothesis on <fr:tex>Y</fr:tex>;
   if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>542</anchor> <taxon>Theorem</taxon> <addr>sga1-i.10.11</addr><route>sga1-i.10.11.xml</route>     <number>I.10.11</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>quasi-finite</em> morphism.
-    Suppose that <tex>Y</tex> is <em>irreducible</em>, that every component of <tex>X</tex> dominates <tex>Y</tex>, and that <tex>X</tex> is reduced (i.e. that <tex>\mathcal { O } _X</tex> has no nilpotent elements).
-    Let <tex>n</tex> be the degree of <tex>X</tex> over <tex>Y</tex> (i.e. the sum of the degrees, over the field <tex>K</tex> of <tex>Y</tex>, of the fields <tex>K_i</tex> of the irreducible components <tex>X_i</tex> of <tex>X</tex>).
-    Let <tex>y</tex> be a normal point of <tex>Y</tex>.
-    Then the geometric number <tex>n(y)</tex> of points of <tex>X</tex> over <tex>y</tex> is <tex>\leq  n</tex>, with equality if and only if there exists an open neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p>
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
+    Suppose that <fr:tex>Y</fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex>X</fr:tex> dominates <fr:tex>Y</fr:tex>, and that <fr:tex>X</fr:tex> is reduced (i.e. that <fr:tex>\mathcal { O } _X</fr:tex> has no nilpotent elements).
+    Let <fr:tex>n</fr:tex> be the degree of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex> (i.e. the sum of the degrees, over the field <fr:tex>K</fr:tex> of <fr:tex>Y</fr:tex>, of the fields <fr:tex>K_i</fr:tex> of the irreducible components <fr:tex>X_i</fr:tex> of <fr:tex>X</fr:tex>).
+    Let <fr:tex>y</fr:tex> be a normal point of <fr:tex>Y</fr:tex>.
+    Then the geometric number <fr:tex>n(y)</fr:tex> of points of <fr:tex>X</fr:tex> over <fr:tex>y</fr:tex> is <fr:tex>\leq  n</fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex> such that <fr:tex>X|U</fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex>U</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>543</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      The &quot;only if&quot; is trivial;
-      we will prove the &quot;if&quot;.
-      Let <tex>z</tex> be the generic point of <tex>Y</tex>.
-      Then <tex>n(z)</tex>, which is equal to the sum of the separable degrees of the <tex>K_i/K</tex>, is <tex>\leq  n</tex>, and, by <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, we have that <tex>n(y) \leq  n(z)</tex>;
-      thus <tex>n(y) \leq  n</tex>, with equality implying that <tex>X|U</tex> if <em>finite</em> over <tex>U</tex>, for some suitable neighbourhood <tex>U</tex> of <tex>y</tex>.
-      We can thus suppose that <tex>X</tex> is finite over <tex>Y</tex>, and that the function <tex>n(y')</tex> on <tex>Y</tex> is constant.
-      Then, by <ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>, <tex>X</tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <tex>y</tex>, we can restrict to the case where <tex>X</tex> is irreducible, thus integral.
-      Finally, we can assume that <tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</tex>.
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      The "only if" is trivial;
+      we will prove the "if".
+      Let <fr:tex>z</fr:tex> be the generic point of <fr:tex>Y</fr:tex>.
+      Then <fr:tex>n(z)</fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex>K_i/K</fr:tex>, is <fr:tex>\leq  n</fr:tex>, and, by <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7"></fr:ref>, we have that <fr:tex>n(y) \leq  n(z)</fr:tex>;
+      thus <fr:tex>n(y) \leq  n</fr:tex>, with equality implying that <fr:tex>X|U</fr:tex> if <fr:em>finite</fr:em> over <fr:tex>U</fr:tex>, for some suitable neighbourhood <fr:tex>U</fr:tex> of <fr:tex>y</fr:tex>.
+      We can thus suppose that <fr:tex>X</fr:tex> is finite over <fr:tex>Y</fr:tex>, and that the function <fr:tex>n(y')</fr:tex> on <fr:tex>Y</fr:tex> is constant.
+      Then, by <fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8"></fr:ref>, <fr:tex>X</fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex>y</fr:tex>, we can restrict to the case where <fr:tex>X</fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</fr:tex>.
       The theorem thus reduces to the following classical statement:
-    </p>
-  </mainmatter> </tree>
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>544</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.12</addr><route>sga1-i.10.12.xml</route>     <number>I.10.12</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a normal local ring (Noetherian, as always), of field <tex>K</tex>;
-    let <tex>L</tex> be a finite extension of <tex>K</tex> of degree <tex>n</tex>, and of separable degree <tex>n_s</tex>;
-    let <tex>B</tex> be a sub-ring of <tex>L</tex> that is finite over <tex>A</tex>, with field of fraction <tex>L</tex>;
-    let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>, and <tex>n'</tex> the separable degree of <tex>B/ \mathfrak {m}B</tex> over <tex>A/ \mathfrak {m}A=k</tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
-    Then <tex>n' \leq  n_s</tex>, and a fortiori <tex>n' \leq  n</tex>.
-    This latter inequality is an equality if and only if <tex>B</tex> is unramified (i.e. étale) over <tex>A</tex>.
-  </p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.12</fr:addr><fr:route>sga1-i.10.12.xml</fr:route><fr:number>I.10.12</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be a normal local ring (Noetherian, as always), of field <fr:tex>K</fr:tex>;
+    let <fr:tex>L</fr:tex> be a finite extension of <fr:tex>K</fr:tex> of degree <fr:tex>n</fr:tex>, and of separable degree <fr:tex>n_s</fr:tex>;
+    let <fr:tex>B</fr:tex> be a sub-ring of <fr:tex>L</fr:tex> that is finite over <fr:tex>A</fr:tex>, with field of fraction <fr:tex>L</fr:tex>;
+    let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>, and <fr:tex>n'</fr:tex> the separable degree of <fr:tex>B/ \mathfrak {m}B</fr:tex> over <fr:tex>A/ \mathfrak {m}A=k</fr:tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+    Then <fr:tex>n' \leq  n_s</fr:tex>, and a fortiori <fr:tex>n' \leq  n</fr:tex>.
+    This latter inequality is an equality if and only if <fr:tex>B</fr:tex> is unramified (i.e. étale) over <fr:tex>A</fr:tex>.
+  </fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>545</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      It remains only to show that, if <tex>n'=n</tex>, then <tex>B</tex> is étale over <tex>A</tex>.
-      Recall the proof in the case where <tex>k</tex> is infinite:
-      we need only show that <tex>R=B/ \mathfrak {m}B</tex> is separable over <tex>k</tex>;
-      if this were not the case, then it would follow (by a known lemma) that there exists an element <tex>a</tex> of <tex>R</tex> whose minimal polynomial over <tex>k</tex> is of degree <tex>&gt;n'</tex>.
-      This element would come from an element <tex>x</tex> of <tex>B</tex>, whose minimal polynomial over <tex>K</tex> (as an element of <tex>L</tex>) is of degree <tex>\leq  n</tex>;
-      but this minimal polynomial has coefficients in <tex>A</tex>, since <tex>A</tex> is normal, and thus gives, by restriction modulo <tex>\mathfrak {m}</tex>, a monic polynomial <tex>F \in  k[t]</tex> of degree <tex>\leq  n=n'</tex>, such that <tex>F(a)=0</tex>.
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.10.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      It remains only to show that, if <fr:tex>n'=n</fr:tex>, then <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>.
+      Recall the proof in the case where <fr:tex>k</fr:tex> is infinite:
+      we need only show that <fr:tex>R=B/ \mathfrak {m}B</fr:tex> is separable over <fr:tex>k</fr:tex>;
+      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex>a</fr:tex> of <fr:tex>R</fr:tex> whose minimal polynomial over <fr:tex>k</fr:tex> is of degree <fr:tex>&gt;n'</fr:tex>.
+      This element would come from an element <fr:tex>x</fr:tex> of <fr:tex>B</fr:tex>, whose minimal polynomial over <fr:tex>K</fr:tex> (as an element of <fr:tex>L</fr:tex>) is of degree <fr:tex>\leq  n</fr:tex>;
+      but this minimal polynomial has coefficients in <fr:tex>A</fr:tex>, since <fr:tex>A</fr:tex> is normal, and thus gives, by restriction modulo <fr:tex>\mathfrak {m}</fr:tex>, a monic polynomial <fr:tex>F \in  k[t]</fr:tex> of degree <fr:tex>\leq  n=n'</fr:tex>, such that <fr:tex>F(a)=0</fr:tex>.
       But this is a contradiction.
-    </p>
+    </fr:p>
 
-    <p>
-      In the general case (where <tex>k</tex> can be finite), we can again use geometric language:
-      we consider <tex>Y'= \operatorname {Spec} (A[t])</tex>, which is faithfully flat over <tex>Y</tex>, and the generic point <tex>y'</tex> of the fibre <tex>\operatorname {Spec} (k[t])</tex> of <tex>Y'</tex> over <tex>y</tex>.
-      Then <tex>X</tex> is unramified over <tex>Y</tex> at <tex>y</tex> if and only if <tex>X'=X \times _Y Y'= \operatorname {Spec} (B[t])</tex> is unramified over <tex>Y'</tex> at <tex>y'</tex>, as we immediately see.
-      On the other hand, by the choice of <tex>y'</tex>, its residue field is <tex>k(t)</tex>, and thus infinite.
-      Since <tex>y'</tex> is a normal point of <tex>Y'</tex>, we are now in the previous case.
-    </p>
-  </mainmatter> </tree>
+    <fr:p>
+      In the general case (where <fr:tex>k</fr:tex> can be finite), we can again use geometric language:
+      we consider <fr:tex>Y'= \operatorname {Spec} (A[t])</fr:tex>, which is faithfully flat over <fr:tex>Y</fr:tex>, and the generic point <fr:tex>y'</fr:tex> of the fibre <fr:tex>\operatorname {Spec} (k[t])</fr:tex> of <fr:tex>Y'</fr:tex> over <fr:tex>y</fr:tex>.
+      Then <fr:tex>X</fr:tex> is unramified over <fr:tex>Y</fr:tex> at <fr:tex>y</fr:tex> if and only if <fr:tex>X'=X \times _Y Y'= \operatorname {Spec} (B[t])</fr:tex> is unramified over <fr:tex>Y'</fr:tex> at <fr:tex>y'</fr:tex>, as we immediately see.
+      On the other hand, by the choice of <fr:tex>y'</fr:tex>, its residue field is <fr:tex>k(t)</fr:tex>, and thus infinite.
+      Since <fr:tex>y'</fr:tex> is a normal point of <fr:tex>Y'</fr:tex>, we are now in the previous case.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>546</anchor> <taxon>Theorem</taxon> <addr>sga1-i.10.11</addr><route>sga1-i.10.11.xml</route>     <number>I.10.11</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>quasi-finite</em> morphism.
-    Suppose that <tex>Y</tex> is <em>irreducible</em>, that every component of <tex>X</tex> dominates <tex>Y</tex>, and that <tex>X</tex> is reduced (i.e. that <tex>\mathcal { O } _X</tex> has no nilpotent elements).
-    Let <tex>n</tex> be the degree of <tex>X</tex> over <tex>Y</tex> (i.e. the sum of the degrees, over the field <tex>K</tex> of <tex>Y</tex>, of the fields <tex>K_i</tex> of the irreducible components <tex>X_i</tex> of <tex>X</tex>).
-    Let <tex>y</tex> be a normal point of <tex>Y</tex>.
-    Then the geometric number <tex>n(y)</tex> of points of <tex>X</tex> over <tex>y</tex> is <tex>\leq  n</tex>, with equality if and only if there exists an open neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>547</anchor> <taxon>Proof</taxon>       <parent>sga1-i.10.11</parent> </frontmatter> <mainmatter>
-    <p>
-      The &quot;only if&quot; is trivial;
-      we will prove the &quot;if&quot;.
-      Let <tex>z</tex> be the generic point of <tex>Y</tex>.
-      Then <tex>n(z)</tex>, which is equal to the sum of the separable degrees of the <tex>K_i/K</tex>, is <tex>\leq  n</tex>, and, by <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, we have that <tex>n(y) \leq  n(z)</tex>;
-      thus <tex>n(y) \leq  n</tex>, with equality implying that <tex>X|U</tex> if <em>finite</em> over <tex>U</tex>, for some suitable neighbourhood <tex>U</tex> of <tex>y</tex>.
-      We can thus suppose that <tex>X</tex> is finite over <tex>Y</tex>, and that the function <tex>n(y')</tex> on <tex>Y</tex> is constant.
-      Then, by <ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>, <tex>X</tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <tex>y</tex>, we can restrict to the case where <tex>X</tex> is irreducible, thus integral.
-      Finally, we can assume that <tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</tex>.
-      The theorem thus reduces to the following classical statement:
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>548</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.9</addr><route>sga1-i.10.9.xml</route>     <number>I.10.9</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>étale</em> morphism.
-    With the notation of <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, the function <tex>n \mapsto  n(y)</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient that there exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>, i.e. such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>549</anchor> <taxon>Section</taxon> <addr>sga1-i.10</addr><route>sga1-i.10.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Étale covers of a normal scheme</title> <number>I.10</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>550</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.1</addr><route>sga1-i.10.1.xml</route>     <number>I.10.1</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be normal and connected of field <tex>K</tex>, and let <tex>X</tex> be a separated étale prescheme over <tex>Y</tex>.
-    Then the connected components <tex>X_i</tex> of <tex>X</tex> are integral, their fields <tex>K_i</tex> are finite separable extensions of <tex>K</tex>, and <tex>X_i</tex> can be identified with a non-empty open subset of the normalisation of <tex>X</tex> in <tex>K_i</tex> (and thus <tex>X</tex> with a dense open subset of the normalisation of <tex>Y</tex> in <tex>R(X)=L= \prod  K_i</tex>, where <tex>R(X)</tex> is the ring of rational functions on <tex>X</tex>).
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>551</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      By <ref addr="sga1-i.9.10" href="sga1-i.9.10.xml" taxon="Corollary" number="I.9.10"/>, <tex>X</tex> is normal, and a fortiori its local rings are integral, and so the connected components of <tex>X</tex> are irreducible.
-      Since <tex>X_i</tex> is normal, and also finite and dominant over <tex>Y</tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <tex>X_i</tex> is an open subset of the normalisation of <tex>X</tex> in the field <tex>K_i</tex> of <tex>X_i</tex>.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>552</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.2</addr><route>sga1-i.10.2.xml</route>     <number>I.10.2</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of <ref addr="sga1-i.10.1" href="sga1-i.10.1.xml" taxon="Proposition" number="I.10.1"/>, <tex>X</tex> is finite over <tex>Y</tex> (i.e. an étale cover of <tex>Y</tex>) if and only if <tex>X</tex> is isomorphic to the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L=R(X)</tex> (the ring of rational functions on <tex>X</tex>).
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>553</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      We know that this normalisation is finite over <tex>Y</tex> (since <tex>Y</tex> is normal, and <tex>R/K</tex> separable);
-      conversely, if <tex>X</tex> is finite over <tex>Y</tex>, then it is also finite over <tex>Y'</tex>, and so its image in <tex>Y'</tex> is closed (and it is also dense).
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><p>
-  An algebra <tex>L</tex> of finite rank over <tex>K</tex> is said to be <em>unramified over <tex>X</tex></em> (or simply <em>unramified over <tex>K</tex></em> if <tex>X</tex> is evident) if <tex>L</tex> is a separable algebra over <tex>K</tex> (i.e. a direct sum of separable extensions <tex>K_i</tex>) <em>and</em> the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> (i.e. the disjoint sum of the normalisations of <tex>Y</tex> in the <tex>K_i</tex>) is unramified (i.e. étale, by <ref addr="sga1-i.9.11" href="sga1-i.9.11.xml" taxon="Corollary" number="I.9.11"/>) over <tex>Y</tex>.
-  Thus:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>554</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.3</addr><route>sga1-i.10.3.xml</route>     <number>I.10.3</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For every <tex>X</tex> that is finite over <tex>Y</tex> and such that every irreducible component of <tex>X</tex> dominates <tex>Y</tex>, let <tex>R(X)</tex> be the ring of rational functions on <tex>X</tex> (given by the product of the local rings of the generic points of the irreducible components of <tex>X</tex>), so that <tex>X \mapsto  R(X)</tex> is a functor, with values in algebras of finite rank over <tex>K=R(Y)</tex>.
-    Then this functor establishes an equivalence between the category of connected étale covers of <tex>Y</tex> and the category of extensions <tex>L</tex> of <tex>K</tex> that are unramified over <tex>Y</tex>.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>555</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      The inverse functor is the normalisation functor.
-    </p>
-
-    <p>
-      Suppose that <tex>Y</tex> is affine, and thus defined by a normal ring <tex>A</tex> with field of fractions <tex>K</tex>.
-      Let <tex>L</tex> be a finite extension of <tex>K</tex> given by a direct sum of fields.
-      Then, by definition, the normalisation <tex>Y'</tex> of <tex>Y</tex> in <tex>L</tex> is isomorphic to <tex>\operatorname {Spec} (A')</tex>, where <tex>A'</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-      To say that <tex>L</tex> is unramified over <tex>Y</tex> implies that <tex>A'</tex> is unramified (or even étale) over <tex>A</tex>.
-      If <tex>A</tex> is local, then it is equivalent to say that the local rings <tex>A'_ \mathfrak {n}</tex> (where <tex>\mathfrak {n}</tex> runs over the finite set of maximal ideals of <tex>A'</tex>, i.e. the prime ideals of <tex>A'</tex> that induce the maximal ideal <tex>\mathfrak {m}</tex> of <tex>A</tex>) are unramified (i.e. étale) over the local ring <tex>A</tex>.
-      Finally, note that the discriminant criterion of <ref addr="sga1-i.4.10" href="sga1-i.4.10.xml" taxon="Proposition" number="I.4.10"/> can also be applied to this situation
-      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <tex>X</tex> dominates <tex>Y</tex>, but with <tex>Y</tex> still assumed to be locally integral: <tex>A \to  B</tex> and <tex>B \to  B \otimes _A K</tex> are injective — then <tex>\operatorname {tr} _{L/K}</tex> is defined — and <tex>\operatorname {tr} _{L/K}(xy)</tex> induces a <em>fundamental bilinear form</em> <tex>B \times  B \to  A</tex>, i.e. there exists <tex>x_i \in  B</tex> (for <tex>1 \leq  i \leq  n= \operatorname {rank} _K L</tex>) such that <tex>\operatorname {tr} (x_ix_j) \in  A</tex> for all <tex>i,j</tex>, and <tex>\det ( \operatorname {tr} (x_i x_j))_{1 \leq  i,j \leq  n}</tex> is invertible in <tex>A</tex>).
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><p>
-  The syllogism <ref addr="sga1-i.4.6" href="sga1-i.4.6.xml" taxon="Proposition" number="I.4.6"/> immediately implies the syllogism of being unramified in the classical case:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>556</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.4</addr><route>sga1-i.10.4.xml</route>     <number>I.10.4</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>Y</tex> be a normal integral prescheme, of field <tex>K</tex>.
-    Then
-  </p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong><ol><li><tex>K</tex> is unramified over <tex>Y</tex>.
-    </li>
-
-    <li>
-      If <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, and if <tex>Y'</tex> is a normal prescheme, of field <tex>L</tex>, that dominates <tex>Y</tex> (e.g. the normalisation of <tex>Y</tex> in <tex>L</tex>), and <tex>M</tex> an extension of <tex>L</tex> that is unramified over <tex>Y'</tex>, then <tex>M/K</tex> is unramified over <tex>X</tex> (this is the <em>transitivity</em> property).
-    </li>
-
-    <li>
-      Let <tex>Y'</tex> be a normal integral prescheme that dominates <tex>Y</tex>, of field <tex>K'/K</tex>;
-      if <tex>L</tex> is an extension of <tex>K</tex> that is unramified over <tex>Y</tex>, then <tex>L \otimes _K K'</tex> is an extension of <tex>K'</tex> that is unramified over <tex>Y'</tex> (this is the <em>translation</em> property).
-    </li></ol></mainmatter> </tree><p>
-  Furthermore:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>557</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.5</addr><route>sga1-i.10.5.xml</route>     <number>I.10.5</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, if <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, then the normalisation <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L'=L \otimes _K K'</tex> can be identified with <tex>\bar {A} \otimes _A A'</tex>, where <tex>\bar {A}</tex> is the normalisation of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
-  Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>558</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.6</addr><route>sga1-i.10.6.xml</route>     <number>I.10.6</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Under the conditions of (iii) in <ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4"/>, let <tex>L_1</tex> be a <em>sum extension</em> of <tex>L/K</tex> (unramified over <tex>Y</tex>) and of <tex>K'/K</tex>.
-    Then <tex>L_1/K'</tex> is unramified over <tex>Y'</tex>.
-    In the case where <tex>Y= \operatorname {Spec} (A)</tex> and <tex>Y'= \operatorname {Spec} (A')</tex>, we further have that
-    <tex display="block">        \bar {A'} = A[ \bar {A},A']     </tex>
-    i.e. the normalisation ring <tex>\bar {A'}</tex> of <tex>A'</tex> in <tex>L_1</tex> is the <tex>A</tex>-algebra generated by <tex>A'</tex> and by the normalisation <tex>\bar {A}</tex> of <tex>A</tex> in <tex>L</tex>.
-  </p></mainmatter> </tree><p>
-  This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...
-</p><p>
-  To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the &quot;maximal number&quot; of points over the point <tex>y \in  Y</tex> in question, and, in particular, there should not be &quot;multiple points combined&quot; over <tex>y</tex>.
-  To prove results in this sense, in all desirable generality, we will assume here <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).
-</p><p>
-  A morphism of finite type <tex>f \colon  X \to  Y</tex> is said to be <em>universally open</em> if, for every base extension <tex>Y' \to  Y</tex> (with <tex>Y'</tex> locally Noetherian), the morphism <tex>f' \colon  X'=X \times _Y Y' \to  Y'</tex> is open, i.e. sends open subsets to open subsets.
-  We can actually restrict to the case where <tex>Y'</tex> is of finite type over <tex>y</tex> (and even to the case where <tex>Y'</tex> is of the form <tex>Y[t_1, \ldots ,t_r]</tex>, where the <tex>t_i</tex> are indeterminates).
-  A universally open morphism is a fortiori open (but the converse is false);
-  on the other hand, if <tex>f</tex> is open, and if <tex>X</tex> and <tex>Y</tex> are irreducible, then all of the components of all of the fibres of <tex>f</tex> are of the same dimension (i.e. the dimension of the generic fibre <tex>f^{-1}(z)</tex>, where <tex>z</tex> is the generic point of <tex>Y</tex>).
-  Finally, if <tex>Y</tex> is normal, then this latter condition already implies that <tex>f</tex> is <em>universally</em> open (Chevalley's theorem).
-  It thus follows, for example, that, if <tex>f \colon  X \to  Y</tex> is a <em>quasi-finite</em> morphism, with <tex>Y</tex> normal and irreducible, then <tex>f</tex> is universally open (or even open) if and only if every irreducible component of <tex>X</tex> dominates <tex>Y</tex>.
-  Recall also that a flat morphism (of finite type) is open, and thus also universally open.
-  With these preliminaries, &quot;recall&quot; the following:
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>559</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.7</addr><route>sga1-i.10.7.xml</route>     <number>I.10.7</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a quasi-finite, separated, universally open morphism.
-    For all <tex>y \in  Y</tex>, let <tex>n(y)</tex> be the &quot;geometric number of points in the fibre <tex>f^{-1}(y)</tex>&quot;, equal to the sum of the separable degrees of the residue extensions <tex>k(x)/k(y)</tex> as <tex>x</tex> runs over the points of <tex>f^{-1}(y)</tex>.
-    Then the function <tex>y \mapsto  n(y)</tex> on <tex>Y</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient for there to exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>.
-    (cf. EGA IV 15.5.1.)</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>560</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.8</addr><route>sga1-i.10.8.xml</route>     <number>I.10.8</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    If <tex>y \mapsto  n(y)</tex> is constant, and if <tex>Y</tex> is geometrically unibranch(For the definition, cf. <ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11"/>), then the irreducible components of <tex>X</tex> are disjoint.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>561</anchor> <taxon>Proposition</taxon> <addr>sga1-i.10.9</addr><route>sga1-i.10.9.xml</route>     <number>I.10.9</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>étale</em> morphism.
-    With the notation of <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, the function <tex>n \mapsto  n(y)</tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <tex>y</tex> (i.e. for it to be the case that <tex>n(y)=n(z_i)</tex>, where the <tex>z_i</tex> are the generic points of the irreducible components of <tex>Y</tex> that contain <tex>y</tex>), it is necessary and sufficient that there exist a neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is <em>finite</em> over <tex>U</tex>, i.e. such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>562</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.10</addr><route>sga1-i.10.10.xml</route>     <number>I.10.10</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    For a separated étale morphism <tex>f \colon  X \to  Y</tex> (with <tex>Y</tex> connected) to be finite (i.e. for <tex>f</tex> to make <tex>X</tex> an <em>étale cover</em> of <tex>Y</tex>), it is necessary and sufficient that all the fibres of <tex>f</tex> have the same geometric number of points.
-  </p></mainmatter> </tree><p>
-  In <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/> and its corollary (<ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>), there was no normality hypothesis on <tex>Y</tex>;
-  if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>563</anchor> <taxon>Theorem</taxon> <addr>sga1-i.10.11</addr><route>sga1-i.10.11.xml</route>     <number>I.10.11</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>f \colon  X \to  Y</tex> be a separated <em>quasi-finite</em> morphism.
-    Suppose that <tex>Y</tex> is <em>irreducible</em>, that every component of <tex>X</tex> dominates <tex>Y</tex>, and that <tex>X</tex> is reduced (i.e. that <tex>\mathcal { O } _X</tex> has no nilpotent elements).
-    Let <tex>n</tex> be the degree of <tex>X</tex> over <tex>Y</tex> (i.e. the sum of the degrees, over the field <tex>K</tex> of <tex>Y</tex>, of the fields <tex>K_i</tex> of the irreducible components <tex>X_i</tex> of <tex>X</tex>).
-    Let <tex>y</tex> be a normal point of <tex>Y</tex>.
-    Then the geometric number <tex>n(y)</tex> of points of <tex>X</tex> over <tex>y</tex> is <tex>\leq  n</tex>, with equality if and only if there exists an open neighbourhood <tex>U</tex> of <tex>y</tex> such that <tex>X|U</tex> is an <em>étale cover</em> of <tex>U</tex>.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>564</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      The &quot;only if&quot; is trivial;
-      we will prove the &quot;if&quot;.
-      Let <tex>z</tex> be the generic point of <tex>Y</tex>.
-      Then <tex>n(z)</tex>, which is equal to the sum of the separable degrees of the <tex>K_i/K</tex>, is <tex>\leq  n</tex>, and, by <ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7"/>, we have that <tex>n(y) \leq  n(z)</tex>;
-      thus <tex>n(y) \leq  n</tex>, with equality implying that <tex>X|U</tex> if <em>finite</em> over <tex>U</tex>, for some suitable neighbourhood <tex>U</tex> of <tex>y</tex>.
-      We can thus suppose that <tex>X</tex> is finite over <tex>Y</tex>, and that the function <tex>n(y')</tex> on <tex>Y</tex> is constant.
-      Then, by <ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8"/>, <tex>X</tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <tex>y</tex>, we can restrict to the case where <tex>X</tex> is irreducible, thus integral.
-      Finally, we can assume that <tex>Y= \operatorname {Spec} ( \mathcal { O } _y)</tex>.
-      The theorem thus reduces to the following classical statement:
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>565</anchor> <taxon>Corollary</taxon> <addr>sga1-i.10.12</addr><route>sga1-i.10.12.xml</route>     <number>I.10.12</number> <parent>sga1-i.10</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A</tex> be a normal local ring (Noetherian, as always), of field <tex>K</tex>;
-    let <tex>L</tex> be a finite extension of <tex>K</tex> of degree <tex>n</tex>, and of separable degree <tex>n_s</tex>;
-    let <tex>B</tex> be a sub-ring of <tex>L</tex> that is finite over <tex>A</tex>, with field of fraction <tex>L</tex>;
-    let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>, and <tex>n'</tex> the separable degree of <tex>B/ \mathfrak {m}B</tex> over <tex>A/ \mathfrak {m}A=k</tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
-    Then <tex>n' \leq  n_s</tex>, and a fortiori <tex>n' \leq  n</tex>.
-    This latter inequality is an equality if and only if <tex>B</tex> is unramified (i.e. étale) over <tex>A</tex>.
-  </p>
-  
-    
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="false" root="false"><frontmatter><anchor>566</anchor> <taxon>Proof</taxon>        </frontmatter> <mainmatter>
-    <p>
-      It remains only to show that, if <tex>n'=n</tex>, then <tex>B</tex> is étale over <tex>A</tex>.
-      Recall the proof in the case where <tex>k</tex> is infinite:
-      we need only show that <tex>R=B/ \mathfrak {m}B</tex> is separable over <tex>k</tex>;
-      if this were not the case, then it would follow (by a known lemma) that there exists an element <tex>a</tex> of <tex>R</tex> whose minimal polynomial over <tex>k</tex> is of degree <tex>&gt;n'</tex>.
-      This element would come from an element <tex>x</tex> of <tex>B</tex>, whose minimal polynomial over <tex>K</tex> (as an element of <tex>L</tex>) is of degree <tex>\leq  n</tex>;
-      but this minimal polynomial has coefficients in <tex>A</tex>, since <tex>A</tex> is normal, and thus gives, by restriction modulo <tex>\mathfrak {m}</tex>, a monic polynomial <tex>F \in  k[t]</tex> of degree <tex>\leq  n=n'</tex>, such that <tex>F(a)=0</tex>.
-      But this is a contradiction.
-    </p>
-
-    <p>
-      In the general case (where <tex>k</tex> can be finite), we can again use geometric language:
-      we consider <tex>Y'= \operatorname {Spec} (A[t])</tex>, which is faithfully flat over <tex>Y</tex>, and the generic point <tex>y'</tex> of the fibre <tex>\operatorname {Spec} (k[t])</tex> of <tex>Y'</tex> over <tex>y</tex>.
-      Then <tex>X</tex> is unramified over <tex>Y</tex> at <tex>y</tex> if and only if <tex>X'=X \times _Y Y'= \operatorname {Spec} (B[t])</tex> is unramified over <tex>Y'</tex> at <tex>y'</tex>, as we immediately see.
-      On the other hand, by the choice of <tex>y'</tex>, its residue field is <tex>k(t)</tex>, and thus infinite.
-      Since <tex>y'</tex> is a normal point of <tex>Y'</tex>, we are now in the previous case.
-    </p>
-  </mainmatter> </tree>
-  
-</mainmatter> </tree></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

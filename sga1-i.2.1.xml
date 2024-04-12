@@ -1,69 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>663</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
     Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>664</anchor> <taxon>Section</taxon> <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Quasi-finite morphisms</title> <number>I.2</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>665</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
+    </fr:li>
+    <fr:li><fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
+    </fr:li>
+    <fr:li>
+      The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
+    </fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Quasi-finite morphisms</fr:title><fr:number>I.2</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
     Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition" number="I.2.1"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
-  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal { O } _x</tex> is quasi-finite over <tex>\mathcal { O } _{f(x)}</tex>.
-  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
+  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
+    </fr:li>
+    <fr:li><fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
+    </fr:li>
+    <fr:li>
+      The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
+    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+  If the conditions of <fr:ref
+addr="sga1-i.2.1"
+href="sga1-i.2.1.xml"
+taxon="Proposition"
+number="I.2.1"></fr:ref> are satisfied, then we say that <fr:tex>B</fr:tex> is <fr:em>quasi-finite</fr:em> over <fr:tex>A</fr:tex>.
+  A morphism <fr:tex>f \colon  X \to  Y</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex> (or the <fr:tex>Y</fr:tex>-prescheme <fr:tex>f</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex>) if <fr:tex>\mathcal { O } _x</fr:tex> is quasi-finite over <fr:tex>\mathcal { O } _{f(x)}</fr:tex>.
+  This is equivalent to saying that <fr:tex>x</fr:tex> is <fr:em>isolated in its fibre <fr:tex>f^{-1}(x)</fr:tex></fr:em>.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>666</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> </tree><p>
+  (In [EGA II 6.2.3] we further suppose that <fr:tex>f</fr:tex> is of finite type.)
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>667</anchor> <taxon>Section</taxon> <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Quasi-finite morphisms</title> <number>I.2</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>668</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+href="sga1-i.xml"
+type="local"
+addr="sga1-i"><fr:link
+href="sga1.xml"
+type="local"
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Quasi-finite morphisms</fr:title><fr:number>I.2</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
     Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition" number="I.2.1"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
-  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal { O } _x</tex> is quasi-finite over <tex>\mathcal { O } _{f(x)}</tex>.
-  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
+  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
+    </fr:li>
+    <fr:li><fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
+    </fr:li>
+    <fr:li>
+      The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
+    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+  If the conditions of <fr:ref
+addr="sga1-i.2.1"
+href="sga1-i.2.1.xml"
+taxon="Proposition"
+number="I.2.1"></fr:ref> are satisfied, then we say that <fr:tex>B</fr:tex> is <fr:em>quasi-finite</fr:em> over <fr:tex>A</fr:tex>.
+  A morphism <fr:tex>f \colon  X \to  Y</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex> (or the <fr:tex>Y</fr:tex>-prescheme <fr:tex>f</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex>) if <fr:tex>\mathcal { O } _x</fr:tex> is quasi-finite over <fr:tex>\mathcal { O } _{f(x)}</fr:tex>.
+  This is equivalent to saying that <fr:tex>x</fr:tex> is <fr:em>isolated in its fibre <fr:tex>f^{-1}(x)</fr:tex></fr:em>.
   A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>669</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> </tree><p>
+  (In [EGA II 6.2.3] we further suppose that <fr:tex>f</fr:tex> is of finite type.)
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>670</anchor> <taxon>Section</taxon> <addr>sga1-i.2</addr><route>sga1-i.2.xml</route>    <title><link href="sga1-i.xml" type="local" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><link href="sga1.xml" type="local" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</link> › Étale morphisms</link> › Quasi-finite morphisms</title> <number>I.2</number> <parent>sga1-i</parent> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>671</anchor> <taxon>Proposition</taxon> <addr>sga1-i.2.1</addr><route>sga1-i.2.1.xml</route>     <number>I.2.1</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    Let <tex>A \to  B</tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <tex>\mathfrak {m}</tex> be the maximal ideal of <tex>A</tex>.
-    Then the following conditions are equivalent:
-  </p><p><strong><em>TO-DO: the following list should be i, ii, etc</em></strong></p><ol><li><tex>B/ \mathfrak {m}B</tex> is of finite dimension over <tex>k=A/ \mathfrak {m}</tex>.
-    </li>
-    <li><tex>\mathfrak {m}B</tex> is an ideal of definition, and <tex>B/ \mathfrak {r}(B)=k(B)</tex> is an extension of <tex>k=k(A)</tex>.
-    </li>
-    <li>
-      The completion <tex>\widehat {B}</tex> of <tex>B</tex> is finite over the completion <tex>\widehat {A}</tex> of <tex>A</tex>.
-    </li></ol></mainmatter> </tree><p>
-  If the conditions of <ref addr="sga1-i.2.1" href="sga1-i.2.1.xml" taxon="Proposition" number="I.2.1"/> are satisfied, then we say that <tex>B</tex> is <em>quasi-finite</em> over <tex>A</tex>.
-  A morphism <tex>f \colon  X \to  Y</tex> is said to be quasi-finite at <tex>x</tex> (or the <tex>Y</tex>-prescheme <tex>f</tex> is said to be quasi-finite at <tex>x</tex>) if <tex>\mathcal { O } _x</tex> is quasi-finite over <tex>\mathcal { O } _{f(x)}</tex>.
-  This is equivalent to saying that <tex>x</tex> is <em>isolated in its fibre <tex>f^{-1}(x)</tex></em>.
-  A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <tex>f</tex> is of finite type.)
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>672</anchor> <taxon>Corollary</taxon> <addr>sga1-i.2.2</addr><route>sga1-i.2.2.xml</route>     <number>I.2.2</number> <parent>sga1-i.2</parent> </frontmatter> <mainmatter><p>
-    If <tex>A</tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </p></mainmatter> </tree><p>
-  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
