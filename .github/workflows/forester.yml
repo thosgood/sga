@@ -21,13 +21,16 @@ jobs:
           ocaml-compiler: "5.1"
 
       - name: Install dependencies
+        run: sudo apt install libev-dev
+
+      - name: Install Forester
         run: opam install forester
 
       - name: Update environment
         run: eval $(opam env)
 
       - name: Build forest
-        run: opam exec -- forester build trees/
+        run: opam exec -- forester build forest.toml
 
       - name: Deploy to build branch
         uses: JamesIves/github-pages-deploy-action@3.6.2

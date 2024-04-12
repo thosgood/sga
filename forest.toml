@@ -1,0 +1,4 @@
+[forest]
+trees = ["trees"]
+root = "index"
+base_url = "https://translations.thosgood.com/sga"
