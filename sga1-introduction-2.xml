@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>675</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The present volume constitutes tome 1 of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, whose following volumes are intended to appear in the same series as this one.
     The aim of the <fr:em>Séminaire</fr:em>, parallel to the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
     The standard reference for all the volumes of the <fr:em>Séminaire</fr:em> consists of Chapters I, II, and III of <fr:em>Éléments de Géométrie Algébrique</fr:em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.
@@ -76,7 +77,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>635</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -87,7 +89,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>631</fr:anchor><fr:addr>sga1-introduction-1</fr:addr><fr:route>sga1-introduction-1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr>sga1-introduction-1</fr:addr><fr:route>sga1-introduction-1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
     This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck (cited as "EGA").
     The study of this present volume of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
@@ -128,7 +131,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>671</fr:anchor><fr:addr>sga1-introduction-2</fr:addr><fr:route>sga1-introduction-2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The present volume constitutes tome 1 of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, whose following volumes are intended to appear in the same series as this one.
     The aim of the <fr:em>Séminaire</fr:em>, parallel to the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck, is to establish the fundamentals of algebraic geometry, following the points of view of the latter.
     The standard reference for all the volumes of the <fr:em>Séminaire</fr:em> consists of Chapters I, II, and III of <fr:em>Éléments de Géométrie Algébrique</fr:em> (cited as EGA I, II, and III), and we assume the reader to be have the education in commutative algebra and homological algebra that these chapters imply.

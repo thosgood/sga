@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex>k(y)</fr:tex> to be infinite.
   </fr:p>
   
@@ -17,7 +18,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       The proof is the same, just replacing <fr:ref
 addr="sga1-i.7.5"
@@ -37,7 +39,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>574</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>613</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -49,7 +52,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>489</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>Y</fr:tex> be a prescheme, <fr:tex>Y_0</fr:tex> a sub-prescheme, <fr:tex>X_0</fr:tex> an étale <fr:tex>Y_0</fr:tex>-scheme, and <fr:tex>x</fr:tex> a point of <fr:tex>X_0</fr:tex>.
     Then there exists an étale <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex>, a neighbourhood <fr:tex>U_0</fr:tex> of <fr:tex>x</fr:tex> in <fr:tex>X_0</fr:tex>, and a <fr:tex>Y_0</fr:tex>-isomorphism <fr:tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</fr:tex>.
   </fr:p>
@@ -61,7 +65,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>470</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Let <fr:tex>y</fr:tex> be the projection of <fr:tex>x</fr:tex> in <fr:tex>Y_0</fr:tex>;
       applying <fr:ref
@@ -98,7 +103,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>491</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>524</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex>k(y)</fr:tex> to be infinite.
   </fr:p>
   
@@ -109,7 +115,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       The proof is the same, just replacing <fr:ref
 addr="sga1-i.7.5"
@@ -129,7 +136,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>525</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The functor described in <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
@@ -144,7 +152,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>444</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
     By <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
@@ -173,7 +182,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>494</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex>\mathcal { J }</fr:tex>, and let <fr:tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</fr:tex> be the corresponding ordinary prescheme.
     Then the functor <fr:tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</fr:tex> from the category of étale covers of <fr:tex>S</fr:tex> to the category of étale covers of <fr:tex>S_0</fr:tex> is an equivalence of categories.
   </fr:p>
@@ -185,7 +195,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>493</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex>S</fr:tex> to be a cover of <fr:tex>S</fr:tex> (i.e a formal prescheme over <fr:tex>S</fr:tex> defined by a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex>) such that <fr:tex>\mathcal { B }</fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</fr:tex> of <fr:tex>\mathcal { B }</fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex>k(s)</fr:tex>.
       If we denote by <fr:tex>S_n</fr:tex> the ordinary prescheme <fr:tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</fr:tex>, then the data of a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex> on <fr:tex>S</fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex>\mathcal { B } _n</fr:tex> on the <fr:tex>S_n</fr:tex>, endowed with a transitive system of homomorphisms <fr:tex>\mathcal { B } _m \to \mathcal { B } _n</fr:tex> (for <fr:tex>m \geq  n</fr:tex>) defining the isomorphisms <fr:tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</fr:tex>.
@@ -209,7 +220,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>528</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     It was not necessary to restrict ourselves to the case of <fr:em>covers</fr:em> in <fr:ref
 addr="sga1-i.8.4"
 href="sga1-i.8.4.xml"
@@ -221,7 +233,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>572</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>611</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>B</fr:tex> be an algebra which is <fr:em>finite</fr:em> over the <fr:em>local</fr:em> ring <fr:tex>A</fr:tex>.
     Suppose that <fr:tex>K(A)</fr:tex> is infinite, or that <fr:tex>B</fr:tex> is local.
     Let <fr:tex>n</fr:tex> be the rank of <fr:tex>L=B \otimes _A K(A)</fr:tex> over <fr:tex>K(A)=k</fr:tex>.
@@ -235,7 +248,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We only have to prove necessity.
       Suppose that <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex>, and thus that <fr:tex>L</fr:tex> is separable over <fr:tex>k</fr:tex>.
@@ -257,7 +271,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>573</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a local ring, and <fr:tex>A \to \mathcal { O }</fr:tex> a local homomorphism such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex>A</fr:tex>.
     Suppose that <fr:tex>\mathcal { O }</fr:tex> is <fr:em>unramified</fr:em> over <fr:tex>A</fr:tex>.
     Then we can find an <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex> that is integral over <fr:tex>A</fr:tex>, a maximal ideal <fr:tex>\mathfrak {n}</fr:tex> of <fr:tex>B</fr:tex>, a generator <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>, and a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>\mathfrak {n} \not \ni  F'(u)</fr:tex> and such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic (as an <fr:tex>A</fr:tex>-algebra) to <fr:tex>B_ \mathfrak {n}</fr:tex>.

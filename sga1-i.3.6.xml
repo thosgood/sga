@@ -6,21 +6,37 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be iv, v, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>365</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;iv. &quot;">
       The cartesian product of two unramified morphisms is unramified.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;v. &quot;">
       If <fr:tex>gf</fr:tex> is unramified then so too is <fr:tex>f</fr:tex>.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;vi. &quot;">
       If <fr:tex>f</fr:tex> is unramified then so too is <fr:tex>f_ \mathrm {red}</fr:tex>.
-    </fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>338</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -32,16 +48,33 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.1</fr:addr><fr:route>sga1-i.3.1.xml</fr:route><fr:number>I.3.1</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>334</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.1</fr:addr><fr:route>sga1-i.3.1.xml</fr:route><fr:number>I.3.1</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type, <fr:tex>x \in  X</fr:tex>, and <fr:tex>y=f(x)</fr:tex>.
     Then the following conditions are equivalent:
-  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>\mathcal { O } _x/ \mathfrak {m}_y \mathcal { O } _x</fr:tex> is a finite separable extension of <fr:tex>k(y)</fr:tex>.
-    </fr:li>
-    <fr:li><fr:tex>\Omega _{X/Y}^1</fr:tex> is zero at <fr:tex>x</fr:tex>.
-    </fr:li>
-    <fr:li>
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+      <fr:tex>\mathcal { O } _x/ \mathfrak {m}_y \mathcal { O } _x</fr:tex> is a finite separable extension of <fr:tex>k(y)</fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+      <fr:tex>\Omega _{X/Y}^1</fr:tex> is zero at <fr:tex>x</fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
       The diagonal morphism <fr:tex>\Delta _{X/Y}</fr:tex> is an open immersion on a neighbourhood of <fr:tex>x</fr:tex>.
-    </fr:li></fr:ol>
+    </html:li>
+
+  </html:ol>
+
   
     
     <fr:tree
@@ -50,7 +83,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>333</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For the implication (i) <fr:tex>\implies</fr:tex> (ii), we can use Nakayama to reduce to the case where <fr:tex>Y= \operatorname {Spec} (k)</fr:tex> and <fr:tex>X= \operatorname {Spec} (k')</fr:tex>, where it is well known, and also trivial by the definition of separable;
       (ii) <fr:tex>\implies</fr:tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
@@ -67,25 +101,38 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sga1-i.3.2</fr:addr><fr:route>sga1-i.3.2.xml</fr:route><fr:number>I.3.2</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be a, b</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sga1-i.3.2</fr:addr><fr:route>sga1-i.3.2.xml</fr:route><fr:number>I.3.2</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;a. &quot;">
       Let <fr:tex>f</fr:tex> satisfy one of the equivalent conditions of <fr:ref
 addr="sga1-i.3.1"
 href="sga1-i.3.1.xml"
 taxon="Proposition"
 number="I.3.1"></fr:ref>.
       Then we say that <fr:tex>f</fr:tex> is <fr:em>unramified</fr:em> at <fr:tex>x</fr:tex>, or that <fr:tex>X</fr:tex> is unramified at <fr:tex>x</fr:tex> on <fr:tex>Y</fr:tex>.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;b. &quot;">
       Let <fr:tex>A \to  B</fr:tex> be a local homomorphism.
       We say that it is <fr:em>unramified</fr:em>, or that <fr:tex>B</fr:tex> is a local <fr:em>unramified</fr:em> algebra on <fr:tex>A</fr:tex>, if <fr:tex>B/ \mathfrak {r}(A)B</fr:tex> is a finite separable extension of <fr:tex>A/ \mathfrak {r}(A)</fr:tex>, i.e. if <fr:tex>\mathfrak {r}(A)B= \mathfrak {r}(B)</fr:tex> and <fr:tex>k(B)</fr:tex> is a separable extension of <fr:tex>k(A)</fr:tex>.
       (cf. regrets in [III 1.2])
-    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:tree
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>336</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The fact that <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex> can be seen at the level of the completions of <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex>.
     Unramified implies quasi-finite.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -94,7 +141,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>337</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The set of points where <fr:tex>f</fr:tex> is unramified is open.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -102,7 +150,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.4</fr:addr><fr:route>sga1-i.3.4.xml</fr:route><fr:number>I.3.4</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>338</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.4</fr:addr><fr:route>sga1-i.3.4.xml</fr:route><fr:number>I.3.4</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>X'</fr:tex> and <fr:tex>X</fr:tex> be preschemes of finite type over <fr:tex>Y</fr:tex>, and <fr:tex>g \colon  X' \to  X</fr:tex> a <fr:tex>Y</fr:tex>-morphism.
     If <fr:tex>X</fr:tex> is unramified over <fr:tex>Y</fr:tex>, then the graph morphism <fr:tex>\Gamma _g \colon  X' \to  X \times _Y X</fr:tex> is an open immersion.
   </fr:p></fr:mainmatter></fr:tree><fr:p>
@@ -117,15 +166,30 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.5</fr:addr><fr:route>sga1-i.3.5.xml</fr:route><fr:number>I.3.5</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.5</fr:addr><fr:route>sga1-i.3.5.xml</fr:route><fr:number>I.3.5</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
       An immersion is ramified.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
       The composition of two ramified morphisms is also ramified.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
       Base extension of a ramified morphisms is also ramified.
-    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:p>
   We are rather indifferent about (ii) and (iii) (the second seems more interesting to me).
   We can, of course, also be more precise, by giving some one-off statements;
   this is more general only in appearance (except for in the case of definition (b)), and is boring.
@@ -136,21 +200,37 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be iv, v, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;iv. &quot;">
       The cartesian product of two unramified morphisms is unramified.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;v. &quot;">
       If <fr:tex>gf</fr:tex> is unramified then so too is <fr:tex>f</fr:tex>.
-    </fr:li>
-    <fr:li>
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;vi. &quot;">
       If <fr:tex>f</fr:tex> is unramified then so too is <fr:tex>f_ \mathrm {red}</fr:tex>.
-    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:tree
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A \to  B</fr:tex> be a local homomorphism, and suppose that the residue extension <fr:tex>k(B)/k(A)</fr:tex> is trivial, with <fr:tex>k(A)</fr:tex> algebraically closed.
     In order for <fr:tex>B/A</fr:tex> to be unramified, it is necessary and sufficient that <fr:tex>\widehat {B}</fr:tex> be (as an <fr:tex>\widehat {A}</fr:tex>-algebra) a quotient of <fr:tex>\widehat {A}</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -159,7 +239,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
       In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of <fr:tex>A</fr:tex> which destroys the aforementioned extension.
     </fr:li>
     <fr:li>

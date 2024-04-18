@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>465</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>498</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a complete local ring (Noetherian, of course), with residue field <fr:tex>k</fr:tex>.
     For any <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex>, let <fr:tex>R(B)=B \otimes _Ak</fr:tex> be thought of as a <fr:tex>k</fr:tex>-algebra;
     this depends functorially on <fr:tex>B</fr:tex>.
@@ -17,7 +18,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -33,7 +35,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a complete local ring (Noetherian, of course), with residue field <fr:tex>k</fr:tex>.
     For any <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex>, let <fr:tex>R(B)=B \otimes _Ak</fr:tex> be thought of as a <fr:tex>k</fr:tex>-algebra;
     this depends functorially on <fr:tex>B</fr:tex>.
@@ -46,7 +49,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>496</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>B</fr:tex> and <fr:tex>B'</fr:tex> be <fr:tex>A</fr:tex>-algebras that are finite over <fr:tex>A</fr:tex>.
     If <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, then the canonical map
     <fr:tex
@@ -61,7 +65,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>442</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We can reduce to the case where <fr:tex>A</fr:tex> is Artinian (by replacing <fr:tex>A</fr:tex> by <fr:tex>A/ \frak {m}^n</fr:tex>), and then this is a particular case of <fr:ref
 addr="sga1-i.5.5"

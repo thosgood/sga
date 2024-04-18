@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>835</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.5.i-proof-1.xml"
 type="local"
 addr="sga1-i.9.5.i-proof-1"><fr:link
@@ -18,18 +19,31 @@ type="local"
 addr="sga1-i"><fr:link
 href="sga1.xml"
 type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:link> › Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:link> › Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
         For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
-      </fr:li>
-      <fr:li>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
         For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
-        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+        (cf. EGA IV 5.8.6.)
+      </html:li>
+
+    </html:ol>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>778</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>834</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.xml"
 type="local"
 addr="sga1-i.9"><fr:link
@@ -46,12 +60,25 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
         For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
-      </fr:li>
-      <fr:li>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
         For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
-        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+        (cf. EGA IV 5.8.6.)
+      </html:li>
+
+    </html:ol>
+</fr:mainmatter></fr:tree><fr:p>
     We assume this criterion here, but it should also appear in the section on flatness.
     Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
     Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.
@@ -72,7 +99,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.xml"
 type="local"
 addr="sga1-i.9"><fr:link
@@ -89,12 +117,25 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii</fr:em></fr:strong></fr:p><fr:ol><fr:li>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
         For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
-      </fr:li>
-      <fr:li>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
         For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
-        (cf. EGA IV 5.8.6.)</fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+        (cf. EGA IV 5.8.6.)
+      </html:li>
+
+    </html:ol>
+</fr:mainmatter></fr:tree><fr:p>
     We assume this criterion here, but it should also appear in the section on flatness.
     Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
     Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.

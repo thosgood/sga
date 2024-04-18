@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title><fr:link
 href="sga6-i.1.xml"
 type="local"
 addr="sga6-i.1"><fr:link
@@ -21,7 +22,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -31,7 +33,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -39,7 +42,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>736</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
 href="sga6-i.xml"
 type="local"
 addr="sga6-i"><fr:link
@@ -51,13 +55,15 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -67,7 +73,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -75,7 +82,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
 href="sga6-i.xml"
 type="local"
 addr="sga6-i"><fr:link
@@ -87,13 +95,15 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -103,6 +113,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

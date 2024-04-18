@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
   </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -14,7 +15,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -26,16 +28,33 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
     Then the following conditions are equivalent:
-  </fr:p><fr:p><fr:strong><fr:em>TO-DO: the following list should be i, ii, etc</fr:em></fr:strong></fr:p><fr:ol><fr:li><fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
-    </fr:li>
-    <fr:li><fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
-    </fr:li>
-    <fr:li>
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+      <fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+      <fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
       The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
-    </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:p>
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:p>
   If the conditions of <fr:ref
 addr="sga1-i.2.1"
 href="sga1-i.2.1.xml"
@@ -51,7 +70,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
   </fr:p></fr:mainmatter></fr:tree><fr:p>
   We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
@@ -61,7 +81,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type.
     For <fr:tex>f</fr:tex> to be an open immersion, it is necessary and sufficient that it be <fr:em>étale</fr:em> and <fr:em>radicial</fr:em>.
   </fr:p>
@@ -73,7 +94,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.

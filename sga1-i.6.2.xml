@@ -6,7 +6,8 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>B</fr:tex> and <fr:tex>B'</fr:tex> be <fr:tex>A</fr:tex>-algebras that are finite over <fr:tex>A</fr:tex>.
     If <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, then the canonical map
     <fr:tex
@@ -21,7 +22,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>442</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We can reduce to the case where <fr:tex>A</fr:tex> is Artinian (by replacing <fr:tex>A</fr:tex> by <fr:tex>A/ \frak {m}^n</fr:tex>), and then this is a particular case of <fr:ref
 addr="sga1-i.5.5"
@@ -37,7 +39,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>467</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>500</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -53,7 +56,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a complete local ring (Noetherian, of course), with residue field <fr:tex>k</fr:tex>.
     For any <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex>, let <fr:tex>R(B)=B \otimes _Ak</fr:tex> be thought of as a <fr:tex>k</fr:tex>-algebra;
     this depends functorially on <fr:tex>B</fr:tex>.
@@ -66,7 +70,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>496</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>B</fr:tex> and <fr:tex>B'</fr:tex> be <fr:tex>A</fr:tex>-algebras that are finite over <fr:tex>A</fr:tex>.
     If <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, then the canonical map
     <fr:tex
@@ -81,7 +86,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>442</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We can reduce to the case where <fr:tex>A</fr:tex> is Artinian (by replacing <fr:tex>A</fr:tex> by <fr:tex>A/ \frak {m}^n</fr:tex>), and then this is a particular case of <fr:ref
 addr="sga1-i.5.5"
@@ -101,7 +107,8 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a prescheme, and let <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> be <fr:tex>S</fr:tex>-preschemes.
     Let <fr:tex>S_0</fr:tex> be a closed sub-prescheme of <fr:tex>S</fr:tex> that has the same underlying space as <fr:tex>S</fr:tex>, and let <fr:tex>X_0=X \times _S S_0</fr:tex> and <fr:tex>Y_0=Y \times _S S_0</fr:tex> be the "restrictions" of <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> to <fr:tex>S_0</fr:tex>.
     Suppose that <fr:tex>X</fr:tex> is étale over <fr:tex>S</fr:tex>.
@@ -118,7 +125,8 @@ toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We can again reduce to the case where <fr:tex>Y=S</fr:tex>, and then this follows from the "topological" description of sections of <fr:tex>X/Y</fr:tex> given in <fr:ref
 addr="sga1-i.5.3"

@@ -6,14 +6,23 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>642</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block">f \colon  X \to  Y</fr:tex>
   of smooth quasi-projective schemes over a field <fr:tex>k</fr:tex> and a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> on <fr:tex>X</fr:tex>:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.1}     </fr:tex></fr:mainmatter></fr:tree>
+
   where <fr:tex>\operatorname {cl} ( \mathcal { F } )</fr:tex> denotes the class of <fr:tex>\mathcal { F }</fr:tex> in the group <fr:tex>K(X)</fr:tex> of classes of coherent sheaves on <fr:tex>X</fr:tex>, and <fr:tex>\operatorname {ch} _X</fr:tex> and <fr:tex>\operatorname {ch} _Y</fr:tex> denote the Chern characters of on <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.), and <fr:tex>T_X</fr:tex> and <fr:tex>T_Y</fr:tex> the tangent bundles to <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.).
   This formula holds in <fr:tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</fr:tex>, where <fr:tex>A(Y)</fr:tex> is the Chow ring of <fr:tex>Y</fr:tex>;
   the <fr:tex>f_*</fr:tex> on the right-hand side is induced by tensoring with <fr:tex>\mathbb {Q}</fr:tex> the "direct image of cycles" homomorphism
@@ -24,12 +33,29 @@ display="block">     f_* \colon  A(X)  \to  A(Y)   </fr:tex>
 display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </fr:tex>
   As we know, <fr:tex>\operatorname {Todd} (-)</fr:tex> and <fr:tex>\operatorname {ch} (-)</fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex>\mathbb {Q}</fr:tex>.
   Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </fr:tex>
+  
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.2}     </fr:tex></fr:mainmatter></fr:tree>
+
   where we set
-  <fr:tex
-display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter></fr:tree>
+
   so that <fr:tex>T_f</fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex>.
   In the case where the morphism <fr:tex>f</fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <fr:tex
@@ -40,22 +66,42 @@ display="block">     T_f     = - \check {N}_{X/Y}   </fr:tex>
   where <fr:tex>\check {N}_{X/Y}</fr:tex> denotes the normal sheaf of <fr:tex>X</fr:tex> in <fr:tex>Y</fr:tex>.
 </fr:p><fr:p>
   One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be a, b</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;a. &quot;">
     Remove the hypothesis of the existence of a base field <fr:tex>k</fr:tex>.
-  </fr:li>
-  <fr:li>
+  </html:li>
+
+  
+ <html:li
+style="list-style-type: &quot;b. &quot;">
     Replace the regularity hypotheses on <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> by a "local regularity" hypothesis on <fr:tex>f</fr:tex>.
-  </fr:li></fr:ol><fr:p>
+  </html:li>
+
+</html:ol>
+<fr:p>
   Finally, along the way, we will equally deal with the problem:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be c</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;c. &quot;">
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
-  </fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+  </html:li>
+
+</html:ol>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>641</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -73,14 +119,23 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block">f \colon  X \to  Y</fr:tex>
   of smooth quasi-projective schemes over a field <fr:tex>k</fr:tex> and a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> on <fr:tex>X</fr:tex>:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.1}     </fr:tex></fr:mainmatter></fr:tree>
+
   where <fr:tex>\operatorname {cl} ( \mathcal { F } )</fr:tex> denotes the class of <fr:tex>\mathcal { F }</fr:tex> in the group <fr:tex>K(X)</fr:tex> of classes of coherent sheaves on <fr:tex>X</fr:tex>, and <fr:tex>\operatorname {ch} _X</fr:tex> and <fr:tex>\operatorname {ch} _Y</fr:tex> denote the Chern characters of on <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.), and <fr:tex>T_X</fr:tex> and <fr:tex>T_Y</fr:tex> the tangent bundles to <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.).
   This formula holds in <fr:tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</fr:tex>, where <fr:tex>A(Y)</fr:tex> is the Chow ring of <fr:tex>Y</fr:tex>;
   the <fr:tex>f_*</fr:tex> on the right-hand side is induced by tensoring with <fr:tex>\mathbb {Q}</fr:tex> the "direct image of cycles" homomorphism
@@ -91,12 +146,29 @@ display="block">     f_* \colon  A(X)  \to  A(Y)   </fr:tex>
 display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </fr:tex>
   As we know, <fr:tex>\operatorname {Todd} (-)</fr:tex> and <fr:tex>\operatorname {ch} (-)</fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex>\mathbb {Q}</fr:tex>.
   Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </fr:tex>
+  
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.2}     </fr:tex></fr:mainmatter></fr:tree>
+
   where we set
-  <fr:tex
-display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter></fr:tree>
+
   so that <fr:tex>T_f</fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex>.
   In the case where the morphism <fr:tex>f</fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <fr:tex
@@ -107,28 +179,49 @@ display="block">     T_f     = - \check {N}_{X/Y}   </fr:tex>
   where <fr:tex>\check {N}_{X/Y}</fr:tex> denotes the normal sheaf of <fr:tex>X</fr:tex> in <fr:tex>Y</fr:tex>.
 </fr:p><fr:p>
   One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be a, b</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;a. &quot;">
     Remove the hypothesis of the existence of a base field <fr:tex>k</fr:tex>.
-  </fr:li>
-  <fr:li>
+  </html:li>
+
+  
+ <html:li
+style="list-style-type: &quot;b. &quot;">
     Replace the regularity hypotheses on <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> by a "local regularity" hypothesis on <fr:tex>f</fr:tex>.
-  </fr:li></fr:ol><fr:p>
+  </html:li>
+
+</html:ol>
+<fr:p>
   Finally, along the way, we will equally deal with the problem:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be c</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;c. &quot;">
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
-  </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:tree
+  </html:li>
+
+</html:ol>
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>687</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -146,14 +239,23 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block">f \colon  X \to  Y</fr:tex>
   of smooth quasi-projective schemes over a field <fr:tex>k</fr:tex> and a coherent sheaf <fr:tex>\mathcal { F }</fr:tex> on <fr:tex>X</fr:tex>:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.1}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.1}     </fr:tex></fr:mainmatter></fr:tree>
+
   where <fr:tex>\operatorname {cl} ( \mathcal { F } )</fr:tex> denotes the class of <fr:tex>\mathcal { F }</fr:tex> in the group <fr:tex>K(X)</fr:tex> of classes of coherent sheaves on <fr:tex>X</fr:tex>, and <fr:tex>\operatorname {ch} _X</fr:tex> and <fr:tex>\operatorname {ch} _Y</fr:tex> denote the Chern characters of on <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.), and <fr:tex>T_X</fr:tex> and <fr:tex>T_Y</fr:tex> the tangent bundles to <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.).
   This formula holds in <fr:tex>A(Y) \otimes _ \mathbb {Z} \mathbb {Q}</fr:tex>, where <fr:tex>A(Y)</fr:tex> is the Chow ring of <fr:tex>Y</fr:tex>;
   the <fr:tex>f_*</fr:tex> on the right-hand side is induced by tensoring with <fr:tex>\mathbb {Q}</fr:tex> the "direct image of cycles" homomorphism
@@ -164,12 +266,29 @@ display="block">     f_* \colon  A(X)  \to  A(Y)   </fr:tex>
 display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </fr:tex>
   As we know, <fr:tex>\operatorname {Todd} (-)</fr:tex> and <fr:tex>\operatorname {ch} (-)</fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex>\mathbb {Q}</fr:tex>.
   Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
-  <fr:strong><fr:em>TO-DO: equation numbering</fr:em></fr:strong>
-  <fr:tex
-display="block">      \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))     = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))   \tag{1.2}   </fr:tex>
+  
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.2}     </fr:tex></fr:mainmatter></fr:tree>
+
   where we set
-  <fr:tex
-display="block">     T_f     = T_X - f^*(T_Y)  \in  K(X)   \tag{1.3}   </fr:tex>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter></fr:tree>
+
   so that <fr:tex>T_f</fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex>.
   In the case where the morphism <fr:tex>f</fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
   <fr:tex
@@ -180,19 +299,39 @@ display="block">     T_f     = - \check {N}_{X/Y}   </fr:tex>
   where <fr:tex>\check {N}_{X/Y}</fr:tex> denotes the normal sheaf of <fr:tex>X</fr:tex> in <fr:tex>Y</fr:tex>.
 </fr:p><fr:p>
   One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be a, b</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;a. &quot;">
     Remove the hypothesis of the existence of a base field <fr:tex>k</fr:tex>.
-  </fr:li>
-  <fr:li>
+  </html:li>
+
+  
+ <html:li
+style="list-style-type: &quot;b. &quot;">
     Replace the regularity hypotheses on <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> by a "local regularity" hypothesis on <fr:tex>f</fr:tex>.
-  </fr:li></fr:ol><fr:p>
+  </html:li>
+
+</html:ol>
+<fr:p>
   Finally, along the way, we will equally deal with the problem:
-</fr:p><fr:strong><fr:em>TO-DO: this list should be c</fr:em></fr:strong><fr:ol><fr:li>
+</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+  
+ <html:li
+style="list-style-type: &quot;c. &quot;">
     Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
-  </fr:li></fr:ol></fr:mainmatter></fr:tree><fr:tree
+  </html:li>
+
+</html:ol>
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
-expanded="true"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
