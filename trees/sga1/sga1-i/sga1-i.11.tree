@@ -11,12 +11,8 @@
   Here are two examples of this fact.
 }
 
-\p{
-  \todo{the following list should be a, b}
-}
-
-\ol{
-  \li{
+\olc{
+  \lic{a.}{
     Let #{C} be an algebraic curve with an ordinary double point #{x}, and let #{C'} be its normalisation, with #{a} and #{b} the two points of #{C'} over #{x}.
     Let #{C'_1} and #{C'_2} be copies of #{C'}, with #{a_i} (resp. #{b_i}) the point of #{C'_i} corresponding to #{a} (resp. #{b}).
     In the curve #{C'_1\coprod C'_2}, we identify #{a_1} with #{b_2}, and #{a_2} with #{b_1} (we leave making this process of identification precise to the reader; it will be explained in Chapter VI of the multiplodoque, but, in the case of curves over an algebraically closed field, is already covered in Serre's book on algebraic curves).
@@ -27,7 +23,7 @@
     We note that is was questions of this sort that gave birth to the "theory of descent" for schemes.
   }
 
-  \li{
+  \lic{b.}{
     \p{
       Let #{A} be a complete integral local ring;
       we know that its normalisation #{A'} is finite over #{A} (by Nagata), and is thus a complete semi-local ring, and thus local, since it is integral.

@@ -15,16 +15,14 @@
     Then the following conditions are equivalent:
   }
 
-  \p{\todo{the following list should be i, ii, etc}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       #{\sh{O}_x/\mathfrak{m}_y\sh{O}_x} is a finite separable extension of #{k(y)}.
     }
-    \li{
+    \lic{ii.}{
       #{\Omega_{X/Y}^1} is zero at #{x}.
     }
-    \li{
+    \lic{iii.}{
       The diagonal morphism #{\Delta_{X/Y}} is an open immersion on a neighbourhood of #{x}.
     }
   }
@@ -45,14 +43,12 @@
   \number{I.3.2}
   \taxon{definition}
 
-  \p{\todo{the following list should be a, b}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{a.}{
       Let #{f} satisfy one of the equivalent conditions of \ref{sga1-i.3.1}.
       Then we say that #{f} is \em{unramified} at #{x}, or that #{X} is unramified at #{x} on #{Y}.
     }
-    \li{
+    \lic{b.}{
       Let #{A\to B} be a local homomorphism.
       We say that it is \em{unramified}, or that #{B} is a local \em{unramified} algebra on #{A}, if #{B/\mathfrak{r}(A)B} is a finite separable extension of #{A/\mathfrak{r}(A)}, i.e. if #{\mathfrak{r}(A)B=\mathfrak{r}(B)} and #{k(B)} is a separable extension of #{k(A)}.
       (cf. regrets in [III 1.2])
@@ -99,16 +95,14 @@
   \number{I.3.5}
   \taxon{proposition}
 
-  \p{\todo{the following list should be i, ii, etc}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       An immersion is ramified.
     }
-    \li{
+    \lic{ii.}{
       The composition of two ramified morphisms is also ramified.
     }
-    \li{
+    \lic{iii.}{
       Base extension of a ramified morphisms is also ramified.
     }
   }
@@ -125,16 +119,14 @@
   \number{I.3.6}
   \taxon{corollary}
 
-  \p{\todo{the following list should be iv, v, etc}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{iv.}{
       The cartesian product of two unramified morphisms is unramified.
     }
-    \li{
+    \lic{v.}{
       If #{gf} is unramified then so too is #{f}.
     }
-    \li{
+    \lic{vi.}{
       If #{f} is unramified then so too is #{f_\mathrm{red}}.
     }
   }

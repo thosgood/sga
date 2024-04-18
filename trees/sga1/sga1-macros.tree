@@ -1,3 +1,12 @@
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\olc[body]{
+ \<html:ol>{\body}
+}
+\def\lic[lbl][body]{
+ \<html:li>[style]{list-style-type: "\lbl "}{\body}
+}
+
 \def\tr{#{\operatorname{tr}}}
 \def\Spec{#{\operatorname{Spec}}}
 \def\Hom{#{\operatorname{Hom}}}

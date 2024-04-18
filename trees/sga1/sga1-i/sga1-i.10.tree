@@ -83,18 +83,16 @@
     Then
   }
 
-  \todo{the following list should be i, ii, etc}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       #{K} is unramified over #{Y}.
     }
 
-    \li{
+    \lic{ii.}{
       If #{L} is an extension of #{K} that is unramified over #{Y}, and if #{Y'} is a normal prescheme, of field #{L}, that dominates #{Y} (e.g. the normalisation of #{Y} in #{L}), and #{M} an extension of #{L} that is unramified over #{Y'}, then #{M/K} is unramified over #{X} (this is the \em{transitivity} property).
     }
 
-    \li{
+    \lic{iii.}{
       Let #{Y'} be a normal integral prescheme that dominates #{Y}, of field #{K'/K};
       if #{L} is an extension of #{K} that is unramified over #{Y}, then #{L\otimes_K K'} is an extension of #{K'} that is unramified over #{Y'} (this is the \em{translation} property).
     }

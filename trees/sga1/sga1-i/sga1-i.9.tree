@@ -115,13 +115,11 @@
     Let #{f\colon A\to B} be a local homomorphism, with #{B} isomorphic to the localisation of an #{A}-algebra of finite type over #{A}.
   }
 
-  \p{\todo{the following list should be i, ii}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       If #{f} is étale, then #{A} is normal if and only if #{B} is normal.
     }
-    \li{
+    \lic{ii.}{
       If #{A} is normal, then #{f} is étale if and only if #{f} is injective and unramified (and then #{B} is normal, by (i)).
     }
   }
@@ -146,13 +144,11 @@
   \subtree[sga1-i.9-serres-criterion]{
     \title{Serre's criterion}
 
-    \p{\todo{the following list should be i, ii}}
-
-    \ol{
-      \li{
+    \olc{
+      \lic{i.}{
         For every rank-#{1} prime ideal #{\mathfrak{p}} of #{A}, #{A_\mathfrak{p}} is normal (or, equivalently, regular);
       }
-      \li{
+      \lic{ii.}{
         For every rank-#{\geq2} prime ideal #{\mathfrak{p}} of #{A}, the depth of #{A_\mathfrak{p}} is #{\geq2}.
         \footnote{cf. EGA IV 5.8.6.}
       }

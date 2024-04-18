@@ -6,8 +6,6 @@
 \import{sga1-macros}
 \put\transclude/numbered{false}
 
-\todo{fix the auto-capitalisation of the title not recognising É}
-
 \p{
   We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
@@ -18,16 +16,14 @@
   \taxon{definition}
   \number{I.4.1}
 
-  \todo{this list should be a, b}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{a.}{
       Let #{f\colon X\to Y} be a morphism of finite type.
       We say that #{f} is \em{étale} at #{x} if #{f} is both flat and unramified at #{x}.
       We say that #{f} is étale if it is étale at all points.
       We say that #{X} is étale at #{x} over #{Y}, or that it is a #{Y}-prescheme which is étale at #{x} etc.
     }
-    \li{
+    \lic{b.}{
       Let #{f\colon A\to B} be a local homomorphism.
       We say that #{f} is étale, or that #{B} is étale over #{A}, if #{B} is flat and unramified over #{A}
       \footnote{cf. regrets in \fref{sga1-iii.1.2}.}
@@ -98,16 +94,14 @@
   \taxon{proposition}
   \number{I.4.6}
 
-  \todo{this list should be i, ii etc}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       An open immersion is étale.
     }
-    \li{
+    \lic{ii.}{
       The composition of two étale morphisms is étale.
     }
-    \li{
+    \lic{iii.}{
       The base extension of an étale morphism is étale.
     }
   }

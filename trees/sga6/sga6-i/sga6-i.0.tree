@@ -81,13 +81,11 @@
   this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:
 }
 
-\p{\todo{the following list should be a, b}}
-
-\ol{
-  \li{
+\olc{
+  \lic{a.}{
     #{S} is locally Noetherian;
   }
-  \li{
+  \lic{b.}{
     #{f} is projective.
   }
 }

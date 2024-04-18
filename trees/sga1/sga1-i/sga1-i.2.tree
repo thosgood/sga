@@ -15,16 +15,14 @@
     Then the following conditions are equivalent:
   }
 
-  \p{\todo{the following list should be i, ii, etc}}
-
-  \ol{
-    \li{
+  \olc{
+    \lic{i.}{
       #{B/\mathfrak{m}B} is of finite dimension over #{k=A/\mathfrak{m}}.
     }
-    \li{
+    \lic{ii.}{
       #{\mathfrak{m}B} is an ideal of definition, and #{B/\mathfrak{r}(B)=k(B)} is an extension of #{k=k(A)}.
     }
-    \li{
+    \lic{iii.}{
       The completion #{\widehat{B}} of #{B} is finite over the completion #{\widehat{A}} of #{A}.
     }
   }
