@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>695</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>701</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -15,7 +15,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>694</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>700</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block">f \colon  X \to  Y</fr:tex>
@@ -28,7 +28,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">        \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.1}     </fr:tex></fr:mainmatter></fr:tree>
 
   where <fr:tex>\operatorname {cl} ( \mathcal { F } )</fr:tex> denotes the class of <fr:tex>\mathcal { F }</fr:tex> in the group <fr:tex>K(X)</fr:tex> of classes of coherent sheaves on <fr:tex>X</fr:tex>, and <fr:tex>\operatorname {ch} _X</fr:tex> and <fr:tex>\operatorname {ch} _Y</fr:tex> denote the Chern characters of on <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.), and <fr:tex>T_X</fr:tex> and <fr:tex>T_Y</fr:tex> the tangent bundles to <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.).
@@ -40,7 +40,11 @@ display="block">     f_* \colon  A(X)  \to  A(Y)   </fr:tex>
   <fr:tex
 display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </fr:tex>
   As we know, <fr:tex>\operatorname {Todd} (-)</fr:tex> and <fr:tex>\operatorname {ch} (-)</fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex>\mathbb {Q}</fr:tex>.
-  Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
+  Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref
+addr="sga6-0.1-equation-1.1"
+href="sga6-0.1-equation-1.1.xml"
+taxon="Equation"
+number="1.1"></fr:ref> can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
   
   <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -49,7 +53,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">        \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.2}     </fr:tex></fr:mainmatter></fr:tree>
 
   where we set
@@ -61,7 +65,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter></fr:tree>
 
   so that <fr:tex>T_f</fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex>.
@@ -73,7 +77,11 @@ display="block">     T_f     = T_{X/Y}   </fr:tex>
 display="block">     T_f     = - \check {N}_{X/Y}   </fr:tex>
   where <fr:tex>\check {N}_{X/Y}</fr:tex> denotes the normal sheaf of <fr:tex>X</fr:tex> in <fr:tex>Y</fr:tex>.
 </fr:p><fr:p>
-  One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
+  One of the main goals of this Seminar is to generalise <fr:ref
+addr="sga6-0.1-equation-1.2"
+href="sga6-0.1-equation-1.2.xml"
+taxon="Equation"
+number="1.2"></fr:ref> simultaneously in two directions:
 </fr:p>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">

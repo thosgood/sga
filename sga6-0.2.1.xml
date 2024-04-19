@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  For
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>710</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  We now examine generalisation (a) from <fr:link
+href="sga6-0.2.xml"
+type="local"
+addr="sga6-0.2">sga6-0.2</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
+</fr:p><fr:p>
+  The definition of <fr:tex>K(X)</fr:tex> and <fr:tex>K(Y)</fr:tex>, and of the homomorphism <fr:tex>f_* \colon  K(X) \to  K(Y)</fr:tex> then gives no new problems, thanks to the fact that <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref
+addr="sga6-0.1-equation-1.2"
+href="sga6-0.1-equation-1.2.xml"
+taxon="Equation"
+number="1.2"></fr:ref> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex>A(X)</fr:tex> and <fr:tex>A(Y)</fr:tex> and a group homomorphism
+  <fr:tex
+display="block">     f_* \colon  A(X) \to  A(Y)   </fr:tex>
+  as well as establishing a theory of Chern classes, providing maps
+  <fr:tex
+display="block">     c_i \colon  K(X)  \to  A(X)   </fr:tex>
+  (and similarly for <fr:tex>Y</fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex
+display="block">     T_f \in  K(X).   </fr:tex></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  For
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  We now examine generalisation (a) from <fr:link
+href="sga6-0.2.xml"
+type="local"
+addr="sga6-0.2">sga6-0.2</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
+</fr:p><fr:p>
+  The definition of <fr:tex>K(X)</fr:tex> and <fr:tex>K(Y)</fr:tex>, and of the homomorphism <fr:tex>f_* \colon  K(X) \to  K(Y)</fr:tex> then gives no new problems, thanks to the fact that <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref
+addr="sga6-0.1-equation-1.2"
+href="sga6-0.1-equation-1.2.xml"
+taxon="Equation"
+number="1.2"></fr:ref> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex>A(X)</fr:tex> and <fr:tex>A(Y)</fr:tex> and a group homomorphism
+  <fr:tex
+display="block">     f_* \colon  A(X) \to  A(Y)   </fr:tex>
+  as well as establishing a theory of Chern classes, providing maps
+  <fr:tex
+display="block">     c_i \colon  K(X)  \to  A(X)   </fr:tex>
+  (and similarly for <fr:tex>Y</fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex
+display="block">     T_f \in  K(X).   </fr:tex></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  For
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

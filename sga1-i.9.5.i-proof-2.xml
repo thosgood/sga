@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>832</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-2</fr:addr><fr:route>sga1-i.9.5.i-proof-2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>864</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-2</fr:addr><fr:route>sga1-i.9.5.i-proof-2.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.xml"
 type="local"
 addr="sga1-i.9"><fr:link
@@ -64,7 +64,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>831</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>863</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -494,7 +494,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>829</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>861</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a local ring, and <fr:tex>A \to \mathcal { O }</fr:tex> a local homomorphism such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex>A</fr:tex>.
     Suppose that <fr:tex>\mathcal { O }</fr:tex> is <fr:em>unramified</fr:em> over <fr:tex>A</fr:tex>.
     Then we can find an <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex> that is integral over <fr:tex>A</fr:tex>, a maximal ideal <fr:tex>\mathfrak {n}</fr:tex> of <fr:tex>B</fr:tex>, a generator <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>, and a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>\mathfrak {n} \not \ni  F'(u)</fr:tex> and such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic (as an <fr:tex>A</fr:tex>-algebra) to <fr:tex>B_ \mathfrak {n}</fr:tex>.
@@ -506,7 +506,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>830</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.3</fr:addr><fr:route>sga1-i.9.3.xml</fr:route><fr:number>I.9.3</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.3</fr:addr><fr:route>sga1-i.9.3.xml</fr:route><fr:number>I.9.3</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  A \to  B</fr:tex> be an étale local homomorphism, with <fr:tex>B</fr:tex> isomorphic to the localisation of an <fr:tex>A</fr:tex>-algebra of finite type over <fr:tex>A</fr:tex>.
     For <fr:tex>A</fr:tex> to be reduced, it is necessary and sufficient that <fr:tex>B</fr:tex> be reduced.
   </fr:p>

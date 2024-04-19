@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>776</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>804</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title><fr:link
 href="sga6-i.xml"
 type="local"
 addr="sga6-i"><fr:link
@@ -115,7 +115,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>775</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -125,7 +125,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 </fr:p><fr:p>
   As was mentioned in <fr:ref
@@ -227,21 +227,21 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>727</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>716</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -252,7 +252,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -261,7 +261,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>800</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -271,7 +271,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 </fr:p><fr:p>
   As was mentioned in <fr:ref
@@ -373,21 +373,21 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>727</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>716</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -398,7 +398,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -407,7 +407,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>773</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>801</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -426,7 +426,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>687</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block">f \colon  X \to  Y</fr:tex>
@@ -439,7 +439,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">        \operatorname {Todd} (T_Y) \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_X) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.1}     </fr:tex></fr:mainmatter></fr:tree>
 
   where <fr:tex>\operatorname {cl} ( \mathcal { F } )</fr:tex> denotes the class of <fr:tex>\mathcal { F }</fr:tex> in the group <fr:tex>K(X)</fr:tex> of classes of coherent sheaves on <fr:tex>X</fr:tex>, and <fr:tex>\operatorname {ch} _X</fr:tex> and <fr:tex>\operatorname {ch} _Y</fr:tex> denote the Chern characters of on <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.), and <fr:tex>T_X</fr:tex> and <fr:tex>T_Y</fr:tex> the tangent bundles to <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> (resp.).
@@ -451,7 +451,11 @@ display="block">     f_* \colon  A(X)  \to  A(Y)   </fr:tex>
   <fr:tex
 display="block">     f_*( \operatorname {cl} ( \mathcal { F } ))     =  \sum _i (-1)^i  \operatorname {cl} ( \operatorname {R} ^i f_*( \mathcal { F } )).   </fr:tex>
   As we know, <fr:tex>\operatorname {Todd} (-)</fr:tex> and <fr:tex>\operatorname {ch} (-)</fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex>\mathbb {Q}</fr:tex>.
-  Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
+  Since the constant term of <fr:tex>\operatorname {Todd} (-)</fr:tex> is <fr:tex>1</fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref
+addr="sga6-0.1-equation-1.1"
+href="sga6-0.1-equation-1.1.xml"
+taxon="Equation"
+number="1.1"></fr:ref> can be rewritten, after multiplication by <fr:tex>\operatorname {Todd} (T_Y)^{-1}</fr:tex>, in the form which is more useful for our needs:
   
   <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -460,7 +464,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">        \operatorname {ch} _Y(f_*( \operatorname {cl} ( \mathcal { F } )))       = f_*( \operatorname {Todd} (T_f) \operatorname {ch} _X( \mathcal { F } ))     \tag{1.2}     </fr:tex></fr:mainmatter></fr:tree>
 
   where we set
@@ -472,7 +476,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">       T_f       = T_X - f^*(T_Y)  \in  K(X)     \tag{1.3}     </fr:tex></fr:mainmatter></fr:tree>
 
   so that <fr:tex>T_f</fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex>X</fr:tex> over <fr:tex>Y</fr:tex>.
@@ -484,7 +488,11 @@ display="block">     T_f     = T_{X/Y}   </fr:tex>
 display="block">     T_f     = - \check {N}_{X/Y}   </fr:tex>
   where <fr:tex>\check {N}_{X/Y}</fr:tex> denotes the normal sheaf of <fr:tex>X</fr:tex> in <fr:tex>Y</fr:tex>.
 </fr:p><fr:p>
-  One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
+  One of the main goals of this Seminar is to generalise <fr:ref
+addr="sga6-0.1-equation-1.2"
+href="sga6-0.1-equation-1.2.xml"
+taxon="Equation"
+number="1.2"></fr:ref> simultaneously in two directions:
 </fr:p>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
@@ -520,14 +528,42 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  We now examine generalisation (a) from <fr:link
+href="sga6-0.2.xml"
+type="local"
+addr="sga6-0.2">sga6-0.2</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex>X</fr:tex> and on <fr:tex>Y</fr:tex>.
+</fr:p><fr:p>
+  The definition of <fr:tex>K(X)</fr:tex> and <fr:tex>K(Y)</fr:tex>, and of the homomorphism <fr:tex>f_* \colon  K(X) \to  K(Y)</fr:tex> then gives no new problems, thanks to the fact that <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref
+addr="sga6-0.1-equation-1.2"
+href="sga6-0.1-equation-1.2.xml"
+taxon="Equation"
+number="1.2"></fr:ref> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex>A(X)</fr:tex> and <fr:tex>A(Y)</fr:tex> and a group homomorphism
+  <fr:tex
+display="block">     f_* \colon  A(X) \to  A(Y)   </fr:tex>
+  as well as establishing a theory of Chern classes, providing maps
+  <fr:tex
+display="block">     c_i \colon  K(X)  \to  A(X)   </fr:tex>
+  (and similarly for <fr:tex>Y</fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex
+display="block">     T_f \in  K(X).   </fr:tex></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  For
+</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title><fr:link
 href="sga6-i.xml"
 type="local"
 addr="sga6-i"><fr:link
@@ -540,14 +576,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>716</fr:anchor><fr:addr>sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>\mathcal {S}</fr:tex> be a category, and let <fr:tex>\mathcal {C}</fr:tex> be a fibred <fr:tex>\mathcal {S}</fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex>\mathcal {S}</fr:tex>-category (or that <fr:tex>\mathcal {C}</fr:tex> is additive (resp. triangulated) over <fr:tex>\mathcal {S}</fr:tex>) if, for every arrow <fr:tex>f \colon  X \to  Y</fr:tex> of <fr:tex>\mathcal {S}</fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex>f^* \colon \mathcal {C}_Y \to \mathcal {C}_X</fr:tex> is additive (resp. exact).
     We say that <fr:tex>\mathcal {C}</fr:tex> is an <fr:em>abelian</fr:em> <fr:tex>\mathcal {S}</fr:tex>-category if <fr:tex>\mathcal {C}</fr:tex> is an additive <fr:tex>\mathcal {S}</fr:tex>-category with abelian fibres, and that <fr:tex>\mathcal {C}</fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex>\mathcal {S}</fr:tex>-category if, further, the inverse image functors are exact.
@@ -558,6 +594,6 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:addr>sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     ...
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

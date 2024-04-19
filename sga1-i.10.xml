@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>907</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -371,7 +371,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>861</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>906</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -2805,7 +2805,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>856</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>901</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a quasi-finite, separated, universally open morphism.
     For all <fr:tex>y \in  Y</fr:tex>, let <fr:tex>n(y)</fr:tex> be the "geometric number of points in the fibre <fr:tex>f^{-1}(y)</fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex>k(x)/k(y)</fr:tex> as <fr:tex>x</fr:tex> runs over the points of <fr:tex>f^{-1}(y)</fr:tex>.
     Then the function <fr:tex>y \mapsto  n(y)</fr:tex> on <fr:tex>Y</fr:tex> is upper semi-continuous.
@@ -2817,7 +2817,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>857</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.8</fr:addr><fr:route>sga1-i.10.8.xml</fr:route><fr:number>I.10.8</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>902</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.10.8</fr:addr><fr:route>sga1-i.10.8.xml</fr:route><fr:number>I.10.8</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     If <fr:tex>y \mapsto  n(y)</fr:tex> is constant, and if <fr:tex>Y</fr:tex> is geometrically unibranch(For the definition, cf. <fr:ref
 addr="sga1-i.11"
 href="sga1-i.11.xml"
@@ -2830,7 +2830,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>858</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>903</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -2875,7 +2875,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>859</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.11</fr:addr><fr:route>sga1-i.9.11.xml</fr:route><fr:number>I.9.11</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>904</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.11</fr:addr><fr:route>sga1-i.9.11.xml</fr:route><fr:number>I.9.11</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a dominant morphism, with <fr:tex>Y</fr:tex> normal and <fr:tex>X</fr:tex> connected.
     If <fr:tex>f</fr:tex> is unramified, then it is also étale, and <fr:tex>X</fr:tex> is then normal and thus irreducible (since it is connected).
   </fr:p>
@@ -2910,7 +2910,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>860</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>

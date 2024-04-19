@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.xml"
 type="local"
 addr="sga1-i.9"><fr:link
@@ -64,7 +64,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>764</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -494,7 +494,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>738</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.9.1</fr:addr><fr:route>sga1-i.9.1.xml</fr:route><fr:number>I.9.1</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>762</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.9.1</fr:addr><fr:route>sga1-i.9.1.xml</fr:route><fr:number>I.9.1</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A \to  B</fr:tex> be an étale local homomorphism.
     For <fr:tex>A</fr:tex> to be regular, it is necessary and sufficient that <fr:tex>B</fr:tex> be regular.
   </fr:p>
@@ -525,7 +525,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>763</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
 href="sga1-i.9.5.i-proof-1.xml"
 type="local"
 addr="sga1-i.9.5.i-proof-1"><fr:link

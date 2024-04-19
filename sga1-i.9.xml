@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>788</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>816</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -437,7 +437,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>787</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>815</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -2871,7 +2871,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>781</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>809</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A</fr:tex> be a local ring, and <fr:tex>A \to \mathcal { O }</fr:tex> a local homomorphism such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex>A</fr:tex>.
     Suppose that <fr:tex>\mathcal { O }</fr:tex> is <fr:em>unramified</fr:em> over <fr:tex>A</fr:tex>.
     Then we can find an <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex> that is integral over <fr:tex>A</fr:tex>, a maximal ideal <fr:tex>\mathfrak {n}</fr:tex> of <fr:tex>B</fr:tex>, a generator <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>, and a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>\mathfrak {n} \not \ni  F'(u)</fr:tex> and such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic (as an <fr:tex>A</fr:tex>-algebra) to <fr:tex>B_ \mathfrak {n}</fr:tex>.
@@ -2883,7 +2883,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>782</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.12</fr:addr><fr:route>sga1-i.9.12.xml</fr:route><fr:number>I.9.12</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>810</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.12</fr:addr><fr:route>sga1-i.9.12.xml</fr:route><fr:number>I.9.12</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a dominant morphism of finite type, with <fr:tex>Y</fr:tex> normal and <fr:tex>X</fr:tex> irreducible.
     Then the set of points where <fr:tex>f</fr:tex> is étale is identical to the complement of the support of <fr:tex>\Omega _{X/Y}^1</fr:tex>, i.e. to the complement of the sub-prescheme of <fr:tex>X</fr:tex> defined by the different ideal <fr:tex>\mathfrak {d}_{X/Y}</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -2893,7 +2893,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>783</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.9</fr:addr><fr:route>sga1-i.9.9.xml</fr:route><fr:number>I.9.9</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.9</fr:addr><fr:route>sga1-i.9.9.xml</fr:route><fr:number>I.9.9</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Suppose that <fr:tex>K</fr:tex> is the field of fractions of an integral normal ring <fr:tex>A</fr:tex>, with the coefficients of <fr:tex>F</fr:tex> lying in <fr:tex>A</fr:tex>.
     Then, with the notation of <fr:ref
 addr="sga1-i.9.8"
@@ -2907,7 +2907,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>784</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>812</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -2992,7 +2992,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>785</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>813</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -5426,7 +5426,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>786</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>814</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link

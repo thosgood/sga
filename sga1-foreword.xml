@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>775</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -43,14 +43,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, of which the present volume constitutes the first tome.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -172,7 +172,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Each of these written exposés covers the material of multiple consecutive oral exposés.
   It did not seem useful to make a note of the dates.
 </fr:p><fr:p>
@@ -205,7 +205,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <fr:ref
 addr="sga1-i.2"
 href="sga1-i.2.xml"
@@ -2629,14 +2629,56 @@ number="I.9.5"></fr:ref> for geometrically unibranch local rings.)</fr:p><fr:p><
     This functor induces an equivalence between the category of étale <fr:tex>Y</fr:tex>-schemes and the category of étale <fr:tex>Y'</fr:tex>-schemes.
   </fr:em>
   We could apply this, for example, in the case where <fr:tex>Y'</fr:tex> is the normalisation of <fr:tex>Y</fr:tex>, with <fr:tex>Y</fr:tex> assumed to be unibranch (and <fr:tex>Y'</fr:tex> finite over <fr:tex>Y</fr:tex>, which is true in all the cases that one encounters in practice), or to to case of some <fr:tex>Y''</fr:tex> "sandwiched" between <fr:tex>Y</fr:tex> and its normalisation (which no longer need be finite over <fr:tex>Y</fr:tex>).
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.1</fr:addr><fr:route>sga1-ii.1.xml</fr:route><fr:title>Generalities</fr:title><fr:number>II.1</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>730</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.2</fr:addr><fr:route>sga1-ii.2.xml</fr:route><fr:title>Some smoothness criteria of a morphism</fr:title><fr:number>II.2</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>731</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.3</fr:addr><fr:route>sga1-ii.3.xml</fr:route><fr:title>Permanence properties</fr:title><fr:number>II.3</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.4</fr:addr><fr:route>sga1-ii.4.xml</fr:route><fr:title>Differential properties of smooth morphisms</fr:title><fr:number>II.4</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.5</fr:addr><fr:route>sga1-ii.5.xml</fr:route><fr:title>Case of a base field</fr:title><fr:number>II.5</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>768</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -2761,14 +2803,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>773</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, of which the present volume constitutes the first tome.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -2890,7 +2932,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Each of these written exposés covers the material of multiple consecutive oral exposés.
   It did not seem useful to make a note of the dates.
 </fr:p><fr:p>
@@ -2923,7 +2965,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <fr:ref
 addr="sga1-i.2"
 href="sga1-i.2.xml"
@@ -5347,14 +5389,56 @@ number="I.9.5"></fr:ref> for geometrically unibranch local rings.)</fr:p><fr:p><
     This functor induces an equivalence between the category of étale <fr:tex>Y</fr:tex>-schemes and the category of étale <fr:tex>Y'</fr:tex>-schemes.
   </fr:em>
   We could apply this, for example, in the case where <fr:tex>Y'</fr:tex> is the normalisation of <fr:tex>Y</fr:tex>, with <fr:tex>Y</fr:tex> assumed to be unibranch (and <fr:tex>Y'</fr:tex> finite over <fr:tex>Y</fr:tex>, which is true in all the cases that one encounters in practice), or to to case of some <fr:tex>Y''</fr:tex> "sandwiched" between <fr:tex>Y</fr:tex> and its normalisation (which no longer need be finite over <fr:tex>Y</fr:tex>).
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.1</fr:addr><fr:route>sga1-ii.1.xml</fr:route><fr:title>Generalities</fr:title><fr:number>II.1</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>730</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.2</fr:addr><fr:route>sga1-ii.2.xml</fr:route><fr:title>Some smoothness criteria of a morphism</fr:title><fr:number>II.2</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>731</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.3</fr:addr><fr:route>sga1-ii.3.xml</fr:route><fr:title>Permanence properties</fr:title><fr:number>II.3</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.4</fr:addr><fr:route>sga1-ii.4.xml</fr:route><fr:title>Differential properties of smooth morphisms</fr:title><fr:number>II.4</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-ii.5</fr:addr><fr:route>sga1-ii.5.xml</fr:route><fr:title>Case of a base field</fr:title><fr:number>II.5</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr>sga1-introduction-1</fr:addr><fr:route>sga1-introduction-1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>766</fr:anchor><fr:addr>sga1-introduction-1</fr:addr><fr:route>sga1-introduction-1.xml</fr:route><fr:number>1</fr:number><fr:parent>sga1-introduction</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The present volume details the fundamentals of a theory of the fundamental group in algebraic geometry, from the "Kroneckerian" point of view, which allows us to treat the case of an algebraic variety, in the usual sense, and that of a ring of integers of a number field, for example, on an equal footing.
     This point of view can only be expressed in a satisfactory manner in the language of schemes, and we will freely use this language, as well as the main results stated in the first three chapters of the <fr:em>Éléments de Géométrie Algébrique</fr:em> by J. Dieudonné and A. Grothendieck (cited as "EGA").
     The study of this present volume of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em> does not require any other knowledge of algebraic geometry, and can thus serve as an introduction to the current techniques of algebraic geometry to a reader who wishes to familiarise themselves with them.
@@ -5396,7 +5480,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>743</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
 href="https://github.com/thosgood/sga"
 type="external">GitHub repository</fr:link>.
@@ -5433,7 +5517,11 @@ addr="sga1-foreword">Foreword</fr:link> ✓
 href="sga1-i.xml"
 type="local"
 addr="sga1-i">I. Étale morphisms</fr:link> ✓
-      </fr:li></fr:ul></fr:li>
+      </fr:li>
+      <fr:li><fr:link
+href="sga1-ii.xml"
+type="local"
+addr="sga1-ii">II. Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li>
   <fr:li><fr:link
 href="sga6.xml"
 type="local"
@@ -5448,16 +5536,16 @@ addr="sga6"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem
     <fr:ul><fr:li><fr:link
 href="sga6-introduction.xml"
 type="local"
-addr="sga6-introduction">Introduction</fr:link></fr:li>
+addr="sga6-introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em></fr:li>
       <fr:li><fr:link
 href="sga6-0.xml"
 type="local"
-addr="sga6-0">0. Outline of a programme for an intersection theory</fr:link></fr:li>
+addr="sga6-0">0. Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em></fr:li>
       <fr:li><fr:link
 href="sga6-0rrr.xml"
 type="local"
-addr="sga6-0rrr">0[RRR]. Classes of sheaves and the Riemann–Roch theorem</fr:link></fr:li>
+addr="sga6-0rrr">0[RRR]. Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em></fr:li>
       <fr:li><fr:link
 href="sga6-i.xml"
 type="local"
-addr="sga6-i">I. Generalities on finiteness conditions in derived categories</fr:link></fr:li></fr:ul></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="sga6-i">I. Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
