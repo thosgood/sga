@@ -6,5 +6,23 @@
 \put\transclude/numbered{false}
 
 \p{
-  \todo{finish}
+  We now examine generalisation (a) from [[sga6-0.2]], keeping, however, the hypotheses of regularity and of existence of ample invertible modules on #{X} and on #{Y}.
 }
+
+\p{
+  The definition of #{K(X)} and #{K(Y)}, and of the homomorphism #{f_*\colon K(X)\to K(Y)} then gives no new problems, thanks to the fact that #{X} and #{Y} are regular.
+  The most natural route to giving meaning to \ref{sga6-0.1-equation-1.2} thus seems to consist of defining the \em{Chow rings} #{A(X)} and #{A(Y)} and a group homomorphism
+  ##{
+    f_*\colon A(X)\to A(Y)
+  }
+  as well as establishing a theory of Chern classes, providing maps
+  ##{
+    c_i\colon K(X) \to A(X)
+  }
+  (and similarly for #{Y}), and finally giving a description of an virtual relative tangent bundle element
+  ##{
+    T_f\in K(X).
+  }
+}
+
+\transclude{sga6-0.2.1}

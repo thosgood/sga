@@ -1,0 +1,9 @@
+\title{Case of a base field}
+\taxon{section}
+\number{II.5}
+\parent{sga1-ii}
+
+\import{sga1-macros}
+\put\transclude/numbered{false}
+
+

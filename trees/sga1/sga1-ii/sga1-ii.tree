@@ -1,0 +1,12 @@
+\title{Smooth morphisms: generalities, differential properties}
+\taxon{exposé}
+\number{II}
+\parent{sga1}
+
+\import{sga1-macros}
+
+\transclude{sga1-ii.1}
+\transclude{sga1-ii.2}
+\transclude{sga1-ii.3}
+\transclude{sga1-ii.4}
+\transclude{sga1-ii.5}

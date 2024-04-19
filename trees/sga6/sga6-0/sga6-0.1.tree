@@ -32,7 +32,7 @@
     = \sum_i (-1)^i \cl(\RR^i f_*(\sh{F})).
   }
   As we know, #{\Todd(-)} and #{\ch(-)} are universal polynomials in the Chern classes of the argument with coefficients in #{\QQ}.
-  Since the constant term of #{\Todd(-)} is #{1}, it is an invertible element for any value of the argument, so that Equation (1.1) can be rewritten, after multiplication by #{\Todd(T_Y)^{-1}}, in the form which is more useful for our needs:
+  Since the constant term of #{\Todd(-)} is #{1}, it is an invertible element for any value of the argument, so that \ref{sga6-0.1-equation-1.1} can be rewritten, after multiplication by #{\Todd(T_Y)^{-1}}, in the form which is more useful for our needs:
   
   \subtree[sga6-0.1-equation-1.2]{
     \taxon{equation}
@@ -71,7 +71,7 @@
 }
 
 \p{
-  One of the main goals of this Seminar is to generalise Equation (1.2) simultaneously in two directions:
+  One of the main goals of this Seminar is to generalise \ref{sga6-0.1-equation-1.2} simultaneously in two directions:
 }
 
 \olc{

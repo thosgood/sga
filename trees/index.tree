@@ -33,6 +33,9 @@
       \li{
         [I. Étale morphisms](sga1-i) ✓
       }
+      \li{
+        [II. Smooth morphisms: generalities, differential properties](sga1-ii) \em{(in progress)}
+      }
     }
   }
   \li{
@@ -46,16 +49,16 @@
 
     \ul{
       \li{
-        [Introduction](sga6-introduction)
+        [Introduction](sga6-introduction) \em{(in progress)}
       }
       \li{
-        [0. Outline of a programme for an intersection theory](sga6-0)
+        [0. Outline of a programme for an intersection theory](sga6-0) \em{(in progress)}
       }
       \li{
-        [0[RRR]. Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr)
+        [0[RRR]. Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr) \em{(in progress)}
       }
       \li{
-        [I. Generalities on finiteness conditions in derived categories](sga6-i)
+        [I. Generalities on finiteness conditions in derived categories](sga6-i) \em{(in progress)}
       }
     }
   }
