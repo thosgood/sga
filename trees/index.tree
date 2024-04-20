@@ -1,5 +1,13 @@
 \title{Séminaire de Géométrie Algébrique du Bois-Marie}
 
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\def\olc[body]{
+ \<html:ol>{\body}
+}
+\def\lic[lbl][body]{
+ \<html:li>[style]{list-style-type: "\lbl "}{\body}
+}
+
 \p{
   You can view the entire source code of this translation (and contribute or submit corrections) in the [GitHub repository](https://github.com/thosgood/sga).
 }
@@ -23,18 +31,18 @@
       [arXiv:math/0206203v2](https://arxiv.org/abs/math/0206203v2)
     }
 
-    \ul{
-      \li{
+    \olc{
+      \lic{}{
         [Introduction](sga1-introduction) ✓
       }
-      \li{
+      \lic{}{
         [Foreword](sga1-foreword) ✓
       }
-      \li{
-        [I. Étale morphisms](sga1-i) ✓
+      \lic{I.}{
+        [Étale morphisms](sga1-i) ✓
       }
-      \li{
-        [II. Smooth morphisms: generalities, differential properties](sga1-ii) \em{(in progress)}
+      \lic{II.}{
+        [Smooth morphisms: generalities, differential properties](sga1-ii) \em{(in progress)}
       }
     }
   }
@@ -47,18 +55,18 @@
       1966–67.
     }
 
-    \ul{
-      \li{
+    \olc{
+      \lic{}{
         [Introduction](sga6-introduction) \em{(in progress)}
       }
-      \li{
-        [0. Outline of a programme for an intersection theory](sga6-0) \em{(in progress)}
+      \lic{0.}{
+        [Outline of a programme for an intersection theory](sga6-0) \em{(in progress)}
       }
-      \li{
-        [0[RRR]. Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr) \em{(in progress)}
+      \lic{0RRR.}{
+        [Classes of sheaves and the Riemann–Roch theorem](sga6-0rrr) \em{(in progress)}
       }
-      \li{
-        [I. Generalities on finiteness conditions in derived categories](sga6-i) \em{(in progress)}
+      \lic{I.}{
+        [Generalities on finiteness conditions in derived categories](sga6-i) \em{(in progress)}
       }
     }
   }
