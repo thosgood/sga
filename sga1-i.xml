@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>934</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -2441,14 +2441,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>923</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, of which the present volume constitutes the first tome.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -2570,7 +2570,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>780</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Each of these written exposés covers the material of multiple consecutive oral exposés.
   It did not seem useful to make a note of the dates.
 </fr:p><fr:p>
@@ -2603,7 +2603,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>781</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <fr:ref
 addr="sga1-i.2"
 href="sga1-i.2.xml"
@@ -5034,7 +5034,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>782</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
@@ -5076,7 +5076,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>921</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -5142,14 +5142,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>932</fr:anchor><fr:addr>sga1</fr:addr><fr:route>sga1.xml</fr:route><fr:title>SGA 1: Étale covers and the fundamental group</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr>sga1-introduction</fr:addr><fr:route>sga1-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the first section of this introduction, we give some details about the contents of the present volume; in the second, about the entirety of the <fr:em>Séminaire de Géométrie Algébrique du Bois-Marie</fr:em>, of which the present volume constitutes the first tome.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -5271,7 +5271,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>780</fr:anchor><fr:addr>sga1-foreword</fr:addr><fr:route>sga1-foreword.xml</fr:route><fr:title>Foreword</fr:title><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Each of these written exposés covers the material of multiple consecutive oral exposés.
   It did not seem useful to make a note of the dates.
 </fr:p><fr:p>
@@ -5304,7 +5304,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>781</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title>Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   To simplify the exposition, we assume that all preschemes in the following are locally Noetherian (at least, starting from <fr:ref
 addr="sga1-i.2"
 href="sga1-i.2.xml"
@@ -7735,7 +7735,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>782</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title>Smooth morphisms: generalities, differential properties</fr:title><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
@@ -7777,7 +7777,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>908</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.2</fr:addr><fr:route>sga1-i.7.2.xml</fr:route><fr:number>I.7.2</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.2</fr:addr><fr:route>sga1-i.7.2.xml</fr:route><fr:number>I.7.2</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The different ideal of <fr:tex>B/A</fr:tex> contains <fr:tex>u'B</fr:tex>, and is equal to <fr:tex>u'B</fr:tex> if the natural homomorphism <fr:tex>A[t]/FA[t] \to  B</fr:tex> (sending <fr:tex>t</fr:tex> to <fr:tex>u</fr:tex>) is an isomorphism.
   </fr:p>
   
@@ -7813,7 +7813,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>909</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>919</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -7881,7 +7881,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>910</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.1</fr:addr><fr:route>sga1-i.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.1</fr:addr><fr:route>sga1-i.1.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -7903,7 +7903,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>911</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.5</fr:addr><fr:route>sga1-i.5.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>921</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.5</fr:addr><fr:route>sga1-i.5.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -8276,7 +8276,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>912</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -8470,7 +8470,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>913</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>923</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -8900,7 +8900,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>914</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.7</fr:addr><fr:route>sga1-i.7.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.7</fr:addr><fr:route>sga1-i.7.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -9296,7 +9296,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>915</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>925</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -9362,7 +9362,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
 href="https://github.com/thosgood/sga"
 type="external">GitHub repository</fr:link>.
@@ -9385,25 +9385,46 @@ addr="sga1"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong
 href="https://arxiv.org/abs/math/0206203v2"
 type="external">arXiv:math/0206203v2</fr:link></fr:p>
 
-    <fr:ul><fr:li><fr:link
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga1-introduction.xml"
 type="local"
 addr="sga1-introduction">Introduction</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga1-foreword.xml"
 type="local"
 addr="sga1-foreword">Foreword</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        <fr:link
 href="sga1-i.xml"
 type="local"
-addr="sga1-i">I. Étale morphisms</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+addr="sga1-i">Étale morphisms</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;II. &quot;">
+        <fr:link
 href="sga1-ii.xml"
 type="local"
-addr="sga1-ii">II. Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li>
+addr="sga1-ii">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+    </html:ol></fr:li>
   <fr:li><fr:link
 href="sga6.xml"
 type="local"
@@ -9415,29 +9436,53 @@ addr="sga6"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem
       1966–67.
     </fr:p>
 
-    <fr:ul><fr:li><fr:link
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga6-introduction.xml"
 type="local"
-addr="sga6-introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;0. &quot;">
+        <fr:link
 href="sga6-0.xml"
 type="local"
-addr="sga6-0">0. Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-0">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;0RRR. &quot;">
+        <fr:link
 href="sga6-0rrr.xml"
 type="local"
-addr="sga6-0rrr">0[RRR]. Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-0rrr">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        <fr:link
 href="sga6-i.xml"
 type="local"
-addr="sga6-i">I. Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+addr="sga6-i">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+    </html:ol></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>917</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -9655,7 +9700,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>928</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -9740,7 +9785,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>919</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>929</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -10104,7 +10149,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>930</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link

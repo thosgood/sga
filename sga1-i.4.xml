@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>930</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>940</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link
@@ -275,7 +275,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>929</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -2709,7 +2709,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>936</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>A \to  B</fr:tex> be a local homomorphism, and suppose that the residue extension <fr:tex>k(B)/k(A)</fr:tex> is trivial, with <fr:tex>k(A)</fr:tex> algebraically closed.
     In order for <fr:tex>B/A</fr:tex> to be unramified, it is necessary and sufficient that <fr:tex>\widehat {B}</fr:tex> be (as an <fr:tex>\widehat {A}</fr:tex>-algebra) a quotient of <fr:tex>\widehat {A}</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -2719,7 +2719,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.12</fr:addr><fr:route>sga1-i.9.12.xml</fr:route><fr:number>I.9.12</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>937</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.9.12</fr:addr><fr:route>sga1-i.9.12.xml</fr:route><fr:number>I.9.12</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a dominant morphism of finite type, with <fr:tex>Y</fr:tex> normal and <fr:tex>X</fr:tex> irreducible.
     Then the set of points where <fr:tex>f</fr:tex> is étale is identical to the complement of the support of <fr:tex>\Omega _{X/Y}^1</fr:tex>, i.e. to the complement of the sub-prescheme of <fr:tex>X</fr:tex> defined by the different ideal <fr:tex>\mathfrak {d}_{X/Y}</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -2729,7 +2729,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>928</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>938</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga1-i</fr:addr><fr:route>sga1-i.xml</fr:route><fr:title><fr:link
 href="sga1.xml"
 type="local"
 addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:title><fr:number>I</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -5163,7 +5163,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>925</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.9</fr:addr><fr:route>sga1-i.9.xml</fr:route><fr:title><fr:link
 href="sga1-i.xml"
 type="local"
 addr="sga1-i"><fr:link

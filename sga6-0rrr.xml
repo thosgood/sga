@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>762</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title><fr:link
 href="sga6.xml"
 type="local"
 addr="sga6">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -28,14 +28,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr>sga6</fr:addr><fr:route>sga6.xml</fr:route><fr:title>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr>sga6</fr:addr><fr:route>sga6.xml</fr:route><fr:title>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr>sga6-introduction</fr:addr><fr:route>sga6-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr>sga6-introduction</fr:addr><fr:route>sga6-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -44,7 +44,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title>Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title>Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
   It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link
 href="sga6-0rrr.xml"
@@ -197,7 +197,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title>Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title>Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -215,14 +215,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title>Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>759</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title>Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 </fr:p><fr:p>
   As was mentioned in <fr:ref
@@ -324,14 +324,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>758</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -358,14 +358,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr>sga6</fr:addr><fr:route>sga6.xml</fr:route><fr:title>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>760</fr:anchor><fr:addr>sga6</fr:addr><fr:route>sga6.xml</fr:route><fr:title>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr>sga6-introduction</fr:addr><fr:route>sga6-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr>sga6-introduction</fr:addr><fr:route>sga6-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -374,7 +374,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title>Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title>Outline of a programme for a theory of intersections</fr:title><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
   It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link
 href="sga6-0rrr.xml"
@@ -527,7 +527,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title>Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title>Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   ...
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -545,14 +545,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title>Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>759</fr:anchor><fr:taxon>Exposé</fr:taxon><fr:addr>sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title>Generalities on finiteness conditions in derived categories</fr:title><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title>Introduction</fr:title><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.
 </fr:p><fr:p>
   As was mentioned in <fr:ref
@@ -654,14 +654,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>758</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title>Preliminary definitions</fr:title><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title>Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -859,7 +859,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Séminaire de Géométrie Algébrique du Bois-Marie</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
 href="https://github.com/thosgood/sga"
 type="external">GitHub repository</fr:link>.
@@ -882,25 +882,46 @@ addr="sga1"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong
 href="https://arxiv.org/abs/math/0206203v2"
 type="external">arXiv:math/0206203v2</fr:link></fr:p>
 
-    <fr:ul><fr:li><fr:link
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga1-introduction.xml"
 type="local"
 addr="sga1-introduction">Introduction</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga1-foreword.xml"
 type="local"
 addr="sga1-foreword">Foreword</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        <fr:link
 href="sga1-i.xml"
 type="local"
-addr="sga1-i">I. Étale morphisms</fr:link> ✓
-      </fr:li>
-      <fr:li><fr:link
+addr="sga1-i">Étale morphisms</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;II. &quot;">
+        <fr:link
 href="sga1-ii.xml"
 type="local"
-addr="sga1-ii">II. Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li>
+addr="sga1-ii">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+    </html:ol></fr:li>
   <fr:li><fr:link
 href="sga6.xml"
 type="local"
@@ -912,19 +933,43 @@ addr="sga6"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem
       1966–67.
     </fr:p>
 
-    <fr:ul><fr:li><fr:link
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
 href="sga6-introduction.xml"
 type="local"
-addr="sga6-introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;0. &quot;">
+        <fr:link
 href="sga6-0.xml"
 type="local"
-addr="sga6-0">0. Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-0">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;0RRR. &quot;">
+        <fr:link
 href="sga6-0rrr.xml"
 type="local"
-addr="sga6-0rrr">0[RRR]. Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em></fr:li>
-      <fr:li><fr:link
+addr="sga6-0rrr">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        <fr:link
 href="sga6-i.xml"
 type="local"
-addr="sga6-i">I. Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em></fr:li></fr:ul></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="sga6-i">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
+      </html:li>
+
+    </html:ol></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
