@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
 type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -24,7 +24,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
 type="user">sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
   <fr:tex
 display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
