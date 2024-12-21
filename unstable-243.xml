@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>766</fr:anchor><fr:addr
+type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof is the same, just replacing <fr:ref
+addr="sga1-i.7.5"
+href="sga1-i.7.5.xml"
+taxon="Corollary"
+number="I.7.5" /> by <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6" />.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr
+type="user">sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex
+display="inline"><![CDATA[k(y)]]></fr:tex> to be infinite.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>562</fr:anchor><fr:addr
+type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof is the same, just replacing <fr:ref
+addr="sga1-i.7.5"
+href="sga1-i.7.5.xml"
+taxon="Corollary"
+number="I.7.5" /> by <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

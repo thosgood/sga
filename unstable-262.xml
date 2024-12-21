@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>804</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It suffices to prove sufficiency;
+      since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
+      By <fr:ref
+addr="sga1-i.5.1"
+href="sga1-i.5.1.xml"
+taxon="Theorem"
+number="I.5.1" />, we have to show that <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is <fr:em>radicial</fr:em> (which is trivial) and <fr:em>étale</fr:em> (which follows from <fr:ref
+addr="sga1-i.5.9"
+href="sga1-i.5.9.xml"
+taxon="Corollary"
+number="I.5.9" /> below).</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>805</fr:anchor><fr:addr
+type="user">sga1-i.5.7</fr:addr><fr:route>sga1-i.5.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.5.7</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> be preschemes that are of finite type and flat over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> be a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-morphism.
+    For <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> to be an open immersion (resp. an isomorphism), it is necessary and sufficient that the induced morphism on the fibres
+    <fr:tex
+display="block"><![CDATA[       g\otimes _Y k(y)\colon        X\otimes _Y k(y) \to  X'\otimes _Y k(y)     ]]></fr:tex>
+    be an open immersion (resp. an isomorphism) for all <fr:tex
+display="inline"><![CDATA[y\in  Y]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It suffices to prove sufficiency;
+      since it is true for the property of being a surjection, we can reduce to the case of an open immersion.
+      By <fr:ref
+addr="sga1-i.5.1"
+href="sga1-i.5.1.xml"
+taxon="Theorem"
+number="I.5.1" />, we have to show that <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is <fr:em>radicial</fr:em> (which is trivial) and <fr:em>étale</fr:em> (which follows from <fr:ref
+addr="sga1-i.5.9"
+href="sga1-i.5.9.xml"
+taxon="Corollary"
+number="I.5.9" /> below).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

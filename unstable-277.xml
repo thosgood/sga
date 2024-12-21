@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>834</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The "only if" is trivial;
+      we will prove the "if".
+      Let <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Then <fr:tex
+display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex
+display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex
+display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7" />, we have that <fr:tex
+display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
+      thus <fr:tex
+display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex
+display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.
+      We can thus suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex
+display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is constant.
+      Then, by <fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8" />, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
+      The theorem thus reduces to the following classical statement:</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>835</fr:anchor><fr:addr
+type="user">sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
+    Suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is reduced (i.e. that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> has no nilpotent elements).
+    Let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be the degree of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (i.e. the sum of the degrees, over the field <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, of the fields <fr:tex
+display="inline"><![CDATA[K_i]]></fr:tex> of the irreducible components <fr:tex
+display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>).
+    Let <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be a normal point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+    Then the geometric number <fr:tex
+display="inline"><![CDATA[n(y)]]></fr:tex> of points of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\leq  n]]></fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The "only if" is trivial;
+      we will prove the "if".
+      Let <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Then <fr:tex
+display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex
+display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex
+display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref
+addr="sga1-i.10.7"
+href="sga1-i.10.7.xml"
+taxon="Proposition"
+number="I.10.7" />, we have that <fr:tex
+display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
+      thus <fr:tex
+display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex
+display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.
+      We can thus suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex
+display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is constant.
+      Then, by <fr:ref
+addr="sga1-i.10.8"
+href="sga1-i.10.8.xml"
+taxon="Corollary"
+number="I.10.8" />, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
+      The theorem thus reduces to the following classical statement:</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

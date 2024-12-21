@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>806</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The two algebras over <fr:tex
+display="inline"><![CDATA[k(g(x))]]></fr:tex> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> are the same for <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g\otimes _Y k(y)]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>807</fr:anchor><fr:addr
+type="user">sga1-i.5.8</fr:addr><fr:route>sga1-i.5.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.5.8</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> be <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-preschemes, <fr:tex
+display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-morphism, <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> a point of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> to be quasi-finite (resp. unramified) at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[g\otimes _Y k(y)]]></fr:tex> be so.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The two algebras over <fr:tex
+display="inline"><![CDATA[k(g(x))]]></fr:tex> that we have to study in order to see whether or not we do indeed have a morphism which is quasi-finite (resp. unramified) at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> are the same for <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g\otimes _Y k(y)]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

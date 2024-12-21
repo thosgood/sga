@@ -1,153 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>877</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>956</fr:anchor><fr:addr
+type="user">sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion"><fr:link
+type="local"
 href="sga1-i.9.5.i-proof-1.xml"
+addr="sga1-i.9.5.i-proof-1"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><fr:link
 type="local"
-addr="sga1-i.9.5.i-proof-1"><fr:link
 href="sga1-i.9.xml"
+addr="sga1-i.9"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><fr:link
 type="local"
-addr="sga1-i.9"><fr:link
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:link> › Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:link> › Serre's criterion</fr:title><fr:authors /><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;i. &quot;">
-        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+        For every rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is normal (or, equivalently, regular);
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;ii. &quot;">
-        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        For every rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the depth of <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>.
         (cf. EGA IV 5.8.6.)
       </html:li>
 
     </html:ol>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>876</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
+type="user">sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><fr:link
+type="local"
 href="sga1-i.9.xml"
+addr="sga1-i.9"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><fr:link
 type="local"
-addr="sga1-i.9"><fr:link
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex>A</fr:tex> of dimension <fr:tex>\neq0</fr:tex> to be normal.
-  </fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:taxon>Proof</fr:taxon><fr:authors /><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> of dimension <fr:tex
+display="inline"><![CDATA[\neq 0]]></fr:tex> to be normal.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:addr
+type="user">sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title
+text="Serre's criterion">Serre's criterion</fr:title><fr:authors /><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;i. &quot;">
-        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+        For every rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is normal (or, equivalently, regular);
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;ii. &quot;">
-        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        For every rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the depth of <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>.
         (cf. EGA IV 5.8.6.)
       </html:li>
 
     </html:ol>
-</fr:mainmatter></fr:tree><fr:p>
-    We assume this criterion here, but it should also appear in the section on flatness.
-    Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
-    Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.
-  </fr:p><fr:p>
-    By the statements at the start of this section, the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex> are exactly the intersections of <fr:tex>A</fr:tex> with the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex>.
-    Finally, if <fr:tex>\mathfrak {p}</fr:tex> and <fr:tex>\mathfrak {q}</fr:tex> correspond to one another, then <fr:tex>B_ \mathfrak {q}</fr:tex> is étale over <fr:tex>A_ \mathfrak {p}</fr:tex>, and thus of the same depth as <fr:tex>A_ \mathfrak {p}</fr:tex>, and is regular if and only if <fr:tex>A_ \mathfrak {p}</fr:tex> is (by <fr:ref
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We assume this criterion here, but it should also appear in the section on flatness.
+    Its main advantage is that it does not suppose a priori that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is reduced, nor a fortiori that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is integral.
+    Here, we can already suppose that <fr:tex
+display="inline"><![CDATA[\dim  A=\dim  B\neq 0]]></fr:tex>.</fr:p><fr:p>By the statements at the start of this section, the rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> (resp. rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>) prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> are exactly the intersections of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with the rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> (resp. rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>) prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
+    Finally, if <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> correspond to one another, then <fr:tex
+display="inline"><![CDATA[B_\mathfrak {q}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex>, and thus of the same depth as <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex>, and is regular if and only if <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is (by <fr:ref
 addr="sga1-i.9.1"
 href="sga1-i.9.1.xml"
 taxon="Proposition"
-number="I.9.1"></fr:ref>).
+number="I.9.1" />).
     Applying <fr:link
-href="sga1-i.9-serres-criterion.xml"
 type="local"
-addr="sga1-i.9-serres-criterion">Serre's criterion</fr:link>, we see that <fr:tex>A</fr:tex> is normal if and only if <fr:tex>B</fr:tex> is.
-  </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="sga1-i.9-serres-criterion.xml"
+addr="sga1-i.9-serres-criterion"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</fr:link>, we see that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is normal if and only if <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>875</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>958</fr:anchor><fr:addr
+type="user">sga1-i.9.5.i-proof-1</fr:addr><fr:route>sga1-i.9.5.i-proof-1.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof"><fr:link
+type="local"
 href="sga1-i.9.xml"
+addr="sga1-i.9"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties"><fr:link
 type="local"
-addr="sga1-i.9"><fr:link
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex>A</fr:tex> of dimension <fr:tex>\neq0</fr:tex> to be normal.
-  </fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Invariance properties</fr:link> › First proof</fr:title><fr:taxon>Proof</fr:taxon><fr:authors /><fr:number>I.9.5.i</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We use the following necessary and sufficient condition for a local Noetherian ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> of dimension <fr:tex
+display="inline"><![CDATA[\neq 0]]></fr:tex> to be normal.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr>sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title>Serre's criterion</fr:title><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:addr
+type="user">sga1-i.9-serres-criterion</fr:addr><fr:route>sga1-i.9-serres-criterion.xml</fr:route><fr:title
+text="Serre's criterion">Serre's criterion</fr:title><fr:authors /><fr:parent>sga1-i.9.5.i-proof-1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;i. &quot;">
-        For every rank-<fr:tex>1</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, <fr:tex>A_ \mathfrak {p}</fr:tex> is normal (or, equivalently, regular);
+        For every rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is normal (or, equivalently, regular);
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;ii. &quot;">
-        For every rank-<fr:tex>\geq2</fr:tex> prime ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex>, the depth of <fr:tex>A_ \mathfrak {p}</fr:tex> is <fr:tex>\geq2</fr:tex>.
+        For every rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex> prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the depth of <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>.
         (cf. EGA IV 5.8.6.)
       </html:li>
 
     </html:ol>
-</fr:mainmatter></fr:tree><fr:p>
-    We assume this criterion here, but it should also appear in the section on flatness.
-    Its main advantage is that it does not suppose a priori that <fr:tex>A</fr:tex> is reduced, nor a fortiori that <fr:tex>A</fr:tex> is integral.
-    Here, we can already suppose that <fr:tex>\dim  A= \dim  B \neq0</fr:tex>.
-  </fr:p><fr:p>
-    By the statements at the start of this section, the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>A</fr:tex> are exactly the intersections of <fr:tex>A</fr:tex> with the rank-<fr:tex>1</fr:tex> (resp. rank-<fr:tex>\geq2</fr:tex>) prime ideals <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex>.
-    Finally, if <fr:tex>\mathfrak {p}</fr:tex> and <fr:tex>\mathfrak {q}</fr:tex> correspond to one another, then <fr:tex>B_ \mathfrak {q}</fr:tex> is étale over <fr:tex>A_ \mathfrak {p}</fr:tex>, and thus of the same depth as <fr:tex>A_ \mathfrak {p}</fr:tex>, and is regular if and only if <fr:tex>A_ \mathfrak {p}</fr:tex> is (by <fr:ref
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We assume this criterion here, but it should also appear in the section on flatness.
+    Its main advantage is that it does not suppose a priori that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is reduced, nor a fortiori that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is integral.
+    Here, we can already suppose that <fr:tex
+display="inline"><![CDATA[\dim  A=\dim  B\neq 0]]></fr:tex>.</fr:p><fr:p>By the statements at the start of this section, the rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> (resp. rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>) prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> are exactly the intersections of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with the rank-<fr:tex
+display="inline"><![CDATA[1]]></fr:tex> (resp. rank-<fr:tex
+display="inline"><![CDATA[\geq 2]]></fr:tex>) prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
+    Finally, if <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> correspond to one another, then <fr:tex
+display="inline"><![CDATA[B_\mathfrak {q}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex>, and thus of the same depth as <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex>, and is regular if and only if <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> is (by <fr:ref
 addr="sga1-i.9.1"
 href="sga1-i.9.1.xml"
 taxon="Proposition"
-number="I.9.1"></fr:ref>).
+number="I.9.1" />).
     Applying <fr:link
-href="sga1-i.9-serres-criterion.xml"
 type="local"
-addr="sga1-i.9-serres-criterion">Serre's criterion</fr:link>, we see that <fr:tex>A</fr:tex> is normal if and only if <fr:tex>B</fr:tex> is.
-  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="sga1-i.9-serres-criterion.xml"
+addr="sga1-i.9-serres-criterion"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Invariance properties › First proof › Serre's criterion">Serre's criterion</fr:link>, we see that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is normal if and only if <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

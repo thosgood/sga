@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>796</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>This follows from <fr:ref
+addr="sga1-i.5.3"
+href="sga1-i.5.3.xml"
+taxon="Corollary"
+number="I.5.3" /> by reducing to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and by replacing <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[X\times _S Y]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>797</fr:anchor><fr:addr
+type="user">sga1-i.5.4</fr:addr><fr:route>sga1-i.5.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.5.4</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be preschemes over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> unramified and separated over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> connected.
+    Let <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-morphisms from <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, and suppose that <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is a point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(y)=g(y)=x]]></fr:tex>, and such that the residue homomorphisms <fr:tex
+display="inline"><![CDATA[k(x)\to  k(y)]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are identical ("<fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> agree geometrically at <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>").
+    Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are identical.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>479</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>This follows from <fr:ref
+addr="sga1-i.5.3"
+href="sga1-i.5.3.xml"
+taxon="Corollary"
+number="I.5.3" /> by reducing to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and by replacing <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[X\times _S Y]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

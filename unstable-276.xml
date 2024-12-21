@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>832</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The inverse functor is the normalisation functor.</fr:p>
+
+    <fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is affine, and thus defined by a normal ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> given by a direct sum of fields.
+      Then, by definition, the normalisation <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A')]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> is the normalisation of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>.
+      To say that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> implies that <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> is unramified (or even étale) over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is local, then it is equivalent to say that the local rings <fr:tex
+display="inline"><![CDATA[A'_\mathfrak {n}]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> runs over the finite set of maximal ideals of <fr:tex
+display="inline"><![CDATA[A']]></fr:tex>, i.e. the prime ideals of <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> that induce the maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      Finally, note that the discriminant criterion of <fr:ref
+addr="sga1-i.4.10"
+href="sga1-i.4.10.xml"
+taxon="Proposition"
+number="I.4.10" /> can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, but with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> still assumed to be locally integral: <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> are injective — then <fr:tex
+display="inline"><![CDATA[\operatorname {tr}_{L/K}]]></fr:tex> is defined — and <fr:tex
+display="inline"><![CDATA[\operatorname {tr}_{L/K}(xy)]]></fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex
+display="inline"><![CDATA[B\times  B\to  A]]></fr:tex>, i.e. there exists <fr:tex
+display="inline"><![CDATA[x_i\in  B]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[1\leq  i\leq  n=\operatorname {rank}_K L]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\operatorname {tr}(x_ix_j)\in  A]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i,j]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\det (\operatorname {tr}(x_i x_j))_{1\leq  i,j\leq  n}]]></fr:tex> is invertible in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:addr
+type="user">sga1-i.10.3</fr:addr><fr:route>sga1-i.10.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.3</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For every <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and such that every irreducible component of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[R(X)]]></fr:tex> be the ring of rational functions on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> (given by the product of the local rings of the generic points of the irreducible components of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>), so that <fr:tex
+display="inline"><![CDATA[X\mapsto  R(X)]]></fr:tex> is a functor, with values in algebras of finite rank over <fr:tex
+display="inline"><![CDATA[K=R(Y)]]></fr:tex>.
+    Then this functor establishes an equivalence between the category of connected étale covers of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and the category of extensions <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> that are unramified over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The inverse functor is the normalisation functor.</fr:p>
+
+    <fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is affine, and thus defined by a normal ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> given by a direct sum of fields.
+      Then, by definition, the normalisation <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A')]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> is the normalisation of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>.
+      To say that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> implies that <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> is unramified (or even étale) over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is local, then it is equivalent to say that the local rings <fr:tex
+display="inline"><![CDATA[A'_\mathfrak {n}]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> runs over the finite set of maximal ideals of <fr:tex
+display="inline"><![CDATA[A']]></fr:tex>, i.e. the prime ideals of <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> that induce the maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      Finally, note that the discriminant criterion of <fr:ref
+addr="sga1-i.4.10"
+href="sga1-i.4.10.xml"
+taxon="Proposition"
+number="I.4.10" /> can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, but with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> still assumed to be locally integral: <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> are injective — then <fr:tex
+display="inline"><![CDATA[\operatorname {tr}_{L/K}]]></fr:tex> is defined — and <fr:tex
+display="inline"><![CDATA[\operatorname {tr}_{L/K}(xy)]]></fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex
+display="inline"><![CDATA[B\times  B\to  A]]></fr:tex>, i.e. there exists <fr:tex
+display="inline"><![CDATA[x_i\in  B]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[1\leq  i\leq  n=\operatorname {rank}_K L]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\operatorname {tr}(x_ix_j)\in  A]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i,j]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\det (\operatorname {tr}(x_i x_j))_{1\leq  i,j\leq  n}]]></fr:tex> is invertible in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,132 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title><fr:link
-href="sga1-i.xml"
-type="local"
-addr="sga1-i"><fr:link
-href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Quasi-finite morphisms</fr:title><fr:number>I.2</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex>\mathfrak {m}</fr:tex> be the maximal ideal of <fr:tex>A</fr:tex>.
-    Then the following conditions are equivalent:
-  </fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-    
- <html:li
-style="list-style-type: &quot;i. &quot;">
-      <fr:tex>B/ \mathfrak {m}B</fr:tex> is of finite dimension over <fr:tex>k=A/ \mathfrak {m}</fr:tex>.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;ii. &quot;">
-      <fr:tex>\mathfrak {m}B</fr:tex> is an ideal of definition, and <fr:tex>B/ \mathfrak {r}(B)=k(B)</fr:tex> is an extension of <fr:tex>k=k(A)</fr:tex>.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;iii. &quot;">
-      The completion <fr:tex>\widehat {B}</fr:tex> of <fr:tex>B</fr:tex> is finite over the completion <fr:tex>\widehat {A}</fr:tex> of <fr:tex>A</fr:tex>.
-    </html:li>
-
-  </html:ol>
-</fr:mainmatter></fr:tree><fr:p>
-  If the conditions of <fr:ref
-addr="sga1-i.2.1"
-href="sga1-i.2.1.xml"
-taxon="Proposition"
-number="I.2.1"></fr:ref> are satisfied, then we say that <fr:tex>B</fr:tex> is <fr:em>quasi-finite</fr:em> over <fr:tex>A</fr:tex>.
-  A morphism <fr:tex>f \colon  X \to  Y</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex> (or the <fr:tex>Y</fr:tex>-prescheme <fr:tex>f</fr:tex> is said to be quasi-finite at <fr:tex>x</fr:tex>) if <fr:tex>\mathcal { O } _x</fr:tex> is quasi-finite over <fr:tex>\mathcal { O } _{f(x)}</fr:tex>.
-  This is equivalent to saying that <fr:tex>x</fr:tex> is <fr:em>isolated in its fibre <fr:tex>f^{-1}(x)</fr:tex></fr:em>.
-  A morphism is said to be quasi-finite if it is quasi-finite at each point.
-  (In [EGA II 6.2.3] we further suppose that <fr:tex>f</fr:tex> is of finite type.)
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>A</fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.
-</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type.
-    For <fr:tex>f</fr:tex> to be an open immersion, it is necessary and sufficient that it be <fr:em>étale</fr:em> and <fr:em>radicial</fr:em>.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>355</fr:anchor><fr:addr
+type="user">sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:addr
+type="user">sga1-i.2</fr:addr><fr:route>sga1-i.2.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Quasi-finite morphisms"><fr:link
+type="local"
+href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
+type="local"
+href="sga1.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Quasi-finite morphisms</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.2</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:addr
+type="user">sga1-i.2.1</fr:addr><fr:route>sga1-i.2.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.2.1</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> be a local homomorphism (N.B. all rings are now Noetherian), and let <fr:tex
+display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> be the maximal ideal of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Then the following conditions are equivalent:</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+      <fr:tex
+display="inline"><![CDATA[B/\mathfrak {m}B]]></fr:tex> is of finite dimension over <fr:tex
+display="inline"><![CDATA[k=A/\mathfrak {m}]]></fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+      <fr:tex
+display="inline"><![CDATA[\mathfrak {m}B]]></fr:tex> is an ideal of definition, and <fr:tex
+display="inline"><![CDATA[B/\mathfrak {r}(B)=k(B)]]></fr:tex> is an extension of <fr:tex
+display="inline"><![CDATA[k=k(A)]]></fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+      The completion <fr:tex
+display="inline"><![CDATA[\widehat {B}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is finite over the completion <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>If the conditions of <fr:ref
+addr="sga1-i.2.1"
+href="sga1-i.2.1.xml"
+taxon="Proposition"
+number="I.2.1" /> are satisfied, then we say that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is <fr:em>quasi-finite</fr:em> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+  A morphism <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is said to be quasi-finite at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> (or the <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-prescheme <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is said to be quasi-finite at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>) if <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x]]></fr:tex> is quasi-finite over <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{f(x)}]]></fr:tex>.
+  This is equivalent to saying that <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is <fr:em>isolated in its fibre <fr:tex
+display="inline"><![CDATA[f^{-1}(x)]]></fr:tex></fr:em>.
+  A morphism is said to be quasi-finite if it is quasi-finite at each point.
+  (In [EGA II 6.2.3] we further suppose that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is of finite type.)</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:addr
+type="user">sga1-i.2.2</fr:addr><fr:route>sga1-i.2.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.2.2</fr:number><fr:parent>sga1-i.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is complete, then quasi-finiteness is equivalent to finiteness.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We could also give the usual polysyllogism (i), (ii), (iii), (iv), (v) for quasi-finite morphisms, but that doesn't seem necessary here.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>357</fr:anchor><fr:addr
+type="user">sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+    For <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be an open immersion, it is necessary and sufficient that it be <fr:em>étale</fr:em> and <fr:em>radicial</fr:em>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:addr
+type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
       The necessity is trivial, and the sufficiency remains to be shown.
-      We are going to give two different proofs: the first is shorter, the second is more elementary.
-    </fr:p>
+      We are going to give two different proofs: the first is shorter, the second is more elementary.</fr:p>
 
-    <fr:ol><fr:li>
-        A flat morphism is open, and so we can suppose (by replacing <fr:tex>Y</fr:tex> with <fr:tex>f(X)</fr:tex>) that <fr:tex>f</fr:tex> is an onto <fr:em>homeomorphism</fr:em>.
-        For any base extension, it remains true that <fr:tex>f</fr:tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
-        Thus <fr:tex>f</fr:tex> is <fr:em>proper</fr:em>.
-        Thus <fr:tex>f</fr:tex> is <fr:em>finite</fr:em> (reference: Chevalley's theorem), defined by a coherent sheaf <fr:tex>\mathcal { B }</fr:tex> of algebras.
-        Now <fr:tex>\mathcal { B }</fr:tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <fr:tex>X=Y</fr:tex>.
-      </fr:li>
+    <fr:ol><fr:li>A flat morphism is open, and so we can suppose (by replacing <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex>) that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an onto <fr:em>homeomorphism</fr:em>.
+        For any base extension, it remains true that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>proper</fr:em>.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>finite</fr:em> (reference: Chevalley's theorem), defined by a coherent sheaf <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
+        Now <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>.</fr:li>
 
-      <fr:li>
-        We can suppose that <fr:tex>Y</fr:tex> and <fr:tex>X</fr:tex> are <fr:em>affine</fr:em>.
+      <fr:li>We can suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> are <fr:em>affine</fr:em>.
         We can further easily reduce to proving the following:
-        if <fr:tex>Y= \operatorname {Spec} (A)</fr:tex>, with <fr:tex>A</fr:tex> local, and if <fr:tex>f^{-1}(y)</fr:tex> is non-empty (where <fr:tex>y</fr:tex> is the closed point of <fr:tex>Y</fr:tex>), then <fr:tex>X=Y</fr:tex> (indeed, this would imply that every <fr:tex>y \in  f(X)</fr:tex> has an open neighbourhood <fr:tex>U</fr:tex> such that <fr:tex>X|U=U</fr:tex>).
-        We will then have that <fr:tex>X= \operatorname {Spec} (B)</fr:tex>, and wish to prove that <fr:tex>A=B</fr:tex>.
-        But for this we can reduce to proving the analogous claim where we replace <fr:tex>A</fr:tex> by <fr:tex>\widehat {A}</fr:tex>, and <fr:tex>B</fr:tex> by <fr:tex>B \otimes _A \widehat {A}</fr:tex>
-        (taking into account the fact that <fr:tex>\widehat {A}</fr:tex> is faithfully flat over <fr:tex>A</fr:tex>).
-        We can thus suppose that <fr:tex>A</fr:tex> is <fr:em>complete</fr:em>.
-        Let <fr:tex>x</fr:tex> be the point over <fr:tex>y</fr:tex>.
+        if <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> local, and if <fr:tex
+display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is non-empty (where <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is the closed point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>), then <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex> (indeed, this would imply that every <fr:tex
+display="inline"><![CDATA[y\in  f(X)]]></fr:tex> has an open neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X|U=U]]></fr:tex>).
+        We will then have that <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(B)]]></fr:tex>, and wish to prove that <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex>.
+        But for this we can reduce to proving the analogous claim where we replace <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[B\otimes _A\widehat {A}]]></fr:tex>
+        (taking into account the fact that <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex> is faithfully flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
+        We can thus suppose that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is <fr:em>complete</fr:em>.
+        Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be the point over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.
         By <fr:ref
 addr="sga1-i.2.2"
 href="sga1-i.2.2.xml"
 taxon="Corollary"
-number="I.2.2"></fr:ref>, <fr:tex>\mathcal { O } _x</fr:tex> is finite over <fr:tex>A</fr:tex>, and is thus (being flat and radicial over <fr:tex>A</fr:tex>) identical to <fr:tex>A</fr:tex>.
-        So <fr:tex>X=Y \coprod  X'</fr:tex> (disjoint sum).
-        But since <fr:tex>X</fr:tex> is radicial over <fr:tex>Y</fr:tex>, <fr:tex>X'</fr:tex> is empty.
-      </fr:li></fr:ol>
-  </fr:mainmatter></fr:tree>
+number="I.2.2" />, <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and is thus (being flat and radicial over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>) identical to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+        So <fr:tex
+display="inline"><![CDATA[X=Y\coprod  X']]></fr:tex> (disjoint sum).
+        But since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is radicial over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> is empty.</fr:li></fr:ol>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

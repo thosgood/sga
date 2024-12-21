@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>760</fr:anchor><fr:addr
+type="machine">#240</fr:addr><fr:route>unstable-240.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.9.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the set of points where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is étale.
+      Since <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is open, it suffices to show that it is also closed and non-empty.
+      Since <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> contains the inverse image of the generic point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (recall that, for an algebra over a field, unramified = étale), it is non-empty (since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>).
+      If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> belongs to the closure of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, then it belongs to the closure of an irreducible component <fr:tex
+display="inline"><![CDATA[U_i]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, and thus to an irreducible component <fr:tex
+display="inline"><![CDATA[X_i=\bar {U_i}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> and which thus dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (since every component of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, being flat over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>).
+      Then, if <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y\to \mathcal {O}_x]]></fr:tex> is <fr:em>injective</fr:em> (taking into account the fact that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y]]></fr:tex> is integral).
+      Since <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y]]></fr:tex> is normal and <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y\to \mathcal {O}_x]]></fr:tex> is unramified, we conclude with the help of (ii) from <fr:ref
+addr="sga1-i.9.5"
+href="sga1-i.9.5.xml"
+taxon="Theorem"
+number="I.9.5" />.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr
+type="user">sga1-i.9.11</fr:addr><fr:route>sga1-i.9.11.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.9.11</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a dominant morphism, with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> normal and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> connected.
+    If <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is unramified, then it is also étale, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is then normal and thus irreducible (since it is connected).</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr
+type="machine">#240</fr:addr><fr:route>unstable-240.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.9.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the set of points where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is étale.
+      Since <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is open, it suffices to show that it is also closed and non-empty.
+      Since <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> contains the inverse image of the generic point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (recall that, for an algebra over a field, unramified = étale), it is non-empty (since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>).
+      If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> belongs to the closure of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, then it belongs to the closure of an irreducible component <fr:tex
+display="inline"><![CDATA[U_i]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, and thus to an irreducible component <fr:tex
+display="inline"><![CDATA[X_i=\bar {U_i}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> and which thus dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (since every component of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, being flat over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>).
+      Then, if <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y\to \mathcal {O}_x]]></fr:tex> is <fr:em>injective</fr:em> (taking into account the fact that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y]]></fr:tex> is integral).
+      Since <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y]]></fr:tex> is normal and <fr:tex
+display="inline"><![CDATA[\mathcal {O}_y\to \mathcal {O}_x]]></fr:tex> is unramified, we conclude with the help of (ii) from <fr:ref
+addr="sga1-i.9.5"
+href="sga1-i.9.5.xml"
+taxon="Theorem"
+number="I.9.5" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

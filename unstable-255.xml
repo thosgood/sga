@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>790</fr:anchor><fr:addr
+type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+      The necessity is trivial, and the sufficiency remains to be shown.
+      We are going to give two different proofs: the first is shorter, the second is more elementary.</fr:p>
+
+    <fr:ol><fr:li>A flat morphism is open, and so we can suppose (by replacing <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex>) that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an onto <fr:em>homeomorphism</fr:em>.
+        For any base extension, it remains true that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>proper</fr:em>.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>finite</fr:em> (reference: Chevalley's theorem), defined by a coherent sheaf <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
+        Now <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>.</fr:li>
+
+      <fr:li>We can suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> are <fr:em>affine</fr:em>.
+        We can further easily reduce to proving the following:
+        if <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> local, and if <fr:tex
+display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is non-empty (where <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is the closed point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>), then <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex> (indeed, this would imply that every <fr:tex
+display="inline"><![CDATA[y\in  f(X)]]></fr:tex> has an open neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X|U=U]]></fr:tex>).
+        We will then have that <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(B)]]></fr:tex>, and wish to prove that <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex>.
+        But for this we can reduce to proving the analogous claim where we replace <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[B\otimes _A\widehat {A}]]></fr:tex>
+        (taking into account the fact that <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex> is faithfully flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
+        We can thus suppose that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is <fr:em>complete</fr:em>.
+        Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be the point over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.
+        By <fr:ref
+addr="sga1-i.2.2"
+href="sga1-i.2.2.xml"
+taxon="Corollary"
+number="I.2.2" />, <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and is thus (being flat and radicial over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>) identical to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+        So <fr:tex
+display="inline"><![CDATA[X=Y\coprod  X']]></fr:tex> (disjoint sum).
+        But since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is radicial over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> is empty.</fr:li></fr:ol>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>791</fr:anchor><fr:addr
+type="user">sga1-i.5.1</fr:addr><fr:route>sga1-i.5.1.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.5.1</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+    For <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be an open immersion, it is necessary and sufficient that it be <fr:em>étale</fr:em> and <fr:em>radicial</fr:em>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:addr
+type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Recall what "radicial" means: injective, with radicial residual extensions (recall also that it means that the morphism remains injective under any base extension).
+      The necessity is trivial, and the sufficiency remains to be shown.
+      We are going to give two different proofs: the first is shorter, the second is more elementary.</fr:p>
+
+    <fr:ol><fr:li>A flat morphism is open, and so we can suppose (by replacing <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex>) that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an onto <fr:em>homeomorphism</fr:em>.
+        For any base extension, it remains true that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is flat, radicial, and surjective, thus a homeomorphism, and a fortiori closed.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>proper</fr:em>.
+        Thus <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>finite</fr:em> (reference: Chevalley's theorem), defined by a coherent sheaf <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
+        Now <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free, and further, by hypothesis, of rank 1 everywhere, and so <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>.</fr:li>
+
+      <fr:li>We can suppose that <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> are <fr:em>affine</fr:em>.
+        We can further easily reduce to proving the following:
+        if <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> local, and if <fr:tex
+display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is non-empty (where <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is the closed point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>), then <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex> (indeed, this would imply that every <fr:tex
+display="inline"><![CDATA[y\in  f(X)]]></fr:tex> has an open neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X|U=U]]></fr:tex>).
+        We will then have that <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(B)]]></fr:tex>, and wish to prove that <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex>.
+        But for this we can reduce to proving the analogous claim where we replace <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[B\otimes _A\widehat {A}]]></fr:tex>
+        (taking into account the fact that <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex> is faithfully flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
+        We can thus suppose that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is <fr:em>complete</fr:em>.
+        Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be the point over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.
+        By <fr:ref
+addr="sga1-i.2.2"
+href="sga1-i.2.2.xml"
+taxon="Corollary"
+number="I.2.2" />, <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and is thus (being flat and radicial over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>) identical to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+        So <fr:tex
+display="inline"><![CDATA[X=Y\coprod  X']]></fr:tex> (disjoint sum).
+        But since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is radicial over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> is empty.</fr:li></fr:ol>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to be a cover of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> (i.e a formal prescheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> defined by a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex
+display="inline"><![CDATA[\mathcal {B}_s\otimes _{\mathcal {O}_s}k(s)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex
+display="inline"><![CDATA[k(s)]]></fr:tex>.
+      If we denote by <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex> the ordinary prescheme <fr:tex
+display="inline"><![CDATA[(|S|,\mathcal {O}_S/\mathcal {J}^{n+1})]]></fr:tex>, then the data of a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> on the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, endowed with a transitive system of homomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\to \mathcal {B}_n]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[m\geq  n]]></fr:tex>) defining the isomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\otimes _{\mathcal {O}_{S_m}}\mathcal {O}_{S_n}\xrightarrow {\sim }\mathcal {B}_n]]></fr:tex>.
+      It is immediate that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are locally free over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex
+display="inline"><![CDATA[\mathcal {B}_0]]></fr:tex>, or for all the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex>.
+      Thus <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are étale over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>.
+      Taking this into account, <fr:ref
+addr="sga1-i.8.4"
+href="sga1-i.8.4.xml"
+taxon="Corollary"
+number="I.8.4" /> follows immediately from <fr:ref
+addr="sga1-i.8.3"
+href="sga1-i.8.3.xml"
+taxon="Theorem"
+number="I.8.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:addr
+type="user">sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex
+display="inline"><![CDATA[\mathcal {J}]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[S_0=(|S|,\mathcal {O}_S/\mathcal {J})]]></fr:tex> be the corresponding ordinary prescheme.
+    Then the functor <fr:tex
+display="inline"><![CDATA[\mathfrak {X}\mapsto \mathfrak {X}\times _S S_0]]></fr:tex> from the category of étale covers of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the category of étale covers of <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> is an equivalence of categories.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to be a cover of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> (i.e a formal prescheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> defined by a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex
+display="inline"><![CDATA[\mathcal {B}_s\otimes _{\mathcal {O}_s}k(s)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex
+display="inline"><![CDATA[k(s)]]></fr:tex>.
+      If we denote by <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex> the ordinary prescheme <fr:tex
+display="inline"><![CDATA[(|S|,\mathcal {O}_S/\mathcal {J}^{n+1})]]></fr:tex>, then the data of a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> on the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, endowed with a transitive system of homomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\to \mathcal {B}_n]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[m\geq  n]]></fr:tex>) defining the isomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\otimes _{\mathcal {O}_{S_m}}\mathcal {O}_{S_n}\xrightarrow {\sim }\mathcal {B}_n]]></fr:tex>.
+      It is immediate that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are locally free over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex
+display="inline"><![CDATA[\mathcal {B}_0]]></fr:tex>, or for all the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex>.
+      Thus <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are étale over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>.
+      Taking this into account, <fr:ref
+addr="sga1-i.8.4"
+href="sga1-i.8.4.xml"
+taxon="Corollary"
+number="I.8.4" /> follows immediately from <fr:ref
+addr="sga1-i.8.3"
+href="sga1-i.8.3.xml"
+taxon="Theorem"
+number="I.8.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>822</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>For the implication (i) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (ii), we can use Nakayama to reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(k')]]></fr:tex>, where it is well known, and also trivial by the definition of separable;
+      (ii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (i) follows as well from reducing to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and the diagonal morphism is everywhere an open immersion.
+      We must then prove that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite with separable ring over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and this leads us to consider the case where <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> is algebraically closed.
+      But then every closed point of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <fr:tex
+display="inline"><![CDATA[X\to  X\times _k X]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>), whence <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite.
+      We can thus suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of a single point, with ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[A\otimes _k A\to  A]]></fr:tex> is an isomorphism, hence <fr:tex
+display="inline"><![CDATA[A=k]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>823</fr:anchor><fr:addr
+type="user">sga1-i.3.1</fr:addr><fr:route>sga1-i.3.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.3.1</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type, <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[y=f(x)]]></fr:tex>.
+    Then the following conditions are equivalent:</fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+      <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x/\mathfrak {m}_y\mathcal {O}_x]]></fr:tex> is a finite separable extension of <fr:tex
+display="inline"><![CDATA[k(y)]]></fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+      <fr:tex
+display="inline"><![CDATA[\Omega _{X/Y}^1]]></fr:tex> is zero at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+      The diagonal morphism <fr:tex
+display="inline"><![CDATA[\Delta _{X/Y}]]></fr:tex> is an open immersion on a neighbourhood of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>.
+    </html:li>
+
+  </html:ol>
+
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>For the implication (i) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (ii), we can use Nakayama to reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(k')]]></fr:tex>, where it is well known, and also trivial by the definition of separable;
+      (ii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (i) follows as well from reducing to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and the diagonal morphism is everywhere an open immersion.
+      We must then prove that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite with separable ring over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and this leads us to consider the case where <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> is algebraically closed.
+      But then every closed point of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <fr:tex
+display="inline"><![CDATA[X\to  X\times _k X]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>), whence <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite.
+      We can thus suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of a single point, with ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[A\otimes _k A\to  A]]></fr:tex> is an isomorphism, hence <fr:tex
+display="inline"><![CDATA[A=k]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

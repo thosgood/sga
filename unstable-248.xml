@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>776</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, being étale is equivalent to being unramified, and we can apply <fr:ref
+addr="sga1-i.7.2"
+href="sga1-i.7.2.xml"
+taxon="Corollary"
+number="I.7.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:addr
+type="user">sga1-i.7.3</fr:addr><fr:route>sga1-i.7.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.3</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1" />, and supposing that <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is monic and that <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]\to  B]]></fr:tex> is an isomorphism, in order for <fr:tex
+display="inline"><![CDATA[B_\mathfrak {q}]]></fr:tex> to be étale over <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not contain <fr:tex
+display="inline"><![CDATA[u']]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>453</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, being étale is equivalent to being unramified, and we can apply <fr:ref
+addr="sga1-i.7.2"
+href="sga1-i.7.2.xml"
+taxon="Corollary"
+number="I.7.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,419 +1,711 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.7.9-proof</fr:addr><fr:route>sga1-i.7.9-proof.xml</fr:route><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S'=B' \setminus \mathfrak {n}'</fr:tex>, so that <fr:tex>B'S'^{-1}=B'_ \mathfrak {n'}</fr:tex>.
-    Similarly, let <fr:tex>S=B \setminus \mathfrak {n}</fr:tex>, so that <fr:tex>BS^{-1}=B_ \mathfrak {n}</fr:tex>.
-    We then have a natural homomorphism <fr:tex>BS'^{-1} \to  BS^{-1}=B_ \mathfrak {n}</fr:tex>;
-    we will show that this is an isomorphism, i.e. that the elements of <fr:tex>S</fr:tex> are invertible in <fr:tex>BS'^{-1}</fr:tex>, i.e. that every maximal ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>BS'^{-1}</fr:tex> does not meet <fr:tex>S</fr:tex>, i.e. that every maximal ideal of <fr:tex>BS'^{-1}</fr:tex> induces <fr:tex>\mathfrak {n}</fr:tex> on <fr:tex>B</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr
+type="user">sga1-i.7.9-proof</fr:addr><fr:route>sga1-i.7.9-proof.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S'=B'\setminus \mathfrak {n}']]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[B'S'^{-1}=B'_\mathfrak {n'}]]></fr:tex>.
+    Similarly, let <fr:tex
+display="inline"><![CDATA[S=B\setminus \mathfrak {n}]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[BS^{-1}=B_\mathfrak {n}]]></fr:tex>.
+    We then have a natural homomorphism <fr:tex
+display="inline"><![CDATA[BS'^{-1}\to  BS^{-1}=B_\mathfrak {n}]]></fr:tex>;
+    we will show that this is an isomorphism, i.e. that the elements of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> are invertible in <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex>, i.e. that every maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> does not meet <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, i.e. that every maximal ideal of <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> induces <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
     <fr:tex
-display="block">        \begin {CD}         B @&gt;&gt;&gt; BS'^{-1} @&gt;&gt;&gt; BS^{-1} = B_ \mathfrak {n}        \\ @AAA @AAA        \\ B' @&gt;&gt;&gt; B'S'^{-1} = B'_{ \mathfrak {n}'}        \end {CD}     </fr:tex>
-    Since <fr:tex>BS'^{-1}</fr:tex> is finite over <fr:tex>B'S'^{-1}=B'_{ \mathfrak {n}'}</fr:tex>, <fr:tex>\mathfrak {p}</fr:tex> induces the unique maximal ideal <fr:tex>\mathfrak {n}'B_{ \mathfrak {n}'}</fr:tex> of <fr:tex>B'_{ \mathfrak {n}'}</fr:tex>, and thus induces the maximal ideal <fr:tex>\mathfrak {n}'</fr:tex> of <fr:tex>B'</fr:tex>;
-    since <fr:tex>B</fr:tex> is finite over <fr:tex>B'</fr:tex>, the ideal <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex> induced by <fr:tex>\mathfrak {p}</fr:tex>, which lives over <fr:tex>\mathfrak {n}'</fr:tex>, is necessarily maximal, and does not contain <fr:tex>u</fr:tex>, and is thus identical to <fr:tex>\mathfrak {n}</fr:tex>.
-    (We have just used the fact that <fr:tex>u</fr:tex> belongs to every maximal ideal of <fr:tex>B</fr:tex> that is distinct from <fr:tex>\mathfrak {n}</fr:tex>).
-    We now prove that <fr:tex>BS'^{-1}</fr:tex> is equal to <fr:tex>B'S'^{-1}</fr:tex>:
-    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <fr:tex>\mathfrak {n}'BS'^{-1}</fr:tex>, and, a fortiori, it suffices to prove equality modulo <fr:tex>\mathfrak {m}BS'^{-1}</fr:tex>;
-    but <fr:tex>BS'^{-1}/ \mathfrak {m}BS'^{-1}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> is generated, over <fr:tex>k</fr:tex>, by <fr:tex>u</fr:tex> (here we use the other property of <fr:tex>u</fr:tex>), and so the image of <fr:tex>B'</fr:tex> (and, a fortiori, of <fr:tex>B'S'^{-1}</fr:tex>) inside is everything (as a sub-ring that contains <fr:tex>k</fr:tex> and the image of <fr:tex>u</fr:tex>.)
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       \begin {CD}         B @>>> BS'^{-1} @>>> BS^{-1} = B_\mathfrak {n}       \\@AAA @AAA       \\B' @>>> B'S'^{-1} = B'_{\mathfrak {n}'}       \end {CD}     ]]></fr:tex>
+    Since <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[B'S'^{-1}=B'_{\mathfrak {n}'}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> induces the unique maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {n}'B_{\mathfrak {n}'}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B'_{\mathfrak {n}'}]]></fr:tex>, and thus induces the maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {n}']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B']]></fr:tex>;
+    since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[B']]></fr:tex>, the ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> induced by <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, which lives over <fr:tex
+display="inline"><![CDATA[\mathfrak {n}']]></fr:tex>, is necessarily maximal, and does not contain <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and is thus identical to <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>.
+    (We have just used the fact that <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> belongs to every maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that is distinct from <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>).
+    We now prove that <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> is equal to <fr:tex
+display="inline"><![CDATA[B'S'^{-1}]]></fr:tex>:
+    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <fr:tex
+display="inline"><![CDATA[\mathfrak {n}'BS'^{-1}]]></fr:tex>, and, a fortiori, it suffices to prove equality modulo <fr:tex
+display="inline"><![CDATA[\mathfrak {m}BS'^{-1}]]></fr:tex>;
+    but <fr:tex
+display="inline"><![CDATA[BS'^{-1}/\mathfrak {m}BS'^{-1}=B_\mathfrak {n}/\mathfrak {m}B_\mathfrak {n}]]></fr:tex> is generated, over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, by <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> (here we use the other property of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>), and so the image of <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> (and, a fortiori, of <fr:tex
+display="inline"><![CDATA[B'S'^{-1}]]></fr:tex>) inside is everything (as a sub-ring that contains <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> and the image of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>.)</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>604</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.7</fr:addr><fr:route>sga1-i.7.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:addr
+type="user">sga1-i.7</fr:addr><fr:route>sga1-i.7.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Local construction of unramified and étale morphisms"><fr:link
+type="local"
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Local construction of unramified and étale morphisms</fr:title><fr:number>I.7</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Local construction of unramified and étale morphisms</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.7</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.7.1</fr:addr><fr:route>sga1-i.7.1.xml</fr:route><fr:number>I.7.1</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A</fr:tex> be a Noetherian ring, <fr:tex>B</fr:tex> an algebra which is finite over <fr:tex>A</fr:tex>, and <fr:tex>u</fr:tex> a generator of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>.
-    Let <fr:tex>F \in  A[t]</fr:tex> be such that <fr:tex>F(u)=0</fr:tex> (we do not assume <fr:tex>F</fr:tex> to be monic), and <fr:tex>u'=F'(u)</fr:tex> (where <fr:tex>F'</fr:tex> is the differentiated polynomial).
-    Let <fr:tex>\mathfrak {q}</fr:tex> be a prime ideal of <fr:tex>B</fr:tex> not containing <fr:tex>u'</fr:tex>, and <fr:tex>\mathfrak {p}</fr:tex> its intersection with <fr:tex>A</fr:tex>.
-    Then <fr:tex>B_ \mathfrak {q}</fr:tex> is unramified over <fr:tex>A_ \mathfrak {p}</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  In other words, taking <fr:tex>Y= \operatorname {Spec} (A)</fr:tex>, <fr:tex>X= \operatorname {Spec} (B)</fr:tex>, and <fr:tex>X_{u'}= \operatorname {Spec} (B_{u'})</fr:tex>, we claim that <fr:tex>X_{u'}</fr:tex> is unramified over <fr:tex>Y</fr:tex>.
-  This statement follows from the following, more precise:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:addr
+type="user">sga1-i.7.1</fr:addr><fr:route>sga1-i.7.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.7.1</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a Noetherian ring, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> an algebra which is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> a generator of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[F\in  A[t]]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[F(u)=0]]></fr:tex> (we do not assume <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to be monic), and <fr:tex
+display="inline"><![CDATA[u'=F'(u)]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> is the differentiated polynomial).
+    Let <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> be a prime ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> not containing <fr:tex
+display="inline"><![CDATA[u']]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> its intersection with <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Then <fr:tex
+display="inline"><![CDATA[B_\mathfrak {q}]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In other words, taking <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(B)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X_{u'}=\operatorname {Spec}(B_{u'})]]></fr:tex>, we claim that <fr:tex
+display="inline"><![CDATA[X_{u'}]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+  This statement follows from the following, more precise:</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.2</fr:addr><fr:route>sga1-i.7.2.xml</fr:route><fr:number>I.7.2</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The different ideal of <fr:tex>B/A</fr:tex> contains <fr:tex>u'B</fr:tex>, and is equal to <fr:tex>u'B</fr:tex> if the natural homomorphism <fr:tex>A[t]/FA[t] \to  B</fr:tex> (sending <fr:tex>t</fr:tex> to <fr:tex>u</fr:tex>) is an isomorphism.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>450</fr:anchor><fr:addr
+type="user">sga1-i.7.2</fr:addr><fr:route>sga1-i.7.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.2</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The different ideal of <fr:tex
+display="inline"><![CDATA[B/A]]></fr:tex> contains <fr:tex
+display="inline"><![CDATA[u'B]]></fr:tex>, and is equal to <fr:tex
+display="inline"><![CDATA[u'B]]></fr:tex> if the natural homomorphism <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]\to  B]]></fr:tex> (sending <fr:tex
+display="inline"><![CDATA[t]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>) is an isomorphism.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>J</fr:tex> be the kernel of the homomorphism <fr:tex>C=A[t] \to  B</fr:tex>, so that <fr:tex>J</fr:tex> contains <fr:tex>FA[t]</fr:tex>, and is equal to it in the second case described in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>451</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be the kernel of the homomorphism <fr:tex
+display="inline"><![CDATA[C=A[t]\to  B]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> contains <fr:tex
+display="inline"><![CDATA[FA[t]]]></fr:tex>, and is equal to it in the second case described in <fr:ref
 addr="sga1-i.7.2"
 href="sga1-i.7.2.xml"
 taxon="Corollary"
-number="I.7.2"></fr:ref>.
-      Since the homomorphism <fr:tex>C \to  B</fr:tex> is surjective, <fr:tex>\Omega _{B/A}^1</fr:tex> can be identified with the quotient of <fr:tex>\Omega _{C/A}^1</fr:tex> by the sub-module generated by <fr:tex>J \Omega _{C/A}^1</fr:tex> and <fr:tex>\mathrm {d} (J)</fr:tex> (we should have explicitly described the definition of the homomorphism <fr:tex>d</fr:tex> and the calculation of <fr:tex>\Omega ^1</fr:tex> for an algebra of polynomials in <fr:ref
+number="I.7.2" />.
+      Since the homomorphism <fr:tex
+display="inline"><![CDATA[C\to  B]]></fr:tex> is surjective, <fr:tex
+display="inline"><![CDATA[\Omega _{B/A}^1]]></fr:tex> can be identified with the quotient of <fr:tex
+display="inline"><![CDATA[\Omega _{C/A}^1]]></fr:tex> by the sub-module generated by <fr:tex
+display="inline"><![CDATA[J\Omega _{C/A}^1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathrm {d}(J)]]></fr:tex> (we should have explicitly described the definition of the homomorphism <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> and the calculation of <fr:tex
+display="inline"><![CDATA[\Omega ^1]]></fr:tex> for an algebra of polynomials in <fr:ref
 addr="sga1-i"
 href="sga1-i.xml"
 taxon="Exposé"
-number="I"></fr:ref>).
-      Identifying <fr:tex>\Omega _{C/A}^1</fr:tex> with <fr:tex>C</fr:tex>, via the basis <fr:tex>\mathrm {d}  t</fr:tex>, we obtain <fr:tex>B/B \cdot  J'</fr:tex>, and so the different ideal is generated by the set <fr:tex>J'</fr:tex> of images in <fr:tex>B</fr:tex> of derivatives of <fr:tex>G \in  J</fr:tex> (and it suffices to take <fr:tex>G</fr:tex> that generate <fr:tex>J</fr:tex>).
-      Since <fr:tex>F \in  J</fr:tex> (resp. <fr:tex>F</fr:tex> is a generator of <fr:tex>J</fr:tex>), we are done.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I" />).
+      Identifying <fr:tex
+display="inline"><![CDATA[\Omega _{C/A}^1]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, via the basis <fr:tex
+display="inline"><![CDATA[\mathrm {d} t]]></fr:tex>, we obtain <fr:tex
+display="inline"><![CDATA[B/B\cdot  J']]></fr:tex>, and so the different ideal is generated by the set <fr:tex
+display="inline"><![CDATA[J']]></fr:tex> of images in <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> of derivatives of <fr:tex
+display="inline"><![CDATA[G\in  J]]></fr:tex> (and it suffices to take <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> that generate <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>).
+      Since <fr:tex
+display="inline"><![CDATA[F\in  J]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is a generator of <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>), we are done.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>416</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.3</fr:addr><fr:route>sga1-i.7.3.xml</fr:route><fr:number>I.7.3</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Under the conditions of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>452</fr:anchor><fr:addr
+type="user">sga1-i.7.3</fr:addr><fr:route>sga1-i.7.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.3</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of <fr:ref
 addr="sga1-i.7.1"
 href="sga1-i.7.1.xml"
 taxon="Proposition"
-number="I.7.1"></fr:ref>, and supposing that <fr:tex>F</fr:tex> is monic and that <fr:tex>A[t]/FA[t] \to  B</fr:tex> is an isomorphism, in order for <fr:tex>B_ \mathfrak {q}</fr:tex> to be étale over <fr:tex>A_ \mathfrak {p}</fr:tex> it is necessary and sufficient that <fr:tex>\mathfrak {q}</fr:tex> not contain <fr:tex>u'</fr:tex>.
-  </fr:p>
+number="I.7.1" />, and supposing that <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is monic and that <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]\to  B]]></fr:tex> is an isomorphism, in order for <fr:tex
+display="inline"><![CDATA[B_\mathfrak {q}]]></fr:tex> to be étale over <fr:tex
+display="inline"><![CDATA[A_\mathfrak {p}]]></fr:tex> it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not contain <fr:tex
+display="inline"><![CDATA[u']]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>415</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Since <fr:tex>B</fr:tex> is flat over <fr:tex>A</fr:tex>, being étale is equivalent to being unramified, and we can apply <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>453</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, being étale is equivalent to being unramified, and we can apply <fr:ref
 addr="sga1-i.7.2"
 href="sga1-i.7.2.xml"
 taxon="Corollary"
-number="I.7.2"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.7.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.4</fr:addr><fr:route>sga1-i.7.4.xml</fr:route><fr:number>I.7.4</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Under the conditions of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>454</fr:anchor><fr:addr
+type="user">sga1-i.7.4</fr:addr><fr:route>sga1-i.7.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.4</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of <fr:ref
 addr="sga1-i.7.3"
 href="sga1-i.7.3.xml"
 taxon="Corollary"
-number="I.7.3"></fr:ref>, in order for <fr:tex>B</fr:tex> to be étale over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>u'</fr:tex> be invertible, or for the ideal <fr:tex>F'</fr:tex> generated by <fr:tex>F</fr:tex> in <fr:tex>A[t]</fr:tex> to be the unit ideal.
-  </fr:p>
+number="I.7.3" />, in order for <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> to be étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[u']]></fr:tex> be invertible, or for the ideal <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> generated by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> to be the unit ideal.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The second claim follows from the first along with Nakayama (in <fr:tex>B</fr:tex>).
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>455</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The second claim follows from the first along with Nakayama (in <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:p>
-  A monic polynomial <fr:tex>F \in  A[t]</fr:tex> that has the property stated in <fr:ref
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>A monic polynomial <fr:tex
+display="inline"><![CDATA[F\in  A[t]]]></fr:tex> that has the property stated in <fr:ref
 addr="sga1-i.7.4"
 href="sga1-i.7.4.xml"
 taxon="Corollary"
-number="I.7.4"></fr:ref> is said to be a <fr:em>separable polynomial</fr:em> (if <fr:tex>F</fr:tex> is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where <fr:tex>A</fr:tex> is a field, we recover the usual definition).
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.7.4" /> is said to be a <fr:em>separable polynomial</fr:em> (if <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is not monic, we must at least require that the coefficient of its leading term be invertible; in the case where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is a field, we recover the usual definition).</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>B</fr:tex> be an algebra which is <fr:em>finite</fr:em> over the <fr:em>local</fr:em> ring <fr:tex>A</fr:tex>.
-    Suppose that <fr:tex>K(A)</fr:tex> is infinite, or that <fr:tex>B</fr:tex> is local.
-    Let <fr:tex>n</fr:tex> be the rank of <fr:tex>L=B \otimes _A K(A)</fr:tex> over <fr:tex>K(A)=k</fr:tex>.
-    For <fr:tex>B</fr:tex> to be unramified (resp. étale) over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>B</fr:tex> be isomorphic to a quotient of (resp. isomorphic to) <fr:tex>A[t]/FA[t]</fr:tex>, where <fr:tex>F</fr:tex> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <fr:tex>n</fr:tex>.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>456</fr:anchor><fr:addr
+type="user">sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be an algebra which is <fr:em>finite</fr:em> over the <fr:em>local</fr:em> ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Suppose that <fr:tex
+display="inline"><![CDATA[K(A)]]></fr:tex> is infinite, or that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is local.
+    Let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be the rank of <fr:tex
+display="inline"><![CDATA[L=B\otimes _A K(A)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[K(A)=k]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> to be unramified (resp. étale) over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be isomorphic to a quotient of (resp. isomorphic to) <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We only have to prove necessity.
-      Suppose that <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex>, and thus that <fr:tex>L</fr:tex> is separable over <fr:tex>k</fr:tex>.
-      It then follows from the hypotheses that <fr:tex>L/k</fr:tex> admits a generator <fr:tex>\xi</fr:tex>, and so the <fr:tex>\xi ^i</fr:tex> (for <fr:tex>0 \leq  i&lt;n</fr:tex>) form a basis for <fr:tex>L</fr:tex> over <fr:tex>k</fr:tex>.
-      Let <fr:tex>u \in  B</fr:tex> be a lift of <fr:tex>\xi</fr:tex>;
-      by Nakayama, the <fr:tex>u^i</fr:tex> (for <fr:tex>0 \leq  i&lt;n</fr:tex>) generate (resp. form a basis of) the <fr:tex>A</fr:tex>-module <fr:tex>B</fr:tex>, and, in particular, we obtain a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex>;
-      then <fr:tex>B</fr:tex> is isomorphic to a quotient of (resp. isomorphic to) <fr:tex>A[t]/FA[t]</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:addr
+type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We only have to prove necessity.
+      Suppose that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and thus that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is separable over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>.
+      It then follows from the hypotheses that <fr:tex
+display="inline"><![CDATA[L/k]]></fr:tex> admits a generator <fr:tex
+display="inline"><![CDATA[\xi ]]></fr:tex>, and so the <fr:tex
+display="inline"><![CDATA[\xi ^i]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) form a basis for <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[u\in  B]]></fr:tex> be a lift of <fr:tex
+display="inline"><![CDATA[\xi ]]></fr:tex>;
+      by Nakayama, the <fr:tex
+display="inline"><![CDATA[u^i]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) generate (resp. form a basis of) the <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, and, in particular, we obtain a monic polynomial <fr:tex
+display="inline"><![CDATA[F\in  A[t]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[F(u)=0]]></fr:tex>;
+      then <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is isomorphic to a quotient of (resp. isomorphic to) <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>.
       Finally, by applying <fr:ref
 addr="sga1-i.7.4"
 href="sga1-i.7.4.xml"
 taxon="Corollary"
-number="I.7.4"></fr:ref> to <fr:tex>L/k</fr:tex>, we see that <fr:tex>F</fr:tex> and <fr:tex>F'</fr:tex> generate <fr:tex>A[t]</fr:tex> modulo <fr:tex>\mathfrak {m}A[t]</fr:tex>, and so (by Nakayama in <fr:tex>A[t]/FA[t]</fr:tex>) <fr:tex>F</fr:tex> and <fr:tex>F'</fr:tex> generate <fr:tex>A[t]</fr:tex>, and we are done.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.7.4" /> to <fr:tex
+display="inline"><![CDATA[L/k]]></fr:tex>, we see that <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> modulo <fr:tex
+display="inline"><![CDATA[\mathfrak {m}A[t]]]></fr:tex>, and so (by Nakayama in <fr:tex
+display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>) <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex>, and we are done.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A</fr:tex> be a local ring, and <fr:tex>A \to \mathcal { O }</fr:tex> a local homomorphism such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex>A</fr:tex>.
-    Suppose that <fr:tex>\mathcal { O }</fr:tex> is <fr:em>unramified</fr:em> over <fr:tex>A</fr:tex>.
-    Then we can find an <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex> that is integral over <fr:tex>A</fr:tex>, a maximal ideal <fr:tex>\mathfrak {n}</fr:tex> of <fr:tex>B</fr:tex>, a generator <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> over <fr:tex>A</fr:tex>, and a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>\mathfrak {n} \not \ni  F'(u)</fr:tex> and such that <fr:tex>\mathcal { O }</fr:tex> is isomorphic (as an <fr:tex>A</fr:tex>-algebra) to <fr:tex>B_ \mathfrak {n}</fr:tex>.
-    If <fr:tex>\mathcal { O }</fr:tex> is étale over <fr:tex>A</fr:tex>, then we can take <fr:tex>B=A[t]/FA[t]</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  (Of course, these conditions are more than sufficient ...)
-</fr:p><fr:p>
-  Before proving <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>458</fr:anchor><fr:addr
+type="user">sga1-i.7.6</fr:addr><fr:route>sga1-i.7.6.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a local ring, and <fr:tex
+display="inline"><![CDATA[A\to \mathcal {O}]]></fr:tex> a local homomorphism such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> is isomorphic to the localisation of an algebra of finite type over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Suppose that <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> is <fr:em>unramified</fr:em> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Then we can find an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that is integral over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, a maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, a generator <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and a monic polynomial <fr:tex
+display="inline"><![CDATA[F\in  A[t]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathfrak {n}\not \ni  F'(u)]]></fr:tex> and such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> is isomorphic (as an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra) to <fr:tex
+display="inline"><![CDATA[B_\mathfrak {n}]]></fr:tex>.
+    If <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then we can take <fr:tex
+display="inline"><![CDATA[B=A[t]/FA[t]]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>(Of course, these conditions are more than sufficient ...)</fr:p><fr:p>Before proving <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref>, we first state some nice corollaries:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.7.6" />, we first state some nice corollaries:</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.7</fr:addr><fr:route>sga1-i.7.7.xml</fr:route><fr:number>I.7.7</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For <fr:tex>\mathcal { O }</fr:tex> to be unramified over <fr:tex>A</fr:tex>, it is necessary and sufficient that <fr:tex>\mathcal { O }</fr:tex> be isomorphic to the quotient of an algebra which is unramified and <fr:em>étale</fr:em> over <fr:tex>A</fr:tex>.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr
+type="user">sga1-i.7.7</fr:addr><fr:route>sga1-i.7.7.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.7</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> to be unramified over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> be isomorphic to the quotient of an algebra which is unramified and <fr:em>étale</fr:em> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.7</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can take <fr:tex>\mathcal { O } '=B'_{ \mathfrak {n}'}</fr:tex>, where <fr:tex>B'=A[t]/FA[t]</fr:tex> and where <fr:tex>\mathfrak {n}'</fr:tex> is the inverse image of <fr:tex>\mathfrak {n}</fr:tex> in <fr:tex>B'</fr:tex>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>460</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can take <fr:tex
+display="inline"><![CDATA[\mathcal {O}'=B'_{\mathfrak {n}'}]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[B'=A[t]/FA[t]]]></fr:tex> and where <fr:tex
+display="inline"><![CDATA[\mathfrak {n}']]></fr:tex> is the inverse image of <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[B']]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.7.8</fr:addr><fr:route>sga1-i.7.8.xml</fr:route><fr:number>I.7.8</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type, and <fr:tex>x \in  X</fr:tex>.
-    For <fr:tex>f</fr:tex> to be unramified at <fr:tex>x</fr:tex>, it is necessary and sufficient that there exist an open neighbourhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex> such that <fr:tex>f|U</fr:tex> factors as <fr:tex>U \to  X' \to  Y</fr:tex>, where the first arrow is a closed immersion, and the second is an étale morphism.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:addr
+type="user">sga1-i.7.8</fr:addr><fr:route>sga1-i.7.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.8</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type, and <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be unramified at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it is necessary and sufficient that there exist an open neighbourhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f|U]]></fr:tex> factors as <fr:tex
+display="inline"><![CDATA[U\to  X'\to  Y]]></fr:tex>, where the first arrow is a closed immersion, and the second is an étale morphism.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>424</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.7.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      This is a simple translation of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:addr
+type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>This is a simple translation of <fr:ref
 addr="sga1-i.7.7"
 href="sga1-i.7.7.xml"
 taxon="Corollary"
-number="I.7.7"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.7.7" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:p>
-  We will now show how the jargon of <fr:ref
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We will now show how the jargon of <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref> follows from the main theorem:
+number="I.7.6" /> follows from the main theorem:
   there exists, by <fr:ref
 addr="sga1-i.7.7"
 href="sga1-i.7.7.xml"
 taxon="Corollary"
-number="I.7.7"></fr:ref>, an epimorphism <fr:tex>\mathcal { O } ' \to \mathcal { O }</fr:tex>, where <fr:tex>\mathcal { O }</fr:tex> has all the desired properties;
-  but since <fr:tex>\mathcal { O } '</fr:tex> and <fr:tex>\mathcal { O }</fr:tex> are étale over <fr:tex>A</fr:tex>, the morphism <fr:tex>\mathcal { O } ' \to \mathcal { O }</fr:tex> is étale by <fr:ref
+number="I.7.7" />, an epimorphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}'\to \mathcal {O}]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> has all the desired properties;
+  but since <fr:tex
+display="inline"><![CDATA[\mathcal {O}']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> are étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the morphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}'\to \mathcal {O}]]></fr:tex> is étale by <fr:ref
 addr="sga1-i.4.8"
 href="sga1-i.4.8.xml"
 taxon="Corollary"
-number="I.4.8"></fr:ref>, and thus an isomorphism.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.4.8" />, and thus an isomorphism.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.7.6-proof</fr:addr><fr:route>sga1-i.7.6-proof.xml</fr:route><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    This mimics a proof from the <fr:em>Séminaire Chevalley</fr:em>.
-    By the "Main Theorem", we have that <fr:tex>\mathcal { O } =B_ \mathfrak {n}</fr:tex>, where <fr:tex>B</fr:tex> is an algebra that is finite over <fr:tex>A</fr:tex>, and <fr:tex>\mathfrak {n}</fr:tex> is a maximal ideal.
-    Then <fr:tex>B/ \mathfrak {n}=B( \mathcal { O } )</fr:tex> is a separable, and thus monogenous, extension of <fr:tex>k</fr:tex>;
-    if <fr:tex>\mathfrak {n}_i</fr:tex> (for <fr:tex>1 \leq  i \leq  r</fr:tex>) are maximal ideas of <fr:tex>B</fr:tex> that are distinct from <fr:tex>\mathfrak {n}</fr:tex>, then there thus exists an element <fr:tex>u</fr:tex> of <fr:tex>B</fr:tex> that belongs to all the <fr:tex>\mathfrak {n}_i</fr:tex>, and thus whose image in <fr:tex>B/ \mathfrak {n}</fr:tex> is a generator.
-    But <fr:tex>B/ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {n}B_ \mathfrak {n}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> (where <fr:tex>\mathfrak {m}</fr:tex> is the maximal ideal of <fr:tex>A</fr:tex>).
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:addr
+type="user">sga1-i.7.6-proof</fr:addr><fr:route>sga1-i.7.6-proof.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:number>I.7.6</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This mimics a proof from the <fr:em>Séminaire Chevalley</fr:em>.
+    By the "Main Theorem", we have that <fr:tex
+display="inline"><![CDATA[\mathcal {O}=B_\mathfrak {n}]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is an algebra that is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> is a maximal ideal.
+    Then <fr:tex
+display="inline"><![CDATA[B/\mathfrak {n}=B(\mathcal {O})]]></fr:tex> is a separable, and thus monogenous, extension of <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>;
+    if <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_i]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[1\leq  i\leq  r]]></fr:tex>) are maximal ideas of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that are distinct from <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>, then there thus exists an element <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that belongs to all the <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_i]]></fr:tex>, and thus whose image in <fr:tex
+display="inline"><![CDATA[B/\mathfrak {n}]]></fr:tex> is a generator.
+    But <fr:tex
+display="inline"><![CDATA[B/\mathfrak {n}=B_\mathfrak {n}/\mathfrak {n}B_\mathfrak {n}=B_\mathfrak {n}/\mathfrak {m}B_\mathfrak {n}]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> is the maximal ideal of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
 
     Suppose, for the moment, that we have both <fr:ref
 addr="sga1-i.7.9"
 href="sga1-i.7.9.xml"
 taxon="Lemma"
-number="I.7.9"></fr:ref> and <fr:ref
+number="I.7.9" /> and <fr:ref
 addr="sga1-i.7.10"
 href="sga1-i.7.10.xml"
 taxon="Lemma"
-number="I.7.10"></fr:ref>.
-    Let <fr:tex>n</fr:tex> be the rank of the <fr:tex>k</fr:tex>-algebra <fr:tex>L=B \otimes _A k</fr:tex>.
-    By Nakayama, there exists a monic polynomial of degree <fr:tex>n</fr:tex> in <fr:tex>A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex>.
-    Let <fr:tex>f</fr:tex> be the polynomial induced from <fr:tex>F</fr:tex> by reduction <fr:tex>\mod \mathfrak {m}</fr:tex>.
-    Then <fr:tex>L</fr:tex> is <fr:tex>k</fr:tex>-isomorphic to <fr:tex>k[t]/fk[t]</fr:tex>, and so, by <fr:ref
+number="I.7.10" />.
+    Let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be the rank of the <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>-algebra <fr:tex
+display="inline"><![CDATA[L=B\otimes _A k]]></fr:tex>.
+    By Nakayama, there exists a monic polynomial of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[F(u)=0]]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> be the polynomial induced from <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> by reduction <fr:tex
+display="inline"><![CDATA[\mod \mathfrak {m}]]></fr:tex>.
+    Then <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>-isomorphic to <fr:tex
+display="inline"><![CDATA[k[t]/fk[t]]]></fr:tex>, and so, by <fr:ref
 addr="sga1-i.7.3"
 href="sga1-i.7.3.xml"
 taxon="Corollary"
-number="I.7.3"></fr:ref>, <fr:tex>f'( \xi )</fr:tex> is not contained in the maximal ideal of <fr:tex>L</fr:tex> that corresponds to <fr:tex>\mathfrak {n}</fr:tex> (where <fr:tex>\xi</fr:tex> denotes the image of <fr:tex>t</fr:tex> in <fr:tex>L</fr:tex>, i.e. the image of <fr:tex>u</fr:tex> in <fr:tex>L</fr:tex>).
-    Since <fr:tex>f'( \xi )</fr:tex> is the image of <fr:tex>F'(u)</fr:tex>, we are done.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.7.3" />, <fr:tex
+display="inline"><![CDATA[f'(\xi )]]></fr:tex> is not contained in the maximal ideal of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> that corresponds to <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[\xi ]]></fr:tex> denotes the image of <fr:tex
+display="inline"><![CDATA[t]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>, i.e. the image of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>).
+    Since <fr:tex
+display="inline"><![CDATA[f'(\xi )]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[F'(u)]]></fr:tex>, we are done.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>427</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>sga1-i.7.9</fr:addr><fr:route>sga1-i.7.9.xml</fr:route><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A</fr:tex> be a local ring, <fr:tex>B</fr:tex> an algebra that is finite over <fr:tex>A</fr:tex>, <fr:tex>\mathfrak {n}</fr:tex> a maximal ideal of <fr:tex>B</fr:tex>, and <fr:tex>u</fr:tex> an element of <fr:tex>B</fr:tex> whose image in <fr:tex>B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> is a generator as an algebra over <fr:tex>k=A/ \mathfrak {m}</fr:tex>, and such that <fr:tex>u</fr:tex> is contained in every maximal ideal of <fr:tex>B</fr:tex> that is distinct from <fr:tex>\mathfrak {n}</fr:tex>.
-    Let <fr:tex>B'=B[u]</fr:tex> and <fr:tex>\mathfrak {n}'= \mathfrak {n}B'</fr:tex>.
-    Then the canonical homomorphism <fr:tex>B'_{ \mathfrak {n}'} \to  B_ \mathfrak {n}</fr:tex> is an isomorphism.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:addr
+type="user">sga1-i.7.9</fr:addr><fr:route>sga1-i.7.9.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a local ring, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> an algebra that is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> a maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> an element of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> whose image in <fr:tex
+display="inline"><![CDATA[B_\mathfrak {n}/\mathfrak {m}B_\mathfrak {n}]]></fr:tex> is a generator as an algebra over <fr:tex
+display="inline"><![CDATA[k=A/\mathfrak {m}]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is contained in every maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that is distinct from <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[B'=B[u]]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}'=\mathfrak {n}B']]></fr:tex>.
+    Then the canonical homomorphism <fr:tex
+display="inline"><![CDATA[B'_{\mathfrak {n}'}\to  B_\mathfrak {n}]]></fr:tex> is an isomorphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>sga1-i.7.10</fr:addr><fr:route>sga1-i.7.10.xml</fr:route><fr:number>I.7.10</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>B</fr:tex> be a algebra that is finite over <fr:tex>A</fr:tex> and generated by a single element <fr:tex>u</fr:tex>, and let <fr:tex>\mathfrak {n}</fr:tex> be a maximal ideal of <fr:tex>B</fr:tex> such that <fr:tex>B_ \mathfrak {n}</fr:tex> is unramified over <fr:tex>A</fr:tex>.
-    Then there exists a monic polynomial <fr:tex>F \in  A[t]</fr:tex> such that <fr:tex>F(u)=0</fr:tex> and <fr:tex>F'(u) \not \in \mathfrak {n}</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  N.B. <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>465</fr:anchor><fr:addr
+type="user">sga1-i.7.10</fr:addr><fr:route>sga1-i.7.10.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>I.7.10</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be a algebra that is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and generated by a single element <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> be a maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_\mathfrak {n}]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    Then there exists a monic polynomial <fr:tex
+display="inline"><![CDATA[F\in  A[t]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[F(u)=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F'(u)\not \in \mathfrak {n}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>N.B. <fr:ref
 addr="sga1-i.7.10"
 href="sga1-i.7.10.xml"
 taxon="Lemma"
-number="I.7.10"></fr:ref> should have appeared as a corollary to <fr:ref
+number="I.7.10" /> should have appeared as a corollary to <fr:ref
 addr="sga1-i.7.1"
 href="sga1-i.7.1.xml"
 taxon="Proposition"
-number="I.7.1"></fr:ref>, and before <fr:ref
+number="I.7.1" />, and before <fr:ref
 addr="sga1-i.7.5"
 href="sga1-i.7.5.xml"
 taxon="Corollary"
-number="I.7.5"></fr:ref> (which it implies).
-</fr:p><fr:p>
-  So <fr:ref
+number="I.7.5" /> (which it implies).</fr:p><fr:p>So <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref> now follows from the combination of <fr:ref
+number="I.7.6" /> now follows from the combination of <fr:ref
 addr="sga1-i.7.9"
 href="sga1-i.7.9.xml"
 taxon="Lemma"
-number="I.7.9"></fr:ref> and <fr:ref
+number="I.7.9" /> and <fr:ref
 addr="sga1-i.7.10"
 href="sga1-i.7.10.xml"
 taxon="Lemma"
-number="I.7.10"></fr:ref>;
+number="I.7.10" />;
   it remains only to prove <fr:ref
 addr="sga1-i.7.9"
 href="sga1-i.7.9.xml"
 taxon="Lemma"
-number="I.7.9"></fr:ref>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.7.9" />.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>429</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sga1-i.7.9-proof</fr:addr><fr:route>sga1-i.7.9-proof.xml</fr:route><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S'=B' \setminus \mathfrak {n}'</fr:tex>, so that <fr:tex>B'S'^{-1}=B'_ \mathfrak {n'}</fr:tex>.
-    Similarly, let <fr:tex>S=B \setminus \mathfrak {n}</fr:tex>, so that <fr:tex>BS^{-1}=B_ \mathfrak {n}</fr:tex>.
-    We then have a natural homomorphism <fr:tex>BS'^{-1} \to  BS^{-1}=B_ \mathfrak {n}</fr:tex>;
-    we will show that this is an isomorphism, i.e. that the elements of <fr:tex>S</fr:tex> are invertible in <fr:tex>BS'^{-1}</fr:tex>, i.e. that every maximal ideal <fr:tex>\mathfrak {p}</fr:tex> of <fr:tex>BS'^{-1}</fr:tex> does not meet <fr:tex>S</fr:tex>, i.e. that every maximal ideal of <fr:tex>BS'^{-1}</fr:tex> induces <fr:tex>\mathfrak {n}</fr:tex> on <fr:tex>B</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
+type="user">sga1-i.7.9-proof</fr:addr><fr:route>sga1-i.7.9-proof.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:number>I.7.9</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S'=B'\setminus \mathfrak {n}']]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[B'S'^{-1}=B'_\mathfrak {n'}]]></fr:tex>.
+    Similarly, let <fr:tex
+display="inline"><![CDATA[S=B\setminus \mathfrak {n}]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[BS^{-1}=B_\mathfrak {n}]]></fr:tex>.
+    We then have a natural homomorphism <fr:tex
+display="inline"><![CDATA[BS'^{-1}\to  BS^{-1}=B_\mathfrak {n}]]></fr:tex>;
+    we will show that this is an isomorphism, i.e. that the elements of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> are invertible in <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex>, i.e. that every maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> does not meet <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, i.e. that every maximal ideal of <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> induces <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
     <fr:tex
-display="block">        \begin {CD}         B @&gt;&gt;&gt; BS'^{-1} @&gt;&gt;&gt; BS^{-1} = B_ \mathfrak {n}        \\ @AAA @AAA        \\ B' @&gt;&gt;&gt; B'S'^{-1} = B'_{ \mathfrak {n}'}        \end {CD}     </fr:tex>
-    Since <fr:tex>BS'^{-1}</fr:tex> is finite over <fr:tex>B'S'^{-1}=B'_{ \mathfrak {n}'}</fr:tex>, <fr:tex>\mathfrak {p}</fr:tex> induces the unique maximal ideal <fr:tex>\mathfrak {n}'B_{ \mathfrak {n}'}</fr:tex> of <fr:tex>B'_{ \mathfrak {n}'}</fr:tex>, and thus induces the maximal ideal <fr:tex>\mathfrak {n}'</fr:tex> of <fr:tex>B'</fr:tex>;
-    since <fr:tex>B</fr:tex> is finite over <fr:tex>B'</fr:tex>, the ideal <fr:tex>\mathfrak {q}</fr:tex> of <fr:tex>B</fr:tex> induced by <fr:tex>\mathfrak {p}</fr:tex>, which lives over <fr:tex>\mathfrak {n}'</fr:tex>, is necessarily maximal, and does not contain <fr:tex>u</fr:tex>, and is thus identical to <fr:tex>\mathfrak {n}</fr:tex>.
-    (We have just used the fact that <fr:tex>u</fr:tex> belongs to every maximal ideal of <fr:tex>B</fr:tex> that is distinct from <fr:tex>\mathfrak {n}</fr:tex>).
-    We now prove that <fr:tex>BS'^{-1}</fr:tex> is equal to <fr:tex>B'S'^{-1}</fr:tex>:
-    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <fr:tex>\mathfrak {n}'BS'^{-1}</fr:tex>, and, a fortiori, it suffices to prove equality modulo <fr:tex>\mathfrak {m}BS'^{-1}</fr:tex>;
-    but <fr:tex>BS'^{-1}/ \mathfrak {m}BS'^{-1}=B_ \mathfrak {n}/ \mathfrak {m}B_ \mathfrak {n}</fr:tex> is generated, over <fr:tex>k</fr:tex>, by <fr:tex>u</fr:tex> (here we use the other property of <fr:tex>u</fr:tex>), and so the image of <fr:tex>B'</fr:tex> (and, a fortiori, of <fr:tex>B'S'^{-1}</fr:tex>) inside is everything (as a sub-ring that contains <fr:tex>k</fr:tex> and the image of <fr:tex>u</fr:tex>.)
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       \begin {CD}         B @>>> BS'^{-1} @>>> BS^{-1} = B_\mathfrak {n}       \\@AAA @AAA       \\B' @>>> B'S'^{-1} = B'_{\mathfrak {n}'}       \end {CD}     ]]></fr:tex>
+    Since <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[B'S'^{-1}=B'_{\mathfrak {n}'}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> induces the unique maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {n}'B_{\mathfrak {n}'}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B'_{\mathfrak {n}'}]]></fr:tex>, and thus induces the maximal ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {n}']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B']]></fr:tex>;
+    since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[B']]></fr:tex>, the ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> induced by <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, which lives over <fr:tex
+display="inline"><![CDATA[\mathfrak {n}']]></fr:tex>, is necessarily maximal, and does not contain <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and is thus identical to <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>.
+    (We have just used the fact that <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> belongs to every maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that is distinct from <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex>).
+    We now prove that <fr:tex
+display="inline"><![CDATA[BS'^{-1}]]></fr:tex> is equal to <fr:tex
+display="inline"><![CDATA[B'S'^{-1}]]></fr:tex>:
+    since the former is finite over the latter, we can reduce, by Nakayama, to proving equality modulo <fr:tex
+display="inline"><![CDATA[\mathfrak {n}'BS'^{-1}]]></fr:tex>, and, a fortiori, it suffices to prove equality modulo <fr:tex
+display="inline"><![CDATA[\mathfrak {m}BS'^{-1}]]></fr:tex>;
+    but <fr:tex
+display="inline"><![CDATA[BS'^{-1}/\mathfrak {m}BS'^{-1}=B_\mathfrak {n}/\mathfrak {m}B_\mathfrak {n}]]></fr:tex> is generated, over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, by <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> (here we use the other property of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>), and so the image of <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> (and, a fortiori, of <fr:tex
+display="inline"><![CDATA[B'S'^{-1}]]></fr:tex>) inside is everything (as a sub-ring that contains <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> and the image of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We must be able to state <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>467</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:authors /><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We must be able to state <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref> for a ring <fr:tex>\mathcal { O }</fr:tex> that is only semi-local, so that we also cover <fr:ref
+number="I.7.6" /> for a ring <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> that is only semi-local, so that we also cover <fr:ref
 addr="sga1-i.7.5"
 href="sga1-i.7.5.xml"
 taxon="Corollary"
-number="I.7.5"></fr:ref>:
-    we make the hypothesis that <fr:tex>\mathcal { O } / \mathfrak {m} \mathcal { O }</fr:tex> is a <fr:em>monogenous</fr:em> <fr:tex>k</fr:tex>-algebra;
-    we can thus find some <fr:tex>u \in  B</fr:tex> whose image in <fr:tex>B/ \mathfrak {m}B</fr:tex> is a generator, and belongs to every maximal ideal of <fr:tex>B</fr:tex> that doesn't come from <fr:tex>\mathcal { O }</fr:tex>.
+number="I.7.5" />:
+    we make the hypothesis that <fr:tex
+display="inline"><![CDATA[\mathcal {O}/\mathfrak {m}\mathcal {O}]]></fr:tex> is a <fr:em>monogenous</fr:em> <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>-algebra;
+    we can thus find some <fr:tex
+display="inline"><![CDATA[u\in  B]]></fr:tex> whose image in <fr:tex
+display="inline"><![CDATA[B/\mathfrak {m}B]]></fr:tex> is a generator, and belongs to every maximal ideal of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> that doesn't come from <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex>.
     Both <fr:ref
 addr="sga1-i.7.9"
 href="sga1-i.7.9.xml"
 taxon="Lemma"
-number="I.7.9"></fr:ref> and <fr:ref
+number="I.7.9" /> and <fr:ref
 addr="sga1-i.7.10"
 href="sga1-i.7.10.xml"
 taxon="Lemma"
-number="I.7.10"></fr:ref> should be able to be adapted without difficulty.
-    More generally, ...
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+number="I.7.10" /> should be able to be adapted without difficulty.
+    More generally, ...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

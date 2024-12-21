@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:addr
+type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.9.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The necessity is trivial, since <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> is injective (since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is faithfully flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
+      For the sufficiency, let <fr:tex
+display="inline"><![CDATA[\mathfrak {p}_i]]></fr:tex> be the minimal prime ideals of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      By hypothesis, the natural map <fr:tex
+display="inline"><![CDATA[A\to \prod _i A/\mathfrak {p}_i]]></fr:tex> is injective, and so tensoring with the flat <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> gives that <fr:tex
+display="inline"><![CDATA[B\to \prod _i B/\mathfrak {p}_iB]]></fr:tex> is injective, and we can thus reduce to proving that the <fr:tex
+display="inline"><![CDATA[B/\mathfrak {p}_iB]]></fr:tex> are reduced.
+      Since <fr:tex
+display="inline"><![CDATA[B/\mathfrak {p}_iB]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A/\mathfrak {p}_i]]></fr:tex>, we can reduce to the case where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is integral.
+      Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be the field of fractions of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[A\to  K]]></fr:tex> is injective, and thus so too is <fr:tex
+display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-flat), and we can thus reduce to proving that <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex> is reduced.
+      But <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is the localisation of an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra of finite type over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and thus is the local ring of a point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of a scheme of finite type <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(C)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> that is also <fr:em>étale</fr:em> over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex> is a localisation (with respect to some suitable multiplicatively stable set) of the ring <fr:tex
+display="inline"><![CDATA[C\otimes _A K]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X\otimes _A K]]></fr:tex>.
+      Since <fr:tex
+display="inline"><![CDATA[X\otimes _A K]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, its ring is a finite product of fields (that are separable extensions of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>), and thus so too is <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:addr
+type="user">sga1-i.9.3</fr:addr><fr:route>sga1-i.9.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.9.3</fr:number><fr:parent>sga1-i.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> be an étale local homomorphism, with <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> isomorphic to the localisation of an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra of finite type over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to be reduced, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be reduced.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>573</fr:anchor><fr:addr
+type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.9.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The necessity is trivial, since <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> is injective (since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is faithfully flat over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>).
+      For the sufficiency, let <fr:tex
+display="inline"><![CDATA[\mathfrak {p}_i]]></fr:tex> be the minimal prime ideals of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      By hypothesis, the natural map <fr:tex
+display="inline"><![CDATA[A\to \prod _i A/\mathfrak {p}_i]]></fr:tex> is injective, and so tensoring with the flat <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> gives that <fr:tex
+display="inline"><![CDATA[B\to \prod _i B/\mathfrak {p}_iB]]></fr:tex> is injective, and we can thus reduce to proving that the <fr:tex
+display="inline"><![CDATA[B/\mathfrak {p}_iB]]></fr:tex> are reduced.
+      Since <fr:tex
+display="inline"><![CDATA[B/\mathfrak {p}_iB]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A/\mathfrak {p}_i]]></fr:tex>, we can reduce to the case where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is integral.
+      Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be the field of fractions of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[A\to  K]]></fr:tex> is injective, and thus so too is <fr:tex
+display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-flat), and we can thus reduce to proving that <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex> is reduced.
+      But <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is the localisation of an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra of finite type over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and thus is the local ring of a point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of a scheme of finite type <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(C)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> that is also <fr:em>étale</fr:em> over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex> is a localisation (with respect to some suitable multiplicatively stable set) of the ring <fr:tex
+display="inline"><![CDATA[C\otimes _A K]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X\otimes _A K]]></fr:tex>.
+      Since <fr:tex
+display="inline"><![CDATA[X\otimes _A K]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, its ring is a finite product of fields (that are separable extensions of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>), and thus so too is <fr:tex
+display="inline"><![CDATA[B\otimes _A K]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

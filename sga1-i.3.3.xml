@@ -1,56 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>357</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The set of points where <fr:tex>f</fr:tex> is unramified is open.
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
+type="user">sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The set of points where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is unramified is open.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:addr
+type="user">sga1-i.3</fr:addr><fr:route>sga1-i.3.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Unramified morphisms"><fr:link
+type="local"
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Unramified morphisms</fr:title><fr:number>I.3</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Unramified morphisms</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.3</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>334</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.1</fr:addr><fr:route>sga1-i.3.1.xml</fr:route><fr:number>I.3.1</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a morphism of finite type, <fr:tex>x \in  X</fr:tex>, and <fr:tex>y=f(x)</fr:tex>.
-    Then the following conditions are equivalent:
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>366</fr:anchor><fr:addr
+type="user">sga1-i.3.1</fr:addr><fr:route>sga1-i.3.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.3.1</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type, <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[y=f(x)]]></fr:tex>.
+    Then the following conditions are equivalent:</fr:p>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;i. &quot;">
-      <fr:tex>\mathcal { O } _x/ \mathfrak {m}_y \mathcal { O } _x</fr:tex> is a finite separable extension of <fr:tex>k(y)</fr:tex>.
+      <fr:tex
+display="inline"><![CDATA[\mathcal {O}_x/\mathfrak {m}_y\mathcal {O}_x]]></fr:tex> is a finite separable extension of <fr:tex
+display="inline"><![CDATA[k(y)]]></fr:tex>.
     </html:li>
 
     
  <html:li
 style="list-style-type: &quot;ii. &quot;">
-      <fr:tex>\Omega _{X/Y}^1</fr:tex> is zero at <fr:tex>x</fr:tex>.
+      <fr:tex
+display="inline"><![CDATA[\Omega _{X/Y}^1]]></fr:tex> is zero at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>.
     </html:li>
 
     
  <html:li
 style="list-style-type: &quot;iii. &quot;">
-      The diagonal morphism <fr:tex>\Delta _{X/Y}</fr:tex> is an open immersion on a neighbourhood of <fr:tex>x</fr:tex>.
+      The diagonal morphism <fr:tex
+display="inline"><![CDATA[\Delta _{X/Y}]]></fr:tex> is an open immersion on a neighbourhood of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>.
     </html:li>
 
   </html:ol>
@@ -58,96 +78,142 @@ style="list-style-type: &quot;iii. &quot;">
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>333</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      For the implication (i) <fr:tex>\implies</fr:tex> (ii), we can use Nakayama to reduce to the case where <fr:tex>Y= \operatorname {Spec} (k)</fr:tex> and <fr:tex>X= \operatorname {Spec} (k')</fr:tex>, where it is well known, and also trivial by the definition of separable;
-      (ii) <fr:tex>\implies</fr:tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
-      (iii) <fr:tex>\implies</fr:tex> (i) follows as well from reducing to the case where <fr:tex>Y= \operatorname {Spec} (k)</fr:tex> and the diagonal morphism is everywhere an open immersion.
-      We must then prove that <fr:tex>X</fr:tex> is finite with separable ring over <fr:tex>k</fr:tex>, and this leads us to consider the case where <fr:tex>k</fr:tex> is algebraically closed.
-      But then every closed point of <fr:tex>X</fr:tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <fr:tex>X \to  X \times _k X</fr:tex> defined by <fr:tex>x</fr:tex>), whence <fr:tex>X</fr:tex> is finite.
-      We can thus suppose that <fr:tex>X</fr:tex> consists of a single point, with ring <fr:tex>A</fr:tex>, and so <fr:tex>A \otimes _k A \to  A</fr:tex> is an isomorphism, hence <fr:tex>A=k</fr:tex>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>For the implication (i) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (ii), we can use Nakayama to reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X=\operatorname {Spec}(k')]]></fr:tex>, where it is well known, and also trivial by the definition of separable;
+      (ii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (iii) comes from a nice and easy characterisation of open immersions, using Krull;
+      (iii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (i) follows as well from reducing to the case where <fr:tex
+display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex> and the diagonal morphism is everywhere an open immersion.
+      We must then prove that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite with separable ring over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and this leads us to consider the case where <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> is algebraically closed.
+      But then every closed point of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is isolated (since it is identical to the inverse image of the diagonal by the morphism <fr:tex
+display="inline"><![CDATA[X\to  X\times _k X]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>), whence <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite.
+      We can thus suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of a single point, with ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[A\otimes _k A\to  A]]></fr:tex> is an isomorphism, hence <fr:tex
+display="inline"><![CDATA[A=k]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sga1-i.3.2</fr:addr><fr:route>sga1-i.3.2.xml</fr:route><fr:number>I.3.2</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>367</fr:anchor><fr:addr
+type="user">sga1-i.3.2</fr:addr><fr:route>sga1-i.3.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>I.3.2</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;a. &quot;">
-      Let <fr:tex>f</fr:tex> satisfy one of the equivalent conditions of <fr:ref
+      Let <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> satisfy one of the equivalent conditions of <fr:ref
 addr="sga1-i.3.1"
 href="sga1-i.3.1.xml"
 taxon="Proposition"
-number="I.3.1"></fr:ref>.
-      Then we say that <fr:tex>f</fr:tex> is <fr:em>unramified</fr:em> at <fr:tex>x</fr:tex>, or that <fr:tex>X</fr:tex> is unramified at <fr:tex>x</fr:tex> on <fr:tex>Y</fr:tex>.
+number="I.3.1" />.
+      Then we say that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:em>unramified</fr:em> at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, or that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is unramified at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
     </html:li>
 
     
  <html:li
 style="list-style-type: &quot;b. &quot;">
-      Let <fr:tex>A \to  B</fr:tex> be a local homomorphism.
-      We say that it is <fr:em>unramified</fr:em>, or that <fr:tex>B</fr:tex> is a local <fr:em>unramified</fr:em> algebra on <fr:tex>A</fr:tex>, if <fr:tex>B/ \mathfrak {r}(A)B</fr:tex> is a finite separable extension of <fr:tex>A/ \mathfrak {r}(A)</fr:tex>, i.e. if <fr:tex>\mathfrak {r}(A)B= \mathfrak {r}(B)</fr:tex> and <fr:tex>k(B)</fr:tex> is a separable extension of <fr:tex>k(A)</fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> be a local homomorphism.
+      We say that it is <fr:em>unramified</fr:em>, or that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is a local <fr:em>unramified</fr:em> algebra on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[B/\mathfrak {r}(A)B]]></fr:tex> is a finite separable extension of <fr:tex
+display="inline"><![CDATA[A/\mathfrak {r}(A)]]></fr:tex>, i.e. if <fr:tex
+display="inline"><![CDATA[\mathfrak {r}(A)B=\mathfrak {r}(B)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[k(B)]]></fr:tex> is a separable extension of <fr:tex
+display="inline"><![CDATA[k(A)]]></fr:tex>.
       (cf. regrets in [III 1.2])
     </html:li>
 
   </html:ol>
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>336</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The fact that <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex> can be seen at the level of the completions of <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex>.
-    Unramified implies quasi-finite.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>371</fr:anchor><fr:addr
+type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Remarks</fr:taxon><fr:authors /><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The fact that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> can be seen at the level of the completions of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
+    Unramified implies quasi-finite.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>337</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The set of points where <fr:tex>f</fr:tex> is unramified is open.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>372</fr:anchor><fr:addr
+type="user">sga1-i.3.3</fr:addr><fr:route>sga1-i.3.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.3.3</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The set of points where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is unramified is open.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>338</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.4</fr:addr><fr:route>sga1-i.3.4.xml</fr:route><fr:number>I.3.4</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X'</fr:tex> and <fr:tex>X</fr:tex> be preschemes of finite type over <fr:tex>Y</fr:tex>, and <fr:tex>g \colon  X' \to  X</fr:tex> a <fr:tex>Y</fr:tex>-morphism.
-    If <fr:tex>X</fr:tex> is unramified over <fr:tex>Y</fr:tex>, then the graph morphism <fr:tex>\Gamma _g \colon  X' \to  X \times _Y X</fr:tex> is an open immersion.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  Indeed, this is the inverse image of the diagonal morphism <fr:tex>X \to  X \times _Y X</fr:tex> by
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>373</fr:anchor><fr:addr
+type="user">sga1-i.3.4</fr:addr><fr:route>sga1-i.3.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.3.4</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be preschemes of finite type over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[g\colon  X'\to  X]]></fr:tex> a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-morphism.
+    If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, then the graph morphism <fr:tex
+display="inline"><![CDATA[\Gamma _g\colon  X'\to  X\times _Y X]]></fr:tex> is an open immersion.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Indeed, this is the inverse image of the diagonal morphism <fr:tex
+display="inline"><![CDATA[X\to  X\times _Y X]]></fr:tex> by
   <fr:tex
-display="block">g \times _Y  \mathrm {id} _{X'} \colon  X' \times _Y X \to  X \times _Y X.</fr:tex>
-  One can also introduce the annihilator ideal <fr:tex>\mathfrak {d}_{X/Y}</fr:tex> of <fr:tex>\Omega _{X/Y}^1</fr:tex>, called the <fr:em>different ideal</fr:em> of <fr:tex>X/Y</fr:tex>;
-  it defines a closed sub-prescheme of <fr:tex>X</fr:tex> which, set-theoretically, is the set of point where <fr:tex>X/Y</fr:tex> is ramified, i.e. not unramified.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[g\times _Y \mathrm {id}_{X'}\colon  X'\times _Y X\to  X\times _Y X.]]></fr:tex>
+  One can also introduce the annihilator ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {d}_{X/Y}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\Omega _{X/Y}^1]]></fr:tex>, called the <fr:em>different ideal</fr:em> of <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex>;
+  it defines a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> which, set-theoretically, is the set of point where <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex> is ramified, i.e. not unramified.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.5</fr:addr><fr:route>sga1-i.3.5.xml</fr:route><fr:number>I.3.5</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>374</fr:anchor><fr:addr
+type="user">sga1-i.3.5</fr:addr><fr:route>sga1-i.3.5.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.3.5</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -169,19 +235,18 @@ style="list-style-type: &quot;iii. &quot;">
     </html:li>
 
   </html:ol>
-</fr:mainmatter></fr:tree><fr:p>
-  We are rather indifferent about (ii) and (iii) (the second seems more interesting to me).
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We are rather indifferent about (ii) and (iii) (the second seems more interesting to me).
   We can, of course, also be more precise, by giving some one-off statements;
   this is more general only in appearance (except for in the case of definition (b)), and is boring.
-  We obtain, as per usual, the corollaries:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  We obtain, as per usual, the corollaries:</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:addr
+type="user">sga1-i.3.6</fr:addr><fr:route>sga1-i.3.6.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.3.6</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -193,38 +258,52 @@ style="list-style-type: &quot;iv. &quot;">
     
  <html:li
 style="list-style-type: &quot;v. &quot;">
-      If <fr:tex>gf</fr:tex> is unramified then so too is <fr:tex>f</fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[gf]]></fr:tex> is unramified then so too is <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>.
     </html:li>
 
     
  <html:li
 style="list-style-type: &quot;vi. &quot;">
-      If <fr:tex>f</fr:tex> is unramified then so too is <fr:tex>f_ \mathrm {red}</fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is unramified then so too is <fr:tex
+display="inline"><![CDATA[f_\mathrm {red}]]></fr:tex>.
     </html:li>
 
   </html:ol>
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A \to  B</fr:tex> be a local homomorphism, and suppose that the residue extension <fr:tex>k(B)/k(A)</fr:tex> is trivial, with <fr:tex>k(A)</fr:tex> algebraically closed.
-    In order for <fr:tex>B/A</fr:tex> to be unramified, it is necessary and sufficient that <fr:tex>\widehat {B}</fr:tex> be (as an <fr:tex>\widehat {A}</fr:tex>-algebra) a quotient of <fr:tex>\widehat {A}</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
+type="user">sga1-i.3.7</fr:addr><fr:route>sga1-i.3.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.3.7</fr:number><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A\to  B]]></fr:tex> be a local homomorphism, and suppose that the residue extension <fr:tex
+display="inline"><![CDATA[k(B)/k(A)]]></fr:tex> is trivial, with <fr:tex
+display="inline"><![CDATA[k(A)]]></fr:tex> algebraically closed.
+    In order for <fr:tex
+display="inline"><![CDATA[B/A]]></fr:tex> to be unramified, it is necessary and sufficient that <fr:tex
+display="inline"><![CDATA[\widehat {B}]]></fr:tex> be (as an <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex>-algebra) a quotient of <fr:tex
+display="inline"><![CDATA[\widehat {A}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Remarks</fr:taxon><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-      In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of <fr:tex>A</fr:tex> which destroys the aforementioned extension.
-    </fr:li>
-    <fr:li>
-      Consider the example where <fr:tex>A</fr:tex> is the local ring of an ordinary double point of a curve, and <fr:tex>B</fr:tex> a point of its normalisation:
-      then <fr:tex>A \subset  B</fr:tex>, <fr:tex>B</fr:tex> is unramified over <fr:tex>A</fr:tex> with trivial residue extension, and <fr:tex>\widehat {A} \to \widehat {B}</fr:tex> is surjective but <fr:em>not injective</fr:em>.
-      We are thus going to strengthen the notion of unramified-ness.
-    </fr:li></fr:ul></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remarks</fr:taxon><fr:authors /><fr:parent>sga1-i.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>In the case where we don't suppose that the residue extension is trivial, we can reduce to the case where it is by taking a suitable finite flat extension of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> which destroys the aforementioned extension.</fr:li>
+    <fr:li>Consider the example where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is the local ring of an ordinary double point of a curve, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> a point of its normalisation:
+      then <fr:tex
+display="inline"><![CDATA[A\subset  B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with trivial residue extension, and <fr:tex
+display="inline"><![CDATA[\widehat {A}\to \widehat {B}]]></fr:tex> is surjective but <fr:em>not injective</fr:em>.
+      We are thus going to strengthen the notion of unramified-ness.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

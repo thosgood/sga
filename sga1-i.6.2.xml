@@ -1,139 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>B</fr:tex> and <fr:tex>B'</fr:tex> be <fr:tex>A</fr:tex>-algebras that are finite over <fr:tex>A</fr:tex>.
-    If <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, then the canonical map
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>533</fr:anchor><fr:addr
+type="user">sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> be <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebras that are finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    If <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then the canonical map
     <fr:tex
-display="block">        \operatorname {Hom} _{ A \mathsf {-alg} }(B,B')        \to   \operatorname {Hom} _{ k \mathsf {-alg} }(R(B),R(B'))     </fr:tex>
-    is bijective.
-  </fr:p>
+display="block"><![CDATA[       \operatorname {Hom}_{A\mathsf {-alg}}(B,B')       \to  \operatorname {Hom}_{k\mathsf {-alg}}(R(B),R(B'))     ]]></fr:tex>
+    is bijective.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can reduce to the case where <fr:tex>A</fr:tex> is Artinian (by replacing <fr:tex>A</fr:tex> by <fr:tex>A/ \frak {m}^n</fr:tex>), and then this is a particular case of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is Artinian (by replacing <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[A/\frak {m}^n]]></fr:tex>), and then this is a particular case of <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.5.5" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>500</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>534</fr:anchor><fr:addr
+type="user">sga1-i.6</fr:addr><fr:route>sga1-i.6.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Application to étale extensions of complete local rings"><fr:link
+type="local"
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Application to étale extensions of complete local rings</fr:title><fr:number>I.6</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Application to étale extensions of complete local rings</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.6</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This section is a particular case of the results on formal preschemes, which should appear in the multiplodoque.
   Nevertheless, here we get away without much difficulty, i.e. without the explicit local determination of the étale morphisms in [sga1-i.7 <fr:strong>(?)</fr:strong>] (using the Main Theorem).
-  This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  This is perhaps sufficient reason to keep this current section (even in the multiplodoque) where it is.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>A</fr:tex> be a complete local ring (Noetherian, of course), with residue field <fr:tex>k</fr:tex>.
-    For any <fr:tex>A</fr:tex>-algebra <fr:tex>B</fr:tex>, let <fr:tex>R(B)=B \otimes _Ak</fr:tex> be thought of as a <fr:tex>k</fr:tex>-algebra;
-    this depends functorially on <fr:tex>B</fr:tex>.
-    Then <fr:tex>R</fr:tex> defines an <fr:em>equivalence</fr:em> between the category of <fr:tex>A</fr:tex>-algebras that are <fr:em>finite and étale over <fr:tex>A</fr:tex></fr:em> and the category of algebras that are <fr:em>finite rank and separable over <fr:tex>k</fr:tex></fr:em>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  Firstly, the functor in question is fully faithful, as follows from the more general fact:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>531</fr:anchor><fr:addr
+type="user">sga1-i.6.1</fr:addr><fr:route>sga1-i.6.1.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.6.1</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a complete local ring (Noetherian, of course), with residue field <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>.
+    For any <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebra <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[R(B)=B\otimes _Ak]]></fr:tex> be thought of as a <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>-algebra;
+    this depends functorially on <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>.
+    Then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> defines an <fr:em>equivalence</fr:em> between the category of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebras that are <fr:em>finite and étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex></fr:em> and the category of algebras that are <fr:em>finite rank and separable over <fr:tex
+display="inline"><![CDATA[k]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Firstly, the functor in question is fully faithful, as follows from the more general fact:</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>496</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>B</fr:tex> and <fr:tex>B'</fr:tex> be <fr:tex>A</fr:tex>-algebras that are finite over <fr:tex>A</fr:tex>.
-    If <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, then the canonical map
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>532</fr:anchor><fr:addr
+type="user">sga1-i.6.2</fr:addr><fr:route>sga1-i.6.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.6.2</fr:number><fr:parent>sga1-i.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> be <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-algebras that are finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+    If <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then the canonical map
     <fr:tex
-display="block">        \operatorname {Hom} _{ A \mathsf {-alg} }(B,B')        \to   \operatorname {Hom} _{ k \mathsf {-alg} }(R(B),R(B'))     </fr:tex>
-    is bijective.
-  </fr:p>
+display="block"><![CDATA[       \operatorname {Hom}_{A\mathsf {-alg}}(B,B')       \to  \operatorname {Hom}_{k\mathsf {-alg}}(R(B),R(B'))     ]]></fr:tex>
+    is bijective.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can reduce to the case where <fr:tex>A</fr:tex> is Artinian (by replacing <fr:tex>A</fr:tex> by <fr:tex>A/ \frak {m}^n</fr:tex>), and then this is a particular case of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.6.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is Artinian (by replacing <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[A/\frak {m}^n]]></fr:tex>), and then this is a particular case of <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.5.5" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:p>
-  It remains to prove that, for every finite and separable <fr:tex>k</fr:tex> algebra (or we can simply say "étale", for brevity) <fr:tex>L</fr:tex>, there exists some <fr:tex>B</fr:tex> étale over <fr:tex>A</fr:tex> such that <fr:tex>R(B)</fr:tex> is isomorphic to <fr:tex>L</fr:tex>.
-  We can suppose that <fr:tex>L</fr:tex> is a separable extension of <fr:tex>k</fr:tex>, and, as such, it admits a generator <fr:tex>x</fr:tex>, i.e. it is isomorphic to an algebra <fr:tex>k[t]/Fk[t]</fr:tex>, where <fr:tex>F \in  k[t]</fr:tex> is a monic polynomial.
-  We can lift <fr:tex>F</fr:tex> to a monic polynomial <fr:tex>F_1</fr:tex> in <fr:tex>A[t]</fr:tex>, and we take <fr:tex>B=A[t]/F_1A[t]</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>It remains to prove that, for every finite and separable <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> algebra (or we can simply say "étale", for brevity) <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>, there exists some <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[R(B)]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>.
+  We can suppose that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is a separable extension of <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and, as such, it admits a generator <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, i.e. it is isomorphic to an algebra <fr:tex
+display="inline"><![CDATA[k[t]/Fk[t]]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[F\in  k[t]]]></fr:tex> is a monic polynomial.
+  We can lift <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to a monic polynomial <fr:tex
+display="inline"><![CDATA[F_1]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex>, and we take <fr:tex
+display="inline"><![CDATA[B=A[t]/F_1A[t]]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a prescheme, and let <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> be <fr:tex>S</fr:tex>-preschemes.
-    Let <fr:tex>S_0</fr:tex> be a closed sub-prescheme of <fr:tex>S</fr:tex> that has the same underlying space as <fr:tex>S</fr:tex>, and let <fr:tex>X_0=X \times _S S_0</fr:tex> and <fr:tex>Y_0=Y \times _S S_0</fr:tex> be the "restrictions" of <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> to <fr:tex>S_0</fr:tex>.
-    Suppose that <fr:tex>X</fr:tex> is étale over <fr:tex>S</fr:tex>.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>535</fr:anchor><fr:addr
+type="user">sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a prescheme, and let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-preschemes.
+    Let <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> be a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that has the same underlying space as <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[X_0=X\times _S S_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y_0=Y\times _S S_0]]></fr:tex> be the "restrictions" of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>.
+    Suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
     Then the natural map
     <fr:tex
-display="block">\operatorname {Hom} _S(Y,X)  \to   \operatorname {Hom} _{S_0}(X_0,Y_0)</fr:tex>
-    is <fr:em>bijective</fr:em>.
-  </fr:p>
+display="block"><![CDATA[\operatorname {Hom}_S(Y,X) \to  \operatorname {Hom}_{S_0}(X_0,Y_0)]]></fr:tex>
+    is <fr:em>bijective</fr:em>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can again reduce to the case where <fr:tex>Y=S</fr:tex>, and then this follows from the "topological" description of sections of <fr:tex>X/Y</fr:tex> given in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can again reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and then this follows from the "topological" description of sections of <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex> given in <fr:ref
 addr="sga1-i.5.3"
 href="sga1-i.5.3.xml"
 taxon="Corollary"
-number="I.5.3"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.5.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

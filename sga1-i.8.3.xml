@@ -1,398 +1,563 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>620</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The functor described in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>649</fr:anchor><fr:addr
+type="user">sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The functor described in <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref> is an <fr:em>equivalence</fr:em> of <fr:em>categories</fr:em>.
-  </fr:p>
+number="I.5.5" /> is an <fr:em>equivalence</fr:em> of <fr:em>categories</fr:em>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>514</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
     By <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref>, it remains only to show that every étale <fr:tex>S_0</fr:tex>-scheme <fr:tex>X_0</fr:tex> is isomorphic to an <fr:tex>S_0</fr:tex>-scheme <fr:tex>X \times _S S_0</fr:tex>, where <fr:tex>X</fr:tex> is an étale <fr:tex>S</fr:tex>-scheme.
-    The underlying topological space of <fr:tex>X</fr:tex> must necessarily be identical to the one of <fr:tex>X_0</fr:tex>, and with <fr:tex>X_0</fr:tex> being identified with a closed sub-prescheme of <fr:tex>X</fr:tex>.
+number="I.5.5" />, it remains only to show that every étale <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> is isomorphic to an <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X\times _S S_0]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-scheme.
+    The underlying topological space of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> must necessarily be identical to the one of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and with <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> being identified with a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
     The problem is thus equivalent to the following:
-    find, on the underlying topological space <fr:tex>|X_0|</fr:tex> of <fr:tex>X_0</fr:tex>, a sheaf of algebras <fr:tex>\mathcal { O } _X</fr:tex> over <fr:tex>f_0^*( \mathcal { O } _S)</fr:tex> (where <fr:tex>f_0</fr:tex> is the projection <fr:tex>X_0 \to  S_0</fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex>|X_0|</fr:tex> an étale <fr:tex>S</fr:tex>-prescheme <fr:tex>X</fr:tex>, as well as an algebra homomorphism <fr:tex>\mathcal { O } _X \to \mathcal { O } _{X_0}</fr:tex> that is compatible with the homomorphism <fr:tex>f_0^*( \mathcal { O } _S) \to  f_0^*( \mathcal { O } _{S_0})</fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex>\mathcal { O } _X \otimes _{f_0^*( \mathcal { O } _S)*}f_0^*( \mathcal { O } _{S_0}) \xrightarrow { \sim } \mathcal { O } _{X_0}</fr:tex>.
-    (Then <fr:tex>X</fr:tex> will be an étale <fr:tex>S</fr:tex>-prescheme that is reduced along <fr:tex>X_0</fr:tex>, and thus separated over <fr:tex>S</fr:tex>, since <fr:tex>X_0</fr:tex> is separated over <fr:tex>S_0</fr:tex>, and <fr:tex>X</fr:tex> satisfies all the desired properties).
+    find, on the underlying topological space <fr:tex
+display="inline"><![CDATA[|X_0|]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, a sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[f_0^*(\mathcal {O}_S)]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[f_0]]></fr:tex> is the projection <fr:tex
+display="inline"><![CDATA[X_0\to  S_0]]></fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex
+display="inline"><![CDATA[|X_0|]]></fr:tex> an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, as well as an algebra homomorphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X\to \mathcal {O}_{X_0}]]></fr:tex> that is compatible with the homomorphism <fr:tex
+display="inline"><![CDATA[f_0^*(\mathcal {O}_S)\to  f_0^*(\mathcal {O}_{S_0})]]></fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X\otimes _{f_0^*(\mathcal {O}_S)*}f_0^*(\mathcal {O}_{S_0})\xrightarrow {\sim }\mathcal {O}_{X_0}]]></fr:tex>.
+    (Then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> will be an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme that is reduced along <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and thus separated over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> is separated over <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies all the desired properties).
 
-    If <fr:tex>(U_i)</fr:tex> is an open cover of <fr:tex>X_0</fr:tex>, and if we find a solution to the problem on each of the <fr:tex>U_i</fr:tex>, then it follows from the uniqueness theorem <fr:ref
+    If <fr:tex
+display="inline"><![CDATA[(U_i)]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and if we find a solution to the problem on each of the <fr:tex
+display="inline"><![CDATA[U_i]]></fr:tex>, then it follows from the uniqueness theorem <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex>S</fr:tex> is an étale <fr:tex>S</fr:tex>-prescheme <fr:tex>X</fr:tex> endowed with an isomorphism <fr:tex>X \times _S S_0 \xleftarrow { \sim }X_0</fr:tex>.
+number="I.5.5" /> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> endowed with an isomorphism <fr:tex
+display="inline"><![CDATA[X\times _S S_0\xleftarrow {\sim }X_0]]></fr:tex>.
     It thus suffices to find a solution locally, which we know is possible by <fr:ref
 addr="sga1-i.8.1"
 href="sga1-i.8.1.xml"
 taxon="Proposition"
-number="I.8.1"></fr:ref>.
-  </fr:mainmatter></fr:tree>
+number="I.8.1" />.
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>619</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr
+type="user">sga1-i.8</fr:addr><fr:route>sga1-i.8.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Infinitesimal lifting of étale schemes. Applications to formal schemes"><fr:link
+type="local"
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</fr:title><fr:number>I.8</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Infinitesimal lifting of étale schemes. Applications to formal schemes</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.8</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>Y</fr:tex> be a prescheme, <fr:tex>Y_0</fr:tex> a sub-prescheme, <fr:tex>X_0</fr:tex> an étale <fr:tex>Y_0</fr:tex>-scheme, and <fr:tex>x</fr:tex> a point of <fr:tex>X_0</fr:tex>.
-    Then there exists an étale <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex>, a neighbourhood <fr:tex>U_0</fr:tex> of <fr:tex>x</fr:tex> in <fr:tex>X_0</fr:tex>, and a <fr:tex>Y_0</fr:tex>-isomorphism <fr:tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</fr:tex>.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>560</fr:anchor><fr:addr
+type="user">sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be a prescheme, <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> a sub-prescheme, <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> an étale <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-scheme, and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> a point of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>.
+    Then there exists an étale <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and a <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-isomorphism <fr:tex
+display="inline"><![CDATA[U_0\xrightarrow {\sim }X\times _Y Y_0]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>y</fr:tex> be the projection of <fr:tex>x</fr:tex> in <fr:tex>Y_0</fr:tex>;
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:addr
+type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>;
       applying <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref> to the étale local homomorphism <fr:tex>A_0 \to  B_0</fr:tex> of local rings of <fr:tex>y</fr:tex> and <fr:tex>x</fr:tex> in <fr:tex>Y_0</fr:tex> and <fr:tex>X_0</fr:tex>, we obtain an isomorphism
+number="I.7.6" /> to the étale local homomorphism <fr:tex
+display="inline"><![CDATA[A_0\to  B_0]]></fr:tex> of local rings of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, we obtain an isomorphism
       <fr:tex
-display="block">          \begin {aligned}           B_0 &amp;= (C_0)_{ \mathfrak {n}_0}          \\ C_0 &amp;= A_0[t]/F_0A_0[t]          \end {aligned}       </fr:tex>
-      where <fr:tex>F_0</fr:tex> is a monic polynomial, and <fr:tex>\mathfrak {n}_0</fr:tex> is a maximal ideal of <fr:tex>C_0</fr:tex> not containing the class of <fr:tex>F'_0(t)</fr:tex> in <fr:tex>C_0</fr:tex>.
-      Let <fr:tex>A</fr:tex> be the local ring of <fr:tex>y</fr:tex> in <fr:tex>Y</fr:tex>, let <fr:tex>F</fr:tex> be a monic polynomial in <fr:tex>A[t]</fr:tex> that gives <fr:tex>F_0</fr:tex> under the surjective homomorphism <fr:tex>A \to  A_0</fr:tex> (we lift the coefficients of <fr:tex>F_0</fr:tex>), and let <fr:tex>C=A[t]/FA[t]</fr:tex>, with <fr:tex>\mathfrak {n}</fr:tex> the maximal ideal of <fr:tex>C</fr:tex> given by the inverse image of <fr:tex>\mathfrak {n}_0</fr:tex> under the natural epimorphism <fr:tex>C \to  C \otimes _A A_0=C_0</fr:tex>.
+display="block"><![CDATA[         \begin {aligned}           B_0 &= (C_0)_{\mathfrak {n}_0}         \\C_0 &= A_0[t]/F_0A_0[t]         \end {aligned}       ]]></fr:tex>
+      where <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> is a monic polynomial, and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> is a maximal ideal of <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex> not containing the class of <fr:tex
+display="inline"><![CDATA[F'_0(t)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be the local ring of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a monic polynomial in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> that gives <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> under the surjective homomorphism <fr:tex
+display="inline"><![CDATA[A\to  A_0]]></fr:tex> (we lift the coefficients of <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex>), and let <fr:tex
+display="inline"><![CDATA[C=A[t]/FA[t]]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> the maximal ideal of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> given by the inverse image of <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> under the natural epimorphism <fr:tex
+display="inline"><![CDATA[C\to  C\otimes _A A_0=C_0]]></fr:tex>.
       Let
       <fr:tex
-display="block">         B = C_ \mathfrak {n}.       </fr:tex>
+display="block"><![CDATA[         B = C_\mathfrak {n}.       ]]></fr:tex>
       It is immediate, by construction and by <fr:ref
 addr="sga1-i.7.1"
 href="sga1-i.7.1.xml"
 taxon="Proposition"
-number="I.7.1"></fr:ref>, that <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, and that we have an isomorphism <fr:tex>B \otimes _A A_0=A_0</fr:tex>.
-    </fr:p>
+number="I.7.1" />, that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and that we have an isomorphism <fr:tex
+display="inline"><![CDATA[B\otimes _A A_0=A_0]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      We know that there exists a <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex> of finite type, along with a point <fr:tex>z</fr:tex> of <fr:tex>X</fr:tex> over <fr:tex>y</fr:tex> such that <fr:tex>\mathcal { O } _z</fr:tex> is <fr:tex>A</fr:tex>-isomorphic to <fr:tex>C</fr:tex>;
-      since the latter is étale over <fr:tex>A= \mathcal { O } _y</fr:tex>, we can (by taking <fr:tex>X</fr:tex> to be small enough) assume that <fr:tex>X</fr:tex> is étale over <fr:tex>Y</fr:tex>.
-      Let <fr:tex>X'_0=X \times _Y Y_0</fr:tex>.
-      Then the local ring of <fr:tex>z</fr:tex> in <fr:tex>X'_0</fr:tex> can be identified with <fr:tex>\mathcal { O } _z \otimes _A A_0=B \otimes _A A_0</fr:tex>, and is thus isomorphic to <fr:tex>B_0</fr:tex>.
-      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex>U_0</fr:tex> of <fr:tex>x</fr:tex> in <fr:tex>X</fr:tex> to a neighbourhood of <fr:tex>z</fr:tex> in <fr:tex>X'_0</fr:tex>, and we can assume this to be identical to <fr:tex>X'_0</fr:tex> by taking <fr:tex>X</fr:tex> to be small enough.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+    <fr:p>We know that there exists a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of finite type, along with a point <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-isomorphic to <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>;
+      since the latter is étale over <fr:tex
+display="inline"><![CDATA[A=\mathcal {O}_y]]></fr:tex>, we can (by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough) assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X'_0=X\times _Y Y_0]]></fr:tex>.
+      Then the local ring of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> can be identified with <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z\otimes _A A_0=B\otimes _A A_0]]></fr:tex>, and is thus isomorphic to <fr:tex
+display="inline"><![CDATA[B_0]]></fr:tex>.
+      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to a neighbourhood of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex>, and we can assume this to be identical to <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>524</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex>k(y)</fr:tex> to be infinite.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>561</fr:anchor><fr:addr
+type="user">sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex
+display="inline"><![CDATA[k(y)]]></fr:tex> to be infinite.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The proof is the same, just replacing <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>562</fr:anchor><fr:addr
+type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof is the same, just replacing <fr:ref
 addr="sga1-i.7.5"
 href="sga1-i.7.5.xml"
 taxon="Corollary"
-number="I.7.5"></fr:ref> by <fr:ref
+number="I.7.5" /> by <fr:ref
 addr="sga1-i.7.6"
 href="sga1-i.7.6.xml"
 taxon="Theorem"
-number="I.7.6"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.7.6" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>525</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The functor described in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr
+type="user">sga1-i.8.3</fr:addr><fr:route>sga1-i.8.3.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.8.3</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The functor described in <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref> is an <fr:em>equivalence</fr:em> of <fr:em>categories</fr:em>.
-  </fr:p>
+number="I.5.5" /> is an <fr:em>equivalence</fr:em> of <fr:em>categories</fr:em>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>514</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
     By <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref>, it remains only to show that every étale <fr:tex>S_0</fr:tex>-scheme <fr:tex>X_0</fr:tex> is isomorphic to an <fr:tex>S_0</fr:tex>-scheme <fr:tex>X \times _S S_0</fr:tex>, where <fr:tex>X</fr:tex> is an étale <fr:tex>S</fr:tex>-scheme.
-    The underlying topological space of <fr:tex>X</fr:tex> must necessarily be identical to the one of <fr:tex>X_0</fr:tex>, and with <fr:tex>X_0</fr:tex> being identified with a closed sub-prescheme of <fr:tex>X</fr:tex>.
+number="I.5.5" />, it remains only to show that every étale <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> is isomorphic to an <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X\times _S S_0]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-scheme.
+    The underlying topological space of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> must necessarily be identical to the one of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and with <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> being identified with a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
     The problem is thus equivalent to the following:
-    find, on the underlying topological space <fr:tex>|X_0|</fr:tex> of <fr:tex>X_0</fr:tex>, a sheaf of algebras <fr:tex>\mathcal { O } _X</fr:tex> over <fr:tex>f_0^*( \mathcal { O } _S)</fr:tex> (where <fr:tex>f_0</fr:tex> is the projection <fr:tex>X_0 \to  S_0</fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex>|X_0|</fr:tex> an étale <fr:tex>S</fr:tex>-prescheme <fr:tex>X</fr:tex>, as well as an algebra homomorphism <fr:tex>\mathcal { O } _X \to \mathcal { O } _{X_0}</fr:tex> that is compatible with the homomorphism <fr:tex>f_0^*( \mathcal { O } _S) \to  f_0^*( \mathcal { O } _{S_0})</fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex>\mathcal { O } _X \otimes _{f_0^*( \mathcal { O } _S)*}f_0^*( \mathcal { O } _{S_0}) \xrightarrow { \sim } \mathcal { O } _{X_0}</fr:tex>.
-    (Then <fr:tex>X</fr:tex> will be an étale <fr:tex>S</fr:tex>-prescheme that is reduced along <fr:tex>X_0</fr:tex>, and thus separated over <fr:tex>S</fr:tex>, since <fr:tex>X_0</fr:tex> is separated over <fr:tex>S_0</fr:tex>, and <fr:tex>X</fr:tex> satisfies all the desired properties).
+    find, on the underlying topological space <fr:tex
+display="inline"><![CDATA[|X_0|]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, a sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[f_0^*(\mathcal {O}_S)]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[f_0]]></fr:tex> is the projection <fr:tex
+display="inline"><![CDATA[X_0\to  S_0]]></fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex
+display="inline"><![CDATA[|X_0|]]></fr:tex> an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, as well as an algebra homomorphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X\to \mathcal {O}_{X_0}]]></fr:tex> that is compatible with the homomorphism <fr:tex
+display="inline"><![CDATA[f_0^*(\mathcal {O}_S)\to  f_0^*(\mathcal {O}_{S_0})]]></fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex
+display="inline"><![CDATA[\mathcal {O}_X\otimes _{f_0^*(\mathcal {O}_S)*}f_0^*(\mathcal {O}_{S_0})\xrightarrow {\sim }\mathcal {O}_{X_0}]]></fr:tex>.
+    (Then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> will be an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme that is reduced along <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and thus separated over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> is separated over <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies all the desired properties).
 
-    If <fr:tex>(U_i)</fr:tex> is an open cover of <fr:tex>X_0</fr:tex>, and if we find a solution to the problem on each of the <fr:tex>U_i</fr:tex>, then it follows from the uniqueness theorem <fr:ref
+    If <fr:tex
+display="inline"><![CDATA[(U_i)]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and if we find a solution to the problem on each of the <fr:tex
+display="inline"><![CDATA[U_i]]></fr:tex>, then it follows from the uniqueness theorem <fr:ref
 addr="sga1-i.5.5"
 href="sga1-i.5.5.xml"
 taxon="Theorem"
-number="I.5.5"></fr:ref> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex>S</fr:tex> is an étale <fr:tex>S</fr:tex>-prescheme <fr:tex>X</fr:tex> endowed with an isomorphism <fr:tex>X \times _S S_0 \xleftarrow { \sim }X_0</fr:tex>.
+number="I.5.5" /> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is an étale <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> endowed with an isomorphism <fr:tex
+display="inline"><![CDATA[X\times _S S_0\xleftarrow {\sim }X_0]]></fr:tex>.
     It thus suffices to find a solution locally, which we know is possible by <fr:ref
 addr="sga1-i.8.1"
 href="sga1-i.8.1.xml"
 taxon="Proposition"
-number="I.8.1"></fr:ref>.
-  </fr:mainmatter></fr:tree>
+number="I.8.1" />.
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex>\mathcal { J }</fr:tex>, and let <fr:tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</fr:tex> be the corresponding ordinary prescheme.
-    Then the functor <fr:tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</fr:tex> from the category of étale covers of <fr:tex>S</fr:tex> to the category of étale covers of <fr:tex>S_0</fr:tex> is an equivalence of categories.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>564</fr:anchor><fr:addr
+type="user">sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex
+display="inline"><![CDATA[\mathcal {J}]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[S_0=(|S|,\mathcal {O}_S/\mathcal {J})]]></fr:tex> be the corresponding ordinary prescheme.
+    Then the functor <fr:tex
+display="inline"><![CDATA[\mathfrak {X}\mapsto \mathfrak {X}\times _S S_0]]></fr:tex> from the category of étale covers of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the category of étale covers of <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> is an equivalence of categories.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex>S</fr:tex> to be a cover of <fr:tex>S</fr:tex> (i.e a formal prescheme over <fr:tex>S</fr:tex> defined by a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex>) such that <fr:tex>\mathcal { B }</fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</fr:tex> of <fr:tex>\mathcal { B }</fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex>k(s)</fr:tex>.
-      If we denote by <fr:tex>S_n</fr:tex> the ordinary prescheme <fr:tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</fr:tex>, then the data of a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex> on <fr:tex>S</fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex>\mathcal { B } _n</fr:tex> on the <fr:tex>S_n</fr:tex>, endowed with a transitive system of homomorphisms <fr:tex>\mathcal { B } _m \to \mathcal { B } _n</fr:tex> (for <fr:tex>m \geq  n</fr:tex>) defining the isomorphisms <fr:tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</fr:tex>.
-      It is immediate that <fr:tex>\mathcal { B }</fr:tex> is locally free if and only if the <fr:tex>\mathcal { B } _n</fr:tex> are locally free over the <fr:tex>S_n</fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex>\mathcal { B } _0</fr:tex>, or for all the <fr:tex>\mathcal { B } _n</fr:tex>.
-      Thus <fr:tex>\mathcal { B }</fr:tex> is étale over <fr:tex>S</fr:tex> if and only if the <fr:tex>\mathcal { B } _n</fr:tex> are étale over the <fr:tex>S_n</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to be a cover of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> (i.e a formal prescheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> defined by a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex
+display="inline"><![CDATA[\mathcal {B}_s\otimes _{\mathcal {O}_s}k(s)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex
+display="inline"><![CDATA[k(s)]]></fr:tex>.
+      If we denote by <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex> the ordinary prescheme <fr:tex
+display="inline"><![CDATA[(|S|,\mathcal {O}_S/\mathcal {J}^{n+1})]]></fr:tex>, then the data of a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> on the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, endowed with a transitive system of homomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\to \mathcal {B}_n]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[m\geq  n]]></fr:tex>) defining the isomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\otimes _{\mathcal {O}_{S_m}}\mathcal {O}_{S_n}\xrightarrow {\sim }\mathcal {B}_n]]></fr:tex>.
+      It is immediate that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are locally free over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex
+display="inline"><![CDATA[\mathcal {B}_0]]></fr:tex>, or for all the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex>.
+      Thus <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are étale over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>.
       Taking this into account, <fr:ref
 addr="sga1-i.8.4"
 href="sga1-i.8.4.xml"
 taxon="Corollary"
-number="I.8.4"></fr:ref> follows immediately from <fr:ref
+number="I.8.4" /> follows immediately from <fr:ref
 addr="sga1-i.8.3"
 href="sga1-i.8.3.xml"
 taxon="Theorem"
-number="I.8.3"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.8.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>528</fr:anchor><fr:taxon>Remark</fr:taxon><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    It was not necessary to restrict ourselves to the case of <fr:em>covers</fr:em> in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>566</fr:anchor><fr:addr
+type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:authors /><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>It was not necessary to restrict ourselves to the case of <fr:em>covers</fr:em> in <fr:ref
 addr="sga1-i.8.4"
 href="sga1-i.8.4.xml"
 taxon="Corollary"
-number="I.8.4"></fr:ref>, but this is the only case that we will use for the moment.
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>617</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a prescheme, and let <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> be <fr:tex>S</fr:tex>-preschemes.
-    Let <fr:tex>S_0</fr:tex> be a closed sub-prescheme of <fr:tex>S</fr:tex> that has the same underlying space as <fr:tex>S</fr:tex>, and let <fr:tex>X_0=X \times _S S_0</fr:tex> and <fr:tex>Y_0=Y \times _S S_0</fr:tex> be the "restrictions" of <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> to <fr:tex>S_0</fr:tex>.
-    Suppose that <fr:tex>X</fr:tex> is étale over <fr:tex>S</fr:tex>.
-    Then the natural map
-    <fr:tex
-display="block">\operatorname {Hom} _S(Y,X)  \to   \operatorname {Hom} _{S_0}(X_0,Y_0)</fr:tex>
-    is <fr:em>bijective</fr:em>.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="I.8.4" />, but this is the only case that we will use for the moment.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can again reduce to the case where <fr:tex>Y=S</fr:tex>, and then this follows from the "topological" description of sections of <fr:tex>X/Y</fr:tex> given in <fr:ref
-addr="sga1-i.5.3"
-href="sga1-i.5.3.xml"
-taxon="Corollary"
-number="I.5.3"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>618</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>Y</fr:tex> be a prescheme, <fr:tex>Y_0</fr:tex> a sub-prescheme, <fr:tex>X_0</fr:tex> an étale <fr:tex>Y_0</fr:tex>-scheme, and <fr:tex>x</fr:tex> a point of <fr:tex>X_0</fr:tex>.
-    Then there exists an étale <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex>, a neighbourhood <fr:tex>U_0</fr:tex> of <fr:tex>x</fr:tex> in <fr:tex>X_0</fr:tex>, and a <fr:tex>Y_0</fr:tex>-isomorphism <fr:tex>U_0 \xrightarrow { \sim }X \times _Y Y_0</fr:tex>.
-  </fr:p>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
+type="user">sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex
+display="inline"><![CDATA[\mathcal {J}]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[S_0=(|S|,\mathcal {O}_S/\mathcal {J})]]></fr:tex> be the corresponding ordinary prescheme.
+    Then the functor <fr:tex
+display="inline"><![CDATA[\mathfrak {X}\mapsto \mathfrak {X}\times _S S_0]]></fr:tex> from the category of étale covers of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the category of étale covers of <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> is an equivalence of categories.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>y</fr:tex> be the projection of <fr:tex>x</fr:tex> in <fr:tex>Y_0</fr:tex>;
-      applying <fr:ref
-addr="sga1-i.7.6"
-href="sga1-i.7.6.xml"
-taxon="Theorem"
-number="I.7.6"></fr:ref> to the étale local homomorphism <fr:tex>A_0 \to  B_0</fr:tex> of local rings of <fr:tex>y</fr:tex> and <fr:tex>x</fr:tex> in <fr:tex>Y_0</fr:tex> and <fr:tex>X_0</fr:tex>, we obtain an isomorphism
-      <fr:tex
-display="block">          \begin {aligned}           B_0 &amp;= (C_0)_{ \mathfrak {n}_0}          \\ C_0 &amp;= A_0[t]/F_0A_0[t]          \end {aligned}       </fr:tex>
-      where <fr:tex>F_0</fr:tex> is a monic polynomial, and <fr:tex>\mathfrak {n}_0</fr:tex> is a maximal ideal of <fr:tex>C_0</fr:tex> not containing the class of <fr:tex>F'_0(t)</fr:tex> in <fr:tex>C_0</fr:tex>.
-      Let <fr:tex>A</fr:tex> be the local ring of <fr:tex>y</fr:tex> in <fr:tex>Y</fr:tex>, let <fr:tex>F</fr:tex> be a monic polynomial in <fr:tex>A[t]</fr:tex> that gives <fr:tex>F_0</fr:tex> under the surjective homomorphism <fr:tex>A \to  A_0</fr:tex> (we lift the coefficients of <fr:tex>F_0</fr:tex>), and let <fr:tex>C=A[t]/FA[t]</fr:tex>, with <fr:tex>\mathfrak {n}</fr:tex> the maximal ideal of <fr:tex>C</fr:tex> given by the inverse image of <fr:tex>\mathfrak {n}_0</fr:tex> under the natural epimorphism <fr:tex>C \to  C \otimes _A A_0=C_0</fr:tex>.
-      Let
-      <fr:tex
-display="block">         B = C_ \mathfrak {n}.       </fr:tex>
-      It is immediate, by construction and by <fr:ref
-addr="sga1-i.7.1"
-href="sga1-i.7.1.xml"
-taxon="Proposition"
-number="I.7.1"></fr:ref>, that <fr:tex>B</fr:tex> is étale over <fr:tex>A</fr:tex>, and that we have an isomorphism <fr:tex>B \otimes _A A_0=A_0</fr:tex>.
-    </fr:p>
-
-    <fr:p>
-      We know that there exists a <fr:tex>Y</fr:tex>-scheme <fr:tex>X</fr:tex> of finite type, along with a point <fr:tex>z</fr:tex> of <fr:tex>X</fr:tex> over <fr:tex>y</fr:tex> such that <fr:tex>\mathcal { O } _z</fr:tex> is <fr:tex>A</fr:tex>-isomorphic to <fr:tex>C</fr:tex>;
-      since the latter is étale over <fr:tex>A= \mathcal { O } _y</fr:tex>, we can (by taking <fr:tex>X</fr:tex> to be small enough) assume that <fr:tex>X</fr:tex> is étale over <fr:tex>Y</fr:tex>.
-      Let <fr:tex>X'_0=X \times _Y Y_0</fr:tex>.
-      Then the local ring of <fr:tex>z</fr:tex> in <fr:tex>X'_0</fr:tex> can be identified with <fr:tex>\mathcal { O } _z \otimes _A A_0=B \otimes _A A_0</fr:tex>, and is thus isomorphic to <fr:tex>B_0</fr:tex>.
-      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex>U_0</fr:tex> of <fr:tex>x</fr:tex> in <fr:tex>X</fr:tex> to a neighbourhood of <fr:tex>z</fr:tex> in <fr:tex>X'_0</fr:tex>, and we can assume this to be identical to <fr:tex>X'_0</fr:tex> by taking <fr:tex>X</fr:tex> to be small enough.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>615</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>sga1-i.8.4</fr:addr><fr:route>sga1-i.8.4.xml</fr:route><fr:number>I.8.4</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a locally Noetherian formal prescheme, endowed with an ideal of definition <fr:tex>\mathcal { J }</fr:tex>, and let <fr:tex>S_0=(|S|, \mathcal { O } _S/ \mathcal { J } )</fr:tex> be the corresponding ordinary prescheme.
-    Then the functor <fr:tex>\mathfrak {X} \mapsto \mathfrak {X} \times _S S_0</fr:tex> from the category of étale covers of <fr:tex>S</fr:tex> to the category of étale covers of <fr:tex>S_0</fr:tex> is an equivalence of categories.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex>S</fr:tex> to be a cover of <fr:tex>S</fr:tex> (i.e a formal prescheme over <fr:tex>S</fr:tex> defined by a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex>) such that <fr:tex>\mathcal { B }</fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex>\mathcal { B } _s \otimes _{ \mathcal { O } _s}k(s)</fr:tex> of <fr:tex>\mathcal { B }</fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex>k(s)</fr:tex>.
-      If we denote by <fr:tex>S_n</fr:tex> the ordinary prescheme <fr:tex>(|S|, \mathcal { O } _S/ \mathcal { J } ^{n+1})</fr:tex>, then the data of a coherent sheaf of algebras <fr:tex>\mathcal { B }</fr:tex> on <fr:tex>S</fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex>\mathcal { B } _n</fr:tex> on the <fr:tex>S_n</fr:tex>, endowed with a transitive system of homomorphisms <fr:tex>\mathcal { B } _m \to \mathcal { B } _n</fr:tex> (for <fr:tex>m \geq  n</fr:tex>) defining the isomorphisms <fr:tex>\mathcal { B } _m \otimes _{ \mathcal { O } _{S_m}} \mathcal { O } _{S_n} \xrightarrow { \sim } \mathcal { B } _n</fr:tex>.
-      It is immediate that <fr:tex>\mathcal { B }</fr:tex> is locally free if and only if the <fr:tex>\mathcal { B } _n</fr:tex> are locally free over the <fr:tex>S_n</fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex>\mathcal { B } _0</fr:tex>, or for all the <fr:tex>\mathcal { B } _n</fr:tex>.
-      Thus <fr:tex>\mathcal { B }</fr:tex> is étale over <fr:tex>S</fr:tex> if and only if the <fr:tex>\mathcal { B } _n</fr:tex> are étale over the <fr:tex>S_n</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Of course, we define an étale cover of a <fr:em>formal</fr:em> prescheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to be a cover of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> (i.e a formal prescheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> defined by a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex>) such that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is <fr:em>locally free</fr:em>, and such that the residue fibres <fr:tex
+display="inline"><![CDATA[\mathcal {B}_s\otimes _{\mathcal {O}_s}k(s)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are <fr:em>separable</fr:em> algebras over <fr:tex
+display="inline"><![CDATA[k(s)]]></fr:tex>.
+      If we denote by <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex> the ordinary prescheme <fr:tex
+display="inline"><![CDATA[(|S|,\mathcal {O}_S/\mathcal {J}^{n+1})]]></fr:tex>, then the data of a coherent sheaf of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is equivalent to the data of a sequence of coherent sheaves of algebras <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> on the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, endowed with a transitive system of homomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\to \mathcal {B}_n]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[m\geq  n]]></fr:tex>) defining the isomorphisms <fr:tex
+display="inline"><![CDATA[\mathcal {B}_m\otimes _{\mathcal {O}_{S_m}}\mathcal {O}_{S_n}\xrightarrow {\sim }\mathcal {B}_n]]></fr:tex>.
+      It is immediate that <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are locally free over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>, and that the separability condition is satisfied if and only if it is satisfied for <fr:tex
+display="inline"><![CDATA[\mathcal {B}_0]]></fr:tex>, or for all the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex>.
+      Thus <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if the <fr:tex
+display="inline"><![CDATA[\mathcal {B}_n]]></fr:tex> are étale over the <fr:tex
+display="inline"><![CDATA[S_n]]></fr:tex>.
       Taking this into account, <fr:ref
 addr="sga1-i.8.4"
 href="sga1-i.8.4.xml"
 taxon="Corollary"
-number="I.8.4"></fr:ref> follows immediately from <fr:ref
+number="I.8.4" /> follows immediately from <fr:ref
 addr="sga1-i.8.3"
 href="sga1-i.8.3.xml"
 taxon="Theorem"
-number="I.8.3"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="I.8.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>616</fr:anchor><fr:taxon>Section</fr:taxon><fr:addr>sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
+type="user">sga1-i.11</fr:addr><fr:route>sga1-i.11.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Various addenda"><fr:link
+type="local"
 href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
 type="local"
-addr="sga1-i"><fr:link
 href="sga1.xml"
-type="local"
-addr="sga1">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Various addenda</fr:title><fr:number>I.11</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  We have already said that a connected étale cover of an integral scheme is not necessarily integral.
-  Here are two examples of this fact.
-</fr:p>
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Various addenda</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.11</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We have already said that a connected étale cover of an integral scheme is not necessarily integral.
+  Here are two examples of this fact.</fr:p>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
   
  <html:li
 style="list-style-type: &quot;a. &quot;">
-    Let <fr:tex>C</fr:tex> be an algebraic curve with an ordinary double point <fr:tex>x</fr:tex>, and let <fr:tex>C'</fr:tex> be its normalisation, with <fr:tex>a</fr:tex> and <fr:tex>b</fr:tex> the two points of <fr:tex>C'</fr:tex> over <fr:tex>x</fr:tex>.
-    Let <fr:tex>C'_1</fr:tex> and <fr:tex>C'_2</fr:tex> be copies of <fr:tex>C'</fr:tex>, with <fr:tex>a_i</fr:tex> (resp. <fr:tex>b_i</fr:tex>) the point of <fr:tex>C'_i</fr:tex> corresponding to <fr:tex>a</fr:tex> (resp. <fr:tex>b</fr:tex>).
-    In the curve <fr:tex>C'_1 \coprod  C'_2</fr:tex>, we identify <fr:tex>a_1</fr:tex> with <fr:tex>b_2</fr:tex>, and <fr:tex>a_2</fr:tex> with <fr:tex>b_1</fr:tex> (we leave making this process of identification precise to the reader; it will be explained in Chapter VI of the multiplodoque, but, in the case of curves over an algebraically closed field, is already covered in Serre's book on algebraic curves).
-    We obtain a curve <fr:tex>C''</fr:tex> that is <fr:em>connected</fr:em> and <fr:em>reducible</fr:em>, and is a degree-<fr:tex>2</fr:tex> étale cover of <fr:tex>C</fr:tex>.
-    The reader can verify that, generally, the "Galois" connected étale covers <fr:tex>C''</fr:tex> of <fr:tex>C</fr:tex> whose inverse images <fr:tex>C'' \times _C C'</fr:tex> are <fr:em>trivial</fr:em> covers of <fr:tex>C'</fr:tex> (i.e. isomorphic to the sum of a certain number of copies of <fr:tex>C'</fr:tex>) are "cyclic" of degree <fr:tex>n</fr:tex>, and, conversely, for every integer <fr:tex>n&gt;0</fr:tex>, we can construct a cyclic connected étale cover of degree <fr:tex>n</fr:tex>.
-    In the language of the fundamental group (which will be developed later), this implies that the quotient of <fr:tex>\pi _1(C)</fr:tex> by the closed invariant subgroup generated by the image of <fr:tex>\pi _1(C') \to \pi _1(C)</fr:tex> (the homomorphism induced by the projection) is isomorphic to the compactification of <fr:tex>\mathbb {Z}</fr:tex>.
-    More precisely, we should show that the fundamental group of <fr:tex>C</fr:tex> is isomorphic to the (topological) free product of the fundamental group of <fr:tex>C</fr:tex> with the compactification of <fr:tex>\mathbb {Z}</fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> be an algebraic curve with an ordinary double point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[C']]></fr:tex> be its normalisation, with <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> the two points of <fr:tex
+display="inline"><![CDATA[C']]></fr:tex> over <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[C'_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[C'_2]]></fr:tex> be copies of <fr:tex
+display="inline"><![CDATA[C']]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[a_i]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[b_i]]></fr:tex>) the point of <fr:tex
+display="inline"><![CDATA[C'_i]]></fr:tex> corresponding to <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>).
+    In the curve <fr:tex
+display="inline"><![CDATA[C'_1\coprod  C'_2]]></fr:tex>, we identify <fr:tex
+display="inline"><![CDATA[a_1]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b_2]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[a_2]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b_1]]></fr:tex> (we leave making this process of identification precise to the reader; it will be explained in Chapter VI of the multiplodoque, but, in the case of curves over an algebraically closed field, is already covered in Serre's book on algebraic curves).
+    We obtain a curve <fr:tex
+display="inline"><![CDATA[C'']]></fr:tex> that is <fr:em>connected</fr:em> and <fr:em>reducible</fr:em>, and is a degree-<fr:tex
+display="inline"><![CDATA[2]]></fr:tex> étale cover of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>.
+    The reader can verify that, generally, the "Galois" connected étale covers <fr:tex
+display="inline"><![CDATA[C'']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> whose inverse images <fr:tex
+display="inline"><![CDATA[C''\times _C C']]></fr:tex> are <fr:em>trivial</fr:em> covers of <fr:tex
+display="inline"><![CDATA[C']]></fr:tex> (i.e. isomorphic to the sum of a certain number of copies of <fr:tex
+display="inline"><![CDATA[C']]></fr:tex>) are "cyclic" of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, and, conversely, for every integer <fr:tex
+display="inline"><![CDATA[n>0]]></fr:tex>, we can construct a cyclic connected étale cover of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.
+    In the language of the fundamental group (which will be developed later), this implies that the quotient of <fr:tex
+display="inline"><![CDATA[\pi _1(C)]]></fr:tex> by the closed invariant subgroup generated by the image of <fr:tex
+display="inline"><![CDATA[\pi _1(C')\to \pi _1(C)]]></fr:tex> (the homomorphism induced by the projection) is isomorphic to the compactification of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>.
+    More precisely, we should show that the fundamental group of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> is isomorphic to the (topological) free product of the fundamental group of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> with the compactification of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>.
     We note that is was questions of this sort that gave birth to the "theory of descent" for schemes.
   </html:li>
 
@@ -400,53 +565,287 @@ style="list-style-type: &quot;a. &quot;">
   
  <html:li
 style="list-style-type: &quot;b. &quot;">
-    <fr:p>
-      Let <fr:tex>A</fr:tex> be a complete integral local ring;
-      we know that its normalisation <fr:tex>A'</fr:tex> is finite over <fr:tex>A</fr:tex> (by Nagata), and is thus a complete semi-local ring, and thus local, since it is integral.
-      Suppose that the residue extension <fr:tex>L/k</fr:tex> that it defines is non-radicial (in the contrary case, we say that <fr:tex>A</fr:tex> is <fr:em>geometrically unibranch</fr:em>; cf. below).
-      This will be the case, for example, for the ring <fr:tex>\mathbb {R}[{[s,t]}]/(s^2+t^2) \mathbb {R}[{[s,t]}]</fr:tex>, where <fr:tex>\mathbb {R}</fr:tex> is the field of real numbers.
-      Then let <fr:tex>k'</fr:tex> be a finite Galois extension of <fr:tex>k</fr:tex> such that <fr:tex>L \otimes _k k'</fr:tex> decomposes;
-      let <fr:tex>B</fr:tex> be a finite and étale algebra over <fr:tex>A</fr:tex> corresponding to the residue extension <fr:tex>k'</fr:tex> (recall that <fr:tex>B</fr:tex> is essentially unique).
-      Then the residue algebra of <fr:tex>B'=A' \otimes _A B</fr:tex> over <fr:tex>B</fr:tex> is <fr:tex>L \otimes _k k'</fr:tex>, which is not local, and so <fr:tex>B'</fr:tex> is not a local ring, and thus <fr:tex>B</fr:tex> has zero divisors (since it is complete).
-      Now <fr:tex>B'</fr:tex> is contained in the total ring of fractions of <fr:tex>B</fr:tex> (since it is free over <fr:tex>A'</fr:tex>, thus torsion free over <fr:tex>A'</fr:tex>, thus torsion free over <fr:tex>A</fr:tex>, thus contained in <fr:tex>B' \otimes _A K=B'_{(K)}=A'_{(K)} \otimes _K B_{(K)}=B_{(K)}</fr:tex>, since <fr:tex>A'_{(k)}=K</fr:tex>), and so <fr:tex>B</fr:tex> is not integral.
-      In the case of the ring <fr:tex>\mathbb {R}[s,t]/(s^2+t^2) \mathbb {R}[s,t]</fr:tex>, taking <fr:tex>k'/k= \mathbb {C}/ \mathbb {R}</fr:tex>, we see that <fr:tex>B</fr:tex> is the local ring of two secant lines at their point of intersection.
-    </fr:p>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a complete integral local ring;
+      we know that its normalisation <fr:tex
+display="inline"><![CDATA[A']]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> (by Nagata), and is thus a complete semi-local ring, and thus local, since it is integral.
+      Suppose that the residue extension <fr:tex
+display="inline"><![CDATA[L/k]]></fr:tex> that it defines is non-radicial (in the contrary case, we say that <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is <fr:em>geometrically unibranch</fr:em>; cf. below).
+      This will be the case, for example, for the ring <fr:tex
+display="inline"><![CDATA[\mathbb {R}[{[s,t]}]/(s^2+t^2)\mathbb {R}[{[s,t]}]]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is the field of real numbers.
+      Then let <fr:tex
+display="inline"><![CDATA[k']]></fr:tex> be a finite Galois extension of <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[L\otimes _k k']]></fr:tex> decomposes;
+      let <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be a finite and étale algebra over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> corresponding to the residue extension <fr:tex
+display="inline"><![CDATA[k']]></fr:tex> (recall that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is essentially unique).
+      Then the residue algebra of <fr:tex
+display="inline"><![CDATA[B'=A'\otimes _A B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[L\otimes _k k']]></fr:tex>, which is not local, and so <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> is not a local ring, and thus <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> has zero divisors (since it is complete).
+      Now <fr:tex
+display="inline"><![CDATA[B']]></fr:tex> is contained in the total ring of fractions of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> (since it is free over <fr:tex
+display="inline"><![CDATA[A']]></fr:tex>, thus torsion free over <fr:tex
+display="inline"><![CDATA[A']]></fr:tex>, thus torsion free over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, thus contained in <fr:tex
+display="inline"><![CDATA[B'\otimes _A K=B'_{(K)}=A'_{(K)}\otimes _K B_{(K)}=B_{(K)}]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[A'_{(k)}=K]]></fr:tex>), and so <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is not integral.
+      In the case of the ring <fr:tex
+display="inline"><![CDATA[\mathbb {R}[s,t]/(s^2+t^2)\mathbb {R}[s,t]]]></fr:tex>, taking <fr:tex
+display="inline"><![CDATA[k'/k=\mathbb {C}/\mathbb {R}]]></fr:tex>, we see that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is the local ring of two secant lines at their point of intersection.</fr:p>
 
-    <fr:p>
-      We note also that, if there exists a connected étale cover <fr:tex>X</fr:tex> of <fr:tex>Y</fr:tex> that is integral but not irreducible, then every irreducible component of <fr:tex>X</fr:tex> gives an example of an unramified cover <fr:tex>X'</fr:tex> of <fr:tex>Y</fr:tex> that dominates <fr:tex>Y</fr:tex> but is not étale over <fr:tex>Y</fr:tex>.
-      In the case of example (a), we thus see that <fr:tex>C'</fr:tex> is unramified over <fr:tex>C</fr:tex>, without being étale at the two points <fr:tex>a</fr:tex> and <fr:tex>b</fr:tex> (note that, directly, by inspection of the completions of the local rings at <fr:tex>x</fr:tex> and <fr:tex>a</fr:tex>, from the "formal" point of view, <fr:tex>C'</fr:tex> at the point <fr:tex>a</fr:tex> can be identified with a closed subscheme of <fr:tex>C</fr:tex> at the point <fr:tex>x</fr:tex>, i.e. one of the two "branches" of <fr:tex>C</fr:tex> passing through <fr:tex>x</fr:tex>).
-    </fr:p>
+    <fr:p>We note also that, if there exists a connected étale cover <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> that is integral but not irreducible, then every irreducible component of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> gives an example of an unramified cover <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> that dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> but is not étale over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      In the case of example (a), we thus see that <fr:tex
+display="inline"><![CDATA[C']]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, without being étale at the two points <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> (note that, directly, by inspection of the completions of the local rings at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, from the "formal" point of view, <fr:tex
+display="inline"><![CDATA[C']]></fr:tex> at the point <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> can be identified with a closed subscheme of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> at the point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, i.e. one of the two "branches" of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>).</fr:p>
   </html:li>
 
 </html:ol>
-<fr:p>
-  In both (a) and (b), we see that the fact that the conclusions of (i) and (ii) in <fr:ref
+<fr:p>In both (a) and (b), we see that the fact that the conclusions of (i) and (ii) in <fr:ref
 addr="sga1-i.9.5"
 href="sga1-i.9.5.xml"
 taxon="Theorem"
-number="I.9.5"></fr:ref> fail to hold is directly linked with the fact that a point of <fr:tex>Y</fr:tex> "blows up" at <fr:em>distinct</fr:em> points of the normalisation (in (b), the fact that the residue extension is non-radicial should be interpreted geometrically in this way).
-  More precisely, we say that an integral local ring <fr:tex>A</fr:tex> is <fr:em>geometrically unibranch</fr:em> if its normalisation has only a single maximal ideal, with the corresponding residue extension being radicial;
-  a point <fr:tex>y</fr:tex> of an integral prescheme is said to be geometrically unibranch if its local ring is geometrically unibranch.
+number="I.9.5" /> fail to hold is directly linked with the fact that a point of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> "blows up" at <fr:em>distinct</fr:em> points of the normalisation (in (b), the fact that the residue extension is non-radicial should be interpreted geometrically in this way).
+  More precisely, we say that an integral local ring <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is <fr:em>geometrically unibranch</fr:em> if its normalisation has only a single maximal ideal, with the corresponding residue extension being radicial;
+  a point <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> of an integral prescheme is said to be geometrically unibranch if its local ring is geometrically unibranch.
   <fr:em>Examples:</fr:em> a normal point, an ordinary cusp point of a curve, etc.
-  It seems that, if <fr:tex>Y</fr:tex> admits a point which is not unibranch, then there always exists a non-irreducible connected étale cover of <fr:tex>Y</fr:tex>;
-  at least, this is what we have shown in case (b), when <fr:tex>Y</fr:tex> is the spectrum of a complete local ring.
-  We can show, however, that <fr:em>if all the points of <fr:tex>Y</fr:tex> are geometrically unibranch, then every unramified connected <fr:tex>Y</fr:tex>-prescheme that dominates <fr:tex>Y</fr:tex> is étale and irreducible</fr:em>.
+  It seems that, if <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> admits a point which is not unibranch, then there always exists a non-irreducible connected étale cover of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>;
+  at least, this is what we have shown in case (b), when <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is the spectrum of a complete local ring.
+  We can show, however, that <fr:em>if all the points of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> are geometrically unibranch, then every unramified connected <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-prescheme that dominates <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is étale and irreducible</fr:em>.
   The proof follows that of <fr:ref
 addr="sga1-i.9.5"
 href="sga1-i.9.5.xml"
 taxon="Theorem"
-number="I.9.5"></fr:ref>, using the following generalisation of <fr:ref
+number="I.9.5" />, using the following generalisation of <fr:ref
 addr="sga1-i.8.3"
 href="sga1-i.8.3.xml"
 taxon="Theorem"
-number="I.8.3"></fr:ref>, which will be proved later by means of the technique of descent:(cf. [sga1-ix.4.10 <fr:strong>(?)</fr:strong>]. For a more direct demonstration, cf. EGA IV 18.10.3, using a variant of <fr:ref
+number="I.8.3" />, which will be proved later by means of the technique of descent:(cf. [sga1-ix.4.10 <fr:strong>(?)</fr:strong>]. For a more direct demonstration, cf. EGA IV 18.10.3, using a variant of <fr:ref
 addr="sga1-i.9.5"
 href="sga1-i.9.5.xml"
 taxon="Theorem"
-number="I.9.5"></fr:ref> for geometrically unibranch local rings.)</fr:p><fr:p><fr:em>
-    Let <fr:tex>Y' \to  Y</fr:tex> be a finite, radicial, and surjective morphism (i.e. what we could call a "universal homeomorphism").
-    Consider the functor <fr:tex>X \mapsto  X \times _Y Y'=X'</fr:tex> from <fr:tex>Y</fr:tex>-preschemes to <fr:tex>Y'</fr:tex>-preschemes.
-    This functor induces an equivalence between the category of étale <fr:tex>Y</fr:tex>-schemes and the category of étale <fr:tex>Y'</fr:tex>-schemes.
-  </fr:em>
-  We could apply this, for example, in the case where <fr:tex>Y'</fr:tex> is the normalisation of <fr:tex>Y</fr:tex>, with <fr:tex>Y</fr:tex> assumed to be unibranch (and <fr:tex>Y'</fr:tex> finite over <fr:tex>Y</fr:tex>, which is true in all the cases that one encounters in practice), or to to case of some <fr:tex>Y''</fr:tex> "sandwiched" between <fr:tex>Y</fr:tex> and its normalisation (which no longer need be finite over <fr:tex>Y</fr:tex>).
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+number="I.9.5" /> for geometrically unibranch local rings.)</fr:p><fr:p><fr:em>Let <fr:tex
+display="inline"><![CDATA[Y'\to  Y]]></fr:tex> be a finite, radicial, and surjective morphism (i.e. what we could call a "universal homeomorphism").
+    Consider the functor <fr:tex
+display="inline"><![CDATA[X\mapsto  X\times _Y Y'=X']]></fr:tex> from <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-preschemes to <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex>-preschemes.
+    This functor induces an equivalence between the category of étale <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-schemes and the category of étale <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex>-schemes.</fr:em>
+  We could apply this, for example, in the case where <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> is the normalisation of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> assumed to be unibranch (and <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, which is true in all the cases that one encounters in practice), or to to case of some <fr:tex
+display="inline"><![CDATA[Y'']]></fr:tex> "sandwiched" between <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> and its normalisation (which no longer need be finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>653</fr:anchor><fr:addr
+type="user">sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a prescheme, and let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-preschemes.
+    Let <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> be a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that has the same underlying space as <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[X_0=X\times _S S_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y_0=Y\times _S S_0]]></fr:tex> be the "restrictions" of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>.
+    Suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+    Then the natural map
+    <fr:tex
+display="block"><![CDATA[\operatorname {Hom}_S(Y,X) \to  \operatorname {Hom}_{S_0}(X_0,Y_0)]]></fr:tex>
+    is <fr:em>bijective</fr:em>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can again reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and then this follows from the "topological" description of sections of <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex> given in <fr:ref
+addr="sga1-i.5.3"
+href="sga1-i.5.3.xml"
+taxon="Corollary"
+number="I.5.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>654</fr:anchor><fr:addr
+type="user">sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be a prescheme, <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> a sub-prescheme, <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> an étale <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-scheme, and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> a point of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>.
+    Then there exists an étale <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and a <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-isomorphism <fr:tex
+display="inline"><![CDATA[U_0\xrightarrow {\sim }X\times _Y Y_0]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:addr
+type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>;
+      applying <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6" /> to the étale local homomorphism <fr:tex
+display="inline"><![CDATA[A_0\to  B_0]]></fr:tex> of local rings of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, we obtain an isomorphism
+      <fr:tex
+display="block"><![CDATA[         \begin {aligned}           B_0 &= (C_0)_{\mathfrak {n}_0}         \\C_0 &= A_0[t]/F_0A_0[t]         \end {aligned}       ]]></fr:tex>
+      where <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> is a monic polynomial, and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> is a maximal ideal of <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex> not containing the class of <fr:tex
+display="inline"><![CDATA[F'_0(t)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be the local ring of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a monic polynomial in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> that gives <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> under the surjective homomorphism <fr:tex
+display="inline"><![CDATA[A\to  A_0]]></fr:tex> (we lift the coefficients of <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex>), and let <fr:tex
+display="inline"><![CDATA[C=A[t]/FA[t]]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> the maximal ideal of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> given by the inverse image of <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> under the natural epimorphism <fr:tex
+display="inline"><![CDATA[C\to  C\otimes _A A_0=C_0]]></fr:tex>.
+      Let
+      <fr:tex
+display="block"><![CDATA[         B = C_\mathfrak {n}.       ]]></fr:tex>
+      It is immediate, by construction and by <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1" />, that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and that we have an isomorphism <fr:tex
+display="inline"><![CDATA[B\otimes _A A_0=A_0]]></fr:tex>.</fr:p>
+
+    <fr:p>We know that there exists a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of finite type, along with a point <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-isomorphic to <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>;
+      since the latter is étale over <fr:tex
+display="inline"><![CDATA[A=\mathcal {O}_y]]></fr:tex>, we can (by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough) assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X'_0=X\times _Y Y_0]]></fr:tex>.
+      Then the local ring of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> can be identified with <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z\otimes _A A_0=B\otimes _A A_0]]></fr:tex>, and is thus isomorphic to <fr:tex
+display="inline"><![CDATA[B_0]]></fr:tex>.
+      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to a neighbourhood of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex>, and we can assume this to be identical to <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

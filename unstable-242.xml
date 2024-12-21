@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>764</fr:anchor><fr:addr
+type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>;
+      applying <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6" /> to the étale local homomorphism <fr:tex
+display="inline"><![CDATA[A_0\to  B_0]]></fr:tex> of local rings of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, we obtain an isomorphism
+      <fr:tex
+display="block"><![CDATA[         \begin {aligned}           B_0 &= (C_0)_{\mathfrak {n}_0}         \\C_0 &= A_0[t]/F_0A_0[t]         \end {aligned}       ]]></fr:tex>
+      where <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> is a monic polynomial, and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> is a maximal ideal of <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex> not containing the class of <fr:tex
+display="inline"><![CDATA[F'_0(t)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be the local ring of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a monic polynomial in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> that gives <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> under the surjective homomorphism <fr:tex
+display="inline"><![CDATA[A\to  A_0]]></fr:tex> (we lift the coefficients of <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex>), and let <fr:tex
+display="inline"><![CDATA[C=A[t]/FA[t]]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> the maximal ideal of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> given by the inverse image of <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> under the natural epimorphism <fr:tex
+display="inline"><![CDATA[C\to  C\otimes _A A_0=C_0]]></fr:tex>.
+      Let
+      <fr:tex
+display="block"><![CDATA[         B = C_\mathfrak {n}.       ]]></fr:tex>
+      It is immediate, by construction and by <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1" />, that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and that we have an isomorphism <fr:tex
+display="inline"><![CDATA[B\otimes _A A_0=A_0]]></fr:tex>.</fr:p>
+
+    <fr:p>We know that there exists a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of finite type, along with a point <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-isomorphic to <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>;
+      since the latter is étale over <fr:tex
+display="inline"><![CDATA[A=\mathcal {O}_y]]></fr:tex>, we can (by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough) assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X'_0=X\times _Y Y_0]]></fr:tex>.
+      Then the local ring of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> can be identified with <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z\otimes _A A_0=B\otimes _A A_0]]></fr:tex>, and is thus isomorphic to <fr:tex
+display="inline"><![CDATA[B_0]]></fr:tex>.
+      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to a neighbourhood of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex>, and we can assume this to be identical to <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr
+type="user">sga1-i.8.1</fr:addr><fr:route>sga1-i.8.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.8.1</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be a prescheme, <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> a sub-prescheme, <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex> an étale <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-scheme, and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> a point of <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>.
+    Then there exists an étale <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, and a <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>-isomorphism <fr:tex
+display="inline"><![CDATA[U_0\xrightarrow {\sim }X\times _Y Y_0]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:addr
+type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be the projection of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex>;
+      applying <fr:ref
+addr="sga1-i.7.6"
+href="sga1-i.7.6.xml"
+taxon="Theorem"
+number="I.7.6" /> to the étale local homomorphism <fr:tex
+display="inline"><![CDATA[A_0\to  B_0]]></fr:tex> of local rings of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_0]]></fr:tex>, we obtain an isomorphism
+      <fr:tex
+display="block"><![CDATA[         \begin {aligned}           B_0 &= (C_0)_{\mathfrak {n}_0}         \\C_0 &= A_0[t]/F_0A_0[t]         \end {aligned}       ]]></fr:tex>
+      where <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> is a monic polynomial, and <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> is a maximal ideal of <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex> not containing the class of <fr:tex
+display="inline"><![CDATA[F'_0(t)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[C_0]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be the local ring of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a monic polynomial in <fr:tex
+display="inline"><![CDATA[A[t]]]></fr:tex> that gives <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex> under the surjective homomorphism <fr:tex
+display="inline"><![CDATA[A\to  A_0]]></fr:tex> (we lift the coefficients of <fr:tex
+display="inline"><![CDATA[F_0]]></fr:tex>), and let <fr:tex
+display="inline"><![CDATA[C=A[t]/FA[t]]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> the maximal ideal of <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> given by the inverse image of <fr:tex
+display="inline"><![CDATA[\mathfrak {n}_0]]></fr:tex> under the natural epimorphism <fr:tex
+display="inline"><![CDATA[C\to  C\otimes _A A_0=C_0]]></fr:tex>.
+      Let
+      <fr:tex
+display="block"><![CDATA[         B = C_\mathfrak {n}.       ]]></fr:tex>
+      It is immediate, by construction and by <fr:ref
+addr="sga1-i.7.1"
+href="sga1-i.7.1.xml"
+taxon="Proposition"
+number="I.7.1" />, that <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and that we have an isomorphism <fr:tex
+display="inline"><![CDATA[B\otimes _A A_0=A_0]]></fr:tex>.</fr:p>
+
+    <fr:p>We know that there exists a <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of finite type, along with a point <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-isomorphic to <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>;
+      since the latter is étale over <fr:tex
+display="inline"><![CDATA[A=\mathcal {O}_y]]></fr:tex>, we can (by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough) assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X'_0=X\times _Y Y_0]]></fr:tex>.
+      Then the local ring of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> can be identified with <fr:tex
+display="inline"><![CDATA[\mathcal {O}_z\otimes _A A_0=B\otimes _A A_0]]></fr:tex>, and is thus isomorphic to <fr:tex
+display="inline"><![CDATA[B_0]]></fr:tex>.
+      This isomorphism is defined by an isomorphism from a neighbourhood <fr:tex
+display="inline"><![CDATA[U_0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to a neighbourhood of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex>, and we can assume this to be identical to <fr:tex
+display="inline"><![CDATA[X'_0]]></fr:tex> by taking <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be small enough.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

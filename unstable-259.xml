@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>798</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can again reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and then this follows from the "topological" description of sections of <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex> given in <fr:ref
+addr="sga1-i.5.3"
+href="sga1-i.5.3.xml"
+taxon="Corollary"
+number="I.5.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>799</fr:anchor><fr:addr
+type="user">sga1-i.5.5</fr:addr><fr:route>sga1-i.5.5.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.5.5</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a prescheme, and let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-preschemes.
+    Let <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex> be a closed sub-prescheme of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that has the same underlying space as <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[X_0=X\times _S S_0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y_0=Y\times _S S_0]]></fr:tex> be the "restrictions" of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[S_0]]></fr:tex>.
+    Suppose that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+    Then the natural map
+    <fr:tex
+display="block"><![CDATA[\operatorname {Hom}_S(Y,X) \to  \operatorname {Hom}_{S_0}(X_0,Y_0)]]></fr:tex>
+    is <fr:em>bijective</fr:em>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can again reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and then this follows from the "topological" description of sections of <fr:tex
+display="inline"><![CDATA[X/Y]]></fr:tex> given in <fr:ref
+addr="sga1-i.5.3"
+href="sga1-i.5.3.xml"
+taxon="Corollary"
+number="I.5.3" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

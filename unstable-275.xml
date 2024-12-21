@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>830</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We know that this normalisation is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is normal, and <fr:tex
+display="inline"><![CDATA[R/K]]></fr:tex> separable);
+      conversely, if <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, then it is also finite over <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex>, and so its image in <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> is closed (and it is also dense).</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>831</fr:anchor><fr:addr
+type="user">sga1-i.10.2</fr:addr><fr:route>sga1-i.10.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.2</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of <fr:ref
+addr="sga1-i.10.1"
+href="sga1-i.10.1.xml"
+taxon="Proposition"
+number="I.10.1" />, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (i.e. an étale cover of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>) if and only if <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is isomorphic to the normalisation <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[L=R(X)]]></fr:tex> (the ring of rational functions on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>).</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We know that this normalisation is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is normal, and <fr:tex
+display="inline"><![CDATA[R/K]]></fr:tex> separable);
+      conversely, if <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, then it is also finite over <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex>, and so its image in <fr:tex
+display="inline"><![CDATA[Y']]></fr:tex> is closed (and it is also dense).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

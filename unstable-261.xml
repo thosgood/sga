@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By replacing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[X\times _S Y]]></fr:tex>, we can reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and this is then a particular case of <fr:ref
+addr="sga1-i.5.5"
+href="sga1-i.5.5.xml"
+taxon="Theorem"
+number="I.5.5" /> for <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:addr
+type="user">sga1-i.5.6</fr:addr><fr:route>sga1-i.5.6.xml</fr:route><fr:title
+text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms › Extension of liftings"><fr:link
+type="local"
+href="sga1-i.5.xml"
+addr="sga1-i.5"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms › Fundamental property of étale morphisms"><fr:link
+type="local"
+href="sga1-i.xml"
+addr="sga1-i"
+title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
+type="local"
+href="sga1.xml"
+addr="sga1"
+title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Fundamental property of étale morphisms</fr:link> › Extension of liftings</fr:title><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.5.6</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Consider a commutative diagram of morphisms
+    <fr:tex
+display="block"><![CDATA[       \begin {CD}         X @<<< Y_0       \\@VVV @VVV       \\S @<<< Y       \end {CD}     ]]></fr:tex>
+    where <fr:tex
+display="inline"><![CDATA[X\to  S]]></fr:tex> is étale, and <fr:tex
+display="inline"><![CDATA[Y_0\to  Y]]></fr:tex> is a bijective closed immersion.
+    Then we can find a unique morphism <fr:tex
+display="inline"><![CDATA[Y\to  X]]></fr:tex> such that the two corresponding triangles commute.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By replacing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[X\times _S Y]]></fr:tex>, we can reduce to the case where <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>, and this is then a particular case of <fr:ref
+addr="sga1-i.5.5"
+href="sga1-i.5.5.xml"
+taxon="Theorem"
+number="I.5.5" /> for <fr:tex
+display="inline"><![CDATA[Y=S]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
