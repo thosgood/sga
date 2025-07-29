@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr
-type="user">sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title
-text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem › -rings (formal preliminaries)"><fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:link> › <fr:tex
-display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title><fr:authors /><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>743</fr:anchor><fr:addr
-type="user">sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title
-text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
-type="user">sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title
-text="-Rings (formal preliminaries)"><fr:tex
-display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title><fr:authors /><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>741</fr:anchor>
+    <fr:addr type="user">sga6-0rrr.i</fr:addr>
+    <fr:route>sga6-0rrr.i.xml</fr:route>
+    <fr:title text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem › -rings (formal preliminaries)"><fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:link> › <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title>
+    <fr:authors />
+    <fr:number>I</fr:number>
+    <fr:parent>sga6-0rrr</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>...</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>742</fr:anchor>
+            <fr:addr type="user">sga6-0rrr</fr:addr>
+            <fr:route>sga6-0rrr.xml</fr:route>
+            <fr:title text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title>
+            <fr:taxon>Exposé</fr:taxon>
+            <fr:authors />
+            <fr:number>0RRR</fr:number>
+            <fr:parent>sga6</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>...</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>743</fr:anchor>
+                <fr:addr type="user">sga6-0rrr.i</fr:addr>
+                <fr:route>sga6-0rrr.i.xml</fr:route>
+                <fr:title text="-Rings (formal preliminaries)"><fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title>
+                <fr:authors />
+                <fr:number>I</fr:number>
+                <fr:parent>sga6-0rrr</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>...</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

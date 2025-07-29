@@ -1,856 +1,577 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:addr
-type="user">sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title
-text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
-type="user">sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title
-text="-Rings (formal preliminaries)"><fr:tex
-display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title><fr:authors /><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:addr
-type="user">sga6</fr:addr><fr:route>sga6.xml</fr:route><fr:title
-text="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>851</fr:anchor><fr:addr
-type="user">sga6-introduction</fr:addr><fr:route>sga6-introduction.xml</fr:route><fr:title
-text="Introduction">Introduction</fr:title><fr:authors /><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>852</fr:anchor><fr:addr
-type="user">sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title
-text="Outline of a programme for a theory of intersections">Outline of a programme for a theory of intersections</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
-  It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</fr:link>), which is reproduced as <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</fr:link> at the end of this current exposé.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:addr
-type="user">sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
-  <fr:tex
-display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
-  of smooth quasi-projective schemes over a field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>:
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>848</fr:anchor>
+    <fr:addr type="user">sga6-0rrr</fr:addr>
+    <fr:route>sga6-0rrr.xml</fr:route>
+    <fr:title text="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem"><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Classes of sheaves and the Riemann–Roch theorem</fr:title>
+    <fr:taxon>Exposé</fr:taxon>
+    <fr:authors />
+    <fr:number>0RRR</fr:number>
+    <fr:parent>sga6</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>...</fr:p>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>743</fr:anchor>
+        <fr:addr type="user">sga6-0rrr.i</fr:addr>
+        <fr:route>sga6-0rrr.i.xml</fr:route>
+        <fr:title text="-Rings (formal preliminaries)"><fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title>
+        <fr:authors />
+        <fr:number>I</fr:number>
+        <fr:parent>sga6-0rrr</fr:parent>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>...</fr:p>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>849</fr:anchor>
+            <fr:addr type="user">sga6</fr:addr>
+            <fr:route>sga6.xml</fr:route>
+            <fr:title text="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>850</fr:anchor>
+                <fr:addr type="user">sga6-introduction</fr:addr>
+                <fr:route>sga6-introduction.xml</fr:route>
+                <fr:title text="Introduction">Introduction</fr:title>
+                <fr:authors />
+                <fr:parent>sga6</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>...</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>851</fr:anchor>
+                <fr:addr type="user">sga6-0</fr:addr>
+                <fr:route>sga6-0.xml</fr:route>
+                <fr:title text="Outline of a programme for a theory of intersections">Outline of a programme for a theory of intersections</fr:title>
+                <fr:taxon>Exposé</fr:taxon>
+                <fr:authors />
+                <fr:number>0</fr:number>
+                <fr:parent>sga6</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
+  It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</fr:link>), which is reproduced as <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</fr:link> at the end of this current exposé.</fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>720</fr:anchor>
+                    <fr:addr type="user">sga6-0.1</fr:addr>
+                    <fr:route>sga6-0.1.xml</fr:route>
+                    <fr:taxon>Section</fr:taxon>
+                    <fr:authors />
+                    <fr:number>1</fr:number>
+                    <fr:parent>sga6-0</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
+  <fr:tex display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
+  of smooth quasi-projective schemes over a field <fr:tex display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>:
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  where <fr:tex
-display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex
-display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.).
-  This formula holds in <fr:tex
-display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>;
-  the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
-  and the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>:
-  <fr:tex
-display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
-  As we know, <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
-  Since the constant term of <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref
-addr="sga6-0.1-equation-1.1"
-href="sga6-0.1-equation-1.1.xml"
-taxon="Equation"
-number="1.1" /> can be rewritten, after multiplication by <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
+  where <fr:tex display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.).
+  This formula holds in <fr:tex display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>;
+  the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
+  and the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[f]]></fr:tex>:
+  <fr:tex display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
+  As we know, <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
+  Since the constant term of <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref addr="sga6-0.1-equation-1.1" href="sga6-0.1-equation-1.1.xml" taxon="Equation" number="1.1" /> can be rewritten, after multiplication by <fr:tex display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
   
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
   where we set
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  so that <fr:tex
-display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  In the case where the morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
-  <fr:tex
-display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
-  (the tangent bundle along the fibres) and so, in the case where <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
-  <fr:tex
-display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> simultaneously in two directions:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+  so that <fr:tex display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  In the case where the morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
+  <fr:tex display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
+  (the tangent bundle along the fibres) and so, in the case where <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
+  <fr:tex display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> simultaneously in two directions:</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;a. &quot;">
-    Remove the hypothesis of the existence of a base field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
+ <html:li style="list-style-type: &quot;a. &quot;">
+    Remove the hypothesis of the existence of a base field <fr:tex display="inline"><![CDATA[k]]></fr:tex>.
   </html:li>
 
   
- <html:li
-style="list-style-type: &quot;b. &quot;">
-    Replace the regularity hypotheses on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>.
+ <html:li style="list-style-type: &quot;b. &quot;">
+    Replace the regularity hypotheses on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex display="inline"><![CDATA[f]]></fr:tex>.
   </html:li>
 
 </html:ol>
 <fr:p>Finally, along the way, we will equally deal with the problem:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;c. &quot;">
-    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
+ <html:li style="list-style-type: &quot;c. &quot;">
+    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
   </html:li>
 
 </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr
-type="user">sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now examine generalisation (a) from <fr:link
-type="local"
-href="sga6-0.1.xml"
-addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>The definition of <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex
-display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> are regular.
-  The most natural route to giving meaning to <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex
-display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
+</fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>721</fr:anchor>
+                    <fr:addr type="user">sga6-0.2</fr:addr>
+                    <fr:route>sga6-0.2.xml</fr:route>
+                    <fr:taxon>Section</fr:taxon>
+                    <fr:authors />
+                    <fr:number>2</fr:number>
+                    <fr:parent>sga6-0</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>We now examine generalisation (a) from <fr:link type="local" href="sga6-0.1.xml" addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+                    <fr:p>The definition of <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
   as well as establishing a theory of Chern classes, providing maps
-  <fr:tex
-display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
-  (and similarly for <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
-  <fr:tex
-display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:addr
-type="user">sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>853</fr:anchor><fr:addr
-type="user">sga6-0rrr</fr:addr><fr:route>sga6-0rrr.xml</fr:route><fr:title
-text="Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>0RRR</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
-type="user">sga6-0rrr.i</fr:addr><fr:route>sga6-0rrr.i.xml</fr:route><fr:title
-text="-Rings (formal preliminaries)"><fr:tex
-display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title><fr:authors /><fr:number>I</fr:number><fr:parent>sga6-0rrr</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>854</fr:anchor><fr:addr
-type="user">sga6-i</fr:addr><fr:route>sga6-i.xml</fr:route><fr:title
-text="Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>I</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>855</fr:anchor><fr:addr
-type="user">sga6-i.0</fr:addr><fr:route>sga6-i.0.xml</fr:route><fr:title
-text="Introduction">Introduction</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.0</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</fr:p><fr:p>As was mentioned in <fr:ref
-addr="sga6-0"
-href="sga6-0.xml"
-taxon="Exposé"
-number="0" />, it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</fr:p><fr:p>The classical notion of coherent sheaves on a ringed space <fr:tex
-display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex> becomes uninteresting as soon as <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is no longer coherent.
+  <fr:tex display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
+  (and similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p>
+                    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                      <fr:frontmatter>
+                        <fr:anchor>722</fr:anchor>
+                        <fr:addr type="user">sga6-0.2.1</fr:addr>
+                        <fr:route>sga6-0.2.1.xml</fr:route>
+                        <fr:taxon>Section</fr:taxon>
+                        <fr:authors />
+                        <fr:number>2.1</fr:number>
+                        <fr:parent>sga6-0.2</fr:parent>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <fr:p>For</fr:p>
+                        <fr:p>
+                          <fr:strong>
+                            <fr:em>TO-DO: finish</fr:em>
+                          </fr:strong>
+                        </fr:p>
+                      </fr:mainmatter>
+                      <fr:backmatter />
+                    </fr:tree>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>852</fr:anchor>
+                <fr:addr type="user">sga6-0rrr</fr:addr>
+                <fr:route>sga6-0rrr.xml</fr:route>
+                <fr:title text="Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:title>
+                <fr:taxon>Exposé</fr:taxon>
+                <fr:authors />
+                <fr:number>0RRR</fr:number>
+                <fr:parent>sga6</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>...</fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>743</fr:anchor>
+                    <fr:addr type="user">sga6-0rrr.i</fr:addr>
+                    <fr:route>sga6-0rrr.i.xml</fr:route>
+                    <fr:title text="-Rings (formal preliminaries)"><fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-rings (formal preliminaries)</fr:title>
+                    <fr:authors />
+                    <fr:number>I</fr:number>
+                    <fr:parent>sga6-0rrr</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>...</fr:p>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>853</fr:anchor>
+                <fr:addr type="user">sga6-i</fr:addr>
+                <fr:route>sga6-i.xml</fr:route>
+                <fr:title text="Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:title>
+                <fr:taxon>Exposé</fr:taxon>
+                <fr:authors />
+                <fr:number>I</fr:number>
+                <fr:parent>sga6</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>854</fr:anchor>
+                    <fr:addr type="user">sga6-i.0</fr:addr>
+                    <fr:route>sga6-i.0.xml</fr:route>
+                    <fr:title text="Introduction">Introduction</fr:title>
+                    <fr:taxon>Section</fr:taxon>
+                    <fr:authors />
+                    <fr:number>I.0</fr:number>
+                    <fr:parent>sga6-i</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter><fr:p>The aim of Exposés I to IV is to develop, with generality suitable for this seminar, the formalism of finiteness conditions in the derived categories of ringed toposes.</fr:p><fr:p>As was mentioned in <fr:ref addr="sga6-0" href="sga6-0.xml" taxon="Exposé" number="0" />, it is the need to define "Grothendieck groups" that have good variance properties on arbitrary schemes that requires us to generalise and relax the notions of finiteness used up until now.</fr:p><fr:p>The classical notion of coherent sheaves on a ringed space <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex> becomes uninteresting as soon as <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is no longer coherent.
   We could think of replacing the notion of coherence by the notion of finite presentation, but this presents the inconvenience that the kernel of an epimorphism of modules of finite presentation is not itself, in general, of finite presentation.
-  We arrive at a satisfying notion by remarking that, if <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is coherent, then a coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is not only of finite presentation but also of finite <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-presentation for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, where "finite <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-presentation" means that there exists, locally, an exact sequence
-  <fr:tex
-display="block"><![CDATA[\mathcal {L}_n \to  \mathcal {L}_{n-1} \to  \ldots  \to  \mathcal {L}_0 \to  \mathcal {F} \to  0]]></fr:tex>
-  where the <fr:tex
-display="inline"><![CDATA[\mathcal {L}_i]]></fr:tex> are free and of finite type.
-  If we no longer suppose the sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> to be coherent, then we say that an <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is <fr:em>pseudo-coherent</fr:em> if it satisfies the above condition, i.e. if it is of finite <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-presentation for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.
-  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules are pseudo-coherent, then so too is the third.
-  We can easily generalise the above notion to complexes of sheaves: a <fr:em>complex</fr:em> <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules is said to be <fr:em>pseudo-coherent</fr:em> if it is <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-pseudo-coherent for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>, where "<fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-pseudo coherent" means that there exists, locally, a quasi-isomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {L}\xrightarrow {\sim }\mathcal {F}]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a bounded-above complex, whose components in degree <fr:tex
-display="inline"><![CDATA[\geq  n]]></fr:tex> are free sheaves of finite type.
-  For a complex <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> concentrated in degree <fr:tex
-display="inline"><![CDATA[0]]></fr:tex>, to say that <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
-  The notion of a pseudo-coherent complex has excellent stability properties, described in <fr:ref
-addr="sga6-i.1"
-href="sga6-i.1.xml"
-taxon="Section"
-number="I.1" /> and [sga6-i.2 <fr:strong>(?)</fr:strong>].
-  Firstly, it is stable under isomorphism in the derived category <fr:tex
-display="inline"><![CDATA[D(X)]]></fr:tex> of the category of <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules;
-  even better, if two objects of a distinguished triangle in <fr:tex
-display="inline"><![CDATA[D(X)]]></fr:tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <fr:tex
-display="inline"><![CDATA[D(X)_\mathrm {coh}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[D(X)]]></fr:tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
+  We arrive at a satisfying notion by remarking that, if <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is coherent, then a coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is not only of finite presentation but also of finite <fr:tex display="inline"><![CDATA[n]]></fr:tex>-presentation for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, where "finite <fr:tex display="inline"><![CDATA[n]]></fr:tex>-presentation" means that there exists, locally, an exact sequence
+  <fr:tex display="block"><![CDATA[\mathcal {L}_n \to  \mathcal {L}_{n-1} \to  \ldots  \to  \mathcal {L}_0 \to  \mathcal {F} \to  0]]></fr:tex>
+  where the <fr:tex display="inline"><![CDATA[\mathcal {L}_i]]></fr:tex> are free and of finite type.
+  If we no longer suppose the sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> to be coherent, then we say that an <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-module <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is <fr:em>pseudo-coherent</fr:em> if it satisfies the above condition, i.e. if it is of finite <fr:tex display="inline"><![CDATA[n]]></fr:tex>-presentation for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.
+  Then the notion of pseudo-coherence possesses, with respect to short exact sequences, the same stability property as the notion of coherence: if two of the terms of a short exact sequence of <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules are pseudo-coherent, then so too is the third.
+  We can easily generalise the above notion to complexes of sheaves: a <fr:em>complex</fr:em> <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules is said to be <fr:em>pseudo-coherent</fr:em> if it is <fr:tex display="inline"><![CDATA[n]]></fr:tex>-pseudo-coherent for all <fr:tex display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>, where "<fr:tex display="inline"><![CDATA[n]]></fr:tex>-pseudo coherent" means that there exists, locally, a quasi-isomorphism <fr:tex display="inline"><![CDATA[\mathcal {L}\xrightarrow {\sim }\mathcal {F}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a bounded-above complex, whose components in degree <fr:tex display="inline"><![CDATA[\geq  n]]></fr:tex> are free sheaves of finite type.
+  For a complex <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> concentrated in degree <fr:tex display="inline"><![CDATA[0]]></fr:tex>, to say that <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent as a complex is equivalent to saying that it is pseudo-coherent as a module.
+  The notion of a pseudo-coherent complex has excellent stability properties, described in <fr:ref addr="sga6-i.1" href="sga6-i.1.xml" taxon="Section" number="I.1" /> and [sga6-i.2 <fr:strong>(?)</fr:strong>].
+  Firstly, it is stable under isomorphism in the derived category <fr:tex display="inline"><![CDATA[D(X)]]></fr:tex> of the category of <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules;
+  even better, if two objects of a distinguished triangle in <fr:tex display="inline"><![CDATA[D(X)]]></fr:tex> are pseudo-coherent, then so too is the third: in other words, the full subcategory <fr:tex display="inline"><![CDATA[D(X)_\mathrm {coh}]]></fr:tex> of <fr:tex display="inline"><![CDATA[D(X)]]></fr:tex> consisting of pseudo-coherent complexes is a triangulated subcategory.
   Furthermore, pseudo-coherence is preserved under inverse images and derived tensor products.
-  In the case where <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is coherent, to say that a complex <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent simply means that the cohomology of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is locally bounded above and that all the <fr:tex
-display="inline"><![CDATA[\mathcal {H}^i(\mathcal {F})]]></fr:tex> are coherent.</fr:p><fr:p>If <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is a sheaf of regular local rings, then every coherent <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> locally admits a <fr:em>finite</fr:em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
-  <fr:tex
-display="block"><![CDATA[0\to \mathcal {L}_n \to  \mathcal {L}_{n-1} \to  \ldots  \to  \mathcal {L}_0 \to  \mathcal {F} \to  0]]></fr:tex>
-  where the <fr:tex
-display="inline"><![CDATA[\mathcal {L}_i]]></fr:tex> are free and of finite type.
-  It is thus natural, when <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
+  In the case where <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is coherent, to say that a complex <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent simply means that the cohomology of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is locally bounded above and that all the <fr:tex display="inline"><![CDATA[\mathcal {H}^i(\mathcal {F})]]></fr:tex> are coherent.</fr:p><fr:p>If <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is a sheaf of regular local rings, then every coherent <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-module <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> locally admits a <fr:em>finite</fr:em> left resolution by free modules of finite type, i.e. there exists, locally, an exact sequence
+  <fr:tex display="block"><![CDATA[0\to \mathcal {L}_n \to  \mathcal {L}_{n-1} \to  \ldots  \to  \mathcal {L}_0 \to  \mathcal {F} \to  0]]></fr:tex>
+  where the <fr:tex display="inline"><![CDATA[\mathcal {L}_i]]></fr:tex> are free and of finite type.
+  It is thus natural, when <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is a sheaf of arbitrary local rings, to consider modules that enjoy the above property;
   such modules are called <fr:em>perfect</fr:em>.
-  More generally, we say that a <fr:em>complex</fr:em> <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules is <fr:em>perfect</fr:em> if there exists, locally, a quasi-isomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {L}\xrightarrow {\sim }\mathcal {F}]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a bounded complex of free modules of finite type.
-  In [sga6-i.3 <fr:strong>(?)</fr:strong>], we show that the full subcategory <fr:tex
-display="inline"><![CDATA[D(X)_\mathrm {perf}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[D(X)]]></fr:tex> consisting of perfect complexes is, like <fr:tex
-display="inline"><![CDATA[D(X)_\mathrm {coh}]]></fr:tex>, a triangulated subcategory that is "stable" under inverse images and derived tensor products.
-  We clearly have that <fr:tex
-display="inline"><![CDATA[D(X)_\mathrm {perf}\subseteq  D(X)_\mathrm {coh}]]></fr:tex>, but the inclusion is strict in general.
-  Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent if and only if, for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> can be "locally approximated to order <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
-  <fr:tex
-display="block"><![CDATA[\mathcal {L} \to  \mathcal {F} \to  \mathcal {R} \to  \mathcal {L}[1]]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is perfect, and <fr:tex
-display="inline"><![CDATA[\mathcal {R}]]></fr:tex> is acyclic in degree <fr:tex
-display="inline"><![CDATA[\geq  n]]></fr:tex>.
+  More generally, we say that a <fr:em>complex</fr:em> <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules is <fr:em>perfect</fr:em> if there exists, locally, a quasi-isomorphism <fr:tex display="inline"><![CDATA[\mathcal {L}\xrightarrow {\sim }\mathcal {F}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a bounded complex of free modules of finite type.
+  In [sga6-i.3 <fr:strong>(?)</fr:strong>], we show that the full subcategory <fr:tex display="inline"><![CDATA[D(X)_\mathrm {perf}]]></fr:tex> of <fr:tex display="inline"><![CDATA[D(X)]]></fr:tex> consisting of perfect complexes is, like <fr:tex display="inline"><![CDATA[D(X)_\mathrm {coh}]]></fr:tex>, a triangulated subcategory that is "stable" under inverse images and derived tensor products.
+  We clearly have that <fr:tex display="inline"><![CDATA[D(X)_\mathrm {perf}\subseteq  D(X)_\mathrm {coh}]]></fr:tex>, but the inclusion is strict in general.
+  Pseudo-coherence can also be defined "by passing to the limit" from perfectness: a complex <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent if and only if, for all <fr:tex display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> can be "locally approximated to order <fr:tex display="inline"><![CDATA[n]]></fr:tex> by a perfect complex", by which we mean that there exists, locally, a distinguished triangle
+  <fr:tex display="block"><![CDATA[\mathcal {L} \to  \mathcal {F} \to  \mathcal {R} \to  \mathcal {L}[1]]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is perfect, and <fr:tex display="inline"><![CDATA[\mathcal {R}]]></fr:tex> is acyclic in degree <fr:tex display="inline"><![CDATA[\geq  n]]></fr:tex>.
   Conversely, perfectness can be recovered from pseudo-coherence by an additional regularity condition: a complex is perfect if and only if it is pseudo-coherent and locally of finite tor-dimension (cf. [sga6-i.5 <fr:strong>(?)</fr:strong>]).
   We thus recover the fact that, if the local rings are regular, then every coherent sheaf is perfect, and, more generally, that every pseudo-coherent complex with locally bounded cohomology is perfect.</fr:p><fr:p>Pseudo-coherence and perfectness are the two fundamental notions of finiteness with which we will work in this seminar.
   Sections I.1 to I.5 of this present exposé are dedicated to their definition, and to establishing their elementary stability properties.
   For this, we only use two or three local properties of the category of free modules of finite type with respect to the category of all modules.
-  It also turns out to be practical — and useful, most notably in [sga6-ii <fr:strong>(?)</fr:strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.</fr:p><fr:p>Sections I.6 to I.8 of this present exposé generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.</fr:p><fr:p>In [sga6-ii <fr:strong>(?)</fr:strong>], we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos <fr:tex
-display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex>, is a pseudo-coherent (resp. perfect) complex <fr:em>globally</fr:em> isomorphic in <fr:tex
-display="inline"><![CDATA[D(X)]]></fr:tex> to a complex of locally free modules of finite type?
+  It also turns out to be practical — and useful, most notably in [sga6-ii <fr:strong>(?)</fr:strong>] — to axiomatise the situation, by introducing a notion of pseudo-coherence (resp. perfectness) in a fibred category over a site with respect to a fibred subcategory that respects suitable conditions.</fr:p><fr:p>Sections I.6 to I.8 of this present exposé generalise a certain number of well known notions for locally free sheaves of finite type (rank, duality, and trace of an endomorphism) to the setting of perfect complexes.</fr:p><fr:p>In [sga6-ii <fr:strong>(?)</fr:strong>], we examine the problem of "the existence of global resolutions": under what conditions, on a ringed topos <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex>, is a pseudo-coherent (resp. perfect) complex <fr:em>globally</fr:em> isomorphic in <fr:tex display="inline"><![CDATA[D(X)]]></fr:tex> to a complex of locally free modules of finite type?
   The importance of this questions rests essentially on the fact that we do not know, as of yet, how to generalise certain usual constructions on locally free sheaves (exterior and symmetric powers, and Chern classes) to perfect complexes (for more details on this, see [sga6-xiv <fr:strong>(?)</fr:strong>]).
   This is why it is convenient to have tractable sufficient conditions for the existence of global resolutions, which allows us to reduce certain questions about pseudo-coherent (resp. perfect) complexes to analogous questions about locally free sheaves of finite type.
   Such criteria are given in [sga6-ii <fr:strong>(?)</fr:strong>].
   In particular, we show that there exist global resolutions in the following cases:
-  <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
-  or <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the topos of sheaves of sets on a compact topological space, and <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is the sheaf of continuous complex-valued functions.
+  <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the Zariski topos of an affine scheme, or, more generally, of a quasi-compact scheme that has an ample invertible sheaf, or an ample family of invertible sheaves in the sense of Kleiman (for example, a regular scheme);
+  or <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the topos of sheaves of sets on a compact topological space, and <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> is the sheaf of continuous complex-valued functions.
   As an illustration of these methods — and to give evidence for the flexibility of the notions we have introduced — we give, in the appendix, a "purely sheaf-theoretic" definition of the index of a family of elliptic operators.</fr:p><fr:p>[sga6-iii <fr:strong>(?)</fr:strong>] studies the stability of finiteness conditions under the derived direct image.
   To obtain reasonable statements, we need to put the notions of pseudo-coherence and perfectness "into perspective".
   We place ourselves here in the setting of ordinary schemes, which suffices for the seminar, but there is no doubt that we must sooner or later develop an analogous theory for relative schemes or analytic spaces.
-  Let <fr:tex
-display="inline"><![CDATA[p\colon  X\to  S]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>-scheme locally of finite type, and let <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> be a complex of <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules;
-  we say that <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is <fr:em>pseudo-coherent</fr:em> (resp. <fr:em>perfect</fr:em>) <fr:em>with respect to <fr:tex
-display="inline"><![CDATA[p]]></fr:tex></fr:em> if we can locally embed (by a closed immersion) <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> into a smooth <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> in such a way that the extension of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> by zero on <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> is pseudo-coherent (resp. perfect).
-  The notion of pseudo-coherence with respect to <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> is especially interesting in the case where <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
-  On the other hand, as we might expect, to say that <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is perfect with respect to <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> is equivalent to saying that <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent with respect to <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> and locally of finite tor-dimension with respect to <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> (i.e. with respect to the sheaf of rings <fr:tex
-display="inline"><![CDATA[p^{-1}(\mathcal {O}_S)]]></fr:tex>).
-  The central theorem of [sga6-iii <fr:strong>(?)</fr:strong>] is the <fr:em>finiteness theorem</fr:em>, which affirms (in a slightly more precise way) that, if <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is a <fr:em>proper</fr:em> morphism of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>-schemes locally of finite type, then the functor <fr:tex
-display="inline"><![CDATA[\mathbb {R}f_*]]></fr:tex> sends complexes that are pseudo-coherent with respect to <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> to complexes that are pseudo-coherent with respect to <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>;
+  Let <fr:tex display="inline"><![CDATA[p\colon  X\to  S]]></fr:tex> be an <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme locally of finite type, and let <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> be a complex of <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex>-modules;
+  we say that <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is <fr:em>pseudo-coherent</fr:em> (resp. <fr:em>perfect</fr:em>) <fr:em>with respect to <fr:tex display="inline"><![CDATA[p]]></fr:tex></fr:em> if we can locally embed (by a closed immersion) <fr:tex display="inline"><![CDATA[X]]></fr:tex> into a smooth <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X']]></fr:tex> in such a way that the extension of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> by zero on <fr:tex display="inline"><![CDATA[X']]></fr:tex> is pseudo-coherent (resp. perfect).
+  The notion of pseudo-coherence with respect to <fr:tex display="inline"><![CDATA[p]]></fr:tex> is especially interesting in the case where <fr:tex display="inline"><![CDATA[S]]></fr:tex> is not locally Noetherian, since in the contrary case it agrees with the ordinary notion of pseudo-coherence.
+  On the other hand, as we might expect, to say that <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is perfect with respect to <fr:tex display="inline"><![CDATA[p]]></fr:tex> is equivalent to saying that <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is pseudo-coherent with respect to <fr:tex display="inline"><![CDATA[p]]></fr:tex> and locally of finite tor-dimension with respect to <fr:tex display="inline"><![CDATA[p]]></fr:tex> (i.e. with respect to the sheaf of rings <fr:tex display="inline"><![CDATA[p^{-1}(\mathcal {O}_S)]]></fr:tex>).
+  The central theorem of [sga6-iii <fr:strong>(?)</fr:strong>] is the <fr:em>finiteness theorem</fr:em>, which affirms (in a slightly more precise way) that, if <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is a <fr:em>proper</fr:em> morphism of <fr:tex display="inline"><![CDATA[S]]></fr:tex>-schemes locally of finite type, then the functor <fr:tex display="inline"><![CDATA[\mathbb {R}f_*]]></fr:tex> sends complexes that are pseudo-coherent with respect to <fr:tex display="inline"><![CDATA[S]]></fr:tex> to complexes that are pseudo-coherent with respect to <fr:tex display="inline"><![CDATA[S]]></fr:tex>;
   this theorem is, in reality, a conjecture, but has nevertheless been proven in the two particular following cases:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;a. &quot;">
-    <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is locally Noetherian;
+ <html:li style="list-style-type: &quot;a. &quot;">
+    <fr:tex display="inline"><![CDATA[S]]></fr:tex> is locally Noetherian;
   </html:li>
 
   
- <html:li
-style="list-style-type: &quot;b. &quot;">
-    <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is projective.
+ <html:li style="list-style-type: &quot;b. &quot;">
+    <fr:tex display="inline"><![CDATA[f]]></fr:tex> is projective.
   </html:li>
 
 </html:ol>
 <fr:p>Unfortunately, it seems that the extension to the general case is of the same order of difficulty as the analogous theorem in analytic geometry (Grauert's "theorem").
   Combining the finiteness theorem with an essentially trivial formula called the <fr:em>projection formula</fr:em>, we obtain tractable criteria for the stability of relative perfectness under direct images.
   We recover, as a corollary, "Grauert's continuity and semi-continuity theorems" (EGA III 7.6).</fr:p><fr:p>[sga6-iv <fr:strong>(?)</fr:strong>] translates the results of Exposés I to III into the language of "Grothendieck groups".
-  On a ringed space <fr:tex
-display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex>, we denote by <fr:tex
-display="inline"><![CDATA[K^\bullet (X)]]></fr:tex> (resp. <fr:tex
-display="inline"><![CDATA[K_\bullet (X)]]></fr:tex>) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
-  The group <fr:tex
-display="inline"><![CDATA[K^\bullet (X)]]></fr:tex> is a ring, and <fr:tex
-display="inline"><![CDATA[K_\bullet (X)]]></fr:tex> is a module over <fr:tex
-display="inline"><![CDATA[K^\bullet (X)]]></fr:tex>.
-  As suggested by the superscript bullet, <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex> is a contravariant functor, whilst <fr:tex
-display="inline"><![CDATA[K_\bullet ]]></fr:tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
-  There are also unusual variances (covariance of <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex> and contravariance of <fr:tex
-display="inline"><![CDATA[K_\bullet ]]></fr:tex>) for morphisms satisfying suitable regularity hypotheses.
-  Finally, the globalisation criteria of [sga6-ii <fr:strong>(?)</fr:strong>] allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>859</fr:anchor><fr:addr
-type="user">sga6-i.1</fr:addr><fr:route>sga6-i.1.xml</fr:route><fr:title
-text="Preliminary definitions">Preliminary definitions</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.1</fr:number><fr:parent>sga6-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>860</fr:anchor><fr:addr
-type="user">sga6-i.1.1</fr:addr><fr:route>sga6-i.1.1.xml</fr:route><fr:title
-text="Fibred categories with additive (resp. abelian, resp. triangulated) fibres">Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.1.1</fr:number><fr:parent>sga6-i.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:addr
-type="user">sga6-i.1.1.1</fr:addr><fr:route>sga6-i.1.1.1.xml</fr:route><fr:authors /><fr:number>I.1.1.1</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex> be a category, and let <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> be a fibred <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
-    We say that <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category (or that <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is additive (resp. triangulated) over <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>) if, for every arrow <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex
-display="inline"><![CDATA[f^*\colon \mathcal {C}_Y\to \mathcal {C}_X]]></fr:tex> is additive (resp. exact).
-    We say that <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an <fr:em>abelian</fr:em> <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category if <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an additive <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category with abelian fibres, and that <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex
-display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category if, further, the inverse image functors are exact.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr
-type="user">sga6-i.1.1.2</fr:addr><fr:route>sga6-i.1.1.2.xml</fr:route><fr:authors /><fr:number>I.1.1.2</fr:number><fr:parent>sga6-i.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>...</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>861</fr:anchor><fr:addr
-type="user">sga6-0</fr:addr><fr:route>sga6-0.xml</fr:route><fr:title
-text="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections"><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Outline of a programme for a theory of intersections</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>0</fr:number><fr:parent>sga6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
-  It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</fr:link>), which is reproduced as <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</fr:link> at the end of this current exposé.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:addr
-type="user">sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
-  <fr:tex
-display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
-  of smooth quasi-projective schemes over a field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>:
+  On a ringed space <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_X)]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[K^\bullet (X)]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[K_\bullet (X)]]></fr:tex>) the "Grothendieck group" of the category of perfect complexes of finite tor-dimension (resp. of pseudo-coherent complexes of bounded cohomology).
+  The group <fr:tex display="inline"><![CDATA[K^\bullet (X)]]></fr:tex> is a ring, and <fr:tex display="inline"><![CDATA[K_\bullet (X)]]></fr:tex> is a module over <fr:tex display="inline"><![CDATA[K^\bullet (X)]]></fr:tex>.
+  As suggested by the superscript bullet, <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex> is a contravariant functor, whilst <fr:tex display="inline"><![CDATA[K_\bullet ]]></fr:tex> is a covariant functor for proper and pseudo-coherent morphisms (of schemes or of analytic spaces, and under the caveat that we have the finiteness theorem...).
+  There are also unusual variances (covariance of <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex> and contravariance of <fr:tex display="inline"><![CDATA[K_\bullet ]]></fr:tex>) for morphisms satisfying suitable regularity hypotheses.
+  Finally, the globalisation criteria of [sga6-ii <fr:strong>(?)</fr:strong>] allow us to make the link with the "Grothendieck groups" defined naively from coherent sheaves or locally free sheaves of finite type.</fr:p></fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>858</fr:anchor>
+                    <fr:addr type="user">sga6-i.1</fr:addr>
+                    <fr:route>sga6-i.1.xml</fr:route>
+                    <fr:title text="Preliminary definitions">Preliminary definitions</fr:title>
+                    <fr:taxon>Section</fr:taxon>
+                    <fr:authors />
+                    <fr:number>I.1</fr:number>
+                    <fr:parent>sga6-i</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                      <fr:frontmatter>
+                        <fr:anchor>859</fr:anchor>
+                        <fr:addr type="user">sga6-i.1.1</fr:addr>
+                        <fr:route>sga6-i.1.1.xml</fr:route>
+                        <fr:title text="Fibred categories with additive (resp. abelian, resp. triangulated) fibres">Fibred categories with additive (resp. abelian, resp. triangulated) fibres</fr:title>
+                        <fr:taxon>Section</fr:taxon>
+                        <fr:authors />
+                        <fr:number>I.1.1</fr:number>
+                        <fr:parent>sga6-i.1</fr:parent>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                          <fr:frontmatter>
+                            <fr:anchor>746</fr:anchor>
+                            <fr:addr type="user">sga6-i.1.1.1</fr:addr>
+                            <fr:route>sga6-i.1.1.1.xml</fr:route>
+                            <fr:authors />
+                            <fr:number>I.1.1.1</fr:number>
+                            <fr:parent>sga6-i.1.1</fr:parent>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <fr:p>Let <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex> be a category, and let <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> be a fibred <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category ([SGA 1 VI 6.1]) with additive (resp. triangulated) fibres.
+    We say that <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an <fr:em>additive</fr:em> (resp. <fr:em>triangulated</fr:em>) <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category (or that <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is additive (resp. triangulated) over <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>) if, for every arrow <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>, the inverse image functor (determined up to unique isomorphism) <fr:tex display="inline"><![CDATA[f^*\colon \mathcal {C}_Y\to \mathcal {C}_X]]></fr:tex> is additive (resp. exact).
+    We say that <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an <fr:em>abelian</fr:em> <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category if <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is an additive <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category with abelian fibres, and that <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a <fr:em>flat</fr:em> abelian <fr:tex display="inline"><![CDATA[\mathcal {S}]]></fr:tex>-category if, further, the inverse image functors are exact.</fr:p>
+                          </fr:mainmatter>
+                          <fr:backmatter />
+                        </fr:tree>
+                        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                          <fr:frontmatter>
+                            <fr:anchor>747</fr:anchor>
+                            <fr:addr type="user">sga6-i.1.1.2</fr:addr>
+                            <fr:route>sga6-i.1.1.2.xml</fr:route>
+                            <fr:authors />
+                            <fr:number>I.1.1.2</fr:number>
+                            <fr:parent>sga6-i.1.1</fr:parent>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <fr:p>...</fr:p>
+                          </fr:mainmatter>
+                          <fr:backmatter />
+                        </fr:tree>
+                      </fr:mainmatter>
+                      <fr:backmatter />
+                    </fr:tree>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>860</fr:anchor>
+            <fr:addr type="user">sga6-0</fr:addr>
+            <fr:route>sga6-0.xml</fr:route>
+            <fr:title text="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections"><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem">SGA 6: Intersection theory and the Riemann–Roch theorem</fr:link> › Outline of a programme for a theory of intersections</fr:title>
+            <fr:taxon>Exposé</fr:taxon>
+            <fr:authors />
+            <fr:number>0</fr:number>
+            <fr:parent>sga6</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The current exposé is of an introductory nature, and its reading is not logically necessary for the study of the seminar.
+  It is aimed particularly at readers familiar with the provisional version of the Riemann–Roch theorem, as given in the report by Borel–Serre [@2] or in the report by Grothendieck mentioned previously in the introduction (cited as <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">[RRR]</fr:link>), which is reproduced as <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">an appendix</fr:link> at the end of this current exposé.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>720</fr:anchor>
+                <fr:addr type="user">sga6-0.1</fr:addr>
+                <fr:route>sga6-0.1.xml</fr:route>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>1</fr:number>
+                <fr:parent>sga6-0</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
+  <fr:tex display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
+  of smooth quasi-projective schemes over a field <fr:tex display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>:
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  where <fr:tex
-display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex
-display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.).
-  This formula holds in <fr:tex
-display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>;
-  the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
-  and the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>:
-  <fr:tex
-display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
-  As we know, <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
-  Since the constant term of <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref
-addr="sga6-0.1-equation-1.1"
-href="sga6-0.1-equation-1.1.xml"
-taxon="Equation"
-number="1.1" /> can be rewritten, after multiplication by <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
+  where <fr:tex display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.).
+  This formula holds in <fr:tex display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>;
+  the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
+  and the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[f]]></fr:tex>:
+  <fr:tex display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
+  As we know, <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
+  Since the constant term of <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref addr="sga6-0.1-equation-1.1" href="sga6-0.1-equation-1.1.xml" taxon="Equation" number="1.1" /> can be rewritten, after multiplication by <fr:tex display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
   
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
   where we set
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  so that <fr:tex
-display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  In the case where the morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
-  <fr:tex
-display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
-  (the tangent bundle along the fibres) and so, in the case where <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
-  <fr:tex
-display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> simultaneously in two directions:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+  so that <fr:tex display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  In the case where the morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
+  <fr:tex display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
+  (the tangent bundle along the fibres) and so, in the case where <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
+  <fr:tex display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> simultaneously in two directions:</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;a. &quot;">
-    Remove the hypothesis of the existence of a base field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
+ <html:li style="list-style-type: &quot;a. &quot;">
+    Remove the hypothesis of the existence of a base field <fr:tex display="inline"><![CDATA[k]]></fr:tex>.
   </html:li>
 
   
- <html:li
-style="list-style-type: &quot;b. &quot;">
-    Replace the regularity hypotheses on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>.
+ <html:li style="list-style-type: &quot;b. &quot;">
+    Replace the regularity hypotheses on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex display="inline"><![CDATA[f]]></fr:tex>.
   </html:li>
 
 </html:ol>
 <fr:p>Finally, along the way, we will equally deal with the problem:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;c. &quot;">
-    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
+ <html:li style="list-style-type: &quot;c. &quot;">
+    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
   </html:li>
 
 </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr
-type="user">sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now examine generalisation (a) from <fr:link
-type="local"
-href="sga6-0.1.xml"
-addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>The definition of <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex
-display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> are regular.
-  The most natural route to giving meaning to <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex
-display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>721</fr:anchor>
+                <fr:addr type="user">sga6-0.2</fr:addr>
+                <fr:route>sga6-0.2.xml</fr:route>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>2</fr:number>
+                <fr:parent>sga6-0</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We now examine generalisation (a) from <fr:link type="local" href="sga6-0.1.xml" addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+                <fr:p>The definition of <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
   as well as establishing a theory of Chern classes, providing maps
-  <fr:tex
-display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
-  (and similarly for <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
-  <fr:tex
-display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:addr
-type="user">sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:addr
-type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Séminaire de Géométrie Algébrique du Bois-Marie">Séminaire de Géométrie Algébrique du Bois-Marie</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
-type="external"
-href="https://github.com/thosgood/sga">GitHub repository</fr:link>.</fr:p><fr:p><fr:strong><fr:em>TO-DO: describe this translation</fr:em></fr:strong></fr:p><fr:p>Many thanks to <fr:link
-type="external"
-href="https://www.jonmsterling.com/index.xml">Jon Sterling</fr:link> for helping with the technical support in getting this translation ported to run on <fr:link
-type="external"
-href="https://www.jonmsterling.com/jms-005P.xml">Forester</fr:link>.</fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong></fr:link>
+  <fr:tex display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
+  (and similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>722</fr:anchor>
+                    <fr:addr type="user">sga6-0.2.1</fr:addr>
+                    <fr:route>sga6-0.2.1.xml</fr:route>
+                    <fr:taxon>Section</fr:taxon>
+                    <fr:authors />
+                    <fr:number>2.1</fr:number>
+                    <fr:parent>sga6-0.2</fr:parent>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>For</fr:p>
+                    <fr:p>
+                      <fr:strong>
+                        <fr:em>TO-DO: finish</fr:em>
+                      </fr:strong>
+                    </fr:p>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>861</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Séminaire de Géométrie Algébrique du Bois-Marie">Séminaire de Géométrie Algébrique du Bois-Marie</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link type="external" href="https://github.com/thosgood/sga">GitHub repository</fr:link>.</fr:p>
+            <fr:p>
+              <fr:strong>
+                <fr:em>TO-DO: describe this translation</fr:em>
+              </fr:strong>
+            </fr:p>
+            <fr:p>Many thanks to <fr:link type="external" href="https://www.jonmsterling.com/index.xml">Jon Sterling</fr:link> for helping with the technical support in getting this translation ported to run on <fr:link type="external" href="https://www.jonmsterling.com/jms-005P.xml">Forester</fr:link>.</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong></fr:link>
 
     <fr:p>Directed by A. Grothendieck.
       Augmented with two exposés by Mme M. Raynaud.
       1960–61.
-      <fr:link
-type="external"
-href="https://arxiv.org/abs/math/0206203v2">arXiv:math/0206203v2</fr:link></fr:p>
+      <fr:link type="external" href="https://arxiv.org/abs/math/0206203v2">arXiv:math/0206203v2</fr:link></fr:p>
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga1-introduction.xml"
-addr="sga1-introduction"
-title="SGA 1: Étale covers and the fundamental group › Introduction">Introduction</fr:link> ✓
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga1-introduction.xml" addr="sga1-introduction" title="SGA 1: Étale covers and the fundamental group › Introduction">Introduction</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga1-foreword.xml"
-addr="sga1-foreword"
-title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</fr:link> ✓
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga1-foreword.xml" addr="sga1-foreword" title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;I. &quot;">
-        <fr:link
-type="local"
-href="sga1-i.xml"
-addr="sga1-i"
-title="SGA 1: Étale covers and the fundamental group › Étale morphisms">Étale morphisms</fr:link> ✓
+ <html:li style="list-style-type: &quot;I. &quot;">
+        <fr:link type="local" href="sga1-i.xml" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms">Étale morphisms</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;II. &quot;">
-        <fr:link
-type="local"
-href="sga1-ii.xml"
-addr="sga1-ii"
-title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;II. &quot;">
+        <fr:link type="local" href="sga1-ii.xml" addr="sga1-ii" title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
     </html:ol></fr:li>
-  <fr:li><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:strong></fr:link>
+  <fr:li><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:strong></fr:link>
 
     <fr:p>Directed by P. Berthelot, A. Grothendieck, and L. Illusie.
       With the collaboration of D. Ferrand, J.P. Jouanolou, O. Jussila, S. Kleiman, M. Raynaud, and J.P. Serre.
       1966–67.</fr:p>
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga6-introduction.xml"
-addr="sga6-introduction"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga6-introduction.xml" addr="sga6-introduction" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;0. &quot;">
-        <fr:link
-type="local"
-href="sga6-0.xml"
-addr="sga6-0"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;0. &quot;">
+        <fr:link type="local" href="sga6-0.xml" addr="sga6-0" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;0RRR. &quot;">
-        <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;0RRR. &quot;">
+        <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;I. &quot;">
-        <fr:link
-type="local"
-href="sga6-i.xml"
-addr="sga6-i"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;I. &quot;">
+        <fr:link type="local" href="sga6-i.xml" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
-    </html:ol></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </html:ol></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

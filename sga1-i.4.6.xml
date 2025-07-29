@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr
-type="user">sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>437</fr:anchor>
+    <fr:addr type="user">sga1-i.4.6</fr:addr>
+    <fr:route>sga1-i.4.6.xml</fr:route>
+    <fr:taxon>Proposition</fr:taxon>
+    <fr:authors />
+    <fr:number>I.4.6</fr:number>
+    <fr:parent>sga1-i.4</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;i. &quot;">
+ <html:li style="list-style-type: &quot;i. &quot;">
       An open immersion is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;ii. &quot;">
+ <html:li style="list-style-type: &quot;ii. &quot;">
       The composition of two étale morphisms is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;iii. &quot;">
+ <html:li style="list-style-type: &quot;iii. &quot;">
       The base extension of an étale morphism is étale.
     </html:li>
 
@@ -33,199 +31,163 @@ style="list-style-type: &quot;iii. &quot;">
 
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>439</fr:anchor><fr:addr
-type="user">sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title
-text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale morphisms. Étale covers"><fr:link
-type="local"
-href="sga1-i.xml"
-addr="sga1-i"
-title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale morphisms. Étale covers</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.4</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>438</fr:anchor>
+            <fr:addr type="user">sga1-i.4</fr:addr>
+            <fr:route>sga1-i.4.xml</fr:route>
+            <fr:title text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale morphisms. Étale covers"><fr:link type="local" href="sga1-i.xml" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale morphisms. Étale covers</fr:title>
+            <fr:taxon>Section</fr:taxon>
+            <fr:authors />
+            <fr:number>I.4</fr:number>
+            <fr:parent>sga1-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
-  (cf. [sga1-iv <fr:strong>(?)</fr:strong>].)</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:addr
-type="user">sga1-i.4.1</fr:addr><fr:route>sga1-i.4.1.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>I.4.1</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+  (cf. [sga1-iv <fr:strong>(?)</fr:strong>].)</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>402</fr:anchor>
+                <fr:addr type="user">sga1-i.4.1</fr:addr>
+                <fr:route>sga1-i.4.1.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.1</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;a. &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is <fr:em>étale</fr:em> at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> if <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is both flat and unramified at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale if it is étale at all points.
-      We say that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, or that it is a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-prescheme which is étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> etc.
+ <html:li style="list-style-type: &quot;a. &quot;">
+      Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:em>étale</fr:em> at <fr:tex display="inline"><![CDATA[x]]></fr:tex> if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is both flat and unramified at <fr:tex display="inline"><![CDATA[x]]></fr:tex>.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale if it is étale at all points.
+      We say that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, or that it is a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-prescheme which is étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> etc.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;b. &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> be a local homomorphism.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale, or that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, if <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is flat and unramified over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>
+ <html:li style="list-style-type: &quot;b. &quot;">
+      Let <fr:tex display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> be a local homomorphism.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale, or that <fr:tex display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is flat and unramified over <fr:tex display="inline"><![CDATA[A]]></fr:tex>
       (cf. regrets in [sga1-iii.1.2 <fr:strong>(?)</fr:strong>].)
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:addr
-type="user">sga1-i.4.2</fr:addr><fr:route>sga1-i.4.2.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.2</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
-display="inline"><![CDATA[B/A]]></fr:tex> to be étale, it is necessary and sufficient that <fr:tex
-display="inline"><![CDATA[\widehat {B}/\widehat {A}]]></fr:tex> be étale.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>406</fr:anchor>
+                <fr:addr type="user">sga1-i.4.2</fr:addr>
+                <fr:route>sga1-i.4.2.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.2</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>For <fr:tex display="inline"><![CDATA[B/A]]></fr:tex> to be étale, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\widehat {B}/\widehat {A}]]></fr:tex> be étale.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>This is true individually for both "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>409</fr:anchor><fr:addr
-type="user">sga1-i.4.3</fr:addr><fr:route>sga1-i.4.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.3</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.
-    The property of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:addr
-type="user">sga1-i.4.4</fr:addr><fr:route>sga1-i.4.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.4</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Suppose that the residue extension <fr:tex
-display="inline"><![CDATA[k(A)\to  k(B)]]></fr:tex> is trivial, or that <fr:tex
-display="inline"><![CDATA[k(A)]]></fr:tex> is algebraically closed.
-    Then <fr:tex
-display="inline"><![CDATA[B/A]]></fr:tex> is étale if and only if <fr:tex
-display="inline"><![CDATA[\widehat {A}\to \widehat {B}]]></fr:tex> is an isomorphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can combine flatness with <fr:ref
-addr="sga1-i.3.7"
-href="sga1-i.3.7.xml"
-taxon="Proposition"
-number="I.3.7" />.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr
-type="user">sga1-i.4.5</fr:addr><fr:route>sga1-i.4.5.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.5</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
-    Then the set of points where <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale is open.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>408</fr:anchor>
+                <fr:addr type="user">sga1-i.4.3</fr:addr>
+                <fr:route>sga1-i.4.3.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.3</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.
+    The property of <fr:tex display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>409</fr:anchor>
+                <fr:addr type="user">sga1-i.4.4</fr:addr>
+                <fr:route>sga1-i.4.4.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.4</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Suppose that the residue extension <fr:tex display="inline"><![CDATA[k(A)\to  k(B)]]></fr:tex> is trivial, or that <fr:tex display="inline"><![CDATA[k(A)]]></fr:tex> is algebraically closed.
+    Then <fr:tex display="inline"><![CDATA[B/A]]></fr:tex> is étale if and only if <fr:tex display="inline"><![CDATA[\widehat {A}\to \widehat {B}]]></fr:tex> is an isomorphism.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>We can combine flatness with <fr:ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7" />.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>410</fr:anchor>
+                <fr:addr type="user">sga1-i.4.5</fr:addr>
+                <fr:route>sga1-i.4.5.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.5</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+    Then the set of points where <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale is open.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.5</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Again, this is true individually for both "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:addr
-type="user">sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>412</fr:anchor>
+                <fr:addr type="user">sga1-i.4.6</fr:addr>
+                <fr:route>sga1-i.4.6.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.6</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;i. &quot;">
+ <html:li style="list-style-type: &quot;i. &quot;">
       An open immersion is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;ii. &quot;">
+ <html:li style="list-style-type: &quot;ii. &quot;">
       The composition of two étale morphisms is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;iii. &quot;">
+ <html:li style="list-style-type: &quot;iii. &quot;">
       The base extension of an étale morphism is étale.
     </html:li>
 
@@ -233,809 +195,429 @@ style="list-style-type: &quot;iii. &quot;">
 
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<fr:em>[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper — see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information.</fr:em>)</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:addr
-type="user">sga1-i.4.7</fr:addr><fr:route>sga1-i.4.7.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.7</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The cartesian product of two étale morphisms is étale.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:addr
-type="user">sga1-i.4.8</fr:addr><fr:route>sga1-i.4.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.8</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> be of finite type over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-morphism.
-    If <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is étale.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
+  (<fr:em>[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper — see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information.</fr:em>)</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>418</fr:anchor>
+                <fr:addr type="user">sga1-i.4.7</fr:addr>
+                <fr:route>sga1-i.4.7.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.7</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The cartesian product of two étale morphisms is étale.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>419</fr:anchor>
+                <fr:addr type="user">sga1-i.4.8</fr:addr>
+                <fr:route>sga1-i.4.8.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.8</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[X']]></fr:tex> be of finite type over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-morphism.
+    If <fr:tex display="inline"><![CDATA[X']]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[g]]></fr:tex> is étale.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex
-display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref
-addr="sga1-i.3.4"
-href="sga1-i.3.4.xml"
-taxon="Corollary"
-number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex
-display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex
-display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Indeed, <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr
-type="user">sga1-i.4.9</fr:addr><fr:route>sga1-i.4.9.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>I.4.9</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that a cover of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is étale (resp. unramified) if it is a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and étale (resp. unramified) over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The first condition means that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is defined by a coherent sheaf of algebras <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  The second means that <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp. means absolutely nothing) <fr:em>and</fr:em>, further, that, for all <fr:tex
-display="inline"><![CDATA[y\in  Y]]></fr:tex>, the fibre <fr:tex
-display="inline"><![CDATA[\mathcal {B}(y)=\mathcal {B}_y\otimes _{\mathcal {O}_y}k(y)]]></fr:tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <fr:tex
-display="inline"><![CDATA[k(y)]]></fr:tex>.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
-type="user">sga1-i.4.10</fr:addr><fr:route>sga1-i.4.10.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.10</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a flat cover of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> of degree <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> (the definition of this term deserved to figure in <fr:ref
-addr="sga1-i.4.9"
-href="sga1-i.4.9.xml"
-taxon="Definition"
-number="I.4.9" />) defined by a locally free coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
-    We define, as usual, the trace homomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {B}\to \mathcal {A}]]></fr:tex> (that is, a homomorphism of <fr:tex
-display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-modules, where <fr:tex
-display="inline"><![CDATA[\mathcal {A}=\mathcal {O}_Y]]></fr:tex>).
-    For <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> to be étale it is necessary and sufficient that the corresponding bilinear form <fr:tex
-display="inline"><![CDATA[\operatorname {tr}_{\mathcal {B}/\mathcal {A}}xy]]></fr:tex> define an isomorphism of <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex>, or, equivalently, that the <fr:em>discriminant section</fr:em>
-    <fr:tex
-display="block"><![CDATA[       d_{X/Y}       = d_{\mathcal {B}/\mathcal {A}}       \in  \Gamma \big (Y,\wedge ^n\check {\mathcal {B}}\otimes _\mathcal {A}\wedge ^n\check {\mathcal {B}}\big )     ]]></fr:tex>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>420</fr:anchor>
+                <fr:addr type="user">sga1-i.4.9</fr:addr>
+                <fr:route>sga1-i.4.9.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.9</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We say that a cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is étale (resp. unramified) if it is a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and étale (resp. unramified) over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>The first condition means that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is defined by a coherent sheaf of algebras <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  The second means that <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp. means absolutely nothing) <fr:em>and</fr:em>, further, that, for all <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, the fibre <fr:tex display="inline"><![CDATA[\mathcal {B}(y)=\mathcal {B}_y\otimes _{\mathcal {O}_y}k(y)]]></fr:tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <fr:tex display="inline"><![CDATA[k(y)]]></fr:tex>.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>421</fr:anchor>
+                <fr:addr type="user">sga1-i.4.10</fr:addr>
+                <fr:route>sga1-i.4.10.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.10</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a flat cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> (the definition of this term deserved to figure in <fr:ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9" />) defined by a locally free coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
+    We define, as usual, the trace homomorphism <fr:tex display="inline"><![CDATA[\mathcal {B}\to \mathcal {A}]]></fr:tex> (that is, a homomorphism of <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-modules, where <fr:tex display="inline"><![CDATA[\mathcal {A}=\mathcal {O}_Y]]></fr:tex>).
+    For <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be étale it is necessary and sufficient that the corresponding bilinear form <fr:tex display="inline"><![CDATA[\operatorname {tr}_{\mathcal {B}/\mathcal {A}}xy]]></fr:tex> define an isomorphism of <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex>, or, equivalently, that the <fr:em>discriminant section</fr:em>
+    <fr:tex display="block"><![CDATA[       d_{X/Y}       = d_{\mathcal {B}/\mathcal {A}}       \in  \Gamma \big (Y,\wedge ^n\check {\mathcal {B}}\otimes _\mathcal {A}\wedge ^n\check {\mathcal {B}}\big )     ]]></fr:tex>
     is invertible, or that the discriminant ideal defined by this section is the unit ring.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.10</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We can reduce to the case where <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <fr:tex display="inline"><![CDATA[k]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:authors /><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will have a less trivial statement to make later on (<fr:ref
-addr="sga1-i.9.12"
-href="sga1-i.9.12.xml"
-taxon="Corollary"
-number="I.9.12" />), when we do not suppose a priori that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is flat over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, but instead require some normality hypothesis.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>440</fr:anchor><fr:addr
-type="user">sga1-i.10</fr:addr><fr:route>sga1-i.10.xml</fr:route><fr:title
-text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale covers of a normal scheme"><fr:link
-type="local"
-href="sga1-i.xml"
-addr="sga1-i"
-title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale covers of a normal scheme</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.10</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
-type="user">sga1-i.10.1</fr:addr><fr:route>sga1-i.10.1.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.10.1</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> be normal and connected of field <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a separated étale prescheme over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-    Then the connected components <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> are integral, their fields <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex> are finite separable extensions of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> can be identified with a non-empty open subset of the normalisation of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex> (and thus <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> with a dense open subset of the normalisation of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[R(X)=L=\prod  K_i]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[R(X)]]></fr:tex> is the ring of rational functions on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>).</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>422</fr:anchor>
+                <fr:addr type="machine">#269</fr:addr>
+                <fr:route>unstable-269.xml</fr:route>
+                <fr:taxon>Remark</fr:taxon>
+                <fr:authors />
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We will have a less trivial statement to make later on (<fr:ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12" />), when we do not suppose a priori that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is flat over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, but instead require some normality hypothesis.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>439</fr:anchor>
+            <fr:addr type="user">sga1-i.10</fr:addr>
+            <fr:route>sga1-i.10.xml</fr:route>
+            <fr:title text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale covers of a normal scheme"><fr:link type="local" href="sga1-i.xml" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale covers of a normal scheme</fr:title>
+            <fr:taxon>Section</fr:taxon>
+            <fr:authors />
+            <fr:number>I.10</fr:number>
+            <fr:parent>sga1-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>282</fr:anchor>
+                <fr:addr type="user">sga1-i.10.1</fr:addr>
+                <fr:route>sga1-i.10.1.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.1</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be normal and connected of field <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a separated étale prescheme over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+    Then the connected components <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> are integral, their fields <fr:tex display="inline"><![CDATA[K_i]]></fr:tex> are finite separable extensions of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> can be identified with a non-empty open subset of the normalisation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[K_i]]></fr:tex> (and thus <fr:tex display="inline"><![CDATA[X]]></fr:tex> with a dense open subset of the normalisation of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[R(X)=L=\prod  K_i]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R(X)]]></fr:tex> is the ring of rational functions on <fr:tex display="inline"><![CDATA[X]]></fr:tex>).</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>By <fr:ref
-addr="sga1-i.9.10"
-href="sga1-i.9.10.xml"
-taxon="Corollary"
-number="I.9.10" />, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is normal, and a fortiori its local rings are integral, and so the connected components of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> are irreducible.
-      Since <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> is normal, and also finite and dominant over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> is an open subset of the normalisation of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in the field <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref addr="sga1-i.9.10" href="sga1-i.9.10.xml" taxon="Corollary" number="I.9.10" />, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is normal, and a fortiori its local rings are integral, and so the connected components of <fr:tex display="inline"><![CDATA[X]]></fr:tex> are irreducible.
+      Since <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> is normal, and also finite and dominant over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, it follows from a particular (almost trivial, actually) case of the Main Theorem that <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> is an open subset of the normalisation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in the field <fr:tex display="inline"><![CDATA[K_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_i]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:addr
-type="user">sga1-i.10.2</fr:addr><fr:route>sga1-i.10.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.2</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of <fr:ref
-addr="sga1-i.10.1"
-href="sga1-i.10.1.xml"
-taxon="Proposition"
-number="I.10.1" />, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (i.e. an étale cover of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>) if and only if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is isomorphic to the normalisation <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L=R(X)]]></fr:tex> (the ring of rational functions on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>).</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>283</fr:anchor>
+                <fr:addr type="user">sga1-i.10.2</fr:addr>
+                <fr:route>sga1-i.10.2.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.2</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Under the conditions of <fr:ref addr="sga1-i.10.1" href="sga1-i.10.1.xml" taxon="Proposition" number="I.10.1" />, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (i.e. an étale cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>) if and only if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is isomorphic to the normalisation <fr:tex display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[L=R(X)]]></fr:tex> (the ring of rational functions on <fr:tex display="inline"><![CDATA[X]]></fr:tex>).</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We know that this normalisation is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (since <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is normal, and <fr:tex
-display="inline"><![CDATA[R/K]]></fr:tex> separable);
-      conversely, if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, then it is also finite over <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex>, and so its image in <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> is closed (and it is also dense).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We know that this normalisation is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (since <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is normal, and <fr:tex display="inline"><![CDATA[R/K]]></fr:tex> separable);
+      conversely, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, then it is also finite over <fr:tex display="inline"><![CDATA[Y']]></fr:tex>, and so its image in <fr:tex display="inline"><![CDATA[Y']]></fr:tex> is closed (and it is also dense).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>An algebra <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> of finite rank over <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is said to be <fr:em>unramified over <fr:tex
-display="inline"><![CDATA[X]]></fr:tex></fr:em> (or simply <fr:em>unramified over <fr:tex
-display="inline"><![CDATA[K]]></fr:tex></fr:em> if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is evident) if <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is a separable algebra over <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> (i.e. a direct sum of separable extensions <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex>) <fr:em>and</fr:em> the normalisation <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> (i.e. the disjoint sum of the normalisations of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in the <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex>) is unramified (i.e. étale, by <fr:ref
-addr="sga1-i.9.11"
-href="sga1-i.9.11.xml"
-taxon="Corollary"
-number="I.9.11" />) over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  Thus:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:addr
-type="user">sga1-i.10.3</fr:addr><fr:route>sga1-i.10.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.3</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For every <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and such that every irreducible component of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[R(X)]]></fr:tex> be the ring of rational functions on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> (given by the product of the local rings of the generic points of the irreducible components of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>), so that <fr:tex
-display="inline"><![CDATA[X\mapsto  R(X)]]></fr:tex> is a functor, with values in algebras of finite rank over <fr:tex
-display="inline"><![CDATA[K=R(Y)]]></fr:tex>.
-    Then this functor establishes an equivalence between the category of connected étale covers of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and the category of extensions <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> that are unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>An algebra <fr:tex display="inline"><![CDATA[L]]></fr:tex> of finite rank over <fr:tex display="inline"><![CDATA[K]]></fr:tex> is said to be <fr:em>unramified over <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:em> (or simply <fr:em>unramified over <fr:tex display="inline"><![CDATA[K]]></fr:tex></fr:em> if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is evident) if <fr:tex display="inline"><![CDATA[L]]></fr:tex> is a separable algebra over <fr:tex display="inline"><![CDATA[K]]></fr:tex> (i.e. a direct sum of separable extensions <fr:tex display="inline"><![CDATA[K_i]]></fr:tex>) <fr:em>and</fr:em> the normalisation <fr:tex display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex> (i.e. the disjoint sum of the normalisations of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in the <fr:tex display="inline"><![CDATA[K_i]]></fr:tex>) is unramified (i.e. étale, by <fr:ref addr="sga1-i.9.11" href="sga1-i.9.11.xml" taxon="Corollary" number="I.9.11" />) over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  Thus:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>285</fr:anchor>
+                <fr:addr type="user">sga1-i.10.3</fr:addr>
+                <fr:route>sga1-i.10.3.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.3</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>For every <fr:tex display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and such that every irreducible component of <fr:tex display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, let <fr:tex display="inline"><![CDATA[R(X)]]></fr:tex> be the ring of rational functions on <fr:tex display="inline"><![CDATA[X]]></fr:tex> (given by the product of the local rings of the generic points of the irreducible components of <fr:tex display="inline"><![CDATA[X]]></fr:tex>), so that <fr:tex display="inline"><![CDATA[X\mapsto  R(X)]]></fr:tex> is a functor, with values in algebras of finite rank over <fr:tex display="inline"><![CDATA[K=R(Y)]]></fr:tex>.
+    Then this functor establishes an equivalence between the category of connected étale covers of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and the category of extensions <fr:tex display="inline"><![CDATA[L]]></fr:tex> of <fr:tex display="inline"><![CDATA[K]]></fr:tex> that are unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:addr type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.3</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>The inverse functor is the normalisation functor.</fr:p>
 
-    <fr:p>Suppose that <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is affine, and thus defined by a normal ring <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> with field of fractions <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> given by a direct sum of fields.
-      Then, by definition, the normalisation <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(A')]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> is the normalisation of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>.
-      To say that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> implies that <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> is unramified (or even étale) over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
-      If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is local, then it is equivalent to say that the local rings <fr:tex
-display="inline"><![CDATA[A'_\mathfrak {n}]]></fr:tex> (where <fr:tex
-display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> runs over the finite set of maximal ideals of <fr:tex
-display="inline"><![CDATA[A']]></fr:tex>, i.e. the prime ideals of <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> that induce the maximal ideal <fr:tex
-display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
-      Finally, note that the discriminant criterion of <fr:ref
-addr="sga1-i.4.10"
-href="sga1-i.4.10.xml"
-taxon="Proposition"
-number="I.4.10" /> can also be applied to this situation
-      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, but with <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> still assumed to be locally integral: <fr:tex
-display="inline"><![CDATA[A\to  B]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> are injective — then <fr:tex
-display="inline"><![CDATA[\operatorname {tr}_{L/K}]]></fr:tex> is defined — and <fr:tex
-display="inline"><![CDATA[\operatorname {tr}_{L/K}(xy)]]></fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex
-display="inline"><![CDATA[B\times  B\to  A]]></fr:tex>, i.e. there exists <fr:tex
-display="inline"><![CDATA[x_i\in  B]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[1\leq  i\leq  n=\operatorname {rank}_K L]]></fr:tex>) such that <fr:tex
-display="inline"><![CDATA[\operatorname {tr}(x_ix_j)\in  A]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[i,j]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\det (\operatorname {tr}(x_i x_j))_{1\leq  i,j\leq  n}]]></fr:tex> is invertible in <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>).</fr:p>
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is affine, and thus defined by a normal ring <fr:tex display="inline"><![CDATA[A]]></fr:tex> with field of fractions <fr:tex display="inline"><![CDATA[K]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex display="inline"><![CDATA[K]]></fr:tex> given by a direct sum of fields.
+      Then, by definition, the normalisation <fr:tex display="inline"><![CDATA[Y']]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(A')]]></fr:tex>, where <fr:tex display="inline"><![CDATA[A']]></fr:tex> is the normalisation of <fr:tex display="inline"><![CDATA[A]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex>.
+      To say that <fr:tex display="inline"><![CDATA[L]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> implies that <fr:tex display="inline"><![CDATA[A']]></fr:tex> is unramified (or even étale) over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is local, then it is equivalent to say that the local rings <fr:tex display="inline"><![CDATA[A'_\mathfrak {n}]]></fr:tex> (where <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> runs over the finite set of maximal ideals of <fr:tex display="inline"><![CDATA[A']]></fr:tex>, i.e. the prime ideals of <fr:tex display="inline"><![CDATA[A']]></fr:tex> that induce the maximal ideal <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>) are unramified (i.e. étale) over the local ring <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+      Finally, note that the discriminant criterion of <fr:ref addr="sga1-i.4.10" href="sga1-i.4.10.xml" taxon="Proposition" number="I.4.10" /> can also be applied to this situation
+      (more generally, a variant of the aforementioned criterion can be stated thusly, without any preliminary flatness condition when <fr:tex display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, but with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> still assumed to be locally integral: <fr:tex display="inline"><![CDATA[A\to  B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B\to  B\otimes _A K]]></fr:tex> are injective — then <fr:tex display="inline"><![CDATA[\operatorname {tr}_{L/K}]]></fr:tex> is defined — and <fr:tex display="inline"><![CDATA[\operatorname {tr}_{L/K}(xy)]]></fr:tex> induces a <fr:em>fundamental bilinear form</fr:em> <fr:tex display="inline"><![CDATA[B\times  B\to  A]]></fr:tex>, i.e. there exists <fr:tex display="inline"><![CDATA[x_i\in  B]]></fr:tex> (for <fr:tex display="inline"><![CDATA[1\leq  i\leq  n=\operatorname {rank}_K L]]></fr:tex>) such that <fr:tex display="inline"><![CDATA[\operatorname {tr}(x_ix_j)\in  A]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i,j]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\det (\operatorname {tr}(x_i x_j))_{1\leq  i,j\leq  n}]]></fr:tex> is invertible in <fr:tex display="inline"><![CDATA[A]]></fr:tex>).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The syllogism <fr:ref
-addr="sga1-i.4.6"
-href="sga1-i.4.6.xml"
-taxon="Proposition"
-number="I.4.6" /> immediately implies the syllogism of being unramified in the classical case:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>288</fr:anchor><fr:addr
-type="user">sga1-i.10.4</fr:addr><fr:route>sga1-i.10.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.10.4</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> be a normal integral prescheme, of field <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>The syllogism <fr:ref addr="sga1-i.4.6" href="sga1-i.4.6.xml" taxon="Proposition" number="I.4.6" /> immediately implies the syllogism of being unramified in the classical case:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>287</fr:anchor>
+                <fr:addr type="user">sga1-i.10.4</fr:addr>
+                <fr:route>sga1-i.10.4.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.4</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be a normal integral prescheme, of field <fr:tex display="inline"><![CDATA[K]]></fr:tex>.
     Then</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;i. &quot;">
-      <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
+ <html:li style="list-style-type: &quot;i. &quot;">
+      <fr:tex display="inline"><![CDATA[K]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;ii. &quot;">
-      If <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is an extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> that is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and if <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> is a normal prescheme, of field <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>, that dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (e.g. the normalisation of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>), and <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> an extension of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> that is unramified over <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[M/K]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> (this is the <fr:em>transitivity</fr:em> property).
+ <html:li style="list-style-type: &quot;ii. &quot;">
+      If <fr:tex display="inline"><![CDATA[L]]></fr:tex> is an extension of <fr:tex display="inline"><![CDATA[K]]></fr:tex> that is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and if <fr:tex display="inline"><![CDATA[Y']]></fr:tex> is a normal prescheme, of field <fr:tex display="inline"><![CDATA[L]]></fr:tex>, that dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (e.g. the normalisation of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex>), and <fr:tex display="inline"><![CDATA[M]]></fr:tex> an extension of <fr:tex display="inline"><![CDATA[L]]></fr:tex> that is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex>, then <fr:tex display="inline"><![CDATA[M/K]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[X]]></fr:tex> (this is the <fr:em>transitivity</fr:em> property).
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;iii. &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> be a normal integral prescheme that dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, of field <fr:tex
-display="inline"><![CDATA[K'/K]]></fr:tex>;
-      if <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is an extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> that is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[L\otimes _K K']]></fr:tex> is an extension of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> that is unramified over <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> (this is the <fr:em>translation</fr:em> property).
+ <html:li style="list-style-type: &quot;iii. &quot;">
+      Let <fr:tex display="inline"><![CDATA[Y']]></fr:tex> be a normal integral prescheme that dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, of field <fr:tex display="inline"><![CDATA[K'/K]]></fr:tex>;
+      if <fr:tex display="inline"><![CDATA[L]]></fr:tex> is an extension of <fr:tex display="inline"><![CDATA[K]]></fr:tex> that is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[L\otimes _K K']]></fr:tex> is an extension of <fr:tex display="inline"><![CDATA[K']]></fr:tex> that is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex> (this is the <fr:em>translation</fr:em> property).
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Furthermore:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr
-type="user">sga1-i.10.5</fr:addr><fr:route>sga1-i.10.5.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.5</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of (iii) in <fr:ref
-addr="sga1-i.10.4"
-href="sga1-i.10.4.xml"
-taxon="Proposition"
-number="I.10.4" />, if <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y'=\operatorname {Spec}(A')]]></fr:tex>, then the normalisation <fr:tex
-display="inline"><![CDATA[\bar {A'}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L'=L\otimes _K K']]></fr:tex> can be identified with <fr:tex
-display="inline"><![CDATA[\bar {A}\otimes _A A']]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[\bar {A}]]></fr:tex> is the normalisation of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>294</fr:anchor><fr:addr
-type="user">sga1-i.10.6</fr:addr><fr:route>sga1-i.10.6.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.6</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the conditions of (iii) in <fr:ref
-addr="sga1-i.10.4"
-href="sga1-i.10.4.xml"
-taxon="Proposition"
-number="I.10.4" />, let <fr:tex
-display="inline"><![CDATA[L_1]]></fr:tex> be a <fr:em>sum extension</fr:em> of <fr:tex
-display="inline"><![CDATA[L/K]]></fr:tex> (unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>) and of <fr:tex
-display="inline"><![CDATA[K'/K]]></fr:tex>.
-    Then <fr:tex
-display="inline"><![CDATA[L_1/K']]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex>.
-    In the case where <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y'=\operatorname {Spec}(A')]]></fr:tex>, we further have that
-    <fr:tex
-display="block"><![CDATA[       \bar {A'} = A[\bar {A},A']     ]]></fr:tex>
-    i.e. the normalisation ring <fr:tex
-display="inline"><![CDATA[\bar {A'}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L_1]]></fr:tex> is the <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-algebra generated by <fr:tex
-display="inline"><![CDATA[A']]></fr:tex> and by the normalisation <fr:tex
-display="inline"><![CDATA[\bar {A}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...</fr:p><fr:p>To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point <fr:tex
-display="inline"><![CDATA[y\in  Y]]></fr:tex> in question, and, in particular, there should not be "multiple points combined" over <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.
-  To prove results in this sense, in all desirable generality, we will assume here <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" /> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).</fr:p><fr:p>A morphism of finite type <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is said to be <fr:em>universally open</fr:em> if, for every base extension <fr:tex
-display="inline"><![CDATA[Y'\to  Y]]></fr:tex> (with <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> locally Noetherian), the morphism <fr:tex
-display="inline"><![CDATA[f'\colon  X'=X\times _Y Y'\to  Y']]></fr:tex> is open, i.e. sends open subsets to open subsets.
-  We can actually restrict to the case where <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> is of finite type over <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> (and even to the case where <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> is of the form <fr:tex
-display="inline"><![CDATA[Y[t_1,\ldots ,t_r]]]></fr:tex>, where the <fr:tex
-display="inline"><![CDATA[t_i]]></fr:tex> are indeterminates).
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>Furthermore:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>292</fr:anchor>
+                <fr:addr type="user">sga1-i.10.5</fr:addr>
+                <fr:route>sga1-i.10.5.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.5</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Under the conditions of (iii) in <fr:ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4" />, if <fr:tex display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y'=\operatorname {Spec}(A')]]></fr:tex>, then the normalisation <fr:tex display="inline"><![CDATA[\bar {A'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[A']]></fr:tex> in <fr:tex display="inline"><![CDATA[L'=L\otimes _K K']]></fr:tex> can be identified with <fr:tex display="inline"><![CDATA[\bar {A}\otimes _A A']]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bar {A}]]></fr:tex> is the normalisation of <fr:tex display="inline"><![CDATA[A]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>Usually, people (those who are disgusted by the consideration of non-integral rings, even if they are direct sums of fields) state the translation property in the following (weaker) form:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>293</fr:anchor>
+                <fr:addr type="user">sga1-i.10.6</fr:addr>
+                <fr:route>sga1-i.10.6.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.6</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Under the conditions of (iii) in <fr:ref addr="sga1-i.10.4" href="sga1-i.10.4.xml" taxon="Proposition" number="I.10.4" />, let <fr:tex display="inline"><![CDATA[L_1]]></fr:tex> be a <fr:em>sum extension</fr:em> of <fr:tex display="inline"><![CDATA[L/K]]></fr:tex> (unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>) and of <fr:tex display="inline"><![CDATA[K'/K]]></fr:tex>.
+    Then <fr:tex display="inline"><![CDATA[L_1/K']]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex>.
+    In the case where <fr:tex display="inline"><![CDATA[Y=\operatorname {Spec}(A)]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y'=\operatorname {Spec}(A')]]></fr:tex>, we further have that
+    <fr:tex display="block"><![CDATA[       \bar {A'} = A[\bar {A},A']     ]]></fr:tex>
+    i.e. the normalisation ring <fr:tex display="inline"><![CDATA[\bar {A'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[A']]></fr:tex> in <fr:tex display="inline"><![CDATA[L_1]]></fr:tex> is the <fr:tex display="inline"><![CDATA[A]]></fr:tex>-algebra generated by <fr:tex display="inline"><![CDATA[A']]></fr:tex> and by the normalisation <fr:tex display="inline"><![CDATA[\bar {A}]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> in <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>This latter fact is actually false without the unramified hypothesis, even in the case of extensions given by direct sums of number fields...</fr:p>
+            <fr:p>To finish this section, we are going to give the intuitive interpretation of the notion of étale covers: there should be the "maximal number" of points over the point <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> in question, and, in particular, there should not be "multiple points combined" over <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+  To prove results in this sense, in all desirable generality, we will assume here <fr:ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7" /> found below (whose proof will be given in the multiplodoque, Chapter IV, Section 15, and uses Chevalley's technique of constructible sets, and a little bit of the theory of descent...).</fr:p>
+            <fr:p>A morphism of finite type <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is said to be <fr:em>universally open</fr:em> if, for every base extension <fr:tex display="inline"><![CDATA[Y'\to  Y]]></fr:tex> (with <fr:tex display="inline"><![CDATA[Y']]></fr:tex> locally Noetherian), the morphism <fr:tex display="inline"><![CDATA[f'\colon  X'=X\times _Y Y'\to  Y']]></fr:tex> is open, i.e. sends open subsets to open subsets.
+  We can actually restrict to the case where <fr:tex display="inline"><![CDATA[Y']]></fr:tex> is of finite type over <fr:tex display="inline"><![CDATA[y]]></fr:tex> (and even to the case where <fr:tex display="inline"><![CDATA[Y']]></fr:tex> is of the form <fr:tex display="inline"><![CDATA[Y[t_1,\ldots ,t_r]]]></fr:tex>, where the <fr:tex display="inline"><![CDATA[t_i]]></fr:tex> are indeterminates).
   A universally open morphism is a fortiori open (but the converse is false);
-  on the other hand, if <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is open, and if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> are irreducible, then all of the components of all of the fibres of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> are of the same dimension (i.e. the dimension of the generic fibre <fr:tex
-display="inline"><![CDATA[f^{-1}(z)]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> is the generic point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>).
-  Finally, if <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is normal, then this latter condition already implies that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is <fr:em>universally</fr:em> open (Chevalley's theorem).
-  It thus follows, for example, that, if <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is a <fr:em>quasi-finite</fr:em> morphism, with <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> normal and irreducible, then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is universally open (or even open) if and only if every irreducible component of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
+  on the other hand, if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is open, and if <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are irreducible, then all of the components of all of the fibres of <fr:tex display="inline"><![CDATA[f]]></fr:tex> are of the same dimension (i.e. the dimension of the generic fibre <fr:tex display="inline"><![CDATA[f^{-1}(z)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[z]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>).
+  Finally, if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is normal, then this latter condition already implies that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:em>universally</fr:em> open (Chevalley's theorem).
+  It thus follows, for example, that, if <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is a <fr:em>quasi-finite</fr:em> morphism, with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> normal and irreducible, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is universally open (or even open) if and only if every irreducible component of <fr:tex display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
   Recall also that a flat morphism (of finite type) is open, and thus also universally open.
-  With these preliminaries, "recall" the following:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
-type="user">sga1-i.10.7</fr:addr><fr:route>sga1-i.10.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.10.7</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a quasi-finite, separated, universally open morphism.
-    For all <fr:tex
-display="inline"><![CDATA[y\in  Y]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[n(y)]]></fr:tex> be the "geometric number of points in the fibre <fr:tex
-display="inline"><![CDATA[f^{-1}(y)]]></fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex
-display="inline"><![CDATA[k(x)/k(y)]]></fr:tex> as <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> runs over the points of <fr:tex
-display="inline"><![CDATA[f^{-1}(y)]]></fr:tex>.
-    Then the function <fr:tex
-display="inline"><![CDATA[y\mapsto  n(y)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> (i.e. for it to be the case that <fr:tex
-display="inline"><![CDATA[n(y)=n(z_i)]]></fr:tex>, where the <fr:tex
-display="inline"><![CDATA[z_i]]></fr:tex> are the generic points of the irreducible components of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> that contain <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>), it is necessary and sufficient for there to exist a neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> is <fr:em>finite</fr:em> over <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.
-    (cf. EGA IV 15.5.1.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr
-type="user">sga1-i.10.8</fr:addr><fr:route>sga1-i.10.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.8</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[y\mapsto  n(y)]]></fr:tex> is constant, and if <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is geometrically unibranch(For the definition, cf. <fr:ref
-addr="sga1-i.11"
-href="sga1-i.11.xml"
-taxon="Section"
-number="I.11" />), then the irreducible components of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> are disjoint.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
-type="user">sga1-i.10.9</fr:addr><fr:route>sga1-i.10.9.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.10.9</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>étale</fr:em> morphism.
-    With the notation of <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" />, the function <fr:tex
-display="inline"><![CDATA[n\mapsto  n(y)]]></fr:tex> is upper semi-continuous.
-    For it to be constant on a neighbourhood of the point <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> (i.e. for it to be the case that <fr:tex
-display="inline"><![CDATA[n(y)=n(z_i)]]></fr:tex>, where the <fr:tex
-display="inline"><![CDATA[z_i]]></fr:tex> are the generic points of the irreducible components of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> that contain <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>), it is necessary and sufficient that there exist a neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> is <fr:em>finite</fr:em> over <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, i.e. such that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr
-type="user">sga1-i.10.10</fr:addr><fr:route>sga1-i.10.10.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.10</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For a separated étale morphism <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> (with <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> connected) to be finite (i.e. for <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> to make <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> an <fr:em>étale cover</fr:em> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>), it is necessary and sufficient that all the fibres of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> have the same geometric number of points.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" /> and its corollary (<fr:ref
-addr="sga1-i.10.8"
-href="sga1-i.10.8.xml"
-taxon="Corollary"
-number="I.10.8" />), there was no normality hypothesis on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>;
-  if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
-type="user">sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
-    Suppose that <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is reduced (i.e. that <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> has no nilpotent elements).
-    Let <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be the degree of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (i.e. the sum of the degrees, over the field <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, of the fields <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex> of the irreducible components <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>).
-    Let <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> be a normal point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-    Then the geometric number <fr:tex
-display="inline"><![CDATA[n(y)]]></fr:tex> of points of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+  With these preliminaries, "recall" the following:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>294</fr:anchor>
+                <fr:addr type="user">sga1-i.10.7</fr:addr>
+                <fr:route>sga1-i.10.7.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.7</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a quasi-finite, separated, universally open morphism.
+    For all <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, let <fr:tex display="inline"><![CDATA[n(y)]]></fr:tex> be the "geometric number of points in the fibre <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex>", equal to the sum of the separable degrees of the residue extensions <fr:tex display="inline"><![CDATA[k(x)/k(y)]]></fr:tex> as <fr:tex display="inline"><![CDATA[x]]></fr:tex> runs over the points of <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex>.
+    Then the function <fr:tex display="inline"><![CDATA[y\mapsto  n(y)]]></fr:tex> on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex display="inline"><![CDATA[y]]></fr:tex> (i.e. for it to be the case that <fr:tex display="inline"><![CDATA[n(y)=n(z_i)]]></fr:tex>, where the <fr:tex display="inline"><![CDATA[z_i]]></fr:tex> are the generic points of the irreducible components of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> that contain <fr:tex display="inline"><![CDATA[y]]></fr:tex>), it is necessary and sufficient for there to exist a neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X|U]]></fr:tex> is <fr:em>finite</fr:em> over <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+    (cf. EGA IV 15.5.1.)</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>295</fr:anchor>
+                <fr:addr type="user">sga1-i.10.8</fr:addr>
+                <fr:route>sga1-i.10.8.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.8</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[y\mapsto  n(y)]]></fr:tex> is constant, and if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is geometrically unibranch(For the definition, cf. <fr:ref addr="sga1-i.11" href="sga1-i.11.xml" taxon="Section" number="I.11" />), then the irreducible components of <fr:tex display="inline"><![CDATA[X]]></fr:tex> are disjoint.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>296</fr:anchor>
+                <fr:addr type="user">sga1-i.10.9</fr:addr>
+                <fr:route>sga1-i.10.9.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.9</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>étale</fr:em> morphism.
+    With the notation of <fr:ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7" />, the function <fr:tex display="inline"><![CDATA[n\mapsto  n(y)]]></fr:tex> is upper semi-continuous.
+    For it to be constant on a neighbourhood of the point <fr:tex display="inline"><![CDATA[y]]></fr:tex> (i.e. for it to be the case that <fr:tex display="inline"><![CDATA[n(y)=n(z_i)]]></fr:tex>, where the <fr:tex display="inline"><![CDATA[z_i]]></fr:tex> are the generic points of the irreducible components of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> that contain <fr:tex display="inline"><![CDATA[y]]></fr:tex>), it is necessary and sufficient that there exist a neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X|U]]></fr:tex> is <fr:em>finite</fr:em> over <fr:tex display="inline"><![CDATA[U]]></fr:tex>, i.e. such that <fr:tex display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>297</fr:anchor>
+                <fr:addr type="user">sga1-i.10.10</fr:addr>
+                <fr:route>sga1-i.10.10.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.10</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For a separated étale morphism <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> (with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> connected) to be finite (i.e. for <fr:tex display="inline"><![CDATA[f]]></fr:tex> to make <fr:tex display="inline"><![CDATA[X]]></fr:tex> an <fr:em>étale cover</fr:em> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>), it is necessary and sufficient that all the fibres of <fr:tex display="inline"><![CDATA[f]]></fr:tex> have the same geometric number of points.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>In <fr:ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7" /> and its corollary (<fr:ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8" />), there was no normality hypothesis on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>;
+  if we make such a hypothesis, then we find the following stronger statement (which is usually taken as the definition of unramified for a cover):</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>298</fr:anchor>
+                <fr:addr type="user">sga1-i.10.11</fr:addr>
+                <fr:route>sga1-i.10.11.xml</fr:route>
+                <fr:taxon>Theorem</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.11</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is reduced (i.e. that <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> has no nilpotent elements).
+    Let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be the degree of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (i.e. the sum of the degrees, over the field <fr:tex display="inline"><![CDATA[K]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, of the fields <fr:tex display="inline"><![CDATA[K_i]]></fr:tex> of the irreducible components <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>).
+    Let <fr:tex display="inline"><![CDATA[y]]></fr:tex> be a normal point of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+    Then the geometric number <fr:tex display="inline"><![CDATA[n(y)]]></fr:tex> of points of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[y]]></fr:tex> is <fr:tex display="inline"><![CDATA[\leq  n]]></fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>The "only if" is trivial;
       we will prove the "if".
-      Let <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-      Then <fr:tex
-display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex
-display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" />, we have that <fr:tex
-display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
-      thus <fr:tex
-display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.
-      We can thus suppose that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex
-display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is constant.
-      Then, by <fr:ref
-addr="sga1-i.10.8"
-href="sga1-i.10.8.xml"
-taxon="Corollary"
-number="I.10.8" />, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
-      Finally, we can assume that <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+      Then <fr:tex display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref addr="sga1-i.10.7" href="sga1-i.10.7.xml" taxon="Proposition" number="I.10.7" />, we have that <fr:tex display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
+      thus <fr:tex display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+      We can thus suppose that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is constant.
+      Then, by <fr:ref addr="sga1-i.10.8" href="sga1-i.10.8.xml" taxon="Corollary" number="I.10.8" />, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
+      Finally, we can assume that <fr:tex display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
       The theorem thus reduces to the following classical statement:</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
-type="user">sga1-i.10.12</fr:addr><fr:route>sga1-i.10.12.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.10.12</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be a normal local ring (Noetherian, as always), of field <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>;
-    let <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> of degree <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, and of separable degree <fr:tex
-display="inline"><![CDATA[n_s]]></fr:tex>;
-    let <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be a sub-ring of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> that is finite over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, with field of fraction <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>;
-    let <fr:tex
-display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> be the maximal ideal of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[n']]></fr:tex> the separable degree of <fr:tex
-display="inline"><![CDATA[B/\mathfrak {m}B]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[A/\mathfrak {m}A=k]]></fr:tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
-    Then <fr:tex
-display="inline"><![CDATA[n'\leq  n_s]]></fr:tex>, and a fortiori <fr:tex
-display="inline"><![CDATA[n'\leq  n]]></fr:tex>.
-    This latter inequality is an equality if and only if <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is unramified (i.e. étale) over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>300</fr:anchor>
+                <fr:addr type="user">sga1-i.10.12</fr:addr>
+                <fr:route>sga1-i.10.12.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.10.12</fr:number>
+                <fr:parent>sga1-i.10</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a normal local ring (Noetherian, as always), of field <fr:tex display="inline"><![CDATA[K]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex display="inline"><![CDATA[K]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex>, and of separable degree <fr:tex display="inline"><![CDATA[n_s]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[B]]></fr:tex> be a sub-ring of <fr:tex display="inline"><![CDATA[L]]></fr:tex> that is finite over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, with field of fraction <fr:tex display="inline"><![CDATA[L]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> be the maximal ideal of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex display="inline"><![CDATA[n']]></fr:tex> the separable degree of <fr:tex display="inline"><![CDATA[B/\mathfrak {m}B]]></fr:tex> over <fr:tex display="inline"><![CDATA[A/\mathfrak {m}A=k]]></fr:tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+    Then <fr:tex display="inline"><![CDATA[n'\leq  n_s]]></fr:tex>, and a fortiori <fr:tex display="inline"><![CDATA[n'\leq  n]]></fr:tex>.
+    This latter inequality is an equality if and only if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is unramified (i.e. étale) over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.12</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>It remains only to show that, if <fr:tex
-display="inline"><![CDATA[n'=n]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
-      Recall the proof in the case where <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> is infinite:
-      we need only show that <fr:tex
-display="inline"><![CDATA[R=B/\mathfrak {m}B]]></fr:tex> is separable over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>;
-      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> whose minimal polynomial over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> is of degree <fr:tex
-display="inline"><![CDATA[>n']]></fr:tex>.
-      This element would come from an element <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[B]]></fr:tex>, whose minimal polynomial over <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> (as an element of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex>) is of degree <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>;
-      but this minimal polynomial has coefficients in <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is normal, and thus gives, by restriction modulo <fr:tex
-display="inline"><![CDATA[\mathfrak {m}]]></fr:tex>, a monic polynomial <fr:tex
-display="inline"><![CDATA[F\in  k[t]]]></fr:tex> of degree <fr:tex
-display="inline"><![CDATA[\leq  n=n']]></fr:tex>, such that <fr:tex
-display="inline"><![CDATA[F(a)=0]]></fr:tex>.
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It remains only to show that, if <fr:tex display="inline"><![CDATA[n'=n]]></fr:tex>, then <fr:tex display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+      Recall the proof in the case where <fr:tex display="inline"><![CDATA[k]]></fr:tex> is infinite:
+      we need only show that <fr:tex display="inline"><![CDATA[R=B/\mathfrak {m}B]]></fr:tex> is separable over <fr:tex display="inline"><![CDATA[k]]></fr:tex>;
+      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex display="inline"><![CDATA[a]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> whose minimal polynomial over <fr:tex display="inline"><![CDATA[k]]></fr:tex> is of degree <fr:tex display="inline"><![CDATA[>n']]></fr:tex>.
+      This element would come from an element <fr:tex display="inline"><![CDATA[x]]></fr:tex> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, whose minimal polynomial over <fr:tex display="inline"><![CDATA[K]]></fr:tex> (as an element of <fr:tex display="inline"><![CDATA[L]]></fr:tex>) is of degree <fr:tex display="inline"><![CDATA[\leq  n]]></fr:tex>;
+      but this minimal polynomial has coefficients in <fr:tex display="inline"><![CDATA[A]]></fr:tex>, since <fr:tex display="inline"><![CDATA[A]]></fr:tex> is normal, and thus gives, by restriction modulo <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex>, a monic polynomial <fr:tex display="inline"><![CDATA[F\in  k[t]]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[\leq  n=n']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[F(a)=0]]></fr:tex>.
       But this is a contradiction.</fr:p>
 
-    <fr:p>In the general case (where <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> can be finite), we can again use geometric language:
-      we consider <fr:tex
-display="inline"><![CDATA[Y'=\operatorname {Spec}(A[t])]]></fr:tex>, which is faithfully flat over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and the generic point <fr:tex
-display="inline"><![CDATA[y']]></fr:tex> of the fibre <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(k[t])]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> over <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.
-      Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> if and only if <fr:tex
-display="inline"><![CDATA[X'=X\times _Y Y'=\operatorname {Spec}(B[t])]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex> at <fr:tex
-display="inline"><![CDATA[y']]></fr:tex>, as we immediately see.
-      On the other hand, by the choice of <fr:tex
-display="inline"><![CDATA[y']]></fr:tex>, its residue field is <fr:tex
-display="inline"><![CDATA[k(t)]]></fr:tex>, and thus infinite.
-      Since <fr:tex
-display="inline"><![CDATA[y']]></fr:tex> is a normal point of <fr:tex
-display="inline"><![CDATA[Y']]></fr:tex>, we are now in the previous case.</fr:p>
+    <fr:p>In the general case (where <fr:tex display="inline"><![CDATA[k]]></fr:tex> can be finite), we can again use geometric language:
+      we consider <fr:tex display="inline"><![CDATA[Y'=\operatorname {Spec}(A[t])]]></fr:tex>, which is faithfully flat over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and the generic point <fr:tex display="inline"><![CDATA[y']]></fr:tex> of the fibre <fr:tex display="inline"><![CDATA[\operatorname {Spec}(k[t])]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y']]></fr:tex> over <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+      Then <fr:tex display="inline"><![CDATA[X]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> at <fr:tex display="inline"><![CDATA[y]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[X'=X\times _Y Y'=\operatorname {Spec}(B[t])]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex> at <fr:tex display="inline"><![CDATA[y']]></fr:tex>, as we immediately see.
+      On the other hand, by the choice of <fr:tex display="inline"><![CDATA[y']]></fr:tex>, its residue field is <fr:tex display="inline"><![CDATA[k(t)]]></fr:tex>, and thus infinite.
+      Since <fr:tex display="inline"><![CDATA[y']]></fr:tex> is a normal point of <fr:tex display="inline"><![CDATA[Y']]></fr:tex>, we are now in the previous case.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

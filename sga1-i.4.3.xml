@@ -1,200 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>432</fr:anchor><fr:addr
-type="user">sga1-i.4.3</fr:addr><fr:route>sga1-i.4.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.3</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.
-    The property of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:addr
-type="user">sga1-i.4</fr:addr><fr:route>sga1-i.4.xml</fr:route><fr:title
-text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale morphisms. Étale covers"><fr:link
-type="local"
-href="sga1-i.xml"
-addr="sga1-i"
-title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale morphisms. Étale covers</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>I.4</fr:number><fr:parent>sga1-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>431</fr:anchor>
+    <fr:addr type="user">sga1-i.4.3</fr:addr>
+    <fr:route>sga1-i.4.3.xml</fr:route>
+    <fr:taxon>Corollary</fr:taxon>
+    <fr:authors />
+    <fr:number>I.4.3</fr:number>
+    <fr:parent>sga1-i.4</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.
+    The property of <fr:tex display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>432</fr:anchor>
+            <fr:addr type="user">sga1-i.4</fr:addr>
+            <fr:route>sga1-i.4.xml</fr:route>
+            <fr:title text="SGA 1: Étale covers and the fundamental group › Étale morphisms › Étale morphisms. Étale covers"><fr:link type="local" href="sga1-i.xml" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms"><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Étale morphisms</fr:link> › Étale morphisms. Étale covers</fr:title>
+            <fr:taxon>Section</fr:taxon>
+            <fr:authors />
+            <fr:number>I.4</fr:number>
+            <fr:parent>sga1-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We are going to suppose that everything concerning flat morphisms that we need to be true is indeed true;
   these facts will be proved later, if there is time.
-  (cf. [sga1-iv <fr:strong>(?)</fr:strong>].)</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:addr
-type="user">sga1-i.4.1</fr:addr><fr:route>sga1-i.4.1.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>I.4.1</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+  (cf. [sga1-iv <fr:strong>(?)</fr:strong>].)</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>402</fr:anchor>
+                <fr:addr type="user">sga1-i.4.1</fr:addr>
+                <fr:route>sga1-i.4.1.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.1</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;a. &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is <fr:em>étale</fr:em> at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> if <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is both flat and unramified at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale if it is étale at all points.
-      We say that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, or that it is a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-prescheme which is étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> etc.
+ <html:li style="list-style-type: &quot;a. &quot;">
+      Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:em>étale</fr:em> at <fr:tex display="inline"><![CDATA[x]]></fr:tex> if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is both flat and unramified at <fr:tex display="inline"><![CDATA[x]]></fr:tex>.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale if it is étale at all points.
+      We say that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, or that it is a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-prescheme which is étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> etc.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;b. &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> be a local homomorphism.
-      We say that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale, or that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, if <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is flat and unramified over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>
+ <html:li style="list-style-type: &quot;b. &quot;">
+      Let <fr:tex display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> be a local homomorphism.
+      We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale, or that <fr:tex display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is flat and unramified over <fr:tex display="inline"><![CDATA[A]]></fr:tex>
       (cf. regrets in [sga1-iii.1.2 <fr:strong>(?)</fr:strong>].)
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:addr
-type="user">sga1-i.4.2</fr:addr><fr:route>sga1-i.4.2.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.2</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
-display="inline"><![CDATA[B/A]]></fr:tex> to be étale, it is necessary and sufficient that <fr:tex
-display="inline"><![CDATA[\widehat {B}/\widehat {A}]]></fr:tex> be étale.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>406</fr:anchor>
+                <fr:addr type="user">sga1-i.4.2</fr:addr>
+                <fr:route>sga1-i.4.2.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.2</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>For <fr:tex display="inline"><![CDATA[B/A]]></fr:tex> to be étale, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\widehat {B}/\widehat {A}]]></fr:tex> be étale.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>This is true individually for both "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>409</fr:anchor><fr:addr
-type="user">sga1-i.4.3</fr:addr><fr:route>sga1-i.4.3.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.3</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.
-    The property of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:addr
-type="user">sga1-i.4.4</fr:addr><fr:route>sga1-i.4.4.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.4</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Suppose that the residue extension <fr:tex
-display="inline"><![CDATA[k(A)\to  k(B)]]></fr:tex> is trivial, or that <fr:tex
-display="inline"><![CDATA[k(A)]]></fr:tex> is algebraically closed.
-    Then <fr:tex
-display="inline"><![CDATA[B/A]]></fr:tex> is étale if and only if <fr:tex
-display="inline"><![CDATA[\widehat {A}\to \widehat {B}]]></fr:tex> is an isomorphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can combine flatness with <fr:ref
-addr="sga1-i.3.7"
-href="sga1-i.3.7.xml"
-taxon="Proposition"
-number="I.3.7" />.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr
-type="user">sga1-i.4.5</fr:addr><fr:route>sga1-i.4.5.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.5</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
-    Then the set of points where <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is étale is open.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>408</fr:anchor>
+                <fr:addr type="user">sga1-i.4.3</fr:addr>
+                <fr:route>sga1-i.4.3.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.3</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be of finite type, and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.
+    The property of <fr:tex display="inline"><![CDATA[f]]></fr:tex> being étale at <fr:tex display="inline"><![CDATA[x]]></fr:tex> depends only on the local homomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_{f(x)}\to \mathcal {O}_x]]></fr:tex>, and in fact only on the corresponding homomorphism for the completions.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>409</fr:anchor>
+                <fr:addr type="user">sga1-i.4.4</fr:addr>
+                <fr:route>sga1-i.4.4.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.4</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Suppose that the residue extension <fr:tex display="inline"><![CDATA[k(A)\to  k(B)]]></fr:tex> is trivial, or that <fr:tex display="inline"><![CDATA[k(A)]]></fr:tex> is algebraically closed.
+    Then <fr:tex display="inline"><![CDATA[B/A]]></fr:tex> is étale if and only if <fr:tex display="inline"><![CDATA[\widehat {A}\to \widehat {B}]]></fr:tex> is an isomorphism.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>We can combine flatness with <fr:ref addr="sga1-i.3.7" href="sga1-i.3.7.xml" taxon="Proposition" number="I.3.7" />.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>410</fr:anchor>
+                <fr:addr type="user">sga1-i.4.5</fr:addr>
+                <fr:route>sga1-i.4.5.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.5</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism of finite type.
+    Then the set of points where <fr:tex display="inline"><![CDATA[f]]></fr:tex> is étale is open.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.5</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Again, this is true individually for both "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:addr
-type="user">sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>This proposition shows that we can forget about the "one-off" comments in the study of morphisms of finite type that are somewhere étale.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>412</fr:anchor>
+                <fr:addr type="user">sga1-i.4.6</fr:addr>
+                <fr:route>sga1-i.4.6.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.6</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;i. &quot;">
+ <html:li style="list-style-type: &quot;i. &quot;">
       An open immersion is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;ii. &quot;">
+ <html:li style="list-style-type: &quot;ii. &quot;">
       The composition of two étale morphisms is étale.
     </html:li>
 
     
- <html:li
-style="list-style-type: &quot;iii. &quot;">
+ <html:li style="list-style-type: &quot;iii. &quot;">
       The base extension of an étale morphism is étale.
     </html:li>
 
@@ -202,148 +173,111 @@ style="list-style-type: &quot;iii. &quot;">
 
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
-  (<fr:em>[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper — see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information.</fr:em>)</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:addr
-type="user">sga1-i.4.7</fr:addr><fr:route>sga1-i.4.7.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.7</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The cartesian product of two étale morphisms is étale.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:addr
-type="user">sga1-i.4.8</fr:addr><fr:route>sga1-i.4.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.4.8</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> be of finite type over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-morphism.
-    If <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is étale.</fr:p>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>As a matter of fact, there are also corresponding comments to make about local homomorphisms (without the finiteness condition), which in any case should appear in the multiplodoque (starting with the case of unramified).
+  (<fr:em>[Trans.] Grothendieck's "multiplodoque d'algèbre homologique" was the final version of his Tohoku paper — see (2.1) in "Life and work of Alexander Grothendieck" by Ching-Li Chan and Frans Oort for more information.</fr:em>)</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>418</fr:anchor>
+                <fr:addr type="user">sga1-i.4.7</fr:addr>
+                <fr:route>sga1-i.4.7.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.7</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The cartesian product of two étale morphisms is étale.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>419</fr:anchor>
+                <fr:addr type="user">sga1-i.4.8</fr:addr>
+                <fr:route>sga1-i.4.8.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.8</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[X']]></fr:tex> be of finite type over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-morphism.
+    If <fr:tex display="inline"><![CDATA[X']]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[g]]></fr:tex> is étale.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex
-display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref
-addr="sga1-i.3.4"
-href="sga1-i.3.4.xml"
-taxon="Corollary"
-number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex
-display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex
-display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Indeed, <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr
-type="user">sga1-i.4.9</fr:addr><fr:route>sga1-i.4.9.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>I.4.9</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that a cover of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is étale (resp. unramified) if it is a <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and étale (resp. unramified) over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The first condition means that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is defined by a coherent sheaf of algebras <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  The second means that <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp. means absolutely nothing) <fr:em>and</fr:em>, further, that, for all <fr:tex
-display="inline"><![CDATA[y\in  Y]]></fr:tex>, the fibre <fr:tex
-display="inline"><![CDATA[\mathcal {B}(y)=\mathcal {B}_y\otimes _{\mathcal {O}_y}k(y)]]></fr:tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <fr:tex
-display="inline"><![CDATA[k(y)]]></fr:tex>.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
-type="user">sga1-i.4.10</fr:addr><fr:route>sga1-i.4.10.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.10</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a flat cover of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> of degree <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> (the definition of this term deserved to figure in <fr:ref
-addr="sga1-i.4.9"
-href="sga1-i.4.9.xml"
-taxon="Definition"
-number="I.4.9" />) defined by a locally free coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
-    We define, as usual, the trace homomorphism <fr:tex
-display="inline"><![CDATA[\mathcal {B}\to \mathcal {A}]]></fr:tex> (that is, a homomorphism of <fr:tex
-display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-modules, where <fr:tex
-display="inline"><![CDATA[\mathcal {A}=\mathcal {O}_Y]]></fr:tex>).
-    For <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> to be étale it is necessary and sufficient that the corresponding bilinear form <fr:tex
-display="inline"><![CDATA[\operatorname {tr}_{\mathcal {B}/\mathcal {A}}xy]]></fr:tex> define an isomorphism of <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathcal {B}]]></fr:tex>, or, equivalently, that the <fr:em>discriminant section</fr:em>
-    <fr:tex
-display="block"><![CDATA[       d_{X/Y}       = d_{\mathcal {B}/\mathcal {A}}       \in  \Gamma \big (Y,\wedge ^n\check {\mathcal {B}}\otimes _\mathcal {A}\wedge ^n\check {\mathcal {B}}\big )     ]]></fr:tex>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>420</fr:anchor>
+                <fr:addr type="user">sga1-i.4.9</fr:addr>
+                <fr:route>sga1-i.4.9.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.9</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We say that a cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is étale (resp. unramified) if it is a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> that is finite over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and étale (resp. unramified) over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>The first condition means that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is defined by a coherent sheaf of algebras <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  The second means that <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is locally free over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp. means absolutely nothing) <fr:em>and</fr:em>, further, that, for all <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, the fibre <fr:tex display="inline"><![CDATA[\mathcal {B}(y)=\mathcal {B}_y\otimes _{\mathcal {O}_y}k(y)]]></fr:tex> is a separable algebra (i.e. a finite composition of finite separable extensions) over <fr:tex display="inline"><![CDATA[k(y)]]></fr:tex>.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>421</fr:anchor>
+                <fr:addr type="user">sga1-i.4.10</fr:addr>
+                <fr:route>sga1-i.4.10.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>I.4.10</fr:number>
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a flat cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> (the definition of this term deserved to figure in <fr:ref addr="sga1-i.4.9" href="sga1-i.4.9.xml" taxon="Definition" number="I.4.9" />) defined by a locally free coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> of algebras.
+    We define, as usual, the trace homomorphism <fr:tex display="inline"><![CDATA[\mathcal {B}\to \mathcal {A}]]></fr:tex> (that is, a homomorphism of <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-modules, where <fr:tex display="inline"><![CDATA[\mathcal {A}=\mathcal {O}_Y]]></fr:tex>).
+    For <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be étale it is necessary and sufficient that the corresponding bilinear form <fr:tex display="inline"><![CDATA[\operatorname {tr}_{\mathcal {B}/\mathcal {A}}xy]]></fr:tex> define an isomorphism of <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex>, or, equivalently, that the <fr:em>discriminant section</fr:em>
+    <fr:tex display="block"><![CDATA[       d_{X/Y}       = d_{\mathcal {B}/\mathcal {A}}       \in  \Gamma \big (Y,\wedge ^n\check {\mathcal {B}}\otimes _\mathcal {A}\wedge ^n\check {\mathcal {B}}\big )     ]]></fr:tex>
     is invertible, or that the discriminant ideal defined by this section is the unit ring.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.10</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We can reduce to the case where <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[Y=\operatorname {Spec}(k)]]></fr:tex>, and then it is a well-known criterion of separability, and thus trivial by passing to the algebraic closure of <fr:tex display="inline"><![CDATA[k]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:authors /><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will have a less trivial statement to make later on (<fr:ref
-addr="sga1-i.9.12"
-href="sga1-i.9.12.xml"
-taxon="Corollary"
-number="I.9.12" />), when we do not suppose a priori that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is flat over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, but instead require some normality hypothesis.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>422</fr:anchor>
+                <fr:addr type="machine">#269</fr:addr>
+                <fr:route>unstable-269.xml</fr:route>
+                <fr:taxon>Remark</fr:taxon>
+                <fr:authors />
+                <fr:parent>sga1-i.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We will have a less trivial statement to make later on (<fr:ref addr="sga1-i.9.12" href="sga1-i.9.12.xml" taxon="Corollary" number="I.9.12" />), when we do not suppose a priori that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is flat over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, but instead require some normality hypothesis.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

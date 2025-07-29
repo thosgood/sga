@@ -1,142 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>834</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The "only if" is trivial;
-      we will prove the "if".
-      Let <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-      Then <fr:tex
-display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex
-display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" />, we have that <fr:tex
-display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
-      thus <fr:tex
-display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.
-      We can thus suppose that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex
-display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is constant.
-      Then, by <fr:ref
-addr="sga1-i.10.8"
-href="sga1-i.10.8.xml"
-taxon="Corollary"
-number="I.10.8" />, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
-      Finally, we can assume that <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
-      The theorem thus reduces to the following classical statement:</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>835</fr:anchor><fr:addr
-type="user">sga1-i.10.11</fr:addr><fr:route>sga1-i.10.11.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>I.10.11</fr:number><fr:parent>sga1-i.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a separated <fr:em>quasi-finite</fr:em> morphism.
-    Suppose that <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is <fr:em>irreducible</fr:em>, that every component of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> dominates <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is reduced (i.e. that <fr:tex
-display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> has no nilpotent elements).
-    Let <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be the degree of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (i.e. the sum of the degrees, over the field <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, of the fields <fr:tex
-display="inline"><![CDATA[K_i]]></fr:tex> of the irreducible components <fr:tex
-display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>).
-    Let <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> be a normal point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-    Then the geometric number <fr:tex
-display="inline"><![CDATA[n(y)]]></fr:tex> of points of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>, with equality if and only if there exists an open neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> is an <fr:em>étale cover</fr:em> of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>835</fr:anchor>
+    <fr:addr type="machine">#277</fr:addr>
+    <fr:route>unstable-277.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>sga1-i.10.12</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>It remains only to show that, if <fr:tex display="inline"><![CDATA[n'=n]]></fr:tex>, then <fr:tex display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+      Recall the proof in the case where <fr:tex display="inline"><![CDATA[k]]></fr:tex> is infinite:
+      we need only show that <fr:tex display="inline"><![CDATA[R=B/\mathfrak {m}B]]></fr:tex> is separable over <fr:tex display="inline"><![CDATA[k]]></fr:tex>;
+      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex display="inline"><![CDATA[a]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> whose minimal polynomial over <fr:tex display="inline"><![CDATA[k]]></fr:tex> is of degree <fr:tex display="inline"><![CDATA[>n']]></fr:tex>.
+      This element would come from an element <fr:tex display="inline"><![CDATA[x]]></fr:tex> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, whose minimal polynomial over <fr:tex display="inline"><![CDATA[K]]></fr:tex> (as an element of <fr:tex display="inline"><![CDATA[L]]></fr:tex>) is of degree <fr:tex display="inline"><![CDATA[\leq  n]]></fr:tex>;
+      but this minimal polynomial has coefficients in <fr:tex display="inline"><![CDATA[A]]></fr:tex>, since <fr:tex display="inline"><![CDATA[A]]></fr:tex> is normal, and thus gives, by restriction modulo <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex>, a monic polynomial <fr:tex display="inline"><![CDATA[F\in  k[t]]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[\leq  n=n']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[F(a)=0]]></fr:tex>.
+      But this is a contradiction.</fr:p>
+
+    <fr:p>In the general case (where <fr:tex display="inline"><![CDATA[k]]></fr:tex> can be finite), we can again use geometric language:
+      we consider <fr:tex display="inline"><![CDATA[Y'=\operatorname {Spec}(A[t])]]></fr:tex>, which is faithfully flat over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and the generic point <fr:tex display="inline"><![CDATA[y']]></fr:tex> of the fibre <fr:tex display="inline"><![CDATA[\operatorname {Spec}(k[t])]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y']]></fr:tex> over <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+      Then <fr:tex display="inline"><![CDATA[X]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> at <fr:tex display="inline"><![CDATA[y]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[X'=X\times _Y Y'=\operatorname {Spec}(B[t])]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex> at <fr:tex display="inline"><![CDATA[y']]></fr:tex>, as we immediately see.
+      On the other hand, by the choice of <fr:tex display="inline"><![CDATA[y']]></fr:tex>, its residue field is <fr:tex display="inline"><![CDATA[k(t)]]></fr:tex>, and thus infinite.
+      Since <fr:tex display="inline"><![CDATA[y']]></fr:tex> is a normal point of <fr:tex display="inline"><![CDATA[Y']]></fr:tex>, we are now in the previous case.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>836</fr:anchor>
+            <fr:addr type="user">sga1-i.10.12</fr:addr>
+            <fr:route>sga1-i.10.12.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>I.10.12</fr:number>
+            <fr:parent>sga1-i.10</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a normal local ring (Noetherian, as always), of field <fr:tex display="inline"><![CDATA[K]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be a finite extension of <fr:tex display="inline"><![CDATA[K]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex>, and of separable degree <fr:tex display="inline"><![CDATA[n_s]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[B]]></fr:tex> be a sub-ring of <fr:tex display="inline"><![CDATA[L]]></fr:tex> that is finite over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, with field of fraction <fr:tex display="inline"><![CDATA[L]]></fr:tex>;
+    let <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex> be the maximal ideal of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex display="inline"><![CDATA[n']]></fr:tex> the separable degree of <fr:tex display="inline"><![CDATA[B/\mathfrak {m}B]]></fr:tex> over <fr:tex display="inline"><![CDATA[A/\mathfrak {m}A=k]]></fr:tex> (which is equal to the sum of the separable deprees of the residue extensions of this ring).
+    Then <fr:tex display="inline"><![CDATA[n'\leq  n_s]]></fr:tex>, and a fortiori <fr:tex display="inline"><![CDATA[n'\leq  n]]></fr:tex>.
+    This latter inequality is an equality if and only if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is unramified (i.e. étale) over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.11</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The "only if" is trivial;
-      we will prove the "if".
-      Let <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> be the generic point of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-      Then <fr:tex
-display="inline"><![CDATA[n(z)]]></fr:tex>, which is equal to the sum of the separable degrees of the <fr:tex
-display="inline"><![CDATA[K_i/K]]></fr:tex>, is <fr:tex
-display="inline"><![CDATA[\leq  n]]></fr:tex>, and, by <fr:ref
-addr="sga1-i.10.7"
-href="sga1-i.10.7.xml"
-taxon="Proposition"
-number="I.10.7" />, we have that <fr:tex
-display="inline"><![CDATA[n(y)\leq  n(z)]]></fr:tex>;
-      thus <fr:tex
-display="inline"><![CDATA[n(y)\leq  n]]></fr:tex>, with equality implying that <fr:tex
-display="inline"><![CDATA[X|U]]></fr:tex> if <fr:em>finite</fr:em> over <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, for some suitable neighbourhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.
-      We can thus suppose that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is finite over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>, and that the function <fr:tex
-display="inline"><![CDATA[n(y')]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> is constant.
-      Then, by <fr:ref
-addr="sga1-i.10.8"
-href="sga1-i.10.8.xml"
-taxon="Corollary"
-number="I.10.8" />, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the disjoint union of its irreducible components, and so, to prove that it is unramified at <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, we can restrict to the case where <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is irreducible, thus integral.
-      Finally, we can assume that <fr:tex
-display="inline"><![CDATA[Y=\operatorname {Spec}(\mathcal {O}_y)]]></fr:tex>.
-      The theorem thus reduces to the following classical statement:</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.10.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It remains only to show that, if <fr:tex display="inline"><![CDATA[n'=n]]></fr:tex>, then <fr:tex display="inline"><![CDATA[B]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+      Recall the proof in the case where <fr:tex display="inline"><![CDATA[k]]></fr:tex> is infinite:
+      we need only show that <fr:tex display="inline"><![CDATA[R=B/\mathfrak {m}B]]></fr:tex> is separable over <fr:tex display="inline"><![CDATA[k]]></fr:tex>;
+      if this were not the case, then it would follow (by a known lemma) that there exists an element <fr:tex display="inline"><![CDATA[a]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> whose minimal polynomial over <fr:tex display="inline"><![CDATA[k]]></fr:tex> is of degree <fr:tex display="inline"><![CDATA[>n']]></fr:tex>.
+      This element would come from an element <fr:tex display="inline"><![CDATA[x]]></fr:tex> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, whose minimal polynomial over <fr:tex display="inline"><![CDATA[K]]></fr:tex> (as an element of <fr:tex display="inline"><![CDATA[L]]></fr:tex>) is of degree <fr:tex display="inline"><![CDATA[\leq  n]]></fr:tex>;
+      but this minimal polynomial has coefficients in <fr:tex display="inline"><![CDATA[A]]></fr:tex>, since <fr:tex display="inline"><![CDATA[A]]></fr:tex> is normal, and thus gives, by restriction modulo <fr:tex display="inline"><![CDATA[\mathfrak {m}]]></fr:tex>, a monic polynomial <fr:tex display="inline"><![CDATA[F\in  k[t]]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[\leq  n=n']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[F(a)=0]]></fr:tex>.
+      But this is a contradiction.</fr:p>
+
+    <fr:p>In the general case (where <fr:tex display="inline"><![CDATA[k]]></fr:tex> can be finite), we can again use geometric language:
+      we consider <fr:tex display="inline"><![CDATA[Y'=\operatorname {Spec}(A[t])]]></fr:tex>, which is faithfully flat over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and the generic point <fr:tex display="inline"><![CDATA[y']]></fr:tex> of the fibre <fr:tex display="inline"><![CDATA[\operatorname {Spec}(k[t])]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y']]></fr:tex> over <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+      Then <fr:tex display="inline"><![CDATA[X]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> at <fr:tex display="inline"><![CDATA[y]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[X'=X\times _Y Y'=\operatorname {Spec}(B[t])]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y']]></fr:tex> at <fr:tex display="inline"><![CDATA[y']]></fr:tex>, as we immediately see.
+      On the other hand, by the choice of <fr:tex display="inline"><![CDATA[y']]></fr:tex>, its residue field is <fr:tex display="inline"><![CDATA[k(t)]]></fr:tex>, and thus infinite.
+      Since <fr:tex display="inline"><![CDATA[y']]></fr:tex> is a normal point of <fr:tex display="inline"><![CDATA[Y']]></fr:tex>, we are now in the previous case.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

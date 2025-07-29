@@ -1,138 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>780</fr:anchor><fr:addr
-type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We only have to prove necessity.
-      Suppose that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, and thus that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is separable over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
-      It then follows from the hypotheses that <fr:tex
-display="inline"><![CDATA[L/k]]></fr:tex> admits a generator <fr:tex
-display="inline"><![CDATA[\xi ]]></fr:tex>, and so the <fr:tex
-display="inline"><![CDATA[\xi ^i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) form a basis for <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[u\in  B]]></fr:tex> be a lift of <fr:tex
-display="inline"><![CDATA[\xi ]]></fr:tex>;
-      by Nakayama, the <fr:tex
-display="inline"><![CDATA[u^i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) generate (resp. form a basis of) the <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[B]]></fr:tex>, and, in particular, we obtain a monic polynomial <fr:tex
-display="inline"><![CDATA[F\in  A[t]]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[F(u)=0]]></fr:tex>;
-      then <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is isomorphic to a quotient of (resp. isomorphic to) <fr:tex
-display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>.
-      Finally, by applying <fr:ref
-addr="sga1-i.7.4"
-href="sga1-i.7.4.xml"
-taxon="Corollary"
-number="I.7.4" /> to <fr:tex
-display="inline"><![CDATA[L/k]]></fr:tex>, we see that <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
-display="inline"><![CDATA[A[t]]]></fr:tex> modulo <fr:tex
-display="inline"><![CDATA[\mathfrak {m}A[t]]]></fr:tex>, and so (by Nakayama in <fr:tex
-display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>) <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
-display="inline"><![CDATA[A[t]]]></fr:tex>, and we are done.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>781</fr:anchor><fr:addr
-type="user">sga1-i.7.5</fr:addr><fr:route>sga1-i.7.5.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.7.5</fr:number><fr:parent>sga1-i.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be an algebra which is <fr:em>finite</fr:em> over the <fr:em>local</fr:em> ring <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
-    Suppose that <fr:tex
-display="inline"><![CDATA[K(A)]]></fr:tex> is infinite, or that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is local.
-    Let <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be the rank of <fr:tex
-display="inline"><![CDATA[L=B\otimes _A K(A)]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[K(A)=k]]></fr:tex>.
-    For <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> to be unramified (resp. étale) over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, it is necessary and sufficient that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be isomorphic to a quotient of (resp. isomorphic to) <fr:tex
-display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a separable monic polynomial, which we can assume to be (resp. which is necessarily of) degree <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>781</fr:anchor>
+    <fr:addr type="machine">#250</fr:addr>
+    <fr:route>unstable-250.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>sga1-i.7.7</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>We can take <fr:tex display="inline"><![CDATA[\mathcal {O}'=B'_{\mathfrak {n}'}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[B'=A[t]/FA[t]]]></fr:tex> and where <fr:tex display="inline"><![CDATA[\mathfrak {n}']]></fr:tex> is the inverse image of <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> in <fr:tex display="inline"><![CDATA[B']]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>782</fr:anchor>
+            <fr:addr type="user">sga1-i.7.7</fr:addr>
+            <fr:route>sga1-i.7.7.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>I.7.7</fr:number>
+            <fr:parent>sga1-i.7</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>For <fr:tex display="inline"><![CDATA[\mathcal {O}]]></fr:tex> to be unramified over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\mathcal {O}]]></fr:tex> be isomorphic to the quotient of an algebra which is unramified and <fr:em>étale</fr:em> over <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:addr
-type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We only have to prove necessity.
-      Suppose that <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, and thus that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is separable over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
-      It then follows from the hypotheses that <fr:tex
-display="inline"><![CDATA[L/k]]></fr:tex> admits a generator <fr:tex
-display="inline"><![CDATA[\xi ]]></fr:tex>, and so the <fr:tex
-display="inline"><![CDATA[\xi ^i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) form a basis for <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[u\in  B]]></fr:tex> be a lift of <fr:tex
-display="inline"><![CDATA[\xi ]]></fr:tex>;
-      by Nakayama, the <fr:tex
-display="inline"><![CDATA[u^i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[0\leq  i<n]]></fr:tex>) generate (resp. form a basis of) the <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[B]]></fr:tex>, and, in particular, we obtain a monic polynomial <fr:tex
-display="inline"><![CDATA[F\in  A[t]]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[F(u)=0]]></fr:tex>;
-      then <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is isomorphic to a quotient of (resp. isomorphic to) <fr:tex
-display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>.
-      Finally, by applying <fr:ref
-addr="sga1-i.7.4"
-href="sga1-i.7.4.xml"
-taxon="Corollary"
-number="I.7.4" /> to <fr:tex
-display="inline"><![CDATA[L/k]]></fr:tex>, we see that <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
-display="inline"><![CDATA[A[t]]]></fr:tex> modulo <fr:tex
-display="inline"><![CDATA[\mathfrak {m}A[t]]]></fr:tex>, and so (by Nakayama in <fr:tex
-display="inline"><![CDATA[A[t]/FA[t]]]></fr:tex>) <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F']]></fr:tex> generate <fr:tex
-display="inline"><![CDATA[A[t]]]></fr:tex>, and we are done.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.7.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can take <fr:tex display="inline"><![CDATA[\mathcal {O}'=B'_{\mathfrak {n}'}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[B'=A[t]/FA[t]]]></fr:tex> and where <fr:tex display="inline"><![CDATA[\mathfrak {n}']]></fr:tex> is the inverse image of <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> in <fr:tex display="inline"><![CDATA[B']]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

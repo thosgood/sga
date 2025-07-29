@@ -1,52 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>792</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is also an open immersion.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>793</fr:anchor><fr:addr
-type="user">sga1-i.5.2</fr:addr><fr:route>sga1-i.5.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.5.2</fr:number><fr:parent>sga1-i.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a morphism that is both a <fr:em>closed immersion</fr:em> and <fr:em>étale</fr:em>.
-    If <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is connected, then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is an isomorphism from <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> to a connected component of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>793</fr:anchor>
+    <fr:addr type="machine">#256</fr:addr>
+    <fr:route>unstable-256.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>sga1-i.5.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Only the first claim demands a proof;
+      by <fr:ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2" />, it suffices to note that a section is a closed immersion (since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is separated over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>) and also étale, by <fr:ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8" />.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>794</fr:anchor>
+            <fr:addr type="user">sga1-i.5.3</fr:addr>
+            <fr:route>sga1-i.5.3.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>I.5.3</fr:number>
+            <fr:parent>sga1-i.5</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an unramified <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-scheme, with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> connected.
+    Then every section of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is an isomorphism from <fr:tex display="inline"><![CDATA[Y]]></fr:tex> to a connected component of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    There is thus a bijective correspondence between the set of such sections and the set of connected components <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that the projection <fr:tex display="inline"><![CDATA[X_i\to  Y]]></fr:tex> is an isomorphism (or, equivalently, by <fr:ref addr="sga1-i.5.1" href="sga1-i.5.1.xml" taxon="Theorem" number="I.5.1" />, surjective and radicial).
+    In particular, a section is determined by its value at a point.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>476</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is also an open immersion.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>445</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.5.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Only the first claim demands a proof;
+      by <fr:ref addr="sga1-i.5.2" href="sga1-i.5.2.xml" taxon="Corollary" number="I.5.2" />, it suffices to note that a section is a closed immersion (since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is separated over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>) and also étale, by <fr:ref addr="sga1-i.4.8" href="sga1-i.4.8.xml" taxon="Corollary" number="I.4.8" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

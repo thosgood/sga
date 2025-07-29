@@ -1,61 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>766</fr:anchor><fr:addr
-type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof is the same, just replacing <fr:ref
-addr="sga1-i.7.5"
-href="sga1-i.7.5.xml"
-taxon="Corollary"
-number="I.7.5" /> by <fr:ref
-addr="sga1-i.7.6"
-href="sga1-i.7.6.xml"
-taxon="Theorem"
-number="I.7.6" />.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr
-type="user">sga1-i.8.2</fr:addr><fr:route>sga1-i.8.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>I.8.2</fr:number><fr:parent>sga1-i.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The analogous claim holds for étale <fr:em>covers</fr:em>, if we suppose the residue field <fr:tex
-display="inline"><![CDATA[k(y)]]></fr:tex> to be infinite.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>767</fr:anchor>
+    <fr:addr type="machine">#243</fr:addr>
+    <fr:route>unstable-243.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>sga1-i.8.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    By <fr:ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5" />, it remains only to show that every étale <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> is isomorphic to an <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X\times _S S_0]]></fr:tex>, where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme.
+    The underlying topological space of <fr:tex display="inline"><![CDATA[X]]></fr:tex> must necessarily be identical to the one of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and with <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> being identified with a closed sub-prescheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    The problem is thus equivalent to the following:
+    find, on the underlying topological space <fr:tex display="inline"><![CDATA[|X_0|]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, a sheaf of algebras <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> over <fr:tex display="inline"><![CDATA[f_0^*(\mathcal {O}_S)]]></fr:tex> (where <fr:tex display="inline"><![CDATA[f_0]]></fr:tex> is the projection <fr:tex display="inline"><![CDATA[X_0\to  S_0]]></fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex display="inline"><![CDATA[|X_0|]]></fr:tex> an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>, as well as an algebra homomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_X\to \mathcal {O}_{X_0}]]></fr:tex> that is compatible with the homomorphism <fr:tex display="inline"><![CDATA[f_0^*(\mathcal {O}_S)\to  f_0^*(\mathcal {O}_{S_0})]]></fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_X\otimes _{f_0^*(\mathcal {O}_S)*}f_0^*(\mathcal {O}_{S_0})\xrightarrow {\sim }\mathcal {O}_{X_0}]]></fr:tex>.
+    (Then <fr:tex display="inline"><![CDATA[X]]></fr:tex> will be an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme that is reduced along <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and thus separated over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, since <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> is separated over <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies all the desired properties).
+
+    If <fr:tex display="inline"><![CDATA[(U_i)]]></fr:tex> is an open cover of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and if we find a solution to the problem on each of the <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>, then it follows from the uniqueness theorem <fr:ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5" /> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> endowed with an isomorphism <fr:tex display="inline"><![CDATA[X\times _S S_0\xleftarrow {\sim }X_0]]></fr:tex>.
+    It thus suffices to find a solution locally, which we know is possible by <fr:ref addr="sga1-i.8.1" href="sga1-i.8.1.xml" taxon="Proposition" number="I.8.1" />.
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>768</fr:anchor>
+            <fr:addr type="user">sga1-i.8.3</fr:addr>
+            <fr:route>sga1-i.8.3.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors />
+            <fr:number>I.8.3</fr:number>
+            <fr:parent>sga1-i.8</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The functor described in <fr:ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5" /> is an <fr:em>equivalence</fr:em> of <fr:em>categories</fr:em>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>562</fr:anchor><fr:addr
-type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof is the same, just replacing <fr:ref
-addr="sga1-i.7.5"
-href="sga1-i.7.5.xml"
-taxon="Corollary"
-number="I.7.5" /> by <fr:ref
-addr="sga1-i.7.6"
-href="sga1-i.7.6.xml"
-taxon="Theorem"
-number="I.7.6" />.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>513</fr:anchor><fr:addr type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.8.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    By <fr:ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5" />, it remains only to show that every étale <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> is isomorphic to an <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[X\times _S S_0]]></fr:tex>, where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme.
+    The underlying topological space of <fr:tex display="inline"><![CDATA[X]]></fr:tex> must necessarily be identical to the one of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and with <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> being identified with a closed sub-prescheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    The problem is thus equivalent to the following:
+    find, on the underlying topological space <fr:tex display="inline"><![CDATA[|X_0|]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, a sheaf of algebras <fr:tex display="inline"><![CDATA[\mathcal {O}_X]]></fr:tex> over <fr:tex display="inline"><![CDATA[f_0^*(\mathcal {O}_S)]]></fr:tex> (where <fr:tex display="inline"><![CDATA[f_0]]></fr:tex> is the projection <fr:tex display="inline"><![CDATA[X_0\to  S_0]]></fr:tex>, thought of here as a continuous map of the underlying spaces) that makes <fr:tex display="inline"><![CDATA[|X_0|]]></fr:tex> an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>, as well as an algebra homomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_X\to \mathcal {O}_{X_0}]]></fr:tex> that is compatible with the homomorphism <fr:tex display="inline"><![CDATA[f_0^*(\mathcal {O}_S)\to  f_0^*(\mathcal {O}_{S_0})]]></fr:tex> on the sheaves of scalars, and that induces an isomorphism <fr:tex display="inline"><![CDATA[\mathcal {O}_X\otimes _{f_0^*(\mathcal {O}_S)*}f_0^*(\mathcal {O}_{S_0})\xrightarrow {\sim }\mathcal {O}_{X_0}]]></fr:tex>.
+    (Then <fr:tex display="inline"><![CDATA[X]]></fr:tex> will be an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme that is reduced along <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and thus separated over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, since <fr:tex display="inline"><![CDATA[X_0]]></fr:tex> is separated over <fr:tex display="inline"><![CDATA[S_0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies all the desired properties).
+
+    If <fr:tex display="inline"><![CDATA[(U_i)]]></fr:tex> is an open cover of <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, and if we find a solution to the problem on each of the <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>, then it follows from the uniqueness theorem <fr:ref addr="sga1-i.5.5" href="sga1-i.5.5.xml" taxon="Theorem" number="I.5.5" /> that these solutions glue (i.e. the sheaves of algebras that they define, endowed with their augmentation homomorphisms, glue), and we claim that the ringed space thus constructed over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is an étale <fr:tex display="inline"><![CDATA[S]]></fr:tex>-prescheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> endowed with an isomorphism <fr:tex display="inline"><![CDATA[X\times _S S_0\xleftarrow {\sim }X_0]]></fr:tex>.
+    It thus suffices to find a solution locally, which we know is possible by <fr:ref addr="sga1-i.8.1" href="sga1-i.8.1.xml" taxon="Proposition" number="I.8.1" />.
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

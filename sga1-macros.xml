@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>710</fr:anchor><fr:addr
-type="user">sga1-macros</fr:addr><fr:route>sga1-macros.xml</fr:route><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>709</fr:anchor>
+    <fr:addr type="user">sga1-macros</fr:addr>
+    <fr:route>sga1-macros.xml</fr:route>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter />
+</fr:tree>

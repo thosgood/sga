@@ -1,128 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>964</fr:anchor><fr:addr
-type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Séminaire de Géométrie Algébrique du Bois-Marie">Séminaire de Géométrie Algébrique du Bois-Marie</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
-type="external"
-href="https://github.com/thosgood/sga">GitHub repository</fr:link>.</fr:p><fr:p><fr:strong><fr:em>TO-DO: describe this translation</fr:em></fr:strong></fr:p><fr:p>Many thanks to <fr:link
-type="external"
-href="https://www.jonmsterling.com/index.xml">Jon Sterling</fr:link> for helping with the technical support in getting this translation ported to run on <fr:link
-type="external"
-href="https://www.jonmsterling.com/jms-005P.xml">Forester</fr:link>.</fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong></fr:link>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>963</fr:anchor>
+    <fr:addr type="user">index</fr:addr>
+    <fr:route>index.xml</fr:route>
+    <fr:title text="Séminaire de Géométrie Algébrique du Bois-Marie">Séminaire de Géométrie Algébrique du Bois-Marie</fr:title>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link type="external" href="https://github.com/thosgood/sga">GitHub repository</fr:link>.</fr:p>
+    <fr:p>
+      <fr:strong>
+        <fr:em>TO-DO: describe this translation</fr:em>
+      </fr:strong>
+    </fr:p>
+    <fr:p>Many thanks to <fr:link type="external" href="https://www.jonmsterling.com/index.xml">Jon Sterling</fr:link> for helping with the technical support in getting this translation ported to run on <fr:link type="external" href="https://www.jonmsterling.com/jms-005P.xml">Forester</fr:link>.</fr:p>
+    <fr:ul><fr:li><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group"><fr:strong>SGA 1: Étale covers and the fundamental group</fr:strong></fr:link>
 
     <fr:p>Directed by A. Grothendieck.
       Augmented with two exposés by Mme M. Raynaud.
       1960–61.
-      <fr:link
-type="external"
-href="https://arxiv.org/abs/math/0206203v2">arXiv:math/0206203v2</fr:link></fr:p>
+      <fr:link type="external" href="https://arxiv.org/abs/math/0206203v2">arXiv:math/0206203v2</fr:link></fr:p>
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga1-introduction.xml"
-addr="sga1-introduction"
-title="SGA 1: Étale covers and the fundamental group › Introduction">Introduction</fr:link> ✓
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga1-introduction.xml" addr="sga1-introduction" title="SGA 1: Étale covers and the fundamental group › Introduction">Introduction</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga1-foreword.xml"
-addr="sga1-foreword"
-title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</fr:link> ✓
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga1-foreword.xml" addr="sga1-foreword" title="SGA 1: Étale covers and the fundamental group › Foreword">Foreword</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;I. &quot;">
-        <fr:link
-type="local"
-href="sga1-i.xml"
-addr="sga1-i"
-title="SGA 1: Étale covers and the fundamental group › Étale morphisms">Étale morphisms</fr:link> ✓
+ <html:li style="list-style-type: &quot;I. &quot;">
+        <fr:link type="local" href="sga1-i.xml" addr="sga1-i" title="SGA 1: Étale covers and the fundamental group › Étale morphisms">Étale morphisms</fr:link> ✓
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;II. &quot;">
-        <fr:link
-type="local"
-href="sga1-ii.xml"
-addr="sga1-ii"
-title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;II. &quot;">
+        <fr:link type="local" href="sga1-ii.xml" addr="sga1-ii" title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties">Smooth morphisms: generalities, differential properties</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
     </html:ol></fr:li>
-  <fr:li><fr:link
-type="local"
-href="sga6.xml"
-addr="sga6"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:strong></fr:link>
+  <fr:li><fr:link type="local" href="sga6.xml" addr="sga6" title="SGA 6: Intersection theory and the Riemann–Roch theorem"><fr:strong>SGA 6: Intersection theory and the Riemann–Roch theorem</fr:strong></fr:link>
 
     <fr:p>Directed by P. Berthelot, A. Grothendieck, and L. Illusie.
       With the collaboration of D. Ferrand, J.P. Jouanolou, O. Jussila, S. Kleiman, M. Raynaud, and J.P. Serre.
       1966–67.</fr:p>
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot; &quot;">
-        <fr:link
-type="local"
-href="sga6-introduction.xml"
-addr="sga6-introduction"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="sga6-introduction.xml" addr="sga6-introduction" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Introduction">Introduction</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;0. &quot;">
-        <fr:link
-type="local"
-href="sga6-0.xml"
-addr="sga6-0"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;0. &quot;">
+        <fr:link type="local" href="sga6-0.xml" addr="sga6-0" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Outline of a programme for a theory of intersections">Outline of a programme for an intersection theory</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;0RRR. &quot;">
-        <fr:link
-type="local"
-href="sga6-0rrr.xml"
-addr="sga6-0rrr"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;0RRR. &quot;">
+        <fr:link type="local" href="sga6-0rrr.xml" addr="sga6-0rrr" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Classes of sheaves and the Riemann–Roch theorem">Classes of sheaves and the Riemann–Roch theorem</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;I. &quot;">
-        <fr:link
-type="local"
-href="sga6-i.xml"
-addr="sga6-i"
-title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
+ <html:li style="list-style-type: &quot;I. &quot;">
+        <fr:link type="local" href="sga6-i.xml" addr="sga6-i" title="SGA 6: Intersection theory and the Riemann–Roch theorem › Generalities on finiteness conditions in derived categories">Generalities on finiteness conditions in derived categories</fr:link> <fr:em>(in progress)</fr:em>
       </html:li>
 
-    </html:ol></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree>
+    </html:ol></fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

@@ -1,66 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>814</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>815</fr:anchor><fr:addr
-type="user">sga1-i.4.6</fr:addr><fr:route>sga1-i.4.6.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>I.4.6</fr:number><fr:parent>sga1-i.4</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-    
- <html:li
-style="list-style-type: &quot;i. &quot;">
-      An open immersion is étale.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;ii. &quot;">
-      The composition of two étale morphisms is étale.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;iii. &quot;">
-      The base extension of an étale morphism is étale.
-    </html:li>
-
-  </html:ol>
-
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>815</fr:anchor>
+    <fr:addr type="machine">#267</fr:addr>
+    <fr:route>unstable-267.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>sga1-i.4.8</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Indeed, <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>816</fr:anchor>
+            <fr:addr type="user">sga1-i.4.8</fr:addr>
+            <fr:route>sga1-i.4.8.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>I.4.8</fr:number>
+            <fr:parent>sga1-i.4</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[X']]></fr:tex> be of finite type over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g\colon  X\to  X']]></fr:tex> a <fr:tex display="inline"><![CDATA[Y]]></fr:tex>-morphism.
+    If <fr:tex display="inline"><![CDATA[X']]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is étale over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[g]]></fr:tex> is étale.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Indeed, (i) is trivial, and for (ii) and (iii) it suffices to note that it is true for "unramified" and "flat".</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>sga1-i.4.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Indeed, <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the composition of the graph morphism <fr:tex display="inline"><![CDATA[\Gamma _g\colon  X\to  X\times _Y X']]></fr:tex> (which is an open immersion by <fr:ref addr="sga1-i.3.4" href="sga1-i.3.4.xml" taxon="Corollary" number="I.3.4" />) and the projection morphism, which is étale since it is just a "change of base" by <fr:tex display="inline"><![CDATA[X'\to  Y]]></fr:tex> of the étale morphism <fr:tex display="inline"><![CDATA[X\to  Y]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

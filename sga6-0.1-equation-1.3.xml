@@ -1,163 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
-type="user">sga6-0.1</fr:addr><fr:route>sga6-0.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>1</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
-  <fr:tex
-display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
-  of smooth quasi-projective schemes over a field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>:
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>733</fr:anchor>
+    <fr:addr type="user">sga6-0.1-equation-1.3</fr:addr>
+    <fr:route>sga6-0.1-equation-1.3.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>1.3</fr:number>
+    <fr:parent>sga6-0.1</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>734</fr:anchor>
+            <fr:addr type="user">sga6-0.1</fr:addr>
+            <fr:route>sga6-0.1.xml</fr:route>
+            <fr:taxon>Section</fr:taxon>
+            <fr:authors />
+            <fr:number>1</fr:number>
+            <fr:parent>sga6-0</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Recall the Riemann–Roch formula for a proper morphism
+  <fr:tex display="block"><![CDATA[f\colon  X\to  Y]]></fr:tex>
+  of smooth quasi-projective schemes over a field <fr:tex display="inline"><![CDATA[k]]></fr:tex> and a coherent sheaf <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>:
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.1</fr:addr><fr:route>sga6-0.1-equation-1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {Todd}(T_Y)\operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_X)\operatorname {ch}_X(\mathcal {F}))     \tag{1.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  where <fr:tex
-display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex
-display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> (resp.).
-  This formula holds in <fr:tex
-display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>;
-  the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
-  and the <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex
-display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>:
-  <fr:tex
-display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
-  As we know, <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
-  Since the constant term of <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref
-addr="sga6-0.1-equation-1.1"
-href="sga6-0.1-equation-1.1.xml"
-taxon="Equation"
-number="1.1" /> can be rewritten, after multiplication by <fr:tex
-display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
+  where <fr:tex display="inline"><![CDATA[\operatorname {cl}(\mathcal {F})]]></fr:tex> denotes the class of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> in the group <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> of classes of coherent sheaves on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {ch}_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}_Y]]></fr:tex> denote the Chern characters of on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.), and <fr:tex display="inline"><![CDATA[T_X]]></fr:tex> and <fr:tex display="inline"><![CDATA[T_Y]]></fr:tex> the tangent bundles to <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> (resp.).
+  This formula holds in <fr:tex display="inline"><![CDATA[A(Y)\otimes _\mathbb {Z}\mathbb {Q}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> is the Chow ring of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>;
+  the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the right-hand side is induced by tensoring with <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> the "direct image of cycles" homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X) \to  A(Y)   ]]></fr:tex>
+  and the <fr:tex display="inline"><![CDATA[f_*]]></fr:tex> on the left-hand side is the Euler–Poincaré characteristic of <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[f]]></fr:tex>:
+  <fr:tex display="block"><![CDATA[     f_*(\operatorname {cl}(\mathcal {F}))     = \sum _i (-1)^i \operatorname {cl}(\operatorname {R}^i f_*(\mathcal {F})).   ]]></fr:tex>
+  As we know, <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {ch}(-)]]></fr:tex> are universal polynomials in the Chern classes of the argument with coefficients in <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
+  Since the constant term of <fr:tex display="inline"><![CDATA[\operatorname {Todd}(-)]]></fr:tex> is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, it is an invertible element for any value of the argument, so that <fr:ref addr="sga6-0.1-equation-1.1" href="sga6-0.1-equation-1.1.xml" taxon="Equation" number="1.1" /> can be rewritten, after multiplication by <fr:tex display="inline"><![CDATA[\operatorname {Todd}(T_Y)^{-1}]]></fr:tex>, in the form which is more useful for our needs:
   
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.2</fr:addr><fr:route>sga6-0.1-equation-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {ch}_Y(f_*(\operatorname {cl}(\mathcal {F})))       = f_*(\operatorname {Todd}(T_f)\operatorname {ch}_X(\mathcal {F}))     \tag{1.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
   where we set
 
-  <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
-type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr type="user">sga6-0.1-equation-1.3</fr:addr><fr:route>sga6-0.1-equation-1.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3</fr:number><fr:parent>sga6-0.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       T_f       = T_X - f^*(T_Y) \in  K(X)     \tag{1.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  so that <fr:tex
-display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-  In the case where the morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
-  <fr:tex
-display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
-  (the tangent bundle along the fibres) and so, in the case where <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
-  <fr:tex
-display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> simultaneously in two directions:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+  so that <fr:tex display="inline"><![CDATA[T_f]]></fr:tex> plays the role of a <fr:em>virtual relative tangent bundle</fr:em> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  In the case where the morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> is smooth (i.e. with everywhere-surjective tangent map), we have simply
+  <fr:tex display="block"><![CDATA[     T_f     = T_{X/Y}   ]]></fr:tex>
+  (the tangent bundle along the fibres) and so, in the case where <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> is an immersion, we find
+  <fr:tex display="block"><![CDATA[     T_f     = -\check {N}_{X/Y}   ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\check {N}_{X/Y}]]></fr:tex> denotes the normal sheaf of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>One of the main goals of this Seminar is to generalise <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> simultaneously in two directions:</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;a. &quot;">
-    Remove the hypothesis of the existence of a base field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>.
+ <html:li style="list-style-type: &quot;a. &quot;">
+    Remove the hypothesis of the existence of a base field <fr:tex display="inline"><![CDATA[k]]></fr:tex>.
   </html:li>
 
   
- <html:li
-style="list-style-type: &quot;b. &quot;">
-    Replace the regularity hypotheses on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>.
+ <html:li style="list-style-type: &quot;b. &quot;">
+    Replace the regularity hypotheses on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> by a "local regularity" hypothesis on <fr:tex display="inline"><![CDATA[f]]></fr:tex>.
   </html:li>
 
 </html:ol>
 <fr:p>Finally, along the way, we will equally deal with the problem:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
   
- <html:li
-style="list-style-type: &quot;c. &quot;">
-    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
+ <html:li style="list-style-type: &quot;c. &quot;">
+    Remove the quasi-projectivity hypotheses which, in the absence of a base field, are expressed by the existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
   </html:li>
 
 </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

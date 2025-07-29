@@ -1,86 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>962</fr:anchor><fr:addr
-type="user">sga1-ii.2</fr:addr><fr:route>sga1-ii.2.xml</fr:route><fr:title
-text="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties › Some smoothness criteria of a morphism"><fr:link
-type="local"
-href="sga1-ii.xml"
-addr="sga1-ii"
-title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties"><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Smooth morphisms: generalities, differential properties</fr:link> › Some smoothness criteria of a morphism</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.2</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>963</fr:anchor><fr:addr
-type="user">sga1-ii</fr:addr><fr:route>sga1-ii.xml</fr:route><fr:title
-text="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties"><fr:link
-type="local"
-href="sga1.xml"
-addr="sga1"
-title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Smooth morphisms: generalities, differential properties</fr:title><fr:taxon>Exposé</fr:taxon><fr:authors /><fr:number>II</fr:number><fr:parent>sga1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:addr
-type="user">sga1-ii.1</fr:addr><fr:route>sga1-ii.1.xml</fr:route><fr:title
-text="Generalities">Generalities</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.1</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>845</fr:anchor><fr:addr
-type="user">sga1-ii.2</fr:addr><fr:route>sga1-ii.2.xml</fr:route><fr:title
-text="Some smoothness criteria of a morphism">Some smoothness criteria of a morphism</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.2</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:addr
-type="user">sga1-ii.3</fr:addr><fr:route>sga1-ii.3.xml</fr:route><fr:title
-text="Permanence properties">Permanence properties</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.3</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>847</fr:anchor><fr:addr
-type="user">sga1-ii.4</fr:addr><fr:route>sga1-ii.4.xml</fr:route><fr:title
-text="Differential properties of smooth morphisms">Differential properties of smooth morphisms</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.4</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>848</fr:anchor><fr:addr
-type="user">sga1-ii.5</fr:addr><fr:route>sga1-ii.5.xml</fr:route><fr:title
-text="Case of a base field">Case of a base field</fr:title><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>II.5</fr:number><fr:parent>sga1-ii</fr:parent></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>961</fr:anchor>
+    <fr:addr type="user">sga1-ii.2</fr:addr>
+    <fr:route>sga1-ii.2.xml</fr:route>
+    <fr:title text="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties › Some smoothness criteria of a morphism"><fr:link type="local" href="sga1-ii.xml" addr="sga1-ii" title="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties"><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Smooth morphisms: generalities, differential properties</fr:link> › Some smoothness criteria of a morphism</fr:title>
+    <fr:taxon>Section</fr:taxon>
+    <fr:authors />
+    <fr:number>II.2</fr:number>
+    <fr:parent>sga1-ii</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>962</fr:anchor>
+            <fr:addr type="user">sga1-ii</fr:addr>
+            <fr:route>sga1-ii.xml</fr:route>
+            <fr:title text="SGA 1: Étale covers and the fundamental group › Smooth morphisms: generalities, differential properties"><fr:link type="local" href="sga1.xml" addr="sga1" title="SGA 1: Étale covers and the fundamental group">SGA 1: Étale covers and the fundamental group</fr:link> › Smooth morphisms: generalities, differential properties</fr:title>
+            <fr:taxon>Exposé</fr:taxon>
+            <fr:authors />
+            <fr:number>II</fr:number>
+            <fr:parent>sga1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>843</fr:anchor>
+                <fr:addr type="user">sga1-ii.1</fr:addr>
+                <fr:route>sga1-ii.1.xml</fr:route>
+                <fr:title text="Generalities">Generalities</fr:title>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>II.1</fr:number>
+                <fr:parent>sga1-ii</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter />
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>844</fr:anchor>
+                <fr:addr type="user">sga1-ii.2</fr:addr>
+                <fr:route>sga1-ii.2.xml</fr:route>
+                <fr:title text="Some smoothness criteria of a morphism">Some smoothness criteria of a morphism</fr:title>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>II.2</fr:number>
+                <fr:parent>sga1-ii</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter />
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>845</fr:anchor>
+                <fr:addr type="user">sga1-ii.3</fr:addr>
+                <fr:route>sga1-ii.3.xml</fr:route>
+                <fr:title text="Permanence properties">Permanence properties</fr:title>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>II.3</fr:number>
+                <fr:parent>sga1-ii</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter />
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>846</fr:anchor>
+                <fr:addr type="user">sga1-ii.4</fr:addr>
+                <fr:route>sga1-ii.4.xml</fr:route>
+                <fr:title text="Differential properties of smooth morphisms">Differential properties of smooth morphisms</fr:title>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>II.4</fr:number>
+                <fr:parent>sga1-ii</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter />
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>847</fr:anchor>
+                <fr:addr type="user">sga1-ii.5</fr:addr>
+                <fr:route>sga1-ii.5.xml</fr:route>
+                <fr:title text="Case of a base field">Case of a base field</fr:title>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>II.5</fr:number>
+                <fr:parent>sga1-ii</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter />
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

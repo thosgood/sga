@@ -1,61 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr
-type="user">sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr
-type="user">sga6-0.2</fr:addr><fr:route>sga6-0.2.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2</fr:number><fr:parent>sga6-0</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now examine generalisation (a) from <fr:link
-type="local"
-href="sga6-0.1.xml"
-addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>The definition of <fr:tex
-display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex
-display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> are regular.
-  The most natural route to giving meaning to <fr:ref
-addr="sga6-0.1-equation-1.2"
-href="sga6-0.1-equation-1.2.xml"
-taxon="Equation"
-number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex
-display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
-  <fr:tex
-display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>739</fr:anchor>
+    <fr:addr type="user">sga6-0.2.1</fr:addr>
+    <fr:route>sga6-0.2.1.xml</fr:route>
+    <fr:taxon>Section</fr:taxon>
+    <fr:authors />
+    <fr:number>2.1</fr:number>
+    <fr:parent>sga6-0.2</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>For</fr:p>
+    <fr:p>
+      <fr:strong>
+        <fr:em>TO-DO: finish</fr:em>
+      </fr:strong>
+    </fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>740</fr:anchor>
+            <fr:addr type="user">sga6-0.2</fr:addr>
+            <fr:route>sga6-0.2.xml</fr:route>
+            <fr:taxon>Section</fr:taxon>
+            <fr:authors />
+            <fr:number>2</fr:number>
+            <fr:parent>sga6-0</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We now examine generalisation (a) from <fr:link type="local" href="sga6-0.1.xml" addr="sga6-0.1">Untitled</fr:link>, keeping, however, the hypotheses of regularity and of existence of ample invertible modules on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+            <fr:p>The definition of <fr:tex display="inline"><![CDATA[K(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[K(Y)]]></fr:tex>, and of the homomorphism <fr:tex display="inline"><![CDATA[f_*\colon  K(X)\to  K(Y)]]></fr:tex> then gives no new problems, thanks to the fact that <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are regular.
+  The most natural route to giving meaning to <fr:ref addr="sga6-0.1-equation-1.2" href="sga6-0.1-equation-1.2.xml" taxon="Equation" number="1.2" /> thus seems to consist of defining the <fr:em>Chow rings</fr:em> <fr:tex display="inline"><![CDATA[A(X)]]></fr:tex> and <fr:tex display="inline"><![CDATA[A(Y)]]></fr:tex> and a group homomorphism
+  <fr:tex display="block"><![CDATA[     f_*\colon  A(X)\to  A(Y)   ]]></fr:tex>
   as well as establishing a theory of Chern classes, providing maps
-  <fr:tex
-display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
-  (and similarly for <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
-  <fr:tex
-display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:addr
-type="user">sga6-0.2.1</fr:addr><fr:route>sga6-0.2.1.xml</fr:route><fr:taxon>Section</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>sga6-0.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For</fr:p><fr:p><fr:strong><fr:em>TO-DO: finish</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+  <fr:tex display="block"><![CDATA[     c_i\colon  K(X) \to  A(X)   ]]></fr:tex>
+  (and similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>), and finally giving a description of an virtual relative tangent bundle element
+  <fr:tex display="block"><![CDATA[     T_f\in  K(X).   ]]></fr:tex></fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>722</fr:anchor>
+                <fr:addr type="user">sga6-0.2.1</fr:addr>
+                <fr:route>sga6-0.2.1.xml</fr:route>
+                <fr:taxon>Section</fr:taxon>
+                <fr:authors />
+                <fr:number>2.1</fr:number>
+                <fr:parent>sga6-0.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For</fr:p>
+                <fr:p>
+                  <fr:strong>
+                    <fr:em>TO-DO: finish</fr:em>
+                  </fr:strong>
+                </fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
