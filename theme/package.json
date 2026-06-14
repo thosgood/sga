@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.28.1",
     "katex": "^0.16.21",
     "ninja-keys": "^1.2.2"
   }
